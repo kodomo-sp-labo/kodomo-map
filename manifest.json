@@ -1,0 +1,24 @@
+{
+  "name": "こども支援資源マップ（子どもウェルビーイングlabo）",
+  "short_name": "こども資源マップ",
+  "description": "岡山県内の不登校支援・居場所・相談・親支援・療育資源を地図で探せます（今後、対象地域を拡大予定）",
+  "lang": "ja",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#F6F7F6",
+  "theme_color": "#31547E",
+  "icons": [
+    {
+      "src": "icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}
