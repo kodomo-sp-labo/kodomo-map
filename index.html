@@ -254,6 +254,7 @@ const REGIONS = {
     base: 'data/33_okayama/',  // 【注意】data/33_okayama/ フォルダが実在することを確認してから
                                 //         このファイルをpushすること。rename_data_folders.pyで
                                 //         data/okayama/ をリネームする作業とセットで反映する。
+    center: [34.661739, 133.935028],  // GSI住所検索APIで「岡山県」を検索した代表点（2026-07-25確認）
     available: { manabi:true, ibasho:true, sodan:true, oyakazoku:true, hattatsu:true, districts:true }
   },
   // 【中四国8県・今回追加】①学び（学びの多様化学校のみ）・③相談・⑤発達を登録
@@ -262,44 +263,54 @@ const REGIONS = {
   // 【注意】manabi.jsonはOkayamaの①学びタブ（フリースクール等も含む独自収集データ）とは
   // 別物で、文科省「学びの多様化学校の設置者一覧」に載っている学校のみを収録している
   // （鳥取・広島・徳島・愛媛は現時点で0件＝該当校なし。データ未整備ではなく確認済みの0件）。
+  // centerはGSI住所検索APIで各県名そのものを検索した代表点（2026-07-25確認）。
+  // 0件時の地図フォールバック表示に使う（岡山県固定にしないため）。
   tottori: {
     label: '鳥取県',
     base: 'data/31_tottori/',
+    center: [35.503448, 134.238266],
     available: { manabi:true, sodan:true, hattatsu:true }
   },
   shimane: {
     label: '島根県',
     base: 'data/32_shimane/',
+    center: [35.472294, 133.050522],
     available: { manabi:true, sodan:true, hattatsu:true }
   },
   hiroshima: {
     label: '広島県',
     base: 'data/34_hiroshima/',
+    center: [34.396557, 132.459641],
     available: { manabi:true, sodan:true, hattatsu:true }
   },
   yamaguchi: {
     label: '山口県',
     base: 'data/35_yamaguchi/',
+    center: [34.186043, 131.470657],
     available: { manabi:true, sodan:true, hattatsu:true }
   },
   tokushima: {
     label: '徳島県',
     base: 'data/36_tokushima/',
+    center: [34.065762, 134.55928],
     available: { manabi:true, sodan:true, hattatsu:true }
   },
   kagawa: {
     label: '香川県',
     base: 'data/37_kagawa/',
+    center: [34.340111, 134.043289],
     available: { manabi:true, sodan:true, hattatsu:true }
   },
   ehime: {
     label: '愛媛県',
     base: 'data/38_ehime/',
+    center: [33.84164, 132.765686],
     available: { manabi:true, sodan:true, hattatsu:true }
   },
   kochi: {
     label: '高知県',
     base: 'data/39_kochi/',
+    center: [33.559723, 133.531113],
     available: { manabi:true, sodan:true, hattatsu:true }
   }
   // 例）以降、他県を追加する場合はこのパターンを踏襲する。
@@ -433,6 +444,11 @@ document.querySelectorAll('.toggle-districts').forEach(function(cb){
 
 let currentRyoikuData = [];
 const lastBounds = {}; // 各タブの正しい表示範囲を記録し、タブを開いた瞬間に再適用する（非表示中のfitBounds崩れ対策）
+// 都道府県を切り替えて新データを読み込んだ時だけtrueにする。activateTab()はこれがtrueの
+// 時だけfitBoundsを再適用して消費（false）し、それ以外はユーザーの手動パン・ズームを
+// タブの行き来で巻き戻さない（=表示範囲は都道府県選択時に1回だけ決定する）。
+const boundsDirty = {};
+let currentRegionCenter = [34.661739, 133.935028];  // loadRegion()でregion.centerに差し替える
 let currentManabiData = [];
 let currentIbashoJidoukan = [];
 let currentIbashoPlaces = [];
@@ -460,8 +476,8 @@ function renderManabi(source){
     m.on('mouseout',  function(){ m.setStyle({radius:9,  weight:2}); });
     f._marker = m; markers.push(m);
   });
-  if(markers.length){ const b = L.featureGroup(markers).getBounds().pad(0.15); lastBounds.manabi = b; mapManabi.fitBounds(b); }
-  else mapManabi.setView([34.85,133.95],9);
+  if(markers.length){ const b = L.featureGroup(markers).getBounds().pad(0.15); lastBounds.manabi = b; boundsDirty.manabi = true; mapManabi.fitBounds(b); }
+  else { const b = L.latLng(currentRegionCenter).toBounds(80000); lastBounds.manabi = b; boundsDirty.manabi = true; mapManabi.fitBounds(b); }
 
   const groups = {};
   currentManabiData.forEach(function(f){ (groups[f.area]=groups[f.area]||[]).push(f); });
@@ -503,8 +519,8 @@ function renderIbasho(jidoukan, ibasho){
   });
   ibashoCluster.addLayers(markers);
   if(!mapIbasho.hasLayer(ibashoCluster)) mapIbasho.addLayer(ibashoCluster);
-  if(markers.length){ const b = L.featureGroup(markers).getBounds().pad(0.1); lastBounds.ibasho = b; mapIbasho.fitBounds(b); }
-  else mapIbasho.setView([34.85,133.95],9);
+  if(markers.length){ const b = L.featureGroup(markers).getBounds().pad(0.1); lastBounds.ibasho = b; boundsDirty.ibasho = true; mapIbasho.fitBounds(b); }
+  else { const b = L.latLng(currentRegionCenter).toBounds(80000); lastBounds.ibasho = b; boundsDirty.ibasho = true; mapIbasho.fitBounds(b); }
   renderIbashoList('');
 }
 function renderIbashoList(query){
@@ -544,8 +560,8 @@ function renderSodan(sodanData){
     m.bindPopup('<div class="popup-name">'+area.area+'</div><div class="popup-body">'+winList+'</div>');
     markers.push(m);
   });
-  if(markers.length){ const b = L.featureGroup(markers).getBounds().pad(0.1); lastBounds.sodan = b; mapSodan.fitBounds(b); }
-  else mapSodan.setView([34.85,133.95],9);
+  if(markers.length){ const b = L.featureGroup(markers).getBounds().pad(0.1); lastBounds.sodan = b; boundsDirty.sodan = true; mapSodan.fitBounds(b); }
+  else { const b = L.latLng(currentRegionCenter).toBounds(80000); lastBounds.sodan = b; boundsDirty.sodan = true; mapSodan.fitBounds(b); }
   renderSodanList('');
 }
 function renderSodanList(query){
@@ -594,8 +610,8 @@ function renderOyakazoku(kyoten, jidoukan, oyanokai){
   });
   oyaCluster.addLayers(markers);
   if(!mapOya.hasLayer(oyaCluster)) mapOya.addLayer(oyaCluster);
-  if(markers.length){ const b = L.featureGroup(markers).getBounds().pad(0.1); lastBounds.oyakazoku = b; mapOya.fitBounds(b); }
-  else mapOya.setView([34.85,133.95],9);
+  if(markers.length){ const b = L.featureGroup(markers).getBounds().pad(0.1); lastBounds.oyakazoku = b; boundsDirty.oyakazoku = true; mapOya.fitBounds(b); }
+  else { const b = L.latLng(currentRegionCenter).toBounds(80000); lastBounds.oyakazoku = b; boundsDirty.oyakazoku = true; mapOya.fitBounds(b); }
   renderOyaList('');
 }
 function renderOyaList(query){
@@ -672,7 +688,18 @@ function renderHattatsu(data){
   currentRyoikuData = data;
   renderRyoikuMap(activeCategories());
   renderRyoikuList('', null);
-  mapHattatsu.setView([34.85, 133.95], 9);
+  // 【修正】以前は岡山県の座標に無条件でsetViewしており、岡山県以外では常に誤った場所
+  // （例:高知県選択時に徳島県付近）が表示されていた。他の4タブと同様、実データの
+  // 座標からboundsを計算する。カテゴリ絞り込みの状態に関わらず全件を対象にすることで、
+  // チェックボックスの切り替えでは表示範囲が変わらないようにする。
+  const withCoords = data.filter(function(r){ return r.lat!=null && r.lng!=null; });
+  if(withCoords.length){
+    const b = L.latLngBounds(withCoords.map(function(r){ return [r.lat, r.lng]; })).pad(0.1);
+    lastBounds.hattatsu = b; boundsDirty.hattatsu = true; mapHattatsu.fitBounds(b);
+  } else {
+    const b = L.latLng(currentRegionCenter).toBounds(80000);
+    lastBounds.hattatsu = b; boundsDirty.hattatsu = true; mapHattatsu.fitBounds(b);
+  }
 }
 document.getElementById('ryoiku-search').addEventListener('input', function(e){ renderRyoikuList(e.target.value, null); });
 document.querySelectorAll('.ryoiku-filter').forEach(function(el){
@@ -687,6 +714,9 @@ function loadRegion(key){
   const region = REGIONS[key];
   if(!region) return;
   const avail = region.available;
+  // 0件時のフォールバック表示に使う中心座標。選択中の都道府県のものに差し替える
+  // （岡山県固定だと他県で常に岡山が表示されてしまうため）。
+  currentRegionCenter = region.center || currentRegionCenter;
 
   Object.keys(ALL_MAPS).forEach(function(k){ ALL_MAPS[k].removeLayer(ibashoCluster); ALL_MAPS[k].removeLayer(oyaCluster); ALL_MAPS[k].removeLayer(ryoikuCluster); });
 
@@ -831,10 +861,15 @@ function activateTab(name){
   document.getElementById('panel-'+name).classList.add('active');
   setTimeout(function(){
     Object.keys(ALL_MAPS).forEach(function(k){ ALL_MAPS[k].invalidateSize(); });
-    // 非表示の間にfitBounds/setViewした地図はコンテナサイズが0だったため範囲がおかしくなっている。
-    // 表示された今、正しいサイズで範囲を再適用する。
-    if(lastBounds[name]){ ALL_MAPS[name].fitBounds(lastBounds[name]); }
-    else if(name === 'hattatsu'){ ALL_MAPS[name].setView([34.85, 133.95], 9); }
+    // 表示範囲は都道府県選択（データ読み込み）時に1回だけ決定し、以降はタブを行き来しても
+    // 変えない。boundsDirtyがtrueの間（＝非表示中にfitBoundsして範囲がまだ未消費）だけ、
+    // コンテナサイズが正しくなった今のタイミングで一度だけ再適用して消費する。
+    // 一度再適用した後（false）にタブへ再訪した場合は何もしない＝ユーザーの手動パン・
+    // ズームをそのまま維持する。
+    if(boundsDirty[name] && lastBounds[name]){
+      ALL_MAPS[name].fitBounds(lastBounds[name]);
+      boundsDirty[name] = false;
+    }
   }, 50);
 }
 document.querySelectorAll('.tab-btn').forEach(function(btn){ btn.addEventListener('click', function(){ activateTab(btn.dataset.tab); }); });
