@@ -448,6 +448,9 @@ const lastBounds = {}; // 各タブの正しい表示範囲を記録し、タブ
 // 時だけfitBoundsを再適用して消費（false）し、それ以外はユーザーの手動パン・ズームを
 // タブの行き来で巻き戻さない（=表示範囲は都道府県選択時に1回だけ決定する）。
 const boundsDirty = {};
+// 該当施設が1〜数件で近接している場合にfitBoundsが極端にズームインしすぎないための上限。
+// 都道府県内の位置関係が分かる程度（12〜13）に抑える。
+const FIT_MAX_ZOOM = 13;
 let currentRegionCenter = [34.661739, 133.935028];  // loadRegion()でregion.centerに差し替える
 let currentManabiData = [];
 let currentIbashoJidoukan = [];
@@ -476,8 +479,8 @@ function renderManabi(source){
     m.on('mouseout',  function(){ m.setStyle({radius:9,  weight:2}); });
     f._marker = m; markers.push(m);
   });
-  if(markers.length){ const b = L.featureGroup(markers).getBounds().pad(0.15); lastBounds.manabi = b; boundsDirty.manabi = true; mapManabi.fitBounds(b); }
-  else { const b = L.latLng(currentRegionCenter).toBounds(80000); lastBounds.manabi = b; boundsDirty.manabi = true; mapManabi.fitBounds(b); }
+  if(markers.length){ const b = L.featureGroup(markers).getBounds().pad(0.15); lastBounds.manabi = b; boundsDirty.manabi = true; mapManabi.fitBounds(b, {maxZoom:FIT_MAX_ZOOM}); }
+  else { const b = L.latLng(currentRegionCenter).toBounds(80000); lastBounds.manabi = b; boundsDirty.manabi = true; mapManabi.fitBounds(b, {maxZoom:FIT_MAX_ZOOM}); }
 
   const groups = {};
   currentManabiData.forEach(function(f){ (groups[f.area]=groups[f.area]||[]).push(f); });
@@ -519,8 +522,8 @@ function renderIbasho(jidoukan, ibasho){
   });
   ibashoCluster.addLayers(markers);
   if(!mapIbasho.hasLayer(ibashoCluster)) mapIbasho.addLayer(ibashoCluster);
-  if(markers.length){ const b = L.featureGroup(markers).getBounds().pad(0.1); lastBounds.ibasho = b; boundsDirty.ibasho = true; mapIbasho.fitBounds(b); }
-  else { const b = L.latLng(currentRegionCenter).toBounds(80000); lastBounds.ibasho = b; boundsDirty.ibasho = true; mapIbasho.fitBounds(b); }
+  if(markers.length){ const b = L.featureGroup(markers).getBounds().pad(0.1); lastBounds.ibasho = b; boundsDirty.ibasho = true; mapIbasho.fitBounds(b, {maxZoom:FIT_MAX_ZOOM}); }
+  else { const b = L.latLng(currentRegionCenter).toBounds(80000); lastBounds.ibasho = b; boundsDirty.ibasho = true; mapIbasho.fitBounds(b, {maxZoom:FIT_MAX_ZOOM}); }
   renderIbashoList('');
 }
 function renderIbashoList(query){
@@ -560,8 +563,8 @@ function renderSodan(sodanData){
     m.bindPopup('<div class="popup-name">'+area.area+'</div><div class="popup-body">'+winList+'</div>');
     markers.push(m);
   });
-  if(markers.length){ const b = L.featureGroup(markers).getBounds().pad(0.1); lastBounds.sodan = b; boundsDirty.sodan = true; mapSodan.fitBounds(b); }
-  else { const b = L.latLng(currentRegionCenter).toBounds(80000); lastBounds.sodan = b; boundsDirty.sodan = true; mapSodan.fitBounds(b); }
+  if(markers.length){ const b = L.featureGroup(markers).getBounds().pad(0.1); lastBounds.sodan = b; boundsDirty.sodan = true; mapSodan.fitBounds(b, {maxZoom:FIT_MAX_ZOOM}); }
+  else { const b = L.latLng(currentRegionCenter).toBounds(80000); lastBounds.sodan = b; boundsDirty.sodan = true; mapSodan.fitBounds(b, {maxZoom:FIT_MAX_ZOOM}); }
   renderSodanList('');
 }
 function renderSodanList(query){
@@ -610,8 +613,8 @@ function renderOyakazoku(kyoten, jidoukan, oyanokai){
   });
   oyaCluster.addLayers(markers);
   if(!mapOya.hasLayer(oyaCluster)) mapOya.addLayer(oyaCluster);
-  if(markers.length){ const b = L.featureGroup(markers).getBounds().pad(0.1); lastBounds.oyakazoku = b; boundsDirty.oyakazoku = true; mapOya.fitBounds(b); }
-  else { const b = L.latLng(currentRegionCenter).toBounds(80000); lastBounds.oyakazoku = b; boundsDirty.oyakazoku = true; mapOya.fitBounds(b); }
+  if(markers.length){ const b = L.featureGroup(markers).getBounds().pad(0.1); lastBounds.oyakazoku = b; boundsDirty.oyakazoku = true; mapOya.fitBounds(b, {maxZoom:FIT_MAX_ZOOM}); }
+  else { const b = L.latLng(currentRegionCenter).toBounds(80000); lastBounds.oyakazoku = b; boundsDirty.oyakazoku = true; mapOya.fitBounds(b, {maxZoom:FIT_MAX_ZOOM}); }
   renderOyaList('');
 }
 function renderOyaList(query){
@@ -695,10 +698,10 @@ function renderHattatsu(data){
   const withCoords = data.filter(function(r){ return r.lat!=null && r.lng!=null; });
   if(withCoords.length){
     const b = L.latLngBounds(withCoords.map(function(r){ return [r.lat, r.lng]; })).pad(0.1);
-    lastBounds.hattatsu = b; boundsDirty.hattatsu = true; mapHattatsu.fitBounds(b);
+    lastBounds.hattatsu = b; boundsDirty.hattatsu = true; mapHattatsu.fitBounds(b, {maxZoom:FIT_MAX_ZOOM});
   } else {
     const b = L.latLng(currentRegionCenter).toBounds(80000);
-    lastBounds.hattatsu = b; boundsDirty.hattatsu = true; mapHattatsu.fitBounds(b);
+    lastBounds.hattatsu = b; boundsDirty.hattatsu = true; mapHattatsu.fitBounds(b, {maxZoom:FIT_MAX_ZOOM});
   }
 }
 document.getElementById('ryoiku-search').addEventListener('input', function(e){ renderRyoikuList(e.target.value, null); });
@@ -867,7 +870,7 @@ function activateTab(name){
     // 一度再適用した後（false）にタブへ再訪した場合は何もしない＝ユーザーの手動パン・
     // ズームをそのまま維持する。
     if(boundsDirty[name] && lastBounds[name]){
-      ALL_MAPS[name].fitBounds(lastBounds[name]);
+      ALL_MAPS[name].fitBounds(lastBounds[name], {maxZoom:FIT_MAX_ZOOM});
       boundsDirty[name] = false;
     }
   }, 50);
