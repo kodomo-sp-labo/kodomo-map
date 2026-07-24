@@ -1,0 +1,69 @@
+{
+  "_readme": "各データソースの「一覧ページ」を固定URLとして登録する台帳。個別PDF等の直リンクはここでは固定しない（毎回一覧ページから再取得すること）。last_checked / last_count はワークフロー実行のたびに自動更新される。discovery_query は『一覧ページ自体が消えていないか』を検索で二重チェックするためのクエリ。",
+
+  "manabi": {
+    "label": "①学び：岡山県教育委員会 不登校支援の民間団体・施設情報",
+    "region": "okayama",
+    "list_page": "https://www.pref.okayama.jp/page/935421.html",
+    "discovery_query": "岡山県教育委員会 不登校 民間団体 施設 情報一覧",
+    "output_file": "data/okayama/manabi.json",
+    "last_checked": "2026-07-23",
+    "last_count": 18,
+    "notes": "個別施設PDFは一覧ページ内リンクから毎回再取得。直リンクを固定しない。岡山市の公設支援教室5件は別出典（city.okayama.jp、更新頻度低）。"
+  },
+
+  "hattatsu": {
+    "label": "⑤発達：岡山県 保健福祉施設・病院等一覧（児童福祉施設）",
+    "region": "okayama",
+    "list_page": "https://www.pref.okayama.jp/page/785878.html",
+    "discovery_query": "岡山県 障害児通所支援施設 一覧 保健福祉施設",
+    "output_file": "data/okayama/hattatsu.json",
+    "last_checked": "2026-07-23",
+    "last_count": 393,
+    "notes": "「児童福祉施設」PDFへのリンクを一覧ページから毎回再取得。件数が大きく変動したら要確認（前回393件）。経営主体・支援区分は原本レイアウト上取得不可のため引き続き非掲載。"
+  },
+
+  "oyakazoku": {
+    "label": "④親家族：岡山県 ももっこステーション・地域子育て支援拠点（岡山市分）",
+    "region": "okayama",
+    "list_page": "https://www.pref.okayama.jp/page/488473.html",
+    "discovery_query": "岡山県 地域子育て支援拠点 ももっこステーション 一覧",
+    "output_file": "data/okayama/kyoten.json",
+    "last_checked": "2026-07-23",
+    "last_count": 58,
+    "notes": "岡山市分の個別ページ(現在: pref.okayama.jp/page/508158.html)経由。県内全域拡張時は残り4地域（倉敷市・備前県民局・備中県民局・美作県民局）を追加すること。"
+  },
+
+  "sodan": {
+    "label": "③相談：こども家庭庁 岡山県の相談窓口",
+    "region": "okayama",
+    "list_page": "https://www.cfa.go.jp/children-inquiries/okayama",
+    "discovery_query": "こども家庭庁 岡山県 相談窓口一覧",
+    "output_file": "data/okayama/sodan.json",
+    "last_checked": "2026-07-23",
+    "last_count": 30,
+    "notes": "都道府県名部分を変えるだけの共通URL構造（他県展開時に有用）。住所記載が原典にないため引き続き市町村レベル概算が中心。"
+  },
+
+  "ibasho_jidoukan": {
+    "label": "②居場所：岡山市 児童館・児童センター一覧",
+    "region": "okayama",
+    "list_page": "https://www.city.okayama.jp/shisei/0000032387.html",
+    "discovery_query": "岡山市 児童館 児童センター 一覧",
+    "output_file": "data/okayama/jidoukan.json",
+    "last_checked": "2026-07-23",
+    "last_count": 22,
+    "notes": "岡山市サイト。更新頻度は低い想定（施設新設時のみ）。"
+  },
+
+  "ibasho_places": {
+    "label": "②居場所：岡山市社会福祉協議会 子どもの居場所一覧",
+    "region": "okayama",
+    "list_page": "https://www.okayamashi-shakyo.or.jp/",
+    "discovery_query": "岡山市社会福祉協議会 子どもの居場所一覧 PDF",
+    "output_file": "data/okayama/ibasho.json",
+    "last_checked": "2026-07-23",
+    "last_count": 60,
+    "notes": "自動抽出の信頼度が低い出典（PDFレイアウトが複雑、学区単位の手作業整理が入っている）。全件自動再生成はせず、差分候補の提示までに留める運用を推奨。"
+  }
+}
