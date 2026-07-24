@@ -1,0 +1,2170 @@
+[
+{
+"area": "福岡県",
+"lat": null,
+"lng": null,
+"prec": "unresolved",
+"windows": [
+{
+"n": "福岡県教育センター教育相談班",
+"t": null,
+"url": "https://www.educ.pref.fukuoka.jp/support/edu_guidance/",
+"override": null
+},
+{
+"n": "福岡県教育センター特別支援教育班",
+"t": null,
+"url": "https://www.educ.pref.fukuoka.jp/support/edu_guidance/",
+"override": null
+},
+{
+"n": "福岡県立社会教育総合センター",
+"t": null,
+"url": "https://www.kosodate.pref.fukuoka.jp/soudan/",
+"override": null
+},
+{
+"n": "きもち よりそうライン＠ふくおかけん",
+"t": null,
+"url": "https://www.pref.fukuoka.lg.jp/contents/soudannmadoguti.html",
+"override": null
+},
+{
+"n": "福岡県精神保健福祉センター",
+"t": "092-582-7500",
+"url": null,
+"override": null
+},
+{
+"n": "筑紫保健福祉環境事務所",
+"t": "092-513-5585",
+"url": null,
+"override": null
+},
+{
+"n": "粕屋保健福祉事務所",
+"t": "092-939-1185",
+"url": null,
+"override": null
+},
+{
+"n": "糸島保健福祉事務所",
+"t": "092-322-3326",
+"url": null,
+"override": null
+},
+{
+"n": "宗像・遠賀保健福祉環境事務所",
+"t": "0940-36-2473",
+"url": null,
+"override": null
+},
+{
+"n": "嘉穂・鞍手保健福祉環境事務所",
+"t": "0948-21-4875",
+"url": null,
+"override": null
+},
+{
+"n": "田川保健福祉事務所",
+"t": "0947-42-9307",
+"url": null,
+"override": null
+},
+{
+"n": "北筑後保健福祉環境事務所",
+"t": "0946-22-3965",
+"url": null,
+"override": null
+},
+{
+"n": "南筑後保健福祉環境事務所",
+"t": "0944-72-2176",
+"url": null,
+"override": null
+},
+{
+"n": "京築保健福祉環境事務所",
+"t": "0930-23-2966",
+"url": null,
+"override": null
+},
+{
+"n": "久留米市保健所",
+"t": "0942-30-9728",
+"url": null,
+"override": null
+},
+{
+"n": "福岡児童相談所",
+"t": "092-586-0023",
+"url": null,
+"override": null
+},
+{
+"n": "久留米児童相談所",
+"t": "0942-32-4458",
+"url": null,
+"override": null
+},
+{
+"n": "田川児童相談所",
+"t": "0947-42-0499",
+"url": null,
+"override": null
+},
+{
+"n": "大牟田児童相談所",
+"t": "0944-54-2344",
+"url": null,
+"override": null
+},
+{
+"n": "宗像児童相談所",
+"t": "0940-37-3255",
+"url": null,
+"override": null
+},
+{
+"n": "京築児童相談所",
+"t": "0979-84-0407",
+"url": null,
+"override": null
+},
+{
+"n": "福岡県障がい者更生相談所",
+"t": null,
+"url": "https://www.pref.fukuoka.lg.jp/soshiki/4603108/",
+"override": null
+},
+{
+"n": "福岡県医療的ケア児支援センター",
+"t": "092-692-1601",
+"url": null,
+"override": null
+},
+{
+"n": "福岡県こども療育センター新光園",
+"t": "092-962-2231",
+"url": null,
+"override": null
+},
+{
+"n": "障がい者差別解消専門相談窓口",
+"t": "092-643-3143",
+"url": null,
+"override": null
+},
+{
+"n": "性暴力被害者支援センター・ふくおか",
+"t": null,
+"url": "https://fukuoka-vs.net/savs/",
+"override": null
+},
+{
+"n": "福岡県若者自立相談窓口",
+"t": null,
+"url": "https://wakamado.net/",
+"override": null
+},
+{
+"n": "こども支援オフィス（粕屋オフィス）",
+"t": null,
+"url": "https://greencoop-fukuoka.jp/kodomo/",
+"override": null
+},
+{
+"n": "こども支援オフィス（水巻オフィス）",
+"t": null,
+"url": "https://greencoop-fukuoka.jp/kodomo/",
+"override": null
+},
+{
+"n": "こども支援オフィス（久留米オフィス）",
+"t": null,
+"url": "https://greencoop-fukuoka.jp/kodomo/",
+"override": null
+},
+{
+"n": "こども支援オフィス（行橋オフィス）",
+"t": null,
+"url": "https://greencoop-fukuoka.jp/kodomo/",
+"override": null
+},
+{
+"n": "こども支援オフィス（田川オフィス）",
+"t": null,
+"url": "https://greencoop-fukuoka.jp/kodomo/",
+"override": null
+},
+{
+"n": "福岡若者サポートステーション",
+"t": null,
+"url": "https://saposute.com/",
+"override": null
+},
+{
+"n": "北九州若者サポートステーション",
+"t": null,
+"url": "https://kitakyushu-saposute.com/",
+"override": null
+},
+{
+"n": "筑後若者サポートステーション",
+"t": null,
+"url": "https://chikugo-saposute.com/",
+"override": null
+},
+{
+"n": "筑豊若者サポートステーション",
+"t": null,
+"url": "https://chikuhou-saposute.com/",
+"override": null
+},
+{
+"n": "子どもホットライン24",
+"t": null,
+"url": "https://www.pref.fukuoka.lg.jp/contents/hotline24.html",
+"override": null
+},
+{
+"n": "不妊・不育と性の相談センター（筑紫保健福祉環境事務所内）",
+"t": null,
+"url": "https://www.pref.fukuoka.lg.jp/contents/funinfuikutoseinosoudan.html",
+"override": null
+},
+{
+"n": "不妊・不育と性の相談センター（粕屋保健福祉事務所内）",
+"t": null,
+"url": "https://www.pref.fukuoka.lg.jp/contents/funinfuikutoseinosoudan.html",
+"override": null
+},
+{
+"n": "不妊・不育と性の相談センター（糸島保健福祉事務所内）",
+"t": null,
+"url": "https://www.pref.fukuoka.lg.jp/contents/funinfuikutoseinosoudan.html",
+"override": null
+},
+{
+"n": "不妊・不育と性の相談センター（宗像・遠賀保健福祉環境事務所内）",
+"t": null,
+"url": "https://www.pref.fukuoka.lg.jp/contents/funinfuikutoseinosoudan.html",
+"override": null
+},
+{
+"n": "不妊・不育と性の相談センター（嘉穂・鞍手保健福祉環境事務所内）",
+"t": null,
+"url": "https://www.pref.fukuoka.lg.jp/contents/funinfuikutoseinosoudan.html",
+"override": null
+},
+{
+"n": "不妊・不育と性の相談センター（田川保健福祉事務所内）",
+"t": null,
+"url": "https://www.pref.fukuoka.lg.jp/contents/funinfuikutoseinosoudan.html",
+"override": null
+},
+{
+"n": "不妊・不育と性の相談センター（北筑後保健福祉環境事務所内）",
+"t": null,
+"url": "https://www.pref.fukuoka.lg.jp/contents/funinfuikutoseinosoudan.html",
+"override": null
+},
+{
+"n": "不妊・不育と性の相談センター（南筑後保健福祉環境事務所内）",
+"t": null,
+"url": "https://www.pref.fukuoka.lg.jp/contents/funinfuikutoseinosoudan.html",
+"override": null
+},
+{
+"n": "不妊・不育と性の相談センター（京築保健福祉環境事務所内）",
+"t": null,
+"url": "https://www.pref.fukuoka.lg.jp/contents/funinfuikutoseinosoudan.html",
+"override": null
+},
+{
+"n": "福岡県プレコンセプションケアセンター",
+"t": null,
+"url": "https://fukuokaprecon.com/",
+"override": null
+},
+{
+"n": "産前産後母子支援ステーション　MamaRizumu",
+"t": null,
+"url": "https://mamarizumu.jp/",
+"override": null
+},
+{
+"n": "福岡にんしん110番　Link",
+"t": null,
+"url": "https://link110.jp/",
+"override": null
+},
+{
+"n": "にんしんSOS　ここはる",
+"t": null,
+"url": "https://cocohalu.cwlsc.or.jp/",
+"override": null
+},
+{
+"n": "子ども家庭センターあまぎやま",
+"t": null,
+"url": "http://www.amagiyama.or.jp/shien/",
+"override": null
+},
+{
+"n": "子ども家庭センター風と虹",
+"t": null,
+"url": "https://kazetoniji-support.jp/",
+"override": null
+},
+{
+"n": "福岡県いじめレスキューセンター",
+"t": null,
+"url": "https://www.pref.fukuoka.lg.jp/contents/ijime-rescue-center1101.html",
+"override": null
+},
+{
+"n": "児童家庭支援センターことのわ",
+"t": "092-404-2161",
+"url": null,
+"override": null
+},
+{
+"n": "児童家庭支援センタージカセン",
+"t": "0930-55-2460",
+"url": null,
+"override": null
+}
+]
+},
+{
+"area": "北九州市",
+"lat": 33.883408,
+"lng": 130.875183,
+"prec": "area",
+"windows": [
+{
+"n": "北九州市社会的養護自立支援拠点事業/意見等表明支援事業「HANAS　”YELL”（ハナセール）」",
+"t": null,
+"url": "https://www.yell-kitaq.com/yell%E3%81%A8%E3%81%AF/hanas-yell/",
+"override": null
+},
+{
+"n": "妊娠相談ほっとナビ",
+"t": null,
+"url": "https://www.city.kitakyushu.lg.jp/ko-katei/11700159.html",
+"override": null
+},
+{
+"n": "北九州市門司区役所保健福祉課子ども・家庭相談コーナー",
+"t": null,
+"url": "https://www.city.kitakyushu.lg.jp/ko-katei/file_0063.html",
+"override": null
+},
+{
+"n": "北九州市小倉北区役所保健福祉課子ども・家庭相談コーナー",
+"t": null,
+"url": "https://www.city.kitakyushu.lg.jp/ko-katei/file_0063.html",
+"override": null
+},
+{
+"n": "北九州市小倉南区役所保健福祉課子ども・家庭相談コーナー",
+"t": null,
+"url": "https://www.city.kitakyushu.lg.jp/ko-katei/file_0063.html",
+"override": null
+},
+{
+"n": "北九州市若松区役所保健福祉課子ども・家庭相談コーナー",
+"t": null,
+"url": "https://www.city.kitakyushu.lg.jp/ko-katei/file_0063.html",
+"override": null
+},
+{
+"n": "北九州市八幡東区役所保健福祉課子ども・家庭相談コーナー",
+"t": null,
+"url": "https://www.city.kitakyushu.lg.jp/ko-katei/file_0063.html",
+"override": null
+},
+{
+"n": "北九州市八幡西区役所保健福祉課子ども・家庭相談コーナー",
+"t": null,
+"url": "https://www.city.kitakyushu.lg.jp/ko-katei/file_0063.html",
+"override": null
+},
+{
+"n": "北九州市戸畑区役所保健福祉課子ども・家庭相談コーナー",
+"t": null,
+"url": "https://www.city.kitakyushu.lg.jp/ko-katei/file_0063.html",
+"override": null
+},
+{
+"n": "北九州市門司区役所保健福祉課健康相談コーナー",
+"t": null,
+"url": "https://www.city.kitakyushu.lg.jp/ko-katei/file_0012.html",
+"override": null
+},
+{
+"n": "北九州市小倉北区役所保健福祉課健康相談コーナー",
+"t": null,
+"url": "https://www.city.kitakyushu.lg.jp/ko-katei/file_0012.html",
+"override": null
+},
+{
+"n": "北九州市小倉南区役所保健福祉課健康相談コーナー",
+"t": null,
+"url": "https://www.city.kitakyushu.lg.jp/ko-katei/file_0012.html",
+"override": null
+},
+{
+"n": "北九州市若松区役所保健福祉課健康相談コーナー",
+"t": null,
+"url": "https://www.city.kitakyushu.lg.jp/ko-katei/file_0012.html",
+"override": null
+},
+{
+"n": "北九州市八幡東区役所保健福祉課健康相談コーナー",
+"t": null,
+"url": "https://www.city.kitakyushu.lg.jp/ko-katei/file_0012.html",
+"override": null
+},
+{
+"n": "北九州市八幡西区役所保健福祉課健康相談コーナー",
+"t": null,
+"url": "https://www.city.kitakyushu.lg.jp/ko-katei/file_0012.html",
+"override": null
+},
+{
+"n": "北九州市戸畑区役所保健福祉課健康相談コーナー",
+"t": null,
+"url": "https://www.city.kitakyushu.lg.jp/ko-katei/file_0012.html",
+"override": null
+},
+{
+"n": "北九州市子ども総合センター",
+"t": null,
+"url": "https://www.city.kitakyushu.lg.jp/ko-katei/file_0065.html",
+"override": null
+},
+{
+"n": "24時間子ども相談ホットライン",
+"t": null,
+"url": "https://www.city.kitakyushu.lg.jp/ko-katei/file_0059.html",
+"override": null
+},
+{
+"n": "子ども・若者応援センター「YELL」",
+"t": null,
+"url": "https://www.yell-kitaq.com/",
+"override": null
+},
+{
+"n": "北九州市発達障害者支援センターつばさ",
+"t": null,
+"url": "http://www.tsubasa.kitaq-src.jp/index.html",
+"override": null
+},
+{
+"n": "保健福祉局人権推進センター（人権相談）",
+"t": null,
+"url": "https://www.city.kitakyushu.lg.jp/ho-huku/file_0525.html",
+"override": null
+},
+{
+"n": "新門司地域交流センター",
+"t": null,
+"url": "https://www.city.kitakyushu.lg.jp/shisetsu/menu06_0150.html",
+"override": null
+},
+{
+"n": "下富野地域交流センター",
+"t": null,
+"url": "https://www.city.kitakyushu.lg.jp/shisetsu/menu06_0151.html",
+"override": null
+},
+{
+"n": "貴船地域交流センター",
+"t": null,
+"url": "https://www.city.kitakyushu.lg.jp/shisetsu/menu06_0154.html",
+"override": null
+},
+{
+"n": "山田地域交流センター",
+"t": null,
+"url": "https://www.city.kitakyushu.lg.jp/shisetsu/menu06_0157.html",
+"override": null
+},
+{
+"n": "北方地域交流センター",
+"t": null,
+"url": "https://www.city.kitakyushu.lg.jp/shisetsu/menu06_0159.html",
+"override": null
+},
+{
+"n": "徳力地域交流センター",
+"t": null,
+"url": "https://www.city.kitakyushu.lg.jp/shisetsu/menu06_0162.html",
+"override": null
+},
+{
+"n": "蜷田地域交流センター",
+"t": null,
+"url": "https://www.city.kitakyushu.lg.jp/shisetsu/menu06_0163.html",
+"override": null
+},
+{
+"n": "楠橋地域交流センター",
+"t": null,
+"url": "https://www.city.kitakyushu.lg.jp/shisetsu/menu06_0164.html",
+"override": null
+},
+{
+"n": "木屋瀬地域交流センター",
+"t": null,
+"url": "https://www.city.kitakyushu.lg.jp/shisetsu/menu06_0167.html",
+"override": null
+},
+{
+"n": "不登校等支援センター",
+"t": "093-641-1800",
+"url": null,
+"override": null
+},
+{
+"n": "かなだ教育支援室",
+"t": "093-591-7867",
+"url": null,
+"override": null
+},
+{
+"n": "わかぞの教育支援室",
+"t": "093-941-7867",
+"url": null,
+"override": null
+},
+{
+"n": "あいおい教育支援室",
+"t": "093-641-1710",
+"url": null,
+"override": null
+},
+{
+"n": "くろさき教育支援室",
+"t": "093-631-7867",
+"url": null,
+"override": null
+},
+{
+"n": "特別支援教育相談センター",
+"t": null,
+"url": "https://www.city.kitakyushu.lg.jp/kyouiku/kyou-tokushi-center.html",
+"override": null
+},
+{
+"n": "教育委員会学事課",
+"t": null,
+"url": "https://www.city.kitakyushu.lg.jp/kurashi/menu01_0217.html",
+"override": null
+},
+{
+"n": "Eメール相談",
+"t": null,
+"url": "https://www.city.kitakyushu.lg.jp/ko-katei/file_0060.html",
+"override": null
+},
+{
+"n": "親子のための相談LINE",
+"t": null,
+"url": "https://www.city.kitakyushu.lg.jp/ko-katei/11600053.html",
+"override": null
+},
+{
+"n": "北九州市ヤングケアラー相談支援窓口",
+"t": "093-482-6577",
+"url": null,
+"override": null
+}
+]
+},
+{
+"area": "福岡市",
+"lat": 33.590313,
+"lng": 130.401735,
+"prec": "area",
+"windows": [
+{
+"n": "福岡市若者総合相談センター（ユースサポートhub）",
+"t": null,
+"url": "https://www.youthsupporthub.com/",
+"override": null
+},
+{
+"n": "東区家庭児童相談室",
+"t": null,
+"url": "https://kodomo.city.fukuoka.lg.jp/info/1679/",
+"override": null
+},
+{
+"n": "博多区家庭児童相談室",
+"t": null,
+"url": "https://kodomo.city.fukuoka.lg.jp/info/1679/",
+"override": null
+},
+{
+"n": "中央区家庭児童相談室",
+"t": null,
+"url": "https://kodomo.city.fukuoka.lg.jp/info/1679/",
+"override": null
+},
+{
+"n": "南区家庭児童相談室",
+"t": null,
+"url": "https://kodomo.city.fukuoka.lg.jp/info/1679/",
+"override": null
+},
+{
+"n": "城南区家庭児童相談室",
+"t": null,
+"url": "https://kodomo.city.fukuoka.lg.jp/info/1679/",
+"override": null
+},
+{
+"n": "早良区家庭児童相談室",
+"t": null,
+"url": "https://kodomo.city.fukuoka.lg.jp/info/1679/",
+"override": null
+},
+{
+"n": "西区家庭児童相談室",
+"t": null,
+"url": "https://kodomo.city.fukuoka.lg.jp/info/1679/",
+"override": null
+},
+{
+"n": "福岡市児童家庭支援センター・SOS子どもの村",
+"t": null,
+"url": "https://kodomo.city.fukuoka.lg.jp/info/13536/",
+"override": null
+},
+{
+"n": "福岡市児童家庭支援センター・はぐはぐ",
+"t": null,
+"url": "https://kodomo.city.fukuoka.lg.jp/info/13536/",
+"override": null
+},
+{
+"n": "福岡市児童家庭支援センター・ちあふる",
+"t": null,
+"url": "https://kodomo.city.fukuoka.lg.jp/info/13536/",
+"override": null
+},
+{
+"n": "福岡市ヤングケアラー相談窓口",
+"t": null,
+"url": "https://kodomo.city.fukuoka.lg.jp/info/1916/",
+"override": null
+},
+{
+"n": "福岡市こども総合相談センター（福岡市児童相談所）",
+"t": null,
+"url": "https://www.city.fukuoka.lg.jp/kodomo/egaokan/",
+"override": null
+},
+{
+"n": "親子のための相談LINE",
+"t": null,
+"url": "https://kodomo.city.fukuoka.lg.jp/info/1737/",
+"override": null
+},
+{
+"n": "福岡市立心身障がい福祉センター（あいあいセンター）　※博多（北部）・中央・城南・早良（北部）区にお住まいの方",
+"t": null,
+"url": "https://fc-swc.org/kodomo/",
+"override": null
+},
+{
+"n": "福岡市立東部療育センター　※東区にお住まいの方",
+"t": null,
+"url": "https://fc-swc.org/toubu/",
+"override": null
+},
+{
+"n": "福岡市立西部療育センター　※西・早良（南部）区にお住まいの方",
+"t": null,
+"url": "https://fc-swc.org/seibu/",
+"override": null
+},
+{
+"n": "福岡市発達障がい者支援センター（ゆうゆうセンター）",
+"t": null,
+"url": "https://fc-swc.org/yuyu/",
+"override": null
+},
+{
+"n": "福岡市立南部療育センター（※博多（南部）・南区にお住まいの方）",
+"t": null,
+"url": "https://fc-swc.org/nanbu/",
+"override": null
+},
+{
+"n": "福岡市児童家庭支援センター・SOS子どもの村西部",
+"t": null,
+"url": "https://kodomo.city.fukuoka.lg.jp/info/13536/",
+"override": null
+}
+]
+},
+{
+"area": "大牟田市",
+"lat": 33.030248,
+"lng": 130.446058,
+"prec": "area",
+"windows": [
+{
+"n": "大牟田市こども家庭センター",
+"t": null,
+"url": "https://www.city.omuta.lg.jp/kiji00311192/index.html",
+"override": null
+},
+{
+"n": "大牟田市少年センター",
+"t": null,
+"url": "https://www.city.omuta.lg.jp/kiji0032870/index.html",
+"override": null
+},
+{
+"n": "教育相談室",
+"t": null,
+"url": "https://www.city.omuta.lg.jp/list00762.html",
+"override": null
+}
+]
+},
+{
+"area": "久留米市",
+"lat": 33.319286,
+"lng": 130.508371,
+"prec": "area",
+"windows": [
+{
+"n": "久留米市役所家庭子ども相談課",
+"t": "0942-30-9208",
+"url": null,
+"override": null
+},
+{
+"n": "久留米市子ども未来部青少年育成課",
+"t": null,
+"url": "https://www.city.kurume.fukuoka.jp/1060manabi/2020kyouiku/3090ikusei/",
+"override": null
+},
+{
+"n": "久留米市若者相談窓口「みらくる」",
+"t": null,
+"url": "https://www.city.kurume.fukuoka.jp/1060manabi/2020kyouiku/3090ikusei/wakamonosoudannmirakuru2024-1031-1358-287.html",
+"override": null
+},
+{
+"n": "久留米市子ども未来部幼児教育研究所",
+"t": "0942-35-3812",
+"url": null,
+"override": null
+},
+{
+"n": "こども子育てサポートセンター",
+"t": null,
+"url": "https://www.city.kurume.fukuoka.jp/1060manabi/2010kosodate/3170kosodatesoudan/7-2-1_kosodatekodomosodan.html",
+"override": null
+},
+{
+"n": "妊娠ほっとライン",
+"t": null,
+"url": "https://www.city.kurume.fukuoka.jp/1060manabi/2010kosodate/3160ninshinsoudan/7-1-2_ninshin.html",
+"override": null
+},
+{
+"n": "荒木子育て支援センター",
+"t": null,
+"url": "https://www.city.kurume.fukuoka.jp/1060manabi/2010kosodate/3130shienshisetsu/2022-0324-1958-348.html",
+"override": null
+},
+{
+"n": "江南子育て支援センター",
+"t": null,
+"url": "https://www.city.kurume.fukuoka.jp/1060manabi/2010kosodate/3130shienshisetsu/2022-0324-1958-348.html",
+"override": null
+},
+{
+"n": "松柏子育て支援センター",
+"t": null,
+"url": "https://www.city.kurume.fukuoka.jp/1060manabi/2010kosodate/3130shienshisetsu/2022-0324-1958-348.html",
+"override": null
+},
+{
+"n": "善導寺子育て支援センター",
+"t": null,
+"url": "https://www.city.kurume.fukuoka.jp/1060manabi/2010kosodate/3130shienshisetsu/2022-0324-1958-348.html",
+"override": null
+},
+{
+"n": "白峯子育て支援センター",
+"t": null,
+"url": "https://www.city.kurume.fukuoka.jp/1060manabi/2010kosodate/3130shienshisetsu/2022-0324-1958-348.html",
+"override": null
+},
+{
+"n": "北野子育て支援センター",
+"t": null,
+"url": "https://www.city.kurume.fukuoka.jp/1060manabi/2010kosodate/3130shienshisetsu/2022-0324-1958-348.html",
+"override": null
+},
+{
+"n": "城島子育て支援センター",
+"t": null,
+"url": "https://www.city.kurume.fukuoka.jp/1060manabi/2010kosodate/3130shienshisetsu/2022-0324-1958-348.html",
+"override": null
+},
+{
+"n": "三瀦子育て支援センター",
+"t": null,
+"url": "https://www.city.kurume.fukuoka.jp/1060manabi/2010kosodate/3130shienshisetsu/2022-0324-1958-348.html",
+"override": null
+},
+{
+"n": "田主丸子育て支援センター",
+"t": null,
+"url": "https://www.city.kurume.fukuoka.jp/1060manabi/2010kosodate/3130shienshisetsu/2022-0324-1958-348.html",
+"override": null
+},
+{
+"n": "こころの健康相談",
+"t": null,
+"url": "https://www.city.kurume.fukuoka.jp/1070kenkou/2040hokeneisei/3070seisinhoken/2008-0319-1823-467.html",
+"override": null
+}
+]
+},
+{
+"area": "直方市",
+"lat": 33.744181,
+"lng": 130.729652,
+"prec": "area",
+"windows": [
+{
+"n": "直方市こども家庭センター",
+"t": null,
+"url": "https://www.city.nogata.fukuoka.jp/kenko/_1210/_13984.html",
+"override": null
+}
+]
+},
+{
+"area": "飯塚市",
+"lat": 33.646083,
+"lng": 130.691422,
+"prec": "area",
+"windows": [
+{
+"n": "飯塚市こども家庭課家庭児童相談室",
+"t": null,
+"url": "https://www.city.iizuka.lg.jp/kodomoboshi/kenko/kosodate/sodan/sodan.html",
+"override": null
+},
+{
+"n": "少年相談センター",
+"t": null,
+"url": "https://www.city.iizuka.lg.jp/kodomoseshonen/kenko/kosodate/sodan/shonen.html",
+"override": null
+}
+]
+},
+{
+"area": "田川市",
+"lat": 33.63876,
+"lng": 130.806298,
+"prec": "area",
+"windows": [
+{
+"n": "子育て支援課こども家庭センター",
+"t": null,
+"url": "https://www.joho.tagawa.fukuoka.jp/kiji0038670/index.html",
+"override": null
+},
+{
+"n": "保健福祉課保健センター",
+"t": "0947-44-8270",
+"url": null,
+"override": null
+},
+{
+"n": "人権・同和対策課",
+"t": "0947-85-7133",
+"url": null,
+"override": null
+},
+{
+"n": "上伊田隣保館",
+"t": "0947-44-3410",
+"url": null,
+"override": null
+},
+{
+"n": "中央隣保館",
+"t": "0947-44-8181",
+"url": null,
+"override": null
+},
+{
+"n": "弓削田隣保館",
+"t": "0947-44-3318",
+"url": null,
+"override": null
+},
+{
+"n": "男女共同参画センター（人権・同和対策課　男女共同参画推進室）",
+"t": null,
+"url": "https://www.joho.tagawa.fukuoka.jp/kiji0031542/index.html",
+"override": null
+}
+]
+},
+{
+"area": "柳川市",
+"lat": 33.163064,
+"lng": 130.405739,
+"prec": "area",
+"windows": [
+{
+"n": "柳川市こども家庭センターこども相談係",
+"t": null,
+"url": "https://www.city.yanagawa.fukuoka.jp/kosodate/kosodate-shien/soudan/kosodate__6764.html",
+"override": null
+}
+]
+},
+{
+"area": "八女市",
+"lat": 33.211952,
+"lng": 130.557912,
+"prec": "area",
+"windows": [
+{
+"n": "八女市 こども相談室あおいとり",
+"t": null,
+"url": "https://www.city.yame.fukuoka.jp/soshiki/8/3/1/1/1454651680614.html",
+"override": null
+},
+{
+"n": "八女市こども家庭センター",
+"t": null,
+"url": "https://www.city.yame.fukuoka.jp/soshiki/8/3/1/11078.html",
+"override": null
+}
+]
+},
+{
+"area": "筑後市",
+"lat": 33.212246,
+"lng": 130.502151,
+"prec": "area",
+"windows": [
+{
+"n": "こども家庭サポートセンター",
+"t": null,
+"url": "https://www.city.chikugo.lg.jp/kabetsu/_7163/_27479.html",
+"override": null
+}
+]
+},
+{
+"area": "大川市",
+"lat": 33.206622,
+"lng": 130.383922,
+"prec": "area",
+"windows": [
+{
+"n": "大川市子育て支援総合施設「モッカランド」",
+"t": null,
+"url": "https://www.city.okawa.lg.jp/120/mokkaland.html",
+"override": null
+}
+]
+},
+{
+"area": "行橋市",
+"lat": 33.728761911794955,
+"lng": 130.982963327537,
+"prec": "area",
+"windows": [
+{
+"n": "行橋市子ども支援課子ども相談係",
+"t": null,
+"url": "http://www.city.yukuhashi.fukuoka.jp/",
+"override": null
+},
+{
+"n": "行橋市児童・生徒相談センター",
+"t": null,
+"url": "https://www.city.yukuhashi.fukuoka.jp/site/kosodate/13270.html",
+"override": null
+},
+{
+"n": "行橋市人権政策課",
+"t": null,
+"url": "http://www.city.yukuhashi.fukuoka.jp/",
+"override": null
+},
+{
+"n": "行橋市子ども支援課子育て支援係",
+"t": null,
+"url": "http://www.city.yukuhashi.fukuoka.jp/",
+"override": null
+},
+{
+"n": "行橋市地域福祉課健康づくり推進係",
+"t": null,
+"url": "http://www.city.yukuhashi.fukuoka.jp/",
+"override": null
+}
+]
+},
+{
+"area": "豊前市",
+"lat": 33.611538,
+"lng": 131.129941,
+"prec": "area",
+"windows": [
+{
+"n": "豊前市　福祉課子ども相談係",
+"t": "0979-82-8245",
+"url": null,
+"override": null
+},
+{
+"n": "豊前市　健康長寿推進課健康増進係",
+"t": "0979-82-8111",
+"url": null,
+"override": null
+},
+{
+"n": "豊前市　福祉課障害者福祉係",
+"t": "0979-82-8194",
+"url": null,
+"override": null
+},
+{
+"n": "豊前市　学校教育課",
+"t": "0979-82-8069",
+"url": null,
+"override": null
+},
+{
+"n": "豊前市　人権男女共同参画室",
+"t": "0979-82-8003",
+"url": null,
+"override": null
+},
+{
+"n": "豊前市福祉課保護係",
+"t": "0979-82-8195",
+"url": null,
+"override": null
+}
+]
+},
+{
+"area": "中間市",
+"lat": 33.816699,
+"lng": 130.709026,
+"prec": "area",
+"windows": [
+{
+"n": "中間市こども家庭センター（me mom room）",
+"t": null,
+"url": "http://www.city.nakama.lg.jp",
+"override": null
+},
+{
+"n": "中間市こども家庭センター（me mom room）家庭児童相談係",
+"t": null,
+"url": "http://www.city.nakama.lg.jp",
+"override": null
+},
+{
+"n": "中間市少年相談センター",
+"t": null,
+"url": "https://www.city.nakama.lg.jp/site/kosodate/4140.html",
+"override": null
+},
+{
+"n": "中間市人権センター",
+"t": null,
+"url": "https://www.city.nakama.lg.jp/soshiki/10/1532.html",
+"override": null
+}
+]
+},
+{
+"area": "小郡市",
+"lat": 33.39645,
+"lng": 130.555541,
+"prec": "area",
+"windows": [
+{
+"n": "小郡市こども家庭支援センター",
+"t": null,
+"url": "https://www.city.ogori.fukuoka.jp/203/958/973",
+"override": null
+}
+]
+},
+{
+"area": "筑紫野市",
+"lat": 33.496314,
+"lng": 130.515594,
+"prec": "area",
+"windows": [
+{
+"n": "利用者支援事業",
+"t": null,
+"url": "https://www.city.chikushino.fukuoka.jp/soshiki/49/39405.html",
+"override": null
+},
+{
+"n": "子どもの権利救済委員",
+"t": null,
+"url": "https://www.city.chikushino.fukuoka.jp/soshiki/49/39401.html",
+"override": null
+},
+{
+"n": "子育て支援センター",
+"t": null,
+"url": "https://www.city.chikushino.fukuoka.jp/soshiki/49/39394.html",
+"override": null
+},
+{
+"n": "つどいの広場",
+"t": null,
+"url": "https://www.city.chikushino.fukuoka.jp/soshiki/49/39386.html",
+"override": null
+},
+{
+"n": "筑紫野市こども家庭センター",
+"t": null,
+"url": "https://www.city.chikushino.fukuoka.jp/soshiki/16/3582.html",
+"override": null
+},
+{
+"n": "筑紫野市こども発達相談室",
+"t": null,
+"url": "https://www.city.chikushino.fukuoka.jp/soshiki/16/3400.html",
+"override": null
+},
+{
+"n": "ヤングテレフォンちくしの",
+"t": null,
+"url": "https://www.city.chikushino.fukuoka.jp/soshiki/36/2272.html",
+"override": null
+},
+{
+"n": "筑紫野市役所生活福祉課障がい者福祉担当",
+"t": "092-923-1111",
+"url": null,
+"override": null
+}
+]
+},
+{
+"area": "春日市",
+"lat": 33.532629,
+"lng": 130.470368,
+"prec": "area",
+"windows": [
+{
+"n": "春日市こども家庭センター",
+"t": null,
+"url": "https://www.city.kasuga.fukuoka.jp/kosodate/kosodate/1001080.html",
+"override": null
+}
+]
+},
+{
+"area": "大野城市",
+"lat": 33.53629,
+"lng": 130.478697,
+"prec": "area",
+"windows": [
+{
+"n": "子ども相談センター",
+"t": null,
+"url": "http://www.city.onojo.fukuoka.jp/kosodate/k004/020/010/010/1608.html",
+"override": null
+},
+{
+"n": "教育サポートセンター",
+"t": null,
+"url": "http://www.city.onojo.fukuoka.jp/s105/020/010/080/12271.html",
+"override": null
+},
+{
+"n": "青少年の居場所「ユープレ」",
+"t": null,
+"url": "http://www.city.onojo.fukuoka.jp/kosodate/k002/020/060/20200831194617.html",
+"override": null
+}
+]
+},
+{
+"area": "宗像市",
+"lat": 33.805448,
+"lng": 130.540651,
+"prec": "area",
+"windows": [
+{
+"n": "子ども家庭センター",
+"t": null,
+"url": "https://www.city.munakata.lg.jp/kosodate/katei-center/010/index.html",
+"override": null
+},
+{
+"n": "むなかた子どもの権利相談室「ハッピークローバー」",
+"t": null,
+"url": "https://www.city.munakata.lg.jp/kiji0032969/index.html",
+"override": null
+}
+]
+},
+{
+"area": "太宰府市",
+"lat": 33.512835,
+"lng": 130.523876,
+"prec": "area",
+"windows": [
+{
+"n": "太宰府市子育て支援センター",
+"t": null,
+"url": "https://www.city.dazaifu.lg.jp/soshiki/18/2072.html",
+"override": null
+}
+]
+},
+{
+"area": "古賀市",
+"lat": 33.728664,
+"lng": 130.469995,
+"prec": "area",
+"windows": [
+{
+"n": "古賀市子ども家庭センター（子ども家庭係）",
+"t": "092-942-1159",
+"url": null,
+"override": null
+},
+{
+"n": "子ども・若者相談室",
+"t": null,
+"url": "https://www.city.koga.fukuoka.jp/cityhall/work/kosodate/079.php",
+"override": null
+},
+{
+"n": "こども発達ルーム",
+"t": null,
+"url": "https://www.city.koga.fukuoka.jp/cityhall/work/kosodate/030.php",
+"override": null
+},
+{
+"n": "福祉課福祉相談係",
+"t": "092-942-1156",
+"url": null,
+"override": null
+},
+{
+"n": "隣保館「ひだまり館」",
+"t": "092-943-4222",
+"url": null,
+"override": null
+},
+{
+"n": "ひまわり教室",
+"t": "092-942-1348",
+"url": null,
+"override": null
+},
+{
+"n": "人権センター",
+"t": "092-942-1128",
+"url": null,
+"override": null
+}
+]
+},
+{
+"area": "福津市",
+"lat": 33.766897,
+"lng": 130.491038,
+"prec": "area",
+"windows": [
+{
+"n": "福津市家庭児童相談室",
+"t": "0940-43-8218",
+"url": null,
+"override": null
+}
+]
+},
+{
+"area": "うきは市",
+"lat": 33.347305,
+"lng": 130.754928,
+"prec": "area",
+"windows": [
+{
+"n": "うきは市男女共同参画センター・だんだん",
+"t": null,
+"url": "https://www.city.ukiha.fukuoka.jp/kiji0036364/index.html",
+"override": null
+},
+{
+"n": "うきは市人権同和対策室",
+"t": null,
+"url": "https://www.city.ukiha.fukuoka.jp/kiji0034096/index.html",
+"override": null
+},
+{
+"n": "うきは市教育委員会　学校教育課",
+"t": null,
+"url": "https://www.city.ukiha.fukuoka.jp/dynamic/kosodate/entry/pub/ansform.aspx?c_id=38&entry_ins=4",
+"override": null
+},
+{
+"n": "うきは市こども家庭センター「うきはぁと」",
+"t": null,
+"url": "https://www.city.ukiha.fukuoka.jp/dynamic/kosodate/entry/pub/ansform.aspx?c_id=37&entry_ins=3",
+"override": null
+}
+]
+},
+{
+"area": "宮若市",
+"lat": 33.723523,
+"lng": 130.666716,
+"prec": "area",
+"windows": [
+{
+"n": "宮若市家庭児童相談室",
+"t": null,
+"url": "https://www.city.miyawaka.lg.jp/kiji003446032/index.html",
+"override": null
+}
+]
+},
+{
+"area": "嘉麻市",
+"lat": 33.563283,
+"lng": 130.71151,
+"prec": "area",
+"windows": [
+{
+"n": "嘉麻市こども家庭センターかま・suku",
+"t": "0948-62-5715　0948-62-5716　0948-62-5717",
+"url": null,
+"override": null
+},
+{
+"n": "教育相談",
+"t": null,
+"url": "https://www.city.kama.lg.jp/soshiki/14/14426.html",
+"override": null
+},
+{
+"n": "嘉麻市適応指導教室（れすとぴあ）",
+"t": null,
+"url": "https://kyouikucenter.kama-edu.jp",
+"override": null
+},
+{
+"n": "嘉麻市教育委員会・学校教育課",
+"t": null,
+"url": "https://www.city.kama.lg.jp",
+"override": null
+}
+]
+},
+{
+"area": "朝倉市",
+"lat": 33.423412,
+"lng": 130.665573,
+"prec": "area",
+"windows": [
+{
+"n": "家庭児童・母子相談",
+"t": null,
+"url": "https://www.city.asakura.lg.jp/www/contents/1299819782761/index.html",
+"override": null
+},
+{
+"n": "こども家庭センターあさくらっこ",
+"t": null,
+"url": "https://www.city.asakura.lg.jp/www/contents/1539844651150/index.html",
+"override": null
+},
+{
+"n": "すくすく（育児）相談",
+"t": null,
+"url": "https://www.city.asakura.lg.jp/www/contents/1515461282977/index.html",
+"override": null
+},
+{
+"n": "にこにここども（発達）相談",
+"t": null,
+"url": "https://www.city.asakura.lg.jp/www/contents/1515461640540/index.html",
+"override": null
+},
+{
+"n": "教育相談",
+"t": null,
+"url": "https://www.city.asakura.lg.jp/www/contents/1300414462691/index.html",
+"override": null
+}
+]
+},
+{
+"area": "みやま市",
+"lat": 33.152434,
+"lng": 130.474734,
+"prec": "area",
+"windows": [
+{
+"n": "みやま市こども家庭センター",
+"t": "0944-64-1566",
+"url": null,
+"override": null
+},
+{
+"n": "みやま市こども家庭センター",
+"t": "0944-64-1520",
+"url": null,
+"override": null
+}
+]
+},
+{
+"area": "糸島市",
+"lat": 33.55745,
+"lng": 130.1955,
+"prec": "area",
+"windows": [
+{
+"n": "糸島市こども家庭センターいとハピ",
+"t": null,
+"url": "https://www.city.itoshima.lg.jp/s048/010/010/010/itohapi.html",
+"override": null
+}
+]
+},
+{
+"area": "那珂川市",
+"lat": 33.499597,
+"lng": 130.4222,
+"prec": "area",
+"windows": [
+{
+"n": "こども応援課こども総合相談窓口",
+"t": null,
+"url": "https://www.city.nakagawa.lg.jp/",
+"override": null
+}
+]
+},
+{
+"area": "宇美町",
+"lat": 33.567768,
+"lng": 130.511208,
+"prec": "area",
+"windows": [
+{
+"n": "宇美町こども家庭センター",
+"t": null,
+"url": "https://www.town.umi.lg.jp/soshiki/42/47825.html",
+"override": null
+},
+{
+"n": "宇美町教育相談室（教育委員会学校教育課）",
+"t": "092-934-2245",
+"url": null,
+"override": null
+}
+]
+},
+{
+"area": "篠栗町",
+"lat": 33.623869,
+"lng": 130.526207,
+"prec": "area",
+"windows": [
+{
+"n": "篠栗町こども家庭センター（健康課）",
+"t": "092-947-8888",
+"url": null,
+"override": null
+},
+{
+"n": "篠栗町こども家庭センター（こども育成課）",
+"t": "092-947-1374",
+"url": null,
+"override": null
+}
+]
+},
+{
+"area": "志免町",
+"lat": 33.591503,
+"lng": 130.479807,
+"prec": "area",
+"windows": [
+{
+"n": "子育て支援課",
+"t": "092-935-1244",
+"url": null,
+"override": null
+},
+{
+"n": "子どもの権利相談室SK2S（スキッズ）",
+"t": null,
+"url": "https://www.town.shime.lg.jp/site/kodomo-kenri/kenrikyuusai.html",
+"override": null
+},
+{
+"n": "子どもの居場所「リリーフ」",
+"t": null,
+"url": "https://www.town.shime.lg.jp/site/kodomo-kenri/list127-342.html",
+"override": null
+}
+]
+},
+{
+"area": "須恵町",
+"lat": 33.587268,
+"lng": 130.507234,
+"prec": "area",
+"windows": [
+{
+"n": "学校教育課",
+"t": "092-687-1594",
+"url": null,
+"override": null
+},
+{
+"n": "こども家庭課",
+"t": "092-687-1530",
+"url": null,
+"override": null
+},
+{
+"n": "福祉課",
+"t": "092-932-1493",
+"url": null,
+"override": null
+},
+{
+"n": "社会教育課",
+"t": "092-934-0030",
+"url": null,
+"override": null
+},
+{
+"n": "子育て支援課",
+"t": "092-932-1459",
+"url": null,
+"override": null
+}
+]
+},
+{
+"area": "新宮町",
+"lat": 33.715313,
+"lng": 130.446567,
+"prec": "area",
+"windows": [
+{
+"n": "新宮町こども家庭センター　はぐうる",
+"t": null,
+"url": "https://www.town.shingu.fukuoka.jp/soshiki/kosodate/9/3607.html",
+"override": null
+}
+]
+},
+{
+"area": "久山町",
+"lat": 33.646726,
+"lng": 130.499906,
+"prec": "area",
+"windows": [
+{
+"n": "久山町こども家庭センター こそだテラス",
+"t": "070-3173-8673",
+"url": null,
+"override": null
+},
+{
+"n": "久山町こども家庭センター こそだテラスlittle",
+"t": "092-976-3377",
+"url": null,
+"override": null
+}
+]
+},
+{
+"area": "粕屋町",
+"lat": 33.610854,
+"lng": 130.480582,
+"prec": "area",
+"windows": [
+{
+"n": "粕屋町こども家庭センター",
+"t": null,
+"url": "https://www.town.kasuya.fukuoka.jp/kosodate/s045/010/010/20240401142751.html",
+"override": null
+},
+{
+"n": "粕屋町教育相談室",
+"t": null,
+"url": "https://www.town.kasuya.fukuoka.jp/s036/010/010/050/20191127170836.html",
+"override": null
+},
+{
+"n": "福祉課障がい支援係",
+"t": null,
+"url": "https://www.town.kasuya.fukuoka.jp/li/010/070/050/index.html",
+"override": null
+}
+]
+},
+{
+"area": "芦屋町",
+"lat": 33.893862,
+"lng": 130.663874,
+"prec": "area",
+"windows": [
+{
+"n": "健康・こども課　こども家庭センター",
+"t": null,
+"url": "https://www.town.ashiya.lg.jp/site/kosodate/21641.html",
+"override": null
+},
+{
+"n": "福祉課　障がい者・生活支援係",
+"t": "093-223-3530",
+"url": null,
+"override": null
+},
+{
+"n": "学校教育課　学校教育係",
+"t": "093-223-3547",
+"url": null,
+"override": null
+}
+]
+},
+{
+"area": "水巻町",
+"lat": 33.85485,
+"lng": 130.694783,
+"prec": "area",
+"windows": [
+{
+"n": "水巻町児童少年相談センター（ほっとステーション）",
+"t": null,
+"url": "https://www.town.mizumaki.lg.jp/s019/map/010/20201028120928.html",
+"override": null
+},
+{
+"n": "健康課 健康推進係",
+"t": null,
+"url": "https://www.town.mizumaki.lg.jp/",
+"override": null
+}
+]
+},
+{
+"area": "岡垣町",
+"lat": 33.853491,
+"lng": 130.611749,
+"prec": "area",
+"windows": [
+{
+"n": "こども家庭センター",
+"t": null,
+"url": "http://www.town.okagaki.lg.jp/s048/020/20240612100521.html",
+"override": null
+},
+{
+"n": "こども未来館",
+"t": null,
+"url": "https://www.town.okagaki.lg.jp/s050/030/020/090/20210807101227.html",
+"override": null
+},
+{
+"n": "教育相談",
+"t": null,
+"url": "http://www.town.okagaki.lg.jp/120/070/",
+"override": null
+}
+]
+},
+{
+"area": "遠賀町",
+"lat": 33.848166,
+"lng": 130.668341,
+"prec": "area",
+"windows": [
+{
+"n": "健康こども課 こども家庭センター",
+"t": "093-293-1400",
+"url": null,
+"override": null
+},
+{
+"n": "学校教育課学校教育係",
+"t": "093-293-1372",
+"url": null,
+"override": null
+},
+{
+"n": "住民課 協働人権係",
+"t": "093-293-1242",
+"url": null,
+"override": null
+}
+]
+},
+{
+"area": "小竹町",
+"lat": 33.692418,
+"lng": 130.712691,
+"prec": "area",
+"windows": [
+{
+"n": "健康こども課",
+"t": "0949-62-1864",
+"url": null,
+"override": null
+},
+{
+"n": "総務課",
+"t": "0949-62-1212",
+"url": null,
+"override": null
+},
+{
+"n": "教育課",
+"t": "0949-62-1961",
+"url": null,
+"override": null
+}
+]
+},
+{
+"area": "鞍手町",
+"lat": 33.792112,
+"lng": 130.674008,
+"prec": "area",
+"windows": [
+{
+"n": "鞍手町こども家庭センター",
+"t": "0949-42-2117",
+"url": null,
+"override": null
+},
+{
+"n": "福祉人権課福祉人権係",
+"t": "0949-42-2116",
+"url": null,
+"override": null
+}
+]
+},
+{
+"area": "桂川町",
+"lat": 33.578889,
+"lng": 130.678118,
+"prec": "area",
+"windows": [
+{
+"n": "桂川町子育て支援課",
+"t": null,
+"url": "http://www.town.keisen.fukuoka.jp/",
+"override": null
+},
+{
+"n": "桂川町健康福祉課母子保健係",
+"t": null,
+"url": "http://www.town.keisen.fukuoka.jp/kosodate/kodomokatei/kodomokatei-center.php",
+"override": null
+},
+{
+"n": "桂川町教育委員会学校教育課",
+"t": null,
+"url": "http://www.town.keisen.fukuoka.jp/",
+"override": null
+},
+{
+"n": "桂川町住民センター",
+"t": null,
+"url": "http://www.town.keisen.fukuoka.jp/",
+"override": null
+},
+{
+"n": "桂川町人権センター",
+"t": null,
+"url": "http://www.town.keisen.fukuoka.jp/",
+"override": null
+},
+{
+"n": "健康福祉課健康推進係",
+"t": null,
+"url": "http://www.town.keisen.fukuoka.jp/",
+"override": null
+},
+{
+"n": "健康福祉課高齢者・女性係",
+"t": null,
+"url": "http://www.town.keisen.fukuoka.jp/",
+"override": null
+}
+]
+},
+{
+"area": "筑前町",
+"lat": 33.457033,
+"lng": 130.595183,
+"prec": "area",
+"windows": [
+{
+"n": "こども未来センター",
+"t": "0120-24-7874",
+"url": null,
+"override": null
+},
+{
+"n": "こども課　母子保健係",
+"t": "0946-42-6653",
+"url": null,
+"override": null
+}
+]
+},
+{
+"area": "東峰村",
+"lat": 33.397314,
+"lng": 130.869919,
+"prec": "area",
+"windows": [
+{
+"n": "東峰村住民福祉課",
+"t": "0946-74-2311",
+"url": null,
+"override": null
+}
+]
+},
+{
+"area": "大刀洗町",
+"lat": 33.372425,
+"lng": 130.622454,
+"prec": "area",
+"windows": [
+{
+"n": "大刀洗町教育委員会こども課",
+"t": "0942-77-6205",
+"url": null,
+"override": null
+},
+{
+"n": "大刀洗町子育て支援センターちゃお",
+"t": "0942-77-5019",
+"url": null,
+"override": null
+}
+]
+},
+{
+"area": "大木町",
+"lat": 33.210453,
+"lng": 130.439806,
+"prec": "area",
+"windows": [
+{
+"n": "大木町こども家庭センター",
+"t": null,
+"url": "http://www.town.ooki.lg.jp/kosodate/sodan/index.html",
+"override": null
+},
+{
+"n": "大木町教育委員会教育相談",
+"t": null,
+"url": "https://www.town.ooki.lg.jp/soshiki/kodomo/gakkou/1/1422015185615.html",
+"override": null
+}
+]
+},
+{
+"area": "広川町",
+"lat": 33.241499,
+"lng": 130.551416,
+"prec": "area",
+"windows": [
+{
+"n": "広川町子ども家庭センター",
+"t": null,
+"url": "https://www.town.hirokawa.fukuoka.jp/soshiki/kyoikuiinkai_jimukyoku/4/2/1/index.html",
+"override": null
+}
+]
+},
+{
+"area": "香春町",
+"lat": 33.668006,
+"lng": 130.847401,
+"prec": "area",
+"windows": [
+{
+"n": "香春町役場福祉課子育て支援係",
+"t": null,
+"url": "https://www.town.kawara.fukuoka.jp/",
+"override": null
+},
+{
+"n": "香春町役場総務課人権同和推進係",
+"t": null,
+"url": "https://www.town.kawara.fukuoka.jp/",
+"override": null
+},
+{
+"n": "香春町役場保険健康課健康づくり係",
+"t": null,
+"url": "https://www.town.kawara.fukuoka.jp/",
+"override": null
+}
+]
+},
+{
+"area": "添田町",
+"lat": 33.571816,
+"lng": 130.854088,
+"prec": "area",
+"windows": [
+{
+"n": "添田町健康子育て応援課",
+"t": null,
+"url": "https://www.town.soeda.fukuoka.jp/",
+"override": null
+},
+{
+"n": "添田町教育委員会",
+"t": null,
+"url": "https://www.town.soeda.fukuoka.jp/",
+"override": null
+}
+]
+},
+{
+"area": "糸田町",
+"lat": 33.652736,
+"lng": 130.778958,
+"prec": "area",
+"windows": [
+{
+"n": "子育て支援課",
+"t": "0947-26-1233",
+"url": null,
+"override": null
+}
+]
+},
+{
+"area": "川崎町",
+"lat": 33.599956,
+"lng": 130.814915,
+"prec": "area",
+"windows": [
+{
+"n": "川崎町　健康づくり課",
+"t": null,
+"url": "https://www.town-kawasaki.com/yakubaannai/kakuka/983",
+"override": null
+}
+]
+},
+{
+"area": "大任町",
+"lat": 33.612164,
+"lng": 130.853742,
+"prec": "area",
+"windows": [
+{
+"n": "福祉課",
+"t": "0947-63-3004",
+"url": null,
+"override": null
+}
+]
+},
+{
+"area": "赤村",
+"lat": 33.616692,
+"lng": 130.870855,
+"prec": "area",
+"windows": [
+{
+"n": "赤村住民課福祉環境係",
+"t": "0947-62-3000",
+"url": null,
+"override": null
+}
+]
+},
+{
+"area": "福智町",
+"lat": 33.683263,
+"lng": 130.78012,
+"prec": "area",
+"windows": [
+{
+"n": "こども課福智町こども家庭センター",
+"t": null,
+"url": "https://www.town.fukuchi.lg.jp/soshiki/hoken/3990.html",
+"override": null
+},
+{
+"n": "人権推進課",
+"t": null,
+"url": "http://www.town.fukuchi.lg.jp/soshiki/jinken/index.html",
+"override": null
+}
+]
+},
+{
+"area": "苅田町",
+"lat": 33.776006,
+"lng": 130.980475,
+"prec": "area",
+"windows": [
+{
+"n": "子育て・健康課／子ども家庭センター（総合保健福祉センター内）",
+"t": "093-436-5115",
+"url": null,
+"override": null
+},
+{
+"n": "福祉課",
+"t": "093-434-1039",
+"url": null,
+"override": null
+},
+{
+"n": "かんだ女性ホットライン",
+"t": "093-436-4522",
+"url": null,
+"override": null
+},
+{
+"n": "子育て・健康課",
+"t": "093-588-1235",
+"url": null,
+"override": null
+}
+]
+},
+{
+"area": "みやこ町",
+"lat": 33.699236,
+"lng": 130.920096,
+"prec": "area",
+"windows": [
+{
+"n": "みやこ町子育て・健康支援課",
+"t": "0930-32-2725",
+"url": null,
+"override": null
+},
+{
+"n": "みやこ町人権男女共同参画室",
+"t": "0930-32-6009",
+"url": null,
+"override": null
+},
+{
+"n": "みやこ町教育委員会",
+"t": "0930-32-6005",
+"url": null,
+"override": null
+},
+{
+"n": "犀川子育て支援センター「なかよしキッズ」",
+"t": "0930-42-0733",
+"url": null,
+"override": null
+},
+{
+"n": "勝山子育て支援センター「バンビーノ」",
+"t": "080-9655-8516",
+"url": null,
+"override": null
+},
+{
+"n": "豊津子育て支援センター「ぴよぴよキッズ」",
+"t": "080-1740-0845",
+"url": null,
+"override": null
+}
+]
+},
+{
+"area": "吉富町",
+"lat": 33.602643,
+"lng": 131.175951,
+"prec": "area",
+"windows": [
+{
+"n": "子育て健康課",
+"t": "0979-24-1133",
+"url": null,
+"override": null
+},
+{
+"n": "あいあいセンター",
+"t": "0979-23-9900",
+"url": null,
+"override": null
+}
+]
+},
+{
+"area": "上毛町",
+"lat": 33.578425,
+"lng": 131.164207,
+"prec": "area",
+"windows": [
+{
+"n": "子ども未来課",
+"t": "0979-72-3127",
+"url": null,
+"override": null
+}
+]
+},
+{
+"area": "築上町",
+"lat": 33.656146,
+"lng": 131.05604,
+"prec": "area",
+"windows": [
+{
+"n": "築上町こども家庭センター",
+"t": null,
+"url": "https://www.town.chikujo.fukuoka.jp/s019/010/020/010/230/060/kodomokatei_center.html",
+"override": null
+}
+]
+}
+]

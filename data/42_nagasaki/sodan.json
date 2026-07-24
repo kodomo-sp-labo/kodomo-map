@@ -1,0 +1,578 @@
+[
+{
+"area": "長崎県",
+"lat": null,
+"lng": null,
+"prec": "unresolved",
+"windows": [
+{
+"n": "長崎こども・女性・障害者支援センター",
+"t": null,
+"url": "https://www.pref.nagasaki.jp/section/na-shien-c/",
+"override": null
+},
+{
+"n": "佐世保こども・女性・障害者支援センター",
+"t": null,
+"url": "https://www.pref.nagasaki.jp/section/sa-shien-c/index.html",
+"override": null
+},
+{
+"n": "長崎県子ども・若者総合相談センター「ゆめおす」",
+"t": null,
+"url": "http://www.n-kodomo-wakamono.jp/",
+"override": null
+},
+{
+"n": "（長崎県教育委員会）「24時間子供SOSダイヤル（親子ホットライン）」",
+"t": "0120-0-78310",
+"url": null,
+"override": null
+},
+{
+"n": "（長崎県教育委員会）メール相談",
+"t": null,
+"url": null,
+"override": null
+}
+]
+},
+{
+"area": "長崎市",
+"lat": 32.750311,
+"lng": 129.877906,
+"prec": "area",
+"windows": [
+{
+"n": "北多機関型地域包括支援センター",
+"t": null,
+"url": "https://www.city.nagasaki.lg.jp/fukushi/412000/412008/p031397.html",
+"override": null
+},
+{
+"n": "南多機関型地域包括支援センター",
+"t": null,
+"url": "https://www.city.nagasaki.lg.jp/fukushi/412000/412008/p031397.html",
+"override": null
+},
+{
+"n": "長崎市役所　こども・子育てイーカオ相談",
+"t": null,
+"url": "https://www.city.nagasaki.lg.jp/site/e-kao/6417.html",
+"override": null
+},
+{
+"n": "障害福祉課",
+"t": "095-829-1141",
+"url": null,
+"override": null
+},
+{
+"n": "長崎市障害福祉センター",
+"t": null,
+"url": "https://nc-swc.com/",
+"override": null
+},
+{
+"n": "学校教育課",
+"t": "095-829-1195",
+"url": null,
+"override": null
+}
+]
+},
+{
+"area": "佐世保市",
+"lat": 33.17990417513263,
+"lng": 129.71509009448167,
+"prec": "area",
+"windows": [
+{
+"n": "すこやか子どもセンター",
+"t": null,
+"url": "https://www.city.sasebo.lg.jp/kodomomirai/sukosen/sukosen.html",
+"override": null
+},
+{
+"n": "教育委員会　学校教育部青少年教育センター",
+"t": null,
+"url": "http://www.city.sasebo.ed.jp/asp/default.asp?sc=873",
+"override": null
+},
+{
+"n": "佐世保市生活福祉課",
+"t": null,
+"url": "https://www.city.sasebo.lg.jp/hokenhukusi/seikaf/seikon001.html",
+"override": null
+},
+{
+"n": "佐世保市保健福祉部宇久保健福祉センター",
+"t": null,
+"url": "https://www.city.sasebo.lg.jp",
+"override": null
+},
+{
+"n": "障がい福祉課",
+"t": null,
+"url": "https://www.city.sasebo.lg.jp/kenko/fukushi/shogaisha/sodan/index.html",
+"override": null
+}
+]
+},
+{
+"area": "島原市",
+"lat": 32.78812,
+"lng": 130.370526,
+"prec": "area",
+"windows": [
+{
+"n": "島原市こども課（家庭児童相談室）",
+"t": null,
+"url": "https://www.city.shimabara.lg.jp/page1285.html",
+"override": null
+},
+{
+"n": "島原市少年センター",
+"t": null,
+"url": "https://www.city.shimabara.lg.jp/page16900.html",
+"override": null
+}
+]
+},
+{
+"area": "諫早市",
+"lat": 32.844208,
+"lng": 130.053601,
+"prec": "area",
+"windows": [
+{
+"n": "子育て支援課",
+"t": "0957-22-1500",
+"url": null,
+"override": null
+},
+{
+"n": "障害福祉課",
+"t": "0957-22-1500",
+"url": null,
+"override": null
+},
+{
+"n": "学校教育課",
+"t": "0957-22-1500",
+"url": null,
+"override": null
+},
+{
+"n": "諫早市少年センター",
+"t": "0120-37-0537",
+"url": null,
+"override": null
+},
+{
+"n": "健康推進課",
+"t": "0957-22-1500",
+"url": null,
+"override": null
+},
+{
+"n": "すくすく広場",
+"t": "0957-46-5276",
+"url": null,
+"override": null
+}
+]
+},
+{
+"area": "大村市",
+"lat": 32.89996,
+"lng": 129.958217,
+"prec": "area",
+"windows": [
+{
+"n": "大村市こども家庭課",
+"t": null,
+"url": "https://www.city.omura.nagasaki.jp/kodomoshien/kenko/kosodate/okosan/yohogo.html",
+"override": null
+},
+{
+"n": "大村市児童虐待専用通報ダイヤル",
+"t": null,
+"url": "https://www.city.omura.nagasaki.jp/kodomoshien/kenko/kosodate/sodan/kosodatesoudan/gyakutai.html",
+"override": null
+},
+{
+"n": "少年センター",
+"t": "0957-49-5263",
+"url": null,
+"override": null
+},
+{
+"n": "大村市教育委員会学校教育課教育相談室",
+"t": "0957-47-6119",
+"url": null,
+"override": null
+}
+]
+},
+{
+"area": "平戸市",
+"lat": 33.368065,
+"lng": 129.553671,
+"prec": "area",
+"windows": [
+{
+"n": "平戸市子ども未来課",
+"t": "0950-22-9137",
+"url": null,
+"override": null
+},
+{
+"n": "平戸市学校教育課心のホットライン",
+"t": "0950-22-9215",
+"url": null,
+"override": null
+},
+{
+"n": "平戸市福祉課",
+"t": "0950-22-9130",
+"url": null,
+"override": null
+}
+]
+},
+{
+"area": "松浦市",
+"lat": 33.341023,
+"lng": 129.709047,
+"prec": "area",
+"windows": [
+{
+"n": "子育て・こども課",
+"t": null,
+"url": "https://www.city-matsuura.jp/top/purpose/kosodate.html",
+"override": null
+}
+]
+},
+{
+"area": "対馬市",
+"lat": 34.202643,
+"lng": 129.287518,
+"prec": "area",
+"windows": [
+{
+"n": "対馬市こども家庭センター",
+"t": "0920-58-1117",
+"url": null,
+"override": null
+}
+]
+},
+{
+"area": "壱岐市",
+"lat": 33.749978,
+"lng": 129.691377,
+"prec": "area",
+"windows": [
+{
+"n": "壱岐市子育て支援課",
+"t": null,
+"url": "https://www.city.iki.nagasaki.jp/soshiki/kodomo/index.html",
+"override": null
+}
+]
+},
+{
+"area": "五島市",
+"lat": 32.695541,
+"lng": 128.840815,
+"prec": "area",
+"windows": [
+{
+"n": "五島市こども未来課",
+"t": "0959-74-5831",
+"url": null,
+"override": null
+}
+]
+},
+{
+"area": "西海市",
+"lat": 32.933117,
+"lng": 129.642962,
+"prec": "area",
+"windows": [
+{
+"n": "西海市こども家庭課",
+"t": "0959-37-0029",
+"url": null,
+"override": null
+}
+]
+},
+{
+"area": "雲仙市",
+"lat": 32.835214,
+"lng": 130.187508,
+"prec": "area",
+"windows": [
+{
+"n": "子ども支援課",
+"t": "0957-36-2500",
+"url": null,
+"override": null
+}
+]
+},
+{
+"area": "南島原市",
+"lat": 32.659716,
+"lng": 130.297783,
+"prec": "area",
+"windows": [
+{
+"n": "子育てテレフォン",
+"t": "0957-73-6654",
+"url": null,
+"override": null
+},
+{
+"n": "南島原市配偶者暴力相談支援センター",
+"t": "0957-73-6655",
+"url": null,
+"override": null
+},
+{
+"n": "南島原市こども家庭センター",
+"t": "0957-73-6652",
+"url": null,
+"override": null
+}
+]
+},
+{
+"area": "長与町",
+"lat": 32.82517,
+"lng": 129.875071,
+"prec": "area",
+"windows": [
+{
+"n": "長与町こども家庭センター（長与町こども政策課）",
+"t": null,
+"url": "https://www.okikunare.jp",
+"override": null
+},
+{
+"n": "高田児童館（つばさひろば）",
+"t": null,
+"url": "https://www.okikunare.jp",
+"override": null
+},
+{
+"n": "上長与児童館（ひだまりひろば）",
+"t": null,
+"url": "https://www.okikunare.jp",
+"override": null
+},
+{
+"n": "長与北児童館（ふわりひろば）",
+"t": null,
+"url": "https://www.okikunare.jp",
+"override": null
+},
+{
+"n": "長与南児童館（にじいろひろば）",
+"t": null,
+"url": "https://www.okikunare.jp",
+"override": null
+},
+{
+"n": "長与児童館（すまいるひろば）",
+"t": null,
+"url": "https://www.okikunare.jp/list00873.html",
+"override": null
+},
+{
+"n": "長与町ひばり学級",
+"t": null,
+"url": "https://webtown.nagayo.jp",
+"override": null
+},
+{
+"n": "長与町適応指導教室「いぶき」",
+"t": null,
+"url": "https://webtown.nagayo.jp",
+"override": null
+},
+{
+"n": "長与子どもホットライン",
+"t": null,
+"url": "https://webtown.nagayo.jp",
+"override": null
+},
+{
+"n": "長与町福祉課",
+"t": null,
+"url": "https://webtown.nagayo.jp",
+"override": null
+},
+{
+"n": "長与町健康保険課",
+"t": null,
+"url": "https://webtown.nagayo.jp",
+"override": null
+}
+]
+},
+{
+"area": "時津町",
+"lat": 32.828885,
+"lng": 129.848527,
+"prec": "area",
+"windows": [
+{
+"n": "時津町役場福祉課",
+"t": "095-865-6940",
+"url": null,
+"override": null
+},
+{
+"n": "時津北児童館",
+"t": "095-881-7537",
+"url": null,
+"override": null
+},
+{
+"n": "時津なづみ児童館",
+"t": "095-881-3800",
+"url": null,
+"override": null
+},
+{
+"n": "時津中央児童館",
+"t": "095-882-4700",
+"url": null,
+"override": null
+},
+{
+"n": "時津東児童館",
+"t": "095-881-7733",
+"url": null,
+"override": null
+},
+{
+"n": "時津町こども家庭センター",
+"t": "095-882-2798",
+"url": null,
+"override": null
+}
+]
+},
+{
+"area": "川棚町",
+"lat": 33.072679,
+"lng": 129.861562,
+"prec": "area",
+"windows": [
+{
+"n": "川棚町　健康推進課",
+"t": null,
+"url": "https://www.kawatana.jp/",
+"override": null
+},
+{
+"n": "川棚町　住民福祉課",
+"t": null,
+"url": "https://www.kawatana.jp/",
+"override": null
+},
+{
+"n": "川棚町　教育委員会",
+"t": null,
+"url": "https://www.kawatana.jp/",
+"override": null
+}
+]
+},
+{
+"area": "波佐見町",
+"lat": 33.13789,
+"lng": 129.895548,
+"prec": "area",
+"windows": [
+{
+"n": "波佐見町　教育委員会",
+"t": null,
+"url": "https://www.town.hasami.lg.jp/machi/soshiki/koken/3_1/1/2/soudan/1524.html",
+"override": null
+},
+{
+"n": "波佐見町こども家庭センター",
+"t": null,
+"url": "https://www.town.hasami.lg.jp/machi/soshiki/koken/3_1/1/2/soudan/1524.html",
+"override": null
+}
+]
+},
+{
+"area": "小値賀町",
+"lat": 33.191074,
+"lng": 129.058766,
+"prec": "area",
+"windows": [
+{
+"n": "福祉事務所",
+"t": "0959-56-3111",
+"url": null,
+"override": null
+},
+{
+"n": "健康管理センター",
+"t": "0959-56-3111",
+"url": null,
+"override": null
+}
+]
+},
+{
+"area": "佐々町",
+"lat": 33.238426,
+"lng": 129.650353,
+"prec": "area",
+"windows": [
+{
+"n": "多世代包括支援センター",
+"t": "0956-63-5800",
+"url": null,
+"override": null
+}
+]
+},
+{
+"area": "新上五島町",
+"lat": 32.984553,
+"lng": 129.073401,
+"prec": "area",
+"windows": [
+{
+"n": "新上五島町福祉課",
+"t": null,
+"url": "https://official.shinkamigoto.net/goto_faq.php?fcid=f00017x0",
+"override": null
+},
+{
+"n": "新上五島町総務課",
+"t": null,
+"url": "https://official.shinkamigoto.net/contact.php?eid=00004&mg=1",
+"override": null
+},
+{
+"n": "新上五島町学校教育課",
+"t": null,
+"url": "https://official.shinkamigoto.net/contact.php?eid=00039&mg=1",
+"override": null
+}
+]
+}
+]

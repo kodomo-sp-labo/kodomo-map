@@ -1,0 +1,926 @@
+[
+{
+"area": "広島県",
+"lat": null,
+"lng": null,
+"prec": "unresolved",
+"windows": [
+{
+"n": "こころのライン相談＠広島県",
+"t": null,
+"url": "https://www.pref.hiroshima.lg.jp/soshiki/57/kokoro2023.html",
+"override": null
+},
+{
+"n": "ヤングテレホン広島（広島県警察本部）",
+"t": null,
+"url": "https://www.pref.hiroshima.lg.jp/site/police7/syonensoudan.html",
+"override": null
+},
+{
+"n": "「性暴力、セクハラ、パワハラ、体罰に関する通報・相談窓口」（広島県教育委員会）",
+"t": null,
+"url": "https://www.pref.hiroshima.lg.jp/site/kyouiku/sekuharamadoguti.html",
+"override": null
+},
+{
+"n": "「心のふれあい相談室」（広島県教育委員会）",
+"t": null,
+"url": "https://www.pref.hiroshima.lg.jp/site/kyouiku17/kokoro-no-fureai.html",
+"override": null
+},
+{
+"n": "「こころの相談室」（広島県教育委員会）",
+"t": null,
+"url": "https://www.pref.hiroshima.lg.jp/site/kyouiku/seitoshidou-soudankikan-index.html",
+"override": null
+},
+{
+"n": "「教育相談事業」（広島県教育委員会）",
+"t": null,
+"url": "https://www.pref.hiroshima.lg.jp/site/educenter/soudan-jigyo.html",
+"override": null
+},
+{
+"n": "「いじめダイヤル24」（広島県教育委員会）",
+"t": null,
+"url": "https://www.pref.hiroshima.lg.jp/site/kyouiku/seitoshidou-soudankikan-index.html",
+"override": null
+},
+{
+"n": "CIDC 難病対策センターひろしま小児難病相談室",
+"t": null,
+"url": "https://cidc.hiroshima-u.ac.jp",
+"override": null
+},
+{
+"n": "少年サポートセンターひろしま",
+"t": null,
+"url": "https://www.pref.hiroshima.lg.jp/site/police7/schiroshima.html",
+"override": null
+},
+{
+"n": "少年サポートセンターふくやま",
+"t": null,
+"url": "https://www.pref.hiroshima.lg.jp/site/police7/scfukuyama.html",
+"override": null
+},
+{
+"n": "少年サポートセンターひがしひろしま",
+"t": null,
+"url": "https://www.pref.hiroshima.lg.jp/site/police7/schigashihiroshima.html",
+"override": null
+},
+{
+"n": "西部こども家庭センター",
+"t": null,
+"url": "https://www.pref.hiroshima.lg.jp/site/kodomokateicenter/1170806048844.html",
+"override": null
+},
+{
+"n": "西部こども家庭センター東広島支所",
+"t": null,
+"url": "https://www.pref.hiroshima.lg.jp/site/kodomokateicenter/1170806048844.html",
+"override": null
+},
+{
+"n": "東部こども家庭センター",
+"t": null,
+"url": "https://www.pref.hiroshima.lg.jp/site/kodomokateicenter/1170806048844.html",
+"override": null
+},
+{
+"n": "東部こども家庭センター三原支所",
+"t": null,
+"url": "https://www.pref.hiroshima.lg.jp/site/kodomokateicenter/1170806048844.html",
+"override": null
+},
+{
+"n": "北部こども家庭センター",
+"t": null,
+"url": "https://www.pref.hiroshima.lg.jp/site/kodomokateicenter/1170806048844.html",
+"override": null
+}
+]
+},
+{
+"area": "広島市",
+"lat": 34.385253,
+"lng": 132.455337,
+"prec": "area",
+"windows": [
+{
+"n": "少年サポートセンターひろしま",
+"t": null,
+"url": "https://www.city.hiroshima.lg.jp/living/kosodate/1021253/1025966/1003490.html",
+"override": null
+},
+{
+"n": "広島市児童相談所",
+"t": null,
+"url": "https://www.city.hiroshima.lg.jp/living/kosodate/1021253/1025913/1025967/1003515.html",
+"override": null
+},
+{
+"n": "中区こども家庭センター",
+"t": null,
+"url": "https://www.city.hiroshima.lg.jp/living/kosodate/1021253/hiromaru/1032109/kosodate-soudan/1025883/1008337.html",
+"override": null
+},
+{
+"n": "東区こども家庭センター",
+"t": null,
+"url": "https://www.city.hiroshima.lg.jp/living/kosodate/1021253/hiromaru/1032109/kosodate-soudan/1025883/1008337.html",
+"override": null
+},
+{
+"n": "南区こども家庭センター",
+"t": null,
+"url": "https://www.city.hiroshima.lg.jp/living/kosodate/1021253/hiromaru/1032109/kosodate-soudan/1025883/1008337.html",
+"override": null
+},
+{
+"n": "西区こども家庭センター",
+"t": null,
+"url": "https://www.city.hiroshima.lg.jp/living/kosodate/1021253/hiromaru/1032109/kosodate-soudan/1025883/1008337.html",
+"override": null
+},
+{
+"n": "安佐南区こども家庭センター",
+"t": null,
+"url": "https://www.city.hiroshima.lg.jp/living/kosodate/1021253/hiromaru/1032109/kosodate-soudan/1025883/1008337.html",
+"override": null
+},
+{
+"n": "安佐北区こども家庭センター",
+"t": null,
+"url": "https://www.city.hiroshima.lg.jp/living/kosodate/1021253/hiromaru/1032109/kosodate-soudan/1025883/1008337.html",
+"override": null
+},
+{
+"n": "安芸区こども家庭センター",
+"t": null,
+"url": "https://www.city.hiroshima.lg.jp/living/kosodate/1021253/hiromaru/1032109/kosodate-soudan/1025883/1008337.html",
+"override": null
+},
+{
+"n": "佐伯区こども家庭センター",
+"t": null,
+"url": "https://www.city.hiroshima.lg.jp/living/kosodate/1021253/hiromaru/1032109/kosodate-soudan/1025883/1008337.html",
+"override": null
+},
+{
+"n": "広島市ヤングケアラー専用の相談窓口",
+"t": null,
+"url": "https://www.city.hiroshima.lg.jp/_res/projects/default_project/_page_/001/023/753/tirasi.pdf",
+"override": null
+},
+{
+"n": "広島市青少年総合相談センター（青少年相談）",
+"t": null,
+"url": "https://www.city.hiroshima.lg.jp/faq/education/1001633/1002477.html",
+"override": null
+},
+{
+"n": "広島市青少年総合相談センター（障害のあるこどもの就学・教育相談）",
+"t": null,
+"url": "https://www.city.hiroshima.lg.jp/living/kosodate/1021261/1025981/1023708.html",
+"override": null
+}
+]
+},
+{
+"area": "呉市",
+"lat": 34.249254,
+"lng": 132.565805,
+"prec": "area",
+"windows": [
+{
+"n": "呉市こども家庭相談課",
+"t": null,
+"url": "https://www.city.kure.lg.jp/soshiki/61/kateizidousoudan.html",
+"override": null
+},
+{
+"n": "こども家庭センターえがお",
+"t": null,
+"url": "https://www.city.kure.lg.jp/soshiki/44/kuresikodomokateinsenta.html",
+"override": null
+}
+]
+},
+{
+"area": "竹原市",
+"lat": 34.341794,
+"lng": 132.907091,
+"prec": "area",
+"windows": [
+{
+"n": "竹原市健康こども未来課こども家庭支援係",
+"t": null,
+"url": "https://www.city.takehara.lg.jp/soshikikarasagasu/kenkofukushika/gyomuannai/kodomo/soudan/index.html",
+"override": null
+},
+{
+"n": "竹原市地域支えあい推進課生活支援係",
+"t": null,
+"url": "https://www.city.takehara.lg.jp/iryo_kenko_fukushi/seikatsushien/index.html",
+"override": null
+},
+{
+"n": "竹原市地域づくり課人権男女共同参画係",
+"t": null,
+"url": "https://www.city.takehara.lg.jp/gyoseijoho/jinken_danjokyodosankaku/jinken/7228.html",
+"override": null
+},
+{
+"n": "竹原市健康こども未来課健康増進係",
+"t": null,
+"url": "https://www.city.takehara.lg.jp/soshikikarasagasu/kenkofukushika/gyomuannai/2/1/1256.html",
+"override": null
+}
+]
+},
+{
+"area": "三原市",
+"lat": 34.39747,
+"lng": 133.078525,
+"prec": "area",
+"windows": [
+{
+"n": "三原市子育て支援課",
+"t": null,
+"url": "https://www.city.mihara.hiroshima.jp/site/kosodate/145315.html",
+"override": null
+},
+{
+"n": "三原市こども安心課（こども家庭センター「すくすく三原」）",
+"t": null,
+"url": "https://www.city.mihara.hiroshima.jp/ques/questionnaire.php?openid=10&check",
+"override": null
+},
+{
+"n": "本郷保健福祉センター（こども家庭センター「すくすく本郷」）",
+"t": null,
+"url": "https://www.city.mihara.hiroshima.jp/ques/questionnaire.php?openid=10&check",
+"override": null
+},
+{
+"n": "久井保健福祉センター（こども家庭センター「すくすく久井」）",
+"t": null,
+"url": "https://www.city.mihara.hiroshima.jp/ques/questionnaire.php?openid=10&check",
+"override": null
+},
+{
+"n": "大和保健福祉センター（こども家庭センター「すくすく大和」）",
+"t": null,
+"url": "https://www.city.mihara.hiroshima.jp/ques/questionnaire.php?openid=10&check",
+"override": null
+},
+{
+"n": "三原市人権推進課",
+"t": null,
+"url": "https://www.city.mihara.hiroshima.jp/soshiki/22/126359.html",
+"override": null
+},
+{
+"n": "三原市人権文化センター",
+"t": null,
+"url": "https://www.city.mihara.hiroshima.jp/soshiki/22/126359.html",
+"override": null
+},
+{
+"n": "三原市本郷人権文化センター",
+"t": null,
+"url": "https://www.city.mihara.hiroshima.jp/soshiki/22/126359.html",
+"override": null
+},
+{
+"n": "三原市大和人権文化センター",
+"t": null,
+"url": "https://www.city.mihara.hiroshima.jp/soshiki/22/126359.html",
+"override": null
+},
+{
+"n": "三原市学校教育課",
+"t": null,
+"url": "https://www.city.mihara.hiroshima.jp/site/kyouiku/131313.html",
+"override": null
+},
+{
+"n": "三原市学校教育課",
+"t": null,
+"url": "https://www.city.mihara.hiroshima.jp/site/kyouiku/kodomosapoto.html",
+"override": null
+}
+]
+},
+{
+"area": "尾道市",
+"lat": 34.408891,
+"lng": 133.204966,
+"prec": "area",
+"windows": [
+{
+"n": "尾道市子育て支援課（子ども家庭総合支援拠点）",
+"t": null,
+"url": "https://www.city.onomichi.hiroshima.jp/site/onohug/",
+"override": null
+},
+{
+"n": "尾道市社会福祉課（保護係）",
+"t": null,
+"url": "https://www.city.onomichi.hiroshima.jp/soshiki/21/",
+"override": null
+},
+{
+"n": "尾道市教育委員会教育指導課",
+"t": null,
+"url": "https://www.city.onomichi.hiroshima.jp/site/onohug/1529.html",
+"override": null
+},
+{
+"n": "尾道市青少年センター相談室",
+"t": null,
+"url": "https://www.city.onomichi.hiroshima.jp/site/kyoiku/3131.html",
+"override": null
+},
+{
+"n": "尾道市健康推進課すこやか親子係",
+"t": null,
+"url": "https://www.city.onomichi.hiroshima.jp/soshiki/19/",
+"override": null
+},
+{
+"n": "尾道市御調保健福祉センター",
+"t": null,
+"url": "https://www.city.onomichi.hiroshima.jp/soshiki/40/",
+"override": null
+},
+{
+"n": "女性相談（尾道市社会福祉課）",
+"t": null,
+"url": "https://www.city.onomichi.hiroshima.jp/soshiki/21/2357.html",
+"override": null
+},
+{
+"n": "女性相談（因島総合支所因島福祉課）",
+"t": null,
+"url": "https://www.city.onomichi.hiroshima.jp/soshiki/21/2357.html",
+"override": null
+},
+{
+"n": "尾道市教育相談コーナー",
+"t": "0848-37-2983",
+"url": null,
+"override": null
+},
+{
+"n": "尾道市人権男女共同参画課",
+"t": null,
+"url": "https://www.city.onomichi.hiroshima.jp/site/onohug/2619.html",
+"override": null
+}
+]
+},
+{
+"area": "福山市",
+"lat": 34.485927,
+"lng": 133.36234,
+"prec": "area",
+"windows": [
+{
+"n": "少年サポートセンターふくやま",
+"t": "084-925-7011",
+"url": null,
+"override": null
+},
+{
+"n": "ネウボラ推進課相談支援担当（福山市こども家庭センター）",
+"t": null,
+"url": "https://www.city.fukuyama.hiroshima.jp/site/kosodate/235791.html",
+"override": null
+},
+{
+"n": "若者・くらしの悩み相談課",
+"t": null,
+"url": "https://www.city.fukuyama.hiroshima.jp/soshiki/wakamono-kurashi/",
+"override": null
+},
+{
+"n": "福山市保健所健康推進課",
+"t": "084-928-3421",
+"url": null,
+"override": null
+},
+{
+"n": "障がい福祉課相談支援担当",
+"t": "084-928-1208",
+"url": null,
+"override": null
+},
+{
+"n": "福山市教育相談センター",
+"t": "0120-874-783",
+"url": null,
+"override": null
+},
+{
+"n": "ネウボラセンター（若者・くらしの悩み相談課）",
+"t": null,
+"url": "https://www.city.fukuyama.hiroshima.jp/site/neuvola-center/",
+"override": null
+}
+]
+},
+{
+"area": "府中市",
+"lat": 34.568349,
+"lng": 133.236323,
+"prec": "area",
+"windows": [
+{
+"n": "子育て応援課",
+"t": "0847-44-9146",
+"url": null,
+"override": null
+},
+{
+"n": "福祉課",
+"t": "0847-44-9152",
+"url": null,
+"override": null
+},
+{
+"n": "福祉課",
+"t": "0847-44-9149",
+"url": null,
+"override": null
+},
+{
+"n": "健康推進課",
+"t": "0847-47-1310",
+"url": null,
+"override": null
+},
+{
+"n": "学校教育課",
+"t": "0847-44-9026",
+"url": null,
+"override": null
+},
+{
+"n": "上下支所（ふらっと上下）",
+"t": "0847-62-2231",
+"url": null,
+"override": null
+},
+{
+"n": "子育て応援課 子育てステーションちゅちゅ",
+"t": "0847-44-6688　0847-46-2455",
+"url": null,
+"override": null
+}
+]
+},
+{
+"area": "三次市",
+"lat": 34.805627,
+"lng": 132.85179,
+"prec": "area",
+"windows": [
+{
+"n": "三次市こども家庭センター（こども家庭支援課）",
+"t": null,
+"url": "https://www.city.miyoshi.hiroshima.jp/site/kosodate/1926.html",
+"override": null
+},
+{
+"n": "三次市健康推進課",
+"t": null,
+"url": "https://www.city.miyoshi.hiroshima.jp/soshiki/23/2435.html",
+"override": null
+},
+{
+"n": "三次市こども応援センター",
+"t": null,
+"url": "https://www.city.miyoshi.hiroshima.jp/soshiki/36/3074.html",
+"override": null
+},
+{
+"n": "三次市スクールカウンセラー（三次市こども応援センター内）",
+"t": null,
+"url": "https://www.city.miyoshi.hiroshima.jp/soshiki/36/3074.html",
+"override": null
+},
+{
+"n": "三次市教育支援ルーム",
+"t": null,
+"url": "https://www.city.miyoshi.hiroshima.jp/site/kosodate/3075.html",
+"override": null
+},
+{
+"n": "三次市共生社会推進課",
+"t": null,
+"url": "https://www.city.miyoshi.hiroshima.jp/soshiki/9/1329.html",
+"override": null
+}
+]
+},
+{
+"area": "庄原市",
+"lat": 34.857743,
+"lng": 133.017264,
+"prec": "area",
+"windows": [
+{
+"n": "庄原市教育委員会 教育指導課",
+"t": "0824-73-1184",
+"url": null,
+"override": null
+},
+{
+"n": "庄原市保健医療課 健康推進係",
+"t": "0824-73-1255",
+"url": null,
+"override": null
+},
+{
+"n": "庄原市児童福祉課",
+"t": "0824-73-1243",
+"url": null,
+"override": null
+},
+{
+"n": "庄原市社会福祉課",
+"t": "0824-73-1166",
+"url": null,
+"override": null
+}
+]
+},
+{
+"area": "大竹市",
+"lat": 34.237952,
+"lng": 132.222361,
+"prec": "area",
+"windows": [
+{
+"n": "大竹市家庭児童相談室",
+"t": null,
+"url": "https://www.city.otake.hiroshima.jp/soshiki/kenkofukushi/fukushi/gyomu/4/kosodate.html",
+"override": null
+},
+{
+"n": "大竹市こども相談室",
+"t": null,
+"url": "https://www.city.otake.hiroshima.jp/soshiki/kyoikuiinkai/somugakuji/kyouiku_shisetsu/1456212037204.html",
+"override": null
+},
+{
+"n": "大竹市保健医療課",
+"t": null,
+"url": "https://www.city.otake.hiroshima.jp/soshiki/kenkofukushi/hokeniryou/gyomu/10/index.html",
+"override": null
+},
+{
+"n": "子育て相談ルーム（大竹市民生委員児童委員協議会）",
+"t": null,
+"url": "https://www.city.otake.hiroshima.jp/soshiki/kenkofukushi/fukushi/gyomu/4/kosodate.html",
+"override": null
+},
+{
+"n": "大竹市子育て支援センターどんぐりHOUSE",
+"t": null,
+"url": "https://www.city.otake.hiroshima.jp/kosodate_info/1601266671187.html",
+"override": null
+},
+{
+"n": "大竹市福祉課",
+"t": null,
+"url": "https://www.city.otake.hiroshima.jp/soshiki/kenkofukushi/fukushi/gyomu/4/kosodate.html",
+"override": null
+},
+{
+"n": "まるっと大竹",
+"t": null,
+"url": "https://www.city.otake.hiroshima.jp/soshiki/kenkofukushi/fukushi/gyomu/4/kosodate.html",
+"override": null
+}
+]
+},
+{
+"area": "東広島市",
+"lat": 34.426787,
+"lng": 132.743746,
+"prec": "area",
+"windows": [
+{
+"n": "東広島市こども未来部こども家庭課",
+"t": null,
+"url": "https://www.city.higashihiroshima.lg.jp/soshiki/kodomomirai/1/index.html",
+"override": null
+}
+]
+},
+{
+"area": "廿日市市",
+"lat": 34.348416,
+"lng": 132.331541,
+"prec": "area",
+"windows": [
+{
+"n": "子育て応援室",
+"t": null,
+"url": "https://www.city.hatsukaichi.hiroshima.jp/site/kosodate/12009.html",
+"override": null
+},
+{
+"n": "学校教育課",
+"t": null,
+"url": "https://www.city.hatsukaichi.hiroshima.jp/site/kosodate/14231.html",
+"override": null
+},
+{
+"n": "人権・市民生活課",
+"t": null,
+"url": "https://www.city.hatsukaichi.hiroshima.jp/soshiki/30/37558.html",
+"override": null
+},
+{
+"n": "はつかいち生活支援センター",
+"t": null,
+"url": "https://hatsupy.jp/seikatsushien/",
+"override": null
+},
+{
+"n": "障害福祉課",
+"t": null,
+"url": "https://www.city.hatsukaichi.hiroshima.jp/soshiki/34/",
+"override": null
+},
+{
+"n": "子育て応援室",
+"t": null,
+"url": "https://www.city.hatsukaichi.hiroshima.jp/soshiki/106/",
+"override": null
+}
+]
+},
+{
+"area": "安芸高田市",
+"lat": 34.666099,
+"lng": 132.703977,
+"prec": "area",
+"windows": [
+{
+"n": "ネウボラあきたかた",
+"t": null,
+"url": "https://www.akitakata.jp/ja/shisei/section/koureihukusi/",
+"override": null
+},
+{
+"n": "こども家庭センター（子育て支援センター）",
+"t": null,
+"url": "https://www.akitakata.jp/ja/shisei/section/koureihukusi/",
+"override": null
+},
+{
+"n": "こども発達支援センター",
+"t": null,
+"url": "https://www.akitakata.jp/ja/shisei/section/koureihukusi/support-center/",
+"override": null
+}
+]
+},
+{
+"area": "江田島市",
+"lat": 34.222941,
+"lng": 132.443794,
+"prec": "area",
+"windows": [
+{
+"n": "江田島市子育て世代包括支援センター",
+"t": null,
+"url": "https://www.city.etajima.hiroshima.jp/cms/articles/show/8415",
+"override": null
+}
+]
+},
+{
+"area": "府中町",
+"lat": 34.392589,
+"lng": 132.504544,
+"prec": "area",
+"windows": [
+{
+"n": "子育て支援課（こども家庭センター）家庭相談支援係",
+"t": null,
+"url": "https://www.town.fuchu.hiroshima.jp/site/kosodateshiennka/",
+"override": null
+},
+{
+"n": "子育て支援課（こども家庭センター）母子保健係",
+"t": null,
+"url": "https://www.town.fuchu.hiroshima.jp/site/kosodateshiennka/",
+"override": null
+}
+]
+},
+{
+"area": "海田町",
+"lat": 34.372159,
+"lng": 132.536155,
+"prec": "area",
+"windows": [
+{
+"n": "海田町こども課",
+"t": null,
+"url": "https://www.town.kaita.lg.jp/soshiki/14/",
+"override": null
+},
+{
+"n": "海田町社会福祉課",
+"t": null,
+"url": "https://www.town.kaita.lg.jp/soshiki/13/19382.html",
+"override": null
+},
+{
+"n": "海田町健康づくり推進課",
+"t": null,
+"url": "https://www.town.kaita.lg.jp/soshiki/21/",
+"override": null
+},
+{
+"n": "海田町ひまわりプラザ",
+"t": null,
+"url": "https://www.town.kaita.lg.jp/site/neubora/",
+"override": null
+},
+{
+"n": "海田町教育委員会学校教育課",
+"t": null,
+"url": "https://www.town.kaita.lg.jp/site/kaitachokyouikuiinkai/",
+"override": null
+}
+]
+},
+{
+"area": "熊野町",
+"lat": 34.335783,
+"lng": 132.584604,
+"prec": "area",
+"windows": [
+{
+"n": "くまの・こども夢プラザ",
+"t": null,
+"url": "https://www.town.kumano.hiroshima.jp/www/contents/1331707089226/index.html",
+"override": null
+},
+{
+"n": "健康推進課",
+"t": null,
+"url": "https://www.town.kumano.hiroshima.jp/www/contents/1331707089226/index.html",
+"override": null
+},
+{
+"n": "教育総務課",
+"t": "082-820-5620",
+"url": null,
+"override": null
+},
+{
+"n": "生活環境課",
+"t": "082-820-5606",
+"url": null,
+"override": null
+}
+]
+},
+{
+"area": "坂町",
+"lat": 34.341282,
+"lng": 132.513639,
+"prec": "area",
+"windows": [
+{
+"n": "こども家庭センター",
+"t": "082-820-1505",
+"url": null,
+"override": null
+},
+{
+"n": "坂町立保健センター",
+"t": "082-885-3131",
+"url": null,
+"override": null
+},
+{
+"n": "保健・福祉総合相談室",
+"t": "082-820-1550",
+"url": null,
+"override": null
+}
+]
+},
+{
+"area": "安芸太田町",
+"lat": 34.576731,
+"lng": 132.227141,
+"prec": "area",
+"windows": [
+{
+"n": "親子相談支援センター",
+"t": null,
+"url": "https://www.akiota.jp/site/kosodate/1142.html",
+"override": null
+}
+]
+},
+{
+"area": "北広島町",
+"lat": 34.674541,
+"lng": 132.538427,
+"prec": "area",
+"windows": [
+{
+"n": "町民保健課・健康増進係",
+"t": null,
+"url": "https://www.town.kitahiroshima.lg.jp/soshiki/3/goiken-otoiawase.html",
+"override": null
+},
+{
+"n": "きたひろこども家庭センター（こども家庭課）",
+"t": null,
+"url": "https://www.town.kitahiroshima.lg.jp/soshiki/3/goiken-otoiawase.html",
+"override": null
+},
+{
+"n": "教育委員会",
+"t": null,
+"url": "https://www.town.kitahiroshima.lg.jp/soshiki/3/goiken-otoiawase.html",
+"override": null
+}
+]
+},
+{
+"area": "大崎上島町",
+"lat": 34.269552,
+"lng": 132.914963,
+"prec": "area",
+"windows": [
+{
+"n": "大崎上島町健康福祉課",
+"t": "0846-62-0303",
+"url": null,
+"override": null
+}
+]
+},
+{
+"area": "世羅町",
+"lat": 34.586837,
+"lng": 133.056631,
+"prec": "area",
+"windows": [
+{
+"n": "世羅町子育て支援課",
+"t": "0847-25-0295",
+"url": null,
+"override": null
+}
+]
+},
+{
+"area": "神石高原町",
+"lat": 34.703654,
+"lng": 133.247642,
+"prec": "area",
+"windows": [
+{
+"n": "神石高原町子育て応援課",
+"t": "0847-89-3368",
+"url": null,
+"override": null
+},
+{
+"n": "神石高原町福祉課",
+"t": "0847-89-3335",
+"url": null,
+"override": null
+},
+{
+"n": "神石高原町教育課",
+"t": "0847-89-3341",
+"url": null,
+"override": null
+},
+{
+"n": "神石高原町社会福祉協議会",
+"t": "0847-85-2330",
+"url": null,
+"override": null
+}
+]
+}
+]

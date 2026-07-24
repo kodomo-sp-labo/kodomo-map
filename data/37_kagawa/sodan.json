@@ -1,0 +1,590 @@
+[
+{
+"area": "香川県",
+"lat": null,
+"lng": null,
+"prec": "unresolved",
+"windows": [
+{
+"n": "香川県子ども女性相談センター",
+"t": null,
+"url": "https://www.pref.kagawa.lg.jp/kodomo/kj-soudan/kfvn.html",
+"override": null
+},
+{
+"n": "香川県西部子ども相談センター",
+"t": null,
+"url": "https://www.pref.kagawa.lg.jp/kodomo/seibu/kfvn.html",
+"override": null
+},
+{
+"n": "児童家庭支援センターけいあい",
+"t": null,
+"url": "https://www.keiaifukushi.jp/keiai-support/",
+"override": null
+},
+{
+"n": "香川県障害福祉相談所",
+"t": null,
+"url": "http://www.pref.kagawa.lg.jp/content/etc/subsite/shousou/index.shtml",
+"override": null
+},
+{
+"n": "発達障害者支援センター（アルプスかがわ）",
+"t": null,
+"url": "http://kagawa-reha.net/alps.html",
+"override": null
+},
+{
+"n": "香川県障害福祉課",
+"t": null,
+"url": "https://www.pref.kagawa.lg.jp/shogaifukushi/index.html",
+"override": null
+},
+{
+"n": "香川県障害福祉課",
+"t": null,
+"url": "https://www.pref.kagawa.lg.jp/shogaifukushi/kokoro/soudan/snssoudan.html",
+"override": null
+},
+{
+"n": "香川県精神保健福祉センター（こころの電話相談）",
+"t": null,
+"url": "https://www.pref.kagawa.lg.jp/seishinhoken/seishinhoken/denwa.html",
+"override": null
+},
+{
+"n": "香川県教育センター来所相談（予約受付）",
+"t": null,
+"url": "https://www.kagawa-edu.jp/educ01/section/consul/counter#frame-50",
+"override": null
+},
+{
+"n": "香川県教育センター子育て電話相談",
+"t": null,
+"url": "https://www.kagawa-edu.jp/educ01/section/consul/counter#frame-50",
+"override": null
+},
+{
+"n": "香川県教育センター24時間いじめ電話相談",
+"t": null,
+"url": "https://www.kagawa-edu.jp/educ01/section/consul/counter#frame-50",
+"override": null
+},
+{
+"n": "香川県教育センター子どものネットトラブル相談",
+"t": null,
+"url": "https://www.kagawa-edu.jp/educ01/section/consul/counter#frame-50",
+"override": null
+},
+{
+"n": "香川県教育センターメール相談",
+"t": null,
+"url": "https://www.kagawa-edu.jp/educ01/consul/counter/mail",
+"override": null
+},
+{
+"n": "人権・同和教育課",
+"t": null,
+"url": "https://www.pref.kagawa.lg.jp/kenkyoui/dowakyoiku/jinken/info1225.html",
+"override": null
+},
+{
+"n": "東讃保健福祉事務所",
+"t": null,
+"url": "https://www.pref.kagawa.lg.jp/tosanhoken/",
+"override": null
+},
+{
+"n": "小豆総合事務所",
+"t": null,
+"url": "https://www.pref.kagawa.lg.jp/shozu/hoken/shozu_hokenfukushi.html",
+"override": null
+},
+{
+"n": "中讃保健福祉事務所",
+"t": null,
+"url": "https://www.pref.kagawa.lg.jp/chusanhoken/chusanhoken/soudan/soudan_1.html",
+"override": null
+},
+{
+"n": "西讃保健福祉事務所",
+"t": null,
+"url": "https://www.pref.kagawa.lg.jp/seisanhoken/seisanhoken/soudan/kfvn.html",
+"override": null
+},
+{
+"n": "香川県精神保健福祉センター（対面・メール相談）",
+"t": null,
+"url": "https://www.pref.kagawa.lg.jp/seishinhoken/seishinhoken/kfvn.html",
+"override": null
+},
+{
+"n": "香川県ひきこもり地域支援センターアンダンテ",
+"t": null,
+"url": "https://www.pref.kagawa.lg.jp/seishinhoken/seishinhoken/hikikomori/kfvn.html",
+"override": null
+}
+]
+},
+{
+"area": "高松市",
+"lat": 34.342791,
+"lng": 134.046574,
+"prec": "area",
+"windows": [
+{
+"n": "わはは・ひろば高松",
+"t": null,
+"url": "https://npo-wahaha.net/business/coordinator.html",
+"override": null
+},
+{
+"n": "ひまわりはうす　とことこ",
+"t": null,
+"url": "https://himawarinet.hp.peraichi.com/1",
+"override": null
+},
+{
+"n": "にしおか医院　地域子育て支援センター",
+"t": null,
+"url": "https://www.jinsenkai.jp/child/coordinator/",
+"override": null
+},
+{
+"n": "高松市教育局生涯学習課少年育成センター",
+"t": null,
+"url": "https://www.city.takamatsu.kagawa.jp/smph/kurashi/kosodate/seisyounen/soudan/index.html",
+"override": null
+},
+{
+"n": "いじめや不登校に関する相談電話",
+"t": "087-821-0099",
+"url": null,
+"override": null
+},
+{
+"n": "高松市健康づくり推進課（高松市保健センター内）・こども家庭センター",
+"t": "087-839-2363",
+"url": null,
+"override": null
+},
+{
+"n": "高松市仏生山保健センター・こども家庭センター",
+"t": "087-889-7772",
+"url": null,
+"override": null
+},
+{
+"n": "勝賀保健ステーション・こども家庭センター",
+"t": "087-882-7971",
+"url": null,
+"override": null
+},
+{
+"n": "牟礼保健ステーション・こども家庭センター",
+"t": "087-845-5249",
+"url": null,
+"override": null
+},
+{
+"n": "香川保健ステーション・こども家庭センター",
+"t": "087-879-0371",
+"url": null,
+"override": null
+},
+{
+"n": "国分寺保健ステーション・こども家庭センター",
+"t": "087-874-8200",
+"url": null,
+"override": null
+},
+{
+"n": "山田保健ステーション・こども家庭センター",
+"t": "087-848-6581",
+"url": null,
+"override": null
+},
+{
+"n": "春日こども園地域子育て支援センター",
+"t": "087-841-1920",
+"url": null,
+"override": null
+},
+{
+"n": "こども女性相談課・こども家庭センター",
+"t": "087-839-2384",
+"url": null,
+"override": null
+}
+]
+},
+{
+"area": "丸亀市",
+"lat": 34.289482,
+"lng": 133.797716,
+"prec": "area",
+"windows": [
+{
+"n": "丸亀市健康課",
+"t": "0877-24-8806",
+"url": null,
+"override": null
+},
+{
+"n": "丸亀市少年育成センター",
+"t": "0120-734970（無料）　0877-22-4970",
+"url": null,
+"override": null
+},
+{
+"n": "子育て支援課",
+"t": "0877-24-8808",
+"url": null,
+"override": null
+},
+{
+"n": "子育て支援こども家庭センター",
+"t": "0877-23-2201",
+"url": null,
+"override": null
+}
+]
+},
+{
+"area": "坂出市",
+"lat": 34.316478,
+"lng": 133.860502,
+"prec": "area",
+"windows": [
+{
+"n": "坂出市少年育成センター",
+"t": null,
+"url": "https://www.city.sakaide.lg.jp/soshiki/syounenikusei/soudan.html",
+"override": null
+},
+{
+"n": "坂出市役所健康福祉部けんこう課",
+"t": "0877-44-5006",
+"url": null,
+"override": null
+}
+]
+},
+{
+"area": "善通寺市",
+"lat": 34.228417,
+"lng": 133.787153,
+"prec": "area",
+"windows": [
+{
+"n": "子ども課（こども家庭センター）",
+"t": null,
+"url": "https://www.city.zentsuji.kagawa.jp/site/kosodatehotcom/",
+"override": null
+}
+]
+},
+{
+"area": "観音寺市",
+"lat": 34.12737,
+"lng": 133.661597,
+"prec": "area",
+"windows": [
+{
+"n": "観音寺市こども家庭課（こども家庭センター）",
+"t": null,
+"url": "https://www.city.kanonji.kagawa.jp/soshiki/55/",
+"override": null
+}
+]
+},
+{
+"area": "さぬき市",
+"lat": 34.32521,
+"lng": 134.171989,
+"prec": "area",
+"windows": [
+{
+"n": "さぬき市少年育成センター",
+"t": "0879-26-9977",
+"url": null,
+"override": null
+},
+{
+"n": "さぬきッズ子育てサポートセンター",
+"t": null,
+"url": "https://www.city.sanuki.lg.jp/soshiki/kosodateshien/gyomu/1/255.html",
+"override": null
+},
+{
+"n": "さぬき市国保・健康課",
+"t": null,
+"url": "https://www.city.sanuki.lg.jp/soshiki/kokuhokenko/index.html",
+"override": null
+}
+]
+},
+{
+"area": "東かがわ市",
+"lat": 34.243803,
+"lng": 134.358837,
+"prec": "area",
+"windows": [
+{
+"n": "こども家庭課（こども家庭センター）",
+"t": null,
+"url": "https://www.higashikagawa.jp/soshikikarasagasu/kodomokateika/gyomuannai/kakusyusoudan/index.html",
+"override": null
+},
+{
+"n": "教育支援センター（教育総務課）",
+"t": "0879-26-1237",
+"url": null,
+"override": null
+},
+{
+"n": "東かがわ市少年育成センター（生涯学習課）",
+"t": "0879-26-1238",
+"url": null,
+"override": null
+}
+]
+},
+{
+"area": "三豊市",
+"lat": 34.182556,
+"lng": 133.715203,
+"prec": "area",
+"windows": [
+{
+"n": "福祉課",
+"t": null,
+"url": "https://www.city.mitoyo.lg.jp/kakuka/kenkofukushi/fukushi/index.html",
+"override": null
+},
+{
+"n": "三豊市子育て支援課こども家庭センター なないろ",
+"t": null,
+"url": "https://www.city.mitoyo.lg.jp/kosodate/6012.html",
+"override": null
+}
+]
+},
+{
+"area": "土庄町",
+"lat": 34.485987,
+"lng": 134.185594,
+"prec": "area",
+"windows": [
+{
+"n": "健康福祉課",
+"t": "0879-62-7002",
+"url": null,
+"override": null
+},
+{
+"n": "健康福祉課　保健センター",
+"t": "0879-62-7002",
+"url": null,
+"override": null
+},
+{
+"n": "小豆地区少年育成センター 土庄分室（土庄町生涯学習課内）",
+"t": "0879-62-7013",
+"url": null,
+"override": null
+},
+{
+"n": "小豆地区教育支援センター 若竹教室 ヤング相談電話",
+"t": "0879-62-6200",
+"url": null,
+"override": null
+}
+]
+},
+{
+"area": "小豆島町",
+"lat": 34.482032,
+"lng": 134.233548,
+"prec": "area",
+"windows": [
+{
+"n": "健康づくり福祉課",
+"t": "0879-82-7038",
+"url": null,
+"override": null
+}
+]
+},
+{
+"area": "三木町",
+"lat": 34.268355,
+"lng": 134.134363,
+"prec": "area",
+"windows": [
+{
+"n": "三木町こども課",
+"t": "087-891-3322",
+"url": null,
+"override": null
+}
+]
+},
+{
+"area": "直島町",
+"lat": 34.45983,
+"lng": 133.995638,
+"prec": "area",
+"windows": [
+{
+"n": "直島町住民福祉課",
+"t": "087-892-2223",
+"url": null,
+"override": null
+},
+{
+"n": "直島町住民福祉課健康推進室",
+"t": "087-892-3400",
+"url": null,
+"override": null
+}
+]
+},
+{
+"area": "宇多津町",
+"lat": 34.310301,
+"lng": 133.825566,
+"prec": "area",
+"windows": [
+{
+"n": "宇多津町健康増進課　保健センター",
+"t": null,
+"url": "https://www.town.utazu.lg.jp/life/3/",
+"override": null
+},
+{
+"n": "宇多津町保健福祉課　相談支援センター",
+"t": "0877-49-8028",
+"url": null,
+"override": null
+}
+]
+},
+{
+"area": "綾川町",
+"lat": 34.249613,
+"lng": 133.923099,
+"prec": "area",
+"windows": [
+{
+"n": "健康福祉課",
+"t": "087-876-1113",
+"url": null,
+"override": null
+},
+{
+"n": "子育て支援課",
+"t": "087-876-1122",
+"url": null,
+"override": null
+},
+{
+"n": "子育て支援施設「きらり」",
+"t": "087-877-2320",
+"url": null,
+"override": null
+},
+{
+"n": "綾川町少年育成センター",
+"t": "087-814-5205",
+"url": null,
+"override": null
+},
+{
+"n": "綾川町教育支援センター",
+"t": "087-814-5205",
+"url": null,
+"override": null
+},
+{
+"n": "国保総合保健施設　えがお",
+"t": "087-876-2525",
+"url": null,
+"override": null
+}
+]
+},
+{
+"area": "琴平町",
+"lat": 34.19142,
+"lng": 133.823303,
+"prec": "area",
+"windows": [
+{
+"n": "琴平町役場　子ども・保健課",
+"t": "0877-75-6719",
+"url": null,
+"override": null
+},
+{
+"n": "琴平町役場　住民福祉課",
+"t": "0877-75-6723",
+"url": null,
+"override": null
+}
+]
+},
+{
+"area": "多度津町",
+"lat": 34.272474,
+"lng": 133.753569,
+"prec": "area",
+"windows": [
+{
+"n": "多度津町少年育成センター",
+"t": "0877-33-3076",
+"url": null,
+"override": null
+},
+{
+"n": "多度津町子育て世代包括支援センター（別館　ピーチ）",
+"t": "0877-32-8565",
+"url": null,
+"override": null
+},
+{
+"n": "多度津町健康福祉課",
+"t": "0877-33-1134",
+"url": null,
+"override": null
+},
+{
+"n": "多度津町教育支援センター",
+"t": "0877-33-3076",
+"url": null,
+"override": null
+}
+]
+},
+{
+"area": "まんのう町",
+"lat": 34.192334,
+"lng": 133.841393,
+"prec": "area",
+"windows": [
+{
+"n": "まんのう町福祉保険課",
+"t": null,
+"url": "https://www.town.manno.lg.jp/page/1807.html",
+"override": null
+},
+{
+"n": "まんのう町健康増進課",
+"t": null,
+"url": "https://www.town.manno.lg.jp/page/1807.html",
+"override": null
+}
+]
+}
+]

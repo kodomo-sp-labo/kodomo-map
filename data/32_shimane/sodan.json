@@ -1,0 +1,702 @@
+[
+{
+"area": "島根県",
+"lat": null,
+"lng": null,
+"prec": "unresolved",
+"windows": [
+{
+"n": "しまね不妊と妊娠・出産相談センター",
+"t": null,
+"url": "https://www.pref.shimane.lg.jp/medical/kenko/kenko/hoken/funinsoudan.html",
+"override": null
+},
+{
+"n": "助産師ダイヤル（子育て・女性健康支援センターしまね）",
+"t": null,
+"url": "https://www.josanshimane.or.jp/general/center",
+"override": null
+},
+{
+"n": "心と体の相談センター",
+"t": "0852-21-2885",
+"url": null,
+"override": null
+},
+{
+"n": "東部発達障害者支援センターウィッシュ",
+"t": null,
+"url": "https://sazanami-g.jp/wish/",
+"override": null
+},
+{
+"n": "西部発達障害者支援センターウィンド",
+"t": null,
+"url": "http://iwami-wind.org/",
+"override": null
+},
+{
+"n": "島根県医療的ケア児支援センター",
+"t": null,
+"url": "https://icare-shimane.jp/",
+"override": null
+},
+{
+"n": "障がい者権利擁護センター",
+"t": null,
+"url": "https://www.pref.shimane.lg.jp/medical/fukushi/syougai/ippan/gyakutai_bousi_madoguti.html",
+"override": null
+},
+{
+"n": "島根県教育委員会学校教育課子ども安全支援室",
+"t": "0852-22-5412",
+"url": null,
+"override": null
+},
+{
+"n": "島根県教育センター",
+"t": null,
+"url": "https://www.shimane-ec.pref.shimane.lg.jp/",
+"override": null
+},
+{
+"n": "島根教育センター浜田教育センター",
+"t": null,
+"url": "https://www.shimane-ec.pref.shimane.lg.jp/",
+"override": null
+},
+{
+"n": "”こころ・発達”教育相談室",
+"t": null,
+"url": "https://www.shimane-ec.pref.shimane.lg.jp/kyoikusodan/kokoro-hattatsu.html",
+"override": null
+},
+{
+"n": "いじめ相談テレフォン24時間子供SOSダイヤル",
+"t": null,
+"url": "https://www.pref.shimane.lg.jp/education/kyoiku/iinkai/sodan/tel-soudan.html",
+"override": null
+},
+{
+"n": "しまね子どもSNS相談",
+"t": null,
+"url": "https://www.pref.shimane.lg.jp/education/kyoiku/anzen/ijime/sns.html",
+"override": null
+},
+{
+"n": "特別支援教育課",
+"t": null,
+"url": "https://www.pref.shimane.lg.jp/education/kyoiku/tokubetsu/soudan_shien/",
+"override": null
+},
+{
+"n": "中央児童相談所",
+"t": "0852-21-3168",
+"url": null,
+"override": null
+},
+{
+"n": "出雲児童相談所",
+"t": "0853-21-0007",
+"url": null,
+"override": null
+},
+{
+"n": "浜田児童相談所",
+"t": "0855-28-3560",
+"url": null,
+"override": null
+},
+{
+"n": "益田児童相談所",
+"t": "0856-22-0083",
+"url": null,
+"override": null
+},
+{
+"n": "中央児童相談所隠岐相談室",
+"t": "08512-2-9706",
+"url": null,
+"override": null
+},
+{
+"n": "子どもと家庭電話相談室",
+"t": "0120-258-641",
+"url": null,
+"override": null
+}
+]
+},
+{
+"area": "松江市",
+"lat": 35.468039,
+"lng": 133.048527,
+"prec": "area",
+"windows": [
+{
+"n": "教育委員会生徒指導推進室",
+"t": null,
+"url": "https://www.city.matsue.lg.jp/soshikikarasagasu/kyoikuiinkai_seitoshidosuishinshitsu/index.html",
+"override": null
+},
+{
+"n": "青少年相談室（ふれあい教室）",
+"t": null,
+"url": "https://www.city.matsue.lg.jp/soshikikarasagasu/kyoikuiinkai_seitoshidosuishinshitsu/kyoikuiinkai/1/1908.html",
+"override": null
+},
+{
+"n": "健康推進課",
+"t": "0852-60-8154",
+"url": null,
+"override": null
+},
+{
+"n": "市立菅田会館",
+"t": "0852-26-1964",
+"url": null,
+"override": null
+},
+{
+"n": "市立松尾会館",
+"t": "0852-25-0776",
+"url": null,
+"override": null
+},
+{
+"n": "市立福原会館",
+"t": "0852-34-0083",
+"url": null,
+"override": null
+},
+{
+"n": "青少年支援センター",
+"t": null,
+"url": "https://www.city.matsue.lg.jp/soshikikarasagasu/kyoikuiinkai_seishonenshiensitu/kenzenikusei_seishonen/kodomowakamonoshien/1910.html",
+"override": null
+},
+{
+"n": "松江市教育委員会発達・教育相談支援センター「エスコ」",
+"t": "0852-55-5455",
+"url": null,
+"override": null
+},
+{
+"n": "松江市こども家庭支援課（こども家庭センター）",
+"t": null,
+"url": "https://www.city.matsue.lg.jp/soshikikarasagasu/kosodatebu_kodomokateisiennka/15007.html",
+"override": null
+}
+]
+},
+{
+"area": "浜田市",
+"lat": 34.899255,
+"lng": 132.079883,
+"prec": "area",
+"windows": [
+{
+"n": "子ども・子育て支援課",
+"t": null,
+"url": "https://www.city.hamada.shimane.jp/www/index.html",
+"override": null
+},
+{
+"n": "浜田市教育委員会学校教育課",
+"t": null,
+"url": "https://www.city.hamada.shimane.jp/www/index.html",
+"override": null
+}
+]
+},
+{
+"area": "出雲市",
+"lat": 35.366917,
+"lng": 132.754712,
+"prec": "area",
+"windows": [
+{
+"n": "教育委員会児童生徒支援課",
+"t": null,
+"url": "https://www.city.izumo.shimane.jp",
+"override": null
+},
+{
+"n": "子ども政策課子ども家庭相談室",
+"t": null,
+"url": "https://www.city.izumo.shimane.jp",
+"override": null
+},
+{
+"n": "福祉推進課",
+"t": null,
+"url": "https://www.city.izumo.shimane.jp",
+"override": null
+},
+{
+"n": "健康増進課内こども家庭センター（母子保健機能：「きずな」）",
+"t": null,
+"url": "https://www.city.izumo.shimane.jp",
+"override": null
+},
+{
+"n": "子ども・若者支援センター",
+"t": null,
+"url": "https://www.city.izumo.shimane.jp/www/contents/1595912450629/index.html",
+"override": null
+}
+]
+},
+{
+"area": "益田市",
+"lat": 34.674814,
+"lng": 131.842862,
+"prec": "area",
+"windows": [
+{
+"n": "教育委員会（学校教育課）",
+"t": "0856-31-0445",
+"url": null,
+"override": null
+},
+{
+"n": "益田市人権センター",
+"t": "0856-31-0412",
+"url": null,
+"override": null
+},
+{
+"n": "益田市こども家庭センター",
+"t": "0856-31-1381",
+"url": null,
+"override": null
+}
+]
+},
+{
+"area": "大田市",
+"lat": 35.19209,
+"lng": 132.499351,
+"prec": "area",
+"windows": [
+{
+"n": "子ども・若者総合相談窓口",
+"t": null,
+"url": "https://www.city.oda.lg.jp/ohda_city/city_organization/24a/kodomo-katei/13449/16775",
+"override": null
+},
+{
+"n": "子ども・若者総合相談窓口ほっとスペースゆきみーる",
+"t": "0854-83-7373",
+"url": null,
+"override": null
+},
+{
+"n": "母子健康包括支援センター「おおだっこ」",
+"t": null,
+"url": "https://www.city.oda.lg.jp/ohda_city/city_organization/24a/kodomo-katei/2454",
+"override": null
+},
+{
+"n": "大田市教育研修センターあすなろ教室",
+"t": null,
+"url": "https://www.city.oda.lg.jp/",
+"override": null
+},
+{
+"n": "教育委員会（学校教育課）",
+"t": null,
+"url": "https://www.city.oda.lg.jp/",
+"override": null
+}
+]
+},
+{
+"area": "安来市",
+"lat": 35.431451,
+"lng": 133.250851,
+"prec": "area",
+"windows": [
+{
+"n": "子ども未来課",
+"t": null,
+"url": "https://www.city.yasugi.shimane.jp/kurashi/kyoiku/shien/",
+"override": null
+},
+{
+"n": "安来市教育委員会（学校教育課）",
+"t": "0854-23-3193",
+"url": null,
+"override": null
+},
+{
+"n": "教育支援センターあすなろ",
+"t": "0854-32-2227",
+"url": null,
+"override": null
+},
+{
+"n": "人権施策推進課",
+"t": "0854-23-3095",
+"url": null,
+"override": null
+},
+{
+"n": "いきいき健康課",
+"t": "0854-23-3220",
+"url": null,
+"override": null
+},
+{
+"n": "福祉課",
+"t": "0854-23-3210",
+"url": null,
+"override": null
+}
+]
+},
+{
+"area": "江津市",
+"lat": 35.011148,
+"lng": 132.221206,
+"prec": "area",
+"windows": [
+{
+"n": "子育て支援課",
+"t": null,
+"url": "https://www.city.gotsu.lg.jp/soshiki/11/",
+"override": null
+},
+{
+"n": "教育委員会（社会教育課）江津市子ども・若者総合相談窓口",
+"t": null,
+"url": "https://www.city.gotsu.lg.jp/soshiki/29/21422.html",
+"override": null
+}
+]
+},
+{
+"area": "雲南市",
+"lat": 35.287787,
+"lng": 132.900475,
+"prec": "area",
+"windows": [
+{
+"n": "生活支援・相談センター",
+"t": null,
+"url": "http://unnanshakyo.jp/kurashi_shien.html",
+"override": null
+},
+{
+"n": "こども政策局こども家庭支援課",
+"t": "0854-40-1067",
+"url": null,
+"override": null
+},
+{
+"n": "こども政策課",
+"t": "0854-40-1044",
+"url": null,
+"override": null
+},
+{
+"n": "学校教育課",
+"t": null,
+"url": "https://www.city.unnan.shimane.jp/unnan/kosodate/syuugaku/izimeboushi.html",
+"override": null
+},
+{
+"n": "社会教育課",
+"t": "0854-40-1073",
+"url": null,
+"override": null
+},
+{
+"n": "人権センター",
+"t": null,
+"url": "https://www.city.unnan.shimane.jp/unnan/kurashi/machidukuri/jinken/center.html",
+"override": null
+}
+]
+},
+{
+"area": "奥出雲町",
+"lat": 35.197428,
+"lng": 133.002549,
+"prec": "area",
+"windows": [
+{
+"n": "こども家庭支援課",
+"t": "0854-54-2504",
+"url": null,
+"override": null
+},
+{
+"n": "健康福祉課",
+"t": "0854-54-2781",
+"url": null,
+"override": null
+},
+{
+"n": "教育委員会",
+"t": "0854-52-2672",
+"url": null,
+"override": null
+},
+{
+"n": "福祉事務所",
+"t": "0854-54-2541",
+"url": null,
+"override": null
+}
+]
+},
+{
+"area": "飯南町",
+"lat": 35.00004,
+"lng": 132.713872,
+"prec": "area",
+"windows": [
+{
+"n": "福祉事務所",
+"t": "0854-72-1773",
+"url": null,
+"override": null
+},
+{
+"n": "保健福祉課",
+"t": "0854-72-1770",
+"url": null,
+"override": null
+},
+{
+"n": "住民課",
+"t": "0854-76-2213",
+"url": null,
+"override": null
+},
+{
+"n": "教育委員会",
+"t": "0854-76-3944",
+"url": null,
+"override": null
+}
+]
+},
+{
+"area": "川本町",
+"lat": 34.994002,
+"lng": 132.495388,
+"prec": "area",
+"windows": [
+{
+"n": "健康福祉課",
+"t": null,
+"url": "https://www.town.shimane-kawamoto.lg.jp/",
+"override": null
+},
+{
+"n": "教育委員会",
+"t": null,
+"url": "https://www.town.shimane-kawamoto.lg.jp/",
+"override": null
+}
+]
+},
+{
+"area": "美郷町",
+"lat": 35.076512,
+"lng": 132.590543,
+"prec": "area",
+"windows": [
+{
+"n": "健康福祉課",
+"t": null,
+"url": "https://gov.town.shimane-misato.lg.jp/",
+"override": null
+},
+{
+"n": "教育委員会",
+"t": null,
+"url": "https://gov.town.shimane-misato.lg.jp/",
+"override": null
+},
+{
+"n": "住民課",
+"t": null,
+"url": "https://gov.town.shimane-misato.lg.jp/",
+"override": null
+}
+]
+},
+{
+"area": "邑南町",
+"lat": 34.893934,
+"lng": 132.437976,
+"prec": "area",
+"windows": [
+{
+"n": "医療福祉政策課（子どもまるごと相談室）",
+"t": null,
+"url": "https://www.town.ohnan.lg.jp/www/index.html",
+"override": null
+},
+{
+"n": "保健課",
+"t": null,
+"url": "https://www.town.ohnan.lg.jp/www/index.html",
+"override": null
+},
+{
+"n": "教育委員会",
+"t": null,
+"url": "https://www.town.ohnan.lg.jp/www/index.html",
+"override": null
+},
+{
+"n": "町民課",
+"t": null,
+"url": "https://www.town.ohnan.lg.jp/www/index.html",
+"override": null
+}
+]
+},
+{
+"area": "津和野町",
+"lat": 34.543668,
+"lng": 131.838311,
+"prec": "area",
+"windows": [
+{
+"n": "こども家庭センター",
+"t": "0856-73-7020",
+"url": null,
+"override": null
+},
+{
+"n": "教育委員会",
+"t": "0856-72-1854",
+"url": null,
+"override": null
+},
+{
+"n": "税務住民課",
+"t": "0856-74-0059",
+"url": null,
+"override": null
+}
+]
+},
+{
+"area": "吉賀町",
+"lat": 34.35351,
+"lng": 131.935137,
+"prec": "area",
+"windows": [
+{
+"n": "保健福祉課",
+"t": "0856-77-1165",
+"url": null,
+"override": null
+},
+{
+"n": "教育委員会",
+"t": "0856-77-1285",
+"url": null,
+"override": null
+}
+]
+},
+{
+"area": "海士町",
+"lat": 36.096561,
+"lng": 133.096701,
+"prec": "area",
+"windows": [
+{
+"n": "健康福祉課",
+"t": "08514-2-1823",
+"url": null,
+"override": null
+},
+{
+"n": "教育委員会（地域共育課）",
+"t": "08514-2-1221",
+"url": null,
+"override": null
+},
+{
+"n": "教育委員会（学校教育課）",
+"t": "08514-2-1222",
+"url": null,
+"override": null
+}
+]
+},
+{
+"area": "西ノ島町",
+"lat": 36.093158,
+"lng": 132.994378,
+"prec": "area",
+"windows": [
+{
+"n": "健康福祉課",
+"t": null,
+"url": "http://www.town.nishinoshima.shimane.jp/bunya/b_kosodate-hoken/",
+"override": null
+},
+{
+"n": "教育委員会",
+"t": null,
+"url": "http://www.town.nishinoshima.shimane.jp/bunya/b_kosodate-hoken/",
+"override": null
+}
+]
+},
+{
+"area": "知夫村",
+"lat": 36.013927,
+"lng": 133.039372,
+"prec": "area",
+"windows": [
+{
+"n": "村民福祉課",
+"t": "08514-8-2211",
+"url": null,
+"override": null
+},
+{
+"n": "教育委員会",
+"t": "08514-8-2301",
+"url": null,
+"override": null
+}
+]
+},
+{
+"area": "隠岐の島町",
+"lat": 36.20902,
+"lng": 133.32178,
+"prec": "area",
+"windows": [
+{
+"n": "保健福祉課",
+"t": null,
+"url": "https://www.town.okinoshima.shimane.jp/soshiki/hokenfukushi_juminfukushi/index.html",
+"override": null
+},
+{
+"n": "教育委員会",
+"t": null,
+"url": "https://www.town.okinoshima.shimane.jp/soshiki/somugakkokyoiku/gyomu/5/index.html",
+"override": null
+},
+{
+"n": "教育支援センター「スマイル」",
+"t": null,
+"url": "https://www.town.okinoshima.shimane.jp/soshiki/somugakkokyoiku/gyomu/7/1272.html",
+"override": null
+}
+]
+}
+]

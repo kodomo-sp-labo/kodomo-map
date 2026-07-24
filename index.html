@@ -247,10 +247,12 @@ if ('serviceWorker' in navigator) {
 const REGIONS = {
   okayama: {
     label: '岡山県',
-    base: 'data/okayama/',
+    base: 'data/33_okayama/',  // 【注意】data/33_okayama/ フォルダが実在することを確認してから
+                                //         このファイルをpushすること。rename_data_folders.pyで
+                                //         data/okayama/ をリネームする作業とセットで反映する。
     available: { manabi:true, ibasho:true, sodan:true, oyakazoku:true, hattatsu:true, districts:true }
   }
-  // 例）ひろしま: { label:'広島県', base:'data/hiroshima/', available:{ manabi:true, hattatsu:true, sodan:true } }
+  // 例）ひろしま: { label:'広島県', base:'data/34_hiroshima/', available:{ manabi:true, hattatsu:true, sodan:true } }
 };
 
 function tileLayerFor(map){

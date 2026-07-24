@@ -1,0 +1,928 @@
+[
+{
+"area": "和歌山県",
+"lat": null,
+"lng": null,
+"prec": "unresolved",
+"windows": [
+{
+"n": "和歌山県中央児童相談所",
+"t": null,
+"url": "https://www.pref.wakayama.lg.jp/prefg/110401/index.html",
+"override": null
+},
+{
+"n": "和歌山県紀南児童相談所",
+"t": "0739-22-1588",
+"url": null,
+"override": null
+},
+{
+"n": "和歌山県紀南児童相談所新宮分室",
+"t": "0735-21-9634",
+"url": null,
+"override": null
+},
+{
+"n": "和歌山児童家庭支援センターきずな",
+"t": null,
+"url": "https://www.torafusugakuen.jp/kizuna.html",
+"override": null
+},
+{
+"n": "性暴力救援センター和歌山わかやまmine（ﾏｲﾝ）",
+"t": null,
+"url": "https://www.pref.wakayama.lg.jp/prefg/110502/mine/d00216624.html",
+"override": null
+},
+{
+"n": "海南保健所",
+"t": "073-483-8824",
+"url": null,
+"override": null
+},
+{
+"n": "岩出保健所",
+"t": "0736-61-0049",
+"url": null,
+"override": null
+},
+{
+"n": "橋本保健所",
+"t": "0736-42-5440",
+"url": null,
+"override": null
+},
+{
+"n": "湯浅保健所",
+"t": "0737-64-1294",
+"url": null,
+"override": null
+},
+{
+"n": "御坊保健所",
+"t": "0738-24-0996",
+"url": null,
+"override": null
+},
+{
+"n": "田辺保健所",
+"t": "0739-26-7952",
+"url": null,
+"override": null
+},
+{
+"n": "新宮保健所",
+"t": "0735-21-9629",
+"url": null,
+"override": null
+},
+{
+"n": "新宮保健所串本支所",
+"t": "0735-72-0525",
+"url": null,
+"override": null
+},
+{
+"n": "和歌山県発達障害者支援センターポラリス",
+"t": null,
+"url": "http://aitoku.or.jp/polaris",
+"override": null
+},
+{
+"n": "乳幼児きこえとことば相談（和歌山県聴覚障害者情報センター）",
+"t": null,
+"url": "https://wakayama-djc.jp/publics/index/96/",
+"override": null
+},
+{
+"n": "和歌山県精神保健福祉センター「いのちのセーフティーラインわかやま」",
+"t": null,
+"url": "https://www.pref.wakayama.lg.jp/prefg/050301/050301/jisatsutaisaku.html",
+"override": null
+},
+{
+"n": "和歌山県精神保健福祉センター「こころの健康相談」",
+"t": null,
+"url": "https://www.pref.wakayama.lg.jp/prefg/050301/050301/1soudan.html",
+"override": null
+},
+{
+"n": "和歌山県自殺対策推進センター自殺対策相談電話「はあとライン」",
+"t": null,
+"url": "https://www.pref.wakayama.lg.jp/prefg/050301/050301/jisatsutaisaku.html",
+"override": null
+},
+{
+"n": "わかやまネットトラブル相談窓口",
+"t": null,
+"url": "https://www.pref.wakayama.lg.jp/prefg/110400/d00216245.html",
+"override": null
+},
+{
+"n": "若者総合相談「With You」わかやま",
+"t": null,
+"url": "https://with-you-wakayama.jp",
+"override": null
+},
+{
+"n": "若者総合相談「With You」きのかわ",
+"t": null,
+"url": "https://with-you-wakayama.jp",
+"override": null
+},
+{
+"n": "若者総合相談「With You」南紀",
+"t": null,
+"url": "https://with-you-wakayama.jp",
+"override": null
+},
+{
+"n": "和歌山県難病・こども保健相談支援センター",
+"t": "073-445-0520",
+"url": null,
+"override": null
+},
+{
+"n": "和歌山県教育委員会「こどもSOSダイヤル」",
+"t": null,
+"url": "https://www.pref.wakayama.lg.jp/prefg/501200/d00153025.html",
+"override": null
+},
+{
+"n": "和歌山県教育委員会「教育相談電話」",
+"t": null,
+"url": "https://www.pref.wakayama.lg.jp/prefg/501200/d00153025.html",
+"override": null
+},
+{
+"n": "和歌山県警察本部少年課少年サポートセンター",
+"t": null,
+"url": "https://www.police.pref.wakayama.lg.jp/01_anzen/syonen/support/index.html",
+"override": null
+},
+{
+"n": "和歌山県警察本部広報県民課警察相談係",
+"t": null,
+"url": "https://www.police.pref.wakayama.lg.jp/03_soudan/soudan_shien/soudan/index.html",
+"override": null
+},
+{
+"n": "和歌山県警察本部広報県民課犯罪被害者支援室",
+"t": null,
+"url": "https://www.police.pref.wakayama.lg.jp/03_soudan/soudan_shien/hanzai/index.html",
+"override": null
+},
+{
+"n": "くまのっ子児童家庭支援センターのこのこ",
+"t": null,
+"url": "https://nokonoko-kumanokko.com/",
+"override": null
+}
+]
+},
+{
+"area": "和歌山市",
+"lat": 34.230514,
+"lng": 135.170808,
+"prec": "area",
+"windows": [
+{
+"n": "こども家庭センター",
+"t": null,
+"url": "https://www.city.wakayama.wakayama.jp/kurashi/kosodate/1001103/1018334/1018337.html",
+"override": null
+}
+]
+},
+{
+"area": "海南市",
+"lat": 34.155311,
+"lng": 135.209189,
+"prec": "area",
+"windows": [
+{
+"n": "海南市こども家庭センター（子育て推進課）",
+"t": null,
+"url": "https://www.city.kainan.lg.jp",
+"override": null
+},
+{
+"n": "海南市こども家庭センター（健康課）",
+"t": null,
+"url": "https://www.city.kainan.lg.jp",
+"override": null
+},
+{
+"n": "海南市社会福祉課",
+"t": null,
+"url": "https://www.city.kainan.lg.jp",
+"override": null
+},
+{
+"n": "海南市市民交流課",
+"t": null,
+"url": "https://www.city.kainan.lg.jp",
+"override": null
+}
+]
+},
+{
+"area": "橋本市",
+"lat": 34.314876,
+"lng": 135.605208,
+"prec": "area",
+"windows": [
+{
+"n": "子育て応援課（こども家庭センター）",
+"t": null,
+"url": "https://www.city.hashimoto.lg.jp/guide/kenko_fukushibu/heart_bridge/index.html",
+"override": null
+},
+{
+"n": "教育支援センター（教育相談）",
+"t": null,
+"url": "https://www.city.hashimoto.lg.jp/guide/kyoikuiinkai/kyoiku_shien/shien/index.html",
+"override": null
+},
+{
+"n": "家庭教育支援室",
+"t": null,
+"url": "https://www.city.hashimoto.lg.jp/guide/kenko_fukushibu/kateikyouikusiensitsu/index.html",
+"override": null
+},
+{
+"n": "橋本市家庭児童相談室",
+"t": null,
+"url": "https://www.city.hashimoto.lg.jp/guide/kenko_fukushibu/heart_bridge/kodomokateiouen/1360129510569.html",
+"override": null
+},
+{
+"n": "福祉課",
+"t": "0736-33-3708",
+"url": null,
+"override": null
+},
+{
+"n": "人権・男女共同推進室",
+"t": null,
+"url": "https://www.city.hashimoto.lg.jp/guide/sogoseisakubu/jinkendanjyosuishin/jinkenmondai/1360215051122.html",
+"override": null
+}
+]
+},
+{
+"area": "有田市",
+"lat": 34.083104,
+"lng": 135.127727,
+"prec": "area",
+"windows": [
+{
+"n": "有田市家庭児童青少年相談室",
+"t": null,
+"url": "https://www.city.arida.lg.jp/kosodatenavi/kosodatesodan/1001110.html",
+"override": null
+},
+{
+"n": "有田市教育委員会",
+"t": null,
+"url": "https://www.city.arida.lg.jp/kurashi/kosodatekyoiku/kyoiku/1004729.html",
+"override": null
+}
+]
+},
+{
+"area": "御坊市",
+"lat": 33.891412,
+"lng": 135.152406,
+"prec": "area",
+"windows": [
+{
+"n": "御坊市　社会福祉課",
+"t": "0738-52-5520",
+"url": null,
+"override": null
+},
+{
+"n": "御坊市　こども支援課　こども家庭センター（にっこりあ）",
+"t": null,
+"url": "https://www.city.gobo.lg.jp/sosiki/siminfukusi/kenkofukusi/tanto/ninsin/ninsin/nikkoria.html",
+"override": null
+},
+{
+"n": "御坊市教育委員会",
+"t": "0738-23-5526",
+"url": null,
+"override": null
+}
+]
+},
+{
+"area": "田辺市",
+"lat": 33.72801,
+"lng": 135.377662,
+"prec": "area",
+"windows": [
+{
+"n": "田辺市家庭児童相談室",
+"t": null,
+"url": "https://www.city.tanabe.lg.jp/kosodatesuishin/kateijidou.html",
+"override": null
+},
+{
+"n": "田辺市子育て推進課",
+"t": null,
+"url": "https://www.city.tanabe.lg.jp/kosodatesuishin/index.html",
+"override": null
+},
+{
+"n": "田辺市教育研究所",
+"t": null,
+"url": "https://www.city.tanabe.lg.jp/gakkou/kyouiku.html",
+"override": null
+},
+{
+"n": "いじめホットラインいじめ相談ダイレクトメール",
+"t": null,
+"url": "https://www.city.tanabe.lg.jp/gakkou/ijimesoudan.html",
+"override": null
+}
+]
+},
+{
+"area": "新宮市",
+"lat": 33.724224,
+"lng": 135.992525,
+"prec": "area",
+"windows": [
+{
+"n": "新宮市こども家庭センター",
+"t": null,
+"url": "https://www.city.shingu.lg.jp/info/2249",
+"override": null
+}
+]
+},
+{
+"area": "紀の川市",
+"lat": 34.269538,
+"lng": 135.362576,
+"prec": "area",
+"windows": [
+{
+"n": "こども家庭センター（児童相談班）",
+"t": null,
+"url": "https://www.city.kinokawa.lg.jp",
+"override": null
+},
+{
+"n": "こども家庭センター（母子保健班）",
+"t": null,
+"url": "https://www.city.kinokawa.lg.jp",
+"override": null
+}
+]
+},
+{
+"area": "岩出市",
+"lat": 34.256267,
+"lng": 135.311451,
+"prec": "area",
+"windows": [
+{
+"n": "岩出市青少年センター",
+"t": "0736-61-7007",
+"url": null,
+"override": null
+},
+{
+"n": "岩出市社会福祉課",
+"t": "0736-62-2141",
+"url": null,
+"override": null
+},
+{
+"n": "岩出市障害者虐待防止センター",
+"t": null,
+"url": "https://www.city.iwade.lg.jp/shakaifukushi/shogai-fukushi/gyakutaiboushi.html",
+"override": null
+},
+{
+"n": "岩出市こども家庭センター（児童福祉）",
+"t": null,
+"url": "https://www.city.iwade.lg.jp/kodomo-katei/kateishien/",
+"override": null
+},
+{
+"n": "岩出市こども家庭センター（母子保健）",
+"t": "0736-67-6081",
+"url": null,
+"override": null
+},
+{
+"n": "岩出障害児者相談・支援センター（岩出市基幹相談支援センター）",
+"t": "0736-63-1622",
+"url": null,
+"override": null
+}
+]
+},
+{
+"area": "紀美野町",
+"lat": 34.167192,
+"lng": 135.307575,
+"prec": "area",
+"windows": [
+{
+"n": "子育て推進課",
+"t": "073-489-9966",
+"url": null,
+"override": null
+},
+{
+"n": "紀美野町子ども家庭支援センター",
+"t": null,
+"url": "https://www.town.kimino.wakayama.jp/sagasu/kosodatesuishinka/kodomokateisienn/index.html",
+"override": null
+}
+]
+},
+{
+"area": "かつらぎ町",
+"lat": 34.296416,
+"lng": 135.503802,
+"prec": "area",
+"windows": [
+{
+"n": "児童虐待相談ダイヤル",
+"t": null,
+"url": "https://www.town.katsuragi.wakayama.jp/020/020/20181107142329.html",
+"override": null
+},
+{
+"n": "かつらぎ町教育総務課",
+"t": null,
+"url": "https://www.town.katsuragi.wakayama.jp/020/050/index.html",
+"override": null
+},
+{
+"n": "かつらぎ町福祉介護課",
+"t": null,
+"url": "http://www.town.katsuragi.wakayama.jp",
+"override": null
+},
+{
+"n": "青少年センター",
+"t": null,
+"url": "https://www.town.katsuragi.wakayama.jp/020/060/index.html",
+"override": null
+},
+{
+"n": "こども家庭センター「SUKU2（すくすく）」",
+"t": null,
+"url": "https://www.town.katsuragi.wakayama.jp/020/010/2024-0424-1104-28.html",
+"override": null
+}
+]
+},
+{
+"area": "九度山町",
+"lat": 34.287192,
+"lng": 135.562242,
+"prec": "area",
+"windows": [
+{
+"n": "保健師・ふるさとセンター",
+"t": "0736-54-2019",
+"url": null,
+"override": null
+},
+{
+"n": "福祉課",
+"t": "0736-54-2019",
+"url": null,
+"override": null
+},
+{
+"n": "九度山町教育委員会",
+"t": "0736-54-2019",
+"url": null,
+"override": null
+},
+{
+"n": "九度山町教育委員会　家庭教育サポートチーム",
+"t": "0736-54-2019",
+"url": null,
+"override": null
+}
+]
+},
+{
+"area": "高野町",
+"lat": 34.216077,
+"lng": 135.586536,
+"prec": "area",
+"windows": [
+{
+"n": "高野町住民健康課（高野町子育て世代包括支援センター）",
+"t": "090-1892-2471",
+"url": null,
+"override": null
+}
+]
+},
+{
+"area": "湯浅町",
+"lat": 34.032952,
+"lng": 135.178567,
+"prec": "area",
+"windows": [
+{
+"n": "健康推進課",
+"t": "0737-65-3008",
+"url": null,
+"override": null
+}
+]
+},
+{
+"area": "広川町",
+"lat": 34.029957,
+"lng": 135.173072,
+"prec": "area",
+"windows": [
+{
+"n": "教育委員会",
+"t": "0737-63-1122",
+"url": null,
+"override": null
+},
+{
+"n": "保健福祉課",
+"t": "0737-63-1122",
+"url": null,
+"override": null
+}
+]
+},
+{
+"area": "有田川町",
+"lat": 34.057488,
+"lng": 135.216116,
+"prec": "area",
+"windows": [
+{
+"n": "こども教育課",
+"t": "0737-22-4512",
+"url": null,
+"override": null
+},
+{
+"n": "社会教育課",
+"t": "0737-22-4513",
+"url": null,
+"override": null
+},
+{
+"n": "やすらぎ福祉課",
+"t": "0737-22-4501",
+"url": null,
+"override": null
+},
+{
+"n": "こども家庭センター",
+"t": "0737-22-4503",
+"url": null,
+"override": null
+},
+{
+"n": "総務課",
+"t": "0737-22-3291",
+"url": null,
+"override": null
+}
+]
+},
+{
+"area": "美浜町",
+"lat": 33.893806,
+"lng": 135.133265,
+"prec": "area",
+"windows": [
+{
+"n": "美浜町　教育委員会",
+"t": "0738-23-4955",
+"url": null,
+"override": null
+},
+{
+"n": "美浜町こども家庭センター（子育て健康推進課）",
+"t": "0738-23-4905",
+"url": null,
+"override": null
+},
+{
+"n": "美浜町　住民課",
+"t": "0738-23-4904",
+"url": null,
+"override": null
+}
+]
+},
+{
+"area": "日高町",
+"lat": 33.925677,
+"lng": 135.141072,
+"prec": "area",
+"windows": [
+{
+"n": "子育て福祉健康課",
+"t": null,
+"url": "http://www.town.wakayama-hidaka.lg.jp/",
+"override": null
+},
+{
+"n": "日高町教育委員会",
+"t": null,
+"url": "http://www.town.wakayama-hidaka.lg.jp/",
+"override": null
+},
+{
+"n": "日高町住民生活課",
+"t": null,
+"url": "http://www.town.wakayama-hidaka.lg.jp/",
+"override": null
+}
+]
+},
+{
+"area": "由良町",
+"lat": 33.959251,
+"lng": 135.118187,
+"prec": "area",
+"windows": [
+{
+"n": "住民福祉課",
+"t": "0738-65-0201",
+"url": null,
+"override": null
+}
+]
+},
+{
+"area": "印南町",
+"lat": 33.81837,
+"lng": 135.21825,
+"prec": "area",
+"windows": [
+{
+"n": "教育委員会",
+"t": null,
+"url": "https://www.town.wakayama-inami.lg.jp/soshiki/14-8-0-0-0_4.html",
+"override": null
+},
+{
+"n": "住民福祉課",
+"t": null,
+"url": "https://www.town.wakayama-inami.lg.jp/soshiki/14-4-0-0-0_10.html",
+"override": null
+}
+]
+},
+{
+"area": "みなべ町",
+"lat": 33.772333,
+"lng": 135.321434,
+"prec": "area",
+"windows": [
+{
+"n": "子育て推進課（みなべ町こども家庭センター）",
+"t": "0739-33-7550",
+"url": null,
+"override": null
+},
+{
+"n": "住民福祉課",
+"t": "0739-72-2161",
+"url": null,
+"override": null
+},
+{
+"n": "教育委員会　教育学習課",
+"t": "0739-74-2191",
+"url": null,
+"override": null
+}
+]
+},
+{
+"area": "日高川町",
+"lat": 33.911693,
+"lng": 135.186,
+"prec": "area",
+"windows": [
+{
+"n": "保健福祉課",
+"t": "0738-22-9041",
+"url": null,
+"override": null
+},
+{
+"n": "住民課",
+"t": "0738-22-1701",
+"url": null,
+"override": null
+},
+{
+"n": "教育委員会",
+"t": "0738-22-8816",
+"url": null,
+"override": null
+}
+]
+},
+{
+"area": "白浜町",
+"lat": 33.678188,
+"lng": 135.348108,
+"prec": "area",
+"windows": [
+{
+"n": "民生課・幼児対策室",
+"t": "0739-43-6594",
+"url": null,
+"override": null
+},
+{
+"n": "民生課・福祉係",
+"t": "0739-43-5702",
+"url": null,
+"override": null
+},
+{
+"n": "住民保健課　母子保健係",
+"t": "0739-43-0178",
+"url": null,
+"override": null
+},
+{
+"n": "教育委員会青少年センター",
+"t": "0739-42-2992",
+"url": null,
+"override": null
+},
+{
+"n": "教育委員会ふれあいルーム",
+"t": "0739-45-3399",
+"url": null,
+"override": null
+}
+]
+},
+{
+"area": "上富田町",
+"lat": 33.696352,
+"lng": 135.428802,
+"prec": "area",
+"windows": [
+{
+"n": "上富田こどもみらい家庭センター",
+"t": null,
+"url": "http://www.town.kamitonda.lg.jp/soshiki/fukushi/kosodate/3830.html",
+"override": null
+}
+]
+},
+{
+"area": "すさみ町",
+"lat": 33.550062,
+"lng": 135.496678,
+"prec": "area",
+"windows": [
+{
+"n": "すさみ町教育総務課",
+"t": "0739-55-2146",
+"url": null,
+"override": null
+},
+{
+"n": "すさみ町子育て世代包括支援センター（環境保健課内）",
+"t": "0739-55-4803",
+"url": null,
+"override": null
+},
+{
+"n": "青少年センター",
+"t": "0739-55-3037",
+"url": null,
+"override": null
+}
+]
+},
+{
+"area": "那智勝浦町",
+"lat": 33.625988,
+"lng": 135.941042,
+"prec": "area",
+"windows": [
+{
+"n": "こども未来課",
+"t": null,
+"url": "https://www.town.nachikatsuura.wakayama.jp/menu/33",
+"override": null
+},
+{
+"n": "福祉課",
+"t": null,
+"url": "https://www.town.nachikatsuura.wakayama.jp/menu/33",
+"override": null
+},
+{
+"n": "教育委員会",
+"t": null,
+"url": "https://www.town.nachikatsuura.wakayama.jp/menu/19",
+"override": null
+},
+{
+"n": "青少年センター",
+"t": "0735-52-1138",
+"url": null,
+"override": null
+}
+]
+},
+{
+"area": "太地町",
+"lat": 33.594037,
+"lng": 135.943964,
+"prec": "area",
+"windows": [
+{
+"n": "住民福祉課",
+"t": "0735-59-2335",
+"url": null,
+"override": null
+},
+{
+"n": "太地町教育委員会",
+"t": "0735-59-2335",
+"url": null,
+"override": null
+}
+]
+},
+{
+"area": "古座川町",
+"lat": 33.53199,
+"lng": 135.814999,
+"prec": "area",
+"windows": [
+{
+"n": "健康福祉課（子育て世代包括支援センター）",
+"t": "0735-67-7112",
+"url": null,
+"override": null
+},
+{
+"n": "古座川町教育委員会",
+"t": "0735-72-3344",
+"url": null,
+"override": null
+}
+]
+},
+{
+"area": "北山村",
+"lat": 33.9321,
+"lng": 135.969303,
+"prec": "area",
+"windows": [
+{
+"n": "北山村役場住民福祉課",
+"t": "0735-49-2331",
+"url": null,
+"override": null
+}
+]
+},
+{
+"area": "串本町",
+"lat": 33.472556,
+"lng": 135.781434,
+"prec": "area",
+"windows": [
+{
+"n": "串本町役場子育て世代包括支援センター",
+"t": null,
+"url": "https://town.kushimoto.wakayama.jp",
+"override": null
+},
+{
+"n": "串本町役場こども未来課",
+"t": null,
+"url": "https://town.kushimoto.wakayama.jp",
+"override": null
+}
+]
+}
+]

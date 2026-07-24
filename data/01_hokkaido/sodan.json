@@ -1,0 +1,4404 @@
+[
+{
+"area": "北海道",
+"lat": null,
+"lng": null,
+"prec": "unresolved",
+"windows": [
+{
+"n": "北海道小児救急電話相談",
+"t": null,
+"url": "https://www.pref.hokkaido.lg.jp/hf/cis/kyukyu/denwasoudan.html",
+"override": null
+},
+{
+"n": "北海道産婦人科救急電話相談",
+"t": null,
+"url": "https://www.pref.hokkaido.lg.jp/hf/cis/kyukyu/97032.html",
+"override": null
+},
+{
+"n": "北海道子ども相談支援センター",
+"t": null,
+"url": "https://www.dokyoi.pref.hokkaido.lg.jp/hk/ssa/ijimedenwasoudan.html",
+"override": null
+},
+{
+"n": "女性の健康サポートセンタ－（岩見沢保健所）",
+"t": null,
+"url": "https://www.pref.hokkaido.lg.jp/hf/kms/ninshin/kokoro.html",
+"override": null
+},
+{
+"n": "女性の健康サポートセンタ－（滝川保健所）",
+"t": null,
+"url": "https://www.sorachi.pref.hokkaido.lg.jp/hk/tth/soudan.html#jump-8",
+"override": null
+},
+{
+"n": "女性の健康サポートセンター（深川保健所）",
+"t": null,
+"url": "https://www.pref.hokkaido.lg.jp/hf/kms/ninshin/kokoro.html",
+"override": null
+},
+{
+"n": "女性の健康サポートセンター（江別保健所）",
+"t": null,
+"url": "https://www.ishikari.pref.hokkaido.lg.jp/hk/hgc/josei_saport.html",
+"override": null
+},
+{
+"n": "女性の健康サポートセンター（千歳保健所）",
+"t": null,
+"url": "https://www.pref.hokkaido.lg.jp/hf/kms/ninshin/kokoro.html",
+"override": null
+},
+{
+"n": "女性の健康サポートセンター（倶知安保健所）",
+"t": null,
+"url": "https://www.pref.hokkaido.lg.jp/hf/kms/ninshin/kokoro.html",
+"override": null
+},
+{
+"n": "女性の健康サポートセンター（岩内保健所）",
+"t": null,
+"url": "https://www.shiribeshi.pref.hokkaido.lg.jp/hk/ith/woman_health_support.html",
+"override": null
+},
+{
+"n": "女性の健康サポートセンター（室蘭保健所）",
+"t": null,
+"url": "https://www.pref.hokkaido.lg.jp/hf/kms/ninshin/kokoro.html",
+"override": null
+},
+{
+"n": "女性の健康サポートセンター（苫小牧保健所）",
+"t": null,
+"url": "https://www.pref.hokkaido.lg.jp/hf/kms/ninshin/kokoro.html",
+"override": null
+},
+{
+"n": "女性の健康サポートセンター（浦河保健所）",
+"t": null,
+"url": "https://www.pref.hokkaido.lg.jp/hf/kms/ninshin/kokoro.html",
+"override": null
+},
+{
+"n": "女性の健康サポートセンター（静内保健所）",
+"t": null,
+"url": "https://www.pref.hokkaido.lg.jp/hf/kms/ninshin/kokoro.html",
+"override": null
+},
+{
+"n": "女性の健康サポートセンター（渡島保健所）",
+"t": null,
+"url": "https://www.pref.hokkaido.lg.jp/hf/kms/ninshin/kokoro.html",
+"override": null
+},
+{
+"n": "女性の健康サポートセンター（八雲保健所）",
+"t": null,
+"url": "https://www.pref.hokkaido.lg.jp/hf/kms/ninshin/kokoro.html",
+"override": null
+},
+{
+"n": "女性の健康サポートセンター（江差保健所）",
+"t": null,
+"url": "https://www.pref.hokkaido.lg.jp/hf/kms/ninshin/kokoro.html",
+"override": null
+},
+{
+"n": "女性の健康サポートセンター（上川保健所）",
+"t": null,
+"url": "https://www.pref.hokkaido.lg.jp/hf/kms/ninshin/kokoro.html",
+"override": null
+},
+{
+"n": "女性の健康サポートセンター（名寄保健所）",
+"t": null,
+"url": "https://www.pref.hokkaido.lg.jp/hf/kms/ninshin/kokoro.html",
+"override": null
+},
+{
+"n": "女性の健康サポートセンター（富良野保健所）",
+"t": null,
+"url": "https://www.pref.hokkaido.lg.jp/hf/kms/ninshin/kokoro.html",
+"override": null
+},
+{
+"n": "女性の健康サポートセンター（留萌保健所）",
+"t": null,
+"url": "https://www.pref.hokkaido.lg.jp/hf/kms/ninshin/kokoro.html",
+"override": null
+},
+{
+"n": "女性の健康サポートセンター（稚内保健所）",
+"t": null,
+"url": "https://www.pref.hokkaido.lg.jp/hf/kms/ninshin/kokoro.html",
+"override": null
+},
+{
+"n": "女性の健康サポートセンター（網走保健所）",
+"t": null,
+"url": "https://www.pref.hokkaido.lg.jp/hf/kms/ninshin/kokoro.html",
+"override": null
+},
+{
+"n": "女性の健康サポートセンター（北見保健所）",
+"t": null,
+"url": "https://www.pref.hokkaido.lg.jp/hf/kms/ninshin/kokoro.html",
+"override": null
+},
+{
+"n": "女性の健康サポートセンター（紋別保健所）",
+"t": null,
+"url": "https://www.pref.hokkaido.lg.jp/hf/kms/ninshin/kokoro.html",
+"override": null
+},
+{
+"n": "女性の健康サポートセンター（帯広保健所）",
+"t": null,
+"url": "https://www.pref.hokkaido.lg.jp/hf/kms/ninshin/kokoro.html",
+"override": null
+},
+{
+"n": "女性の健康サポートセンター（釧路保健所）",
+"t": null,
+"url": "https://www.kushiro.pref.hokkaido.lg.jp/hk/hgc/kensuiweb/shienweb/sono2.html",
+"override": null
+},
+{
+"n": "女性の健康サポートセンター（根室保健所）",
+"t": null,
+"url": "https://www.pref.hokkaido.lg.jp/hf/kms/ninshin/kokoro.html",
+"override": null
+},
+{
+"n": "女性の健康サポートセンター（中標津保健所）",
+"t": null,
+"url": "https://www.nemuro.pref.hokkaido.lg.jp/hk/nth/kenkoudukuri/joseisuportsenter.html",
+"override": null
+},
+{
+"n": "性暴力被害者支援センター北海道",
+"t": null,
+"url": "https://sacrach.jp/",
+"override": null
+},
+{
+"n": "道立女性相談支援センター（女性相談支援センター）",
+"t": null,
+"url": "https://www.pref.hokkaido.lg.jp/hf/jsc/",
+"override": null
+},
+{
+"n": "DV被害者男性相談電話",
+"t": "011-661-3210",
+"url": null,
+"override": null
+},
+{
+"n": "保健福祉部子ども政策局子ども家庭支援課（配偶者暴力相談支援センター）",
+"t": null,
+"url": "https://www.pref.hokkaido.lg.jp/hf/kms/soudan_dvcenter.html",
+"override": null
+},
+{
+"n": "石狩振興局（配偶者暴力相談支援センター）",
+"t": null,
+"url": "https://www.pref.hokkaido.lg.jp/hf/kms/soudan_dvcenter.html",
+"override": null
+},
+{
+"n": "渡島総合振興局（配偶者暴力相談支援センター）",
+"t": null,
+"url": "https://www.oshima.pref.hokkaido.lg.jp/hk/syf/bouryoku.html",
+"override": null
+},
+{
+"n": "釧路総合振興局（配偶者暴力相談支援センター）",
+"t": null,
+"url": "https://www.kushiro.pref.hokkaido.lg.jp/hk/syf/156843.html",
+"override": null
+},
+{
+"n": "十勝総合振興局（配偶者暴力相談支援センター）",
+"t": null,
+"url": "https://www.tokachi.pref.hokkaido.lg.jp/hk/syf/dv.html",
+"override": null
+},
+{
+"n": "空知総合振興局（配偶者暴力相談支援センター）",
+"t": null,
+"url": "https://www.sorachi.pref.hokkaido.lg.jp/hk/syf/DV.html",
+"override": null
+},
+{
+"n": "オホーツク総合振興局（配偶者暴力相談支援センター）",
+"t": null,
+"url": "https://www.okhotsk.pref.hokkaido.lg.jp/category/d007/c058/",
+"override": null
+},
+{
+"n": "留萌振興局（配偶者暴力相談支援センター）",
+"t": null,
+"url": "https://www.rumoi.pref.hokkaido.lg.jp/hk/syf/155283.html",
+"override": null
+},
+{
+"n": "宗谷総合振興局（配偶者暴力相談支援センター）",
+"t": null,
+"url": "https://www.souya.pref.hokkaido.lg.jp/hk/syf/DVsodan.html",
+"override": null
+},
+{
+"n": "根室振興局（配偶者暴力相談支援窓口）",
+"t": null,
+"url": "https://www.nemuro.pref.hokkaido.lg.jp/hk/syf/dv-sien.html",
+"override": null
+},
+{
+"n": "檜山振興局（配偶者暴力相談支援センター）",
+"t": null,
+"url": "https://www.hiyama.pref.hokkaido.lg.jp/hk/syf/haiguusyabouryokudeonayaminokatahe.html",
+"override": null
+},
+{
+"n": "後志総合振興局（配偶者暴力相談支援センター）",
+"t": null,
+"url": "https://www.shiribeshi.pref.hokkaido.lg.jp/",
+"override": null
+},
+{
+"n": "日高振興局（配偶者暴力相談支援センター）",
+"t": null,
+"url": "https://www.hidaka.pref.hokkaido.lg.jp/hk/syf/",
+"override": null
+},
+{
+"n": "保健福祉部子ども政策局子ども家庭支援課（配偶者暴力相談支援センター）",
+"t": null,
+"url": "https://www.pref.hokkaido.lg.jp/hf/kms/soudan_dvcenter.html",
+"override": null
+}
+]
+},
+{
+"area": "札幌市",
+"lat": 43.061972,
+"lng": 141.354374,
+"prec": "area",
+"windows": [
+{
+"n": "女性の健康支援相談（中央区保健センター）",
+"t": null,
+"url": "https://kosodate.city.sapporo.jp/mokuteki/kenko/ninshin/1221.html",
+"override": null
+},
+{
+"n": "女性の健康支援相談（北区保健センター）",
+"t": null,
+"url": "https://kosodate.city.sapporo.jp/mokuteki/kenko/ninshin/1221.html",
+"override": null
+},
+{
+"n": "女性の健康支援相談（東区保健センター）",
+"t": null,
+"url": "https://kosodate.city.sapporo.jp/mokuteki/kenko/ninshin/1221.html",
+"override": null
+},
+{
+"n": "女性の健康支援相談（白石区保健センター）",
+"t": null,
+"url": "https://kosodate.city.sapporo.jp/mokuteki/kenko/ninshin/1221.html",
+"override": null
+},
+{
+"n": "女性の健康支援相談（厚別区保健センター）",
+"t": null,
+"url": "https://kosodate.city.sapporo.jp/mokuteki/kenko/ninshin/1221.html",
+"override": null
+},
+{
+"n": "女性の健康支援相談（豊平区保健センター）",
+"t": null,
+"url": "https://kosodate.city.sapporo.jp/mokuteki/kenko/ninshin/1221.html",
+"override": null
+},
+{
+"n": "女性の健康支援相談（清田区保健センター）",
+"t": null,
+"url": "https://kosodate.city.sapporo.jp/mokuteki/kenko/ninshin/1221.html",
+"override": null
+},
+{
+"n": "女性の健康支援相談（南区保健センター）",
+"t": null,
+"url": "https://kosodate.city.sapporo.jp/mokuteki/kenko/ninshin/1221.html",
+"override": null
+},
+{
+"n": "女性の健康支援相談（西区保健センター）",
+"t": null,
+"url": "https://kosodate.city.sapporo.jp/mokuteki/kenko/ninshin/1221.html",
+"override": null
+},
+{
+"n": "女性の健康支援相談（手稲区保健センター）",
+"t": null,
+"url": "https://kosodate.city.sapporo.jp/mokuteki/kenko/ninshin/1221.html",
+"override": null
+},
+{
+"n": "札幌市子どもの権利救済機関（子どもアシストセンター）",
+"t": null,
+"url": "https://www.city.sapporo.jp/kodomo/assist/",
+"override": null
+},
+{
+"n": "いじめ電話相談（少年相談室）",
+"t": null,
+"url": "https://www.city.sapporo.jp/kyoiku/ijime/soudan.html",
+"override": null
+},
+{
+"n": "24時間子供SOSダイヤル",
+"t": null,
+"url": "https://www.city.sapporo.jp/kyoiku/ijime/soudan.html",
+"override": null
+},
+{
+"n": "札幌市教育センター教育相談室（学びの支援総合センター）",
+"t": null,
+"url": "https://www.city.sapporo.jp/kyoiku/sodan/main.html",
+"override": null
+},
+{
+"n": "札幌市幼児教育センター",
+"t": null,
+"url": "https://www.city.sapporo.jp/kyoiku/youjikyouiku/yousenn/kyouikusoudann.html",
+"override": null
+},
+{
+"n": "札幌市配偶者暴力相談センター",
+"t": null,
+"url": "https://www.city.sapporo.jp/shimin/danjo/boryoku/sodan/index.html",
+"override": null
+},
+{
+"n": "札幌市LGBTほっとライン【でんわ】",
+"t": null,
+"url": "https://www.city.sapporo.jp/shimin/danjo/lgbt/lgbtsodan.html",
+"override": null
+},
+{
+"n": "札幌市LGBTほっとライン【LINE】",
+"t": null,
+"url": "https://www.city.sapporo.jp/shimin/danjo/lgbt/lgbtsodan.html",
+"override": null
+},
+{
+"n": "札幌市困難を抱える若年女性支援事業「LiNK」【LINE】",
+"t": null,
+"url": "https://www.city.sapporo.jp/kodomo/jisedai/jyakunenjyosei/link.html",
+"override": null
+},
+{
+"n": "札幌市困難を抱える若年女性支援事業「LiNK」【SOSホットライン】",
+"t": null,
+"url": "https://www.city.sapporo.jp/kodomo/jisedai/jyakunenjyosei/link.html",
+"override": null
+},
+{
+"n": "札幌ヤングケアラーnet",
+"t": null,
+"url": "https://www.city.sapporo.jp/kodomo/kenri/youngcarer.html",
+"override": null
+}
+]
+},
+{
+"area": "函館市",
+"lat": 41.768712,
+"lng": 140.729108,
+"prec": "area",
+"windows": [
+{
+"n": "函館市子どもなんでも相談110番",
+"t": null,
+"url": "https://www.city.hakodate.hokkaido.jp/docs/2024041200081/",
+"override": null
+}
+]
+},
+{
+"area": "小樽市",
+"lat": 43.19075266878744,
+"lng": 140.99460537820886,
+"prec": "area",
+"windows": [
+{
+"n": "小樽市家庭児童相談室（小樽市こども未来部こども家庭課こども家庭係内）",
+"t": null,
+"url": "https://www.city.otaru.lg.jp/docs/2020111100275/",
+"override": null
+},
+{
+"n": "小樽市こども家庭センター「にこにこ」",
+"t": null,
+"url": "https://www.city.otaru.lg.jp/docs/2020111000759/",
+"override": null
+}
+]
+},
+{
+"area": "旭川市",
+"lat": 43.770799,
+"lng": 142.364798,
+"prec": "area",
+"windows": [
+{
+"n": "女性相談室（配偶者暴力相談支援センター）",
+"t": null,
+"url": "https://www.city.asahikawa.hokkaido.jp/kurashi/218/241/251/d059778.html",
+"override": null
+},
+{
+"n": "子ども総合相談センター",
+"t": null,
+"url": "https://www.city.asahikawa.hokkaido.jp/kurashi/218/241/250/d055578.html#kodomokatei",
+"override": null
+},
+{
+"n": "いじめ防止対策推進部いじめ防止対策推進課",
+"t": null,
+"url": "https://www.city.asahikawa.hokkaido.jp/kurashi/218/258/261/d077274.html",
+"override": null
+},
+{
+"n": "waka・ba（おやこ応援課）",
+"t": null,
+"url": "https://www.city.asahikawa.hokkaido.jp/kurashi/218/241/250/d067221.html",
+"override": null
+},
+{
+"n": "いじめ防止対策推進部いじめ防止対策推進課（旭川市子どもSOS電話相談）",
+"t": null,
+"url": "https://www.city.asahikawa.hokkaido.jp/kurashi/218/258/261/d077274.html",
+"override": null
+},
+{
+"n": "waka・ba（おやこ応援課）",
+"t": null,
+"url": "https://www.city.asahikawa.hokkaido.jp/kurashi/218/241/250/d067221.html",
+"override": null
+},
+{
+"n": "子ども総合相談センター",
+"t": null,
+"url": "https://www.city.asahikawa.hokkaido.jp/kurashi/218/241/250/d055578.html#kodomokatei",
+"override": null
+}
+]
+},
+{
+"area": "室蘭市",
+"lat": 42.315204,
+"lng": 140.973784,
+"prec": "area",
+"windows": [
+{
+"n": "室蘭市こども家庭センターここらん",
+"t": null,
+"url": "https://www.city.muroran.lg.jp/education/?content=5645",
+"override": null
+}
+]
+},
+{
+"area": "釧路市",
+"lat": 42.984856,
+"lng": 144.38167,
+"prec": "area",
+"windows": [
+{
+"n": "釧路市役所こども支援課",
+"t": "0154-31-4204",
+"url": null,
+"override": null
+},
+{
+"n": "釧路市健康推進課（健康づくり班・母子健診班）",
+"t": "0154-31-4525",
+"url": null,
+"override": null
+},
+{
+"n": "教育委員会 学校指導課",
+"t": null,
+"url": "https://www.city.kushiro.lg.jp/kosodatekyouiku/kyouiku/1005612/1005614.html",
+"override": null
+}
+]
+},
+{
+"area": "帯広市",
+"lat": 42.924014,
+"lng": 143.196195,
+"prec": "area",
+"windows": [
+{
+"n": "子育て支援課（児童虐待と相談・通報窓口）",
+"t": null,
+"url": "https://www.city.obihiro.hokkaido.jp/kyoiku/kosodate/1004633.html",
+"override": null
+},
+{
+"n": "子育て支援課（ヤングケアラー相談窓口）",
+"t": null,
+"url": "https://www.city.obihiro.hokkaido.jp/kyoiku/kosodate/1011665/index.html",
+"override": null
+},
+{
+"n": "健康推進課（健康相談）",
+"t": null,
+"url": "https://www.city.obihiro.hokkaido.jp/kenko/kenko/1007518/1004850.html",
+"override": null
+},
+{
+"n": "健康推進課（母性相談）",
+"t": null,
+"url": "https://www.city.obihiro.hokkaido.jp/kyoiku/ninshin/ninshin/1004569.html",
+"override": null
+},
+{
+"n": "帯広市こども家庭センター",
+"t": null,
+"url": "https://www.city.obihiro.hokkaido.jp/kyoiku/kosodate/1018789/index.html",
+"override": null
+}
+]
+},
+{
+"area": "北見市",
+"lat": 43.807823,
+"lng": 143.894384,
+"prec": "area",
+"windows": [
+{
+"n": "北見市子ども未来部子ども支援課（子育て世代包括支援センター）",
+"t": null,
+"url": "https://www.city.kitami.lg.jp/administration/life/detail.php?content=7607",
+"override": null
+},
+{
+"n": "北見市保健福祉部健康推進課（北見市子育て世代包括支援センター）",
+"t": null,
+"url": "https://www.city.kitami.lg.jp/administration/life/detail.php?content=7607",
+"override": null
+},
+{
+"n": "北見市端野総合支所保健福祉課（北見市子育て世代包括支援センター）",
+"t": null,
+"url": "https://www.city.kitami.lg.jp/administration/life/detail.php?content=7607",
+"override": null
+},
+{
+"n": "北見市常呂総合支所保健福祉課（北見市子育て世代包括支援センター）",
+"t": null,
+"url": "https://www.city.kitami.lg.jp/administration/life/detail.php?content=7607",
+"override": null
+},
+{
+"n": "北見市留辺蘂総合支所保健福祉課（北見市子育て世代包括支援センター）",
+"t": null,
+"url": "https://www.city.kitami.lg.jp/administration/life/detail.php?content=7607",
+"override": null
+},
+{
+"n": "北見市教育委員会指導室",
+"t": null,
+"url": "https://www.city.kitami.lg.jp/administration/education/detail.php?content=3398",
+"override": null
+},
+{
+"n": "北見市子ども総合支援センター「きらり」",
+"t": null,
+"url": "http://www.city.kitami.lg.jp/administration/town/detail.php?content=9644",
+"override": null
+},
+{
+"n": "北見市青少年相談センター",
+"t": null,
+"url": "https://www.city.kitami.lg.jp/administration/education/detail.php?content=8133",
+"override": null
+},
+{
+"n": "北見市青少年相談センター（フリーダイヤル）",
+"t": null,
+"url": "https://www.city.kitami.lg.jp/administration/education/detail.php?content=8133",
+"override": null
+},
+{
+"n": "中央子育て相談センター",
+"t": null,
+"url": "https://www.city.kitami.lg.jp/administration/life/detail.php?content=6822",
+"override": null
+},
+{
+"n": "小泉子育て相談センター",
+"t": null,
+"url": "https://www.city.kitami.lg.jp/administration/life/detail.php?content=6820",
+"override": null
+},
+{
+"n": "端野子育て相談センター",
+"t": null,
+"url": "https://www.city.kitami.lg.jp/administration/life/detail.php?content=6824",
+"override": null
+},
+{
+"n": "常呂子育て相談センター",
+"t": null,
+"url": "https://www.city.kitami.lg.jp/administration/life/detail.php?content=6816",
+"override": null
+},
+{
+"n": "留辺蘂子育て相談センター",
+"t": null,
+"url": "https://www.city.kitami.lg.jp/administration/life/detail.php?content=6821",
+"override": null
+}
+]
+},
+{
+"area": "夕張市",
+"lat": 43.056814,
+"lng": 141.974069,
+"prec": "area",
+"windows": [
+{
+"n": "夕張市子育て世代包括支援センター（保健福祉課保健係）",
+"t": null,
+"url": "https://www.city.yubari.lg.jp",
+"override": null
+},
+{
+"n": "夕張市子ども家庭総合支援拠点（生活福祉課生活福祉係）",
+"t": null,
+"url": "https://www.city.yubari.lg.jp",
+"override": null
+}
+]
+},
+{
+"area": "岩見沢市",
+"lat": 43.196169,
+"lng": 141.775857,
+"prec": "area",
+"windows": [
+{
+"n": "こども家庭センター",
+"t": null,
+"url": "https://www.city.iwamizawa.hokkaido.jp/soshiki/kodomoka/4_1/16496.html",
+"override": null
+},
+{
+"n": "教育支援センター",
+"t": null,
+"url": "https://www.city.iwamizawa.hokkaido.jp/soshiki/shidoshitsu/kosodate/1/1/3268.html",
+"override": null
+},
+{
+"n": "青少年センター",
+"t": null,
+"url": "https://www.city.iwamizawa.hokkaido.jp/soshiki/shidoshitsu/kosodate/1/1/4278.html",
+"override": null
+}
+]
+},
+{
+"area": "網走市",
+"lat": 44.020631,
+"lng": 144.273422,
+"prec": "area",
+"windows": [
+{
+"n": "網走市家庭児童相談室",
+"t": null,
+"url": "https://www.city.abashiri.hokkaido.jp/soshiki/26/2054.html",
+"override": null
+},
+{
+"n": "網走市保健センター",
+"t": null,
+"url": "https://www.city.abashiri.hokkaido.jp/soshiki/11/1219.html",
+"override": null
+},
+{
+"n": "子育て世代包括支援センター「ユカリエ」",
+"t": null,
+"url": "https://www.city.abashiri.hokkaido.jp/soshiki/11/1938.html",
+"override": null
+}
+]
+},
+{
+"area": "留萌市",
+"lat": 43.940987,
+"lng": 141.637009,
+"prec": "area",
+"windows": [
+{
+"n": "教育委員会子育て支援課",
+"t": null,
+"url": "https://www.e-rumoi.jp/kosodate/",
+"override": null
+},
+{
+"n": "留萌市子ども発達支援センター",
+"t": null,
+"url": "https://www.e-rumoi.jp/youji/",
+"override": null
+},
+{
+"n": "市民健康部保健医療課",
+"t": null,
+"url": "https://www.e-rumoi.jp/hokeniryou/",
+"override": null
+},
+{
+"n": "留萌市子育て支援センター",
+"t": null,
+"url": "https://www.e-rumoi.jp/kosodate/",
+"override": null
+},
+{
+"n": "教育委員会教育政策課",
+"t": null,
+"url": "https://www.e-rumoi.jp/gakkoukyouiku/",
+"override": null
+},
+{
+"n": "留萌市教育支援センター「ゆっくるも」",
+"t": null,
+"url": "https://www.e-rumoi.jp/gakkoukyouiku/page28_00083.html",
+"override": null
+}
+]
+},
+{
+"area": "苫小牧市",
+"lat": 42.634094,
+"lng": 141.605503,
+"prec": "area",
+"windows": [
+{
+"n": "苫小牧市こども育成課",
+"t": null,
+"url": "https://www.city.tomakomai.hokkaido.jp/kenko/kosodate/riyousyasien.html",
+"override": null
+},
+{
+"n": "苫小牧市健康支援課",
+"t": null,
+"url": "https://www.city.tomakomai.hokkaido.jp/group/group_166.html",
+"override": null
+},
+{
+"n": "苫小牧市青少年課",
+"t": null,
+"url": "https://www.harp.lg.jp/SksJuminWeb/EntryForm?id=ZGm989Ou",
+"override": null
+},
+{
+"n": "苫小牧市こども相談センター",
+"t": null,
+"url": "https://www.city.tomakomai.hokkaido.jp/kenko/kosodate/kodomosoudansenta.html",
+"override": null
+}
+]
+},
+{
+"area": "稚内市",
+"lat": 45.415675,
+"lng": 141.673082,
+"prec": "area",
+"windows": [
+{
+"n": "稚内市こども課",
+"t": "0162-23-6529",
+"url": null,
+"override": null
+}
+]
+},
+{
+"area": "美唄市",
+"lat": 43.332951,
+"lng": 141.853986,
+"prec": "area",
+"windows": [
+{
+"n": "子育て支援センターはみんぐ",
+"t": null,
+"url": "https://www.city.bibai.hokkaido.jp/soshiki/9/735.html",
+"override": null
+},
+{
+"n": "みまもるカフェ（美唄市子育て世代包括支援センター）",
+"t": null,
+"url": "https://www.city.bibai.hokkaido.jp/soshiki/11/10233.html",
+"override": null
+}
+]
+},
+{
+"area": "芦別市",
+"lat": 43.51821,
+"lng": 142.189552,
+"prec": "area",
+"windows": [
+{
+"n": "芦別市家庭児童相談室",
+"t": null,
+"url": "https://www.city.ashibetsu.hokkaido.jp/docs/5108.html",
+"override": null
+},
+{
+"n": "芦別市健康推進課保健予防係",
+"t": null,
+"url": "https://www.city.ashibetsu.hokkaido.jp/docs/kosodate_p.html",
+"override": null
+},
+{
+"n": "芦別市子どもテレホン相談",
+"t": null,
+"url": "https://www.city.ashibetsu.hokkaido.jp/docs/5176.html",
+"override": null
+}
+]
+},
+{
+"area": "江別市",
+"lat": 43.103666,
+"lng": 141.536103,
+"prec": "area",
+"windows": [
+{
+"n": "江別市保健センター",
+"t": null,
+"url": "https://www.city.ebetsu.hokkaido.jp/soshiki/hoken/",
+"override": null
+},
+{
+"n": "江別市子ども発達支援センター",
+"t": null,
+"url": "https://www.city.ebetsu.hokkaido.jp/soshiki/kodomo/268.html",
+"override": null
+},
+{
+"n": "江別市子育て支援課家庭児童相談",
+"t": null,
+"url": "https://www.city.ebetsu.hokkaido.jp/soshiki/kodomokateika/",
+"override": null
+},
+{
+"n": "江別市教育委員会教育支援課電話教育相談",
+"t": null,
+"url": "https://www.city.ebetsu.hokkaido.jp/site/kyouiku/12849.html",
+"override": null
+},
+{
+"n": "江別市教育委員会教育支援課スクールカウンセラーによる教育相談",
+"t": null,
+"url": "https://www.city.ebetsu.hokkaido.jp/site/kyouiku/12849.html",
+"override": null
+},
+{
+"n": "江別市教育委員会教育支援課いじめ・不登校電話相談",
+"t": null,
+"url": "https://www.city.ebetsu.hokkaido.jp/site/kyouiku/12849.html",
+"override": null
+},
+{
+"n": "江別市教育委員会教育支援課スクールソーシャルワーカーによる電話相談",
+"t": null,
+"url": "https://www.city.ebetsu.hokkaido.jp/site/kyouiku/12849.html",
+"override": null
+}
+]
+},
+{
+"area": "赤平市",
+"lat": 43.558039,
+"lng": 142.044223,
+"prec": "area",
+"windows": [
+{
+"n": "赤平市社会福祉課",
+"t": null,
+"url": "https://www.city.akabira.hokkaido.jp/docs/2016012800062.html",
+"override": null
+},
+{
+"n": "赤平市介護健康推進課健康づくり推進係",
+"t": "0125-32-5665",
+"url": null,
+"override": null
+}
+]
+},
+{
+"area": "紋別市",
+"lat": 44.356332,
+"lng": 143.354279,
+"prec": "area",
+"windows": [
+{
+"n": "紋別市子ども家庭総合支援拠点",
+"t": "0158-24-2111",
+"url": null,
+"override": null
+},
+{
+"n": "教育委員会生涯学習課公式青少年相談室・いじめ相談室",
+"t": null,
+"url": "https://x.com/mombetsugakusyu",
+"override": null
+},
+{
+"n": "教育相談（いじめ・不登校・就学についての相談）",
+"t": "0158-23-0355",
+"url": null,
+"override": null
+},
+{
+"n": "教育委員会学務課ふれあい教室",
+"t": "0158-24-9113",
+"url": null,
+"override": null
+},
+{
+"n": "紋別市保健センター",
+"t": null,
+"url": "https://mombetsu.jp/welfare/?content=757",
+"override": null
+},
+{
+"n": "紋別市子育て世代包括支援センター",
+"t": null,
+"url": "https://mombetsu.jp/welfare/?content=1267",
+"override": null
+},
+{
+"n": "紋別市子育て支援センター",
+"t": null,
+"url": "https://mombetsu.jp/education/?content=37",
+"override": null
+},
+{
+"n": "西紋こども発達支援センターすてぷ",
+"t": null,
+"url": "http://nishimon-step.info/",
+"override": null
+}
+]
+},
+{
+"area": "士別市",
+"lat": 44.178626,
+"lng": 142.400182,
+"prec": "area",
+"windows": [
+{
+"n": "士別市青少年指導センター",
+"t": null,
+"url": "https://www.city.shibetsu.lg.jp/soshikikarasagasu/shakaikyoikuka/shakaikyoikukakari/1621.html",
+"override": null
+},
+{
+"n": "士別市こども・子育て応援課（こども家庭センター）",
+"t": null,
+"url": "https://www.city.shibetsu.lg.jp/soshikikarasagasu/kodomo_kosodateoenka/kosodateshienkakari/1173.html",
+"override": null
+}
+]
+},
+{
+"area": "名寄市",
+"lat": 44.355924,
+"lng": 142.463134,
+"prec": "area",
+"windows": [
+{
+"n": "健康福祉部こども・高齢者支援室　こども未来課こども福祉係",
+"t": null,
+"url": "http://www.city.nayoro.lg.jp/section/kodomo/vdh2d1000000476f.html",
+"override": null
+},
+{
+"n": "名寄市教育相談センター",
+"t": null,
+"url": "http://www.city.nayoro.lg.jp/section/jidou/vdh2d1000000ahcv.html",
+"override": null
+},
+{
+"n": "名寄市教育相談センター（フリーダイヤル）",
+"t": null,
+"url": "http://www.city.nayoro.lg.jp/section/jidou/vdh2d1000000ahcv.html",
+"override": null
+},
+{
+"n": "名寄市青少年センター",
+"t": null,
+"url": "http://www.city.nayoro.lg.jp/section/jidou/vdh2d1000000ah92.html",
+"override": null
+},
+{
+"n": "名寄市基幹相談支援センター",
+"t": null,
+"url": "http://www.city.nayoro.lg.jp/section/kikansodan/prkeql0000029f7x.html",
+"override": null
+},
+{
+"n": "名寄市保健センター",
+"t": null,
+"url": "http://www.city.nayoro.lg.jp/section/hoken/index.html",
+"override": null
+}
+]
+},
+{
+"area": "三笠市",
+"lat": 43.245622,
+"lng": 141.875342,
+"prec": "area",
+"windows": [
+{
+"n": "福祉事務所子ども子育て支援係",
+"t": "01267-2-3995",
+"url": null,
+"override": null
+},
+{
+"n": "保健福祉課健康係",
+"t": "01267-3-2010",
+"url": null,
+"override": null
+},
+{
+"n": "学校教育課学校教育係",
+"t": "01267-2-2197",
+"url": null,
+"override": null
+}
+]
+},
+{
+"area": "根室市",
+"lat": 43.330036,
+"lng": 145.582903,
+"prec": "area",
+"windows": [
+{
+"n": "根室市こども家庭センター",
+"t": null,
+"url": "https://www.city.nemuro.hokkaido.jp/lifeinfo/kakuka/shiminfukushibu/kodomoshien/index.html",
+"override": null
+},
+{
+"n": "子育て相談所ぶらんこ",
+"t": null,
+"url": "https://www.city.nemuro.hokkaido.jp/lifeinfo/kakuka/shiminfukushibu/kodomokosodate/1/859.html",
+"override": null
+},
+{
+"n": "つどいの広場クルクル",
+"t": null,
+"url": "https://www.city.nemuro.hokkaido.jp/lifeinfo/kakuka/shiminfukushibu/kodomokosodate/1/859.html",
+"override": null
+}
+]
+},
+{
+"area": "千歳市",
+"lat": 42.821124,
+"lng": 141.651139,
+"prec": "area",
+"windows": [
+{
+"n": "千歳市こども福祉部こども家庭課（千歳市こども家庭センター（児童福祉機能））",
+"t": null,
+"url": "https://www.city.chitose.lg.jp/docs/10384.html",
+"override": null
+},
+{
+"n": "千歳市保健福祉部母子保健課（千歳市こども家庭センター（母子保健機能））",
+"t": null,
+"url": "https://www.city.chitose.lg.jp/docs/95-96420-166-1084.html",
+"override": null
+},
+{
+"n": "千歳市青少年課（教育相談電話）",
+"t": null,
+"url": "https://www.city.chitose.lg.jp/docs/95-4288-169-908.html",
+"override": null
+},
+{
+"n": "千歳市市民生活課（千歳市人権擁護委員協議会）",
+"t": null,
+"url": "https://www.city.chitose.lg.jp/docs/95-53880-165-856.html",
+"override": null
+},
+{
+"n": "千歳市青少年課（青少年指導センター）",
+"t": "0123-24-0862",
+"url": null,
+"override": null
+},
+{
+"n": "千歳市こども福祉部児童発達支援センター（千歳市こども発達相談室はぐ）",
+"t": null,
+"url": "https://www.city.chitose.lg.jp/docs/28542.html?cat=%2F95%2F95_167%2F95_167_890%2F",
+"override": null
+},
+{
+"n": "千歳市こども福祉部児童発達支援センター（医療的ケア児等コーディネーター）",
+"t": null,
+"url": "https://www.city.chitose.lg.jp/c20/1002643/1002656/1004492.html",
+"override": null
+},
+{
+"n": "千歳市子育て総合支援センター（子育てコンシェルジュ）",
+"t": null,
+"url": "https://www.city.chitose.lg.jp/docs/95-94656-167-888.html",
+"override": null
+}
+]
+},
+{
+"area": "滝川市",
+"lat": 43.557753,
+"lng": 141.910371,
+"prec": "area",
+"windows": [
+{
+"n": "滝川市保健福祉部子育て応援課こども家庭センター",
+"t": null,
+"url": "https://www.city.takikawa.lg.jp/site/kosodate/2048.html",
+"override": null
+},
+{
+"n": "滝川市保健福祉部健康づくり課",
+"t": null,
+"url": "https://www.city.takikawa.lg.jp/soshiki/17/",
+"override": null
+},
+{
+"n": "滝川市教育委員会教育総務課",
+"t": null,
+"url": "https://www.city.takikawa.lg.jp/site/kyoikusoumuka/2764.html",
+"override": null
+}
+]
+},
+{
+"area": "砂川市",
+"lat": 43.494846,
+"lng": 141.903465,
+"prec": "area",
+"windows": [
+{
+"n": "砂川市保健福祉部子育て支援課子育て支援係",
+"t": null,
+"url": "https://www.city.sunagawa.hokkaido.jp/kosodate_kyouiku/jidoufukushi/jidoufukushi_service.html",
+"override": null
+},
+{
+"n": "砂川市保健福祉部子育て支援課子育て支援センター",
+"t": null,
+"url": "https://www.city.sunagawa.hokkaido.jp/kosodate_kyouiku/jidoufukushi/kosodateshien_center/kosodatesoudan.html",
+"override": null
+},
+{
+"n": "砂川市教育委員会学務課学校教育係（スクールソーシャルワーカー）",
+"t": null,
+"url": "https://www.city.sunagawa.hokkaido.jp/kosodate_kyouiku/gakkoukyouiku/2019-1004-1155-63.html",
+"override": null
+},
+{
+"n": "砂川市保健福祉部子ども家庭センター",
+"t": null,
+"url": "https://www.city.sunagawa.hokkaido.jp/kosodate_kyouiku/kosodatesien/2025-0321-1249-130.html",
+"override": null
+}
+]
+},
+{
+"area": "歌志内市",
+"lat": 43.521682,
+"lng": 142.035353,
+"prec": "area",
+"windows": [
+{
+"n": "歌志内市役所保健介護課",
+"t": "0125-74-6616",
+"url": null,
+"override": null
+},
+{
+"n": "歌志内市教育委員会",
+"t": "0125-42-4223",
+"url": null,
+"override": null
+},
+{
+"n": "歌志内市福祉事業課",
+"t": "0125-42-3213",
+"url": null,
+"override": null
+}
+]
+},
+{
+"area": "深川市",
+"lat": 43.723184,
+"lng": 142.053528,
+"prec": "area",
+"windows": [
+{
+"n": "深川市子どもと親の相談室",
+"t": "0164-23-5570",
+"url": null,
+"override": null
+},
+{
+"n": "家庭児童相談室",
+"t": "0164-26-2237",
+"url": null,
+"override": null
+}
+]
+},
+{
+"area": "富良野市",
+"lat": 43.342024,
+"lng": 142.383104,
+"prec": "area",
+"windows": [
+{
+"n": "富良野市総合保健センター",
+"t": "0167-39-2200",
+"url": null,
+"override": null
+},
+{
+"n": "富良野市こども家庭センター",
+"t": "0167-39-2335",
+"url": null,
+"override": null
+},
+{
+"n": "富良野市子育て支援センター",
+"t": null,
+"url": "https://www.city.furano.hokkaido.jp/kosodate/docs/1438310.html",
+"override": null
+},
+{
+"n": "富良野市子育て支援センター",
+"t": null,
+"url": "https://www.city.furano.hokkaido.jp/kosodate/docs/1438310.html",
+"override": null
+}
+]
+},
+{
+"area": "登別市",
+"lat": 42.412735,
+"lng": 141.106556,
+"prec": "area",
+"windows": [
+{
+"n": "登別市保健福祉部こども家庭グループこども家庭センター",
+"t": null,
+"url": "https://www.city.noboribetsu.lg.jp/docs/2013030400809/",
+"override": null
+},
+{
+"n": "登別市教育委員会",
+"t": null,
+"url": "http://www.noboribetsu.ed.jp/~iinkai/no_03_school_education/consultation_window/consultation_window.html",
+"override": null
+},
+{
+"n": "登別市保健福祉部健康推進グループ（子育て世代包括支援センター）",
+"t": null,
+"url": "https://www.city.noboribetsu.lg.jp/docs/2020012700031/",
+"override": null
+},
+{
+"n": "中央子育て支援センター",
+"t": null,
+"url": "https://www.city.noboribetsu.lg.jp/docs/2021052700012/",
+"override": null
+},
+{
+"n": "鷲別子育て支援センター",
+"t": null,
+"url": "https://www.city.noboribetsu.lg.jp/docs/2021032300089/",
+"override": null
+},
+{
+"n": "登別子育て支援センター",
+"t": null,
+"url": "https://nrg.ed.jp/support_center/",
+"override": null
+}
+]
+},
+{
+"area": "恵庭市",
+"lat": 42.882592,
+"lng": 141.577799,
+"prec": "area",
+"windows": [
+{
+"n": "恵庭市えにわっこ応援センター",
+"t": null,
+"url": "https://www.city.eniwa.hokkaido.jp/soshikikarasagasu/kodomomiraibu/eniwakko/1/1501.html",
+"override": null
+},
+{
+"n": "スクールカウンセラーによる教育相談",
+"t": null,
+"url": "https://www.city.eniwa.hokkaido.jp/kurashi/kosodate_kyoiku/gakko_kyoiku/ijime_futokotaisaku/3882.html",
+"override": null
+},
+{
+"n": "スクールソーシャルワーカー相談電話",
+"t": null,
+"url": "https://www.city.eniwa.hokkaido.jp/kurashi/kosodate_kyoiku/gakko_kyoiku/ijime_futokotaisaku/4071.html",
+"override": null
+},
+{
+"n": "小学校入学にかかわる教育相談",
+"t": null,
+"url": "https://www.city.eniwa.hokkaido.jp/kurashi/kosodate_kyoiku/gakko_kyoiku/tokubetsushienkyoiku/4669.html",
+"override": null
+},
+{
+"n": "恵庭市保健課",
+"t": null,
+"url": "https://www.city.eniwa.hokkaido.jp/kurashi/kenko_fukushi/kenko/kokoronokennkou/7561.html",
+"override": null
+}
+]
+},
+{
+"area": "伊達市",
+"lat": 42.471898,
+"lng": 140.864702,
+"prec": "area",
+"windows": [
+{
+"n": "伊達市健康福祉部子育て支援課",
+"t": null,
+"url": "https://www.city.date.hokkaido.jp/hotnews/detail/00000824.html",
+"override": null
+},
+{
+"n": "伊達市健康福祉部健康推進課",
+"t": "0142-82-3198",
+"url": null,
+"override": null
+},
+{
+"n": "教育委員会指導室",
+"t": null,
+"url": "https://www.city.date.hokkaido.jp/kyoiku/detail/00000531.html",
+"override": null
+}
+]
+},
+{
+"area": "北広島市",
+"lat": 42.985663,
+"lng": 141.563625,
+"prec": "area",
+"windows": [
+{
+"n": "こども家庭センター（母子保健機能）",
+"t": null,
+"url": "https://www.city.kitahiroshima.hokkaido.jp/kosodate/detail/00157769.html",
+"override": null
+},
+{
+"n": "北広島市子どもサポートセンター",
+"t": "011-372-3311",
+"url": null,
+"override": null
+},
+{
+"n": "輪厚児童センター",
+"t": null,
+"url": "https://www.city.kitahiroshima.hokkaido.jp/kosodate/detail_sp/00142714.html",
+"override": null
+},
+{
+"n": "大曲児童センター",
+"t": null,
+"url": "https://www.city.kitahiroshima.hokkaido.jp/kosodate/detail_sp/00142714.html",
+"override": null
+},
+{
+"n": "北広島団地児童センター",
+"t": null,
+"url": "https://www.city.kitahiroshima.hokkaido.jp/kosodate/detail_sp/00142714.html",
+"override": null
+},
+{
+"n": "北広島市子ども発達支援センター",
+"t": null,
+"url": "https://www.city.kitahiroshima.hokkaido.jp/kosodate/detail/00158511.html",
+"override": null
+},
+{
+"n": "福祉総合相談室こども家庭センター",
+"t": null,
+"url": "https://www.city.kitahiroshima.hokkaido.jp/kosodate/detail/00157769.html",
+"override": null
+},
+{
+"n": "子どもの権利相談窓口",
+"t": null,
+"url": "https://www.city.kitahiroshima.hokkaido.jp/mail/4.html",
+"override": null
+}
+]
+},
+{
+"area": "石狩市",
+"lat": 43.171365,
+"lng": 141.315514,
+"prec": "area",
+"windows": [
+{
+"n": "石狩市教教育委員会教育支援課",
+"t": null,
+"url": "https://www.city.ishikari.hokkaido.jp/kosodate-kyoiku/kyoikuiinkai/1004426/1003418.html",
+"override": null
+},
+{
+"n": "石狩市子育て推進部子ども政策課",
+"t": null,
+"url": "https://www.city.ishikari.hokkaido.jp/kurashi/jinken/1003177.html",
+"override": null
+},
+{
+"n": "石狩市子育て推進部子ども相談センター",
+"t": null,
+"url": "https://www.city.ishikari.hokkaido.jp/shisei/soshiki/1005257.html",
+"override": null
+}
+]
+},
+{
+"area": "北斗市",
+"lat": 41.824174,
+"lng": 140.653067,
+"prec": "area",
+"windows": [
+{
+"n": "北斗市民生部子育て支援課こども家庭センター",
+"t": "0138-73-3111",
+"url": null,
+"override": null
+},
+{
+"n": "北斗市民生部子育て支援課母子保健係",
+"t": "0138-73-3111",
+"url": null,
+"override": null
+},
+{
+"n": "北斗市教育委員会学校教育課教育支援係",
+"t": "0138-74-2000",
+"url": null,
+"override": null
+}
+]
+},
+{
+"area": "当別町",
+"lat": 43.22363701354465,
+"lng": 141.51700268412768,
+"prec": "area",
+"windows": [
+{
+"n": "当別町役場福祉部保健福祉課福祉係",
+"t": "0133-23-3019",
+"url": null,
+"override": null
+},
+{
+"n": "当別町役場福祉部保健福祉課健康推進係",
+"t": null,
+"url": "https://www.town.tobetsu.hokkaido.jp/soshiki/hoken/39853.html",
+"override": null
+},
+{
+"n": "当別町子ども発達支援センター",
+"t": null,
+"url": "https://www.town.tobetsu.hokkaido.jp/life/9/53/214/",
+"override": null
+},
+{
+"n": "当別町役場福祉部子ども未来課子育てサポート係",
+"t": null,
+"url": "https://www.town.tobetsu.hokkaido.jp/life/9/53/218/",
+"override": null
+}
+]
+},
+{
+"area": "新篠津村",
+"lat": 43.225368,
+"lng": 141.649247,
+"prec": "area",
+"windows": [
+{
+"n": "新篠津村住民課",
+"t": "0126-57-2111",
+"url": null,
+"override": null
+}
+]
+},
+{
+"area": "松前町",
+"lat": 41.429981,
+"lng": 140.110403,
+"prec": "area",
+"windows": [
+{
+"n": "松前町保健福祉課",
+"t": "0139-42-2650",
+"url": null,
+"override": null
+},
+{
+"n": "松前町教育委員会事務局",
+"t": "0139-42-3060",
+"url": null,
+"override": null
+}
+]
+},
+{
+"area": "福島町",
+"lat": 41.483783,
+"lng": 140.251315,
+"prec": "area",
+"windows": [
+{
+"n": "福島町町民課",
+"t": null,
+"url": "https://www.town.fukushima.hokkaido.jp/kurasi/kakushusoudan/",
+"override": null
+},
+{
+"n": "福島町福祉課",
+"t": null,
+"url": "https://www.town.fukushima.hokkaido.jp/hukushi/kodomo/",
+"override": null
+},
+{
+"n": "福島町教育委員会事務局",
+"t": null,
+"url": "https://www.town.fukushima.hokkaido.jp/kyouiku/",
+"override": null
+}
+]
+},
+{
+"area": "知内町",
+"lat": 41.598377,
+"lng": 140.418861,
+"prec": "area",
+"windows": [
+{
+"n": "知内町生活福祉課",
+"t": "01392-6-7174",
+"url": null,
+"override": null
+},
+{
+"n": "知内町保健センター",
+"t": "01392-5-3506",
+"url": null,
+"override": null
+},
+{
+"n": "知内町教育委員会",
+"t": "01392-5-6855",
+"url": null,
+"override": null
+}
+]
+},
+{
+"area": "木古内町",
+"lat": 41.678332,
+"lng": 140.437635,
+"prec": "area",
+"windows": [
+{
+"n": "町民課住民グループ",
+"t": "01392-2-3131",
+"url": null,
+"override": null
+},
+{
+"n": "ひとづくり未来課学校教育グループ",
+"t": "01392-2-2224",
+"url": null,
+"override": null
+},
+{
+"n": "保健福祉課保健福祉グループ",
+"t": "01392-2-2122",
+"url": null,
+"override": null
+}
+]
+},
+{
+"area": "七飯町",
+"lat": 41.895711,
+"lng": 140.694405,
+"prec": "area",
+"windows": [
+{
+"n": "健康推進課母子保健係",
+"t": null,
+"url": "https://www.town.nanae.hokkaido.jp/hotnews/category/108.html",
+"override": null
+}
+]
+},
+{
+"area": "鹿部町",
+"lat": 42.038567,
+"lng": 140.815907,
+"prec": "area",
+"windows": [
+{
+"n": "鹿部町子ども教育課",
+"t": "01372-7-7211",
+"url": null,
+"override": null
+},
+{
+"n": "鹿部町役場保健福祉課",
+"t": "01372-7-5291",
+"url": null,
+"override": null
+}
+]
+},
+{
+"area": "森町",
+"lat": 42.104992,
+"lng": 140.576446,
+"prec": "area",
+"windows": [
+{
+"n": "森町保健福祉子育て課子育て支援係",
+"t": "01374-3-2311",
+"url": null,
+"override": null
+},
+{
+"n": "森町保健センター",
+"t": "01374-3-2311",
+"url": null,
+"override": null
+},
+{
+"n": "森町学校教育課",
+"t": "01374-3-3640",
+"url": null,
+"override": null
+}
+]
+},
+{
+"area": "八雲町",
+"lat": 42.255918,
+"lng": 140.265224,
+"prec": "area",
+"windows": [
+{
+"n": "八雲町住民生活課児童係",
+"t": null,
+"url": "https://www.town.yakumo.lg.jp",
+"override": null
+},
+{
+"n": "八雲町熊石総合支所住民サービス課　環境生活係",
+"t": null,
+"url": "https://www.town.yakumo.lg.jp",
+"override": null
+},
+{
+"n": "八雲町保健福祉課健康推進係",
+"t": null,
+"url": "https://www.town.yakumo.lg.jp",
+"override": null
+},
+{
+"n": "八雲町保健福祉課健康推進係",
+"t": null,
+"url": "https://www.town.yakumo.lg.jp",
+"override": null
+},
+{
+"n": "八雲町子育て支援センター",
+"t": null,
+"url": "https://www.town.yakumo.lg.jp",
+"override": null
+}
+]
+},
+{
+"area": "長万部町",
+"lat": 42.513488,
+"lng": 140.380344,
+"prec": "area",
+"windows": [
+{
+"n": "長万部町教育委員会",
+"t": null,
+"url": "https://www.town.oshamambe.lg.jp/life/3/",
+"override": null
+},
+{
+"n": "長万部町保健福祉課",
+"t": null,
+"url": "https://www.town.oshamambe.lg.jp/life/2/",
+"override": null
+}
+]
+},
+{
+"area": "江差町",
+"lat": 41.869244,
+"lng": 140.12756,
+"prec": "area",
+"windows": [
+{
+"n": "江差町役場町民福祉課",
+"t": "0139-52-6720",
+"url": null,
+"override": null
+},
+{
+"n": "江差町役場健康推進課",
+"t": "0139-52-6718",
+"url": null,
+"override": null
+}
+]
+},
+{
+"area": "上ノ国町",
+"lat": 41.801042,
+"lng": 140.121398,
+"prec": "area",
+"windows": [
+{
+"n": "教育委員会事務局",
+"t": "0139-55-2230",
+"url": null,
+"override": null
+},
+{
+"n": "保健福祉課",
+"t": "0139-55-4460",
+"url": null,
+"override": null
+},
+{
+"n": "住民課",
+"t": "0139-55-2311",
+"url": null,
+"override": null
+}
+]
+},
+{
+"area": "厚沢部町",
+"lat": 41.920895,
+"lng": 140.225475,
+"prec": "area",
+"windows": [
+{
+"n": "保健福祉センター",
+"t": null,
+"url": "https://www.town.assabu.lg.jp/index.php",
+"override": null
+}
+]
+},
+{
+"area": "乙部町",
+"lat": 41.968504,
+"lng": 140.13546,
+"prec": "area",
+"windows": [
+{
+"n": "乙部町役場町民課",
+"t": "0139-62-2858",
+"url": null,
+"override": null
+},
+{
+"n": "つくし保育園（子育て支援センター）",
+"t": "0139-62-2030",
+"url": null,
+"override": null
+}
+]
+},
+{
+"area": "奥尻町",
+"lat": 42.17226,
+"lng": 139.514121,
+"prec": "area",
+"windows": [
+{
+"n": "奥尻町くらし安心課",
+"t": "01397-2-3408",
+"url": null,
+"override": null
+},
+{
+"n": "奥尻町教育委員会事務局",
+"t": "01397-2-3890",
+"url": null,
+"override": null
+}
+]
+},
+{
+"area": "今金町",
+"lat": 42.429373,
+"lng": 140.008766,
+"prec": "area",
+"windows": [
+{
+"n": "今金町教育委員会",
+"t": "0137-82-3488",
+"url": null,
+"override": null
+},
+{
+"n": "今金町保健福祉課",
+"t": "0137-82-2780",
+"url": null,
+"override": null
+}
+]
+},
+{
+"area": "せたな町",
+"lat": 42.417145,
+"lng": 139.882999,
+"prec": "area",
+"windows": [
+{
+"n": "せたな町保健福祉課（せたな町健康センター）",
+"t": "0137-84-5984",
+"url": null,
+"override": null
+},
+{
+"n": "せたな町教育委員会",
+"t": "0137-84-5111",
+"url": null,
+"override": null
+}
+]
+},
+{
+"area": "島牧村",
+"lat": 42.700471,
+"lng": 140.061454,
+"prec": "area",
+"windows": [
+{
+"n": "福祉課",
+"t": null,
+"url": "https://www.vill.shimamaki.lg.jp/category/?category=welfare",
+"override": null
+}
+]
+},
+{
+"area": "寿都町",
+"lat": 42.790984,
+"lng": 140.228891,
+"prec": "area",
+"windows": [
+{
+"n": "寿都町役場　町民課",
+"t": "0136-62-2513",
+"url": null,
+"override": null
+},
+{
+"n": "寿都町教育委員会",
+"t": "0136-62-2100",
+"url": null,
+"override": null
+}
+]
+},
+{
+"area": "黒松内町",
+"lat": 42.667788,
+"lng": 140.307739,
+"prec": "area",
+"windows": [
+{
+"n": "黒松内町保健福祉課",
+"t": "0136-72-4285",
+"url": null,
+"override": null
+},
+{
+"n": "黒松内町教育委員会",
+"t": "0136-72-3160",
+"url": null,
+"override": null
+}
+]
+},
+{
+"area": "蘭越町",
+"lat": 42.809205,
+"lng": 140.528346,
+"prec": "area",
+"windows": [
+{
+"n": "蘭越町役場健康推進課健康づくり対策係",
+"t": "0136-55-8525",
+"url": null,
+"override": null
+},
+{
+"n": "蘭越町役場住民福祉課子ども支援係",
+"t": "0136-55-6436",
+"url": null,
+"override": null
+},
+{
+"n": "蘭越町役場教育委員会",
+"t": "0136-55-7827",
+"url": null,
+"override": null
+},
+{
+"n": "蘭越町役場住民福祉課社会福祉係",
+"t": "0136-55-6436",
+"url": null,
+"override": null
+}
+]
+},
+{
+"area": "ニセコ町",
+"lat": 42.804788,
+"lng": 140.68754,
+"prec": "area",
+"windows": [
+{
+"n": "保健福祉課",
+"t": "0136-44-2121",
+"url": null,
+"override": null
+},
+{
+"n": "教育委員会　こども未来課",
+"t": "0136-44-2101",
+"url": null,
+"override": null
+},
+{
+"n": "教育委員会　総合教育課",
+"t": "0136-44-2101",
+"url": null,
+"override": null
+}
+]
+},
+{
+"area": "真狩村",
+"lat": 42.762955,
+"lng": 140.803669,
+"prec": "area",
+"windows": [
+{
+"n": "真狩村役場　住民課",
+"t": "0136-45-3612",
+"url": null,
+"override": null
+},
+{
+"n": "真狩村教育委員会",
+"t": null,
+"url": "https://www.vill.makkari.lg.jp/kurashi/kosodate_kyoiku/kyouiku/ijime/",
+"override": null
+}
+]
+},
+{
+"area": "留寿都村",
+"lat": 42.737263,
+"lng": 140.875574,
+"prec": "area",
+"windows": [
+{
+"n": "留寿都村こども家庭センター",
+"t": null,
+"url": "https://www.vill.rusutsu.lg.jp",
+"override": null
+},
+{
+"n": "住民福祉課",
+"t": null,
+"url": "https://www.vill.rusutsu.lg.jp",
+"override": null
+},
+{
+"n": "保健医療課",
+"t": null,
+"url": "https://www.vill.rusutsu.lg.jp",
+"override": null
+},
+{
+"n": "教育委員会",
+"t": null,
+"url": "https://www.vill.rusutsu.lg.jp",
+"override": null
+}
+]
+},
+{
+"area": "喜茂別町",
+"lat": 42.795439,
+"lng": 140.934532,
+"prec": "area",
+"windows": [
+{
+"n": "喜茂別町健康増進センター",
+"t": null,
+"url": null,
+"override": null
+}
+]
+},
+{
+"area": "京極町",
+"lat": 42.858216,
+"lng": 140.883999,
+"prec": "area",
+"windows": [
+{
+"n": "健康推進課",
+"t": null,
+"url": "https://www.town-kyogoku.jp/",
+"override": null
+}
+]
+},
+{
+"area": "倶知安町",
+"lat": 42.901752,
+"lng": 140.758878,
+"prec": "area",
+"windows": [
+{
+"n": "倶知安町こども未来課",
+"t": null,
+"url": "https://www.town.kutchan.hokkaido.jp/Living_Information/kosodate-kyouiku/",
+"override": null
+}
+]
+},
+{
+"area": "共和町",
+"lat": 42.980407,
+"lng": 140.611175,
+"prec": "area",
+"windows": [
+{
+"n": "共和町役場住民生活課子育て支援係",
+"t": "0135-67-8784",
+"url": null,
+"override": null
+},
+{
+"n": "共和町子育て世代包括支援センター（役場保健福祉課健康推進係担当）",
+"t": "0135-67-8788",
+"url": null,
+"override": null
+},
+{
+"n": "共和町教育委員会管理課学校教育係",
+"t": "0135-67-8815",
+"url": null,
+"override": null
+}
+]
+},
+{
+"area": "岩内町",
+"lat": 42.978778,
+"lng": 140.509212,
+"prec": "area",
+"windows": [
+{
+"n": "民生部社会福祉課",
+"t": "0135-67-7083",
+"url": null,
+"override": null
+}
+]
+},
+{
+"area": "泊村",
+"lat": 43.063212,
+"lng": 140.498857,
+"prec": "area",
+"windows": [
+{
+"n": "泊村役場健康支援課",
+"t": "0135-65-2278",
+"url": null,
+"override": null
+}
+]
+},
+{
+"area": "神恵内村",
+"lat": 43.143791,
+"lng": 140.430817,
+"prec": "area",
+"windows": [
+{
+"n": "神恵内村役場　住民課　保健師",
+"t": "0135-76-5011",
+"url": null,
+"override": null
+}
+]
+},
+{
+"area": "積丹町",
+"lat": 43.29871,
+"lng": 140.598001,
+"prec": "area",
+"windows": [
+{
+"n": "積丹町役場住民福祉課",
+"t": "0135-44-2113",
+"url": null,
+"override": null
+}
+]
+},
+{
+"area": "古平町",
+"lat": 43.265353,
+"lng": 140.639078,
+"prec": "area",
+"windows": [
+{
+"n": "古平町役場 町民課 社会福祉係",
+"t": "0135-48-9838",
+"url": null,
+"override": null
+},
+{
+"n": "古平町役場 保健福祉課 健康推進係（子育て世代包括支援センター「古平すくすくセンター」",
+"t": "0135-48-9839",
+"url": null,
+"override": null
+}
+]
+},
+{
+"area": "仁木町",
+"lat": 43.151675,
+"lng": 140.766168,
+"prec": "area",
+"windows": [
+{
+"n": "仁木町福祉課おもいやり係",
+"t": null,
+"url": "https://www.town.niki.hokkaido.jp",
+"override": null
+},
+{
+"n": "仁木町福祉課保健係",
+"t": null,
+"url": "https://www.town.niki.hokkaido.jp",
+"override": null
+}
+]
+},
+{
+"area": "余市町",
+"lat": 43.195343,
+"lng": 140.783542,
+"prec": "area",
+"windows": [
+{
+"n": "余市町役場民生部子育て・健康推進課",
+"t": null,
+"url": "https://www.town.yoichi.hokkaido.jp/kurashi/kurashinojouhou/ninnsin-syussan-kosodate/files/chirasikansei.pdf",
+"override": null
+}
+]
+},
+{
+"area": "赤井川村",
+"lat": 43.083479,
+"lng": 140.81364,
+"prec": "area",
+"windows": [
+{
+"n": "赤井川村子育て世代包括支援センター（赤井川村役場保健福祉課）",
+"t": "0135-35-2050",
+"url": null,
+"override": null
+}
+]
+},
+{
+"area": "南幌町",
+"lat": 43.063739,
+"lng": 141.65033,
+"prec": "area",
+"windows": [
+{
+"n": "保健福祉課",
+"t": null,
+"url": "https://www.town.nanporo.hokkaido.jp/consultation/",
+"override": null
+},
+{
+"n": "南幌町教育委員会",
+"t": null,
+"url": "https://www.town.nanporo.hokkaido.jp/consultation/",
+"override": null
+}
+]
+},
+{
+"area": "奈井江町",
+"lat": 43.425353,
+"lng": 141.882816,
+"prec": "area",
+"windows": [
+{
+"n": "奈井江町子育て支援センター",
+"t": "0125-74-6117",
+"url": null,
+"override": null
+}
+]
+},
+{
+"area": "上砂川町",
+"lat": 43.482538,
+"lng": 141.984064,
+"prec": "area",
+"windows": [
+{
+"n": "子育て世代包括支援センター（役場内）",
+"t": "0125-62-2014",
+"url": null,
+"override": null
+},
+{
+"n": "上砂川町健康推進課子育て支援係",
+"t": "0125-62-2014",
+"url": null,
+"override": null
+}
+]
+},
+{
+"area": "由仁町",
+"lat": 42.999598,
+"lng": 141.790309,
+"prec": "area",
+"windows": [
+{
+"n": "由仁町保健福祉課",
+"t": "0123-83-4750",
+"url": null,
+"override": null
+}
+]
+},
+{
+"area": "長沼町",
+"lat": 43.01034,
+"lng": 141.695367,
+"prec": "area",
+"windows": [
+{
+"n": "長沼町子ども育成課（こども家庭センター）",
+"t": null,
+"url": "https://www.maoi-net.jp/kosodate_kyoiku/ninshin_shussan_kosodate/shienservice/kodomokateicenter.html",
+"override": null
+},
+{
+"n": "長沼町保健福祉課",
+"t": "0123-82-5555",
+"url": null,
+"override": null
+},
+{
+"n": "長沼町教育委員会 教育相談窓口",
+"t": "0123-88-1711",
+"url": null,
+"override": null
+}
+]
+},
+{
+"area": "栗山町",
+"lat": 43.05629,
+"lng": 141.784099,
+"prec": "area",
+"windows": [
+{
+"n": "住民保健課",
+"t": null,
+"url": "https://www.town.kuriyama.hokkaido.jp/soshiki/38/28262.html",
+"override": null
+},
+{
+"n": "栗山町子育て支援センター",
+"t": null,
+"url": "https://www.town.kuriyama.hokkaido.jp/soshiki/39/1801.html",
+"override": null
+},
+{
+"n": "福祉課",
+"t": "0123-73-2222",
+"url": null,
+"override": null
+},
+{
+"n": "栗山町教育委員会・学校教育課",
+"t": "0123-72-1112",
+"url": null,
+"override": null
+}
+]
+},
+{
+"area": "月形町",
+"lat": 43.338397,
+"lng": 141.669604,
+"prec": "area",
+"windows": [
+{
+"n": "月形町保健福祉課",
+"t": "0126-53-3155",
+"url": null,
+"override": null
+}
+]
+},
+{
+"area": "浦臼町",
+"lat": 43.430363,
+"lng": 141.818727,
+"prec": "area",
+"windows": [
+{
+"n": "福祉課子育て支援係",
+"t": "0125-69-2100",
+"url": null,
+"override": null
+}
+]
+},
+{
+"area": "新十津川町",
+"lat": 43.5485,
+"lng": 141.877009,
+"prec": "area",
+"windows": [
+{
+"n": "新十津川町保健福祉課子育て・福祉グループ",
+"t": "0125-72-2035",
+"url": null,
+"override": null
+},
+{
+"n": "新十津川町保健福祉課健康推進グループ",
+"t": "0125-72-2000",
+"url": null,
+"override": null
+},
+{
+"n": "青少年悩み相談電話",
+"t": null,
+"url": "https://www.town.shintotsukawa.lg.jp/hotnews/detail/00000317.html",
+"override": null
+}
+]
+},
+{
+"area": "妹背牛町",
+"lat": 43.700093,
+"lng": 141.961606,
+"prec": "area",
+"windows": [
+{
+"n": "妹背牛町役場教育課学校教育グループ",
+"t": "0164-32-2525",
+"url": null,
+"override": null
+},
+{
+"n": "妹背牛町役場健康福祉課健康グループ",
+"t": "0164-32-2412",
+"url": null,
+"override": null
+},
+{
+"n": "妹背牛町役場健康福祉課福祉グループ",
+"t": "0164-32-2413",
+"url": null,
+"override": null
+}
+]
+},
+{
+"area": "秩父別町",
+"lat": 43.767,
+"lng": 141.957896,
+"prec": "area",
+"windows": [
+{
+"n": "秩父別町住民課社会福祉係",
+"t": "0164-33-2111",
+"url": null,
+"override": null
+}
+]
+},
+{
+"area": "雨竜町",
+"lat": 43.643943,
+"lng": 141.889036,
+"prec": "area",
+"windows": [
+{
+"n": "住民課",
+"t": "0125-77-2212",
+"url": null,
+"override": null
+}
+]
+},
+{
+"area": "北竜町",
+"lat": 43.731426,
+"lng": 141.879409,
+"prec": "area",
+"windows": [
+{
+"n": "北竜町役場こども・くらし応援課",
+"t": "0164-34-7031",
+"url": null,
+"override": null
+}
+]
+},
+{
+"area": "沼田町",
+"lat": 43.80674,
+"lng": 141.933817,
+"prec": "area",
+"windows": [
+{
+"n": "沼田町こども家庭センター",
+"t": null,
+"url": "https://www.town.numata.hokkaido.jp/section/hoken/index.html",
+"override": null
+}
+]
+},
+{
+"area": "鷹栖町",
+"lat": 43.843321,
+"lng": 142.354382,
+"prec": "area",
+"windows": [
+{
+"n": "生活福祉相談センター",
+"t": null,
+"url": "https://www.town.takasu.hokkaido.jp/gyosei/welfare/detail.html?content=98",
+"override": null
+}
+]
+},
+{
+"area": "東神楽町",
+"lat": 43.696303,
+"lng": 142.451571,
+"prec": "area",
+"windows": [
+{
+"n": "東神楽町健康ふくし課社会福祉係",
+"t": "0166-83-5430",
+"url": null,
+"override": null
+},
+{
+"n": "東神楽町健康ふくし課健保健指導係",
+"t": "0166-83-5431",
+"url": null,
+"override": null
+},
+{
+"n": "東神楽町こども家庭センター",
+"t": "0166-83-5600",
+"url": null,
+"override": null
+},
+{
+"n": "旭川地方法務局・旭川人権擁護委員連合会",
+"t": "0120-007-110",
+"url": null,
+"override": null
+}
+]
+},
+{
+"area": "当麻町",
+"lat": 43.828201,
+"lng": 142.508388,
+"prec": "area",
+"windows": [
+{
+"n": "当麻町子育て支援課",
+"t": null,
+"url": "http://www.town.tohma.hokkaido.jp/living/06/02/1942",
+"override": null
+}
+]
+},
+{
+"area": "比布町",
+"lat": 43.875021,
+"lng": 142.477699,
+"prec": "area",
+"windows": [
+{
+"n": "子育て支援センター",
+"t": null,
+"url": "https://www.town.pippu.hokkaido.jp/cms/section/fukushi/p1rhin00000022mk.html",
+"override": null
+}
+]
+},
+{
+"area": "愛別町",
+"lat": 43.906679,
+"lng": 142.577822,
+"prec": "area",
+"windows": [
+{
+"n": "保健福祉課",
+"t": "01658-6-5116",
+"url": null,
+"override": null
+}
+]
+},
+{
+"area": "上川町",
+"lat": 43.847128,
+"lng": 142.770459,
+"prec": "area",
+"windows": [
+{
+"n": "上川町保健福祉課介護福祉グループ",
+"t": "01658-2-4055",
+"url": null,
+"override": null
+}
+]
+},
+{
+"area": "東川町",
+"lat": 43.698877,
+"lng": 142.510128,
+"prec": "area",
+"windows": [
+{
+"n": "保健福祉課",
+"t": "0166-82-2111",
+"url": null,
+"override": null
+},
+{
+"n": "教育委員会",
+"t": "0166-82-2111",
+"url": null,
+"override": null
+}
+]
+},
+{
+"area": "美瑛町",
+"lat": 43.588279,
+"lng": 142.467055,
+"prec": "area",
+"windows": [
+{
+"n": "保健福祉課子ども・子育て支援室",
+"t": "0166-92-4262",
+"url": null,
+"override": null
+}
+]
+},
+{
+"area": "上富良野町",
+"lat": 43.455614,
+"lng": 142.467112,
+"prec": "area",
+"windows": [
+{
+"n": "子育て支援班",
+"t": null,
+"url": "https://www.town.kamifurano.hokkaido.jp/index.php?id=245",
+"override": null
+},
+{
+"n": "こども家庭支援センター",
+"t": null,
+"url": "https://www.town.kamifurano.hokkaido.jp/index.php?id=3380",
+"override": null
+}
+]
+},
+{
+"area": "中富良野町",
+"lat": 43.405576,
+"lng": 142.425034,
+"prec": "area",
+"windows": [
+{
+"n": "福祉課社会福祉係",
+"t": "0167-44-2125",
+"url": null,
+"override": null
+},
+{
+"n": "教育委員会",
+"t": "0167-44-2204",
+"url": null,
+"override": null
+}
+]
+},
+{
+"area": "南富良野町",
+"lat": 43.164088,
+"lng": 142.568522,
+"prec": "area",
+"windows": [
+{
+"n": "南富良野町保健福祉課すこやかこども室",
+"t": null,
+"url": "https://www.town.minamifurano.hokkaido.jp",
+"override": null
+},
+{
+"n": "南富良野町保健福祉課社会福祉係",
+"t": null,
+"url": "https://www.town.minamifurano.hokkaido.jp",
+"override": null
+},
+{
+"n": "南富良野町教育委員会学校教育係",
+"t": null,
+"url": "https://www.town.minamifurano.hokkaido.jp",
+"override": null
+},
+{
+"n": "南富良野町保健福祉課保健指導係",
+"t": null,
+"url": "https://www.town.minamifurano.hokkaido.jp",
+"override": null
+}
+]
+},
+{
+"area": "占冠村",
+"lat": 42.979836,
+"lng": 142.398526,
+"prec": "area",
+"windows": [
+{
+"n": "福祉子育て支援課子育て支援室",
+"t": "0167-56-2125",
+"url": null,
+"override": null
+}
+]
+},
+{
+"area": "和寒町",
+"lat": 44.023119,
+"lng": 142.413383,
+"prec": "area",
+"windows": [
+{
+"n": "保健福祉センター",
+"t": null,
+"url": "https://www.town.wassamu.hokkaido.jp/health-welfare/",
+"override": null
+},
+{
+"n": "子育て支援センター",
+"t": "0165-32-3125",
+"url": null,
+"override": null
+}
+]
+},
+{
+"area": "剣淵町",
+"lat": 44.095746,
+"lng": 142.361007,
+"prec": "area",
+"windows": [
+{
+"n": "剣淵町こども家庭センター（剣淵町健康福祉総合センター）",
+"t": "0165-34-3955",
+"url": null,
+"override": null
+},
+{
+"n": "剣淵町地域子育て支援センター（剣淵町保育所）",
+"t": "0165-34-2644",
+"url": null,
+"override": null
+}
+]
+},
+{
+"area": "下川町",
+"lat": 44.302576,
+"lng": 142.635219,
+"prec": "area",
+"windows": [
+{
+"n": "下川町保健福祉課",
+"t": "01655-4-2511",
+"url": null,
+"override": null
+},
+{
+"n": "下川町子育て世代包括支援センター",
+"t": "01655-4-3356",
+"url": null,
+"override": null
+},
+{
+"n": "子育て支援センター",
+"t": "01655-4-2413",
+"url": null,
+"override": null
+},
+{
+"n": "下川町教育委員会",
+"t": "01655-4-2511",
+"url": null,
+"override": null
+}
+]
+},
+{
+"area": "美深町",
+"lat": 44.480994,
+"lng": 142.342963,
+"prec": "area",
+"windows": [
+{
+"n": "美深町保健センター",
+"t": null,
+"url": "http://www.town.bifuka.hokkaido.jp/",
+"override": null
+}
+]
+},
+{
+"area": "音威子府村",
+"lat": 44.725096,
+"lng": 142.262458,
+"prec": "area",
+"windows": [
+{
+"n": "音威子府村保健福祉センター",
+"t": "01656-9-3050",
+"url": null,
+"override": null
+}
+]
+},
+{
+"area": "中川町",
+"lat": 44.811488,
+"lng": 142.071409,
+"prec": "area",
+"windows": [
+{
+"n": "中川町住民課健康推進係",
+"t": "01656-7-2813",
+"url": null,
+"override": null
+},
+{
+"n": "中川町地域子育て支援センターまめちょ",
+"t": "01656-7-2118",
+"url": null,
+"override": null
+},
+{
+"n": "中川町教育委員会",
+"t": "01656-7-2877",
+"url": null,
+"override": null
+}
+]
+},
+{
+"area": "幌加内町",
+"lat": 44.009812,
+"lng": 142.153828,
+"prec": "area",
+"windows": [
+{
+"n": "幌加内町保健福祉課",
+"t": "0165-35-3090",
+"url": null,
+"override": null
+}
+]
+},
+{
+"area": "増毛町",
+"lat": 43.856063,
+"lng": 141.524978,
+"prec": "area",
+"windows": [
+{
+"n": "増毛町役場福祉厚生課",
+"t": "0164-53-3111",
+"url": null,
+"override": null
+}
+]
+},
+{
+"area": "苫前町",
+"lat": 44.306086,
+"lng": 141.652932,
+"prec": "area",
+"windows": [
+{
+"n": "苫前町役場　保健福祉課",
+"t": "0164-64-2215",
+"url": null,
+"override": null
+},
+{
+"n": "苫前町教育委員会　子ども教育課",
+"t": "0164-64-2384",
+"url": null,
+"override": null
+}
+]
+},
+{
+"area": "羽幌町",
+"lat": 44.36061,
+"lng": 141.697249,
+"prec": "area",
+"windows": [
+{
+"n": "健康支援課保健係",
+"t": null,
+"url": "https://www.town.haboro.lg.jp",
+"override": null
+}
+]
+},
+{
+"area": "初山別村",
+"lat": 44.532149,
+"lng": 141.766342,
+"prec": "area",
+"windows": [
+{
+"n": "初山別村子育て世代包括支援センター",
+"t": "0164-67-2211",
+"url": null,
+"override": null
+}
+]
+},
+{
+"area": "遠別町",
+"lat": 44.722462,
+"lng": 141.792322,
+"prec": "area",
+"windows": [
+{
+"n": "遠別町役場　福祉課",
+"t": "01632-7-2114　01632-7-2125",
+"url": null,
+"override": null
+}
+]
+},
+{
+"area": "天塩町",
+"lat": 44.888121,
+"lng": 141.745324,
+"prec": "area",
+"windows": [
+{
+"n": "子育て世代包括支援センター",
+"t": null,
+"url": "http://www.teshiotown.hokkaido.jp/?page_id=19312",
+"override": null
+}
+]
+},
+{
+"area": "猿払村",
+"lat": 45.33061,
+"lng": 142.108945,
+"prec": "area",
+"windows": [
+{
+"n": "猿払村保健福祉総合センター",
+"t": "01635-2-2040",
+"url": null,
+"override": null
+}
+]
+},
+{
+"area": "浜頓別町",
+"lat": 45.123716,
+"lng": 142.35964,
+"prec": "area",
+"windows": [
+{
+"n": "浜頓別町役場　保健福祉課　健康づくり係",
+"t": "01634-2-2551",
+"url": null,
+"override": null
+}
+]
+},
+{
+"area": "中頓別町",
+"lat": 44.96971,
+"lng": 142.286705,
+"prec": "area",
+"windows": [
+{
+"n": "中頓別町教育支援センター",
+"t": "01634-6-1321",
+"url": null,
+"override": null
+},
+{
+"n": "中頓別町保健福祉課",
+"t": "01634-6-1995",
+"url": null,
+"override": null
+}
+]
+},
+{
+"area": "枝幸町",
+"lat": 44.9387,
+"lng": 142.581405,
+"prec": "area",
+"windows": [
+{
+"n": "枝幸町役場保健福祉課保健福祉課",
+"t": "0163-62-4658",
+"url": null,
+"override": null
+},
+{
+"n": "枝幸町こども家庭センター",
+"t": "0163-62-2200",
+"url": null,
+"override": null
+}
+]
+},
+{
+"area": "豊富町",
+"lat": 45.102847,
+"lng": 141.777508,
+"prec": "area",
+"windows": [
+{
+"n": "豊富町役場町民課子ども係",
+"t": null,
+"url": "https://www.town.toyotomi.hokkaido.jp/mobile/section/chominka/index.html",
+"override": null
+},
+{
+"n": "豊富町保健センター",
+"t": null,
+"url": "https://www.town.toyotomi.hokkaido.jp/mobile/section/hokensuishinka/index.html",
+"override": null
+}
+]
+},
+{
+"area": "礼文町",
+"lat": 45.303062,
+"lng": 141.047717,
+"prec": "area",
+"windows": [
+{
+"n": "礼文町役場保健課",
+"t": "0163-86-1001",
+"url": null,
+"override": null
+}
+]
+},
+{
+"area": "利尻町",
+"lat": 45.187041,
+"lng": 141.139597,
+"prec": "area",
+"windows": [
+{
+"n": "利尻町こども家庭センター",
+"t": null,
+"url": "https://rishiri-town.jp/",
+"override": null
+},
+{
+"n": "利尻町保健課保健指導係",
+"t": null,
+"url": "https://rishiri-town.jp/",
+"override": null
+},
+{
+"n": "利尻町町民課福祉係",
+"t": null,
+"url": "https://rishiri-town.jp/",
+"override": null
+},
+{
+"n": "利尻町教育委員会",
+"t": "0163-84-2445",
+"url": null,
+"override": null
+}
+]
+},
+{
+"area": "利尻富士町",
+"lat": 45.247459,
+"lng": 141.214719,
+"prec": "area",
+"windows": [
+{
+"n": "利尻富士町総合保健福祉センター",
+"t": "0163-82-2320",
+"url": null,
+"override": null
+}
+]
+},
+{
+"area": "幌延町",
+"lat": 45.017635,
+"lng": 141.849386,
+"prec": "area",
+"windows": [
+{
+"n": "幌延町役場保健福祉課",
+"t": "01632-5-1790",
+"url": null,
+"override": null
+}
+]
+},
+{
+"area": "美幌町",
+"lat": 43.823721,
+"lng": 144.107151,
+"prec": "area",
+"windows": [
+{
+"n": "福祉部（社会福祉課、保健福祉課）",
+"t": "0152-73-1111",
+"url": null,
+"override": null
+},
+{
+"n": "美幌町子育て世代包括支援センターはぐのんの",
+"t": null,
+"url": "https://www.town.bihoro.hokkaido.jp/site/kosodate/2660.html",
+"override": null
+},
+{
+"n": "美幌町教育委員会学校教育課",
+"t": "0152-77-6557",
+"url": null,
+"override": null
+},
+{
+"n": "美幌町教育相談室",
+"t": null,
+"url": "https://www.town.bihoro.hokkaido.jp/site/kosodate/1131.html",
+"override": null
+}
+]
+},
+{
+"area": "津別町",
+"lat": 43.706316,
+"lng": 144.024803,
+"prec": "area",
+"windows": [
+{
+"n": "津別町保健福祉課",
+"t": null,
+"url": "https://www.town.tsubetsu.hokkaido.jp/",
+"override": null
+}
+]
+},
+{
+"area": "斜里町",
+"lat": 43.911441,
+"lng": 144.670713,
+"prec": "area",
+"windows": [
+{
+"n": "斜里町子育て世代包括支援センター",
+"t": null,
+"url": "https://www.town.shari.hokkaido.jp/soshikikarasagasu/kenkou/kenkoshien/kosodate/1/2832.html",
+"override": null
+},
+{
+"n": "斜里町教育委員会学校教育課",
+"t": null,
+"url": "https://www.town.shari.hokkaido.jp/inquiry/index.html",
+"override": null
+}
+]
+},
+{
+"area": "清里町",
+"lat": 43.835224,
+"lng": 144.594582,
+"prec": "area",
+"windows": [
+{
+"n": "こども家庭センター",
+"t": null,
+"url": "https://www.town.kiyosato.hokkaido.jp/welfare/?content=1931",
+"override": null
+}
+]
+},
+{
+"area": "小清水町",
+"lat": 43.856679,
+"lng": 144.462114,
+"prec": "area",
+"windows": [
+{
+"n": "小清水町こども家庭センター",
+"t": null,
+"url": "https://www.town.koshimizu.hokkaido.jp/",
+"override": null
+}
+]
+},
+{
+"area": "訓子府町",
+"lat": 43.725328,
+"lng": 143.741665,
+"prec": "area",
+"windows": [
+{
+"n": "福祉保健課　社会福祉係・健康増進係",
+"t": null,
+"url": "https://town.kunneppu.hokkaido.jp",
+"override": null
+},
+{
+"n": "教育委員会管理課",
+"t": null,
+"url": "https://town.kunneppu.hokkaido.jp",
+"override": null
+},
+{
+"n": "教育委員会子ども未来課子ども支援係",
+"t": null,
+"url": "https://town.kunneppu.hokkaido.jp",
+"override": null
+}
+]
+},
+{
+"area": "置戸町",
+"lat": 43.676328,
+"lng": 143.586402,
+"prec": "area",
+"windows": [
+{
+"n": "置戸町地域福祉センター",
+"t": "0157-52-3333",
+"url": null,
+"override": null
+}
+]
+},
+{
+"area": "佐呂間町",
+"lat": 44.017859,
+"lng": 143.774714,
+"prec": "area",
+"windows": [
+{
+"n": "保健福祉課",
+"t": "01587-2-1212",
+"url": null,
+"override": null
+},
+{
+"n": "教育委員会",
+"t": "01587-2-1294",
+"url": null,
+"override": null
+}
+]
+},
+{
+"area": "遠軽町",
+"lat": 44.061947,
+"lng": 143.527726,
+"prec": "area",
+"windows": [
+{
+"n": "遠軽町民生部保健福祉課",
+"t": null,
+"url": "https://engaru.jp/",
+"override": null
+},
+{
+"n": "遠軽町民生部子育て支援課",
+"t": null,
+"url": "https://engaru.jp/",
+"override": null
+}
+]
+},
+{
+"area": "湧別町",
+"lat": 44.151465,
+"lng": 143.572919,
+"prec": "area",
+"windows": [
+{
+"n": "湧別町役場健康こども課",
+"t": null,
+"url": "https://www.town.yubetsu.lg.jp/administration/education/detail.html?content=52",
+"override": null
+}
+]
+},
+{
+"area": "滝上町",
+"lat": 44.19227,
+"lng": 143.07765,
+"prec": "area",
+"windows": [
+{
+"n": "保健福祉課子育て支援係",
+"t": null,
+"url": "https://www.town.takinoue.hokkaido.jp/",
+"override": null
+},
+{
+"n": "子育て世代包括支援センター",
+"t": null,
+"url": "https://www.town.takinoue.hokkaido.jp/",
+"override": null
+}
+]
+},
+{
+"area": "興部町",
+"lat": 44.469874,
+"lng": 143.123699,
+"prec": "area",
+"windows": [
+{
+"n": "興部町福祉保健総合センター「きらり」興部町福祉保健課",
+"t": null,
+"url": "https://www.town.okoppe.lg.jp/cms/section/fukusi/index.html",
+"override": null
+}
+]
+},
+{
+"area": "西興部村",
+"lat": 44.328833,
+"lng": 142.944445,
+"prec": "area",
+"windows": [
+{
+"n": "西興部村保健福祉課",
+"t": "0158-87-2114",
+"url": null,
+"override": null
+}
+]
+},
+{
+"area": "雄武町",
+"lat": 44.582482,
+"lng": 142.961863,
+"prec": "area",
+"windows": [
+{
+"n": "雄武町役場",
+"t": "0158-84-2023",
+"url": null,
+"override": null
+}
+]
+},
+{
+"area": "大空町",
+"lat": 43.911858,
+"lng": 144.172473,
+"prec": "area",
+"windows": [
+{
+"n": "大空町役場福祉課",
+"t": "0152-77-8084",
+"url": null,
+"override": null
+},
+{
+"n": "大空町東藻琴総合支所住民福祉課",
+"t": "0152-67-7113",
+"url": null,
+"override": null
+}
+]
+},
+{
+"area": "豊浦町",
+"lat": 42.583464,
+"lng": 140.711815,
+"prec": "area",
+"windows": [
+{
+"n": "総合保健福祉施設保険福祉係",
+"t": "0142-82-3843",
+"url": null,
+"override": null
+},
+{
+"n": "豊浦町総合保健福祉施設保健センター",
+"t": "0142-82-3844",
+"url": null,
+"override": null
+},
+{
+"n": "豊浦町役場町民課子育て支援係",
+"t": "0142-83-1405",
+"url": null,
+"override": null
+}
+]
+},
+{
+"area": "壮瞥町",
+"lat": 42.552556,
+"lng": 140.885472,
+"prec": "area",
+"windows": [
+{
+"n": "壮瞥町役場",
+"t": null,
+"url": "https://www.town.sobetsu.lg.jp",
+"override": null
+},
+{
+"n": "壮瞥町保健センター",
+"t": null,
+"url": "https://www.town.sobetsu.lg.jp",
+"override": null
+},
+{
+"n": "そうべつ子どもセンター",
+"t": null,
+"url": "https://www.town.sobetsu.lg.jp",
+"override": null
+}
+]
+},
+{
+"area": "白老町",
+"lat": 42.551259,
+"lng": 141.355861,
+"prec": "area",
+"windows": [
+{
+"n": "青少年センター",
+"t": "0144-85-2020",
+"url": null,
+"override": null
+},
+{
+"n": "家庭教育支援チームぴんぽーん",
+"t": "090-1528-9018",
+"url": null,
+"override": null
+},
+{
+"n": "白老町子ども発達支援センター",
+"t": "0144-83-3700",
+"url": null,
+"override": null
+},
+{
+"n": "子育て支援課（子育て世代包括支援センター）",
+"t": "0144-85-2021",
+"url": null,
+"override": null
+},
+{
+"n": "子育て支援課（児童虐待と相談・通報窓口）",
+"t": "0144-85-2021",
+"url": null,
+"override": null
+}
+]
+},
+{
+"area": "厚真町",
+"lat": 42.723566,
+"lng": 141.877841,
+"prec": "area",
+"windows": [
+{
+"n": "厚真町住民課健康推進グループ",
+"t": null,
+"url": "https://www.town.atsuma.lg.jp/soshiki/4/",
+"override": null
+},
+{
+"n": "厚真町住民課子育て支援グループ",
+"t": null,
+"url": "https://www.town.atsuma.lg.jp/soshiki/4/",
+"override": null
+}
+]
+},
+{
+"area": "洞爺湖町",
+"lat": 42.551223,
+"lng": 140.764128,
+"prec": "area",
+"windows": [
+{
+"n": "健康福祉課",
+"t": "0142-76-4006",
+"url": null,
+"override": null
+},
+{
+"n": "子育て支援課",
+"t": "0142-82-7100",
+"url": null,
+"override": null
+}
+]
+},
+{
+"area": "安平町",
+"lat": 42.762798,
+"lng": 141.818047,
+"prec": "area",
+"windows": [
+{
+"n": "安平町こども家庭センター",
+"t": null,
+"url": "http://www.town.abira.lg.jp",
+"override": null
+},
+{
+"n": "安平町役場健康福祉課　福祉グループ",
+"t": null,
+"url": "https://www.town.abira.lg.jp",
+"override": null
+}
+]
+},
+{
+"area": "むかわ町",
+"lat": 42.574741,
+"lng": 141.926761,
+"prec": "area",
+"windows": [
+{
+"n": "むかわ町福祉・子育て課",
+"t": null,
+"url": "http://www.town.mukawa.lg.jp",
+"override": null
+},
+{
+"n": "むかわ町企画町民課",
+"t": null,
+"url": "http://www.town.mukawa.lg.jp",
+"override": null
+}
+]
+},
+{
+"area": "日高町",
+"lat": 42.480318,
+"lng": 142.074359,
+"prec": "area",
+"windows": [
+{
+"n": "子育て健康課",
+"t": "01456-2-6183",
+"url": null,
+"override": null
+},
+{
+"n": "住民生活課",
+"t": "01456-2-6182",
+"url": null,
+"override": null
+},
+{
+"n": "社会教育課",
+"t": "01456-2-2451",
+"url": null,
+"override": null
+}
+]
+},
+{
+"area": "平取町",
+"lat": 42.585098,
+"lng": 142.128525,
+"prec": "area",
+"windows": [
+{
+"n": "保健福祉課",
+"t": null,
+"url": "http://www.town.biratori.hokkaido.jp/",
+"override": null
+},
+{
+"n": "町民課",
+"t": null,
+"url": "http://www.town.biratori.hokkaido.jp/",
+"override": null
+},
+{
+"n": "平取町教育委員会",
+"t": null,
+"url": "http://www.town.biratori.hokkaido.jp/",
+"override": null
+}
+]
+},
+{
+"area": "新冠町",
+"lat": 42.362417,
+"lng": 142.318315,
+"prec": "area",
+"windows": [
+{
+"n": "新冠町町民生活課",
+"t": "0146-47-2112",
+"url": null,
+"override": null
+},
+{
+"n": "新冠町保健福祉課",
+"t": "0146-47-2113",
+"url": null,
+"override": null
+}
+]
+},
+{
+"area": "浦河町",
+"lat": 42.168355,
+"lng": 142.768213,
+"prec": "area",
+"windows": [
+{
+"n": "保健センター",
+"t": null,
+"url": "https://www.town.urakawa.hokkaido.jp/gyosei/welfare/?content=403",
+"override": null
+},
+{
+"n": "子育て医療課",
+"t": "0146-26-9002",
+"url": null,
+"override": null
+}
+]
+},
+{
+"area": "様似町",
+"lat": 42.127737,
+"lng": 142.933797,
+"prec": "area",
+"windows": [
+{
+"n": "様似町保健福祉課",
+"t": "0146-36-5511",
+"url": null,
+"override": null
+},
+{
+"n": "様似町税務町民課",
+"t": "0146-36-2112",
+"url": null,
+"override": null
+},
+{
+"n": "様似町教育委員会",
+"t": "0146-36-2521",
+"url": null,
+"override": null
+}
+]
+},
+{
+"area": "えりも町",
+"lat": 42.016298,
+"lng": 143.148348,
+"prec": "area",
+"windows": [
+{
+"n": "えりも町町民生活課",
+"t": "01466-2-4621",
+"url": null,
+"override": null
+},
+{
+"n": "えりも町教育委員会",
+"t": "01466-2-2525",
+"url": null,
+"override": null
+},
+{
+"n": "えりも町保健福祉課",
+"t": "01466-2-4630",
+"url": null,
+"override": null
+}
+]
+},
+{
+"area": "新ひだか町",
+"lat": 42.341276,
+"lng": 142.368588,
+"prec": "area",
+"windows": [
+{
+"n": "新ひだか町青少年センター",
+"t": "0146-42-0075",
+"url": null,
+"override": null
+},
+{
+"n": "新ひだか町こども家庭センター",
+"t": "0146-49-0288",
+"url": null,
+"override": null
+}
+]
+},
+{
+"area": "音更町",
+"lat": 42.994115,
+"lng": 143.197869,
+"prec": "area",
+"windows": [
+{
+"n": "音更町こども家庭センター",
+"t": null,
+"url": "https://www.town.otofuke.hokkaido.jp/kurashi/kodomo/kodomokatei/",
+"override": null
+},
+{
+"n": "総合教育相談",
+"t": null,
+"url": "https://www.town.otofuke.hokkaido.jp/kyoiku/kyoikuiinkai/kyouikusoudan.html",
+"override": null
+}
+]
+},
+{
+"area": "士幌町",
+"lat": 43.168047,
+"lng": 143.241344,
+"prec": "area",
+"windows": [
+{
+"n": "こども家庭センター　Yosuga",
+"t": null,
+"url": "https://www.shihoro.jp/education/detail.php?content=814",
+"override": null
+}
+]
+},
+{
+"area": "上士幌町",
+"lat": 43.232615,
+"lng": 143.296243,
+"prec": "area",
+"windows": [
+{
+"n": "こどもと子育ての相談センター　うみ",
+"t": null,
+"url": "https://www.kamishihoro.jp/page/00000357",
+"override": null
+},
+{
+"n": "こどもと子育ての相談センター　そら",
+"t": null,
+"url": "https://www.kamishihoro.jp/page/00000357",
+"override": null
+}
+]
+},
+{
+"area": "鹿追町",
+"lat": 43.098876,
+"lng": 142.989028,
+"prec": "area",
+"windows": [
+{
+"n": "鹿追町こども家庭センター",
+"t": null,
+"url": "https://www.town.shikaoi.lg.jp/kurashi/kosodate/kodomokateicenter/",
+"override": null
+},
+{
+"n": "鹿追町役場保健福祉課",
+"t": null,
+"url": "https://www.town.shikaoi.lg.jp/kurashi/iryo_fukushi/kosodate/",
+"override": null
+}
+]
+},
+{
+"area": "新得町",
+"lat": 43.079741,
+"lng": 142.838822,
+"prec": "area",
+"windows": [
+{
+"n": "新得町保健福祉センターなごみ",
+"t": "0156-64-0533",
+"url": null,
+"override": null
+}
+]
+},
+{
+"area": "清水町",
+"lat": 43.011423,
+"lng": 142.884568,
+"prec": "area",
+"windows": [
+{
+"n": "子育て支援課・清水町子ども家庭総合支援拠点",
+"t": "0156-69-2226",
+"url": null,
+"override": null
+},
+{
+"n": "保健福祉課・清水町子育て世代包括支援センター",
+"t": "0156-67-7320",
+"url": null,
+"override": null
+},
+{
+"n": "保健福祉課福祉係",
+"t": "0156-69-2222",
+"url": null,
+"override": null
+},
+{
+"n": "清水町教育委員会学校教育課",
+"t": "0156-62-5138",
+"url": null,
+"override": null
+}
+]
+},
+{
+"area": "芽室町",
+"lat": 42.91189,
+"lng": 143.050807,
+"prec": "area",
+"windows": [
+{
+"n": "芽室町子育て支援課",
+"t": null,
+"url": "https://www.memuro.net/administration/soshiki/kosodateshien/shien/memuron.html",
+"override": null
+}
+]
+},
+{
+"area": "中札内村",
+"lat": 42.697611,
+"lng": 143.132443,
+"prec": "area",
+"windows": [
+{
+"n": "子育て世代包括支援センター",
+"t": null,
+"url": "https://www.vill.nakasatsunai.hokkaido.jp/",
+"override": null
+}
+]
+},
+{
+"area": "更別村",
+"lat": 42.650415,
+"lng": 143.187794,
+"prec": "area",
+"windows": [
+{
+"n": "更別村子育て応援課",
+"t": "0155-53-3700",
+"url": null,
+"override": null
+}
+]
+},
+{
+"area": "大樹町",
+"lat": 42.497525,
+"lng": 143.27891,
+"prec": "area",
+"windows": [
+{
+"n": "大樹町保健福祉課大樹町高齢者保健福祉センター",
+"t": null,
+"url": "https://www.town.taiki.hokkaido.jp/soshiki/hokenfukushika/1/2/1/672.html",
+"override": null
+}
+]
+},
+{
+"area": "広尾町",
+"lat": 42.285841,
+"lng": 143.311498,
+"prec": "area",
+"windows": [
+{
+"n": "広尾町役場保健福祉課子育て支援室",
+"t": "01558-2-0172",
+"url": null,
+"override": null
+},
+{
+"n": "広尾町健康管理センター",
+"t": "01558-2-5122",
+"url": null,
+"override": null
+}
+]
+},
+{
+"area": "幕別町",
+"lat": 42.908198,
+"lng": 143.356085,
+"prec": "area",
+"windows": [
+{
+"n": "幕別町子ども家庭総合支援拠点",
+"t": "0155-54-6621",
+"url": null,
+"override": null
+},
+{
+"n": "子どもカウンセラー（まっく・ざ・まっく）",
+"t": null,
+"url": "https://www.town.makubetsu.lg.jp/kyouiku/shougaigakushuu/jidoseitokenzenikusei/soudansaki.html",
+"override": null
+},
+{
+"n": "幕別町青少年相談電話（教育委員会）",
+"t": null,
+"url": "https://www.town.makubetsu.lg.jp/kyouiku/shougaigakushuu/jidoseitokenzenikusei/soudansaki.html",
+"override": null
+},
+{
+"n": "幕別町子育て世代包括支援センター（幕別地区）",
+"t": null,
+"url": "https://www.town.makubetsu.lg.jp/kenkou/kosodate/ninshin/kosodatesedaihoukatushiensenta.html",
+"override": null
+},
+{
+"n": "幕別町子育て世代包括支援センター（札内地区）",
+"t": null,
+"url": "https://www.town.makubetsu.lg.jp/kenkou/kosodate/ninshin/kosodatesedaihoukatushiensenta.html",
+"override": null
+},
+{
+"n": "幕別町子育て世代包括支援センター（忠類地区）",
+"t": null,
+"url": "https://www.town.makubetsu.lg.jp/kenkou/kosodate/ninshin/kosodatesedaihoukatushiensenta.html",
+"override": null
+}
+]
+},
+{
+"area": "池田町",
+"lat": 42.92898,
+"lng": 143.448472,
+"prec": "area",
+"windows": [
+{
+"n": "池田町保健センター",
+"t": null,
+"url": "https://www.town.hokkaido-ikeda.lg.jp/",
+"override": null
+}
+]
+},
+{
+"area": "豊頃町",
+"lat": 42.801023,
+"lng": 143.5059,
+"prec": "area",
+"windows": [
+{
+"n": "豊頃町福祉課",
+"t": "015-574-2214",
+"url": null,
+"override": null
+}
+]
+},
+{
+"area": "本別町",
+"lat": 43.124615,
+"lng": 143.610962,
+"prec": "area",
+"windows": [
+{
+"n": "本別町教育相談電話",
+"t": "0120-627867",
+"url": null,
+"override": null
+},
+{
+"n": "本別町健康管理センター",
+"t": "0156-22-2219",
+"url": null,
+"override": null
+},
+{
+"n": "本別町健康・こども課",
+"t": "0156-22-8130",
+"url": null,
+"override": null
+}
+]
+},
+{
+"area": "足寄町",
+"lat": 43.244786,
+"lng": 143.55393,
+"prec": "area",
+"windows": [
+{
+"n": "足寄町こども・健康課子どもセンター",
+"t": null,
+"url": "https://www.town.ashoro.hokkaido.jp",
+"override": null
+},
+{
+"n": "足寄町こども・健康課保健福祉室福祉担当",
+"t": null,
+"url": "https://www.town.ashoro.hokkaido.jp",
+"override": null
+},
+{
+"n": "足寄町こども・健康課保健福祉室保健推進担当",
+"t": null,
+"url": "https://www.town.ashoro.hokkaido.jp",
+"override": null
+},
+{
+"n": "足寄町住民・出納課住民室住民生活担当",
+"t": null,
+"url": "https://www.town.ashoro.hokkaido.jp",
+"override": null
+},
+{
+"n": "足寄町教育委員会教育総務室教育支援担当",
+"t": null,
+"url": "https://www.town.ashoro.hokkaido.jp",
+"override": null
+}
+]
+},
+{
+"area": "陸別町",
+"lat": 43.468914,
+"lng": 143.747305,
+"prec": "area",
+"windows": [
+{
+"n": "保健福祉センター福祉担当",
+"t": "0156-27-8001",
+"url": null,
+"override": null
+}
+]
+},
+{
+"area": "浦幌町",
+"lat": 42.808947,
+"lng": 143.658581,
+"prec": "area",
+"windows": [
+{
+"n": "浦幌町保健福祉課",
+"t": "015-576-5111",
+"url": null,
+"override": null
+}
+]
+},
+{
+"area": "釧路町",
+"lat": 42.996124,
+"lng": 144.466081,
+"prec": "area",
+"windows": [
+{
+"n": "釧路町こども応援課子育て安心係",
+"t": null,
+"url": "http://www.town.kushiro.lg.jp",
+"override": null
+},
+{
+"n": "釧路町けんこう応援課母子保健係",
+"t": null,
+"url": "http://www.town.kushiro.lg.jp",
+"override": null
+},
+{
+"n": "釧路町福祉課障がい福祉係",
+"t": null,
+"url": "http://www.town.kushiro.lg.jp",
+"override": null
+},
+{
+"n": "釧路町福祉課地域福祉係",
+"t": null,
+"url": "http://www.town.kushiro.lg.jp",
+"override": null
+},
+{
+"n": "釧路町教育支援課教育支援係",
+"t": null,
+"url": "http://www.town.kushiro.lg.jp",
+"override": null
+}
+]
+},
+{
+"area": "厚岸町",
+"lat": 43.051951,
+"lng": 144.847443,
+"prec": "area",
+"windows": [
+{
+"n": "厚岸町保健福祉総合センタ－あみか21",
+"t": "0153-53-3333",
+"url": null,
+"override": null
+},
+{
+"n": "厚岸町教育委員会指導室",
+"t": "0153-52-3131",
+"url": null,
+"override": null
+}
+]
+},
+{
+"area": "浜中町",
+"lat": 43.077087,
+"lng": 145.129391,
+"prec": "area",
+"windows": [
+{
+"n": "浜中町役場健康福祉課児童福祉係",
+"t": null,
+"url": "https://www.townhamanaka.jp",
+"override": null
+},
+{
+"n": "浜中町役場健康福祉課健康推進係",
+"t": null,
+"url": "https://www.townhamanaka.jp",
+"override": null
+},
+{
+"n": "浜中町教育委員会",
+"t": "0153-62-2249",
+"url": null,
+"override": null
+}
+]
+},
+{
+"area": "標茶町",
+"lat": 43.303337,
+"lng": 144.600665,
+"prec": "area",
+"windows": [
+{
+"n": "標茶町ふれあい交流センター",
+"t": "015-485-1000",
+"url": null,
+"override": null
+},
+{
+"n": "標茶町子ども発達支援センター",
+"t": "015-485-1933",
+"url": null,
+"override": null
+},
+{
+"n": "標茶町役場",
+"t": "015-485-2111",
+"url": null,
+"override": null
+},
+{
+"n": "標茶町教育委員会",
+"t": "015-485-2111",
+"url": null,
+"override": null
+}
+]
+},
+{
+"area": "弟子屈町",
+"lat": 43.485352,
+"lng": 144.459223,
+"prec": "area",
+"windows": [
+{
+"n": "弟子屈町役場健康こども課",
+"t": "015-482-2935",
+"url": null,
+"override": null
+}
+]
+},
+{
+"area": "鶴居村",
+"lat": 43.23016,
+"lng": 144.321165,
+"prec": "area",
+"windows": [
+{
+"n": "保健福祉課",
+"t": "0154-64-2116",
+"url": null,
+"override": null
+}
+]
+},
+{
+"area": "白糠町",
+"lat": 42.956161,
+"lng": 144.071805,
+"prec": "area",
+"windows": [
+{
+"n": "白糠町役場・健康こども課健康支援係（子育て世代包括支援センター　イコロ）",
+"t": "01547-2-2171",
+"url": null,
+"override": null
+},
+{
+"n": "白糠町役場・健康こども課子育て支援係",
+"t": "01547-2-2171",
+"url": null,
+"override": null
+},
+{
+"n": "教育委員会　指導室",
+"t": "01547-2-2171",
+"url": null,
+"override": null
+}
+]
+},
+{
+"area": "別海町",
+"lat": 43.39399,
+"lng": 145.117341,
+"prec": "area",
+"windows": [
+{
+"n": "別海町役場　福祉部　福祉課　こども・子育て担当",
+"t": null,
+"url": "https://betsukai.jp/kurashi/birth/",
+"override": null
+},
+{
+"n": "別海町民保健センター",
+"t": null,
+"url": "https://betsukai.jp/shisetsu/fukushi/hoken_center/",
+"override": null
+},
+{
+"n": "別海町母子健康センター",
+"t": null,
+"url": "https://betsukai.jp/shisetsu/fukushi/boshi_center/",
+"override": null
+}
+]
+},
+{
+"area": "中標津町",
+"lat": 43.555191,
+"lng": 144.971504,
+"prec": "area",
+"windows": [
+{
+"n": "中標津町役場子育て支援課",
+"t": null,
+"url": "https://www.nakashibetsu.jp/kurashi/kosodate_fukushi/kosodate/",
+"override": null
+},
+{
+"n": "中標津町保健センター",
+"t": null,
+"url": "https://www.nakashibetsu.jp/kurashi/kosodate_fukushi/kosodate/soudan/",
+"override": null
+},
+{
+"n": "教育相談センター",
+"t": null,
+"url": "https://www.nakashibetsu.jp/shisetsu_koutsu/shisetsu/gakkou/kyouikusoudan_center/",
+"override": null
+},
+{
+"n": "中標津町教育委員会指導室",
+"t": "0153-74-0176",
+"url": null,
+"override": null
+}
+]
+},
+{
+"area": "標津町",
+"lat": 43.661309,
+"lng": 145.131325,
+"prec": "area",
+"windows": [
+{
+"n": "標津町教育委員会（教育相談電話）",
+"t": null,
+"url": "https://www.shibetsutown.jp/education/kyoikuiinkai/ijime_sodan/",
+"override": null
+},
+{
+"n": "標津町保健福祉センター　子育て支援担当",
+"t": "0153-82-1515",
+"url": null,
+"override": null
+},
+{
+"n": "標津町保健福祉センター　社会福祉担当",
+"t": "0153-82-1515",
+"url": null,
+"override": null
+},
+{
+"n": "標津町保健福祉センター　健康推進担当",
+"t": "0153-82-1515",
+"url": null,
+"override": null
+}
+]
+},
+{
+"area": "羅臼町",
+"lat": 44.021953,
+"lng": 145.189532,
+"prec": "area",
+"windows": [
+{
+"n": "羅臼町役場保健福祉課",
+"t": "0153-87-2161",
+"url": null,
+"override": null
+}
+]
+}
+]

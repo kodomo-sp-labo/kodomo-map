@@ -1,0 +1,620 @@
+[
+{
+"area": "沖縄県",
+"lat": null,
+"lng": null,
+"prec": "unresolved",
+"windows": [
+{
+"n": "沖縄県子ども若者みらい相談プラザsoraeなは",
+"t": null,
+"url": "https://sorae.okinawa/naha/",
+"override": null
+},
+{
+"n": "沖縄県子ども若者みらい相談プラザsoraeなご",
+"t": null,
+"url": "https://sorae.okinawa/nago/",
+"override": null
+},
+{
+"n": "おきなわ子ども虐待ホットライン",
+"t": "098-886-2900",
+"url": null,
+"override": null
+},
+{
+"n": "24時間子供SOSダイヤル",
+"t": "0120-0-78310",
+"url": null,
+"override": null
+}
+]
+},
+{
+"area": "那覇市",
+"lat": 26.212295,
+"lng": 127.679218,
+"prec": "area",
+"windows": [
+{
+"n": "こども家庭センターなは",
+"t": null,
+"url": "https://www.city.naha.okinawa.jp/child/kosodateouen/kosodatesien/HKOSODA004.html",
+"override": null
+},
+{
+"n": "那覇市こども発達支援センター",
+"t": null,
+"url": "https://www.city.naha.okinawa.jp/child/hoikuen/ryouyoucenter/index.html",
+"override": null
+}
+]
+},
+{
+"area": "石垣市",
+"lat": 24.340666,
+"lng": 124.155539,
+"prec": "area",
+"windows": [
+{
+"n": "石垣市こども家庭課",
+"t": "0980-87-9009",
+"url": null,
+"override": null
+}
+]
+},
+{
+"area": "糸満市",
+"lat": 26.123542,
+"lng": 127.665823,
+"prec": "area",
+"windows": [
+{
+"n": "糸満市こども未来課",
+"t": null,
+"url": "https://www.city.itoman.lg.jp/life/4/",
+"override": null
+},
+{
+"n": "糸満市健康推進課",
+"t": null,
+"url": "https://www.city.itoman.lg.jp/life/3/9/",
+"override": null
+},
+{
+"n": "糸満市教育委員会学校教育課",
+"t": null,
+"url": "https://www.city.itoman.lg.jp/life/4/",
+"override": null
+}
+]
+},
+{
+"area": "沖縄市",
+"lat": 26.334354,
+"lng": 127.805694,
+"prec": "area",
+"windows": [
+{
+"n": "沖縄市こども家庭センター",
+"t": null,
+"url": "https://www.city.okinawa.okinawa.jp/k029/contents/p00032.html",
+"override": null
+},
+{
+"n": "沖縄市教育支援センター",
+"t": null,
+"url": "https://www.city.okinawa.okinawa.jp/k068-001/kosodate/seishounenikusei/1022/1055/index.html",
+"override": null
+}
+]
+},
+{
+"area": "豊見城市",
+"lat": 26.161026,
+"lng": 127.668883,
+"prec": "area",
+"windows": [
+{
+"n": "豊見城市こども家庭センター",
+"t": null,
+"url": "https://www.city.tomigusuku.lg.jp/soshiki/4/1020/gyomuannai/3/2/227.html",
+"override": null
+},
+{
+"n": "豊見城市教育部教育指導課",
+"t": null,
+"url": "https://www.city.tomigusuku.lg.jp/kosodate_kyoiku/gakkokyoiku/2/3087.html",
+"override": null
+}
+]
+},
+{
+"area": "うるま市",
+"lat": 26.379151,
+"lng": 127.85748,
+"prec": "area",
+"windows": [
+{
+"n": "うるま市こども家庭センター（子育て包括支援課内）",
+"t": null,
+"url": "https://www.city.uruma.lg.jp/1005006000/contents/p000024.html",
+"override": null
+}
+]
+},
+{
+"area": "宮古島市",
+"lat": 24.80549,
+"lng": 125.281162,
+"prec": "area",
+"windows": [
+{
+"n": "宮古島市こども家庭センター（家庭保健課内）",
+"t": null,
+"url": "https://www.city.miyakojima.lg.jp/kurashi/kodomo/kosodate/2024-0319-1115-323.html",
+"override": null
+}
+]
+},
+{
+"area": "南城市",
+"lat": 26.144402,
+"lng": 127.766922,
+"prec": "area",
+"windows": [
+{
+"n": "南城市こども相談課",
+"t": null,
+"url": "https://www.city.nanjo.okinawa.jp/shisei/introduction/soshiki/fukushibu/1680481572/",
+"override": null
+},
+{
+"n": "南城市健康増進課",
+"t": null,
+"url": "https://www.city.nanjo.okinawa.jp/shisei/introduction/soshiki/fukushibu/kenkou/",
+"override": null
+},
+{
+"n": "南城市生きがい推進課",
+"t": null,
+"url": "https://www.city.nanjo.okinawa.jp/shisei/introduction/soshiki/fukushibu/ikigai/",
+"override": null
+},
+{
+"n": "相談支援事業所　野の花",
+"t": null,
+"url": "https://www.nonohana-obsi.jp/",
+"override": null
+},
+{
+"n": "南城市教育指導課",
+"t": null,
+"url": "https://www.city.nanjo.okinawa.jp/shisei/introduction/soshiki/kyoikuiinkai/kyoushidou/",
+"override": null
+}
+]
+},
+{
+"area": "国頭村",
+"lat": 26.745638,
+"lng": 128.177907,
+"prec": "area",
+"windows": [
+{
+"n": "国頭村役場福祉課",
+"t": "0980-41-2765",
+"url": null,
+"override": null
+},
+{
+"n": "国頭村役場福祉課（保健センター）",
+"t": "0980-41-5767",
+"url": null,
+"override": null
+},
+{
+"n": "国頭村役場総務課",
+"t": "0980-41-2101",
+"url": null,
+"override": null
+},
+{
+"n": "国頭村教育委員会",
+"t": "0980-41-2255",
+"url": null,
+"override": null
+}
+]
+},
+{
+"area": "大宜味村",
+"lat": 26.701712,
+"lng": 128.120159,
+"prec": "area",
+"windows": [
+{
+"n": "大宜味村役場住民福祉課",
+"t": "0980-44-3003",
+"url": null,
+"override": null
+},
+{
+"n": "ぶながやっ子支援員（大宜味村役場住民福祉課内　貧困対策事業支援員）",
+"t": "080-6488-6767",
+"url": null,
+"override": null
+}
+]
+},
+{
+"area": "今帰仁村",
+"lat": 26.682527,
+"lng": 127.972739,
+"prec": "area",
+"windows": [
+{
+"n": "今帰仁村福祉・こども課",
+"t": "0980-56-2198",
+"url": null,
+"override": null
+},
+{
+"n": "今帰仁村健康づくり推進課",
+"t": "0980-56-1234",
+"url": null,
+"override": null
+},
+{
+"n": "今帰仁村教育委員会学校教育課",
+"t": "0980-56-2645",
+"url": null,
+"override": null
+}
+]
+},
+{
+"area": "本部町",
+"lat": 26.658035,
+"lng": 127.898175,
+"prec": "area",
+"windows": [
+{
+"n": "子育て支援課",
+"t": null,
+"url": "https://www.town.motobu.okinawa.jp",
+"override": null
+}
+]
+},
+{
+"area": "宜野座村",
+"lat": 26.481585,
+"lng": 127.975615,
+"prec": "area",
+"windows": [
+{
+"n": "宜野座村こどもみらい課・こども家庭センター",
+"t": "098-968-5024",
+"url": null,
+"override": null
+},
+{
+"n": "宜野座村教育委員会（学校教育課）",
+"t": "098-968-8522",
+"url": null,
+"override": null
+}
+]
+},
+{
+"area": "伊江村",
+"lat": 26.71349,
+"lng": 127.807014,
+"prec": "area",
+"windows": [
+{
+"n": "伊江村福祉課",
+"t": "0980-49-3160",
+"url": null,
+"override": null
+},
+{
+"n": "伊江村医療保健課",
+"t": "0980-49-2234",
+"url": null,
+"override": null
+},
+{
+"n": "伊江村教育委員会",
+"t": "0980-49-2334",
+"url": null,
+"override": null
+}
+]
+},
+{
+"area": "読谷村",
+"lat": 26.396154,
+"lng": 127.744424,
+"prec": "area",
+"windows": [
+{
+"n": "こども未来課",
+"t": null,
+"url": "https://www.vill.yomitan.okinawa.jp/soshiki/kodomomirai/index.html",
+"override": null
+},
+{
+"n": "健康推進課",
+"t": null,
+"url": "https://www.vill.yomitan.okinawa.jp/iryo_kenko_fukushi/iryo_kenok/3462.html",
+"override": null
+},
+{
+"n": "福祉課",
+"t": "098-982-9209",
+"url": null,
+"override": null
+},
+{
+"n": "読谷村青少年センター",
+"t": "098-982-9232",
+"url": null,
+"override": null
+}
+]
+},
+{
+"area": "北谷町",
+"lat": 26.320069,
+"lng": 127.763901,
+"prec": "area",
+"windows": [
+{
+"n": "子ども家庭総合支援拠点（子ども家庭課内）",
+"t": null,
+"url": "https://www.chatan.jp/smph/kosodate/kosodate/sodan/kosodatesoudan.html",
+"override": null
+},
+{
+"n": "北谷町福祉課",
+"t": null,
+"url": "http://www.chatan.jp/kenko_fukushi/seikatsushien/seikatsuniokomari/chiiki22019.html",
+"override": null
+},
+{
+"n": "北谷町青少年支援センター",
+"t": null,
+"url": "https://www.chatan.jp/kosodate/kyouiku/kyoiku/seisyounenn.html",
+"override": null
+},
+{
+"n": "上勢桑江（わんぱく）児童館",
+"t": null,
+"url": "https://www.chatan.jp/smph/shisetsu/kosodate/wanpaku.html",
+"override": null
+},
+{
+"n": "宮城（わくわく）児童館",
+"t": null,
+"url": "https://www.chatan.jp/smph/shisetsu/kosodate/wakuwaku.html",
+"override": null
+},
+{
+"n": "北玉（ハッピー）児童館",
+"t": null,
+"url": "https://www.chatan.jp/smph/shisetsu/kosodate/happy.html",
+"override": null
+}
+]
+},
+{
+"area": "北中城村",
+"lat": 26.301079,
+"lng": 127.793027,
+"prec": "area",
+"windows": [
+{
+"n": "北中城村こども未来課",
+"t": "098-935-2230",
+"url": null,
+"override": null
+}
+]
+},
+{
+"area": "中城村",
+"lat": 26.267379,
+"lng": 127.791146,
+"prec": "area",
+"windows": [
+{
+"n": "中城村こども課",
+"t": "098-895-2271",
+"url": null,
+"override": null
+}
+]
+},
+{
+"area": "西原町",
+"lat": 26.222856,
+"lng": 127.758819,
+"prec": "area",
+"windows": [
+{
+"n": "西原町こども課",
+"t": "098-945-5311",
+"url": null,
+"override": null
+},
+{
+"n": "西原町教育総務課",
+"t": "098-945-3655",
+"url": null,
+"override": null
+},
+{
+"n": "西原町福祉課",
+"t": "098-945-4791",
+"url": null,
+"override": null
+},
+{
+"n": "西原町総務課",
+"t": "098-945-5011",
+"url": null,
+"override": null
+}
+]
+},
+{
+"area": "与那原町",
+"lat": 26.199502,
+"lng": 127.754794,
+"prec": "area",
+"windows": [
+{
+"n": "与那原町健康保険課",
+"t": "098-945-6633",
+"url": null,
+"override": null
+},
+{
+"n": "与那原町子育て支援課",
+"t": "098-945-6520",
+"url": null,
+"override": null
+},
+{
+"n": "与那原町福祉課",
+"t": "098-943-1333",
+"url": null,
+"override": null
+},
+{
+"n": "与那原町学校教育課",
+"t": "098-945-2361",
+"url": null,
+"override": null
+}
+]
+},
+{
+"area": "南風原町",
+"lat": 26.191122,
+"lng": 127.728554,
+"prec": "area",
+"windows": [
+{
+"n": "南風原町こども課",
+"t": "098-889-7028",
+"url": null,
+"override": null
+},
+{
+"n": "南風原町国保年金課",
+"t": "098-889-7381",
+"url": null,
+"override": null
+},
+{
+"n": "南風原町保健福祉課",
+"t": "098-889-4416",
+"url": null,
+"override": null
+},
+{
+"n": "南風原町学校教育課",
+"t": "098-889-6181",
+"url": null,
+"override": null
+}
+]
+},
+{
+"area": "北大東村",
+"lat": 25.945712,
+"lng": 131.298917,
+"prec": "area",
+"windows": [
+{
+"n": "北大東村役場",
+"t": "09802-3-4055",
+"url": null,
+"override": null
+},
+{
+"n": "北大東村保健・福祉センター",
+"t": "09802-3-4567",
+"url": null,
+"override": null
+}
+]
+},
+{
+"area": "伊是名村",
+"lat": 26.928305,
+"lng": 127.941226,
+"prec": "area",
+"windows": [
+{
+"n": "住民福祉課",
+"t": "0980-45-2819",
+"url": null,
+"override": null
+}
+]
+},
+{
+"area": "久米島町",
+"lat": 26.340669,
+"lng": 126.805021,
+"prec": "area",
+"windows": [
+{
+"n": "久米島町こども未来課",
+"t": "098-985-7115",
+"url": null,
+"override": null
+}
+]
+},
+{
+"area": "八重瀬町",
+"lat": 26.121875,
+"lng": 127.742675,
+"prec": "area",
+"windows": [
+{
+"n": "八重瀬町児童家庭課",
+"t": "098-998-7163",
+"url": null,
+"override": null
+},
+{
+"n": "八重瀬町保健センター",
+"t": "098-998-2277",
+"url": null,
+"override": null
+}
+]
+},
+{
+"area": "与那国町",
+"lat": 24.468034,
+"lng": 123.004496,
+"prec": "area",
+"windows": [
+{
+"n": "与那国町長寿福祉課",
+"t": "0980-87-3575",
+"url": null,
+"override": null
+}
+]
+}
+]

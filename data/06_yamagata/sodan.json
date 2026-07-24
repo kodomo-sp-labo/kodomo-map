@@ -1,0 +1,956 @@
+[
+{
+"area": "山形県",
+"lat": null,
+"lng": null,
+"prec": "unresolved",
+"windows": [
+{
+"n": "山形県教育センター",
+"t": null,
+"url": "https://www.yamagata-c.ed.jp/%E6%95%99%E8%82%B2%E7%9B%B8%E8%AB%87/",
+"override": null
+},
+{
+"n": "中央児童相談所",
+"t": null,
+"url": "https://www.pref.yamagata.jp/091020/kenfuku/kosodate/shien/soudammadoguchi/fukushise01.html",
+"override": null
+},
+{
+"n": "庄内児童相談所",
+"t": null,
+"url": "https://www.pref.yamagata.jp/097003/kensei/shoukai/soshikiannai/kosodatesuishin/097003.html",
+"override": null
+},
+{
+"n": "村山保健所子ども家庭支援課",
+"t": null,
+"url": "https://www.pref.yamagata.jp/301027/kensei/shoukai/soshikiannai/murayamahoken/301027.html",
+"override": null
+},
+{
+"n": "最上保健所こども家庭支援課",
+"t": null,
+"url": "https://www.pref.yamagata.jp/314026/kensei/shoukai/soshikiannai/mogamihoken/314026.html",
+"override": null
+},
+{
+"n": "置賜保健所こども家庭支援課",
+"t": null,
+"url": "https://www.pref.yamagata.jp/325027/kenfuku/kenko/hokenjo/okitamahokenjo/kenkoufukushijouhou/jyoseinokennkousoudann.html",
+"override": null
+},
+{
+"n": "庄内保健所こども家庭支援課",
+"t": null,
+"url": "https://www.pref.yamagata.jp/337028/kensei/shoukai/soshikiannai/shounaihoken/337028.html",
+"override": null
+},
+{
+"n": "山形県小児救急電話相談",
+"t": null,
+"url": "https://www.pref.yamagata.jp/090013/bosai/shobo/kyuukyuu/99tel.html",
+"override": null
+},
+{
+"n": "子ども・若者総合相談センター「フリースペース雨やどり」",
+"t": null,
+"url": "https://cdss.jp/",
+"override": null
+},
+{
+"n": "子ども・若者総合相談センター「フリースペースいろは」",
+"t": null,
+"url": "https://cloveryama.org/",
+"override": null
+},
+{
+"n": "子ども・若者総合相談センター「あにまるplus＋」",
+"t": null,
+"url": "https://animalschool2011.wixsite.com/soudan",
+"override": null
+},
+{
+"n": "子ども・若者総合相談センター「フリースペースまちかどカフェたまりば」",
+"t": "080ｰ3144ｰ3009",
+"url": null,
+"override": null
+},
+{
+"n": "子ども・若者総合相談センター「認定NPO法人　With優」",
+"t": null,
+"url": "https://www.with-yu.net/",
+"override": null
+},
+{
+"n": "子ども・若者総合相談センター「から・ころセンター」",
+"t": null,
+"url": "https://npo-karakoro.jp/",
+"override": null
+},
+{
+"n": "子ども・若者総合相談センター「特定非営利活動法人 一歩」",
+"t": null,
+"url": "https://www.npo-ichiho.com/",
+"override": null
+},
+{
+"n": "子ども・若者総合相談センター「労働者協同組合労協センター事業団　多機能福祉施設こもれび」",
+"t": null,
+"url": "https://sakata.roukyou.gr.jp",
+"override": null
+}
+]
+},
+{
+"area": "山形市",
+"lat": 38.255436,
+"lng": 140.339605,
+"prec": "area",
+"windows": [
+{
+"n": "こども家庭センター",
+"t": null,
+"url": "https://www.city.yamagata-yamagata.lg.jp/kosodatekyoiku/kosodate/1006615/1011464.html",
+"override": null
+},
+{
+"n": "山形市母子保健課",
+"t": null,
+"url": "https://www.city.yamagata-yamagata.lg.jp/",
+"override": null
+},
+{
+"n": "青少年指導センター",
+"t": null,
+"url": "https://www.city.yamagata-yamagata.lg.jp/kosodatekyoiku/shakaikyoiku/1006634/1004503.html",
+"override": null
+}
+]
+},
+{
+"area": "米沢市",
+"lat": 37.922242,
+"lng": 140.116683,
+"prec": "area",
+"windows": [
+{
+"n": "こども家庭課 　米沢市こども家庭センター",
+"t": null,
+"url": "https://www.city.yonezawa.yamagata.jp/soshiki/4/1016/1/1769.html",
+"override": null
+},
+{
+"n": "米沢市教育委員会",
+"t": "0238-22-5111",
+"url": null,
+"override": null
+},
+{
+"n": "米沢市教育支援センター",
+"t": null,
+"url": "https://www.city.yonezawa.yamagata.jp/soshiki/11/1036/1/1148.html",
+"override": null
+},
+{
+"n": "米沢市青少年指導センター",
+"t": "0238-21-6111",
+"url": null,
+"override": null
+}
+]
+},
+{
+"area": "鶴岡市",
+"lat": 38.727183,
+"lng": 139.826725,
+"prec": "area",
+"windows": [
+{
+"n": "こども家庭センター",
+"t": null,
+"url": "https://www.city.tsuruoka.lg.jp/kyoiku/index.html",
+"override": null
+},
+{
+"n": "子育て推進課",
+"t": null,
+"url": "https://www.city.tsuruoka.lg.jp/kyoiku/index.html",
+"override": null
+},
+{
+"n": "学校教育課",
+"t": null,
+"url": "https://www.city.tsuruoka.lg.jp/kyoiku/index.html",
+"override": null
+},
+{
+"n": "教育相談センター",
+"t": null,
+"url": "https://www.city.tsuruoka.lg.jp/kyoiku/index.html",
+"override": null
+},
+{
+"n": "青少年育成センター",
+"t": null,
+"url": "https://www.city.tsuruoka.lg.jp/bunka/wakamono/seisyonenevent/20231226163457449.html",
+"override": null
+},
+{
+"n": "福祉課",
+"t": null,
+"url": "https://www.city.tsuruoka.lg.jp/kyoiku/index.html",
+"override": null
+},
+{
+"n": "健康課",
+"t": null,
+"url": "https://www.city.tsuruoka.lg.jp/kyoiku/index.html",
+"override": null
+}
+]
+},
+{
+"area": "酒田市",
+"lat": 38.914386,
+"lng": 139.836513,
+"prec": "area",
+"windows": [
+{
+"n": "こども未来課",
+"t": null,
+"url": "https://www.city.sakata.lg.jp/kosodate/kosodate/kodomokateisenta/index.html",
+"override": null
+},
+{
+"n": "教育相談室",
+"t": null,
+"url": "http://www.city.sakata.lg.jp/kosodate/kyouiku/kyoikusoudan/kyouiku_soudanshitsu.html",
+"override": null
+},
+{
+"n": "健康課",
+"t": "0234-24-5733",
+"url": null,
+"override": null
+}
+]
+},
+{
+"area": "新庄市",
+"lat": 38.76496,
+"lng": 140.301664,
+"prec": "area",
+"windows": [
+{
+"n": "こども家庭センター",
+"t": null,
+"url": "https://www.city.shinjo.yamagata.jp",
+"override": null
+},
+{
+"n": "新庄市健康課",
+"t": null,
+"url": "https://www.city.shinjo.yamagata.jp",
+"override": null
+},
+{
+"n": "新庄市教育委員会学校教育課",
+"t": null,
+"url": "https://www.city.shinjo.yamagata.jp",
+"override": null
+}
+]
+},
+{
+"area": "寒河江市",
+"lat": 38.380954,
+"lng": 140.276068,
+"prec": "area",
+"windows": [
+{
+"n": "寒河江市子育て推進課",
+"t": null,
+"url": "https://www.city.sagae.yamagata.jp",
+"override": null
+},
+{
+"n": "寒河江市健康増進課",
+"t": null,
+"url": "https://www.city.sagae.yamagata.jp",
+"override": null
+},
+{
+"n": "寒河江市教育相談室",
+"t": null,
+"url": "https://www.city.sagae.yamagata.jp",
+"override": null
+}
+]
+},
+{
+"area": "上山市",
+"lat": 38.149562,
+"lng": 140.26783,
+"prec": "area",
+"windows": [
+{
+"n": "子ども子育て課",
+"t": null,
+"url": "https://www.city.kaminoyama.yamagata.jp",
+"override": null
+},
+{
+"n": "上山市　福祉課",
+"t": null,
+"url": "https://www.city.kaminoyama.yamagata.jp",
+"override": null
+},
+{
+"n": "上山市教育委員会学校教育課",
+"t": "023-672-1111",
+"url": null,
+"override": null
+}
+]
+},
+{
+"area": "村山市",
+"lat": 38.483352,
+"lng": 140.38038,
+"prec": "area",
+"windows": [
+{
+"n": "学校教育相談",
+"t": "0237-55-2411",
+"url": null,
+"override": null
+},
+{
+"n": "学校教育相談",
+"t": "0237-55-2111",
+"url": null,
+"override": null
+},
+{
+"n": "家庭（児童）相談",
+"t": null,
+"url": "https://www.city.murayama.lg.jp/kurashi/kosodate/kosodate_zenpan/kodomo_soudan/kodomokateisenta.html",
+"override": null
+},
+{
+"n": "児童・ひとり親における生活全般",
+"t": null,
+"url": "https://www.city.murayama.lg.jp/kurashi/kosodate/kosodate_zenpan/shien_kosodate/boshi-shien.html",
+"override": null
+},
+{
+"n": "保健課",
+"t": "0237-55-2111",
+"url": null,
+"override": null
+},
+{
+"n": "こども家庭センターぽっぴーるーむ",
+"t": "0237-22-9981",
+"url": null,
+"override": null
+}
+]
+},
+{
+"area": "長井市",
+"lat": 38.107486,
+"lng": 140.040535,
+"prec": "area",
+"windows": [
+{
+"n": "長井市子育て推進課",
+"t": null,
+"url": "https://www.city.nagai.yamagata.jp/soshiki/kosodatesuishin/index.html",
+"override": null
+},
+{
+"n": "長井市健康スポーツ課",
+"t": null,
+"url": "https://www.city.nagai.yamagata.jp/soshiki/kenspo/index.html",
+"override": null
+}
+]
+},
+{
+"area": "天童市",
+"lat": 38.362177,
+"lng": 140.377802,
+"prec": "area",
+"windows": [
+{
+"n": "天童市教育委員会学校教育課",
+"t": "023-654-1111",
+"url": null,
+"override": null
+},
+{
+"n": "天童市子育て支援課",
+"t": "023-654-1111",
+"url": null,
+"override": null
+},
+{
+"n": "天童市健康課",
+"t": "023-654-0884",
+"url": null,
+"override": null
+}
+]
+},
+{
+"area": "東根市",
+"lat": 38.431292,
+"lng": 140.391021,
+"prec": "area",
+"windows": [
+{
+"n": "こども家庭センター",
+"t": null,
+"url": "https://www.city.higashine.yamagata.jp/section_list/section029/",
+"override": null
+},
+{
+"n": "健康福祉部健康推進課",
+"t": null,
+"url": "https://www.city.higashine.yamagata.jp/section_list/section028/",
+"override": null
+},
+{
+"n": "教育委員会管理課",
+"t": null,
+"url": "https://www.city.higashine.yamagata.jp/section_list/section019/",
+"override": null
+}
+]
+},
+{
+"area": "尾花沢市",
+"lat": 38.60062,
+"lng": 140.405693,
+"prec": "area",
+"windows": [
+{
+"n": "尾花沢市こども家庭センター",
+"t": "0237-22-1116",
+"url": null,
+"override": null
+},
+{
+"n": "尾花沢市健康増進課",
+"t": "0237-22-1118",
+"url": null,
+"override": null
+},
+{
+"n": "尾花沢市教育委員会",
+"t": "0237-23-3330",
+"url": null,
+"override": null
+}
+]
+},
+{
+"area": "南陽市",
+"lat": 38.055116,
+"lng": 140.148309,
+"prec": "area",
+"windows": [
+{
+"n": "すこやか子育て課",
+"t": null,
+"url": "http://www.city.nanyo.yamagata.jp",
+"override": null
+},
+{
+"n": "社会教育課",
+"t": null,
+"url": "http://www.city.nanyo.yamagata.jp",
+"override": null
+},
+{
+"n": "学校教育課",
+"t": null,
+"url": "http://www.city.nanyo.yamagata.jp",
+"override": null
+}
+]
+},
+{
+"area": "山辺町",
+"lat": 38.289217,
+"lng": 140.26218,
+"prec": "area",
+"windows": [
+{
+"n": "山辺町保健福祉課",
+"t": null,
+"url": "https://www.town.yamanobe.yamagata.jp/",
+"override": null
+},
+{
+"n": "山辺町保健福祉センター",
+"t": null,
+"url": "https://www.town.yamanobe.yamagata.jp/",
+"override": null
+}
+]
+},
+{
+"area": "中山町",
+"lat": 38.333122,
+"lng": 140.283051,
+"prec": "area",
+"windows": [
+{
+"n": "中山町こども家庭センター（中山町健康福祉課子育て支援グループ）",
+"t": "023-662-2705",
+"url": null,
+"override": null
+}
+]
+},
+{
+"area": "河北町",
+"lat": 38.426276,
+"lng": 140.31431,
+"prec": "area",
+"windows": [
+{
+"n": "河北町こどもみらい課こども家庭センター",
+"t": null,
+"url": "https://www.town.kahoku.yamagata.jp/",
+"override": null
+}
+]
+},
+{
+"area": "西川町",
+"lat": 38.426487,
+"lng": 140.147661,
+"prec": "area",
+"windows": [
+{
+"n": "西川町健康福祉課",
+"t": null,
+"url": "https://www.town.nishikawa.yamagata.jp/",
+"override": null
+},
+{
+"n": "西川町まなぶ課",
+"t": null,
+"url": "https://www.town.nishikawa.yamagata.jp/",
+"override": null
+}
+]
+},
+{
+"area": "朝日町",
+"lat": 38.299293,
+"lng": 140.145924,
+"prec": "area",
+"windows": [
+{
+"n": "朝日町健康福祉課",
+"t": null,
+"url": "https://www.town.asahi.yamagata.jp",
+"override": null
+},
+{
+"n": "朝日町教育委員会（教育文化課）",
+"t": null,
+"url": "https://www.town.asahi.yamagata.jp",
+"override": null
+},
+{
+"n": "朝日町税務町民課",
+"t": null,
+"url": "https://www.town.asahi.yamagata.jp",
+"override": null
+}
+]
+},
+{
+"area": "大江町",
+"lat": 38.380713,
+"lng": 140.206793,
+"prec": "area",
+"windows": [
+{
+"n": "大江町健康福祉課",
+"t": null,
+"url": "https://www.town.oe.yamagata.jp",
+"override": null
+}
+]
+},
+{
+"area": "大石田町",
+"lat": 38.593877,
+"lng": 140.372647,
+"prec": "area",
+"windows": [
+{
+"n": "大石田町子ども家庭センター",
+"t": "0237-35-2111",
+"url": null,
+"override": null
+},
+{
+"n": "大石田町教育委員会",
+"t": "0237-35-2111",
+"url": null,
+"override": null
+}
+]
+},
+{
+"area": "金山町",
+"lat": 38.88344,
+"lng": 140.339367,
+"prec": "area",
+"windows": [
+{
+"n": "健康福祉課（金山町こども家庭センター）",
+"t": null,
+"url": "https://www.town.kaneyama.yamagata.jp/kurashi/kosodate_kyoiku/kosodate/sodan/index.html",
+"override": null
+},
+{
+"n": "金山町教育委員会",
+"t": null,
+"url": "https://www.town.kaneyama.yamagata.jp/kurashi/kosodate_kyoiku/kosodate/sodan/index.html",
+"override": null
+},
+{
+"n": "金山町子育て支援センターおひさま",
+"t": null,
+"url": "https://www.town.kaneyama.yamagata.jp/kurashi/kosodate_kyoiku/kosodate/sodan/index.html",
+"override": null
+}
+]
+},
+{
+"area": "最上町",
+"lat": 38.758467,
+"lng": 140.519359,
+"prec": "area",
+"windows": [
+{
+"n": "最上町こども家庭センター",
+"t": null,
+"url": "https://town.mogami.lg.jp/kosodate",
+"override": null
+}
+]
+},
+{
+"area": "舟形町",
+"lat": 38.691417,
+"lng": 140.319988,
+"prec": "area",
+"windows": [
+{
+"n": "舟形町教育相談ダイヤル",
+"t": null,
+"url": "https://www.town.funagata.yamagata.jp",
+"override": null
+},
+{
+"n": "舟形町教育委員会",
+"t": null,
+"url": "https://www.town.funagata.yamagata.jp",
+"override": null
+},
+{
+"n": "舟形町子育て支援センター　みらい",
+"t": null,
+"url": "https://www.town.funagata.yamagata.jp",
+"override": null
+},
+{
+"n": "舟形町子ども家庭センター",
+"t": null,
+"url": "https://www.town.funagata.yamagata.jp",
+"override": null
+}
+]
+},
+{
+"area": "真室川町",
+"lat": 38.857899,
+"lng": 140.252367,
+"prec": "area",
+"windows": [
+{
+"n": "真室川町役場　福祉課",
+"t": null,
+"url": "https://www.town.mamurogawa.yamagata.jp",
+"override": null
+}
+]
+},
+{
+"area": "大蔵村",
+"lat": 38.704121,
+"lng": 140.230368,
+"prec": "area",
+"windows": [
+{
+"n": "大蔵村健康福祉課",
+"t": "0233-75-2111",
+"url": null,
+"override": null
+}
+]
+},
+{
+"area": "鮭川村",
+"lat": 38.796455,
+"lng": 140.222007,
+"prec": "area",
+"windows": [
+{
+"n": "鮭川村健康福祉課",
+"t": "0233-55-2111",
+"url": null,
+"override": null
+}
+]
+},
+{
+"area": "戸沢村",
+"lat": 38.737601,
+"lng": 140.143569,
+"prec": "area",
+"windows": [
+{
+"n": "戸沢村こども家庭センター（健康福祉課内）",
+"t": "0233-72-2364",
+"url": null,
+"override": null
+},
+{
+"n": "戸沢村教育課学校教育係",
+"t": "0233-72-3242",
+"url": null,
+"override": null
+}
+]
+},
+{
+"area": "高畠町",
+"lat": 38.002745,
+"lng": 140.189113,
+"prec": "area",
+"windows": [
+{
+"n": "高畠町健康子育て課",
+"t": "0238-52-2864",
+"url": null,
+"override": null
+},
+{
+"n": "高畠町教育総務課",
+"t": null,
+"url": "https://www.town.takahata.yamagata.jp/soshiki/13/",
+"override": null
+}
+]
+},
+{
+"area": "川西町",
+"lat": 38.004482,
+"lng": 140.045787,
+"prec": "area",
+"windows": [
+{
+"n": "川西町こども家庭センター",
+"t": null,
+"url": "https://www.town.kawanishi.yamagata.jp/kenko/kosodateshien/2023-0317-1053-68.html",
+"override": null
+},
+{
+"n": "川西町教育文化課",
+"t": null,
+"url": "https://www.town.kawanishi.yamagata.jp/kyoiku/kyoikusodan",
+"override": null
+}
+]
+},
+{
+"area": "小国町",
+"lat": 38.061391,
+"lng": 139.743333,
+"prec": "area",
+"windows": [
+{
+"n": "健康福祉課",
+"t": null,
+"url": "https://www.town.oguni.yamagata.jp",
+"override": null
+},
+{
+"n": "小国町教育振興課",
+"t": null,
+"url": "https://www.town.oguni.yamagata.jp/soshiki/kenkou/",
+"override": null
+}
+]
+},
+{
+"area": "白鷹町",
+"lat": 38.183069,
+"lng": 140.098571,
+"prec": "area",
+"windows": [
+{
+"n": "白鷹町こども家庭センター（白鷹町健康福祉課）",
+"t": null,
+"url": "https://www.town.shirataka.lg.jp/1423.htm",
+"override": null
+}
+]
+},
+{
+"area": "飯豊町",
+"lat": 38.045714,
+"lng": 139.987617,
+"prec": "area",
+"windows": [
+{
+"n": "飯豊町健康福祉課子ども家庭健康室",
+"t": "0238-86-2338",
+"url": null,
+"override": null
+},
+{
+"n": "飯豊町健康福祉課福祉室",
+"t": "0238-86-2233",
+"url": null,
+"override": null
+},
+{
+"n": "飯豊町教育総務課教育振興室",
+"t": "0238-87-0519",
+"url": null,
+"override": null
+},
+{
+"n": "飯豊町社会教育課生涯学習振興室",
+"t": "0238-72-3111",
+"url": null,
+"override": null
+},
+{
+"n": "飯豊町健康福祉課子育て支援センター",
+"t": "0238-74-2305",
+"url": null,
+"override": null
+}
+]
+},
+{
+"area": "三川町",
+"lat": 38.794529,
+"lng": 139.849612,
+"prec": "area",
+"windows": [
+{
+"n": "三川町健康福祉課家庭支援係",
+"t": null,
+"url": "https://www.town.mikawa.yamagata.jp/",
+"override": null
+},
+{
+"n": "三川町健康福祉課健康係",
+"t": null,
+"url": "https://www.town.mikawa.yamagata.jp/",
+"override": null
+},
+{
+"n": "教育課学校教育係",
+"t": null,
+"url": "https://www.town.mikawa.yamagata.jp/",
+"override": null
+}
+]
+},
+{
+"area": "庄内町",
+"lat": 38.849845,
+"lng": 139.904723,
+"prec": "area",
+"windows": [
+{
+"n": "こども家庭センター（子育て応援課こども家庭支援係）",
+"t": "0234-42-0897",
+"url": null,
+"override": null
+},
+{
+"n": "保健福祉課健康推進係",
+"t": "0234-42-0147",
+"url": null,
+"override": null
+},
+{
+"n": "教育課",
+"t": "0234-43-0152",
+"url": null,
+"override": null
+},
+{
+"n": "福祉総合相談センター（生活困窮者等支援）",
+"t": "0234-43-6236",
+"url": null,
+"override": null
+},
+{
+"n": "子育て応援課児童発達支援係",
+"t": "0234-42-0158",
+"url": null,
+"override": null
+},
+{
+"n": "子育て支援センターこっころ",
+"t": null,
+"url": "https://www.town.shonai.lg.jp/kurashi/kosodate/shien/kokkorojyouhou.html",
+"override": null
+}
+]
+},
+{
+"area": "遊佐町",
+"lat": 39.014585,
+"lng": 139.907338,
+"prec": "area",
+"windows": [
+{
+"n": "教育なんでもダイヤル相談・友遊スクール",
+"t": "0234-25-3656",
+"url": null,
+"override": null
+},
+{
+"n": "教育委員会",
+"t": "0234-72-5891",
+"url": null,
+"override": null
+},
+{
+"n": "遊佐町こども家庭センター（遊佐町健康福祉課健康支援係）",
+"t": null,
+"url": "https://www.town.yuza.yamagata.jp/education/parturient/1946ekodomo.html",
+"override": null
+}
+]
+}
+]

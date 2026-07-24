@@ -1,0 +1,702 @@
+[
+{
+"area": "秋田県",
+"lat": null,
+"lng": null,
+"prec": "unresolved",
+"windows": [
+{
+"n": "秋田県子ども・女性・障害者相談センター",
+"t": null,
+"url": "https://www.pref.akita.lg.jp/pages/genre/71437",
+"override": null
+},
+{
+"n": "北児童相談所",
+"t": null,
+"url": "https://www.pref.akita.lg.jp/pages/archive/461",
+"override": null
+},
+{
+"n": "南児童相談所",
+"t": null,
+"url": "https://www.pref.akita.lg.jp/pages/archive/68905",
+"override": null
+},
+{
+"n": "秋田県女性健康支援センター",
+"t": null,
+"url": "https://www.ninshinsos-akita.net/",
+"override": null
+},
+{
+"n": "秋田県こども救急電話相談",
+"t": null,
+"url": "https://www.pref.akita.lg.jp/pages/archive/2319",
+"override": null
+},
+{
+"n": "地域・家庭福祉課",
+"t": null,
+"url": "https://www.pref.akita.lg.jp/pages/archive/66562",
+"override": null
+},
+{
+"n": "秋田県総合教育センター",
+"t": null,
+"url": "https://www.pref.akita.lg.jp/pages/genre/78318",
+"override": null
+},
+{
+"n": "教育庁北教育事務所",
+"t": null,
+"url": "https://www.pref.akita.lg.jp/pages/genre/15510",
+"override": null
+},
+{
+"n": "教育庁中央教育事務所",
+"t": null,
+"url": "https://www.pref.akita.lg.jp/pages/genre/15523",
+"override": null
+},
+{
+"n": "教育庁南教育事務所",
+"t": null,
+"url": "https://www.pref.akita.lg.jp/pages/genre/15532",
+"override": null
+},
+{
+"n": "秋田県警察本部人身安全対策課やまびこ電話",
+"t": "018-824-1212",
+"url": null,
+"override": null
+},
+{
+"n": "あきたいのちのケアセンター",
+"t": null,
+"url": "https://www.pref.akita.lg.jp/pages/archive/2200",
+"override": null
+},
+{
+"n": "秋田県幼児教育センター（教育庁幼保推進課）",
+"t": null,
+"url": "https://www.pref.akita.lg.jp/pages/archive/77491",
+"override": null
+},
+{
+"n": "秋田県幼児教育センター（教育庁北教育事務所　総務・幼保推進チーム）",
+"t": null,
+"url": "https://www.pref.akita.lg.jp/pages/archive/77491",
+"override": null
+},
+{
+"n": "秋田県幼児教育センター（教育庁南教育事務所　総務・幼保推進チーム）",
+"t": null,
+"url": "https://www.pref.akita.lg.jp/pages/archive/77491",
+"override": null
+}
+]
+},
+{
+"area": "秋田市",
+"lat": 39.719929,
+"lng": 140.102512,
+"prec": "area",
+"windows": [
+{
+"n": "子ども家庭センター 子育て相談支援課",
+"t": null,
+"url": "https://www.city.akita.lg.jp/kurashi/kosodate/1005999/1041926/1041322.html",
+"override": null
+},
+{
+"n": "秋田市ヤングケアラー支援相談電話",
+"t": null,
+"url": "https://www.city.akita.lg.jp/kurashi/kosodate/1005999/1041926/1041320.html",
+"override": null
+}
+]
+},
+{
+"area": "能代市",
+"lat": 40.212131,
+"lng": 140.026641,
+"prec": "area",
+"windows": [
+{
+"n": "能代市子育て支援課",
+"t": null,
+"url": "https://www.city.noshiro.lg.jp/section/shimin-fukushi/kosodate/index",
+"override": null
+},
+{
+"n": "子育て支援センター「サンピノ」",
+"t": null,
+"url": "https://www.city.noshiro.lg.jp/kurashi/kosodate/kosodate-center/2488",
+"override": null
+},
+{
+"n": "子育て支援センター「さんぽえむ」",
+"t": null,
+"url": "https://www.city.noshiro.lg.jp/kurashi/kosodate/kosodate-center/2488",
+"override": null
+}
+]
+},
+{
+"area": "横手市",
+"lat": 39.313777,
+"lng": 140.566636,
+"prec": "area",
+"windows": [
+{
+"n": "横手市こども家庭センター",
+"t": null,
+"url": "https://www.city.yokote.lg.jp/kosodate/1001158/1001326/1003367.html",
+"override": null
+},
+{
+"n": "横手市児童センター",
+"t": null,
+"url": "https://www.city.yokote.lg.jp/kosodate/1001158/1001326/1003367.html",
+"override": null
+},
+{
+"n": "健康推進課",
+"t": null,
+"url": "https://www.city.yokote.lg.jp/kosodate/1001158/1001326/1003367.html",
+"override": null
+},
+{
+"n": "Yotte・Cotto（よって・こっと）",
+"t": null,
+"url": "https://www.city.yokote.lg.jp/fukushi/1001154/1009935.html",
+"override": null
+},
+{
+"n": "教育指導課",
+"t": "0182-35-2123",
+"url": null,
+"override": null
+},
+{
+"n": "人権相談所",
+"t": null,
+"url": "https://www.city.yokote.lg.jp/kurashi/1001141/1001265/1002756.html",
+"override": null
+}
+]
+},
+{
+"area": "大館市",
+"lat": 40.27137211649141,
+"lng": 140.56436293689225,
+"prec": "area",
+"windows": [
+{
+"n": "大館市こども家庭センター　 ほっと",
+"t": null,
+"url": "https://www.city.odate.lg.jp/kosodate/guide/birth/p9857",
+"override": null
+},
+{
+"n": "大館市少年相談センター",
+"t": null,
+"url": "https://www.city.odate.lg.jp/city/soshiki/kyoikuzimu/shogai_gakusyu/shonen_soudan",
+"override": null
+},
+{
+"n": "大館市こども家庭センターさんまぁる",
+"t": null,
+"url": "https://www.city.odate.lg.jp/kosodate/guide/birth/sanmaaru",
+"override": null
+}
+]
+},
+{
+"area": "男鹿市",
+"lat": 39.886721,
+"lng": 139.8475,
+"prec": "area",
+"windows": [
+{
+"n": "男鹿市福祉課（福祉事務所）",
+"t": null,
+"url": "https://www.city.oga.akita.jp/living_information/useful/3175.html",
+"override": null
+},
+{
+"n": "男鹿市子育て健康課（こども家庭センター）",
+"t": "0185-24-9147",
+"url": null,
+"override": null
+},
+{
+"n": "なまはげハートコール（男鹿市教育委員会　こども未来課）",
+"t": "0185-24-9101",
+"url": null,
+"override": null
+}
+]
+},
+{
+"area": "湯沢市",
+"lat": 39.164074,
+"lng": 140.494683,
+"prec": "area",
+"windows": [
+{
+"n": "湯沢市こども家庭センター",
+"t": null,
+"url": "https://www.city-yuzawa.jp/site/kosodate-navi/5596.html",
+"override": null
+},
+{
+"n": "湯沢市子育て支援総合センター",
+"t": null,
+"url": "https://www.city-yuzawa.jp/site/kosodate-navi/5682.html",
+"override": null
+},
+{
+"n": "湯沢市学校教育課",
+"t": null,
+"url": "https://www.city-yuzawa.jp/soshiki/7/1563.html",
+"override": null
+}
+]
+},
+{
+"area": "鹿角市",
+"lat": 40.215789,
+"lng": 140.788519,
+"prec": "area",
+"windows": [
+{
+"n": "鹿角市すこやか子育て課　こども家庭センター",
+"t": null,
+"url": "https://www.city.kazuno.lg.jp/soshiki/ikiikikenko/kodomo-katei-center/gyomu/2_1/6794.html",
+"override": null
+},
+{
+"n": "鹿角市子ども未来センター",
+"t": null,
+"url": "https://www.ink.or.jp/~sukusuku/",
+"override": null
+},
+{
+"n": "鹿角市児童センター",
+"t": null,
+"url": "https://www.ink.or.jp/~sukusuku/",
+"override": null
+}
+]
+},
+{
+"area": "由利本荘市",
+"lat": 39.385814,
+"lng": 140.048819,
+"prec": "area",
+"windows": [
+{
+"n": "由利本荘市健康福祉部こども家庭センター",
+"t": null,
+"url": "https://www.city.yurihonjo.lg.jp/1000002/1001861/1001877/1003121.html",
+"override": null
+},
+{
+"n": "由利本荘市健康福祉部こども家庭センター",
+"t": null,
+"url": "https://www.city.yurihonjo.lg.jp/1000007/1002050/1003911.html",
+"override": null
+},
+{
+"n": "由利本荘市健康福祉部福祉支援課",
+"t": null,
+"url": "https://www.city.yurihonjo.lg.jp/1000004/1001962/1010518/1010519.html",
+"override": null
+},
+{
+"n": "由利本荘市教育委員会学校教育課",
+"t": null,
+"url": "https://www.city.yurihonjo.lg.jp/1000002/1001861/1001889/1003128.html",
+"override": null
+},
+{
+"n": "由利本荘市こどもプラザあおぞら",
+"t": null,
+"url": "https://www.city.yurihonjo.lg.jp/shisetsu/1002009/1002015/1003975.html",
+"override": null
+}
+]
+},
+{
+"area": "潟上市",
+"lat": 39.883243,
+"lng": 139.988623,
+"prec": "area",
+"windows": [
+{
+"n": "潟上市子育て応援課こども未来班",
+"t": "018-853-5360",
+"url": null,
+"override": null
+},
+{
+"n": "潟上市子育て応援課こども子育て支援班",
+"t": "018-853-5372",
+"url": null,
+"override": null
+}
+]
+},
+{
+"area": "大仙市",
+"lat": 39.45309,
+"lng": 140.475448,
+"prec": "area",
+"windows": [
+{
+"n": "大仙市こども未来部こども家庭センター",
+"t": null,
+"url": "https://www.city.daisen.lg.jp/docs/2013101000051/",
+"override": null
+},
+{
+"n": "大仙市子ども・若者総合相談センター「びおら」",
+"t": null,
+"url": "https://www.city.daisen.lg.jp/docs/2018071000018/",
+"override": null
+},
+{
+"n": "大仙市子ども・若者総合相談センター「ふらっと」",
+"t": null,
+"url": "https://www.city.daisen.lg.jp/docs/2018071000018/",
+"override": null
+}
+]
+},
+{
+"area": "北秋田市",
+"lat": 40.226046,
+"lng": 140.370728,
+"prec": "area",
+"windows": [
+{
+"n": "北秋田市こども課（こども家庭センター）",
+"t": null,
+"url": "https://www.city.kitaakita.akita.jp/archive/p20250312141307",
+"override": null
+},
+{
+"n": "北秋田市医療健康課",
+"t": null,
+"url": "https://www.city.kitaakita.akita.jp/archive/contents-5785",
+"override": null
+},
+{
+"n": "北秋田市教育委員会学校教育課",
+"t": null,
+"url": "https://www.city.kitaakita.akita.jp/genre/shigoto/kyouikuiinkai_gakkoukyouiku",
+"override": null
+},
+{
+"n": "北秋田市ふれあいダイヤル",
+"t": "0186-63-1700",
+"url": null,
+"override": null
+},
+{
+"n": "北秋田市適応指導教室北秋田さわやか教室",
+"t": "0186-62-4860",
+"url": null,
+"override": null
+},
+{
+"n": "北秋田市あきたリフレッシュ学園",
+"t": "0186-78-4180",
+"url": null,
+"override": null
+}
+]
+},
+{
+"area": "にかほ市",
+"lat": 39.203067,
+"lng": 139.907649,
+"prec": "area",
+"windows": [
+{
+"n": "にかほ市こども家庭センター",
+"t": "0184-74-4045",
+"url": null,
+"override": null
+},
+{
+"n": "児童家庭支援センターこねくと",
+"t": "0184-74-7417",
+"url": null,
+"override": null
+}
+]
+},
+{
+"area": "仙北市",
+"lat": 39.700044,
+"lng": 140.730728,
+"prec": "area",
+"windows": [
+{
+"n": "仙北市市民福祉部こども家庭センター",
+"t": "0187-43-3305",
+"url": null,
+"override": null
+}
+]
+},
+{
+"area": "小坂町",
+"lat": 40.332926,
+"lng": 140.736191,
+"prec": "area",
+"windows": [
+{
+"n": "小坂町役場福祉課",
+"t": "0186-29-3926",
+"url": null,
+"override": null
+}
+]
+},
+{
+"area": "上小阿仁村",
+"lat": 40.063263,
+"lng": 140.295736,
+"prec": "area",
+"windows": [
+{
+"n": "上小阿仁村住民福祉課",
+"t": "0186-77-2222",
+"url": null,
+"override": null
+}
+]
+},
+{
+"area": "藤里町",
+"lat": 40.278399,
+"lng": 140.261879,
+"prec": "area",
+"windows": [
+{
+"n": "藤里町　町民課",
+"t": "0185-79-2113",
+"url": null,
+"override": null
+},
+{
+"n": "藤里町教育委員会",
+"t": "0185-79-1327",
+"url": null,
+"override": null
+}
+]
+},
+{
+"area": "三種町",
+"lat": 40.101615,
+"lng": 140.004981,
+"prec": "area",
+"windows": [
+{
+"n": "三種町教育委員会",
+"t": null,
+"url": "https://www.town.mitane.akita.jp/kosodate_kyoiku/index.html",
+"override": null
+},
+{
+"n": "三種町子育て交流施設「みっしゅ」",
+"t": null,
+"url": "https://www.town.mitane.akita.jp/soshikikarasagasu/kenkosuishinka/3/272.html",
+"override": null
+},
+{
+"n": "三種町福祉課",
+"t": null,
+"url": "https://www.town.mitane.akita.jp/soshikikarasagasu/fukushika/789.html",
+"override": null
+}
+]
+},
+{
+"area": "八峰町",
+"lat": 40.318715,
+"lng": 140.038618,
+"prec": "area",
+"windows": [
+{
+"n": "八峰町福祉保健課・子育て支援係（八峰町子育て世代包括支援センター）",
+"t": "0185-76-4608",
+"url": null,
+"override": null
+}
+]
+},
+{
+"area": "五城目町",
+"lat": 39.943895,
+"lng": 140.111309,
+"prec": "area",
+"windows": [
+{
+"n": "五城目町健康福祉課こども担当",
+"t": "018-853-0705",
+"url": null,
+"override": null
+},
+{
+"n": "五城目町健康福祉課",
+"t": "018-852-5128",
+"url": null,
+"override": null
+}
+]
+},
+{
+"area": "八郎潟町",
+"lat": 39.949355,
+"lng": 140.073335,
+"prec": "area",
+"windows": [
+{
+"n": "八郎潟町健康福祉課（児童福祉）",
+"t": "018-875-5808",
+"url": null,
+"override": null
+},
+{
+"n": "八郎潟町健康福祉課（母子保健）",
+"t": "018-875-2800",
+"url": null,
+"override": null
+},
+{
+"n": "八郎潟町教育委員会",
+"t": "018-875-5812",
+"url": null,
+"override": null
+}
+]
+},
+{
+"area": "井川町",
+"lat": 39.914188,
+"lng": 140.081265,
+"prec": "area",
+"windows": [
+{
+"n": "井川町地域子育て支援センター子育て支援多世代交流館「みなくる」",
+"t": "018-838-6913",
+"url": null,
+"override": null
+},
+{
+"n": "井川町みんなの相談支援センター井川町社会福祉協議会",
+"t": "018-874-2611",
+"url": null,
+"override": null
+},
+{
+"n": "井川町教育委員会",
+"t": "018-874-4424",
+"url": null,
+"override": null
+},
+{
+"n": "井川町健康福祉課",
+"t": "018-874-4426",
+"url": null,
+"override": null
+}
+]
+},
+{
+"area": "大潟村",
+"lat": 40.017788,
+"lng": 139.960064,
+"prec": "area",
+"windows": [
+{
+"n": "大潟村保健センター",
+"t": "0185-45-2613",
+"url": null,
+"override": null
+},
+{
+"n": "大潟村教育委員会",
+"t": "0185-45-3240",
+"url": null,
+"override": null
+}
+]
+},
+{
+"area": "美郷町",
+"lat": 39.461633,
+"lng": 140.582127,
+"prec": "area",
+"windows": [
+{
+"n": "美郷町こども子育て課 こども家庭センター",
+"t": "0187-84-4904",
+"url": null,
+"override": null
+},
+{
+"n": "美郷町教育推進課",
+"t": "0187-84-4914",
+"url": null,
+"override": null
+}
+]
+},
+{
+"area": "羽後町",
+"lat": 39.199323,
+"lng": 140.412881,
+"prec": "area",
+"windows": [
+{
+"n": "羽後町こころの電話相談",
+"t": "0183-62-0055",
+"url": null,
+"override": null
+},
+{
+"n": "羽後町こども家庭センター「にじいろ」",
+"t": null,
+"url": "https://www.town.ugo.lg.jp/life/detail.html?id=2783&category_id=5",
+"override": null
+},
+{
+"n": "羽後町健康福祉課",
+"t": "0183-62-2111",
+"url": null,
+"override": null
+}
+]
+},
+{
+"area": "東成瀬村",
+"lat": 39.179185,
+"lng": 140.648892,
+"prec": "area",
+"windows": [
+{
+"n": "東成瀬村 健康福祉課",
+"t": null,
+"url": "https://lin.ee/5DIXB30",
+"override": null
+}
+]
+}
+]
