@@ -59,6 +59,9 @@ if ('serviceWorker' in navigator) {
   .baselayer-switch button:last-child{border-bottom:none}
   .baselayer-switch button:hover{background:#F0EEE6}
   .baselayer-switch button.active{background:var(--c1);color:#fff;font-weight:700}
+  .map-empty-note{position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);z-index:900;
+    background:#fff;border-radius:8px;box-shadow:0 1px 5px rgba(0,0,0,.3);padding:16px 22px;
+    max-width:78%;text-align:center;font-size:.85rem;line-height:1.6;color:var(--ink)}
   aside{width:340px;overflow-y:auto;background:var(--panel);border-left:1px solid var(--line);padding:12px}
   .legend{display:flex;gap:12px;flex-wrap:wrap;font-size:.72rem;padding:8px 24px;background:var(--panel);border-bottom:1px solid var(--line);align-items:center}
   .legend span.dot::before{content:'';display:inline-block;width:10px;height:10px;border-radius:50%;margin-right:5px}
@@ -124,9 +127,10 @@ if ('serviceWorker' in navigator) {
     <span class="badge b-pref">県HP掲載</span>
     <span class="badge b-council">岡山フリースクール協議会加盟</span>
     <label style="margin-left:auto;display:flex;align-items:center;gap:4px;cursor:pointer">
-      <input type="checkbox" class="toggle-districts" data-map="manabi"> 小学校区界を表示（岡山市・新見市を除く24市町村）
+      <input type="checkbox" class="toggle-districts" data-map="manabi"> 小学校区界を表示（<span class="districts-note">準備中</span>）
     </label>
   </div>
+  <p class="notice" id="notice-manabi" style="display:none"></p>
   <div class="wrap">
     <div class="mapbox" id="map-manabi"></div>
     <aside id="list-manabi"></aside>
@@ -139,7 +143,7 @@ if ('serviceWorker' in navigator) {
     <span class="dot" id="lg-ibasho-1">児童館・児童センター（岡山市22館）</span>
     <span class="dot" id="lg-ibasho-2">子ども食堂・プレーパーク等（岡山市）</span>
     <label style="margin-left:auto;display:flex;align-items:center;gap:4px;cursor:pointer">
-      <input type="checkbox" class="toggle-districts" data-map="ibasho"> 小学校区界を表示（岡山市を除く24市町村）
+      <input type="checkbox" class="toggle-districts" data-map="ibasho"> 小学校区界を表示（<span class="districts-note">準備中</span>）
     </label>
   </div>
   <p class="notice">岡山市内のみを収録（令和6〜8年時点）。児童館は原則すべて④地域子育て支援拠点も兼ねています。国土地理院APIにより121件中115件を番地レベルまでジオコーディング済みです。残り6件（子ども食堂等）は原典に番地の記載がなく町丁目レベルの概算です（ツールチップに明示）。</p>
@@ -156,12 +160,12 @@ if ('serviceWorker' in navigator) {
 <div class="tab-panel" id="panel-sodan">
   <div class="legend">
     <span class="dot" id="lg-sodan-1">教育相談室（岡山市・番地あり）</span>
-    <span class="dot" id="lg-sodan-2">市町村の相談窓口（市町村単位の概算・県内30エリア）</span>
+    <span class="dot" id="lg-sodan-2">市町村の相談窓口（市町村単位の概算・県内<span id="sodan-area-count">?</span>エリア）</span>
     <label style="margin-left:auto;display:flex;align-items:center;gap:4px;cursor:pointer">
-      <input type="checkbox" class="toggle-districts" data-map="sodan"> 小学校区界を表示（岡山市を除く24市町村）
+      <input type="checkbox" class="toggle-districts" data-map="sodan"> 小学校区界を表示（<span class="districts-note">準備中</span>）
     </label>
   </div>
-  <p class="notice">出典：こども家庭庁「岡山県の相談窓口」。県内27市町村・約80窓口を収録。多くは市町村庁舎の位置（実質的に番地レベルの精度）で表示していますが、庁舎とは別施設にある窓口は、所在地が判明したもの（3件）のみ個別ピンで正確な位置に表示しています。原典に住所記載がないため未確認の窓口も多数あります。</p>
+  <p class="notice" id="notice-sodan">出典：こども家庭庁「相談窓口」。</p>
   <div class="wrap">
     <div class="mapbox" id="map-sodan"></div>
     <aside id="list-sodan">
@@ -177,7 +181,7 @@ if ('serviceWorker' in navigator) {
     <span class="dot" id="lg-oya-1">地域子育て支援拠点（岡山市58件）</span>
     <span class="dot" id="lg-oya-2">親の会</span>
     <label style="margin-left:auto;display:flex;align-items:center;gap:4px;cursor:pointer">
-      <input type="checkbox" class="toggle-districts" data-map="oyakazoku"> 小学校区界を表示（岡山市を除く24市町村）
+      <input type="checkbox" class="toggle-districts" data-map="oyakazoku"> 小学校区界を表示（<span class="districts-note">準備中</span>）
     </label>
   </div>
   <p class="notice">岡山市内のみを収録。児童館22件を含みます（②と重複＝多重タグ）。「親の会」は網羅的な公式名簿がなく、確認できた2件のみの掲載です。国土地理院APIにより番地レベルまでジオコーディング済みです。</p>
@@ -199,10 +203,10 @@ if ('serviceWorker' in navigator) {
     <span class="dot" style="--dc:var(--c5homon)" id="lg-h-4">居宅訪問型児童発達支援</span>
     <span class="dot" style="--dc:var(--c5hoiku)" id="lg-h-5">保育所等訪問支援</span>
     <label style="margin-left:auto;display:flex;align-items:center;gap:4px;cursor:pointer">
-      <input type="checkbox" class="toggle-districts" data-map="hattatsu"> 小学校区界を表示（岡山市を除く24市町村）
+      <input type="checkbox" class="toggle-districts" data-map="hattatsu"> 小学校区界を表示（<span class="districts-note">準備中</span>）
     </label>
   </div>
-  <p class="notice">拡大すると個別施設ピンが表示されます。全405件、WAMNET（障害福祉サービス等情報公表システム）オープンデータに基づく住所レベルの位置情報を使用しています。うち岡山県公表資料（児童福祉施設一覧）とも突合できた施設には「県公表資料でも確認済み」の表示・リンクがあります（2026年7月時点）。「医療型児童発達支援」は令和6年度制度改正の経過措置区分であり、令和9年3月末をもって新規発生がなくなる見込みです。</p>
+  <p class="notice" id="notice-hattatsu">拡大すると個別施設ピンが表示されます。WAMNET（障害福祉サービス等情報公表システム）オープンデータに基づく住所レベルの位置情報を使用しています。「医療型児童発達支援」は令和6年度制度改正の経過措置区分であり、令和9年3月末をもって新規発生がなくなる見込みです。</p>
   <div class="wrap">
     <div class="mapbox" id="map-hattatsu"></div>
     <aside id="list-hattatsu">
@@ -228,7 +232,7 @@ if ('serviceWorker' in navigator) {
   </div>
   <strong>①学び：</strong>岡山市「岡山市児童生徒支援教室」／岡山県教育委員会「不登校の児童生徒及びその保護者を支援する民間団体・施設の情報」（令和8年3月現在）／岡山フリースクール協議会。<br>
   <strong>②居場所：</strong>岡山市「児童館・児童センターについて」（2026年7月時点）／岡山市社会福祉協議会「岡山市内の子どもの居場所一覧」（R6.3月時点）。<br>
-  <strong>③相談：</strong>こども家庭庁「岡山県の相談窓口」（2026年7月時点）／岡山市教育相談室。<br>
+  <strong>③相談：</strong>こども家庭庁「相談窓口」（2026年7月時点、都道府県別）。<br>
   <strong>④親家族：</strong>岡山県「ももっこステーション・地域子育て支援拠点」岡山市内一覧（令和7年4月1日更新）／岡山市。<br>
   <strong>⑤発達：</strong>WAM NET「障害福祉サービス等情報公表システム」オープンデータ（2026年3月時点、独立行政法人福祉医療機構）。岡山県「保健福祉施設・病院等一覧」児童福祉施設（令和7年4月1日現在）とも突合し、両資料で確認できた施設にはその旨を表示しています。<br>
   <strong>小学校区界：</strong>国土数値情報（小学校区データ A27）国土交通省、令和3年公開版。岡山市は未収録。座標はGoogle Places、および国土交通省「位置参照情報」を元にGeolonia社が作成した住所データ（<a href="https://creativecommons.org/licenses/by/4.0/deed.ja" target="_blank" rel="noopener">CC BY 4.0</a>、独自に緯度経度をマッチング・加工して使用）等を用いて算出しています（2026年7月時点、多くは町丁目レベルの概算）。
@@ -251,8 +255,54 @@ const REGIONS = {
                                 //         このファイルをpushすること。rename_data_folders.pyで
                                 //         data/okayama/ をリネームする作業とセットで反映する。
     available: { manabi:true, ibasho:true, sodan:true, oyakazoku:true, hattatsu:true, districts:true }
+  },
+  // 【中四国8県・今回追加】①学び（学びの多様化学校のみ）・③相談・⑤発達を登録
+  // （②居場所・④親家族・学区界は未整備のため対象外）。data/<コード>_<ローマ字>/に
+  // manabi.json・hattatsu.json・sodan.jsonが実在することを確認済み（2026-07-24）。
+  // 【注意】manabi.jsonはOkayamaの①学びタブ（フリースクール等も含む独自収集データ）とは
+  // 別物で、文科省「学びの多様化学校の設置者一覧」に載っている学校のみを収録している
+  // （鳥取・広島・徳島・愛媛は現時点で0件＝該当校なし。データ未整備ではなく確認済みの0件）。
+  tottori: {
+    label: '鳥取県',
+    base: 'data/31_tottori/',
+    available: { manabi:true, sodan:true, hattatsu:true }
+  },
+  shimane: {
+    label: '島根県',
+    base: 'data/32_shimane/',
+    available: { manabi:true, sodan:true, hattatsu:true }
+  },
+  hiroshima: {
+    label: '広島県',
+    base: 'data/34_hiroshima/',
+    available: { manabi:true, sodan:true, hattatsu:true }
+  },
+  yamaguchi: {
+    label: '山口県',
+    base: 'data/35_yamaguchi/',
+    available: { manabi:true, sodan:true, hattatsu:true }
+  },
+  tokushima: {
+    label: '徳島県',
+    base: 'data/36_tokushima/',
+    available: { manabi:true, sodan:true, hattatsu:true }
+  },
+  kagawa: {
+    label: '香川県',
+    base: 'data/37_kagawa/',
+    available: { manabi:true, sodan:true, hattatsu:true }
+  },
+  ehime: {
+    label: '愛媛県',
+    base: 'data/38_ehime/',
+    available: { manabi:true, sodan:true, hattatsu:true }
+  },
+  kochi: {
+    label: '高知県',
+    base: 'data/39_kochi/',
+    available: { manabi:true, sodan:true, hattatsu:true }
   }
-  // 例）ひろしま: { label:'広島県', base:'data/34_hiroshima/', available:{ manabi:true, hattatsu:true, sodan:true } }
+  // 例）以降、他県を追加する場合はこのパターンを踏襲する。
 };
 
 function tileLayerFor(map){
@@ -335,6 +385,13 @@ function ryoikuLabels(catArr){ return catArr.map(function(c){return RYOIKU_CAT[c
 
 /* ============ 地図インスタンス（1回だけ作成、地域切替時は中身を差し替え） ============ */
 const mapManabi = L.map('map-manabi'); tileLayerFor(mapManabi);
+// ①学び：文科省一覧に該当校が0件の県向けの案内オーバーレイ。地図コンテナ自体のinnerHTMLは
+// 書き換えず（showUnavailable/showFetchErrorと違い、地域切替のたびにLeafletの内部DOMが
+// 壊れないようにするため）、baselayer-switchと同様にコンテナへ子要素として追加するだけにする。
+const manabiEmptyNote = document.createElement('div');
+manabiEmptyNote.className = 'map-empty-note';
+manabiEmptyNote.style.display = 'none';
+mapManabi.getContainer().appendChild(manabiEmptyNote);
 const mapIbasho = L.map('map-ibasho'); tileLayerFor(mapIbasho);
 const mapSodan = L.map('map-sodan'); tileLayerFor(mapSodan);
 const mapOya = L.map('map-oyakazoku'); tileLayerFor(mapOya);
@@ -476,6 +533,7 @@ function renderSodan(sodanData){
       om.bindPopup('<div class="popup-name">'+w.n+'</div><div class="popup-body">'+ov.addr+(w.t?'<br>'+w.t:'')+'</div>');
       markers.push(om);
     });
+    if(area.lat==null || area.lng==null) return;  // 座標未解決（都道府県レベル等）はマーカーを打たず一覧のみで表示
     const n = area.windows.length;
     const size = Math.max(24, Math.min(50, 20 + Math.sqrt(n)*6));
     const icon = L.divIcon({ className:'', iconSize:[size,size],
@@ -634,7 +692,10 @@ function loadRegion(key){
 
   // ①学び
   if(avail.manabi){
-    fetchJson(region.base + 'manabi.json').then(renderManabi).catch(function(err){ showFetchError('map-manabi', err); });
+    fetchJson(region.base + 'manabi.json').then(function(data){
+      renderManabi(data);
+      updateManabiNotice(key, data);
+    }).catch(function(err){ showFetchError('map-manabi', err); });
     document.getElementById('map-manabi').style.display = '';
   } else { showUnavailable('panel-manabi','map-manabi','list-manabi'); }
 
@@ -647,7 +708,10 @@ function loadRegion(key){
 
   // ③相談
   if(avail.sodan){
-    fetchJson(region.base + 'sodan.json').then(renderSodan).catch(function(err){ showFetchError('map-sodan', err); });
+    fetchJson(region.base + 'sodan.json').then(function(data){
+      renderSodan(data);
+      updateSodanNotice(region, data);
+    }).catch(function(err){ showFetchError('map-sodan', err); });
   } else { showUnavailable('panel-sodan','map-sodan','sodan-list-body'); }
 
   // ④親家族
@@ -659,12 +723,16 @@ function loadRegion(key){
 
   // ⑤発達
   if(avail.hattatsu){
-    fetchJson(region.base + 'hattatsu.json').then(renderHattatsu).catch(function(err){ showFetchError('map-hattatsu', err); });
+    fetchJson(region.base + 'hattatsu.json').then(function(data){
+      renderHattatsu(data);
+      updateHattatsuNotice(region, key, data);
+    }).catch(function(err){ showFetchError('map-hattatsu', err); });
   } else { showUnavailable('panel-hattatsu','map-hattatsu','ryoiku-list-body'); }
 
   // 学区界
   districtsAvailable = !!avail.districts;
   Object.keys(districtsLayers).forEach(function(k){ districtsLayers[k].clearLayers(); });
+  setDistrictsNote('準備中');  // データ取得完了までの暫定表示。取得できれば下でエリア数に置き換える
   if(districtsAvailable){
     fetchJson(region.base + 'districts.json').then(function(geojson){
       Object.keys(ALL_MAPS).forEach(function(key){
@@ -677,11 +745,70 @@ function loadRegion(key){
         });
         districtsLayers[key] = layer;
       });
+      // 対象自治体数を実データ（city_code）から計算する。文字列表記の"operator"は
+      // 表記ゆれ・データ誤り（例:岡山県データ中に隣接県の事業者名が1件混入）の
+      // 影響を受けるため、行政区域コード（5桁）の異なり数を正とする。
+      const codes = {};
+      (geojson.features || []).forEach(function(f){ codes[f.properties.city_code] = true; });
+      const n = Object.keys(codes).length;
+      setDistrictsNote(n + '市町村分収録');
       if(districtsVisible) setDistrictsVisible(true);
-    }).catch(function(err){ console.warn('学区界の読み込みに失敗:', err); districtsAvailable = false; });
+    }).catch(function(err){ console.warn('学区界の読み込みに失敗:', err); districtsAvailable = false; setDistrictsNote('準備中'); });
   }
   setDistrictsVisible(false);
   document.querySelectorAll('.toggle-districts').forEach(function(cb){ cb.disabled = !districtsAvailable; });
+}
+
+function setDistrictsNote(text){
+  document.querySelectorAll('.districts-note').forEach(function(el){ el.textContent = text; });
+}
+
+function updateManabiNotice(key, data){
+  const noticeEl = document.getElementById('notice-manabi');
+  if(noticeEl){
+    if(key === 'okayama'){
+      noticeEl.style.display = 'none';
+      noticeEl.textContent = '';
+    } else {
+      noticeEl.style.display = '';
+      noticeEl.textContent = '岡山県のみフリースクール等を含む独自調査データ、他県は文部科学省公式一覧（学びの多様化学校）のみを収録しています。';
+    }
+  }
+  if(manabiEmptyNote){
+    if(data.length === 0){
+      manabiEmptyNote.textContent = '文部科学省が指定する学びの多様化学校は現在ありません（フリースクール等の民間情報は今後の調査対象です）。';
+      manabiEmptyNote.style.display = '';
+    } else {
+      manabiEmptyNote.style.display = 'none';
+    }
+  }
+}
+
+function updateSodanNotice(region, data){
+  const areaCount = data.length;
+  const windowCount = data.reduce(function(sum, a){ return sum + a.windows.length; }, 0);
+  const areaCountEl = document.getElementById('sodan-area-count');
+  if(areaCountEl) areaCountEl.textContent = areaCount;
+  const el = document.getElementById('notice-sodan');
+  if(el){
+    el.textContent = '出典：こども家庭庁「' + region.label + 'の相談窓口」。県内' + areaCount + 'エリア・'
+      + windowCount + '窓口を収録。多くは市町村庁舎の位置（実質的に番地レベルの精度）で表示していますが、'
+      + '庁舎とは別施設にあり所在地が個別に判明した窓口は、正確な位置に個別ピンで表示しています。'
+      + '原典に住所記載がないため未確認の窓口も多数あります。';
+  }
+}
+
+function updateHattatsuNotice(region, key, data){
+  const el = document.getElementById('notice-hattatsu');
+  if(!el) return;
+  let text = '拡大すると個別施設ピンが表示されます。全' + data.length + '件、WAMNET（障害福祉サービス等情報公表システム）'
+    + 'オープンデータに基づく住所レベルの位置情報を使用しています。';
+  if(key === 'okayama'){
+    text += 'うち岡山県公表資料（児童福祉施設一覧）とも突合できた施設には「県公表資料でも確認済み」の表示・'
+      + 'リンクがあります（2026年7月時点）。';
+  }
+  text += '「医療型児童発達支援」は令和6年度制度改正の経過措置区分であり、令和9年3月末をもって新規発生がなくなる見込みです。';
+  el.textContent = text;
 }
 
 /* ============ 地域セレクター ============ */
