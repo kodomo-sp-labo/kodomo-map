@@ -30,6 +30,11 @@ if ('serviceWorker' in navigator) {
   :root{
     --ink:#22303C; --sub:#5B6B78; --base:#F6F7F6; --panel:#FFFFFF; --line:#E1E6E4;
     --c1:#31547E; --c1b:#B7791F; --c2:#4A7C59; --c3:#8A4B2B; --c4:#B2508C;
+    /* --c1t: ①学びの「学びの多様化学校」用。JS側のMANABI_CAT.tayouka.colorと同じ値を保つこと。
+       選定根拠: 実測したCARTOタイル色5種すべてでコントラスト4.04以上、既存の青(--c1)・緑(--c2)との
+       識別性が通常視力で最大（ΔE 26.1/21.6）。色覚シミュレーションでの緑との分離は7.7で
+       目標8.0に僅かに届かないため、白2pxリング・ツールチップ・一覧カードの文字表記を併用する。 */
+    --c1t:#C1432B;
     --c5jidou:#6B4C9A; --c5iryo:#1F7A8C; --c5hokago:#C1432B; --c5homon:#B7791F; --c5hoiku:#4A7C59;
     --badge-pref:#2C6E49; --badge-council:#8A4B2B;
   }
@@ -66,7 +71,10 @@ if ('serviceWorker' in navigator) {
   .map-empty-note.err{color:#B23A3A}
   aside{width:340px;overflow-y:auto;background:var(--panel);border-left:1px solid var(--line);padding:12px}
   .legend{display:flex;gap:12px;flex-wrap:wrap;font-size:.72rem;padding:8px 24px;background:var(--panel);border-bottom:1px solid var(--line);align-items:center}
-  .legend span.dot::before{content:'';display:inline-block;width:10px;height:10px;border-radius:50%;margin-right:5px}
+  /* 凡例の色丸。background指定が無く全タブで透明（＝色が出ていない）状態だったため追加。
+     色は各spanのインラインstyleで --dc に指定する（未指定だと丸が見えないので必ず付けること）。 */
+  .legend span.dot::before{content:'';display:inline-block;width:10px;height:10px;border-radius:50%;margin-right:5px;
+    background:var(--dc)}
   .badge{font-size:.65rem;padding:1px 6px;border-radius:3px;color:#fff;margin-right:4px;margin-bottom:2px;display:inline-block}
   .b-pref{background:var(--badge-pref)} .b-council{background:var(--badge-council)}
   .card{border:1px solid var(--line);border-radius:6px;padding:10px 12px;margin-bottom:8px;cursor:pointer;transition:border-color .15s}
@@ -124,10 +132,14 @@ if ('serviceWorker' in navigator) {
 <!-- ============ ①学び ============ -->
 <div class="tab-panel active" id="panel-manabi">
   <div class="legend">
-    <span class="dot" style="--dc:var(--c1)" id="lg-manabi-1">児童生徒支援教室（公設・岡山市）</span>
-    <span class="dot" id="lg-manabi-2">民間フリースクール等</span>
-    <span class="badge b-pref">県HP掲載</span>
-    <span class="badge b-council">岡山フリースクール協議会加盟</span>
+    <!-- 岡山県のみ3カテゴリ、他46都道府県は「学びの多様化学校」のみ。表示・非表示は
+         updateManabiLegend()が切り替える。「公設」の語は使わない（学びの多様化学校81件中
+         23件は学校法人＝私立のため事実に反する）。 -->
+    <span class="dot" style="--dc:var(--c1t)" id="lg-manabi-tayouka">学びの多様化学校（文部科学省指定）</span>
+    <span class="dot" style="--dc:var(--c1)" id="lg-manabi-public">岡山市児童生徒支援教室</span>
+    <span class="dot" style="--dc:var(--c2)" id="lg-manabi-free">民間フリースクール等</span>
+    <span class="badge b-pref" id="lg-manabi-badge-pref">県HP掲載</span>
+    <span class="badge b-council" id="lg-manabi-badge-council">岡山フリースクール協議会加盟</span>
     <label style="margin-left:auto;display:flex;align-items:center;gap:4px;cursor:pointer">
       <input type="checkbox" class="toggle-districts" data-map="manabi"> 小学校区界を表示（<span class="districts-note">準備中</span>）
     </label>
@@ -142,8 +154,8 @@ if ('serviceWorker' in navigator) {
 <!-- ============ ②居場所 ============ -->
 <div class="tab-panel" id="panel-ibasho">
   <div class="legend">
-    <span class="dot" id="lg-ibasho-1">児童館・児童センター（岡山市22館）</span>
-    <span class="dot" id="lg-ibasho-2">子ども食堂・プレーパーク等（岡山市）</span>
+    <span class="dot" style="--dc:var(--c1)" id="lg-ibasho-1">児童館・児童センター（岡山市22館）</span>
+    <span class="dot" style="--dc:var(--c2)" id="lg-ibasho-2">子ども食堂・プレーパーク等（岡山市）</span>
     <label style="margin-left:auto;display:flex;align-items:center;gap:4px;cursor:pointer">
       <input type="checkbox" class="toggle-districts" data-map="ibasho"> 小学校区界を表示（<span class="districts-note">準備中</span>）
     </label>
@@ -161,8 +173,11 @@ if ('serviceWorker' in navigator) {
 <!-- ============ ③相談 ============ -->
 <div class="tab-panel" id="panel-sodan">
   <div class="legend">
-    <span class="dot" id="lg-sodan-1">教育相談室（岡山市・番地あり）</span>
-    <span class="dot" id="lg-sodan-2">市町村の相談窓口（市町村単位の概算・県内<span id="sodan-area-count">?</span>エリア）</span>
+    <!-- この2つはマーカー色が同じ#8A4B2B（--c3）で、実際には色ではなく形で区別している
+         （教育相談室=単独の丸ピン／市町村窓口=件数入りの可変サイズ円）。実態と乖離させない
+         ため凡例も同色で表示する。 -->
+    <span class="dot" style="--dc:var(--c3)" id="lg-sodan-1">教育相談室（岡山市・番地あり）</span>
+    <span class="dot" style="--dc:var(--c3)" id="lg-sodan-2">市町村の相談窓口（市町村単位の概算・県内<span id="sodan-area-count">?</span>エリア）</span>
     <label style="margin-left:auto;display:flex;align-items:center;gap:4px;cursor:pointer">
       <input type="checkbox" class="toggle-districts" data-map="sodan"> 小学校区界を表示（<span class="districts-note">準備中</span>）
     </label>
@@ -180,8 +195,10 @@ if ('serviceWorker' in navigator) {
 <!-- ============ ④親家族 ============ -->
 <div class="tab-panel" id="panel-oyakazoku">
   <div class="legend">
-    <span class="dot" id="lg-oya-1">地域子育て支援拠点（岡山市58件）</span>
-    <span class="dot" id="lg-oya-2">親の会</span>
+    <span class="dot" style="--dc:var(--c4)" id="lg-oya-1">地域子育て支援拠点（岡山市58件）</span>
+    <!-- 親の会のマーカー色#C1682Bに対応するCSS変数が無いため直値で指定（renderOyakazoku参照） -->
+    <span class="dot" style="--dc:#C1682B" id="lg-oya-2">親の会</span>
+    <!-- 【既存の欠落・未対応】児童館（--c1 #31547E）も④の地図に描画されるが凡例項目がない。 -->
     <label style="margin-left:auto;display:flex;align-items:center;gap:4px;cursor:pointer">
       <input type="checkbox" class="toggle-districts" data-map="oyakazoku"> 小学校区界を表示（<span class="districts-note">準備中</span>）
     </label>
@@ -669,7 +686,19 @@ function showUnavailable(panelId, mapDivId, listId){
   if(listEl) listEl.innerHTML = '';
 }
 
-const MANABI_CAT = { public: {label:"児童生徒支援教室（公設）", color:"#31547E"}, freeschool: {label:"民間フリースクール等", color:"#4A7C59"} };
+/* ①学びのカテゴリ定義。1カテゴリ=1制度になるよう分けている（同じラベルの下に別制度を
+   混ぜないこと）。colorはCSS変数側（--c1t/--c1/--c2）と同じ値を保つ。
+   - tayouka: 文科省が指定した学びの多様化学校（旧・不登校特例校）。学校教育法上の学校で
+     公立・私立の別を問わない。全47都道府県が対象。
+     出典 https://www.mext.go.jp/a_menu/shotou/seitoshidou/1387004.htm
+   - public : 岡山市が設置する教育支援センター系の施設。学校ではない。岡山県のみ。
+     正式名称を使用（出典 https://www.city.okayama.jp/kurashi/0000006631.html ）
+   - freeschool: 民間のフリースクール等（岡山県の独自調査分）。岡山県のみ。 */
+const MANABI_CAT = {
+  tayouka:    {label:"学びの多様化学校（文部科学省指定）", color:"#C1432B"},
+  public:     {label:"岡山市児童生徒支援教室",             color:"#31547E"},
+  freeschool: {label:"民間フリースクール等",               color:"#4A7C59"}
+};
 const RYOIKU_CAT = {
   jidou_hattatsu:        {label:"児童発達支援",           color:"#6B4C9A"},
   iryo_jidou_hattatsu:   {label:"医療型児童発達支援",       color:"#1F7A8C"},
@@ -1055,6 +1084,8 @@ function loadRegion(key){
   // 前の地域で出した案内（準備中・読み込み失敗・0件）を必ず消してから読み込む。
   // available:trueの地域に切り替えた時に案内が残らないのは、この一括リセットが担保する。
   hideAllMapNotes();
+  // ①学びの凡例はfetchの成否に関わらず地域に追従させたいので、ここで同期的に更新する。
+  updateManabiLegend(key);
 
   // ①学び
   if(avail.manabi){
@@ -1128,16 +1159,25 @@ function setDistrictsNote(text){
   document.querySelectorAll('.districts-note').forEach(function(el){ el.textContent = text; });
 }
 
+/* ①学びの凡例を地域に合わせて出し分ける。岡山県のみ3カテゴリ＋2バッジ、他46都道府県は
+   「学びの多様化学校」だけを残す（岡山市児童生徒支援教室・民間フリースクール等は岡山県のみの
+   データで、他県はprefListed/councilも全件falseのため、出したままだと該当0件の凡例になる）。 */
+function updateManabiLegend(key){
+  const okayamaOnly = (key === 'okayama');
+  ['lg-manabi-public','lg-manabi-free','lg-manabi-badge-pref','lg-manabi-badge-council']
+    .forEach(function(id){
+      const el = document.getElementById(id);
+      if(el) el.style.display = okayamaOnly ? '' : 'none';
+    });
+}
+
 function updateManabiNotice(key, data){
   const noticeEl = document.getElementById('notice-manabi');
   if(noticeEl){
-    if(key === 'okayama'){
-      noticeEl.style.display = 'none';
-      noticeEl.textContent = '';
-    } else {
-      noticeEl.style.display = '';
-      noticeEl.textContent = '岡山県のみフリースクール等を含む独自調査データ、他県は文部科学省公式一覧（学びの多様化学校）のみを収録しています。';
-    }
+    noticeEl.style.display = '';
+    noticeEl.textContent = (key === 'okayama')
+      ? '文部科学省「学びの多様化学校の設置者一覧」に加え、岡山市児童生徒支援教室・民間フリースクール等の独自調査データを収録しています。'
+      : '文部科学省「学びの多様化学校の設置者一覧」に掲載されている学校のみを収録しています（民間フリースクール等・自治体独自の支援教室は今後の調査対象です）。';
   }
   if(manabiEmptyNote){
     if(data.length === 0){
@@ -1181,8 +1221,9 @@ function updateFooterSources(region, key){
 
   const manabiEl = document.getElementById('footer-src-manabi');
   if(manabiEl){
+    // 岡山県も文科省一覧の該当2校（美作市・津山市）を収録しているため、出典に文科省を明記する。
     manabiEl.textContent = isOkayama
-      ? '岡山市「岡山市児童生徒支援教室」／岡山県教育委員会「不登校の児童生徒及びその保護者を支援する民間団体・施設の情報」（令和8年3月現在）／岡山フリースクール協議会。'
+      ? '文部科学省「学びの多様化学校の設置者一覧」／岡山市「岡山市児童生徒支援教室」／岡山県教育委員会「不登校の児童生徒及びその保護者を支援する民間団体・施設の情報」（令和8年3月現在）／岡山フリースクール協議会。'
       : '文部科学省「学びの多様化学校の設置者一覧」。';
   }
 
