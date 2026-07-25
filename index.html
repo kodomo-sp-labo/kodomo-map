@@ -61,7 +61,9 @@ if ('serviceWorker' in navigator) {
   .baselayer-switch button.active{background:var(--c1);color:#fff;font-weight:700}
   .map-empty-note{position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);z-index:900;
     background:#fff;border-radius:8px;box-shadow:0 1px 5px rgba(0,0,0,.3);padding:16px 22px;
-    max-width:78%;text-align:center;font-size:.85rem;line-height:1.6;color:var(--ink)}
+    max-width:78%;text-align:center;font-size:.85rem;line-height:1.6;color:var(--ink);
+    white-space:pre-line}  /* textContentで改行(\n)を効かせる。innerHTMLを使わないため */
+  .map-empty-note.err{color:#B23A3A}
   aside{width:340px;overflow-y:auto;background:var(--panel);border-left:1px solid var(--line);padding:12px}
   .legend{display:flex;gap:12px;flex-wrap:wrap;font-size:.72rem;padding:8px 24px;background:var(--panel);border-bottom:1px solid var(--line);align-items:center}
   .legend span.dot::before{content:'';display:inline-block;width:10px;height:10px;border-radius:50%;margin-right:5px}
@@ -648,18 +650,22 @@ function fetchJson(path){
     return r.json();
   });
 }
+// 【注意】この2関数はかつて地図コンテナのinnerHTMLを書き換えていたが、それではLeafletの
+// 内部DOMごと破壊してしまい、対象地域に戻しても地図が復旧しなかった（詳細は mapNotes の
+// 定義箇所のコメント参照）。現在はmapNotesのオーバーレイを出し入れするだけにしている。
 function showFetchError(mapDivId, err){
   const isFileProtocol = location.protocol === 'file:';
   const msg = isFileProtocol
     ? 'データを読み込めませんでした。このページを file:// で直接開いているためです（ブラウザのセキュリティ制限）。GitHub Pages等、https:// のサーバーにアップロードしてから開くと解決します。'
     : 'データの読み込みに失敗しました（' + (err && err.message ? err.message : '不明なエラー') + '）。JSONファイルの配置場所をご確認ください。';
-  const el = document.getElementById(mapDivId);
-  if(el) el.innerHTML = '<div style="display:flex;align-items:center;justify-content:center;height:100%;color:#B23A3A;font-size:.85rem;text-align:center;padding:20px;line-height:1.7">⚠ ' + msg + '</div>';
+  clearDirectMarkers(ALL_MAPS[mapKeyFromDivId(mapDivId)]);
+  showMapNote(mapDivId, '⚠ ' + msg, true);
 }
 function showUnavailable(panelId, mapDivId, listId){
-  document.getElementById(mapDivId).innerHTML =
-    '<div style="display:flex;align-items:center;justify-content:center;height:100%;color:var(--sub);font-size:.9rem;text-align:center;padding:20px">この地域のデータはまだ準備中です。<br>公式データをご提供いただける場合はフッターの連絡先までご連絡ください。</div>';
-  const listEl = document.getElementById(listId);
+  clearDirectMarkers(ALL_MAPS[mapKeyFromDivId(mapDivId)]);
+  showMapNote(mapDivId,
+    'この地域のデータはまだ準備中です。\n公式データをご提供いただける場合はフッターの連絡先までご連絡ください。', false);
+  const listEl = document.getElementById(listId);  // 一覧パネル側は地図と無関係なので従来どおり空にする
   if(listEl) listEl.innerHTML = '';
 }
 
@@ -681,18 +687,55 @@ function ryoikuLabels(catArr){ return catArr.map(function(c){return RYOIKU_CAT[c
 
 /* ============ 地図インスタンス（1回だけ作成、地域切替時は中身を差し替え） ============ */
 const mapManabi = L.map('map-manabi'); tileLayerFor(mapManabi);
-// ①学び：文科省一覧に該当校が0件の県向けの案内オーバーレイ。地図コンテナ自体のinnerHTMLは
-// 書き換えず（showUnavailable/showFetchErrorと違い、地域切替のたびにLeafletの内部DOMが
-// 壊れないようにするため）、baselayer-switchと同様にコンテナへ子要素として追加するだけにする。
-const manabiEmptyNote = document.createElement('div');
-manabiEmptyNote.className = 'map-empty-note';
-manabiEmptyNote.style.display = 'none';
-mapManabi.getContainer().appendChild(manabiEmptyNote);
 const mapIbasho = L.map('map-ibasho'); tileLayerFor(mapIbasho);
 const mapSodan = L.map('map-sodan'); tileLayerFor(mapSodan);
 const mapOya = L.map('map-oyakazoku'); tileLayerFor(mapOya);
 const mapHattatsu = L.map('map-hattatsu'); tileLayerFor(mapHattatsu);
 const ALL_MAPS = {manabi:mapManabi, ibasho:mapIbasho, sodan:mapSodan, oyakazoku:mapOya, hattatsu:mapHattatsu};
+
+/* ============ 地図上の案内オーバーレイ（5タブ分を1枚ずつ） ============
+   「この地域は準備中」「データ読み込み失敗」「①学びが0件」の3種類の案内を、この1枚で表示する。
+   【重要】地図コンテナのinnerHTMLは絶対に書き換えないこと。書き換えるとLeafletが内部生成した
+   pane一式（タイル・マーカー・ズームコントロール・baselayer-switch・このオーバーレイ）が
+   まとめて消えるが、L.Map側は消えたDOMへの参照を持ったままでpaneを再生成しない。その結果、
+   以降その地図はマーカーもタイルも描画されず、対象地域に戻しても復旧しない（要ページ再読込）。
+   実例: ②居場所・④親家族は岡山県のみavailableのため、岡山→他県→岡山と切り替えるだけで
+   この破壊が起きていた。baselayer-switchと同様、コンテナへ子要素として1度だけ追加し、
+   以後はtextContentと表示/非表示の切替だけで制御する。 */
+const mapNotes = {};
+Object.keys(ALL_MAPS).forEach(function(k){
+  const note = document.createElement('div');
+  note.className = 'map-empty-note';
+  note.style.display = 'none';
+  ALL_MAPS[k].getContainer().appendChild(note);
+  mapNotes[k] = note;
+});
+// ①学び：文科省一覧に該当校が0件の県向けの案内（updateManabiNoticeが使用）。上の共用オーバーレイ。
+const manabiEmptyNote = mapNotes.manabi;
+
+// 'map-manabi' 等のDOM idと ALL_MAPS/mapNotes のキーの対応（'map-'プレフィックスを外すだけ）。
+function mapKeyFromDivId(mapDivId){ return String(mapDivId).replace(/^map-/, ''); }
+function showMapNote(mapDivId, text, isError){
+  const note = mapNotes[mapKeyFromDivId(mapDivId)];
+  if(!note) return;
+  note.textContent = text;
+  note.classList.toggle('err', !!isError);
+  note.style.display = '';
+}
+function hideAllMapNotes(){
+  Object.keys(mapNotes).forEach(function(k){
+    mapNotes[k].style.display = 'none';
+    mapNotes[k].classList.remove('err');
+  });
+}
+// 地図へ直接addTo()したマーカー（①学び・③相談）の消去。②④⑤のクラスタはloadRegion冒頭で
+// まとめてremoveLayerしているが、直置きマーカーはrender関数が呼ばれないと前の地域の分が
+// 残ってしまうため、「準備中」「読み込み失敗」に切り替える時はここで消す
+// （消去条件はrenderManabi/renderSodanが使っているものと同じ。クラスタやタイル層は対象外）。
+function clearDirectMarkers(map){
+  if(!map) return;
+  map.eachLayer(function(l){ if(l instanceof L.CircleMarker || l instanceof L.Marker) map.removeLayer(l); });
+}
 
 const ibashoCluster = L.markerClusterGroup({maxClusterRadius:45, spiderfyOnMaxZoom:true});
 const oyaCluster = L.markerClusterGroup({maxClusterRadius:45, spiderfyOnMaxZoom:true});
@@ -1009,6 +1052,9 @@ function loadRegion(key){
   updateFooterSources(region, key);
 
   Object.keys(ALL_MAPS).forEach(function(k){ ALL_MAPS[k].removeLayer(ibashoCluster); ALL_MAPS[k].removeLayer(oyaCluster); ALL_MAPS[k].removeLayer(ryoikuCluster); });
+  // 前の地域で出した案内（準備中・読み込み失敗・0件）を必ず消してから読み込む。
+  // available:trueの地域に切り替えた時に案内が残らないのは、この一括リセットが担保する。
+  hideAllMapNotes();
 
   // ①学び
   if(avail.manabi){
@@ -1016,7 +1062,6 @@ function loadRegion(key){
       renderManabi(data);
       updateManabiNotice(key, data);
     }).catch(function(err){ showFetchError('map-manabi', err); });
-    document.getElementById('map-manabi').style.display = '';
   } else { showUnavailable('panel-manabi','map-manabi','list-manabi'); }
 
   // ②居場所
