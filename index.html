@@ -426,6 +426,58 @@ const REGIONS = {
     base: 'data/20_nagano/',
     center: [36.651306, 138.180908],
     available: { manabi:true, sodan:true, hattatsu:true }
+  },
+  // 【北陸3県・東海4県、計7県・今回追加】①学び（学びの多様化学校のみ）・③相談・
+  // ⑤発達を登録（②居場所・④親家族・学区界は未整備のため対象外）。
+  // data/<コード>_<ローマ字>/にmanabi.json・hattatsu.json・sodan.jsonが実在する
+  // ことを確認済み（2026-07-25）。manabi.jsonは既存県と同じ形式（文科省「学びの
+  // 多様化学校の設置者一覧」に載っている学校のみを収録、Okayamaの独自調査データ
+  // とは別物）。石川県・福井県は現時点で0件＝該当校なし。データ未整備ではなく
+  // 確認済みの0件（メモ等/manabi_tayouka_geocoded.jsonの全国データを都道府県別に
+  // 分割・突合検証済み）。centerはGSI住所検索APIで各県名そのものを検索した
+  // 代表点（2026-07-25確認）。0件時の地図フォールバック表示に使う
+  // （岡山県固定にしないため）。
+  toyama: {
+    label: '富山県',
+    base: 'data/16_toyama/',
+    center: [36.695267, 137.211304],
+    available: { manabi:true, sodan:true, hattatsu:true }
+  },
+  ishikawa: {
+    label: '石川県',
+    base: 'data/17_ishikawa/',
+    center: [36.594604, 136.625671],
+    available: { manabi:true, sodan:true, hattatsu:true }
+  },
+  fukui: {
+    label: '福井県',
+    base: 'data/18_fukui/',
+    center: [36.065208, 136.221725],
+    available: { manabi:true, sodan:true, hattatsu:true }
+  },
+  gifu: {
+    label: '岐阜県',
+    base: 'data/21_gifu/',
+    center: [35.391174, 136.723663],
+    available: { manabi:true, sodan:true, hattatsu:true }
+  },
+  shizuoka: {
+    label: '静岡県',
+    base: 'data/22_shizuoka/',
+    center: [34.976944, 138.383057],
+    available: { manabi:true, sodan:true, hattatsu:true }
+  },
+  aichi: {
+    label: '愛知県',
+    base: 'data/23_aichi/',
+    center: [35.18021, 136.906586],
+    available: { manabi:true, sodan:true, hattatsu:true }
+  },
+  mie: {
+    label: '三重県',
+    base: 'data/24_mie/',
+    center: [34.730278, 136.508606],
+    available: { manabi:true, sodan:true, hattatsu:true }
   }
   // 例）以降、他県を追加する場合はこのパターンを踏襲する。
 };
