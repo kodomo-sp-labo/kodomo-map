@@ -357,6 +357,75 @@ const REGIONS = {
     base: 'data/07_fukushima/',
     center: [37.750031, 140.467773],
     available: { manabi:true, sodan:true, hattatsu:true }
+  },
+  // 【関東甲信越10都県・今回追加】①学び（学びの多様化学校のみ）・③相談・⑤発達を登録
+  // （②居場所・④親家族・学区界は未整備のため対象外）。data/<コード>_<ローマ字>/に
+  // manabi.json・hattatsu.json・sodan.jsonが実在することを確認済み（2026-07-25）。
+  // manabi.jsonは既存県と同じ形式（文科省「学びの多様化学校の設置者一覧」に
+  // 載っている学校のみを収録、Okayamaの独自調査データとは別物）。
+  // 山梨県・長野県は現時点で0件＝該当校なし。データ未整備ではなく確認済みの0件
+  // （メモ等/manabi_tayouka_geocoded.jsonの全国データを都道府県別に分割・突合検証済み）。
+  // centerはGSI住所検索APIで各都県名そのものを検索した代表点（2026-07-25確認）。
+  // 0件時の地図フォールバック表示に使う（岡山県固定にしないため）。
+  ibaraki: {
+    label: '茨城県',
+    base: 'data/08_ibaraki/',
+    center: [36.341736, 140.446823],
+    available: { manabi:true, sodan:true, hattatsu:true }
+  },
+  tochigi: {
+    label: '栃木県',
+    base: 'data/09_tochigi/',
+    center: [36.56591, 139.883591],
+    available: { manabi:true, sodan:true, hattatsu:true }
+  },
+  gunma: {
+    label: '群馬県',
+    base: 'data/10_gunma/',
+    center: [36.39069, 139.060455],
+    available: { manabi:true, sodan:true, hattatsu:true }
+  },
+  saitama: {
+    label: '埼玉県',
+    base: 'data/11_saitama/',
+    center: [35.857033, 139.649017],
+    available: { manabi:true, sodan:true, hattatsu:true }
+  },
+  chiba: {
+    label: '千葉県',
+    base: 'data/12_chiba/',
+    center: [35.604561, 140.123154],
+    available: { manabi:true, sodan:true, hattatsu:true }
+  },
+  tokyo: {
+    label: '東京都',
+    base: 'data/13_tokyo/',
+    center: [35.689503, 139.691727],
+    available: { manabi:true, sodan:true, hattatsu:true }
+  },
+  kanagawa: {
+    label: '神奈川県',
+    base: 'data/14_kanagawa/',
+    center: [35.447735, 139.642532],
+    available: { manabi:true, sodan:true, hattatsu:true }
+  },
+  niigata: {
+    label: '新潟県',
+    base: 'data/15_niigata/',
+    center: [37.902451, 139.023239],
+    available: { manabi:true, sodan:true, hattatsu:true }
+  },
+  yamanashi: {
+    label: '山梨県',
+    base: 'data/19_yamanashi/',
+    center: [35.664108, 138.568451],
+    available: { manabi:true, sodan:true, hattatsu:true }
+  },
+  nagano: {
+    label: '長野県',
+    base: 'data/20_nagano/',
+    center: [36.651306, 138.180908],
+    available: { manabi:true, sodan:true, hattatsu:true }
   }
   // 例）以降、他県を追加する場合はこのパターンを踏襲する。
 };
