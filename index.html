@@ -497,6 +497,106 @@ const REGIONS = {
     base: 'data/01_hokkaido/',
     center: [43.064323, 141.346878],
     available: { manabi:true, sodan:true, hattatsu:true }
+  },
+  // 【近畿6県・九州沖縄8県、計14県・今回追加】これで全47都道府県の①③⑤登録が完了。
+  // ①学び（学びの多様化学校のみ）・③相談・⑤発達を登録（②居場所・④親家族・
+  // 学区界は未整備のため対象外）。data/<コード>_<ローマ字>/にmanabi.json・
+  // hattatsu.json・sodan.jsonが実在することを確認済み（2026-07-25）。manabi.json
+  // は既存県と同じ形式（文科省「学びの多様化学校の設置者一覧」に載っている学校の
+  // みを収録、Okayamaの独自調査データとは別物）。佐賀県・熊本県・和歌山県は
+  // 現時点で0件＝該当校なし。データ未整備ではなく確認済みの0件（メモ等/
+  // manabi_tayouka_geocoded.jsonの全国データを都道府県別に分割・突合検証済み）。
+  // centerはGSI住所検索APIで各県名そのものを検索した代表点（2026-07-25確認）。
+  // 0件時の地図フォールバック表示に使う（岡山県固定にしないため）。
+  // 【注意】沖縄県の①学び1件（東表中学校）は文科省一覧・県教育委員会・運営法人
+  // 公式サイトいずれにも6分教室（西原・与那原・南風原・津嘉山・八重瀬・坂田）の
+  // 個別住所記載がなく、precision="unresolved"として運営法人所在地（南城市）を
+  // 代表点で表示（分教室の実所在地ではない旨をaddr/keywordsに明記）。
+  // 先島諸島（宮古・八重山等）を含む沖縄県全域の地図フィット範囲は、
+  // ③相談・⑤発達タブの実データでブラウザ確認済み。
+  shiga: {
+    label: '滋賀県',
+    base: 'data/25_shiga/',
+    center: [35.004513, 135.868561],
+    available: { manabi:true, sodan:true, hattatsu:true }
+  },
+  kyoto: {
+    label: '京都府',
+    base: 'data/26_kyoto/',
+    center: [35.02124, 135.755615],
+    available: { manabi:true, sodan:true, hattatsu:true }
+  },
+  osaka: {
+    label: '大阪府',
+    base: 'data/27_osaka/',
+    center: [34.686344, 135.520035],
+    available: { manabi:true, sodan:true, hattatsu:true }
+  },
+  hyogo: {
+    label: '兵庫県',
+    base: 'data/28_hyogo/',
+    center: [34.691257, 135.183075],
+    available: { manabi:true, sodan:true, hattatsu:true }
+  },
+  nara: {
+    label: '奈良県',
+    base: 'data/29_nara/',
+    center: [34.685272, 135.832855],
+    available: { manabi:true, sodan:true, hattatsu:true }
+  },
+  wakayama: {
+    label: '和歌山県',
+    base: 'data/30_wakayama/',
+    center: [34.226112, 135.167496],
+    available: { manabi:true, sodan:true, hattatsu:true }
+  },
+  fukuoka: {
+    label: '福岡県',
+    base: 'data/40_fukuoka/',
+    center: [33.606388, 130.417969],
+    available: { manabi:true, sodan:true, hattatsu:true }
+  },
+  saga: {
+    label: '佐賀県',
+    base: 'data/41_saga/',
+    center: [33.249352, 130.298798],
+    available: { manabi:true, sodan:true, hattatsu:true }
+  },
+  nagasaki: {
+    label: '長崎県',
+    base: 'data/42_nagasaki/',
+    center: [32.750038, 129.867249],
+    available: { manabi:true, sodan:true, hattatsu:true }
+  },
+  kumamoto: {
+    label: '熊本県',
+    base: 'data/43_kumamoto/',
+    center: [32.789799, 130.741577],
+    available: { manabi:true, sodan:true, hattatsu:true }
+  },
+  oita: {
+    label: '大分県',
+    base: 'data/44_oita/',
+    center: [33.238129, 131.61264],
+    available: { manabi:true, sodan:true, hattatsu:true }
+  },
+  miyazaki: {
+    label: '宮崎県',
+    base: 'data/45_miyazaki/',
+    center: [31.911034, 131.423889],
+    available: { manabi:true, sodan:true, hattatsu:true }
+  },
+  kagoshima: {
+    label: '鹿児島県',
+    base: 'data/46_kagoshima/',
+    center: [31.560171, 130.558029],
+    available: { manabi:true, sodan:true, hattatsu:true }
+  },
+  okinawa: {
+    label: '沖縄県',
+    base: 'data/47_okinawa/',
+    center: [26.212444, 127.680923],
+    available: { manabi:true, sodan:true, hattatsu:true }
   }
   // 例）以降、他県を追加する場合はこのパターンを踏襲する。
 };
