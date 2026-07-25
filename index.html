@@ -312,6 +312,51 @@ const REGIONS = {
     base: 'data/39_kochi/',
     center: [33.559723, 133.531113],
     available: { manabi:true, sodan:true, hattatsu:true }
+  },
+  // 【東北6県・今回追加】①学び（学びの多様化学校のみ）・③相談・⑤発達を登録
+  // （②居場所・④親家族・学区界は未整備のため対象外）。data/<コード>_<ローマ字>/に
+  // manabi.json・hattatsu.json・sodan.jsonが実在することを確認済み（2026-07-25）。
+  // manabi.jsonは中四国8県と同じ形式（文科省「学びの多様化学校の設置者一覧」に
+  // 載っている学校のみを収録、Okayamaの独自調査データとは別物）。
+  // 岩手県は現時点で0件＝該当校なし。データ未整備ではなく確認済みの0件
+  // （メモ等/manabi_tayouka_geocoded.jsonの全国データを都道府県別に分割・突合検証済み）。
+  // centerはGSI住所検索APIで各県名そのものを検索した代表点（2026-07-25確認）。
+  // 0件時の地図フォールバック表示に使う（岡山県固定にしないため）。
+  aomori: {
+    label: '青森県',
+    base: 'data/02_aomori/',
+    center: [40.824589, 140.740555],
+    available: { manabi:true, sodan:true, hattatsu:true }
+  },
+  iwate: {
+    label: '岩手県',
+    base: 'data/03_iwate/',
+    center: [39.703526, 141.152695],
+    available: { manabi:true, sodan:true, hattatsu:true }
+  },
+  miyagi: {
+    label: '宮城県',
+    base: 'data/04_miyagi/',
+    center: [38.268578, 140.87207],
+    available: { manabi:true, sodan:true, hattatsu:true }
+  },
+  akita: {
+    label: '秋田県',
+    base: 'data/05_akita/',
+    center: [39.718624, 140.102386],
+    available: { manabi:true, sodan:true, hattatsu:true }
+  },
+  yamagata: {
+    label: '山形県',
+    base: 'data/06_yamagata/',
+    center: [38.240433, 140.363693],
+    available: { manabi:true, sodan:true, hattatsu:true }
+  },
+  fukushima: {
+    label: '福島県',
+    base: 'data/07_fukushima/',
+    center: [37.750031, 140.467773],
+    available: { manabi:true, sodan:true, hattatsu:true }
   }
   // 例）以降、他県を追加する場合はこのパターンを踏襲する。
 };
