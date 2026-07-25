@@ -933,12 +933,26 @@ function updateFooterSources(region, key){
 }
 
 /* ============ 地域セレクター ============ */
+// 表示順はREGIONSの登録順ではなく都道府県コード順（01〜47、pref_codes.pyの
+// folder_name()が生成する「コード_ローマ字」がbaseの先頭に必ず入っている前提で
+// そこから抽出）にソートする。REGIONSオブジェクト自体の登録順はいじらない。
 const regionSelect = document.getElementById('region-select');
-Object.keys(REGIONS).forEach(function(key){
-  if(regionSelect.querySelector('option[value="'+key+'"]')) return;
-  const opt = document.createElement('option');
-  opt.value = key; opt.textContent = REGIONS[key].label;
-  regionSelect.appendChild(opt);
+function regionPrefCode(key){
+  const m = REGIONS[key].base.match(/^data\/(\d+)_/);
+  return m ? parseInt(m[1], 10) : 999;
+}
+const sortedRegionKeys = Object.keys(REGIONS).sort(function(a, b){
+  return regionPrefCode(a) - regionPrefCode(b);
+});
+sortedRegionKeys.forEach(function(key){
+  // 岡山県はHTML側に静的な<option>が既にあるため、既存要素があればそれを
+  // 正しいソート位置へ移動させる（新規作成すると重複optionになってしまう）。
+  let opt = regionSelect.querySelector('option[value="'+key+'"]');
+  if(!opt){
+    opt = document.createElement('option');
+    opt.value = key; opt.textContent = REGIONS[key].label;
+  }
+  regionSelect.appendChild(opt);  // 既存ノードなら移動、新規なら末尾追加。
 });
 regionSelect.addEventListener('change', function(e){ loadRegion(e.target.value); });
 
