@@ -254,15 +254,19 @@
     let html = '<div class="program-card"><h3>' + escHtml(p.name) + '</h3>';
     html += '<div class="line">' + escHtml(p.format || '') + '</div>';
     if(p.availability_note) html += '<div class="line">' + escHtml(p.availability_note) + '</div>';
+    if(p.referral) html += '<div class="line">紹介経路: ' + escHtml(p.referral) + '</div>';
+    // 公式サイト・実施団体のリンクは支援者・保護者どちらにも役立つ情報なので、
+    // モードに関わらず常に表示する（directory_publicは「認定者名簿を一般公開しているか」
+    // であって、団体の公式サイト自体の有無とは別なので、リンク文言だけ出し分ける）。
+    if(p.certification && p.certification.directory_url){
+      const linkLabel = p.certification.directory_public ? '認定者名簿・実施団体を見る' : '公式サイトを見る';
+      html += '<div class="line"><a href="' + escHtml(p.certification.directory_url) + '" target="_blank" rel="noopener">' + linkLabel + '</a></div>';
+    }
     html += '<div class="line supporter-only">';
     if(p.evidence) html += '<span class="badge">エビデンス: ' + escHtml(grades[p.evidence.grade] || p.evidence.grade) + '</span>';
     if(p.certification) html += '<span class="badge">認定: ' + escHtml(tiers[p.certification.tier] || p.certification.tier) + '</span>';
     html += '</div>';
-    if(p.referral) html += '<div class="line supporter-only">紹介経路: ' + escHtml(p.referral) + '</div>';
     if(p.caution) html += '<div class="line supporter-only">注意: ' + escHtml(p.caution) + '</div>';
-    if(p.certification && p.certification.directory_url){
-      html += '<div class="line supporter-only"><a href="' + escHtml(p.certification.directory_url) + '" target="_blank" rel="noopener">認定者名簿・実施団体を見る</a></div>';
-    }
     html += '</div>';
     return html;
   }
