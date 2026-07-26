@@ -1212,8 +1212,19 @@ function loadRegion(key){
         notCovered: geojson.not_covered || [],
         restricted: geojson.restricted || []
       };
-      // 学区界はGeoJSON（FeatureCollection）なので、出典IDはトップレベルのsrcに入っている。
-      currentSrcIds.districts = geojson.src ? [geojson.src] : [];
+      // 学区界はGeoJSON（FeatureCollection）。通常はトップレベルのsrcが唯一の出典だが、
+      // 神奈川県のように政令市分を別出典（横浜市GISデータ）で補っているファイルは、
+      // その市の features だけ properties.src を個別に持つ（無いfeatureにはトップレベル
+      // srcがデフォルトとして適用される＝A27由来）。両方を集める。
+      (function(){
+        const ids = [];
+        if(geojson.src) ids.push(geojson.src);
+        (geojson.features || []).forEach(function(f){
+          const s = f.properties && f.properties.src;
+          if(s && ids.indexOf(s) === -1) ids.push(s);
+        });
+        currentSrcIds.districts = ids;
+      })();
       srcLoaded.districts = true;
       renderFooterSources(region);
       if(districtsVisible) setDistrictsVisible(true);

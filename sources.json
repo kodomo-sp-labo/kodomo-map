@@ -120,6 +120,23 @@
       "usage_note": "証明や申請の資料としては使用できません。",
       "conditions": "市町村別の条件表（R3_Terms_of_use_municipality_data.xlsx）に従う。「再配布・再利用不可」6自治体と「加工しないこと」1自治体は除外済み。「商用利用不可」67自治体を含むため、再利用者に条件を継承させる必要がある（条件表は商用利用不可と再配布不可を別区分にしており、67自治体は再配布を禁じていない）。前橋市が「内容を証明するものや、申請その他の資料として用いることはできません」と条件を付しており、原典自体も「公式な通学区域の見解を表すものではない」と明記しているため、usage_note を全県共通で表示する。"
     },
+    "yokohama_school_gis": {
+      "source_label": "横浜市「横浜市立学校分布図・GISデータ」",
+      "source": "https://www.city.yokohama.lg.jp/kosodate-kyoiku/kyoiku/gakku-meibo/tsugakukuiki/bunnpuzu-gis.html",
+      "publisher": "横浜市（学校計画課）",
+      "checked": "2026-07-26",
+      "as_of": "令和8年5月1日現在",
+      "tier": "B",
+      "discovery_query": "横浜市 小学校 通学区域 オープンデータ shape 座標",
+      "notes": "国土数値情報A27が政令指定都市を収録していない欠落（仕様書§10 Step 11）を、横浜市が独自公開するGISデータ（小学校区界339件）で補った。神奈川県districts.jsonのうち横浜市18区分のfeatureのみ、properties.srcにこの出典IDを個別に持たせている（他はトップレベルsrcのksj_a27がデフォルトで適用される）。座標系は平面直角座標系第IX系（JGD2011、EPSG:6677）で、pyprojでWGS84に変換した（若葉台小学校の点座標をGSI住所検索APIと突合し変換の正しさを確認済み）。DBFには番地までの住所が無く、行政区名のみのため addressは「横浜市＋区名」とした（推測で番地を補っていない）。設置者は横浜市立学校のみのデータのため「横浜市立」で統一。",
+      "license": "Creative Commons Attribution 2.1 Japan License",
+      "license_url": "https://creativecommons.org/licenses/by/2.1/jp/",
+      "credit": true,
+      "modified_note": true,
+      "terms_checked": "2026-07-26",
+      "usage_note": "地図は詳細不正確な場合があり、通学区域は変更されることがあります。正確な情報は横浜市学校計画課の通学区域検索または問い合わせで確認してください。",
+      "conditions": "原典ページの注記: 「マップは場所によっては詳細が正確に表示されない場合があり、通学区域は変更されることがあります。正確な情報は専用の通学区域検索ツールを利用するか学校計画課に問い合わせてください」。"
+    },
     "ksj_p34": {
       "source_label": "国土数値情報「市区町村役場データ（P34）」国土交通省",
       "source": "https://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-P34.html",
