@@ -154,13 +154,15 @@ if ('serviceWorker' in navigator) {
 <!-- ============ ②居場所 ============ -->
 <div class="tab-panel" id="panel-ibasho">
   <div class="legend">
-    <span class="dot" style="--dc:var(--c1)" id="lg-ibasho-1">児童館・児童センター（岡山市22館）</span>
-    <span class="dot" style="--dc:var(--c2)" id="lg-ibasho-2">子ども食堂・プレーパーク等（岡山市）</span>
+    <!-- 件数は実データから算出してJSが埋める（updateIbashoLegend/updateOyaLegend）。
+         静的に書くと実データと乖離する（例: ④が「58件」のまま実際は39件だった）。 -->
+    <span class="dot" style="--dc:var(--c1)" id="lg-ibasho-1">児童館・児童センター（<span id="lg-ibasho-1-n">-</span>）</span>
+    <span class="dot" style="--dc:var(--c2)" id="lg-ibasho-2">子ども食堂・プレーパーク等（<span id="lg-ibasho-2-n">-</span>）</span>
     <label style="margin-left:auto;display:flex;align-items:center;gap:4px;cursor:pointer">
       <input type="checkbox" class="toggle-districts" data-map="ibasho"> 小学校区界を表示（<span class="districts-note">準備中</span>）
     </label>
   </div>
-  <p class="notice">岡山市内のみを収録（令和6〜8年時点）。児童館は原則すべて④地域子育て支援拠点も兼ねています。国土地理院APIにより121件中115件を番地レベルまでジオコーディング済みです。残り6件（子ども食堂等）は原典に番地の記載がなく町丁目レベルの概算です（ツールチップに明示）。</p>
+  <p class="notice" id="notice-ibasho"></p>
   <div class="wrap">
     <div class="mapbox" id="map-ibasho"></div>
     <aside id="list-ibasho">
@@ -195,7 +197,8 @@ if ('serviceWorker' in navigator) {
 <!-- ============ ④親家族 ============ -->
 <div class="tab-panel" id="panel-oyakazoku">
   <div class="legend">
-    <span class="dot" style="--dc:var(--c4)" id="lg-oya-1">地域子育て支援拠点（岡山市58件）</span>
+    <span class="dot" style="--dc:var(--c4)" id="lg-oya-1">地域子育て支援拠点（<span id="lg-oya-1-n">-</span>）</span>
+    <span class="dot" style="--dc:var(--c1)" id="lg-oya-3">児童館（②居場所と兼用・<span id="lg-oya-3-n">-</span>）</span>
     <!-- 親の会のマーカー色#C1682Bに対応するCSS変数が無いため直値で指定（renderOyakazoku参照） -->
     <span class="dot" style="--dc:#C1682B" id="lg-oya-2">親の会</span>
     <!-- 【既存の欠落・未対応】児童館（--c1 #31547E）も④の地図に描画されるが凡例項目がない。 -->
@@ -203,7 +206,9 @@ if ('serviceWorker' in navigator) {
       <input type="checkbox" class="toggle-districts" data-map="oyakazoku"> 小学校区界を表示（<span class="districts-note">準備中</span>）
     </label>
   </div>
-  <p class="notice">岡山市内のみを収録。児童館22件を含みます（②と重複＝多重タグ）。「親の会」は網羅的な公式名簿がなく、確認できた2件のみの掲載です。国土地理院APIにより番地レベルまでジオコーディング済みです。</p>
+  <!-- 件数はupdateOyaLegend()が実データから埋める。マーカーの内訳（拠点単独／児童館兼用）を
+       利用者が把握できるようにする。 -->
+  <p class="notice" id="notice-oyakazoku"></p>
   <div class="wrap">
     <div class="mapbox" id="map-oyakazoku"></div>
     <aside id="list-oyakazoku">
@@ -882,6 +887,7 @@ function renderIbasho(jidoukan, ibasho){
   if(markers.length){ const b = L.featureGroup(markers).getBounds().pad(0.1); lastBounds.ibasho = b; boundsDirty.ibasho = true; mapIbasho.fitBounds(b, {maxZoom:FIT_MAX_ZOOM}); }
   else { const b = L.latLng(currentRegionCenter).toBounds(80000); lastBounds.ibasho = b; boundsDirty.ibasho = true; mapIbasho.fitBounds(b, {maxZoom:FIT_MAX_ZOOM}); }
   renderIbashoList('');
+  updateIbashoLegend();
 }
 function renderIbashoList(query){
   const body = document.getElementById('ibasho-list-body');
@@ -889,7 +895,14 @@ function renderIbashoList(query){
   body.innerHTML = '';
   const q = (query||'').trim();
   const jHtml = currentIbashoJidoukan.filter(function(f){return !q || f.n.indexOf(q)!==-1 || f.a.indexOf(q)!==-1;})
-    .map(function(f){ return '<div class="card no-pin"><div class="cat">児童館・児童センター</div><h2>'+f.n+'</h2><div class="addr">'+f.a+'</div>'+(f.t?'<div class="tel">'+f.t+'</div>':'')+'<div class="badges"><span class="badge" style="background:#B2508C">④兼用</span></div></div>'; }).join('');
+    .map(function(f){
+      // status:"suspended" は削除せず保持し、休止中であることを明示する（地図側のグレー表示は
+      // ②④の全国展開時にまとめて対応予定。まずはデータと一覧表示で正しく持たせる）。
+      const susp = f.status==='suspended'
+        ? '<span class="badge" style="background:#8A8A8A">休止中'+(f.status_checked?'（'+f.status_checked+'確認）':'')+'</span>' : '';
+      const cat = (f.facility_type==='jidouyuen') ? '児童遊園' : '児童館・児童センター';
+      const yonyou = (f.facility_type==='jidouyuen') ? '' : '<span class="badge" style="background:#B2508C">④兼用</span>';
+      return '<div class="card no-pin"><div class="cat">'+cat+'</div><h2>'+f.n+'</h2><div class="addr">'+f.a+'</div>'+(f.t?'<div class="tel">'+f.t+'</div>':'')+'<div class="badges">'+susp+yonyou+'</div></div>'; }).join('');
   const iHtml = currentIbashoPlaces.filter(function(f){return !q || f.n.indexOf(q)!==-1 || f.gakku.indexOf(q)!==-1 || f.a.indexOf(q)!==-1;})
     .map(function(f){ return '<div class="card no-pin"><div class="cat">子ども食堂・プレーパーク等</div><h2>'+f.n+'</h2><div class="addr">学区：'+f.gakku+'　'+f.a+'</div>'+(f.t?'<div class="tel">'+f.t+'</div>':'')+'</div>'; }).join('');
   body.innerHTML = '<div class="area-head">児童館・児童センター</div>'+jHtml+'<div class="area-head">子ども食堂・プレーパーク等</div>'+iHtml;
@@ -954,7 +967,9 @@ function renderOyakazoku(kyoten, jidoukan, oyanokai){
     m.bindPopup('<div class="popup-name">'+f.n+'</div><div class="popup-body">地域子育て支援拠点<br>'+f.a+'</div>');
     markers.push(m);
   });
-  jidoukan.forEach(function(f){
+  // 児童遊園（facility_type:"jidouyuen"）は児童厚生施設だが地域子育て支援拠点ではないため
+  // ④には出さない。データ側のtagsが正（児童館=["②","④"] / 児童遊園=["②"]）。
+  jidoukan.filter(function(f){ return !f.tags || f.tags.indexOf('④')!==-1; }).forEach(function(f){
     const precNote = f.prec === 'town' ? '（町丁目レベルの概算）' : '（番地レベルの位置）';
     const m = L.circleMarker([f.lat,f.lng],{radius:8,color:'#fff',weight:2,fillColor:'#31547E',fillOpacity:.95});
     m.bindTooltip('<strong>'+f.n+'</strong><br>児童館（②居場所／④親家族 兼用）'+precNote+'<br>'+f.a, {direction:'top', offset:[0,-10], opacity:.95, className:'facility-tip'});
@@ -973,6 +988,7 @@ function renderOyakazoku(kyoten, jidoukan, oyanokai){
   if(markers.length){ const b = L.featureGroup(markers).getBounds().pad(0.1); lastBounds.oyakazoku = b; boundsDirty.oyakazoku = true; mapOya.fitBounds(b, {maxZoom:FIT_MAX_ZOOM}); }
   else { const b = L.latLng(currentRegionCenter).toBounds(80000); lastBounds.oyakazoku = b; boundsDirty.oyakazoku = true; mapOya.fitBounds(b, {maxZoom:FIT_MAX_ZOOM}); }
   renderOyaList('');
+  updateOyaLegend();
 }
 function renderOyaList(query){
   const body = document.getElementById('oya-list-body');
@@ -982,8 +998,13 @@ function renderOyaList(query){
   html += currentKyoten.filter(function(f){return !q||f.n.indexOf(q)!==-1||f.a.indexOf(q)!==-1;})
     .map(function(f){return '<div class="card no-pin"><div class="cat">地域子育て支援拠点</div><h2>'+f.n+'</h2><div class="addr">'+f.a+'</div></div>';}).join('');
   html += '<div class="area-head">児童館（②と兼用）</div>';
-  html += currentIbashoJidoukan.filter(function(f){return !q||f.n.indexOf(q)!==-1||f.a.indexOf(q)!==-1;})
-    .map(function(f){return '<div class="card no-pin"><div class="cat">児童館</div><h2>'+f.n+'</h2><div class="addr">'+f.a+'</div>'+(f.t?'<div class="tel">'+f.t+'</div>':'')+'</div>';}).join('');
+  html += currentIbashoJidoukan
+    .filter(function(f){ return !f.tags || f.tags.indexOf('④')!==-1; })   // 児童遊園は④の対象外
+    .filter(function(f){return !q||f.n.indexOf(q)!==-1||f.a.indexOf(q)!==-1;})
+    .map(function(f){
+      const susp = f.status==='suspended'
+        ? '<div class="badges"><span class="badge" style="background:#8A8A8A">休止中'+(f.status_checked?'（'+f.status_checked+'確認）':'')+'</span></div>' : '';
+      return '<div class="card no-pin"><div class="cat">児童館</div><h2>'+f.n+'</h2><div class="addr">'+f.a+'</div>'+(f.t?'<div class="tel">'+f.t+'</div>':'')+susp+'</div>';}).join('');
   html += '<div class="area-head">親の会</div>';
   html += currentOyanokai.filter(function(f){return !q||f.n.indexOf(q)!==-1;})
     .map(function(f){return '<div class="card no-pin"><div class="cat">親の会</div><h2>'+f.n+'</h2><div class="addr">'+f.a+'</div>'+(f.t?'<div class="tel">'+f.t+'</div>':'')+'<div class="addr">'+f.note+'</div></div>';}).join('');
@@ -1157,6 +1178,34 @@ function loadRegion(key){
 
 function setDistrictsNote(text){
   document.querySelectorAll('.districts-note').forEach(function(el){ el.textContent = text; });
+}
+
+/* ②居場所・④親家族の凡例と注記の件数を、実データから算出して埋める。
+   静的HTMLに件数を直書きすると実データと乖離する（実例: ④の凡例が「岡山市58件」のまま
+   実際のkyoten.jsonは39件で、初回uploadから一度も58だったことがなかった）。
+   児童館は②④兼用（jidoukan.jsonに一元化し両タブから参照）なので、④では内訳を明示する。 */
+function setText(id, s){ const el=document.getElementById(id); if(el) el.textContent = s; }
+function updateIbashoLegend(){
+  const jk = currentIbashoJidoukan.filter(function(f){ return (f.facility_type||'jidoukan')==='jidoukan'; }).length;
+  const jy = currentIbashoJidoukan.length - jk;
+  const susp = currentIbashoJidoukan.filter(function(f){ return f.status==='suspended'; }).length;
+  setText('lg-ibasho-1-n', jy ? (jk+'館＋児童遊園'+jy+'か所') : (jk+'館'));
+  setText('lg-ibasho-2-n', currentIbashoPlaces.length+'件');
+  setText('notice-ibasho',
+    '児童館・児童遊園は岡山県全域、子ども食堂・プレーパーク等は岡山市内のみを収録しています。'
+    + '児童館は原則すべて④地域子育て支援拠点も兼ねています。'
+    + (susp ? '休止中の施設が'+susp+'件含まれます（一覧に明示）。' : '')
+    + '座標は国土地理院APIで市区町村名を突合して確認しています。');
+}
+function updateOyaLegend(){
+  const kj = currentKyoten.length;
+  const jk = currentIbashoJidoukan.filter(function(f){ return (f.facility_type||'jidoukan')==='jidoukan'; }).length;
+  setText('lg-oya-1-n', kj+'件');
+  setText('lg-oya-3-n', jk+'件');
+  setText('notice-oyakazoku',
+    'この地図のマーカー'+(kj+jk+currentOyanokai.length)+'件のうち、'+jk+'件は②居場所タブと同じ児童館（兼用施設）です。'
+    + '拠点単独は'+kj+'件、親の会は'+currentOyanokai.length+'件です。'
+    + '「親の会」は網羅的な公式名簿がなく、確認できた件数のみの掲載です。');
 }
 
 /* ①学びの凡例を地域に合わせて出し分ける。岡山県のみ3カテゴリ＋2バッジ、他46都道府県は

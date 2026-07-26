@@ -1,1 +1,820 @@
-[{"n":"清輝児童センター","a":"岡山市北区新道2-20","t":"086-225-6124","lat":34.649483,"lng":133.926208,"prec":"address","tags":["②","④"]},{"n":"旭東児童センター","a":"岡山市中区旭東町二丁目2-12","t":"086-272-8902","lat":34.651741,"lng":133.93689,"prec":"address","tags":["②","④"]},{"n":"三門児童センター","a":"岡山市北区三門西町6-32","t":"086-254-9775","lat":34.669727,"lng":133.900497,"prec":"address","tags":["②","④"]},{"n":"財田児童センター","a":"岡山市中区神下535","t":"086-279-6393","lat":34.676514,"lng":133.98526,"prec":"address","tags":["②","④"]},{"n":"大井児童館","a":"岡山市北区大井2382-1","t":"086-295-0915","lat":34.739254,"lng":133.799683,"prec":"address","tags":["②","④"]},{"n":"富原児童館","a":"岡山市北区富原1140","t":"086-254-9727","lat":34.694427,"lng":133.8936,"prec":"address","tags":["②","④"]},{"n":"浜川原児童館","a":"岡山市中区浜一丁目3-16","t":"086-272-4997","lat":34.673454,"lng":133.93428,"prec":"address","tags":["②","④"]},{"n":"久保東児童館","a":"岡山市東区河本町3","t":"086-942-8031","lat":34.663948,"lng":134.050201,"prec":"address","tags":["②","④"]},{"n":"宿毛児童館","a":"岡山市東区宿毛628","t":"086-946-1475","lat":34.622807,"lng":134.08992,"prec":"address","tags":["②","④"]},{"n":"馬屋下児童館","a":"岡山市北区大窪49-5","t":"086-284-0408","lat":34.696049,"lng":133.861877,"prec":"address","tags":["②","④"]},{"n":"平津児童館","a":"岡山市北区楢津2232-2","t":"086-284-0348","lat":34.681782,"lng":133.882141,"prec":"address","tags":["②","④"]},{"n":"興除児童館","a":"岡山市南区曽根347-1","t":"086-298-2501","lat":34.568756,"lng":133.84317,"prec":"address","tags":["②","④"]},{"n":"藤田児童館","a":"岡山市南区藤田724-128","t":"086-296-2994","lat":34.619492,"lng":133.899887,"prec":"address","tags":["②","④"]},{"n":"植松児童館","a":"岡山市南区植松397","t":"086-485-5210","lat":34.549278,"lng":133.822571,"prec":"address","tags":["②","④"]},{"n":"片岡児童館","a":"岡山市南区片岡1030-4","t":"086-362-2888","lat":34.541183,"lng":133.863159,"prec":"address","tags":["②","④"]},{"n":"児童館ゆう遊プラザ","a":"岡山市東区瀬戸町瀬戸143-2","t":"086-908-0415","lat":34.735638,"lng":134.040512,"prec":"address","tags":["②","④"]},{"n":"七区児童館","a":"岡山市南区北七区61-8","t":"086-362-4446","lat":34.555668,"lng":133.909973,"prec":"address","tags":["②","④"]},{"n":"ふれあい児童館","a":"岡山市中区桑野715-2","t":"086-274-5156","lat":34.617508,"lng":133.979797,"prec":"address","tags":["②","④"]},{"n":"西大寺ふれあい児童館","a":"岡山市東区西大寺中二丁目16-33","t":"086-944-1830","lat":34.656258,"lng":134.035248,"prec":"address","tags":["②","④"]},{"n":"西ふれあい児童館","a":"岡山市南区妹尾880-1","t":"086-281-9622","lat":34.611023,"lng":133.86348,"prec":"address","tags":["②","④"]},{"n":"南ふれあい児童館","a":"岡山市南区福田690-1","t":"086-261-7046","lat":34.617844,"lng":133.918259,"prec":"address","tags":["②","④"]},{"n":"北ふれあい児童館","a":"岡山市北区谷万成二丁目6-33","t":"086-251-6504","lat":34.679111,"lng":133.895447,"prec":"address","tags":["②","④"]}]
+[
+{
+"n": "清輝児童センター",
+"a": "岡山市北区新道2-20",
+"t": "086-225-6124",
+"lat": 34.649483,
+"lng": 133.926208,
+"prec": "address",
+"tags": [
+"②",
+"④"
+],
+"facility_type": "jidoukan",
+"status": "active"
+},
+{
+"n": "旭東児童センター",
+"a": "岡山市中区旭東町二丁目2-12",
+"t": "086-272-8902",
+"lat": 34.651741,
+"lng": 133.93689,
+"prec": "address",
+"tags": [
+"②",
+"④"
+],
+"facility_type": "jidoukan",
+"status": "active"
+},
+{
+"n": "三門児童センター",
+"a": "岡山市北区三門西町6-32",
+"t": "086-254-9775",
+"lat": 34.669727,
+"lng": 133.900497,
+"prec": "address",
+"tags": [
+"②",
+"④"
+],
+"facility_type": "jidoukan",
+"status": "active"
+},
+{
+"n": "財田児童センター",
+"a": "岡山市中区神下535",
+"t": "086-279-6393",
+"lat": 34.676514,
+"lng": 133.98526,
+"prec": "address",
+"tags": [
+"②",
+"④"
+],
+"facility_type": "jidoukan",
+"status": "active"
+},
+{
+"n": "大井児童館",
+"a": "岡山市北区大井2382-1",
+"t": "086-295-0915",
+"lat": 34.739254,
+"lng": 133.799683,
+"prec": "address",
+"tags": [
+"②",
+"④"
+],
+"facility_type": "jidoukan",
+"status": "active"
+},
+{
+"n": "富原児童館",
+"a": "岡山市北区富原1140",
+"t": "086-254-9727",
+"lat": 34.694427,
+"lng": 133.8936,
+"prec": "address",
+"tags": [
+"②",
+"④"
+],
+"facility_type": "jidoukan",
+"status": "active"
+},
+{
+"n": "浜川原児童館",
+"a": "岡山市中区浜一丁目3-16",
+"t": "086-272-4997",
+"lat": 34.673454,
+"lng": 133.93428,
+"prec": "address",
+"tags": [
+"②",
+"④"
+],
+"facility_type": "jidoukan",
+"status": "active"
+},
+{
+"n": "久保東児童館",
+"a": "岡山市東区河本町3",
+"t": "086-942-8031",
+"lat": 34.663948,
+"lng": 134.050201,
+"prec": "address",
+"tags": [
+"②",
+"④"
+],
+"facility_type": "jidoukan",
+"status": "active"
+},
+{
+"n": "宿毛児童館",
+"a": "岡山市東区宿毛628",
+"t": "086-946-1475",
+"lat": 34.622807,
+"lng": 134.08992,
+"prec": "address",
+"tags": [
+"②",
+"④"
+],
+"facility_type": "jidoukan",
+"status": "active"
+},
+{
+"n": "馬屋下児童館",
+"a": "岡山市北区大窪49-5",
+"t": "086-284-0408",
+"lat": 34.696049,
+"lng": 133.861877,
+"prec": "address",
+"tags": [
+"②",
+"④"
+],
+"facility_type": "jidoukan",
+"status": "active"
+},
+{
+"n": "平津児童館",
+"a": "岡山市北区楢津2232-2",
+"t": "086-284-0348",
+"lat": 34.681782,
+"lng": 133.882141,
+"prec": "address",
+"tags": [
+"②",
+"④"
+],
+"facility_type": "jidoukan",
+"status": "active"
+},
+{
+"n": "興除児童館",
+"a": "岡山市南区曽根347-1",
+"t": "086-298-2501",
+"lat": 34.568756,
+"lng": 133.84317,
+"prec": "address",
+"tags": [
+"②",
+"④"
+],
+"facility_type": "jidoukan",
+"status": "active"
+},
+{
+"n": "藤田児童館",
+"a": "岡山市南区藤田724-128",
+"t": "086-296-2994",
+"lat": 34.619492,
+"lng": 133.899887,
+"prec": "address",
+"tags": [
+"②",
+"④"
+],
+"facility_type": "jidoukan",
+"status": "active"
+},
+{
+"n": "植松児童館",
+"a": "岡山市南区植松397",
+"t": "086-485-5210",
+"lat": 34.549278,
+"lng": 133.822571,
+"prec": "address",
+"tags": [
+"②",
+"④"
+],
+"facility_type": "jidoukan",
+"status": "active"
+},
+{
+"n": "片岡児童館",
+"a": "岡山市南区片岡1030-4",
+"t": "086-362-2888",
+"lat": 34.541183,
+"lng": 133.863159,
+"prec": "address",
+"tags": [
+"②",
+"④"
+],
+"facility_type": "jidoukan",
+"status": "active"
+},
+{
+"n": "児童館ゆう遊プラザ",
+"a": "岡山市東区瀬戸町瀬戸143-2",
+"t": "086-908-0415",
+"lat": 34.735638,
+"lng": 134.040512,
+"prec": "address",
+"tags": [
+"②",
+"④"
+],
+"facility_type": "jidoukan",
+"status": "active"
+},
+{
+"n": "七区児童館",
+"a": "岡山市南区北七区61-8",
+"t": "086-362-4446",
+"lat": 34.555668,
+"lng": 133.909973,
+"prec": "address",
+"tags": [
+"②",
+"④"
+],
+"facility_type": "jidoukan",
+"status": "active"
+},
+{
+"n": "ふれあい児童館",
+"a": "岡山市中区桑野715-2",
+"t": "086-274-5156",
+"lat": 34.617508,
+"lng": 133.979797,
+"prec": "address",
+"tags": [
+"②",
+"④"
+],
+"facility_type": "jidoukan",
+"status": "active"
+},
+{
+"n": "西大寺ふれあい児童館",
+"a": "岡山市東区西大寺中二丁目16-33",
+"t": "086-944-1830",
+"lat": 34.656258,
+"lng": 134.035248,
+"prec": "address",
+"tags": [
+"②",
+"④"
+],
+"facility_type": "jidoukan",
+"status": "active"
+},
+{
+"n": "西ふれあい児童館",
+"a": "岡山市南区妹尾880-1",
+"t": "086-281-9622",
+"lat": 34.611023,
+"lng": 133.86348,
+"prec": "address",
+"tags": [
+"②",
+"④"
+],
+"facility_type": "jidoukan",
+"status": "active"
+},
+{
+"n": "南ふれあい児童館",
+"a": "岡山市南区福田690-1",
+"t": "086-261-7046",
+"lat": 34.617844,
+"lng": 133.918259,
+"prec": "address",
+"tags": [
+"②",
+"④"
+],
+"facility_type": "jidoukan",
+"status": "active"
+},
+{
+"n": "北ふれあい児童館",
+"a": "岡山市北区谷万成二丁目6-33",
+"t": "086-251-6504",
+"lat": 34.679111,
+"lng": 133.895447,
+"prec": "address",
+"tags": [
+"②",
+"④"
+],
+"facility_type": "jidoukan",
+"status": "active"
+},
+{
+"n": "ゆりかご子供会",
+"a": "岡山市北区磨屋町2-18",
+"t": "",
+"lat": "34.664993",
+"lng": "133.925369",
+"prec": "address",
+"tags": [
+"②",
+"④"
+],
+"facility_type": "jidoukan",
+"status": "suspended",
+"src": "https://www.pref.okayama.jp/uploaded/attachment/408526.pdf",
+"checked": "2026-07-26",
+"status_note": "休止中",
+"status_checked": "2026-07-26"
+},
+{
+"n": "キリスト幼児百合の花児童館",
+"a": "岡山市北区御津野々口410",
+"t": "0867-24-1262",
+"lat": "34.766865",
+"lng": "133.931961",
+"prec": "address",
+"tags": [
+"②",
+"④"
+],
+"facility_type": "jidoukan",
+"status": "suspended",
+"src": "https://www.pref.okayama.jp/uploaded/attachment/408526.pdf",
+"checked": "2026-07-26",
+"status_note": "休止中",
+"status_checked": "2026-07-26"
+},
+{
+"n": "倉敷市倉敷児童館",
+"a": "倉敷市有城710",
+"t": "086-429-1791",
+"lat": "34.574158",
+"lng": "133.794876",
+"prec": "address",
+"tags": [
+"②",
+"④"
+],
+"facility_type": "jidoukan",
+"status": "active",
+"src": "https://www.pref.okayama.jp/uploaded/attachment/408526.pdf",
+"checked": "2026-07-26"
+},
+{
+"n": "倉敷市倉敷北児童センター",
+"a": "倉敷市宮前67-6",
+"t": "086-422-6539",
+"lat": "34.609703",
+"lng": "133.763458",
+"prec": "address",
+"tags": [
+"②",
+"④"
+],
+"facility_type": "jidoukan",
+"status": "active",
+"src": "https://www.pref.okayama.jp/uploaded/attachment/408526.pdf",
+"checked": "2026-07-26"
+},
+{
+"n": "倉敷市児島児童館",
+"a": "倉敷市児島小川2-2-16",
+"t": "086-473-2844",
+"lat": "34.47065",
+"lng": "133.808228",
+"prec": "address",
+"tags": [
+"②",
+"④"
+],
+"facility_type": "jidoukan",
+"status": "active",
+"src": "https://www.pref.okayama.jp/uploaded/attachment/408526.pdf",
+"checked": "2026-07-26"
+},
+{
+"n": "倉敷市水島児童館",
+"a": "倉敷市水島北幸町1-3",
+"t": "086-448-0650",
+"lat": "34.539558",
+"lng": "133.741486",
+"prec": "address",
+"tags": [
+"②",
+"④"
+],
+"facility_type": "jidoukan",
+"status": "active",
+"src": "https://www.pref.okayama.jp/uploaded/attachment/408526.pdf",
+"checked": "2026-07-26"
+},
+{
+"n": "倉敷市玉島児童館",
+"a": "倉敷市玉島中央町3-9-12",
+"t": "086-526-3400",
+"lat": "34.544495",
+"lng": "133.668488",
+"prec": "address",
+"tags": [
+"②",
+"④"
+],
+"facility_type": "jidoukan",
+"status": "active",
+"src": "https://www.pref.okayama.jp/uploaded/attachment/408526.pdf",
+"checked": "2026-07-26"
+},
+{
+"n": "倉敷市真備児童館",
+"a": "倉敷市真備町有井1556-2",
+"t": "086-697-0831",
+"lat": "34.633698",
+"lng": "133.700272",
+"prec": "address",
+"tags": [
+"②",
+"④"
+],
+"facility_type": "jidoukan",
+"status": "active",
+"src": "https://www.pref.okayama.jp/uploaded/attachment/408526.pdf",
+"checked": "2026-07-26"
+},
+{
+"n": "津山市立中央児童館",
+"a": "津山市山北765",
+"t": "0868-22-2099",
+"lat": "35.0742",
+"lng": "134.009598",
+"prec": "address",
+"tags": [
+"②",
+"④"
+],
+"facility_type": "jidoukan",
+"status": "active",
+"src": "https://www.pref.okayama.jp/uploaded/attachment/408526.pdf",
+"checked": "2026-07-26"
+},
+{
+"n": "津山市立南児童館",
+"a": "津山市横山26-2",
+"t": "0868-24-4400",
+"lat": "35.053841",
+"lng": "134.004303",
+"prec": "address",
+"tags": [
+"②",
+"④"
+],
+"facility_type": "jidoukan",
+"status": "active",
+"src": "https://www.pref.okayama.jp/uploaded/attachment/408526.pdf",
+"checked": "2026-07-26"
+},
+{
+"n": "津山市立加茂児童館",
+"a": "津山市加茂町中原97-1",
+"t": "0868-42-3168",
+"lat": "35.173176",
+"lng": "134.049438",
+"prec": "address",
+"tags": [
+"②",
+"④"
+],
+"facility_type": "jidoukan",
+"status": "active",
+"src": "https://www.pref.okayama.jp/uploaded/attachment/408526.pdf",
+"checked": "2026-07-26"
+},
+{
+"n": "津山市立阿波児童館",
+"a": "津山市阿波1782-1",
+"t": "0868-46-2076",
+"lat": "35.262959",
+"lng": "134.119141",
+"prec": "address",
+"tags": [
+"②",
+"④"
+],
+"facility_type": "jidoukan",
+"status": "active",
+"src": "https://www.pref.okayama.jp/uploaded/attachment/408526.pdf",
+"checked": "2026-07-26"
+},
+{
+"n": "玉野市立児童館",
+"a": "玉野市玉2-3-1",
+"t": "0863-32-3778",
+"lat": "34.480091",
+"lng": "133.935242",
+"prec": "address",
+"tags": [
+"②",
+"④"
+],
+"facility_type": "jidoukan",
+"status": "active",
+"src": "https://www.pref.okayama.jp/uploaded/attachment/408526.pdf",
+"checked": "2026-07-26"
+},
+{
+"n": "大井児童館",
+"a": "笠岡市大井南52",
+"t": "0865-63-0443",
+"lat": "34.529213",
+"lng": "133.503128",
+"prec": "address",
+"tags": [
+"②",
+"④"
+],
+"facility_type": "jidoukan",
+"status": "active",
+"src": "https://www.pref.okayama.jp/uploaded/attachment/408526.pdf",
+"checked": "2026-07-26"
+},
+{
+"n": "井原市木之子児童会館",
+"a": "井原市木之子町3191-1",
+"t": "0866-62-4404",
+"lat": "34.588428",
+"lng": "133.501862",
+"prec": "address",
+"tags": [
+"②",
+"④"
+],
+"facility_type": "jidoukan",
+"status": "active",
+"src": "https://www.pref.okayama.jp/uploaded/attachment/408526.pdf",
+"checked": "2026-07-26"
+},
+{
+"n": "井原市井原児童会館",
+"a": "井原市北山町196",
+"t": "0866-62-8117",
+"lat": "34.605785",
+"lng": "133.464767",
+"prec": "address",
+"tags": [
+"②",
+"④"
+],
+"facility_type": "jidoukan",
+"status": "active",
+"src": "https://www.pref.okayama.jp/uploaded/attachment/408526.pdf",
+"checked": "2026-07-26"
+},
+{
+"n": "井原市高屋児童会館",
+"a": "井原市高屋町3-22-2",
+"t": "0866-67-3760",
+"lat": "34.579422",
+"lng": "133.43335",
+"prec": "address",
+"tags": [
+"②",
+"④"
+],
+"facility_type": "jidoukan",
+"status": "active",
+"src": "https://www.pref.okayama.jp/uploaded/attachment/408526.pdf",
+"checked": "2026-07-26"
+},
+{
+"n": "井原市芳井児童会館",
+"a": "井原市芳井町吉井4110-1",
+"t": "0866-72-1312",
+"lat": "34.629551",
+"lng": "133.426514",
+"prec": "address",
+"tags": [
+"②",
+"④"
+],
+"facility_type": "jidoukan",
+"status": "active",
+"src": "https://www.pref.okayama.jp/uploaded/attachment/408526.pdf",
+"checked": "2026-07-26"
+},
+{
+"n": "高梁市立落合児童館",
+"a": "高梁市落合町阿部1287-2",
+"t": "0866-23-1199",
+"lat": "34.77853",
+"lng": "133.588867",
+"prec": "address",
+"tags": [
+"②",
+"④"
+],
+"facility_type": "jidoukan",
+"status": "active",
+"src": "https://www.pref.okayama.jp/uploaded/attachment/408526.pdf",
+"checked": "2026-07-26"
+},
+{
+"n": "高梁市立川上児童館(子供の城遊豊)",
+"a": "高梁市川上町地頭1365",
+"t": "0866-48-4022",
+"lat": "34.733227",
+"lng": "133.481216",
+"prec": "address",
+"tags": [
+"②",
+"④"
+],
+"facility_type": "jidoukan",
+"status": "active",
+"src": "https://www.pref.okayama.jp/uploaded/attachment/408526.pdf",
+"checked": "2026-07-26"
+},
+{
+"n": "山陽児童館",
+"a": "赤磐市和田12-2",
+"t": "086-229-3949",
+"lat": "34.738663",
+"lng": "134.000885",
+"prec": "address",
+"tags": [
+"②",
+"④"
+],
+"facility_type": "jidoukan",
+"status": "active",
+"src": "https://www.pref.okayama.jp/uploaded/attachment/408526.pdf",
+"checked": "2026-07-26"
+},
+{
+"n": "藤野児童館",
+"a": "和気郡和気町藤野1725",
+"t": "0869-92-0147",
+"lat": "34.811081",
+"lng": "134.177826",
+"prec": "address",
+"tags": [
+"②",
+"④"
+],
+"facility_type": "jidoukan",
+"status": "active",
+"src": "https://www.pref.okayama.jp/uploaded/attachment/408526.pdf",
+"checked": "2026-07-26"
+},
+{
+"n": "早島児童館",
+"a": "都窪郡早島町前潟370-1",
+"t": "070-7656-2483",
+"lat": "34.601704",
+"lng": "133.828003",
+"prec": "address",
+"tags": [
+"②",
+"④"
+],
+"facility_type": "jidoukan",
+"status": "active",
+"src": "https://www.pref.okayama.jp/uploaded/attachment/408526.pdf",
+"checked": "2026-07-26"
+},
+{
+"n": "アートチャイルドケア岡山早島児童プラザ",
+"a": "都窪郡早島町前潟390−5",
+"t": "086-697-6512",
+"lat": "34.601185",
+"lng": "133.830017",
+"prec": "address",
+"tags": [
+"②",
+"④"
+],
+"facility_type": "jidoukan",
+"status": "active",
+"src": "https://www.pref.okayama.jp/uploaded/attachment/408526.pdf",
+"checked": "2026-07-26"
+},
+{
+"n": "中央児童館",
+"a": "久米郡美咲町原田1184-1",
+"t": "0868-66-3816",
+"lat": "34.990078",
+"lng": "133.957611",
+"prec": "address",
+"tags": [
+"②",
+"④"
+],
+"facility_type": "jidoukan",
+"status": "active",
+"src": "https://www.pref.okayama.jp/uploaded/attachment/408526.pdf",
+"checked": "2026-07-26"
+},
+{
+"n": "柵原児童館",
+"a": "久米郡美咲町書副1",
+"t": "0868-64-0050",
+"lat": "34.986519",
+"lng": "134.049561",
+"prec": "address",
+"tags": [
+"②",
+"④"
+],
+"facility_type": "jidoukan",
+"status": "active",
+"src": "https://www.pref.okayama.jp/uploaded/attachment/408526.pdf",
+"checked": "2026-07-26"
+},
+{
+"n": "網浜遊園地",
+"a": "岡山市中区桜橋2-1272-4",
+"t": "",
+"lat": "34.648026",
+"lng": "133.933563",
+"prec": "address",
+"tags": [
+"②"
+],
+"facility_type": "jidouyuen",
+"status": "active",
+"src": "https://www.pref.okayama.jp/uploaded/attachment/408526.pdf",
+"checked": "2026-07-26"
+},
+{
+"n": "西隆寺ちびっ子広場",
+"a": "岡山市東区西隆寺1323",
+"t": "",
+"lat": "34.674122",
+"lng": "134.053802",
+"prec": "address",
+"tags": [
+"②"
+],
+"facility_type": "jidouyuen",
+"status": "active",
+"src": "https://www.pref.okayama.jp/uploaded/attachment/408526.pdf",
+"checked": "2026-07-26"
+},
+{
+"n": "藤原中北遊園地",
+"a": "岡山市中区藤原光町3-36-4",
+"t": "",
+"lat": "34.68071",
+"lng": "133.95459",
+"prec": "address",
+"tags": [
+"②"
+],
+"facility_type": "jidouyuen",
+"status": "active",
+"src": "https://www.pref.okayama.jp/uploaded/attachment/408526.pdf",
+"checked": "2026-07-26"
+},
+{
+"n": "大安寺東町公園",
+"a": "岡山市北区大安寺東町16-100",
+"t": "",
+"lat": "34.664982",
+"lng": "133.893448",
+"prec": "address",
+"tags": [
+"②"
+],
+"facility_type": "jidouyuen",
+"status": "active",
+"src": "https://www.pref.okayama.jp/uploaded/attachment/408526.pdf",
+"checked": "2026-07-26"
+},
+{
+"n": "高梁市立川上児童館(UFOランド)",
+"a": "高梁市川上町地頭1365",
+"t": "0866-48-4022",
+"lat": "34.733227",
+"lng": "133.481216",
+"prec": "address",
+"tags": [
+"②"
+],
+"facility_type": "jidouyuen",
+"status": "active",
+"src": "https://www.pref.okayama.jp/uploaded/attachment/408526.pdf",
+"checked": "2026-07-26"
+},
+{
+"n": "ネバーランドやかげ",
+"a": "小田郡矢掛町矢掛2543-1",
+"t": "0866-82-1060",
+"lat": "34.627701",
+"lng": "133.58963",
+"prec": "address",
+"tags": [
+"②"
+],
+"facility_type": "jidouyuen",
+"status": "active",
+"src": "https://www.pref.okayama.jp/uploaded/attachment/408526.pdf",
+"checked": "2026-07-26"
+}
+]
