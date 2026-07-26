@@ -379,6 +379,22 @@
       "terms_checked": "2026-07-27",
       "conditions": "埼玉県の著作権規定は「私的使用のための複製・引用など著作権法上認められた場合を除き、県の許可・承諾を得ないまま転載・引用することはお断りしている」（政府標準利用規約・PDL・CC BYへの言及なし）。当サイトが保持しているのは施設名・所在地・電話番号等の事実情報のみ。"
     },
+    "aichi_pref_kyoten": {
+      "source_label": "愛知県「地域子育て支援拠点一覧」",
+      "source": "https://www.pref.aichi.jp/soshiki/kosodate/0000034462.html",
+      "publisher": "愛知県",
+      "checked": "2026-07-27",
+      "as_of": "令和7年4月1日現在",
+      "tier": "B",
+      "discovery_query": "愛知県 地域子育て支援拠点 一覧 施設",
+      "notes": "市町村名・名称・実施場所・住所・電話番号の5列を持つPDF3本（名古屋市／豊橋市・岡崎市・一宮市・豊田市／その他市町村、計15ページ・424件）に分割公表されている。pdfplumberの罫線ベース表抽出で3本合計424行・5列が一貫して取得でき、行欠落・セル結合の問題は確認されなかった。県内54市町村全てに実施施設があった。住所欄は一部（一宮市の37件）で市町村名が欠けていたため補完した。",
+      "license": "愛知県サイトポリシー（オープンデータではない）",
+      "license_url": "https://www.pref.aichi.jp/site/userguide/menseki.html",
+      "credit": true,
+      "modified_note": true,
+      "terms_checked": "2026-07-27",
+      "conditions": "愛知県の著作権規定は「私的使用のための複製・引用など著作権法上認められた場合を除き、無断で転載・転用することはできない」（政府標準利用規約・PDL・CC BYへの言及なし）。当サイトが保持しているのは施設名・所在地・電話番号等の事実情報のみ。"
+    },
     "okayama_shakyo_ibasho": {
       "source_label": "岡山市社会福祉協議会「岡山市内の子どもの居場所一覧」",
       "source": "https://www.okayamashi-shakyo.or.jp/",
