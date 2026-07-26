@@ -331,6 +331,22 @@
       "terms_checked": "2026-07-26",
       "conditions": "okayama_city_shienkyoshitsu と同じ。事実情報のみ掲載。"
     },
+    "osaka_pref_ibasho": {
+      "source_label": "大阪府「大阪府内の子ども食堂一覧」",
+      "source": "https://www.pref.osaka.lg.jp/o090120/kosodateshien/kodomo-map/index.html",
+      "publisher": "大阪府福祉部子ども家庭局子育て支援課",
+      "checked": "2026-07-26",
+      "as_of": "令和7年6月1日現在",
+      "tier": "B",
+      "discovery_query": "大阪府 子ども食堂 一覧 県 公表 PDF エクセル",
+      "notes": "市町村への照会を通じ、運営者に掲載許可がとれた子ども食堂のみを掲載（原文: 「市町村への照会を通じ、運営者等に掲載許可がとれた子ども食堂を掲載しています。住所や開催日時、活動内容は変更になることがあります。」）。府内の全1,057件のうち、pdfplumberによる表抽出で抽出精度を検証した結果、大阪市（436件、抽出精度51%）・豊中市（58件、抽出精度43%）・門真市（15件、抽出精度53%）・太子町（2件、抽出0件）は欠落率が高く要再検証のため保留し、精度を確認できた36市町村・514件のみ収録した（詳細はメモ等/②④_全国展開調査_2026-07-26.md）。",
+      "license": "大阪府サイトポリシー（オープンデータではない）",
+      "license_url": "https://www.pref.osaka.lg.jp/o070050/koho/information/use.html",
+      "credit": true,
+      "modified_note": true,
+      "terms_checked": "2026-07-26",
+      "conditions": "大阪府サイトの著作権規定は「私的使用・引用など著作権法上認められた場合を除き、無断使用・無断転載はできない」（政府標準利用規約・PDL・CC BYへの言及なし）。当サイトが保持しているのは施設名・所在地・電話番号等の事実情報のみで、府ページの説明文・開催日時等は転載していない。"
+    },
     "okayama_shakyo_ibasho": {
       "source_label": "岡山市社会福祉協議会「岡山市内の子どもの居場所一覧」",
       "source": "https://www.okayamashi-shakyo.or.jp/",
