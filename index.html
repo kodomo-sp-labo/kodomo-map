@@ -176,10 +176,14 @@ if ('serviceWorker' in navigator) {
 <div class="tab-panel" id="panel-sodan">
   <div class="legend">
     <!-- この2つはマーカー色が同じ#8A4B2B（--c3）で、実際には色ではなく形で区別している
-         （教育相談室=単独の丸ピン／市町村窓口=件数入りの可変サイズ円）。実態と乖離させない
-         ため凡例も同色で表示する。 -->
-    <span class="dot" style="--dc:var(--c3)" id="lg-sodan-1">教育相談室（岡山市・番地あり）</span>
-    <span class="dot" style="--dc:var(--c3)" id="lg-sodan-2">市町村の相談窓口（市町村単位の概算・県内<span id="sodan-area-count">?</span>エリア）</span>
+         （個別ピン=単独の丸ピン／市町村窓口=件数入りの可変サイズ円）。実態と乖離させない
+         ため凡例も同色で表示する。
+         件数・地域名はupdateSodanLegend()が実データから埋める。静的に書くと実データと乖離する
+         （実例: 1行目が「教育相談室（岡山市・番地あり）」固定で、③が全47都道府県に展開された
+         後も他県で「岡山市」と表示され続けていた。しかも該当マーカー（windows[].override）は
+         岡山県を含む全県で0件で、一度も描画されたことがなかった＝仕様書§8弱点19）。 -->
+    <span class="dot" style="--dc:var(--c3);display:none" id="lg-sodan-1">所在地が個別に判明した窓口（番地レベル・<span id="lg-sodan-1-n">-</span>）</span>
+    <span class="dot" style="--dc:var(--c3)" id="lg-sodan-2">市町村の相談窓口（市町村単位の概算・<span id="lg-sodan-area">-</span>）</span>
     <label style="margin-left:auto;display:flex;align-items:center;gap:4px;cursor:pointer">
       <input type="checkbox" class="toggle-districts" data-map="sodan"> 小学校区界を表示（<span class="districts-note">準備中</span>）
     </label>
@@ -201,7 +205,6 @@ if ('serviceWorker' in navigator) {
     <span class="dot" style="--dc:var(--c1)" id="lg-oya-3">児童館（②居場所と兼用・<span id="lg-oya-3-n">-</span>）</span>
     <!-- 親の会のマーカー色#C1682Bに対応するCSS変数が無いため直値で指定（renderOyakazoku参照） -->
     <span class="dot" style="--dc:#C1682B" id="lg-oya-2">親の会</span>
-    <!-- 【既存の欠落・未対応】児童館（--c1 #31547E）も④の地図に描画されるが凡例項目がない。 -->
     <label style="margin-left:auto;display:flex;align-items:center;gap:4px;cursor:pointer">
       <input type="checkbox" class="toggle-districts" data-map="oyakazoku"> 小学校区界を表示（<span class="districts-note">準備中</span>）
     </label>
@@ -1127,6 +1130,7 @@ function loadRegion(key){
   if(avail.sodan){
     fetchJson(region.base + 'sodan.json').then(function(data){
       renderSodan(data);
+      updateSodanLegend(region, data);
       updateSodanNotice(region, data);
     }).catch(function(err){ showFetchError('map-sodan', err); });
   } else { showUnavailable('panel-sodan','map-sodan','sodan-list-body'); }
@@ -1238,16 +1242,37 @@ function updateManabiNotice(key, data){
   }
 }
 
+/* ③相談の窓口のうち、個別ピンで描画されるもの（windows[].override を持つもの）の件数。
+   2026-07-26時点では全47都道府県とも0件で、この機能は実データがまだ無い。 */
+function countSodanOverrides(data){
+  return data.reduce(function(sum, a){
+    return sum + a.windows.filter(function(w){ return !!w.override; }).length;
+  }, 0);
+}
+
+/* ③相談の凡例を実データに合わせて出し分ける。
+   ・個別ピンの凡例は該当0件のときは出さない（出すと、実際には描画されないマーカーを
+     凡例だけが説明している状態になる）。データが入れば自動的に件数つきで表示される。
+   ・エリア数の枕詞は region.label から作る（「県内」固定だと北海道・東京都・大阪府で
+     不自然になる。「北海道内」「東京都内」「大阪府内」はいずれも自然な表現）。 */
+function updateSodanLegend(region, data){
+  const ov = countSodanOverrides(data);
+  const el1 = document.getElementById('lg-sodan-1');
+  if(el1) el1.style.display = ov ? '' : 'none';
+  setText('lg-sodan-1-n', ov + '件');
+  setText('lg-sodan-area', region.label + '内' + data.length + 'エリア');
+}
+
 function updateSodanNotice(region, data){
   const areaCount = data.length;
   const windowCount = data.reduce(function(sum, a){ return sum + a.windows.length; }, 0);
-  const areaCountEl = document.getElementById('sodan-area-count');
-  if(areaCountEl) areaCountEl.textContent = areaCount;
   const el = document.getElementById('notice-sodan');
   if(el){
-    el.textContent = '出典：こども家庭庁「' + region.label + 'の相談窓口」。県内' + areaCount + 'エリア・'
-      + windowCount + '窓口を収録。多くは市町村庁舎の位置（実質的に番地レベルの精度）で表示していますが、'
-      + '庁舎とは別施設にあり所在地が個別に判明した窓口は、正確な位置に個別ピンで表示しています。'
+    el.textContent = '出典：こども家庭庁「' + region.label + 'の相談窓口」。' + region.label + '内' + areaCount + 'エリア・'
+      + windowCount + '窓口を収録。多くは市町村庁舎の位置（実質的に番地レベルの精度）で表示しています。'
+      + (countSodanOverrides(data)
+          ? '庁舎とは別施設にあり所在地が個別に判明した窓口は、正確な位置に個別ピンで表示しています。'
+          : '')
       + '原典に住所記載がないため未確認の窓口も多数あります。';
   }
 }
