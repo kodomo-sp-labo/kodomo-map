@@ -377,7 +377,9 @@ const REGIONS = {
     label: '山形県',
     base: 'data/06_yamagata/',
     center: [38.240433, 140.363693],
-    available: { manabi:true, sodan:true, hattatsu:true, districts:true }
+    available: { manabi:true, sodan:true, hattatsu:true, districts:true, oyakazoku:true }
+    // 【2026-07-26追加】④は親の会（17件・yamagata_pref_oyanokai）のみ。
+    // kyoten.json・jidoukan.jsonは空配列（地域子育て支援拠点・児童館は未調査のため0件）。
   },
   fukushima: {
     label: '福島県',
@@ -523,7 +525,9 @@ const REGIONS = {
     label: '北海道',
     base: 'data/01_hokkaido/',
     center: [43.064323, 141.346878],
-    available: { manabi:true, sodan:true, hattatsu:true, districts:true }
+    available: { manabi:true, sodan:true, hattatsu:true, districts:true, oyakazoku:true }
+    // 【2026-07-26追加】④は親の会（18件・hokkaido_pref_oyanokai）のみ。
+    // kyoten.json・jidoukan.jsonは空配列（地域子育て支援拠点・児童館は未調査のため0件）。
   },
   // 【近畿6県・九州沖縄8県、計14県・今回追加】これで全47都道府県の①③⑤登録が完了。
   // ①学び（学びの多様化学校のみ）・③相談・⑤発達を登録（②居場所・④親家族は

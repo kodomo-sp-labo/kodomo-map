@@ -472,6 +472,38 @@
       "modified_note": true,
       "terms_checked": null,
       "conditions": "【未確認】都道府県教育委員会等の公式サイトのサイトポリシーは個別に確認していない。掲載しているのは施設名・所在地・電話番号等の事実情報のみ（CLAUDE.mdルール17により確認必須の対象外）。"
+    },
+    "hokkaido_pref_oyanokai": {
+      "source_label": "北海道教育委員会「親の会一覧」",
+      "source": "https://www.dokyoi.pref.hokkaido.lg.jp/hk/ssa/207523.html",
+      "publisher": "北海道教育委員会",
+      "checked": "2026-07-26",
+      "as_of": null,
+      "tier": "B",
+      "discovery_query": "北海道教育委員会 不登校 親の会 一覧",
+      "notes": "道教委の調査に報告のあった団体のみを掲載（原文: 「一覧に記載されている各団体の活動は任意で行われているものであり、これらはすべての団体を把握しているものではありません。」）。所在地が市区町村名までしか分からない団体が多く、精度は市区町村レベルの概算が中心。所在地が全く不明の団体は地図上には表示されない（一覧には残る）。",
+      "license": null,
+      "license_url": null,
+      "credit": true,
+      "modified_note": true,
+      "terms_checked": null,
+      "conditions": "【未確認】都道府県教育委員会等の公式サイトのサイトポリシーは個別に確認していない。掲載しているのは施設名・所在地・電話番号等の事実情報のみ（CLAUDE.mdルール17により確認必須の対象外）。"
+    },
+    "yamagata_pref_oyanokai": {
+      "source_label": "山形県教育委員会「不登校児童生徒等の相談・支援を行っている民間支援団体」（保護者対象）",
+      "source": "https://www.pref.yamagata.jp/700012/minnkansienndanntai.html",
+      "publisher": "山形県教育委員会",
+      "checked": "2026-07-26",
+      "as_of": null,
+      "tier": "B",
+      "discovery_query": "山形県教育委員会 不登校 フリースクール 民間施設 一覧",
+      "notes": "『不登校児童生徒の支援ハンドブック』掲載団体と、掲載を申請された団体のみ（県内の全団体を表すものではない）。同ページの児童生徒向け支援団体はyamagata_pref_freeschool（①学び）として別途収録済み。",
+      "license": null,
+      "license_url": null,
+      "credit": true,
+      "modified_note": true,
+      "terms_checked": null,
+      "conditions": "【未確認】都道府県教育委員会等の公式サイトのサイトポリシーは個別に確認していない。掲載しているのは施設名・所在地・電話番号等の事実情報のみ（CLAUDE.mdルール17により確認必須の対象外）。"
     }
   },
   "datasets": {
