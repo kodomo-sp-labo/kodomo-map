@@ -1298,25 +1298,38 @@ function updateOyaLegend(){
     + '「親の会」は網羅的な公式名簿がなく、確認できた件数のみの掲載です。');
 }
 
-/* ①学びの凡例を地域に合わせて出し分ける。岡山県のみ3カテゴリ＋2バッジ、他46都道府県は
-   「学びの多様化学校」だけを残す（岡山市児童生徒支援教室・民間フリースクール等は岡山県のみの
-   データで、他県はprefListed/councilも全件falseのため、出したままだと該当0件の凡例になる）。 */
+/* ①学びの凡例を地域に合わせて出し分ける。「岡山市児童生徒支援教室」バッジ2種は
+   岡山県だけの制度・データなので岡山県固定でよいが、「民間フリースクール等」は
+   東京都・北海道など複数県で既にデータがあるため、県固定にせず実データ（category）
+   から出し分ける（ルール13。実データを見ずにkeyだけで判定し、フリースクールを
+   追加した県でも凡例・注記が「MEXTのみ収録」のまま止まっていた実例があったため）。
+   データ読み込み前はいったん隠し、updateManabiNotice(key, data)で
+   freeschool凡例の表示を確定させる。 */
 function updateManabiLegend(key){
   const okayamaOnly = (key === 'okayama');
-  ['lg-manabi-public','lg-manabi-free','lg-manabi-badge-pref','lg-manabi-badge-council']
+  ['lg-manabi-public','lg-manabi-badge-pref','lg-manabi-badge-council']
     .forEach(function(id){
       const el = document.getElementById(id);
       if(el) el.style.display = okayamaOnly ? '' : 'none';
     });
+  const freeEl = document.getElementById('lg-manabi-free');
+  if(freeEl) freeEl.style.display = 'none';  // データ確定まで一旦隠す
 }
 
 function updateManabiNotice(key, data){
+  const hasFreeschool = data.some(function(f){ return f.category === 'freeschool'; });
+  const freeEl = document.getElementById('lg-manabi-free');
+  if(freeEl) freeEl.style.display = hasFreeschool ? '' : 'none';
   const noticeEl = document.getElementById('notice-manabi');
   if(noticeEl){
     noticeEl.style.display = '';
-    noticeEl.textContent = (key === 'okayama')
-      ? '文部科学省「学びの多様化学校の設置者一覧」に加え、岡山市児童生徒支援教室・民間フリースクール等の独自調査データを収録しています。'
-      : '文部科学省「学びの多様化学校の設置者一覧」に掲載されている学校のみを収録しています（民間フリースクール等・自治体独自の支援教室は今後の調査対象です）。';
+    if(key === 'okayama'){
+      noticeEl.textContent = '文部科学省「学びの多様化学校の設置者一覧」に加え、岡山市児童生徒支援教室・民間フリースクール等の独自調査データを収録しています。';
+    } else if(hasFreeschool){
+      noticeEl.textContent = '文部科学省「学びの多様化学校の設置者一覧」に加え、都道府県教育委員会等が公表する民間フリースクール等の一覧を収録しています。';
+    } else {
+      noticeEl.textContent = '文部科学省「学びの多様化学校の設置者一覧」に掲載されている学校のみを収録しています（民間フリースクール等・自治体独自の支援教室は今後の調査対象です）。';
+    }
   }
   if(manabiEmptyNote){
     if(data.length === 0){
