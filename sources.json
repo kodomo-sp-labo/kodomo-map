@@ -475,6 +475,22 @@
       "terms_checked": null,
       "conditions": "【未確認】都道府県教育委員会等の公式サイトのサイトポリシーは個別に確認していない。掲載しているのは施設名・所在地・電話番号等の事実情報のみ（CLAUDE.mdルール17により確認必須の対象外）。"
     },
+    "tokyo_pref_freeschool": {
+      "source_label": "東京都「フリースクール等利用者支援事業（助成金）児童生徒通所施設一覧」",
+      "source": "https://www.seikatubunka.metro.tokyo.lg.jp/about/gaiyou/0000002459",
+      "publisher": "東京都生活文化スポーツ局",
+      "checked": "2026-07-26",
+      "as_of": "令和7年11月末時点",
+      "tier": "B",
+      "discovery_query": "東京都 フリースクール 助成金 利用者支援事業 施設一覧",
+      "notes": "助成金の交付要件を満たし、掲載に同意した施設のみ（都内の全フリースクールを表すものではない）。原文: 「本事業の要件を全て満たす施設として、申請者を通じて、施設から確認書の提出を受けた施設のうち、掲載の同意をいただけた施設」。原資料には番地・電話番号が無く区市町村名までのため、座標は市区町村レベルの概算。都内在住者向け助成金のため都外の施設（42件）は対象外として除外した。",
+      "license": null,
+      "license_url": null,
+      "credit": true,
+      "modified_note": true,
+      "terms_checked": null,
+      "conditions": "【未確認】都道府県教育委員会等の公式サイトのサイトポリシーは個別に確認していない。掲載しているのは施設名・所在地・電話番号等の事実情報のみ（CLAUDE.mdルール17により確認必須の対象外）。"
+    },
     "tottori_pref_freeschool": {
       "source_label": "鳥取県教育委員会「フリースクール（補助金交付対象）」",
       "source": "https://www.pref.tottori.lg.jp/284970.htm",
