@@ -394,7 +394,9 @@ const REGIONS = {
     label: '福島県',
     base: 'data/07_fukushima/',
     center: [37.750031, 140.467773],
-    available: { manabi:true, sodan:true, hattatsu:true, districts:true }
+    available: { manabi:true, sodan:true, hattatsu:true, districts:true, oyakazoku:true }
+    // 【2026-07-27追加】④は地域子育て支援拠点（134件・fukushima_pref_kyoten、令和7年3月31日現在）のみ。
+    // jidoukan.json・oyanokai.jsonは空配列。
   },
   // 【関東甲信越10都県・今回追加】①学び（学びの多様化学校のみ）・③相談・⑤発達を登録
   // （②居場所・④親家族は未整備のため対象外）。data/<コード>_<ローマ字>/に
