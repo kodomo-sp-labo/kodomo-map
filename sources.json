@@ -137,6 +137,23 @@
       "usage_note": "地図は詳細不正確な場合があり、通学区域は変更されることがあります。正確な情報は横浜市学校計画課の通学区域検索または問い合わせで確認してください。",
       "conditions": "原典ページの注記: 「マップは場所によっては詳細が正確に表示されない場合があり、通学区域は変更されることがあります。正確な情報は専用の通学区域検索ツールを利用するか学校計画課に問い合わせてください」。"
     },
+    "fukuoka_school_gis": {
+      "source_label": "福岡市「市立小中学校通学区域」",
+      "source": "https://data.bodik.jp/dataset/401307_school-district",
+      "publisher": "福岡市教育委員会学校計画課",
+      "checked": "2026-07-26",
+      "as_of": null,
+      "tier": "B",
+      "discovery_query": "福岡市 小学校 通学区域 オープンデータ shape GIS",
+      "notes": "国土数値情報A27が政令指定都市を収録していない欠落（仕様書§10 Step 11）を、福岡市が独自公開するシェープファイル（BODIK＝九州のオープンデータ基盤に掲載、小学校区界153件）で補った。座標は既にWGS84度単位で提供されており座標変換は不要。DBFに番地までの住所（「所在」列）が含まれており、そのまま使用した。行政区域コードは「東区」等の区名をAdminiBoundary_CD.xlsxと突合して機械的に付与した。",
+      "license": "クリエイティブ・コモンズ 表示（バージョン表記なし、BODIK掲載データ）",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "credit": true,
+      "modified_note": true,
+      "terms_checked": "2026-07-26",
+      "usage_note": null,
+      "conditions": "BODIK（九州のオープンデータ基盤）掲載ページには「クリエイティブ・コモンズ 表示」とのみ記載があり、バージョン（4.0か2.1 JPか）の明記が無かった。BODIK掲載データの一般的な既定に合わせCC BY 4.0のURLを暫定リンクしている。要再確認。"
+    },
     "ksj_p34": {
       "source_label": "国土数値情報「市区町村役場データ（P34）」国土交通省",
       "source": "https://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-P34.html",
