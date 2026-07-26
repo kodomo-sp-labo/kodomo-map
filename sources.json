@@ -395,6 +395,22 @@
       "terms_checked": "2026-07-27",
       "conditions": "愛知県の著作権規定は「私的使用のための複製・引用など著作権法上認められた場合を除き、無断で転載・転用することはできない」（政府標準利用規約・PDL・CC BYへの言及なし）。当サイトが保持しているのは施設名・所在地・電話番号等の事実情報のみ。"
     },
+    "hyogo_pref_kyoten": {
+      "source_label": "兵庫県「地域子育て支援拠点事業実施箇所一覧」",
+      "source": "https://web.pref.hyogo.lg.jp/kf11/hw10_000000060.html",
+      "publisher": "兵庫県",
+      "checked": "2026-07-27",
+      "as_of": "令和7年6月1日時点",
+      "tier": "B",
+      "discovery_query": "兵庫県 地域子育て支援拠点 一覧 施設",
+      "notes": "市町名・拠点名称・郵便番号・所在地・案内サイトURL・実施形態の7列を持つExcel（政令市・中核市／それ以外の2ファイル、計346件）。抽出時に3種の実データ品質問題を発見・補正した: (1)「丹波篠山市」が6件で市町名欄に表記ゆれ（誤字・全角空白混入）があり正規化、(2)西宮市の1件でCJK部首（Unicode互換文字、⻄・⽡）が住所に混入しており通常の西・瓦に置換、(3)NFKC正規化で全角数字等118件を半角化。県内41市町全てに実施施設があった。",
+      "license": "兵庫県サイトポリシー（オープンデータではない）",
+      "license_url": "https://web.pref.hyogo.lg.jp/about_link.html",
+      "credit": true,
+      "modified_note": true,
+      "terms_checked": "2026-07-27",
+      "conditions": "兵庫県の著作権規定は「私的使用・引用など著作権法上認められた場合を除き、県の許可なく複製・転用することはできない」（政府標準利用規約・PDL・CC BYへの言及なし）。当サイトが保持しているのは施設名・所在地等の事実情報のみ。"
+    },
     "okayama_shakyo_ibasho": {
       "source_label": "岡山市社会福祉協議会「岡山市内の子どもの居場所一覧」",
       "source": "https://www.okayamashi-shakyo.or.jp/",
