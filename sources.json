@@ -86,13 +86,13 @@
     },
     "ksj_a27": {
       "source_label": "国土数値情報「小学校区データ（A27）」国土交通省",
-      "source": "https://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-A27-v2_1.html",
+      "source": "https://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-A27-v3_0.html",
       "publisher": "国土交通省",
       "checked": "2026-07-26",
       "as_of": "令和3年度（2021年度）公開版",
       "tier": "A",
       "discovery_query": "国土数値情報 小学校区データ A27",
-      "notes": "岡山市は原典に未収録。全国展開パイプラインは未整備（仕様書§8弱点17）。"
+      "notes": "2026-07-26に全47都道府県へ展開（メモ等/build_districts.py）。原典URLは令和3年度版のページ（v3_0）に修正（従来はv2_1＝平成28年度版のページを登録していた）。原典の利用約款は「各市町村の定めによる」で自治体ごとに異なるため、国交省の市町村別条件表（R3_Terms_of_use_municipality_data.xlsx）で「再配布・再利用不可」の自治体を機械的に除外している。また原典は全市区町村を網羅しておらず、政令指定都市20市は全市が未収録（岡山市だけの問題ではない）。"
     },
     "ksj_p34": {
       "source_label": "国土数値情報「市区町村役場データ（P34）」国土交通省",
@@ -350,7 +350,7 @@
     },
     "districts": {
       "label": "小学校区界",
-      "files": "data/33_okayama/districts.json",
+      "files": "data/*/districts.json",
       "record_src": {
         "default": "ksj_a27",
         "level": "file"
@@ -358,10 +358,10 @@
       "geo_sources": [
         "ksj_a27"
       ],
-      "last_count": 275,
-      "last_checked": "2026-07-23",
+      "last_count": 15177,
+      "last_checked": "2026-07-26",
       "monitor": false,
-      "notes": "GeoJSON（FeatureCollection）。出典IDはトップレベルの src に持たせる（GeoJSON仕様上、未知のメンバーは無視されるため描画に影響しない）。岡山市は原典に未収録。"
+      "notes": "GeoJSON（FeatureCollection）。出典IDはトップレベルの src に持たせる（GeoJSON仕様上、未知のメンバーは無視されるため描画に影響しない）。全47都道府県・15,177学区・1,592市区町村（全1,898市区町村の83.7%）。収録できなかった市区町村は各ファイルの not_covered、利用条件で除外した自治体は excluded に持たせ、UIの注記をそこから生成する。生成は メモ等/build_districts.py。"
     }
   }
 }

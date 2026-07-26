@@ -285,7 +285,7 @@ const REGIONS = {
     available: { manabi:true, ibasho:true, sodan:true, oyakazoku:true, hattatsu:true, districts:true }
   },
   // 【中四国8県・今回追加】①学び（学びの多様化学校のみ）・③相談・⑤発達を登録
-  // （②居場所・④親家族・学区界は未整備のため対象外）。data/<コード>_<ローマ字>/に
+  // （②居場所・④親家族は未整備のため対象外）。data/<コード>_<ローマ字>/に
   // manabi.json・hattatsu.json・sodan.jsonが実在することを確認済み（2026-07-24）。
   // 【注意】manabi.jsonはOkayamaの①学びタブ（フリースクール等も含む独自収集データ）とは
   // 別物で、文科省「学びの多様化学校の設置者一覧」に載っている学校のみを収録している
@@ -296,52 +296,52 @@ const REGIONS = {
     label: '鳥取県',
     base: 'data/31_tottori/',
     center: [35.503448, 134.238266],
-    available: { manabi:true, sodan:true, hattatsu:true }
+    available: { manabi:true, sodan:true, hattatsu:true, districts:true }
   },
   shimane: {
     label: '島根県',
     base: 'data/32_shimane/',
     center: [35.472294, 133.050522],
-    available: { manabi:true, sodan:true, hattatsu:true }
+    available: { manabi:true, sodan:true, hattatsu:true, districts:true }
   },
   hiroshima: {
     label: '広島県',
     base: 'data/34_hiroshima/',
     center: [34.396557, 132.459641],
-    available: { manabi:true, sodan:true, hattatsu:true }
+    available: { manabi:true, sodan:true, hattatsu:true, districts:true }
   },
   yamaguchi: {
     label: '山口県',
     base: 'data/35_yamaguchi/',
     center: [34.186043, 131.470657],
-    available: { manabi:true, sodan:true, hattatsu:true }
+    available: { manabi:true, sodan:true, hattatsu:true, districts:true }
   },
   tokushima: {
     label: '徳島県',
     base: 'data/36_tokushima/',
     center: [34.065762, 134.55928],
-    available: { manabi:true, sodan:true, hattatsu:true }
+    available: { manabi:true, sodan:true, hattatsu:true, districts:true }
   },
   kagawa: {
     label: '香川県',
     base: 'data/37_kagawa/',
     center: [34.340111, 134.043289],
-    available: { manabi:true, sodan:true, hattatsu:true }
+    available: { manabi:true, sodan:true, hattatsu:true, districts:true }
   },
   ehime: {
     label: '愛媛県',
     base: 'data/38_ehime/',
     center: [33.84164, 132.765686],
-    available: { manabi:true, sodan:true, hattatsu:true }
+    available: { manabi:true, sodan:true, hattatsu:true, districts:true }
   },
   kochi: {
     label: '高知県',
     base: 'data/39_kochi/',
     center: [33.559723, 133.531113],
-    available: { manabi:true, sodan:true, hattatsu:true }
+    available: { manabi:true, sodan:true, hattatsu:true, districts:true }
   },
   // 【東北6県・今回追加】①学び（学びの多様化学校のみ）・③相談・⑤発達を登録
-  // （②居場所・④親家族・学区界は未整備のため対象外）。data/<コード>_<ローマ字>/に
+  // （②居場所・④親家族は未整備のため対象外）。data/<コード>_<ローマ字>/に
   // manabi.json・hattatsu.json・sodan.jsonが実在することを確認済み（2026-07-25）。
   // manabi.jsonは中四国8県と同じ形式（文科省「学びの多様化学校の設置者一覧」に
   // 載っている学校のみを収録、Okayamaの独自調査データとは別物）。
@@ -353,40 +353,40 @@ const REGIONS = {
     label: '青森県',
     base: 'data/02_aomori/',
     center: [40.824589, 140.740555],
-    available: { manabi:true, sodan:true, hattatsu:true }
+    available: { manabi:true, sodan:true, hattatsu:true, districts:true }
   },
   iwate: {
     label: '岩手県',
     base: 'data/03_iwate/',
     center: [39.703526, 141.152695],
-    available: { manabi:true, sodan:true, hattatsu:true }
+    available: { manabi:true, sodan:true, hattatsu:true, districts:true }
   },
   miyagi: {
     label: '宮城県',
     base: 'data/04_miyagi/',
     center: [38.268578, 140.87207],
-    available: { manabi:true, sodan:true, hattatsu:true }
+    available: { manabi:true, sodan:true, hattatsu:true, districts:true }
   },
   akita: {
     label: '秋田県',
     base: 'data/05_akita/',
     center: [39.718624, 140.102386],
-    available: { manabi:true, sodan:true, hattatsu:true }
+    available: { manabi:true, sodan:true, hattatsu:true, districts:true }
   },
   yamagata: {
     label: '山形県',
     base: 'data/06_yamagata/',
     center: [38.240433, 140.363693],
-    available: { manabi:true, sodan:true, hattatsu:true }
+    available: { manabi:true, sodan:true, hattatsu:true, districts:true }
   },
   fukushima: {
     label: '福島県',
     base: 'data/07_fukushima/',
     center: [37.750031, 140.467773],
-    available: { manabi:true, sodan:true, hattatsu:true }
+    available: { manabi:true, sodan:true, hattatsu:true, districts:true }
   },
   // 【関東甲信越10都県・今回追加】①学び（学びの多様化学校のみ）・③相談・⑤発達を登録
-  // （②居場所・④親家族・学区界は未整備のため対象外）。data/<コード>_<ローマ字>/に
+  // （②居場所・④親家族は未整備のため対象外）。data/<コード>_<ローマ字>/に
   // manabi.json・hattatsu.json・sodan.jsonが実在することを確認済み（2026-07-25）。
   // manabi.jsonは既存県と同じ形式（文科省「学びの多様化学校の設置者一覧」に
   // 載っている学校のみを収録、Okayamaの独自調査データとは別物）。
@@ -398,64 +398,64 @@ const REGIONS = {
     label: '茨城県',
     base: 'data/08_ibaraki/',
     center: [36.341736, 140.446823],
-    available: { manabi:true, sodan:true, hattatsu:true }
+    available: { manabi:true, sodan:true, hattatsu:true, districts:true }
   },
   tochigi: {
     label: '栃木県',
     base: 'data/09_tochigi/',
     center: [36.56591, 139.883591],
-    available: { manabi:true, sodan:true, hattatsu:true }
+    available: { manabi:true, sodan:true, hattatsu:true, districts:true }
   },
   gunma: {
     label: '群馬県',
     base: 'data/10_gunma/',
     center: [36.39069, 139.060455],
-    available: { manabi:true, sodan:true, hattatsu:true }
+    available: { manabi:true, sodan:true, hattatsu:true, districts:true }
   },
   saitama: {
     label: '埼玉県',
     base: 'data/11_saitama/',
     center: [35.857033, 139.649017],
-    available: { manabi:true, sodan:true, hattatsu:true }
+    available: { manabi:true, sodan:true, hattatsu:true, districts:true }
   },
   chiba: {
     label: '千葉県',
     base: 'data/12_chiba/',
     center: [35.604561, 140.123154],
-    available: { manabi:true, sodan:true, hattatsu:true }
+    available: { manabi:true, sodan:true, hattatsu:true, districts:true }
   },
   tokyo: {
     label: '東京都',
     base: 'data/13_tokyo/',
     center: [35.689503, 139.691727],
-    available: { manabi:true, sodan:true, hattatsu:true }
+    available: { manabi:true, sodan:true, hattatsu:true, districts:true }
   },
   kanagawa: {
     label: '神奈川県',
     base: 'data/14_kanagawa/',
     center: [35.447735, 139.642532],
-    available: { manabi:true, sodan:true, hattatsu:true }
+    available: { manabi:true, sodan:true, hattatsu:true, districts:true }
   },
   niigata: {
     label: '新潟県',
     base: 'data/15_niigata/',
     center: [37.902451, 139.023239],
-    available: { manabi:true, sodan:true, hattatsu:true }
+    available: { manabi:true, sodan:true, hattatsu:true, districts:true }
   },
   yamanashi: {
     label: '山梨県',
     base: 'data/19_yamanashi/',
     center: [35.664108, 138.568451],
-    available: { manabi:true, sodan:true, hattatsu:true }
+    available: { manabi:true, sodan:true, hattatsu:true, districts:true }
   },
   nagano: {
     label: '長野県',
     base: 'data/20_nagano/',
     center: [36.651306, 138.180908],
-    available: { manabi:true, sodan:true, hattatsu:true }
+    available: { manabi:true, sodan:true, hattatsu:true, districts:true }
   },
   // 【北陸3県・東海4県、計7県・今回追加】①学び（学びの多様化学校のみ）・③相談・
-  // ⑤発達を登録（②居場所・④親家族・学区界は未整備のため対象外）。
+  // ⑤発達を登録（②居場所・④親家族は未整備のため対象外）。
   // data/<コード>_<ローマ字>/にmanabi.json・hattatsu.json・sodan.jsonが実在する
   // ことを確認済み（2026-07-25）。manabi.jsonは既存県と同じ形式（文科省「学びの
   // 多様化学校の設置者一覧」に載っている学校のみを収録、Okayamaの独自調査データ
@@ -468,46 +468,46 @@ const REGIONS = {
     label: '富山県',
     base: 'data/16_toyama/',
     center: [36.695267, 137.211304],
-    available: { manabi:true, sodan:true, hattatsu:true }
+    available: { manabi:true, sodan:true, hattatsu:true, districts:true }
   },
   ishikawa: {
     label: '石川県',
     base: 'data/17_ishikawa/',
     center: [36.594604, 136.625671],
-    available: { manabi:true, sodan:true, hattatsu:true }
+    available: { manabi:true, sodan:true, hattatsu:true, districts:true }
   },
   fukui: {
     label: '福井県',
     base: 'data/18_fukui/',
     center: [36.065208, 136.221725],
-    available: { manabi:true, sodan:true, hattatsu:true }
+    available: { manabi:true, sodan:true, hattatsu:true, districts:true }
   },
   gifu: {
     label: '岐阜県',
     base: 'data/21_gifu/',
     center: [35.391174, 136.723663],
-    available: { manabi:true, sodan:true, hattatsu:true }
+    available: { manabi:true, sodan:true, hattatsu:true, districts:true }
   },
   shizuoka: {
     label: '静岡県',
     base: 'data/22_shizuoka/',
     center: [34.976944, 138.383057],
-    available: { manabi:true, sodan:true, hattatsu:true }
+    available: { manabi:true, sodan:true, hattatsu:true, districts:true }
   },
   aichi: {
     label: '愛知県',
     base: 'data/23_aichi/',
     center: [35.18021, 136.906586],
-    available: { manabi:true, sodan:true, hattatsu:true }
+    available: { manabi:true, sodan:true, hattatsu:true, districts:true }
   },
   mie: {
     label: '三重県',
     base: 'data/24_mie/',
     center: [34.730278, 136.508606],
-    available: { manabi:true, sodan:true, hattatsu:true }
+    available: { manabi:true, sodan:true, hattatsu:true, districts:true }
   },
   // 【北海道・今回追加】①学び（学びの多様化学校のみ）・③相談・⑤発達を登録
-  // （②居場所・④親家族・学区界は未整備のため対象外）。data/01_hokkaido/に
+  // （②居場所・④親家族は未整備のため対象外）。data/01_hokkaido/に
   // manabi.json・hattatsu.json・sodan.jsonが実在することを確認済み（2026-07-25）。
   // manabi.jsonは既存県と同じ形式（文科省「学びの多様化学校の設置者一覧」に
   // 載っている学校のみを収録、Okayamaの独自調査データとは別物）。3件（札幌市2件・
@@ -523,11 +523,11 @@ const REGIONS = {
     label: '北海道',
     base: 'data/01_hokkaido/',
     center: [43.064323, 141.346878],
-    available: { manabi:true, sodan:true, hattatsu:true }
+    available: { manabi:true, sodan:true, hattatsu:true, districts:true }
   },
   // 【近畿6県・九州沖縄8県、計14県・今回追加】これで全47都道府県の①③⑤登録が完了。
-  // ①学び（学びの多様化学校のみ）・③相談・⑤発達を登録（②居場所・④親家族・
-  // 学区界は未整備のため対象外）。data/<コード>_<ローマ字>/にmanabi.json・
+  // ①学び（学びの多様化学校のみ）・③相談・⑤発達を登録（②居場所・④親家族は
+  // 未整備のため対象外）。data/<コード>_<ローマ字>/にmanabi.json・
   // hattatsu.json・sodan.jsonが実在することを確認済み（2026-07-25）。manabi.json
   // は既存県と同じ形式（文科省「学びの多様化学校の設置者一覧」に載っている学校の
   // みを収録、Okayamaの独自調査データとは別物）。佐賀県・熊本県・和歌山県は
@@ -545,85 +545,85 @@ const REGIONS = {
     label: '滋賀県',
     base: 'data/25_shiga/',
     center: [35.004513, 135.868561],
-    available: { manabi:true, sodan:true, hattatsu:true }
+    available: { manabi:true, sodan:true, hattatsu:true, districts:true }
   },
   kyoto: {
     label: '京都府',
     base: 'data/26_kyoto/',
     center: [35.02124, 135.755615],
-    available: { manabi:true, sodan:true, hattatsu:true }
+    available: { manabi:true, sodan:true, hattatsu:true, districts:true }
   },
   osaka: {
     label: '大阪府',
     base: 'data/27_osaka/',
     center: [34.686344, 135.520035],
-    available: { manabi:true, sodan:true, hattatsu:true }
+    available: { manabi:true, sodan:true, hattatsu:true, districts:true }
   },
   hyogo: {
     label: '兵庫県',
     base: 'data/28_hyogo/',
     center: [34.691257, 135.183075],
-    available: { manabi:true, sodan:true, hattatsu:true }
+    available: { manabi:true, sodan:true, hattatsu:true, districts:true }
   },
   nara: {
     label: '奈良県',
     base: 'data/29_nara/',
     center: [34.685272, 135.832855],
-    available: { manabi:true, sodan:true, hattatsu:true }
+    available: { manabi:true, sodan:true, hattatsu:true, districts:true }
   },
   wakayama: {
     label: '和歌山県',
     base: 'data/30_wakayama/',
     center: [34.226112, 135.167496],
-    available: { manabi:true, sodan:true, hattatsu:true }
+    available: { manabi:true, sodan:true, hattatsu:true, districts:true }
   },
   fukuoka: {
     label: '福岡県',
     base: 'data/40_fukuoka/',
     center: [33.606388, 130.417969],
-    available: { manabi:true, sodan:true, hattatsu:true }
+    available: { manabi:true, sodan:true, hattatsu:true, districts:true }
   },
   saga: {
     label: '佐賀県',
     base: 'data/41_saga/',
     center: [33.249352, 130.298798],
-    available: { manabi:true, sodan:true, hattatsu:true }
+    available: { manabi:true, sodan:true, hattatsu:true, districts:true }
   },
   nagasaki: {
     label: '長崎県',
     base: 'data/42_nagasaki/',
     center: [32.750038, 129.867249],
-    available: { manabi:true, sodan:true, hattatsu:true }
+    available: { manabi:true, sodan:true, hattatsu:true, districts:true }
   },
   kumamoto: {
     label: '熊本県',
     base: 'data/43_kumamoto/',
     center: [32.789799, 130.741577],
-    available: { manabi:true, sodan:true, hattatsu:true }
+    available: { manabi:true, sodan:true, hattatsu:true, districts:true }
   },
   oita: {
     label: '大分県',
     base: 'data/44_oita/',
     center: [33.238129, 131.61264],
-    available: { manabi:true, sodan:true, hattatsu:true }
+    available: { manabi:true, sodan:true, hattatsu:true, districts:true }
   },
   miyazaki: {
     label: '宮崎県',
     base: 'data/45_miyazaki/',
     center: [31.911034, 131.423889],
-    available: { manabi:true, sodan:true, hattatsu:true }
+    available: { manabi:true, sodan:true, hattatsu:true, districts:true }
   },
   kagoshima: {
     label: '鹿児島県',
     base: 'data/46_kagoshima/',
     center: [31.560171, 130.558029],
-    available: { manabi:true, sodan:true, hattatsu:true }
+    available: { manabi:true, sodan:true, hattatsu:true, districts:true }
   },
   okinawa: {
     label: '沖縄県',
     base: 'data/47_okinawa/',
     center: [26.212444, 127.680923],
-    available: { manabi:true, sodan:true, hattatsu:true }
+    available: { manabi:true, sodan:true, hattatsu:true, districts:true }
   }
   // 例）以降、他県を追加する場合はこのパターンを踏襲する。
 };
@@ -803,6 +803,11 @@ function setDistrictsVisible(visible){
   document.querySelectorAll('.toggle-districts').forEach(function(cb){ cb.checked = visible; cb.disabled = !districtsAvailable; });
 }
 let districtsAvailable = false;
+/* 小学校区界の収録範囲。原典（国土数値情報A27）は全市区町村を網羅しておらず、
+   政令指定都市20市は全市が未収録。また利用条件により再配布できない自治体もある。
+   「自分の市に学区界が出ない」理由を実データから説明するため、県ごとの内訳を保持する
+   （静的な文言に地名を書かない＝CLAUDE.mdルール13）。 */
+let currentDistricts = { excluded: [], notCovered: [] };
 document.querySelectorAll('.toggle-districts').forEach(function(cb){
   cb.addEventListener('change', function(e){ setDistrictsVisible(e.target.checked); });
 });
@@ -1176,6 +1181,7 @@ function loadRegion(key){
 
   // 学区界
   districtsAvailable = !!avail.districts;
+  currentDistricts = { excluded: [], notCovered: [] };
   Object.keys(districtsLayers).forEach(function(k){ districtsLayers[k].clearLayers(); });
   setDistrictsNote('準備中');  // データ取得完了までの暫定表示。取得できれば下でエリア数に置き換える
   if(districtsAvailable){
@@ -1197,6 +1203,10 @@ function loadRegion(key){
       (geojson.features || []).forEach(function(f){ codes[f.properties.city_code] = true; });
       const n = Object.keys(codes).length;
       setDistrictsNote(n + '市町村分収録');
+      currentDistricts = {
+        excluded: geojson.excluded || [],
+        notCovered: geojson.not_covered || []
+      };
       // 学区界はGeoJSON（FeatureCollection）なので、出典IDはトップレベルのsrcに入っている。
       currentSrcIds.districts = geojson.src ? [geojson.src] : [];
       srcLoaded.districts = true;
@@ -1409,9 +1419,30 @@ function renderFooterSources(region){
         + (geolonia
             ? '座標は' + geolonia.source_label.replace('、CC BY 4.0', '')
               + '（<a href="https://creativecommons.org/licenses/by/4.0/deed.ja" target="_blank" rel="noopener">CC BY 4.0</a>、独自に緯度経度をマッチング・加工して使用）等を用いて算出しています（多くは町丁目レベルの概算）。'
-            : '');
+            : '')
+        + districtsCoverageNote();
     }
   }
+}
+
+/* 小学校区界の収録範囲の注記を、読み込んだデータそのものから組み立てる。
+   原典（A27）は各市区町村教育委員会の提供に基づくため全国を網羅しておらず、
+   政令指定都市のように「県内で人口が最も多い市がまるごと無い」ことがある。
+   件数・地名を静的に書かず、実データの not_covered / excluded から出す（ルール13・14）。 */
+function districtsCoverageNote(){
+  const nc = currentDistricts.notCovered || [], ex = currentDistricts.excluded || [];
+  let s = '通学区域は目安であり、正確な指定校は各市区町村の教育委員会にご確認ください。';
+  if(nc.length){
+    const head = nc.slice(0, 3).join('・');
+    s += '原典に通学区域データが無いため、' + head
+      + (nc.length > 3 ? 'など' + nc.length + '市区町村' : '')
+      + 'は表示されません。';
+  }
+  if(ex.length){
+    s += 'また' + ex.map(function(e){ return e.name; }).join('・')
+      + 'は、原典の利用条件により掲載していません。';
+  }
+  return s;
 }
 
 /* 出典台帳の読み込み。失敗しても地図は動くので、フッターにだけその旨を出す。 */
