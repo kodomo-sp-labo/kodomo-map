@@ -460,7 +460,9 @@ const REGIONS = {
     label: '新潟県',
     base: 'data/15_niigata/',
     center: [37.902451, 139.023239],
-    available: { manabi:true, sodan:true, hattatsu:true, districts:true }
+    // 【2026-07-27追加】④は地域子育て支援拠点（237件・niigata_pref_kyoten）のみ。
+    // jidoukan.json・oyanokai.jsonは空配列。
+    available: { manabi:true, sodan:true, hattatsu:true, districts:true, oyakazoku:true }
   },
   yamanashi: {
     label: '山梨県',
