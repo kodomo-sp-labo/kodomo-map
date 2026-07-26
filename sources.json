@@ -147,23 +147,23 @@
     },
     "okayama_city_shienkyoshitsu": {
       "source_label": "岡山市「岡山市児童生徒支援教室」",
-      "source": null,
+      "source": "https://www.city.okayama.jp/kurashi/0000006631.html",
       "publisher": "岡山市",
-      "checked": null,
+      "checked": "2026-07-26",
       "as_of": null,
       "tier": "B",
       "discovery_query": "岡山市 児童生徒支援教室 一覧",
-      "notes": "【URL未確認】旧sources.jsonに「岡山市の公設支援教室5件は別出典（city.okayama.jp、更新頻度低）」とのみ記録されており、一覧ページのURLが残っていない。月次監視の対象にする前に特定すること。"
+      "notes": "岡山市の公式ページ「岡山市児童生徒支援教室」。掲載5施設（トラングル一宮・ラポート牧山・あおぞら操山・すまいる瀬戸・そよかぜ平福）がmanabi.jsonのpublic5件と完全一致することを確認（2026-07-26）。旧sources.jsonでURLが失われていたものを再特定。"
     },
     "okayama_city_kyoiku_sodan": {
       "source_label": "岡山市教育相談室",
-      "source": null,
+      "source": "https://www.city.okayama.jp/kurashi/0000006589.html",
       "publisher": "岡山市",
-      "checked": null,
+      "checked": "2026-07-26",
       "as_of": null,
       "tier": "B",
       "discovery_query": "岡山市 教育相談室 不登校 相談",
-      "notes": "【URL未確認】①学びタブに1件だけ含まれる岡山市教育相談室の出典。上記と同様に未特定。"
+      "notes": "岡山市の公式ページ「岡山市教育相談室」。所在地（中区国富三丁目9-12 操山公民館3階）・電話086-207-2170を確認（2026-07-26）。manabi.jsonのcategory=consult 1件の出典。旧sources.jsonでURLが失われていたものを再特定。"
     },
     "okayama_pref_hattatsu_list": {
       "source_label": "岡山県「保健福祉施設・病院等一覧」児童福祉施設",
