@@ -1402,12 +1402,13 @@ function joinSources(ids){
 function licenseNoteOf(ids){
   if(!LEDGER) return '';
   const holder = LEDGER._credit_holder || '当サイト';
-  const seen = {}, links = [];
+  const seen = {}, links = [], notes = [];
   let needModified = false;
   (ids || []).forEach(function(id){
     const s = LEDGER.sources && LEDGER.sources[id];
     if(!s) return;
     if(s.modified_note) needModified = true;
+    if(s.usage_note && notes.indexOf(s.usage_note) === -1) notes.push(s.usage_note);
     if(s.license && !seen[s.license]){
       seen[s.license] = true;
       links.push(s.license_url
@@ -1422,6 +1423,8 @@ function licenseNoteOf(ids){
   if(links.length){
     out += '原典の利用条件: ' + links.join('／') + '。';
   }
+  // 原典が定める適用限界は、最終利用者まで伝達することが約款で求められている。
+  if(notes.length){ out += escHtml(notes.join('')); }
   return out;
 }
 
