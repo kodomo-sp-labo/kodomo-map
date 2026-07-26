@@ -411,6 +411,22 @@
       "terms_checked": "2026-07-27",
       "conditions": "兵庫県の著作権規定は「私的使用・引用など著作権法上認められた場合を除き、県の許可なく複製・転用することはできない」（政府標準利用規約・PDL・CC BYへの言及なし）。当サイトが保持しているのは施設名・所在地等の事実情報のみ。"
     },
+    "gunma_pref_kyoten": {
+      "source_label": "群馬県「地域子育て支援拠点一覧」",
+      "source": "https://www.pref.gunma.jp/page/3712.html",
+      "publisher": "群馬県",
+      "checked": "2026-07-27",
+      "as_of": "令和8年4月1日現在",
+      "tier": "B",
+      "discovery_query": "群馬県 地域子育て支援拠点 一覧 施設",
+      "notes": "PDFやExcelではなく、県公式ページ本文に直接HTML表として掲載されている一覧（市町村名・名称（保育所名）・所在地・電話番号の4列、rowspanで市町村ごとにグルーピング）。166件・県内29市町村に実施施設があった。他県より基準日が新しい（令和8年4月1日現在、2026年5月19日更新）。",
+      "license": "群馬県サイトポリシー（オープンデータではない）",
+      "license_url": "https://www.pref.gunma.jp/page/15257.html",
+      "credit": true,
+      "modified_note": true,
+      "terms_checked": "2026-07-27",
+      "conditions": "群馬県の著作権規定は私的使用・引用など著作権法上認められた場合を除き無断転載・転用を禁じる一般的なもの（政府標準利用規約・PDL・CC BYへの言及なし）。当サイトが保持しているのは施設名・所在地・電話番号等の事実情報のみ。"
+    },
     "okayama_shakyo_ibasho": {
       "source_label": "岡山市社会福祉協議会「岡山市内の子どもの居場所一覧」",
       "source": "https://www.okayamashi-shakyo.or.jp/",
