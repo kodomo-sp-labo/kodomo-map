@@ -132,9 +132,10 @@ if ('serviceWorker' in navigator) {
 <!-- ============ ①学び ============ -->
 <div class="tab-panel active" id="panel-manabi">
   <div class="legend">
-    <!-- 岡山県のみ3カテゴリ、他46都道府県は「学びの多様化学校」のみ。表示・非表示は
-         updateManabiLegend()が切り替える。「公設」の語は使わない（学びの多様化学校81件中
-         23件は学校法人＝私立のため事実に反する）。 -->
+    <!-- 「岡山市児童生徒支援教室」「協議会加盟」バッジは岡山県固有の制度・データ。
+         「民間フリースクール等」は東京都・北海道等でも収録済みのため実データで出し分ける。
+         表示・非表示はupdateManabiLegend()/updateManabiNotice()が切り替える。「公設」の語は
+         使わない（学びの多様化学校81件中23件は学校法人＝私立のため事実に反する）。 -->
     <span class="dot" style="--dc:var(--c1t)" id="lg-manabi-tayouka">学びの多様化学校（文部科学省指定）</span>
     <span class="dot" style="--dc:var(--c1)" id="lg-manabi-public">岡山市児童生徒支援教室</span>
     <span class="dot" style="--dc:var(--c2)" id="lg-manabi-free">民間フリースクール等</span>
