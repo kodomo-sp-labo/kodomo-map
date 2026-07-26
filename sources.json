@@ -1,69 +1,367 @@
 {
-  "_readme": "各データソースの「一覧ページ」を固定URLとして登録する台帳。個別PDF等の直リンクはここでは固定しない（毎回一覧ページから再取得すること）。last_checked / last_count はワークフロー実行のたびに自動更新される。discovery_query は『一覧ページ自体が消えていないか』を検索で二重チェックするためのクエリ。",
-
-  "manabi": {
-    "label": "①学び：岡山県教育委員会 不登校支援の民間団体・施設情報",
-    "region": "okayama",
-    "list_page": "https://www.pref.okayama.jp/page/935421.html",
-    "discovery_query": "岡山県教育委員会 不登校 民間団体 施設 情報一覧",
-    "output_file": "data/okayama/manabi.json",
-    "last_checked": "2026-07-23",
-    "last_count": 18,
-    "notes": "個別施設PDFは一覧ページ内リンクから毎回再取得。直リンクを固定しない。岡山市の公設支援教室5件は別出典（city.okayama.jp、更新頻度低）。"
+  "_readme": "こども支援資源マップの出典台帳（正本）。data/配下の各JSONは出典ID（src）だけを持ち、ラベル・URL・確認日はこのファイルが持つ（出典文字列の二重管理を避けるため）。index.html はこの台帳を読み込んでフッターの出典表示を組み立てる。sources のキーが出典ID、datasets はどのファイルがどの出典から作られるかの定義。個別PDF等の直リンクは原則登録せず「一覧ページ」を登録する（毎回そこから再取得するため）。URLが確認できていない出典は source を null にしてある（推測でURLを埋めない＝CLAUDE.mdルール2）。datasets の fallback_src は、その県のデータが0件だったとき（例: 学びの多様化学校が1校もない県）に表示する出典。0件であること自体がその資料に基づく事実のため、出典表示を空にしない。last_checked / last_count は月次ワークフロー（未稼働）が自動更新する想定。",
+  "_schema_version": 2,
+  "_generated": "2026-07-26",
+  "_generator": "メモ等/build_sources_json.py（生成は初回のみ。以後は人が直接編集する）",
+  "sources": {
+    "mext_tayouka": {
+      "source_label": "文部科学省「学びの多様化学校（いわゆる不登校特例校）の設置者一覧」",
+      "source": "https://www.mext.go.jp/a_menu/shotou/seitoshidou/1387004.htm",
+      "publisher": "文部科学省",
+      "checked": "2026-07-25",
+      "as_of": null,
+      "tier": "A",
+      "discovery_query": "文部科学省 学びの多様化学校 設置者一覧",
+      "notes": "全国84校（2026-07-24取得時点）。緯度経度は原典になく、市区町村名からGSI住所検索APIで付与している（多くは市区町村レベルの概算）。"
+    },
+    "cfa_sodan": {
+      "source_label": "こども家庭庁「相談窓口」",
+      "source": "https://www.cfa.go.jp/children-inquiries",
+      "publisher": "こども家庭庁",
+      "checked": "2026-07-24",
+      "as_of": null,
+      "tier": "A",
+      "discovery_query": "こども家庭庁 相談窓口 都道府県",
+      "url_template": "https://www.cfa.go.jp/children-inquiries/{romaji}",
+      "prefecture_urls": {
+        "01_hokkaido": "https://www.cfa.go.jp/children-inquiries/hokkaido",
+        "02_aomori": "https://www.cfa.go.jp/children-inquiries/aomori",
+        "03_iwate": "https://www.cfa.go.jp/children-inquiries/iwate",
+        "04_miyagi": "https://www.cfa.go.jp/children-inquiries/miyagi",
+        "05_akita": "https://www.cfa.go.jp/children-inquiries/akita",
+        "06_yamagata": "https://www.cfa.go.jp/children-inquiries/yamagata",
+        "07_fukushima": "https://www.cfa.go.jp/children-inquiries/fukushima",
+        "08_ibaraki": "https://www.cfa.go.jp/children-inquiries/ibaraki",
+        "09_tochigi": "https://www.cfa.go.jp/children-inquiries/tochigi",
+        "10_gunma": "https://www.cfa.go.jp/children-inquiries/gunma",
+        "11_saitama": "https://www.cfa.go.jp/children-inquiries/saitama",
+        "12_chiba": "https://www.cfa.go.jp/children-inquiries/chiba",
+        "13_tokyo": "https://www.cfa.go.jp/children-inquiries/tokyo",
+        "14_kanagawa": "https://www.cfa.go.jp/children-inquiries/kanagawa",
+        "15_niigata": "https://www.cfa.go.jp/children-inquiries/niigata",
+        "19_yamanashi": "https://www.cfa.go.jp/children-inquiries/yamanashi",
+        "20_nagano": "https://www.cfa.go.jp/children-inquiries/nagano",
+        "21_gifu": "https://www.cfa.go.jp/children-inquiries/gifu",
+        "22_shizuoka": "https://www.cfa.go.jp/children-inquiries/shizuoka",
+        "23_aichi": "https://www.cfa.go.jp/children-inquiries/aichi",
+        "24_mie": "https://www.cfa.go.jp/children-inquiries/mie",
+        "16_toyama": "https://www.cfa.go.jp/children-inquiries/toyama",
+        "17_ishikawa": "https://www.cfa.go.jp/children-inquiries/ishikawa",
+        "18_fukui": "https://www.cfa.go.jp/children-inquiries/fukui",
+        "25_shiga": "https://www.cfa.go.jp/children-inquiries/shiga",
+        "26_kyoto": "https://www.cfa.go.jp/children-inquiries/kyoto",
+        "27_osaka": "https://www.cfa.go.jp/children-inquiries/osaka",
+        "28_hyogo": "https://www.cfa.go.jp/children-inquiries/hyogo",
+        "29_nara": "https://www.cfa.go.jp/children-inquiries/nara",
+        "30_wakayama": "https://www.cfa.go.jp/children-inquiries/wakayama",
+        "31_tottori": "https://www.cfa.go.jp/children-inquiries/tottori",
+        "32_shimane": "https://www.cfa.go.jp/children-inquiries/shimane",
+        "33_okayama": "https://www.cfa.go.jp/children-inquiries/okayama",
+        "34_hiroshima": "https://www.cfa.go.jp/children-inquiries/hiroshima",
+        "35_yamaguchi": "https://www.cfa.go.jp/children-inquiries/yamaguchi",
+        "36_tokushima": "https://www.cfa.go.jp/children-inquiries/tokushima",
+        "37_kagawa": "https://www.cfa.go.jp/children-inquiries/kagawa",
+        "38_ehime": "https://www.cfa.go.jp/children-inquiries/ehime",
+        "39_kochi": "https://www.cfa.go.jp/children-inquiries/kochi",
+        "40_fukuoka": "https://www.cfa.go.jp/children-inquiries/fukuoka",
+        "41_saga": "https://www.cfa.go.jp/children-inquiries/saga",
+        "42_nagasaki": "https://www.cfa.go.jp/children-inquiries/nagasaki",
+        "43_kumamoto": "https://www.cfa.go.jp/children-inquiries/kumamoto",
+        "44_oita": "https://www.cfa.go.jp/children-inquiries/oita",
+        "45_miyazaki": "https://www.cfa.go.jp/children-inquiries/miyazaki",
+        "46_kagoshima": "https://www.cfa.go.jp/children-inquiries/kagoshima",
+        "47_okinawa": "https://www.cfa.go.jp/children-inquiries/okinawa"
+      },
+      "notes": "都道府県ごとにページが分かれる。47URLは2026-07-24に索引ページで全件確認済み（推測でURLを組み立てていない）。原典に住所の記載がないため、位置は ksj_p34（市区町村庁舎）で代表させている。"
+    },
+    "wamnet": {
+      "source_label": "WAM NET「障害福祉サービス等情報公表システム」オープンデータ",
+      "source": "https://www.wam.go.jp/content/wamnet/pcpub/top/sfkopendata/",
+      "publisher": "独立行政法人福祉医療機構",
+      "checked": "2026-07-24",
+      "as_of": "2026年3月末時点",
+      "tier": "A",
+      "discovery_query": "WAM NET 障害福祉サービス等情報公表システム オープンデータ",
+      "notes": "サービス種別コード63〜67（児童発達支援／医療型児童発達支援／放課後等デイサービス／居宅訪問型児童発達支援／保育所等訪問支援）を抽出。緯度経度はCSVに標準搭載（全国28,528件、欠損0）。一覧ページURLは2026-07-26に実在を再確認。"
+    },
+    "ksj_a27": {
+      "source_label": "国土数値情報「小学校区データ（A27）」国土交通省",
+      "source": "https://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-A27-v2_1.html",
+      "publisher": "国土交通省",
+      "checked": "2026-07-26",
+      "as_of": "令和3年度（2021年度）公開版",
+      "tier": "A",
+      "discovery_query": "国土数値情報 小学校区データ A27",
+      "notes": "岡山市は原典に未収録。全国展開パイプラインは未整備（仕様書§8弱点17）。"
+    },
+    "ksj_p34": {
+      "source_label": "国土数値情報「市区町村役場データ（P34）」国土交通省",
+      "source": "https://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-P34.html",
+      "publisher": "国土交通省",
+      "checked": "2026-07-26",
+      "as_of": "平成26年（2014年）8月31日基準",
+      "tier": "A",
+      "discovery_query": "国土数値情報 市区町村役場データ P34",
+      "notes": "③相談の位置付与に使用（施設そのものの位置ではなく市区町村庁舎の位置）。単独市制移行による名称ズレはエイリアス表で解決（仕様書§8弱点9）。"
+    },
+    "gsi_geocode": {
+      "source_label": "国土地理院 住所検索API",
+      "source": "https://msearch.gsi.go.jp/address-search/AddressSearch",
+      "publisher": "国土地理院",
+      "checked": "2026-07-24",
+      "as_of": null,
+      "tier": "A",
+      "discovery_query": "国土地理院 住所検索API AddressSearch",
+      "notes": "①学びの座標付与と、③相談のP34座標の乖離チェックに使用。取得座標が期待する都道府県・市区町村を実際に指しているかの突合検証を必ず行う（CLAUDE.mdルール9）。"
+    },
+    "geolonia_addr": {
+      "source_label": "Geolonia 住所データ（国土交通省「位置参照情報」等をもとにGeolonia社が作成、CC BY 4.0）",
+      "source": "https://geolonia.github.io/japanese-addresses/",
+      "publisher": "株式会社Geolonia",
+      "checked": "2026-07-26",
+      "as_of": null,
+      "tier": "A",
+      "license": "CC BY 4.0",
+      "discovery_query": "Geolonia 住所データ 緯度経度 CC BY",
+      "notes": "②④の座標算出に補助的に使用（多くは町丁目レベルの概算）。ライセンス表示義務あり。"
+    },
+    "okayama_pref_freeschool": {
+      "source_label": "岡山県教育委員会「不登校の児童生徒及びその保護者を支援する民間団体・施設の情報」",
+      "source": "https://www.pref.okayama.jp/page/935421.html",
+      "publisher": "岡山県教育委員会",
+      "checked": "2026-07-23",
+      "as_of": "令和8年3月現在",
+      "tier": "B",
+      "discovery_query": "岡山県教育委員会 不登校 民間団体 施設 情報一覧",
+      "notes": "個別施設PDFは一覧ページ内リンクから毎回再取得する（直リンクを固定しない）。"
+    },
+    "okayama_fsc": {
+      "source_label": "岡山フリースクール協議会",
+      "source": null,
+      "publisher": "岡山フリースクール協議会",
+      "checked": null,
+      "as_of": null,
+      "tier": "C",
+      "discovery_query": "岡山フリースクール協議会 加盟団体",
+      "notes": "【URL未確認】①学びの「協議会加盟」バッジの根拠。施設一覧そのものの出典ではなく属性の補強。URLを確認できていないため source は null のまま（推測で埋めない）。"
+    },
+    "okayama_city_shienkyoshitsu": {
+      "source_label": "岡山市「岡山市児童生徒支援教室」",
+      "source": null,
+      "publisher": "岡山市",
+      "checked": null,
+      "as_of": null,
+      "tier": "B",
+      "discovery_query": "岡山市 児童生徒支援教室 一覧",
+      "notes": "【URL未確認】旧sources.jsonに「岡山市の公設支援教室5件は別出典（city.okayama.jp、更新頻度低）」とのみ記録されており、一覧ページのURLが残っていない。月次監視の対象にする前に特定すること。"
+    },
+    "okayama_city_kyoiku_sodan": {
+      "source_label": "岡山市教育相談室",
+      "source": null,
+      "publisher": "岡山市",
+      "checked": null,
+      "as_of": null,
+      "tier": "B",
+      "discovery_query": "岡山市 教育相談室 不登校 相談",
+      "notes": "【URL未確認】①学びタブに1件だけ含まれる岡山市教育相談室の出典。上記と同様に未特定。"
+    },
+    "okayama_pref_hattatsu_list": {
+      "source_label": "岡山県「保健福祉施設・病院等一覧」児童福祉施設",
+      "source": "https://www.pref.okayama.jp/page/785878.html",
+      "publisher": "岡山県",
+      "checked": "2026-07-26",
+      "as_of": "令和7年4月1日現在",
+      "tier": "B",
+      "discovery_query": "岡山県 児童福祉施設 一覧 保健福祉施設",
+      "notes": "⑤発達の主データはWAM NET（wamnet）。この県資料は突合による裏付けで、両資料で確認できた施設に pref_pdf / pref_list_src を付与している。児童発達支援センター指定19件・主たる対象障害もこの資料由来。"
+    },
+    "okayama_pref_momokko": {
+      "source_label": "岡山県「ももっこステーション（地域子育て支援拠点）」",
+      "source": "https://www.pref.okayama.jp/page/488473.html",
+      "publisher": "岡山県",
+      "checked": "2026-07-26",
+      "as_of": "令和7年4月1日更新",
+      "tier": "B",
+      "discovery_query": "岡山県 地域子育て支援拠点 ももっこステーション 一覧",
+      "notes": "2026-07-26に岡山市内のみ39件から県全域151件へ拡張（倉敷市・備前/備中/美作県民局の各地域を追加）。"
+    },
+    "okayama_pref_jidoukan": {
+      "source_label": "岡山県「児童館・児童遊園一覧」",
+      "source": "https://www.pref.okayama.jp/uploaded/attachment/408526.pdf",
+      "publisher": "岡山県",
+      "checked": "2026-07-26",
+      "as_of": null,
+      "tier": "B",
+      "discovery_query": "岡山県 児童館 児童遊園 一覧",
+      "notes": "【要改善】PDFへの直リンクを登録している。この台帳の原則は「一覧ページを登録し直リンクは固定しない」（PDFのURLは改訂で変わるため）。親の一覧ページを特定できていないため暫定でPDFのURLを記録している。月次監視の対象にする前に一覧ページを特定すること。岡山市立の児童館22件は別出典（okayama_city_jidoukan）。"
+    },
+    "okayama_city_jidoukan": {
+      "source_label": "岡山市「児童館・児童センターについて」",
+      "source": "https://www.city.okayama.jp/shisei/0000032387.html",
+      "publisher": "岡山市",
+      "checked": "2026-07-23",
+      "as_of": "2026年7月時点",
+      "tier": "B",
+      "discovery_query": "岡山市 児童館 児童センター 一覧",
+      "notes": "岡山市立の児童館・児童センター22件。②居場所と④親家族の両タブが同じjidoukan.jsonを参照する（児童館は原則すべて地域子育て支援拠点を兼ねるため）。"
+    },
+    "okayama_shakyo_ibasho": {
+      "source_label": "岡山市社会福祉協議会「岡山市内の子どもの居場所一覧」",
+      "source": "https://www.okayamashi-shakyo.or.jp/",
+      "publisher": "岡山市社会福祉協議会",
+      "checked": "2026-07-23",
+      "as_of": "令和6年3月時点",
+      "tier": "C",
+      "discovery_query": "岡山市社会福祉協議会 子どもの居場所一覧 PDF",
+      "notes": "PDFのレイアウトが複雑で自動抽出の信頼度が低い。全件自動再生成はせず、差分候補の提示に留める運用（update-data-sources.md の絶対に守ること5）。"
+    },
+    "own_survey_oyanokai": {
+      "source_label": "子どもウェルビーイングlabo 独自調査（親の会）",
+      "source": null,
+      "publisher": "子どもウェルビーイングlabo",
+      "checked": "2026-07-23",
+      "as_of": null,
+      "tier": "C",
+      "discovery_query": null,
+      "notes": "親の会には全国・県単位の公的名簿が存在しない（仕様書§1 Tier C）。各会の公表情報から確認できた分のみを掲載しており、網羅的な一覧ではない。この性質は画面上にも明示している。"
+    }
   },
-
-  "hattatsu": {
-    "label": "⑤発達：岡山県 保健福祉施設・病院等一覧（児童福祉施設）",
-    "region": "okayama",
-    "list_page": "https://www.pref.okayama.jp/page/785878.html",
-    "discovery_query": "岡山県 障害児通所支援施設 一覧 保健福祉施設",
-    "output_file": "data/okayama/hattatsu.json",
-    "last_checked": "2026-07-23",
-    "last_count": 393,
-    "notes": "「児童福祉施設」PDFへのリンクを一覧ページから毎回再取得。件数が大きく変動したら要確認（前回393件）。経営主体・支援区分は原本レイアウト上取得不可のため引き続き非掲載。"
-  },
-
-  "oyakazoku": {
-    "label": "④親家族：岡山県 ももっこステーション・地域子育て支援拠点（岡山市分）",
-    "region": "okayama",
-    "list_page": "https://www.pref.okayama.jp/page/488473.html",
-    "discovery_query": "岡山県 地域子育て支援拠点 ももっこステーション 一覧",
-    "output_file": "data/okayama/kyoten.json",
-    "last_checked": "2026-07-23",
-    "last_count": 58,
-    "notes": "岡山市分の個別ページ(現在: pref.okayama.jp/page/508158.html)経由。県内全域拡張時は残り4地域（倉敷市・備前県民局・備中県民局・美作県民局）を追加すること。"
-  },
-
-  "sodan": {
-    "label": "③相談：こども家庭庁 岡山県の相談窓口",
-    "region": "okayama",
-    "list_page": "https://www.cfa.go.jp/children-inquiries/okayama",
-    "discovery_query": "こども家庭庁 岡山県 相談窓口一覧",
-    "output_file": "data/okayama/sodan.json",
-    "last_checked": "2026-07-23",
-    "last_count": 30,
-    "notes": "都道府県名部分を変えるだけの共通URL構造（他県展開時に有用）。住所記載が原典にないため引き続き市町村レベル概算が中心。"
-  },
-
-  "ibasho_jidoukan": {
-    "label": "②居場所：岡山市 児童館・児童センター一覧",
-    "region": "okayama",
-    "list_page": "https://www.city.okayama.jp/shisei/0000032387.html",
-    "discovery_query": "岡山市 児童館 児童センター 一覧",
-    "output_file": "data/okayama/jidoukan.json",
-    "last_checked": "2026-07-23",
-    "last_count": 22,
-    "notes": "岡山市サイト。更新頻度は低い想定（施設新設時のみ）。"
-  },
-
-  "ibasho_places": {
-    "label": "②居場所：岡山市社会福祉協議会 子どもの居場所一覧",
-    "region": "okayama",
-    "list_page": "https://www.okayamashi-shakyo.or.jp/",
-    "discovery_query": "岡山市社会福祉協議会 子どもの居場所一覧 PDF",
-    "output_file": "data/okayama/ibasho.json",
-    "last_checked": "2026-07-23",
-    "last_count": 60,
-    "notes": "自動抽出の信頼度が低い出典（PDFレイアウトが複雑、学区単位の手作業整理が入っている）。全件自動再生成はせず、差分候補の提示までに留める運用を推奨。"
+  "datasets": {
+    "manabi": {
+      "label": "①学び",
+      "files": "data/*/manabi.json",
+      "record_src": {
+        "by_field": "category",
+        "map": {
+          "tayouka": "mext_tayouka",
+          "public": "okayama_city_shienkyoshitsu",
+          "consult": "okayama_city_kyoiku_sodan",
+          "freeschool": "okayama_pref_freeschool"
+        }
+      },
+      "geo_sources": [
+        "gsi_geocode"
+      ],
+      "fallback_src": "mext_tayouka",
+      "attribute_sources": {
+        "council": "okayama_fsc",
+        "prefListed": "okayama_pref_freeschool"
+      },
+      "last_count": 108,
+      "last_checked": "2026-07-25",
+      "monitor": false,
+      "notes": "1ファイル内に複数の出典が混在する唯一の全国ファイル（岡山県のみ4カテゴリ、他46県はtayoukaのみ）。"
+    },
+    "sodan": {
+      "label": "③相談",
+      "files": "data/*/sodan.json",
+      "record_src": {
+        "default": "cfa_sodan",
+        "level": "area"
+      },
+      "fallback_src": "cfa_sodan",
+      "geo_sources": [
+        "ksj_p34",
+        "gsi_geocode"
+      ],
+      "last_count": 1753,
+      "last_checked": "2026-07-24",
+      "monitor": false,
+      "notes": "件数はエリア（都道府県＋市区町村）数。窓口数は約7,900。src はエリア単位に付与し、その配下の windows すべてに適用される。"
+    },
+    "hattatsu": {
+      "label": "⑤発達",
+      "files": "data/*/hattatsu.json",
+      "record_src": {
+        "default": "wamnet"
+      },
+      "fallback_src": "wamnet",
+      "geo_sources": [
+        "wamnet"
+      ],
+      "corroboration": {
+        "okayama": "okayama_pref_hattatsu_list"
+      },
+      "last_count": 28528,
+      "last_checked": "2026-07-24",
+      "monitor": false,
+      "notes": "岡山県の379件は県資料とも突合済みで pref_pdf / pref_list_src / pref_list_checked を併せ持つ。"
+    },
+    "kyoten": {
+      "label": "④親家族（地域子育て支援拠点）",
+      "files": "data/33_okayama/kyoten.json",
+      "record_src": {
+        "default": "okayama_pref_momokko"
+      },
+      "geo_sources": [
+        "gsi_geocode",
+        "geolonia_addr"
+      ],
+      "last_count": 151,
+      "last_checked": "2026-07-26",
+      "monitor": false,
+      "notes": null
+    },
+    "jidoukan": {
+      "label": "②居場所／④親家族（児童館・児童遊園）",
+      "files": "data/33_okayama/jidoukan.json",
+      "record_src": {
+        "by_field": "_municipality_is_okayama_city_and_type_jidoukan",
+        "map": {
+          "true": "okayama_city_jidoukan",
+          "false": "okayama_pref_jidoukan"
+        }
+      },
+      "geo_sources": [
+        "gsi_geocode"
+      ],
+      "last_count": 54,
+      "last_checked": "2026-07-26",
+      "monitor": false,
+      "notes": "岡山市立の児童館22件は岡山市の資料、それ以外の児童館・児童遊園32件は県の資料が出典。②居場所と④親家族の両タブが参照する。"
+    },
+    "ibasho": {
+      "label": "②居場所（子ども食堂・プレーパーク等）",
+      "files": "data/33_okayama/ibasho.json",
+      "record_src": {
+        "default": "okayama_shakyo_ibasho"
+      },
+      "geo_sources": [
+        "gsi_geocode"
+      ],
+      "last_count": 60,
+      "last_checked": "2026-07-23",
+      "monitor": false,
+      "notes": null
+    },
+    "oyanokai": {
+      "label": "④親家族（親の会）",
+      "files": "data/33_okayama/oyanokai.json",
+      "record_src": {
+        "default": "own_survey_oyanokai"
+      },
+      "geo_sources": [
+        "gsi_geocode"
+      ],
+      "last_count": 2,
+      "last_checked": "2026-07-23",
+      "monitor": false,
+      "notes": "公的名簿が存在しないため網羅的ではない。"
+    },
+    "districts": {
+      "label": "小学校区界",
+      "files": "data/33_okayama/districts.json",
+      "record_src": {
+        "default": "ksj_a27",
+        "level": "file"
+      },
+      "geo_sources": [
+        "ksj_a27"
+      ],
+      "last_count": 275,
+      "last_checked": "2026-07-23",
+      "monitor": false,
+      "notes": "GeoJSON（FeatureCollection）。出典IDはトップレベルの src に持たせる（GeoJSON仕様上、未知のメンバーは無視されるため描画に影響しない）。岡山市は原典に未収録。"
+    }
   }
 }

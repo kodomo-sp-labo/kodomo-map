@@ -259,7 +259,7 @@ if ('serviceWorker' in navigator) {
   </div>
   <strong>①学び：</strong><span id="footer-src-manabi"></span><br>
   <strong>②居場所：</strong><span id="footer-src-ibasho"></span><br>
-  <strong>③相談：</strong>こども家庭庁「相談窓口」（2026年7月時点、都道府県別）。<br>
+  <strong>③相談：</strong><span id="footer-src-sodan"></span><br>
   <strong>④親家族：</strong><span id="footer-src-oyakazoku"></span><br>
   <strong>⑤発達：</strong><span id="footer-src-hattatsu"></span><br>
   <strong>小学校区界：</strong><span id="footer-src-districts"></span>
@@ -1102,7 +1102,10 @@ function loadRegion(key){
   // （岡山県固定だと他県で常に岡山が表示されてしまうため）。
   currentRegionCenter = region.center || currentRegionCenter;
 
-  updateFooterSources(region, key);
+  // 出典表示は、各データを読み込んだ後に実データのsrcから組み立てる。
+  // ここでは前の地域の出典をいったん消し、「読み込み中／準備中」の状態にする。
+  Object.keys(currentSrcIds).forEach(function(k){ currentSrcIds[k] = []; srcLoaded[k] = false; });
+  renderFooterSources(region);
 
   Object.keys(ALL_MAPS).forEach(function(k){ ALL_MAPS[k].removeLayer(ibashoCluster); ALL_MAPS[k].removeLayer(oyaCluster); ALL_MAPS[k].removeLayer(ryoikuCluster); });
   // 前の地域で出した案内（準備中・読み込み失敗・0件）を必ず消してから読み込む。
@@ -1116,13 +1119,21 @@ function loadRegion(key){
     fetchJson(region.base + 'manabi.json').then(function(data){
       renderManabi(data);
       updateManabiNotice(key, data);
+      currentSrcIds.manabi = collectSrcIds(data);
+      srcLoaded.manabi = true;
+      renderFooterSources(region);
     }).catch(function(err){ showFetchError('map-manabi', err); });
   } else { showUnavailable('panel-manabi','map-manabi','list-manabi'); }
 
   // ②居場所
   if(avail.ibasho){
     Promise.all([fetchJson(region.base + 'jidoukan.json'), fetchJson(region.base + 'ibasho.json')])
-      .then(function(r){ renderIbasho(r[0], r[1]); })
+      .then(function(r){
+        renderIbasho(r[0], r[1]);
+        currentSrcIds.ibasho = collectSrcIds(r[0], r[1]);
+        srcLoaded.ibasho = true;
+        renderFooterSources(region);
+      })
       .catch(function(err){ showFetchError('map-ibasho', err); });
   } else { showUnavailable('panel-ibasho','map-ibasho','ibasho-list-body'); }
 
@@ -1132,13 +1143,21 @@ function loadRegion(key){
       renderSodan(data);
       updateSodanLegend(region, data);
       updateSodanNotice(region, data);
+      currentSrcIds.sodan = collectSrcIds(data);
+      srcLoaded.sodan = true;
+      renderFooterSources(region);
     }).catch(function(err){ showFetchError('map-sodan', err); });
   } else { showUnavailable('panel-sodan','map-sodan','sodan-list-body'); }
 
   // ④親家族
   if(avail.oyakazoku){
     Promise.all([fetchJson(region.base + 'kyoten.json'), fetchJson(region.base + 'jidoukan.json'), fetchJson(region.base + 'oyanokai.json')])
-      .then(function(r){ renderOyakazoku(r[0], r[1], r[2]); })
+      .then(function(r){
+        renderOyakazoku(r[0], r[1], r[2]);
+        currentSrcIds.oyakazoku = collectSrcIds(r[0], r[1], r[2]);
+        srcLoaded.oyakazoku = true;
+        renderFooterSources(region);
+      })
       .catch(function(err){ showFetchError('map-oyakazoku', err); });
   } else { showUnavailable('panel-oyakazoku','map-oyakazoku','oya-list-body'); }
 
@@ -1147,6 +1166,11 @@ function loadRegion(key){
     fetchJson(region.base + 'hattatsu.json').then(function(data){
       renderHattatsu(data);
       updateHattatsuNotice(region, key, data);
+      // 岡山県は県資料との突合済みレコードがあるため、その出典も拾う（pref_list_srcを持つ件）。
+      currentSrcIds.hattatsu = collectSrcIds(data);
+      srcLoaded.hattatsu = true;
+      if(data.some(function(r){ return r.pref_list_src; })) currentSrcIds.hattatsu.push('okayama_pref_hattatsu_list');
+      renderFooterSources(region);
     }).catch(function(err){ showFetchError('map-hattatsu', err); });
   } else { showUnavailable('panel-hattatsu','map-hattatsu','ryoiku-list-body'); }
 
@@ -1173,6 +1197,10 @@ function loadRegion(key){
       (geojson.features || []).forEach(function(f){ codes[f.properties.city_code] = true; });
       const n = Object.keys(codes).length;
       setDistrictsNote(n + '市町村分収録');
+      // 学区界はGeoJSON（FeatureCollection）なので、出典IDはトップレベルのsrcに入っている。
+      currentSrcIds.districts = geojson.src ? [geojson.src] : [];
+      srcLoaded.districts = true;
+      renderFooterSources(region);
       if(districtsVisible) setDistrictsVisible(true);
     }).catch(function(err){ console.warn('学区界の読み込みに失敗:', err); districtsAvailable = false; setDistrictsNote('準備中'); });
   }
@@ -1290,46 +1318,112 @@ function updateHattatsuNotice(region, key, data){
   el.textContent = text;
 }
 
-function updateFooterSources(region, key){
-  const isOkayama = (key === 'okayama');
+/* ============ 出典表示（sources.json 台帳から組み立てる） ============
+   フッターの出典を静的に書くと、地域を変えてもデータが増えても更新されないため
+   必ず実態と乖離する（CLAUDE.mdルール13。実例: ③の凡例が全県で「岡山市」のままだった）。
+   ここでは、実際に読み込んだデータのレコードが持つ出典ID（src）を集め、
+   sources.json から出典名を逆引きして表示する。県を追加しても自動的に正しくなる。 */
+let LEDGER = null;
+const currentSrcIds = {manabi:[], ibasho:[], sodan:[], oyakazoku:[], hattatsu:[], districts:[]};
+// データを読み終えたかどうか。「まだ読み込み中」と「読み終えたが0件」を区別するために持つ
+// （0件の県でも出典は存在する。例: 学びの多様化学校が1校もない県も、その事実の出典は文科省一覧）。
+const srcLoaded = {manabi:false, ibasho:false, sodan:false, oyakazoku:false, hattatsu:false, districts:false};
+// タブ -> 0件だったときに使う台帳側のデータセット名
+const FALLBACK_DATASET = {manabi:'manabi', sodan:'sodan', hattatsu:'hattatsu'};
 
-  const manabiEl = document.getElementById('footer-src-manabi');
-  if(manabiEl){
-    // 岡山県も文科省一覧の該当2校（美作市・津山市）を収録しているため、出典に文科省を明記する。
-    manabiEl.textContent = isOkayama
-      ? '文部科学省「学びの多様化学校の設置者一覧」／岡山市「岡山市児童生徒支援教室」／岡山県教育委員会「不登校の児童生徒及びその保護者を支援する民間団体・施設の情報」（令和8年3月現在）／岡山フリースクール協議会。'
-      : '文部科学省「学びの多様化学校の設置者一覧」。';
+/* レコード配列から出典IDを重複なく取り出す（並び順はデータの出現順＝件数の多い出典が先に来やすい） */
+function collectSrcIds(){
+  const out = [];
+  for(let i=0; i<arguments.length; i++){
+    const list = arguments[i] || [];
+    list.forEach(function(rec){
+      if(rec && rec.src && out.indexOf(rec.src) === -1) out.push(rec.src);
+    });
+  }
+  return out;
+}
+
+/* 出典IDを「発行元＋資料名（時点）」の表示用文字列にする。
+   時点は、原典に基準日の記載があればそれを（例:「令和7年4月1日現在」）、
+   無ければこちらが取得・確認した年月を「◯年◯月確認」として出す。
+   どちらも無い場合だけ時点なしで表示する（推測で日付を作らない）。 */
+function sourceLabelOf(id){
+  const s = LEDGER && LEDGER.sources && LEDGER.sources[id];
+  if(!s) return null;
+  let when = s.as_of;
+  if(!when && s.checked){
+    const m = /^(\d{4})-(\d{2})/.exec(s.checked);
+    if(m) when = m[1] + '年' + parseInt(m[2], 10) + '月確認';
+  }
+  return s.source_label + (when ? '（' + when + '）' : '');
+}
+
+function joinSources(ids){
+  const parts = (ids || []).map(sourceLabelOf).filter(Boolean);
+  return parts.length ? parts.join('／') + '。' : null;
+}
+
+/* データが0件だった県で使う出典（台帳の datasets.<name>.fallback_src） */
+function fallbackIds(tab){
+  const name = FALLBACK_DATASET[tab];
+  const ds = name && LEDGER && LEDGER.datasets && LEDGER.datasets[name];
+  return (ds && ds.fallback_src) ? [ds.fallback_src] : [];
+}
+
+function setFooter(elId, text){
+  const el = document.getElementById(elId);
+  if(el) el.textContent = text;
+}
+
+function renderFooterSources(region){
+  if(!region) return;
+  const avail = region.available || {};
+  const pending = 'データを読み込んでいます…';
+  const unavailable = '準備中（' + region.label + 'のデータは未整備です）。';
+
+  [['manabi','footer-src-manabi'], ['ibasho','footer-src-ibasho'], ['sodan','footer-src-sodan'],
+   ['oyakazoku','footer-src-oyakazoku'], ['hattatsu','footer-src-hattatsu']].forEach(function(pair){
+    const tab = pair[0], elId = pair[1];
+    if(!avail[tab]){ setFooter(elId, unavailable); return; }
+    if(!srcLoaded[tab] || !LEDGER){ setFooter(elId, pending); return; }
+    setFooter(elId, joinSources(currentSrcIds[tab]) || joinSources(fallbackIds(tab)) || pending);
+  });
+
+  // ⑤発達は、岡山県のみ県資料との突合結果を併記する（該当データがある地域だけ）。
+  if(avail.hattatsu && currentSrcIds.hattatsu.indexOf('okayama_pref_hattatsu_list') !== -1){
+    const el = document.getElementById('footer-src-hattatsu');
+    if(el) el.textContent += '両資料で確認できた施設には、その旨を表示しています。';
   }
 
-  const ibashoEl = document.getElementById('footer-src-ibasho');
-  if(ibashoEl){
-    ibashoEl.textContent = isOkayama
-      ? '岡山市「児童館・児童センターについて」（2026年7月時点）／岡山市社会福祉協議会「岡山市内の子どもの居場所一覧」（R6.3月時点）。'
-      : '準備中（' + region.label + 'のデータは未整備です）。';
-  }
-
-  const oyaEl = document.getElementById('footer-src-oyakazoku');
-  if(oyaEl){
-    oyaEl.textContent = isOkayama
-      ? '岡山県「ももっこステーション・地域子育て支援拠点」岡山市内一覧（令和7年4月1日更新）／岡山市。'
-      : '準備中（' + region.label + 'のデータは未整備です）。';
-  }
-
-  const hattatsuEl = document.getElementById('footer-src-hattatsu');
-  if(hattatsuEl){
-    let text = 'WAM NET「障害福祉サービス等情報公表システム」オープンデータ（2026年3月時点、独立行政法人福祉医療機構）。';
-    if(isOkayama){
-      text += '岡山県「保健福祉施設・病院等一覧」児童福祉施設（令和7年4月1日現在）とも突合し、両資料で確認できた施設にはその旨を表示しています。';
-    }
-    hattatsuEl.textContent = text;
-  }
-
+  // 小学校区界のみ、座標の算出に使ったデータの表示義務（CC BY 4.0）があるためリンクを出す。
   const districtsEl = document.getElementById('footer-src-districts');
   if(districtsEl){
-    districtsEl.innerHTML = (region.available && region.available.districts)
-      ? '国土数値情報（小学校区データ A27）国土交通省、令和3年公開版。岡山市は未収録。座標はGoogle Places、および国土交通省「位置参照情報」を元にGeolonia社が作成した住所データ（<a href="https://creativecommons.org/licenses/by/4.0/deed.ja" target="_blank" rel="noopener">CC BY 4.0</a>、独自に緯度経度をマッチング・加工して使用）等を用いて算出しています（2026年7月時点、多くは町丁目レベルの概算）。'
-      : '対象地域は準備中です。';
+    if(!avail.districts){
+      districtsEl.textContent = '対象地域は準備中です。';
+    } else if(!srcLoaded.districts || !LEDGER){
+      districtsEl.textContent = pending;
+    } else {
+      const base = joinSources(currentSrcIds.districts) || pending;
+      const geolonia = LEDGER && LEDGER.sources && LEDGER.sources.geolonia_addr;
+      districtsEl.innerHTML = base
+        + (geolonia
+            ? '座標は' + geolonia.source_label.replace('、CC BY 4.0', '')
+              + '（<a href="https://creativecommons.org/licenses/by/4.0/deed.ja" target="_blank" rel="noopener">CC BY 4.0</a>、独自に緯度経度をマッチング・加工して使用）等を用いて算出しています（多くは町丁目レベルの概算）。'
+            : '');
+    }
   }
+}
+
+/* 出典台帳の読み込み。失敗しても地図は動くので、フッターにだけその旨を出す。 */
+function loadLedger(){
+  return fetchJson('sources.json').then(function(led){
+    LEDGER = led;
+  }).catch(function(){
+    LEDGER = null;
+    ['manabi','ibasho','sodan','oyakazoku','hattatsu','districts'].forEach(function(t){
+      setFooter('footer-src-' + t, '出典台帳（sources.json）を読み込めませんでした。');
+    });
+  });
 }
 
 /* ============ 地域セレクター ============ */
@@ -1383,6 +1477,9 @@ if(['manabi','ibasho','sodan','oyakazoku','hattatsu'].indexOf(location.hash.slic
 }
 
 /* ============ 初期ロード ============ */
+// 出典台帳を先に読む。地図データの読み込みは台帳を待たずに始めてよいが、
+// フッターの出典は台帳が無いと組み立てられないため、読み終わったら再描画する。
+loadLedger().then(function(){ renderFooterSources(REGIONS[regionSelect.value]); });
 loadRegion('okayama');
 </script>
 </body>
