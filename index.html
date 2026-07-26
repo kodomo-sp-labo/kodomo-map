@@ -431,7 +431,10 @@ const REGIONS = {
     label: '東京都',
     base: 'data/13_tokyo/',
     center: [35.689503, 139.691727],
-    available: { manabi:true, sodan:true, hattatsu:true, districts:true }
+    available: { manabi:true, sodan:true, hattatsu:true, districts:true, oyakazoku:true }
+    // 【2026-07-27追加】④は地域子育て支援拠点（1,091件・tokyo_pref_kyoten）のみ。
+    // kyoten.jsonは東京都福祉局「子育てひろば実施施設一覧」由来（②居場所タブは対象外のため
+    // jidoukan.jsonへの二重登録はしていない）。jidoukan.json・oyanokai.jsonは空配列。
   },
   kanagawa: {
     label: '神奈川県',
