@@ -807,7 +807,7 @@ let districtsAvailable = false;
    政令指定都市20市は全市が未収録。また利用条件により再配布できない自治体もある。
    「自分の市に学区界が出ない」理由を実データから説明するため、県ごとの内訳を保持する
    （静的な文言に地名を書かない＝CLAUDE.mdルール13）。 */
-let currentDistricts = { excluded: [], notCovered: [] };
+let currentDistricts = { excluded: [], notCovered: [], restricted: [] };
 document.querySelectorAll('.toggle-districts').forEach(function(cb){
   cb.addEventListener('change', function(e){ setDistrictsVisible(e.target.checked); });
 });
@@ -1181,7 +1181,7 @@ function loadRegion(key){
 
   // 学区界
   districtsAvailable = !!avail.districts;
-  currentDistricts = { excluded: [], notCovered: [] };
+  currentDistricts = { excluded: [], notCovered: [], restricted: [] };
   Object.keys(districtsLayers).forEach(function(k){ districtsLayers[k].clearLayers(); });
   setDistrictsNote('準備中');  // データ取得完了までの暫定表示。取得できれば下でエリア数に置き換える
   if(districtsAvailable){
@@ -1205,7 +1205,8 @@ function loadRegion(key){
       setDistrictsNote(n + '市町村分収録');
       currentDistricts = {
         excluded: geojson.excluded || [],
-        notCovered: geojson.not_covered || []
+        notCovered: geojson.not_covered || [],
+        restricted: geojson.restricted || []
       };
       // 学区界はGeoJSON（FeatureCollection）なので、出典IDはトップレベルのsrcに入っている。
       currentSrcIds.districts = geojson.src ? [geojson.src] : [];
@@ -1341,6 +1342,26 @@ const srcLoaded = {manabi:false, ibasho:false, sodan:false, oyakazoku:false, hat
 // タブ -> 0件だったときに使う台帳側のデータセット名
 const FALLBACK_DATASET = {manabi:'manabi', sodan:'sodan', hattatsu:'hattatsu'};
 
+/* タブが読み込むデータセット。座標の算出に使った資料（datasets.*.geo_sources）の
+   クレジットを、実際に使っているタブに出すために必要。
+   CC BY 4.0（Geolonia住所データ）は「使った場所での表示」を求めるライセンスで、
+   2026-07-26まで④拠点で使っているのに小学校区界のフッターに表示していた
+   （小学校区界のポリゴンはA27そのもので、ジオコーディングしていない）。 */
+const TAB_DATASETS = {
+  manabi: ['manabi'], ibasho: ['ibasho','jidoukan'], sodan: ['sodan'],
+  oyakazoku: ['kyoten','jidoukan','oyanokai'], hattatsu: ['hattatsu'], districts: ['districts']
+};
+function geoSourceIds(tab){
+  const out = [];
+  (TAB_DATASETS[tab] || []).forEach(function(name){
+    const ds = LEDGER && LEDGER.datasets && LEDGER.datasets[name];
+    (ds && ds.geo_sources || []).forEach(function(id){
+      if(out.indexOf(id) === -1) out.push(id);
+    });
+  });
+  return out;
+}
+
 /* レコード配列から出典IDを重複なく取り出す（並び順はデータの出現順＝件数の多い出典が先に来やすい） */
 function collectSrcIds(){
   const out = [];
@@ -1373,6 +1394,37 @@ function joinSources(ids){
   return parts.length ? parts.join('／') + '。' : null;
 }
 
+/* 利用条件の表示を台帳から組み立てる。
+   政府標準利用規約（第2.0版）もPDL1.0もCC BY 4.0も、出典表示とは別に
+   「編集・加工したこと及びその主体」の記載を求めている。本サイトのデータは
+   すべて県別への分割・座標の付与・図形の簡略化等を経ているため、この明示が要る。
+   どの規約が適用されるかは出典ごとに違うので、静的に書かず台帳から出す。 */
+function licenseNoteOf(ids){
+  if(!LEDGER) return '';
+  const holder = LEDGER._credit_holder || '当サイト';
+  const seen = {}, links = [];
+  let needModified = false;
+  (ids || []).forEach(function(id){
+    const s = LEDGER.sources && LEDGER.sources[id];
+    if(!s) return;
+    if(s.modified_note) needModified = true;
+    if(s.license && !seen[s.license]){
+      seen[s.license] = true;
+      links.push(s.license_url
+        ? '<a href="' + s.license_url + '" target="_blank" rel="noopener">' + s.license + '</a>'
+        : s.license);
+    }
+  });
+  let out = '';
+  if(needModified){
+    out += 'これらのデータは' + holder + 'が編集・加工したもので、原典そのものではありません。';
+  }
+  if(links.length){
+    out += '原典の利用条件: ' + links.join('／') + '。';
+  }
+  return out;
+}
+
 /* データが0件だった県で使う出典（台帳の datasets.<name>.fallback_src） */
 function fallbackIds(tab){
   const name = FALLBACK_DATASET[tab];
@@ -1383,6 +1435,17 @@ function fallbackIds(tab){
 function setFooter(elId, text){
   const el = document.getElementById(elId);
   if(el) el.textContent = text;
+}
+function escHtml(s){
+  return String(s).replace(/[&<>]/g, function(c){ return {'&':'&amp;','<':'&lt;','>':'&gt;'}[c]; });
+}
+/* 出典行を「出典（＋座標の出典）＋編集・加工の明示＋利用条件」の順で組み立てる。 */
+function footerHtmlFor(tab, ids){
+  const geo = geoSourceIds(tab).filter(function(id){ return ids.indexOf(id) === -1; });
+  const base = joinSources(ids);
+  if(!base) return null;
+  const geoTxt = geo.length ? '座標の算出には' + joinSources(geo).replace(/。$/, '') + 'を使用しています。' : '';
+  return escHtml(base) + escHtml(geoTxt) + licenseNoteOf(ids.concat(geo));
 }
 
 function renderFooterSources(region){
@@ -1396,16 +1459,21 @@ function renderFooterSources(region){
     const tab = pair[0], elId = pair[1];
     if(!avail[tab]){ setFooter(elId, unavailable); return; }
     if(!srcLoaded[tab] || !LEDGER){ setFooter(elId, pending); return; }
-    setFooter(elId, joinSources(currentSrcIds[tab]) || joinSources(fallbackIds(tab)) || pending);
+    const ids = (currentSrcIds[tab] && currentSrcIds[tab].length) ? currentSrcIds[tab] : fallbackIds(tab);
+    const html = footerHtmlFor(tab, ids);
+    const el = document.getElementById(elId);
+    if(!el) return;
+    if(html) el.innerHTML = html; else el.textContent = pending;
   });
 
   // ⑤発達は、岡山県のみ県資料との突合結果を併記する（該当データがある地域だけ）。
   if(avail.hattatsu && currentSrcIds.hattatsu.indexOf('okayama_pref_hattatsu_list') !== -1){
     const el = document.getElementById('footer-src-hattatsu');
-    if(el) el.textContent += '両資料で確認できた施設には、その旨を表示しています。';
+    if(el) el.insertAdjacentText('beforeend', '両資料で確認できた施設には、その旨を表示しています。');
   }
 
-  // 小学校区界のみ、座標の算出に使ったデータの表示義務（CC BY 4.0）があるためリンクを出す。
+  // 小学校区界。利用条件は出典ごとに違うため、他タブと同じく台帳から組み立てる。
+  // 収録範囲（未収録・除外の自治体）は読み込んだGeoJSON自身から出す。
   const districtsEl = document.getElementById('footer-src-districts');
   if(districtsEl){
     if(!avail.districts){
@@ -1413,14 +1481,9 @@ function renderFooterSources(region){
     } else if(!srcLoaded.districts || !LEDGER){
       districtsEl.textContent = pending;
     } else {
-      const base = joinSources(currentSrcIds.districts) || pending;
-      const geolonia = LEDGER && LEDGER.sources && LEDGER.sources.geolonia_addr;
-      districtsEl.innerHTML = base
-        + (geolonia
-            ? '座標は' + geolonia.source_label.replace('、CC BY 4.0', '')
-              + '（<a href="https://creativecommons.org/licenses/by/4.0/deed.ja" target="_blank" rel="noopener">CC BY 4.0</a>、独自に緯度経度をマッチング・加工して使用）等を用いて算出しています（多くは町丁目レベルの概算）。'
-            : '')
-        + districtsCoverageNote();
+      const html = footerHtmlFor('districts', currentSrcIds.districts);
+      if(html) districtsEl.innerHTML = html + escHtml(districtsCoverageNote());
+      else districtsEl.textContent = pending;
     }
   }
 }
@@ -1441,6 +1504,17 @@ function districtsCoverageNote(){
   if(ex.length){
     s += 'また' + ex.map(function(e){ return e.name; }).join('・')
       + 'は、原典の利用条件により掲載していません。';
+  }
+  /* 小学校区の利用条件は市区町村ごとに異なり、収録した中には商用利用を認めていない
+     自治体等が含まれる。本サイトは非営利のため掲載できるが、このデータを再利用する
+     人には条件が引き継がれるので、該当する自治体名を実データから明示する。 */
+  const rs = currentDistricts.restricted || [];
+  if(rs.length){
+    const head = rs.slice(0, 3).map(function(r){ return r.name; }).join('・');
+    s += '収録した自治体のうち' + head
+      + (rs.length > 3 ? 'など' + rs.length + '市区町村' : '')
+      + 'は、商用利用を認めない等の個別の条件を定めています。'
+      + 'このデータを再利用する場合は、各市区町村の条件に従ってください。';
   }
   return s;
 }

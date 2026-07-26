@@ -1,8 +1,9 @@
 {
-  "_readme": "こども支援資源マップの出典台帳（正本）。data/配下の各JSONは出典ID（src）だけを持ち、ラベル・URL・確認日はこのファイルが持つ（出典文字列の二重管理を避けるため）。index.html はこの台帳を読み込んでフッターの出典表示を組み立てる。sources のキーが出典ID、datasets はどのファイルがどの出典から作られるかの定義。個別PDF等の直リンクは原則登録せず「一覧ページ」を登録する（毎回そこから再取得するため）。URLが確認できていない出典は source を null にしてある（推測でURLを埋めない＝CLAUDE.mdルール2）。datasets の fallback_src は、その県のデータが0件だったとき（例: 学びの多様化学校が1校もない県）に表示する出典。0件であること自体がその資料に基づく事実のため、出典表示を空にしない。last_checked / last_count は月次ワークフロー（未稼働）が自動更新する想定。",
-  "_schema_version": 2,
+  "_readme": "こども支援資源マップの出典台帳（正本）。data/配下の各JSONは出典ID（src）だけを持ち、ラベル・URL・確認日はこのファイルが持つ（出典文字列の二重管理を避けるため）。index.html はこの台帳を読み込んでフッターの出典表示を組み立てる。sources のキーが出典ID、datasets はどのファイルがどの出典から作られるかの定義。個別PDF等の直リンクは原則登録せず「一覧ページ」を登録する（毎回そこから再取得するため）。URLが確認できていない出典は source を null にしてある（推測でURLを埋めない＝CLAUDE.mdルール2）。datasets の fallback_src は、その県のデータが0件だったとき（例: 学びの多様化学校が1校もない県）に表示する出典。0件であること自体がその資料に基づく事実のため、出典表示を空にしない。last_checked / last_count は月次ワークフロー（未稼働）が自動更新する想定。【v3で追加】各出典は利用条件も持つ: license（適用規約名）／license_url／credit（出典表示の要否）／modified_note（編集・加工した旨の明示が必要か）／terms_checked（条件を確認した日。未確認はnull）／conditions（個別の条件・留意点）。政府標準利用規約2.0もPDL1.0も、出典表示とは別に「編集・加工したこととその主体」の記載を求めるため、フッターはこの台帳から両方を生成する。「公的機関が出しているからオープンデータ」は成り立たない（国土数値情報A27は市町村ごとに条件が異なり再配布不可の自治体が実在し、岡山市はカタログ登録データ以外オープンデータではない）。新しい出典を足すときは build_sources_json.py の LICENSES にも必ず追加する（対応が欠けると生成時にエラーで止まる）。",
+  "_schema_version": 3,
   "_generated": "2026-07-26",
   "_generator": "メモ等/build_sources_json.py（生成は初回のみ。以後は人が直接編集する）",
+  "_credit_holder": "子どもウェルビーイングlabo",
   "sources": {
     "mext_tayouka": {
       "source_label": "文部科学省「学びの多様化学校（いわゆる不登校特例校）の設置者一覧」",
@@ -12,7 +13,13 @@
       "as_of": null,
       "tier": "A",
       "discovery_query": "文部科学省 学びの多様化学校 設置者一覧",
-      "notes": "全国84校（2026-07-24取得時点）。緯度経度は原典になく、市区町村名からGSI住所検索APIで付与している（多くは市区町村レベルの概算）。"
+      "notes": "全国84校（2026-07-24取得時点）。緯度経度は原典になく、市区町村名からGSI住所検索APIで付与している（多くは市区町村レベルの概算）。",
+      "license": "政府標準利用規約（第2.0版）",
+      "license_url": "https://www.mext.go.jp/b_menu/1351168.htm",
+      "credit": true,
+      "modified_note": true,
+      "terms_checked": "2026-07-26",
+      "conditions": "CC BY 4.0互換。出典表示と、編集・加工した旨の記載が必要。"
     },
     "cfa_sodan": {
       "source_label": "こども家庭庁「相談窓口」",
@@ -72,7 +79,13 @@
         "46_kagoshima": "https://www.cfa.go.jp/children-inquiries/kagoshima",
         "47_okinawa": "https://www.cfa.go.jp/children-inquiries/okinawa"
       },
-      "notes": "都道府県ごとにページが分かれる。47URLは2026-07-24に索引ページで全件確認済み（推測でURLを組み立てていない）。原典に住所の記載がないため、位置は ksj_p34（市区町村庁舎）で代表させている。"
+      "notes": "都道府県ごとにページが分かれる。47URLは2026-07-24に索引ページで全件確認済み（推測でURLを組み立てていない）。原典に住所の記載がないため、位置は ksj_p34（市区町村庁舎）で代表させている。",
+      "license": "公共データ利用規約（第1.0版）PDL1.0",
+      "license_url": "https://www.cfa.go.jp/copyright-policy",
+      "credit": true,
+      "modified_note": true,
+      "terms_checked": "2026-07-26",
+      "conditions": "出典表示に加え、編集・加工した場合はその旨と主体の記載が必要。"
     },
     "wamnet": {
       "source_label": "WAM NET「障害福祉サービス等情報公表システム」オープンデータ",
@@ -82,7 +95,13 @@
       "as_of": "2026年3月末時点",
       "tier": "A",
       "discovery_query": "WAM NET 障害福祉サービス等情報公表システム オープンデータ",
-      "notes": "サービス種別コード63〜67（児童発達支援／医療型児童発達支援／放課後等デイサービス／居宅訪問型児童発達支援／保育所等訪問支援）を抽出。緯度経度はCSVに標準搭載（全国28,528件、欠損0）。一覧ページURLは2026-07-26に実在を再確認。"
+      "notes": "サービス種別コード63〜67（児童発達支援／医療型児童発達支援／放課後等デイサービス／居宅訪問型児童発達支援／保育所等訪問支援）を抽出。緯度経度はCSVに標準搭載（全国28,528件、欠損0）。一覧ページURLは2026-07-26に実在を再確認。",
+      "license": "WAM NET オープンデータ（出典明記を条件に加工・二次加工可）",
+      "license_url": "https://www.wam.go.jp/content/wamnet/pcpub/top/sfkopendata/",
+      "credit": true,
+      "modified_note": true,
+      "terms_checked": "2026-07-26",
+      "conditions": "ダウンロード・加工・編集・二次加工の上での活用が明記されている。出典明記が条件。"
     },
     "ksj_a27": {
       "source_label": "国土数値情報「小学校区データ（A27）」国土交通省",
@@ -92,7 +111,13 @@
       "as_of": "令和3年度（2021年度）公開版",
       "tier": "A",
       "discovery_query": "国土数値情報 小学校区データ A27",
-      "notes": "2026-07-26に全47都道府県へ展開（メモ等/build_districts.py）。原典URLは令和3年度版のページ（v3_0）に修正（従来はv2_1＝平成28年度版のページを登録していた）。原典の利用約款は「各市町村の定めによる」で自治体ごとに異なるため、国交省の市町村別条件表（R3_Terms_of_use_municipality_data.xlsx）で「再配布・再利用不可」の自治体を機械的に除外している。また原典は全市区町村を網羅しておらず、政令指定都市20市は全市が未収録（岡山市だけの問題ではない）。"
+      "notes": "2026-07-26に全47都道府県へ展開（メモ等/build_districts.py）。原典URLは令和3年度版のページ（v3_0）に修正（従来はv2_1＝平成28年度版のページを登録していた）。原典の利用約款は「各市町村の定めによる」で自治体ごとに異なるため、国交省の市町村別条件表（R3_Terms_of_use_municipality_data.xlsx）で「再配布・再利用不可」の自治体を機械的に除外している。また原典は全市区町村を網羅しておらず、政令指定都市20市は全市が未収録（岡山市だけの問題ではない）。",
+      "license": "国土数値情報 利用約款（本データは「各市町村の定めによる」）",
+      "license_url": "https://nlftp.mlit.go.jp/ksj/other/agreement.html",
+      "credit": true,
+      "modified_note": true,
+      "terms_checked": "2026-07-26",
+      "conditions": "市町村別の条件表（R3_Terms_of_use_municipality_data.xlsx）に従う。「再配布・再利用不可」6自治体と「加工しないこと」1自治体は除外済み。「商用利用不可」67自治体を含むため、再利用者に条件を継承させる必要がある（条件表は商用利用不可と再配布不可を別区分にしており、67自治体は再配布を禁じていない）。"
     },
     "ksj_p34": {
       "source_label": "国土数値情報「市区町村役場データ（P34）」国土交通省",
@@ -102,7 +127,13 @@
       "as_of": "平成26年（2014年）8月31日基準",
       "tier": "A",
       "discovery_query": "国土数値情報 市区町村役場データ P34",
-      "notes": "③相談の位置付与に使用（施設そのものの位置ではなく市区町村庁舎の位置）。単独市制移行による名称ズレはエイリアス表で解決（仕様書§8弱点9）。"
+      "notes": "③相談の位置付与に使用（施設そのものの位置ではなく市区町村庁舎の位置）。単独市制移行による名称ズレはエイリアス表で解決（仕様書§8弱点9）。",
+      "license": "国土数値情報 利用約款",
+      "license_url": "https://nlftp.mlit.go.jp/ksj/other/agreement.html",
+      "credit": true,
+      "modified_note": true,
+      "terms_checked": null,
+      "conditions": "【未確認】A27のような市町村別条件が設定されているかを精査していない。"
     },
     "gsi_geocode": {
       "source_label": "国土地理院 住所検索API",
@@ -112,7 +143,13 @@
       "as_of": null,
       "tier": "A",
       "discovery_query": "国土地理院 住所検索API AddressSearch",
-      "notes": "①学びの座標付与と、③相談のP34座標の乖離チェックに使用。取得座標が期待する都道府県・市区町村を実際に指しているかの突合検証を必ず行う（CLAUDE.mdルール9）。"
+      "notes": "①学びの座標付与と、③相談のP34座標の乖離チェックに使用。取得座標が期待する都道府県・市区町村を実際に指しているかの突合検証を必ず行う（CLAUDE.mdルール9）。",
+      "license": "国土地理院コンテンツ利用（出典表示）",
+      "license_url": "https://www.gsi.go.jp/kikakuchousei/kikakuchousei40182.html",
+      "credit": true,
+      "modified_note": false,
+      "terms_checked": "2026-07-26",
+      "conditions": "住所検索APIは地理院地図向けの提供で、長期的な提供・仕様の維持は保証されないと明示されている（座標算出にのみ使用し、結果は当サイトのデータとして保持）。"
     },
     "geolonia_addr": {
       "source_label": "Geolonia 住所データ（国土交通省「位置参照情報」等をもとにGeolonia社が作成、CC BY 4.0）",
@@ -123,7 +160,12 @@
       "tier": "A",
       "license": "CC BY 4.0",
       "discovery_query": "Geolonia 住所データ 緯度経度 CC BY",
-      "notes": "②④の座標算出に補助的に使用（多くは町丁目レベルの概算）。ライセンス表示義務あり。"
+      "notes": "②④の座標算出に補助的に使用（多くは町丁目レベルの概算）。ライセンス表示義務あり。",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/deed.ja",
+      "credit": true,
+      "modified_note": true,
+      "terms_checked": "2026-07-26",
+      "conditions": "出典表示と改変した旨の記載が必要（フッターに記載済み）。"
     },
     "okayama_pref_freeschool": {
       "source_label": "岡山県教育委員会「不登校の児童生徒及びその保護者を支援する民間団体・施設の情報」",
@@ -133,7 +175,13 @@
       "as_of": "令和8年3月現在",
       "tier": "B",
       "discovery_query": "岡山県教育委員会 不登校 民間団体 施設 情報一覧",
-      "notes": "個別施設PDFは一覧ページ内リンクから毎回再取得する（直リンクを固定しない）。"
+      "notes": "個別施設PDFは一覧ページ内リンクから毎回再取得する（直リンクを固定しない）。",
+      "license": "公共データ利用規約（第1.0版）PDL1.0",
+      "license_url": "https://www.pref.okayama.jp/page/detail-4318.html",
+      "credit": true,
+      "modified_note": true,
+      "terms_checked": "2026-07-26",
+      "conditions": "岡山県サイトポリシー。編集・加工した情報を県が作成したかのような態様で公表してはならない。"
     },
     "okayama_fsc": {
       "source_label": "岡山フリースクール協議会",
@@ -143,7 +191,13 @@
       "as_of": null,
       "tier": "C",
       "discovery_query": "岡山フリースクール協議会 加盟団体",
-      "notes": "【URL未確認】①学びの「協議会加盟」バッジの根拠。施設一覧そのものの出典ではなく属性の補強。URLを確認できていないため source は null のまま（推測で埋めない）。"
+      "notes": "【URL未確認】①学びの「協議会加盟」バッジの根拠。施設一覧そのものの出典ではなく属性の補強。URLを確認できていないため source は null のまま（推測で埋めない）。",
+      "license": null,
+      "license_url": null,
+      "credit": true,
+      "modified_note": false,
+      "terms_checked": null,
+      "conditions": "【未確認】出典URL自体が未特定のため利用条件も確認できていない。施設一覧の出典ではなく「協議会加盟」バッジの根拠としてのみ使用。"
     },
     "okayama_city_shienkyoshitsu": {
       "source_label": "岡山市「岡山市児童生徒支援教室」",
@@ -153,7 +207,13 @@
       "as_of": null,
       "tier": "B",
       "discovery_query": "岡山市 児童生徒支援教室 一覧",
-      "notes": "岡山市の公式ページ「岡山市児童生徒支援教室」。掲載5施設（トラングル一宮・ラポート牧山・あおぞら操山・すまいる瀬戸・そよかぜ平福）がmanabi.jsonのpublic5件と完全一致することを確認（2026-07-26）。旧sources.jsonでURLが失われていたものを再特定。"
+      "notes": "岡山市の公式ページ「岡山市児童生徒支援教室」。掲載5施設（トラングル一宮・ラポート牧山・あおぞら操山・すまいる瀬戸・そよかぜ平福）がmanabi.jsonのpublic5件と完全一致することを確認（2026-07-26）。旧sources.jsonでURLが失われていたものを再特定。",
+      "license": "岡山市サイトポリシー（オープンデータではない）",
+      "license_url": "https://www.city.okayama.jp/0000016716.html",
+      "credit": true,
+      "modified_note": true,
+      "terms_checked": "2026-07-26",
+      "conditions": "岡山市のオープンデータ（CC BY 4.0）の対象はカタログ登録データのみで、本データは未登録（2026-07-26確認）。市の規約は無断複製・転用を認めず二次利用は担当課への事前相談を求めている。当サイトが保持しているのは施設名・所在地・電話番号・座標等の事実情報のみで、ページの文章は転載していない。担当課への一報が望ましい。"
     },
     "okayama_city_kyoiku_sodan": {
       "source_label": "岡山市教育相談室",
@@ -163,7 +223,13 @@
       "as_of": null,
       "tier": "B",
       "discovery_query": "岡山市 教育相談室 不登校 相談",
-      "notes": "岡山市の公式ページ「岡山市教育相談室」。所在地（中区国富三丁目9-12 操山公民館3階）・電話086-207-2170を確認（2026-07-26）。manabi.jsonのcategory=consult 1件の出典。旧sources.jsonでURLが失われていたものを再特定。"
+      "notes": "岡山市の公式ページ「岡山市教育相談室」。所在地（中区国富三丁目9-12 操山公民館3階）・電話086-207-2170を確認（2026-07-26）。manabi.jsonのcategory=consult 1件の出典。旧sources.jsonでURLが失われていたものを再特定。",
+      "license": "岡山市サイトポリシー（オープンデータではない）",
+      "license_url": "https://www.city.okayama.jp/0000016716.html",
+      "credit": true,
+      "modified_note": true,
+      "terms_checked": "2026-07-26",
+      "conditions": "okayama_city_shienkyoshitsu と同じ。事実情報のみ掲載。"
     },
     "okayama_pref_hattatsu_list": {
       "source_label": "岡山県「保健福祉施設・病院等一覧」児童福祉施設",
@@ -173,7 +239,13 @@
       "as_of": "令和7年4月1日現在",
       "tier": "B",
       "discovery_query": "岡山県 児童福祉施設 一覧 保健福祉施設",
-      "notes": "⑤発達の主データはWAM NET（wamnet）。この県資料は突合による裏付けで、両資料で確認できた施設に pref_pdf / pref_list_src を付与している。児童発達支援センター指定19件・主たる対象障害もこの資料由来。"
+      "notes": "⑤発達の主データはWAM NET（wamnet）。この県資料は突合による裏付けで、両資料で確認できた施設に pref_pdf / pref_list_src を付与している。児童発達支援センター指定19件・主たる対象障害もこの資料由来。",
+      "license": "公共データ利用規約（第1.0版）PDL1.0",
+      "license_url": "https://www.pref.okayama.jp/page/detail-4318.html",
+      "credit": true,
+      "modified_note": true,
+      "terms_checked": "2026-07-26",
+      "conditions": null
     },
     "okayama_pref_momokko": {
       "source_label": "岡山県「ももっこステーション（地域子育て支援拠点）」",
@@ -183,7 +255,13 @@
       "as_of": "令和7年4月1日更新",
       "tier": "B",
       "discovery_query": "岡山県 地域子育て支援拠点 ももっこステーション 一覧",
-      "notes": "2026-07-26に岡山市内のみ39件から県全域151件へ拡張（倉敷市・備前/備中/美作県民局の各地域を追加）。"
+      "notes": "2026-07-26に岡山市内のみ39件から県全域151件へ拡張（倉敷市・備前/備中/美作県民局の各地域を追加）。",
+      "license": "公共データ利用規約（第1.0版）PDL1.0",
+      "license_url": "https://www.pref.okayama.jp/page/detail-4318.html",
+      "credit": true,
+      "modified_note": true,
+      "terms_checked": "2026-07-26",
+      "conditions": null
     },
     "okayama_pref_jidoukan": {
       "source_label": "岡山県「児童館・児童遊園一覧」",
@@ -193,7 +271,13 @@
       "as_of": null,
       "tier": "B",
       "discovery_query": "岡山県 児童館 児童遊園 一覧",
-      "notes": "【要改善】PDFへの直リンクを登録している。この台帳の原則は「一覧ページを登録し直リンクは固定しない」（PDFのURLは改訂で変わるため）。親の一覧ページを特定できていないため暫定でPDFのURLを記録している。月次監視の対象にする前に一覧ページを特定すること。岡山市立の児童館22件は別出典（okayama_city_jidoukan）。"
+      "notes": "【要改善】PDFへの直リンクを登録している。この台帳の原則は「一覧ページを登録し直リンクは固定しない」（PDFのURLは改訂で変わるため）。親の一覧ページを特定できていないため暫定でPDFのURLを記録している。月次監視の対象にする前に一覧ページを特定すること。岡山市立の児童館22件は別出典（okayama_city_jidoukan）。",
+      "license": "公共データ利用規約（第1.0版）PDL1.0",
+      "license_url": "https://www.pref.okayama.jp/page/detail-4318.html",
+      "credit": true,
+      "modified_note": true,
+      "terms_checked": "2026-07-26",
+      "conditions": null
     },
     "okayama_city_jidoukan": {
       "source_label": "岡山市「児童館・児童センターについて」",
@@ -203,7 +287,13 @@
       "as_of": "2026年7月時点",
       "tier": "B",
       "discovery_query": "岡山市 児童館 児童センター 一覧",
-      "notes": "岡山市立の児童館・児童センター22件。②居場所と④親家族の両タブが同じjidoukan.jsonを参照する（児童館は原則すべて地域子育て支援拠点を兼ねるため）。"
+      "notes": "岡山市立の児童館・児童センター22件。②居場所と④親家族の両タブが同じjidoukan.jsonを参照する（児童館は原則すべて地域子育て支援拠点を兼ねるため）。",
+      "license": "岡山市サイトポリシー（オープンデータではない）",
+      "license_url": "https://www.city.okayama.jp/0000016716.html",
+      "credit": true,
+      "modified_note": true,
+      "terms_checked": "2026-07-26",
+      "conditions": "okayama_city_shienkyoshitsu と同じ。事実情報のみ掲載。"
     },
     "okayama_shakyo_ibasho": {
       "source_label": "岡山市社会福祉協議会「岡山市内の子どもの居場所一覧」",
@@ -213,7 +303,13 @@
       "as_of": "令和6年3月時点",
       "tier": "C",
       "discovery_query": "岡山市社会福祉協議会 子どもの居場所一覧 PDF",
-      "notes": "PDFのレイアウトが複雑で自動抽出の信頼度が低い。全件自動再生成はせず、差分候補の提示に留める運用（update-data-sources.md の絶対に守ること5）。"
+      "notes": "PDFのレイアウトが複雑で自動抽出の信頼度が低い。全件自動再生成はせず、差分候補の提示に留める運用（update-data-sources.md の絶対に守ること5）。",
+      "license": null,
+      "license_url": null,
+      "credit": true,
+      "modified_note": true,
+      "terms_checked": "2026-07-26",
+      "conditions": "【条件の記載を確認できず】サイトにプライバシーポリシーはあるが、コンテンツの利用条件の記載を見つけられなかった。掲載しているのは事実情報のみ。先方に確認するのが望ましい。"
     },
     "own_survey_oyanokai": {
       "source_label": "子どもウェルビーイングlabo 独自調査（親の会）",
@@ -223,7 +319,13 @@
       "as_of": null,
       "tier": "C",
       "discovery_query": null,
-      "notes": "親の会には全国・県単位の公的名簿が存在しない（仕様書§1 Tier C）。各会の公表情報から確認できた分のみを掲載しており、網羅的な一覧ではない。この性質は画面上にも明示している。"
+      "notes": "親の会には全国・県単位の公的名簿が存在しない（仕様書§1 Tier C）。各会の公表情報から確認できた分のみを掲載しており、網羅的な一覧ではない。この性質は画面上にも明示している。",
+      "license": "子どもウェルビーイングlabo 独自調査（当団体が権利者）",
+      "license_url": null,
+      "credit": false,
+      "modified_note": false,
+      "terms_checked": "2026-07-26",
+      "conditions": "各会の公表情報から確認できた分のみ。網羅的な一覧ではないことを画面上に明示している。"
     }
   },
   "datasets": {
