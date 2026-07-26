@@ -876,7 +876,7 @@ function renderManabi(source){
 }
 
 /* ============ ②居場所 ============ */
-function renderIbasho(jidoukan, ibasho){
+function renderIbasho(jidoukan, ibasho, key){
   currentIbashoJidoukan = jidoukan; currentIbashoPlaces = ibasho;
   ibashoCluster.clearLayers();
   const markers = [];
@@ -900,7 +900,7 @@ function renderIbasho(jidoukan, ibasho){
   if(markers.length){ const b = L.featureGroup(markers).getBounds().pad(0.1); lastBounds.ibasho = b; boundsDirty.ibasho = true; mapIbasho.fitBounds(b, {maxZoom:FIT_MAX_ZOOM}); }
   else { const b = L.latLng(currentRegionCenter).toBounds(80000); lastBounds.ibasho = b; boundsDirty.ibasho = true; mapIbasho.fitBounds(b, {maxZoom:FIT_MAX_ZOOM}); }
   renderIbashoList('');
-  updateIbashoLegend();
+  updateIbashoLegend(key);
 }
 function renderIbashoList(query){
   const body = document.getElementById('ibasho-list-body');
@@ -1139,7 +1139,7 @@ function loadRegion(key){
   if(avail.ibasho){
     Promise.all([fetchJson(region.base + 'jidoukan.json'), fetchJson(region.base + 'ibasho.json')])
       .then(function(r){
-        renderIbasho(r[0], r[1]);
+        renderIbasho(r[0], r[1], key);
         currentSrcIds.ibasho = collectSrcIds(r[0], r[1]);
         srcLoaded.ibasho = true;
         renderFooterSources(region);
@@ -1244,17 +1244,25 @@ function setDistrictsNote(text){
    実際のkyoten.jsonは39件で、初回uploadから一度も58だったことがなかった）。
    児童館は②④兼用（jidoukan.jsonに一元化し両タブから参照）なので、④では内訳を明示する。 */
 function setText(id, s){ const el=document.getElementById(id); if(el) el.textContent = s; }
-function updateIbashoLegend(){
+function updateIbashoLegend(key){
   const jk = currentIbashoJidoukan.filter(function(f){ return (f.facility_type||'jidoukan')==='jidoukan'; }).length;
   const jy = currentIbashoJidoukan.length - jk;
   const susp = currentIbashoJidoukan.filter(function(f){ return f.status==='suspended'; }).length;
   setText('lg-ibasho-1-n', jy ? (jk+'館＋児童遊園'+jy+'か所') : (jk+'館'));
   setText('lg-ibasho-2-n', currentIbashoPlaces.length+'件');
-  setText('notice-ibasho',
-    '児童館・児童遊園は岡山県全域、子ども食堂・プレーパーク等は岡山市内のみを収録しています。'
-    + '児童館は原則すべて④地域子育て支援拠点も兼ねています。'
-    + (susp ? '休止中の施設が'+susp+'件含まれます（一覧に明示）。' : '')
-    + '座標は国土地理院APIで市区町村名を突合して確認しています。');
+  const suspNote = susp ? ('休止中の施設が'+susp+'件含まれます（一覧に明示）。') : '';
+  let base;
+  if(key === 'okayama'){
+    base = '児童館・児童遊園は岡山県全域、子ども食堂・プレーパーク等は岡山市内のみを収録しています。'
+      + '児童館は原則すべて④地域子育て支援拠点も兼ねています。';
+  } else if(key === 'osaka'){
+    base = '子ども食堂等は大阪府の公式一覧のうち、住所抽出の精度を確認できた'+currentIbashoPlaces.length+'件を収録しています'
+      + '（抽出精度に課題が残る市町村は今後追加予定です）。'
+      + (jk ? '' : '児童館・児童センターは今後の調査対象です（現時点で0件）。');
+  } else {
+    base = jk ? ('児童館・児童センターを'+jk+'件収録しています。') : '児童館・児童センターは今後の調査対象です（現時点で0件）。';
+  }
+  setText('notice-ibasho', base + suspNote + '座標は国土地理院APIで市区町村名を突合して確認しています。');
 }
 function updateOyaLegend(){
   const kj = currentKyoten.length;
