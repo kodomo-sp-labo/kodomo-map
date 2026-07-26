@@ -1,9 +1,9 @@
 [
 {
 "area": "岐阜県",
-"lat": null,
-"lng": null,
-"prec": "unresolved",
+"lat": 35.391174,
+"lng": 136.723663,
+"prec": "area",
 "windows": [
 {
 "n": "岐阜県青少年SOSセンター",
@@ -156,12 +156,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "岐阜県"
 },
 {
 "area": "岐阜市",
-"lat": 35.423301,
-"lng": 136.760657,
+"lat": 35.426201,
+"lng": 136.759933,
 "prec": "area",
 "windows": [
 {
@@ -213,12 +214,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "岐阜県岐阜市"
 },
 {
 "area": "大垣市",
-"lat": 35.359365,
-"lng": 136.612753,
+"lat": 35.35989,
+"lng": 136.612793,
 "prec": "area",
 "windows": [
 {
@@ -528,12 +530,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "岐阜県大垣市"
 },
 {
 "area": "高山市",
-"lat": 36.146093,
-"lng": 137.252206,
+"lat": 36.146049,
+"lng": 137.252243,
 "prec": "area",
 "windows": [
 {
@@ -579,12 +582,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "岐阜県高山市"
 },
 {
 "area": "多治見市",
-"lat": 35.332773,
-"lng": 137.132078,
+"lat": 35.332779,
+"lng": 137.132217,
 "prec": "area",
 "windows": [
 {
@@ -714,12 +718,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "岐阜県多治見市"
 },
 {
 "area": "関市",
-"lat": 35.495777,
-"lng": 136.917895,
+"lat": 35.495834,
+"lng": 136.91777,
 "prec": "area",
 "windows": [
 {
@@ -843,12 +848,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "岐阜県関市"
 },
 {
 "area": "中津川市",
-"lat": 35.487493,
-"lng": 137.500616,
+"lat": 35.487499,
+"lng": 137.500549,
 "prec": "area",
 "windows": [
 {
@@ -858,12 +864,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "岐阜県中津川市"
 },
 {
 "area": "美濃市",
-"lat": 35.544713,
-"lng": 136.90757,
+"lat": 35.544724,
+"lng": 136.907501,
 "prec": "area",
 "windows": [
 {
@@ -879,12 +886,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "岐阜県美濃市"
 },
 {
 "area": "瑞浪市",
-"lat": 35.36174,
-"lng": 137.254639,
+"lat": 35.361736,
+"lng": 137.254608,
 "prec": "area",
 "windows": [
 {
@@ -900,12 +908,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "岐阜県瑞浪市"
 },
 {
 "area": "羽島市",
-"lat": 35.31991,
-"lng": 136.703349,
+"lat": 35.319489,
+"lng": 136.702713,
 "prec": "area",
 "windows": [
 {
@@ -921,12 +930,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "岐阜県羽島市"
 },
 {
 "area": "恵那市",
-"lat": 35.44932,
-"lng": 137.412817,
+"lat": 35.449322,
+"lng": 137.412811,
 "prec": "area",
 "windows": [
 {
@@ -936,12 +946,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "岐阜県恵那市"
 },
 {
 "area": "美濃加茂市",
-"lat": 35.440242,
-"lng": 137.015664,
+"lat": 35.440277,
+"lng": 137.015549,
 "prec": "area",
 "windows": [
 {
@@ -963,12 +974,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "岐阜県美濃加茂市"
 },
 {
 "area": "土岐市",
-"lat": 35.352497,
-"lng": 137.183205,
+"lat": 35.352261,
+"lng": 137.182999,
 "prec": "area",
 "windows": [
 {
@@ -990,12 +1002,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "岐阜県土岐市"
 },
 {
 "area": "各務原市",
-"lat": 35.398912,
-"lng": 136.848393,
+"lat": 35.398621,
+"lng": 136.84848,
 "prec": "area",
 "windows": [
 {
@@ -1071,12 +1084,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "岐阜県各務原市"
 },
 {
 "area": "可児市",
-"lat": 35.426132,
-"lng": 137.061075,
+"lat": 35.426125,
+"lng": 137.06102,
 "prec": "area",
 "windows": [
 {
@@ -1122,12 +1136,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "岐阜県可児市"
 },
 {
 "area": "山県市",
 "lat": 35.506111,
-"lng": 136.781401,
+"lng": 136.781387,
 "prec": "area",
 "windows": [
 {
@@ -1155,12 +1170,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "岐阜県山県市"
 },
 {
 "area": "瑞穂市",
-"lat": 35.391826,
-"lng": 136.690784,
+"lat": 35.39188,
+"lng": 136.690811,
 "prec": "area",
 "windows": [
 {
@@ -1188,12 +1204,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "岐阜県瑞穂市"
 },
 {
 "area": "飛騨市",
-"lat": 36.238144,
-"lng": 137.186246,
+"lat": 36.238331,
+"lng": 137.186111,
 "prec": "area",
 "windows": [
 {
@@ -1221,12 +1238,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "岐阜県飛騨市"
 },
 {
 "area": "本巣市",
-"lat": 35.483052,
-"lng": 136.678771,
+"lat": 35.455387,
+"lng": 136.665939,
 "prec": "area",
 "windows": [
 {
@@ -1272,12 +1290,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "岐阜県本巣市"
 },
 {
 "area": "郡上市",
-"lat": 35.748569,
-"lng": 136.964368,
+"lat": 35.748611,
+"lng": 136.964447,
 "prec": "area",
 "windows": [
 {
@@ -1293,12 +1312,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "岐阜県郡上市"
 },
 {
 "area": "下呂市",
-"lat": 35.805879,
-"lng": 137.244061,
+"lat": 35.805832,
+"lng": 137.244171,
 "prec": "area",
 "windows": [
 {
@@ -1320,12 +1340,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "岐阜県下呂市"
 },
 {
 "area": "海津市",
-"lat": 35.22047,
-"lng": 136.636612,
+"lat": 35.220509,
+"lng": 136.637131,
 "prec": "area",
 "windows": [
 {
@@ -1347,12 +1368,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "岐阜県海津市"
 },
 {
 "area": "岐南町",
-"lat": 35.389594,
-"lng": 136.78262,
+"lat": 35.389767,
+"lng": 136.783356,
 "prec": "area",
 "windows": [
 {
@@ -1362,12 +1384,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "岐阜県岐南町"
 },
 {
 "area": "笠松町",
 "lat": 35.367222,
-"lng": 136.763192,
+"lng": 136.763336,
 "prec": "area",
 "windows": [
 {
@@ -1383,12 +1406,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "岐阜県笠松町"
 },
 {
 "area": "養老町",
-"lat": 35.308411,
-"lng": 136.561359,
+"lat": 35.308422,
+"lng": 136.561417,
 "prec": "area",
 "windows": [
 {
@@ -1446,12 +1470,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "岐阜県養老町"
 },
 {
 "area": "垂井町",
-"lat": 35.370244,
-"lng": 136.527095,
+"lat": 35.366249,
+"lng": 136.537964,
 "prec": "area",
 "windows": [
 {
@@ -1473,12 +1498,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "岐阜県垂井町"
 },
 {
 "area": "関ケ原町",
-"lat": 35.365523,
-"lng": 136.466976,
+"lat": 35.365536,
+"lng": 136.46701,
 "prec": "area",
 "windows": [
 {
@@ -1494,12 +1520,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "岐阜県関ケ原町"
 },
 {
 "area": "神戸町",
-"lat": 35.417349,
-"lng": 136.608517,
+"lat": 35.417301,
+"lng": 136.608536,
 "prec": "area",
 "windows": [
 {
@@ -1533,12 +1560,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "岐阜県神戸町"
 },
 {
 "area": "輪之内町",
-"lat": 35.285113,
-"lng": 136.637444,
+"lat": 35.285088,
+"lng": 136.637527,
 "prec": "area",
 "windows": [
 {
@@ -1560,12 +1588,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "岐阜県輪之内町"
 },
 {
 "area": "安八町",
-"lat": 35.335418,
-"lng": 136.665415,
+"lat": 35.335388,
+"lng": 136.665436,
 "prec": "area",
 "windows": [
 {
@@ -1575,12 +1604,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "岐阜県安八町"
 },
 {
 "area": "揖斐川町",
-"lat": 35.486948,
-"lng": 136.5682,
+"lat": 35.487293,
+"lng": 136.568665,
 "prec": "area",
 "windows": [
 {
@@ -1590,12 +1620,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "岐阜県揖斐川町"
 },
 {
 "area": "大野町",
-"lat": 35.470675,
-"lng": 136.627636,
+"lat": 35.470554,
+"lng": 136.627502,
 "prec": "area",
 "windows": [
 {
@@ -1623,12 +1654,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "岐阜県大野町"
 },
 {
 "area": "池田町",
-"lat": 35.4423,
-"lng": 136.572851,
+"lat": 35.442223,
+"lng": 136.573059,
 "prec": "area",
 "windows": [
 {
@@ -1638,12 +1670,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "岐阜県池田町"
 },
 {
 "area": "北方町",
-"lat": 35.436961,
-"lng": 136.685972,
+"lat": 35.43568,
+"lng": 136.684448,
 "prec": "area",
 "windows": [
 {
@@ -1665,12 +1698,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "岐阜県北方町"
 },
 {
 "area": "坂祝町",
-"lat": 35.426734,
-"lng": 136.98537,
+"lat": 35.426666,
+"lng": 136.985275,
 "prec": "area",
 "windows": [
 {
@@ -1686,12 +1720,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "岐阜県坂祝町"
 },
 {
 "area": "富加町",
-"lat": 35.484761,
-"lng": 136.979707,
+"lat": 35.484722,
+"lng": 136.979721,
 "prec": "area",
 "windows": [
 {
@@ -1713,12 +1748,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "岐阜県富加町"
 },
 {
 "area": "川辺町",
-"lat": 35.486548,
-"lng": 137.070605,
+"lat": 35.486565,
+"lng": 137.070633,
 "prec": "area",
 "windows": [
 {
@@ -1740,12 +1776,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "岐阜県川辺町"
 },
 {
 "area": "七宗町",
-"lat": 35.54384,
-"lng": 137.119946,
+"lat": 35.543858,
+"lng": 137.11998,
 "prec": "area",
 "windows": [
 {
@@ -1755,12 +1792,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "岐阜県七宗町"
 },
 {
 "area": "八百津町",
-"lat": 35.475988,
-"lng": 137.141499,
+"lat": 35.475998,
+"lng": 137.141602,
 "prec": "area",
 "windows": [
 {
@@ -1782,12 +1820,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "岐阜県八百津町"
 },
 {
 "area": "白川町",
-"lat": 35.581862,
-"lng": 137.187821,
+"lat": 35.581299,
+"lng": 137.19133,
 "prec": "area",
 "windows": [
 {
@@ -1803,12 +1842,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "岐阜県白川町"
 },
 {
 "area": "東白川村",
-"lat": 35.64256,
-"lng": 137.323745,
+"lat": 35.642498,
+"lng": 137.323883,
 "prec": "area",
 "windows": [
 {
@@ -1830,12 +1870,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "岐阜県東白川村"
 },
 {
 "area": "御嵩町",
-"lat": 35.434493,
-"lng": 137.130885,
+"lat": 35.434444,
+"lng": 137.130829,
 "prec": "area",
 "windows": [
 {
@@ -1869,12 +1910,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "岐阜県御嵩町"
 },
 {
 "area": "白川村",
-"lat": 36.270904,
-"lng": 136.898542,
+"lat": 36.270939,
+"lng": 136.898575,
 "prec": "area",
 "windows": [
 {
@@ -1884,6 +1926,7 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "岐阜県白川村"
 }
 ]

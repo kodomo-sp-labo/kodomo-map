@@ -1,9 +1,9 @@
 [
 {
 "area": "富山県",
-"lat": null,
-"lng": null,
-"prec": "unresolved",
+"lat": 36.695267,
+"lng": 137.211304,
+"prec": "area",
 "windows": [
 {
 "n": "富山県教育委員会生涯学習・文化財室「子育てほっとライン」",
@@ -150,12 +150,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "富山県"
 },
 {
 "area": "富山市",
-"lat": 36.695982,
-"lng": 137.213449,
+"lat": 36.695904,
+"lng": 137.213715,
 "prec": "area",
 "windows": [
 {
@@ -165,12 +166,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "富山県富山市"
 },
 {
 "area": "高岡市",
-"lat": 36.754099,
-"lng": 137.025717,
+"lat": 36.754074,
+"lng": 137.025711,
 "prec": "area",
 "windows": [
 {
@@ -246,12 +248,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "富山県高岡市"
 },
 {
 "area": "魚津市",
-"lat": 36.827367,
-"lng": 137.40919,
+"lat": 36.827396,
+"lng": 137.409088,
 "prec": "area",
 "windows": [
 {
@@ -285,12 +288,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "富山県魚津市"
 },
 {
 "area": "氷見市",
-"lat": 36.855978,
-"lng": 136.972868,
+"lat": 36.85598,
+"lng": 136.972794,
 "prec": "area",
 "windows": [
 {
@@ -330,12 +334,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "富山県氷見市"
 },
 {
 "area": "滑川市",
-"lat": 36.764394,
-"lng": 137.34118,
+"lat": 36.764442,
+"lng": 137.34111,
 "prec": "area",
 "windows": [
 {
@@ -357,12 +362,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "富山県滑川市"
 },
 {
 "area": "黒部市",
-"lat": 36.87359,
-"lng": 137.449095,
+"lat": 36.871498,
+"lng": 137.448029,
 "prec": "area",
 "windows": [
 {
@@ -396,12 +402,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "富山県黒部市"
 },
 {
 "area": "砺波市",
-"lat": 36.647467,
-"lng": 136.962167,
+"lat": 36.647499,
+"lng": 136.962234,
 "prec": "area",
 "windows": [
 {
@@ -441,12 +448,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "富山県砺波市"
 },
 {
 "area": "小矢部市",
-"lat": 36.675531,
-"lng": 136.868653,
+"lat": 36.675552,
+"lng": 136.868622,
 "prec": "area",
 "windows": [
 {
@@ -480,12 +488,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "富山県小矢部市"
 },
 {
 "area": "南砺市",
-"lat": 36.588049,
-"lng": 136.919511,
+"lat": 36.557453,
+"lng": 136.875427,
 "prec": "area",
 "windows": [
 {
@@ -531,12 +540,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "富山県南砺市"
 },
 {
 "area": "射水市",
-"lat": 36.712222,
-"lng": 137.099559,
+"lat": 36.730549,
+"lng": 137.075394,
 "prec": "area",
 "windows": [
 {
@@ -570,12 +580,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "富山県射水市"
 },
 {
 "area": "舟橋村",
-"lat": 36.703525,
-"lng": 137.307372,
+"lat": 36.703529,
+"lng": 137.307388,
 "prec": "area",
 "windows": [
 {
@@ -585,12 +596,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "富山県舟橋村"
 },
 {
 "area": "上市町",
-"lat": 36.698429,
-"lng": 137.362586,
+"lat": 36.698334,
+"lng": 137.362503,
 "prec": "area",
 "windows": [
 {
@@ -606,12 +618,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "富山県上市町"
 },
 {
 "area": "立山町",
-"lat": 36.663346,
-"lng": 137.313658,
+"lat": 36.663486,
+"lng": 137.313705,
 "prec": "area",
 "windows": [
 {
@@ -639,12 +652,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "富山県立山町"
 },
 {
 "area": "入善町",
-"lat": 36.933578,
-"lng": 137.502128,
+"lat": 36.925056,
+"lng": 137.505142,
 "prec": "area",
 "windows": [
 {
@@ -672,12 +686,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "富山県入善町"
 },
 {
 "area": "朝日町",
-"lat": 36.946179,
-"lng": 137.559868,
+"lat": 36.946186,
+"lng": 137.559982,
 "prec": "area",
 "windows": [
 {
@@ -705,6 +720,7 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "富山県朝日町"
 }
 ]

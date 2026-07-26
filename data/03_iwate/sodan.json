@@ -1,8 +1,8 @@
 [
 {
 "area": "盛岡市",
-"lat": 39.701795,
-"lng": 141.154183,
+"lat": 39.702068,
+"lng": 141.154465,
 "prec": "area",
 "windows": [
 {
@@ -90,12 +90,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "岩手県盛岡市"
 },
 {
 "area": "宮古市",
-"lat": 39.641456,
-"lng": 141.957095,
+"lat": 39.639553,
+"lng": 141.946121,
 "prec": "area",
 "windows": [
 {
@@ -165,12 +166,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "岩手県宮古市"
 },
 {
 "area": "大船渡市",
-"lat": 39.081901,
-"lng": 141.708547,
+"lat": 39.081863,
+"lng": 141.708481,
 "prec": "area",
 "windows": [
 {
@@ -204,12 +206,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "岩手県大船渡市"
 },
 {
 "area": "花巻市",
-"lat": 39.388609,
-"lng": 141.116854,
+"lat": 39.388611,
+"lng": 141.116898,
 "prec": "area",
 "windows": [
 {
@@ -255,12 +258,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "岩手県花巻市"
 },
 {
 "area": "北上市",
-"lat": 39.286817,
-"lng": 141.113157,
+"lat": 39.286774,
+"lng": 141.113235,
 "prec": "area",
 "windows": [
 {
@@ -282,12 +286,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "岩手県北上市"
 },
 {
 "area": "久慈市",
-"lat": 40.190466,
-"lng": 141.775644,
+"lat": 40.190449,
+"lng": 141.77565,
 "prec": "area",
 "windows": [
 {
@@ -339,12 +344,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "岩手県久慈市"
 },
 {
 "area": "遠野市",
-"lat": 39.327657,
-"lng": 141.533538,
+"lat": 39.330688,
+"lng": 141.531387,
 "prec": "area",
 "windows": [
 {
@@ -366,12 +372,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "岩手県遠野市"
 },
 {
 "area": "一関市",
-"lat": 38.934754,
-"lng": 141.126759,
+"lat": 38.934711,
+"lng": 141.126648,
 "prec": "area",
 "windows": [
 {
@@ -435,12 +442,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "岩手県一関市"
 },
 {
 "area": "陸前高田市",
-"lat": 39.027942,
-"lng": 141.625418,
+"lat": 39.020378,
+"lng": 141.633194,
 "prec": "area",
 "windows": [
 {
@@ -468,12 +476,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "岩手県陸前高田市"
 },
 {
 "area": "釜石市",
-"lat": 39.27581,
-"lng": 141.885716,
+"lat": 39.275837,
+"lng": 141.885666,
 "prec": "area",
 "windows": [
 {
@@ -501,12 +510,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "岩手県釜石市"
 },
 {
 "area": "二戸市",
-"lat": 40.271193,
-"lng": 141.304805,
+"lat": 40.271206,
+"lng": 141.30481,
 "prec": "area",
 "windows": [
 {
@@ -534,12 +544,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "岩手県二戸市"
 },
 {
 "area": "八幡平市",
-"lat": 39.956511,
-"lng": 141.07112,
+"lat": 39.956532,
+"lng": 141.071243,
 "prec": "area",
 "windows": [
 {
@@ -561,12 +572,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "岩手県八幡平市"
 },
 {
 "area": "奥州市",
-"lat": 39.144506,
-"lng": 141.139116,
+"lat": 39.14447,
+"lng": 141.139084,
 "prec": "area",
 "windows": [
 {
@@ -600,12 +612,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "岩手県奥州市"
 },
 {
 "area": "滝沢市",
-"lat": 39.734739,
-"lng": 141.077065,
+"lat": 39.73476,
+"lng": 141.077057,
 "prec": "area",
 "windows": [
 {
@@ -651,12 +664,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "岩手県滝沢市"
 },
 {
 "area": "雫石町",
-"lat": 39.696319,
-"lng": 140.975779,
+"lat": 39.696255,
+"lng": 140.975739,
 "prec": "area",
 "windows": [
 {
@@ -684,12 +698,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "岩手県雫石町"
 },
 {
 "area": "葛巻町",
-"lat": 40.03984,
-"lng": 141.436719,
+"lat": 40.039959,
+"lng": 141.437881,
 "prec": "area",
 "windows": [
 {
@@ -705,12 +720,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "岩手県葛巻町"
 },
 {
 "area": "岩手町",
-"lat": 39.972768,
-"lng": 141.212166,
+"lat": 39.972569,
+"lng": 141.21257,
 "prec": "area",
 "windows": [
 {
@@ -726,12 +742,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "岩手県岩手町"
 },
 {
 "area": "紫波町",
-"lat": 39.554854,
-"lng": 141.167821,
+"lat": 39.554543,
+"lng": 141.155716,
 "prec": "area",
 "windows": [
 {
@@ -753,12 +770,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "岩手県紫波町"
 },
 {
 "area": "矢巾町",
-"lat": 39.606006,
-"lng": 141.143001,
+"lat": 39.605988,
+"lng": 141.143021,
 "prec": "area",
 "windows": [
 {
@@ -792,12 +810,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "岩手県矢巾町"
 },
 {
 "area": "西和賀町",
-"lat": 39.317906,
-"lng": 140.778754,
+"lat": 39.31797,
+"lng": 140.778946,
 "prec": "area",
 "windows": [
 {
@@ -813,12 +832,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "岩手県西和賀町"
 },
 {
 "area": "金ケ崎町",
-"lat": 39.195687,
-"lng": 141.116408,
+"lat": 39.195747,
+"lng": 141.116333,
 "prec": "area",
 "windows": [
 {
@@ -852,12 +872,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "岩手県金ケ崎町"
 },
 {
 "area": "平泉町",
-"lat": 38.986781,
-"lng": 141.11398,
+"lat": 38.986588,
+"lng": 141.113846,
 "prec": "area",
 "windows": [
 {
@@ -885,12 +906,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "岩手県平泉町"
 },
 {
 "area": "住田町",
-"lat": 39.141905,
-"lng": 141.576053,
+"lat": 39.14217,
+"lng": 141.574997,
 "prec": "area",
 "windows": [
 {
@@ -900,12 +922,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "岩手県住田町"
 },
 {
 "area": "大槌町",
-"lat": 39.358196,
-"lng": 141.899731,
+"lat": 39.358234,
+"lng": 141.89949,
 "prec": "area",
 "windows": [
 {
@@ -927,12 +950,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "岩手県大槌町"
 },
 {
 "area": "山田町",
-"lat": 39.467619,
-"lng": 141.948923,
+"lat": 39.467571,
+"lng": 141.949066,
 "prec": "area",
 "windows": [
 {
@@ -942,12 +966,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "岩手県山田町"
 },
 {
 "area": "岩泉町",
-"lat": 39.843204,
-"lng": 141.796675,
+"lat": 39.843109,
+"lng": 141.796417,
 "prec": "area",
 "windows": [
 {
@@ -963,12 +988,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "岩手県岩泉町"
 },
 {
 "area": "田野畑村",
-"lat": 39.930454,
-"lng": 141.888864,
+"lat": 39.930458,
+"lng": 141.88887,
 "prec": "area",
 "windows": [
 {
@@ -984,12 +1010,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "岩手県田野畑村"
 },
 {
 "area": "普代村",
-"lat": 40.005164,
-"lng": 141.886014,
+"lat": 40.005268,
+"lng": 141.886124,
 "prec": "area",
 "windows": [
 {
@@ -999,12 +1026,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "岩手県普代村"
 },
 {
 "area": "軽米町",
-"lat": 40.326678,
-"lng": 141.460349,
+"lat": 40.326687,
+"lng": 141.460327,
 "prec": "area",
 "windows": [
 {
@@ -1026,12 +1054,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "岩手県軽米町"
 },
 {
 "area": "野田村",
-"lat": 40.110272,
-"lng": 141.817674,
+"lat": 40.110306,
+"lng": 141.81778,
 "prec": "area",
 "windows": [
 {
@@ -1053,12 +1082,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "岩手県野田村"
 },
 {
 "area": "九戸村",
-"lat": 40.211356,
-"lng": 141.418982,
+"lat": 40.21138,
+"lng": 141.4189,
 "prec": "area",
 "windows": [
 {
@@ -1080,12 +1110,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "岩手県九戸村"
 },
 {
 "area": "洋野町",
-"lat": 40.408298,
-"lng": 141.71865,
+"lat": 40.408283,
+"lng": 141.718643,
 "prec": "area",
 "windows": [
 {
@@ -1119,12 +1150,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "岩手県洋野町"
 },
 {
 "area": "一戸町",
-"lat": 40.212733,
-"lng": 141.29546,
+"lat": 40.213001,
+"lng": 141.295486,
 "prec": "area",
 "windows": [
 {
@@ -1134,6 +1166,7 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "岩手県一戸町"
 }
 ]

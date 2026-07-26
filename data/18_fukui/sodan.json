@@ -1,9 +1,9 @@
 [
 {
 "area": "福井県",
-"lat": null,
-"lng": null,
-"prec": "unresolved",
+"lat": 36.065208,
+"lng": 136.221725,
+"prec": "area",
 "windows": [
 {
 "n": "24時間電話相談（24時間子供SOSダイヤル）",
@@ -18,12 +18,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "福井県"
 },
 {
 "area": "福井市",
-"lat": 36.06412,
-"lng": 136.219452,
+"lat": 36.064075,
+"lng": 136.219589,
 "prec": "area",
 "windows": [
 {
@@ -105,12 +106,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "福井県福井市"
 },
 {
 "area": "敦賀市",
-"lat": 35.645222,
-"lng": 136.055544,
+"lat": 35.645588,
+"lng": 136.055435,
 "prec": "area",
 "windows": [
 {
@@ -144,12 +146,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "福井県敦賀市"
 },
 {
 "area": "小浜市",
-"lat": 35.495593,
-"lng": 135.746647,
+"lat": 35.495556,
+"lng": 135.746674,
 "prec": "area",
 "windows": [
 {
@@ -171,12 +174,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "福井県小浜市"
 },
 {
 "area": "大野市",
-"lat": 35.980564,
-"lng": 136.487692,
+"lat": 35.979816,
+"lng": 136.487473,
 "prec": "area",
 "windows": [
 {
@@ -204,12 +208,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "福井県大野市"
 },
 {
 "area": "勝山市",
-"lat": 36.060917,
-"lng": 136.500542,
+"lat": 36.060833,
+"lng": 136.500565,
 "prec": "area",
 "windows": [
 {
@@ -219,12 +224,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "福井県勝山市"
 },
 {
 "area": "鯖江市",
-"lat": 35.956565,
-"lng": 136.184238,
+"lat": 35.956665,
+"lng": 136.184448,
 "prec": "area",
 "windows": [
 {
@@ -252,12 +258,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "福井県鯖江市"
 },
 {
 "area": "あわら市",
-"lat": 36.211361,
-"lng": 136.229012,
+"lat": 36.211388,
+"lng": 136.228897,
 "prec": "area",
 "windows": [
 {
@@ -273,12 +280,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "福井県あわら市"
 },
 {
 "area": "越前市",
-"lat": 35.903471,
-"lng": 136.168672,
+"lat": 35.903858,
+"lng": 136.169006,
 "prec": "area",
 "windows": [
 {
@@ -294,12 +302,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "福井県越前市"
 },
 {
 "area": "坂井市",
-"lat": 36.166902,
-"lng": 136.231287,
+"lat": 36.166943,
+"lng": 136.231674,
 "prec": "area",
 "windows": [
 {
@@ -315,12 +324,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "福井県坂井市"
 },
 {
 "area": "永平寺町",
-"lat": 36.092248,
-"lng": 136.298724,
+"lat": 36.09222,
+"lng": 136.298615,
 "prec": "area",
 "windows": [
 {
@@ -330,12 +340,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "福井県永平寺町"
 },
 {
 "area": "池田町",
-"lat": 35.890383,
-"lng": 136.344079,
+"lat": 35.890278,
+"lng": 136.344162,
 "prec": "area",
 "windows": [
 {
@@ -345,12 +356,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "福井県池田町"
 },
 {
 "area": "南越前町",
-"lat": 35.83515,
-"lng": 136.194435,
+"lat": 35.834999,
+"lng": 136.194443,
 "prec": "area",
 "windows": [
 {
@@ -360,12 +372,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "福井県南越前町"
 },
 {
 "area": "越前町",
-"lat": 35.974264,
-"lng": 136.129765,
+"lat": 35.974197,
+"lng": 136.129196,
 "prec": "area",
 "windows": [
 {
@@ -375,12 +388,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "福井県越前町"
 },
 {
 "area": "美浜町",
-"lat": 35.6006,
-"lng": 135.940619,
+"lat": 35.600555,
+"lng": 135.940552,
 "prec": "area",
 "windows": [
 {
@@ -390,12 +404,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "福井県美浜町"
 },
 {
 "area": "高浜町",
-"lat": 35.490392,
-"lng": 135.550968,
+"lat": 35.487911,
+"lng": 135.546265,
 "prec": "area",
 "windows": [
 {
@@ -405,12 +420,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "福井県高浜町"
 },
 {
 "area": "おおい町",
-"lat": 35.481128,
-"lng": 135.617885,
+"lat": 35.48111,
+"lng": 135.617783,
 "prec": "area",
 "windows": [
 {
@@ -420,12 +436,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "福井県おおい町"
 },
 {
 "area": "若狭町",
-"lat": 35.548882,
-"lng": 135.908384,
+"lat": 35.549015,
+"lng": 135.908203,
 "prec": "area",
 "windows": [
 {
@@ -435,6 +452,7 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "福井県若狭町"
 }
 ]

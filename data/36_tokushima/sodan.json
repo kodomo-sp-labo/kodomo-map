@@ -1,9 +1,9 @@
 [
 {
 "area": "徳島県",
-"lat": null,
-"lng": null,
-"prec": "unresolved",
+"lat": 34.065762,
+"lng": 134.55928,
+"prec": "area",
 "windows": [
 {
 "n": "徳島県中央こども女性相談センター",
@@ -138,12 +138,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "徳島県"
 },
 {
 "area": "徳島市",
-"lat": 34.070234,
-"lng": 134.554713,
+"lat": 34.070091,
+"lng": 134.554703,
 "prec": "area",
 "windows": [
 {
@@ -153,12 +154,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "徳島県徳島市"
 },
 {
 "area": "鳴門市",
-"lat": 34.17259,
-"lng": 134.6088,
+"lat": 34.17292,
+"lng": 134.608932,
 "prec": "area",
 "windows": [
 {
@@ -168,12 +170,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "徳島県鳴門市"
 },
 {
 "area": "小松島市",
-"lat": 34.004713,
-"lng": 134.590603,
+"lat": 34.004658,
+"lng": 134.590714,
 "prec": "area",
 "windows": [
 {
@@ -213,12 +216,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "徳島県小松島市"
 },
 {
 "area": "阿南市",
-"lat": 33.921762,
-"lng": 134.659566,
+"lat": 33.921814,
+"lng": 134.659515,
 "prec": "area",
 "windows": [
 {
@@ -228,12 +232,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "徳島県阿南市"
 },
 {
 "area": "吉野川市",
-"lat": 34.066235,
-"lng": 134.358667,
+"lat": 34.066353,
+"lng": 134.358643,
 "prec": "area",
 "windows": [
 {
@@ -243,12 +248,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "徳島県吉野川市"
 },
 {
 "area": "阿波市",
-"lat": 34.082354,
-"lng": 134.235779,
+"lat": 34.102139,
+"lng": 134.297455,
 "prec": "area",
 "windows": [
 {
@@ -258,12 +264,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "徳島県阿波市"
 },
 {
 "area": "美馬市",
-"lat": 34.053387,
-"lng": 134.169725,
+"lat": 34.053825,
+"lng": 134.169724,
 "prec": "area",
 "windows": [
 {
@@ -273,12 +280,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "徳島県美馬市"
 },
 {
 "area": "三好市",
-"lat": 34.026044,
-"lng": 133.80718,
+"lat": 34.026409,
+"lng": 133.807053,
 "prec": "area",
 "windows": [
 {
@@ -288,12 +296,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "徳島県三好市"
 },
 {
 "area": "勝浦町",
-"lat": 33.931453,
-"lng": 134.511251,
+"lat": 33.931458,
+"lng": 134.511368,
 "prec": "area",
 "windows": [
 {
@@ -303,12 +312,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "徳島県勝浦町"
 },
 {
 "area": "上勝町",
-"lat": 33.888841,
-"lng": 134.401819,
+"lat": 33.888954,
+"lng": 134.40184,
 "prec": "area",
 "windows": [
 {
@@ -318,12 +328,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "徳島県上勝町"
 },
 {
 "area": "佐那河内村",
-"lat": 33.993141,
-"lng": 134.453294,
+"lat": 33.993801,
+"lng": 134.457764,
 "prec": "area",
 "windows": [
 {
@@ -333,12 +344,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "徳島県佐那河内村"
 },
 {
 "area": "石井町",
-"lat": 34.074698,
-"lng": 134.440764,
+"lat": 34.074135,
+"lng": 134.440674,
 "prec": "area",
 "windows": [
 {
@@ -348,12 +360,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "徳島県石井町"
 },
 {
 "area": "神山町",
-"lat": 33.967225,
-"lng": 134.350531,
+"lat": 33.967239,
+"lng": 134.350525,
 "prec": "area",
 "windows": [
 {
@@ -363,12 +376,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "徳島県神山町"
 },
 {
 "area": "那賀町",
-"lat": 33.857497,
-"lng": 134.496736,
+"lat": 33.857437,
+"lng": 134.496643,
 "prec": "area",
 "windows": [
 {
@@ -378,12 +392,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "徳島県那賀町"
 },
 {
 "area": "牟岐町",
-"lat": 33.668312,
-"lng": 134.420661,
+"lat": 33.668266,
+"lng": 134.420685,
 "prec": "area",
 "windows": [
 {
@@ -399,12 +414,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "徳島県牟岐町"
 },
 {
 "area": "美波町",
-"lat": 33.734573,
-"lng": 134.535413,
+"lat": 33.734581,
+"lng": 134.535522,
 "prec": "area",
 "windows": [
 {
@@ -420,12 +436,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "徳島県美波町"
 },
 {
 "area": "海陽町",
-"lat": 33.602043,
-"lng": 134.351866,
+"lat": 33.602047,
+"lng": 134.35202,
 "prec": "area",
 "windows": [
 {
@@ -435,12 +452,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "徳島県海陽町"
 },
 {
 "area": "松茂町",
-"lat": 34.133849,
-"lng": 134.580537,
+"lat": 34.133774,
+"lng": 134.580612,
 "prec": "area",
 "windows": [
 {
@@ -450,12 +468,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "徳島県松茂町"
 },
 {
 "area": "北島町",
-"lat": 34.125594,
-"lng": 134.546985,
+"lat": 34.125591,
+"lng": 134.546982,
 "prec": "area",
 "windows": [
 {
@@ -465,12 +484,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "徳島県北島町"
 },
 {
 "area": "藍住町",
-"lat": 34.126776,
-"lng": 134.495112,
+"lat": 34.126633,
+"lng": 134.495117,
 "prec": "area",
 "windows": [
 {
@@ -510,12 +530,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "徳島県藍住町"
 },
 {
 "area": "板野町",
-"lat": 34.144364,
-"lng": 134.462616,
+"lat": 34.144356,
+"lng": 134.462601,
 "prec": "area",
 "windows": [
 {
@@ -525,11 +546,12 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "徳島県板野町"
 },
 {
 "area": "上板町",
-"lat": 34.121365,
+"lat": 34.121387,
 "lng": 134.404999,
 "prec": "area",
 "windows": [
@@ -540,12 +562,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "徳島県上板町"
 },
 {
 "area": "つるぎ町",
-"lat": 34.037307,
-"lng": 134.064051,
+"lat": 34.037281,
+"lng": 134.064011,
 "prec": "area",
 "windows": [
 {
@@ -555,12 +578,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "徳島県つるぎ町"
 },
 {
 "area": "東みよし町",
-"lat": 34.036785,
-"lng": 133.93676,
+"lat": 34.036739,
+"lng": 133.93689,
 "prec": "area",
 "windows": [
 {
@@ -570,6 +594,7 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "徳島県東みよし町"
 }
 ]

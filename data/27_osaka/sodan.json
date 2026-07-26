@@ -1,9 +1,9 @@
 [
 {
 "area": "大阪府",
-"lat": null,
-"lng": null,
-"prec": "unresolved",
+"lat": 34.686344,
+"lng": 135.520035,
+"prec": "area",
 "windows": [
 {
 "n": "大阪府人権相談窓口",
@@ -126,12 +126,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "大阪府"
 },
 {
 "area": "大阪市",
-"lat": 34.693891,
-"lng": 135.502046,
+"lat": 34.69389,
+"lng": 135.502228,
 "prec": "area",
 "windows": [
 {
@@ -753,12 +754,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "大阪府大阪市"
 },
 {
 "area": "堺市",
-"lat": 34.573354,
-"lng": 135.48302,
+"lat": 34.573334,
+"lng": 135.483063,
 "prec": "area",
 "windows": [
 {
@@ -1008,12 +1010,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "大阪府堺市"
 },
 {
 "area": "岸和田市",
-"lat": 34.460597,
-"lng": 135.370871,
+"lat": 34.46059,
+"lng": 135.37088,
 "prec": "area",
 "windows": [
 {
@@ -1053,12 +1056,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "大阪府岸和田市"
 },
 {
 "area": "豊中市",
-"lat": 34.781239,
-"lng": 135.469889,
+"lat": 34.781288,
+"lng": 135.469757,
 "prec": "area",
 "windows": [
 {
@@ -1140,12 +1144,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "大阪府豊中市"
 },
 {
 "area": "池田市",
-"lat": 34.821686,
-"lng": 135.428555,
+"lat": 34.821667,
+"lng": 135.428604,
 "prec": "area",
 "windows": [
 {
@@ -1179,12 +1184,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "大阪府池田市"
 },
 {
 "area": "吹田市",
-"lat": 34.759405,
-"lng": 135.516799,
+"lat": 34.75946,
+"lng": 135.516876,
 "prec": "area",
 "windows": [
 {
@@ -1218,12 +1224,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "大阪府吹田市"
 },
 {
 "area": "泉大津市",
-"lat": 34.504268,
-"lng": 135.410472,
+"lat": 34.504444,
+"lng": 135.410278,
 "prec": "area",
 "windows": [
 {
@@ -1275,12 +1282,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "大阪府泉大津市"
 },
 {
 "area": "高槻市",
-"lat": 34.8461,
-"lng": 135.617216,
+"lat": 34.84602,
+"lng": 135.617325,
 "prec": "area",
 "windows": [
 {
@@ -1368,12 +1376,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "大阪府高槻市"
 },
 {
 "area": "貝塚市",
-"lat": 34.437686,
-"lng": 135.358431,
+"lat": 34.437408,
+"lng": 135.358124,
 "prec": "area",
 "windows": [
 {
@@ -1395,12 +1404,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "大阪府貝塚市"
 },
 {
 "area": "守口市",
-"lat": 34.73768,
-"lng": 135.563971,
+"lat": 34.735828,
+"lng": 135.561676,
 "prec": "area",
 "windows": [
 {
@@ -1446,12 +1456,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "大阪府守口市"
 },
 {
 "area": "枚方市",
-"lat": 34.814465,
-"lng": 135.650642,
+"lat": 34.814445,
+"lng": 135.650833,
 "prec": "area",
 "windows": [
 {
@@ -1497,12 +1508,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "大阪府枚方市"
 },
 {
 "area": "茨木市",
-"lat": 34.816153,
-"lng": 135.568503,
+"lat": 34.816387,
+"lng": 135.568604,
 "prec": "area",
 "windows": [
 {
@@ -1584,12 +1596,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "大阪府茨木市"
 },
 {
 "area": "八尾市",
-"lat": 34.626884,
-"lng": 135.600948,
+"lat": 34.626945,
+"lng": 135.60083,
 "prec": "area",
 "windows": [
 {
@@ -1701,12 +1714,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "大阪府八尾市"
 },
 {
 "area": "泉佐野市",
-"lat": 34.406839,
-"lng": 135.327337,
+"lat": 34.406837,
+"lng": 135.327362,
 "prec": "area",
 "windows": [
 {
@@ -1734,12 +1748,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "大阪府泉佐野市"
 },
 {
 "area": "富田林市",
-"lat": 34.499675,
-"lng": 135.59728,
+"lat": 34.49947,
+"lng": 135.597229,
 "prec": "area",
 "windows": [
 {
@@ -1749,12 +1764,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "大阪府富田林市"
 },
 {
 "area": "寝屋川市",
-"lat": 34.766079,
-"lng": 135.628008,
+"lat": 34.766109,
+"lng": 135.628052,
 "prec": "area",
 "windows": [
 {
@@ -1788,12 +1804,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "大阪府寝屋川市"
 },
 {
 "area": "河内長野市",
-"lat": 34.458107,
-"lng": 135.564119,
+"lat": 34.457893,
+"lng": 135.56424,
 "prec": "area",
 "windows": [
 {
@@ -1809,12 +1826,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "大阪府河内長野市"
 },
 {
 "area": "松原市",
-"lat": 34.577901,
-"lng": 135.551786,
+"lat": 34.578056,
+"lng": 135.55191,
 "prec": "area",
 "windows": [
 {
@@ -1824,12 +1842,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "大阪府松原市"
 },
 {
 "area": "大東市",
-"lat": 34.712013,
-"lng": 135.623471,
+"lat": 34.711945,
+"lng": 135.623337,
 "prec": "area",
 "windows": [
 {
@@ -1845,12 +1864,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "大阪府大東市"
 },
 {
 "area": "和泉市",
-"lat": 34.483635,
-"lng": 135.423624,
+"lat": 34.483154,
+"lng": 135.423248,
 "prec": "area",
 "windows": [
 {
@@ -1938,12 +1958,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "大阪府和泉市"
 },
 {
 "area": "箕面市",
-"lat": 34.826929,
-"lng": 135.470379,
+"lat": 34.826942,
+"lng": 135.470551,
 "prec": "area",
 "windows": [
 {
@@ -1977,12 +1998,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "大阪府箕面市"
 },
 {
 "area": "柏原市",
-"lat": 34.579305,
-"lng": 135.628642,
+"lat": 34.578285,
+"lng": 135.629242,
 "prec": "area",
 "windows": [
 {
@@ -2016,12 +2038,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "大阪府柏原市"
 },
 {
 "area": "羽曳野市",
-"lat": 34.558002,
-"lng": 135.606226,
+"lat": 34.558025,
+"lng": 135.606277,
 "prec": "area",
 "windows": [
 {
@@ -2091,12 +2114,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "大阪府羽曳野市"
 },
 {
 "area": "門真市",
-"lat": 34.739145,
-"lng": 135.586899,
+"lat": 34.739548,
+"lng": 135.586884,
 "prec": "area",
 "windows": [
 {
@@ -2142,12 +2166,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "大阪府門真市"
 },
 {
 "area": "摂津市",
-"lat": 34.777387,
-"lng": 135.561886,
+"lat": 34.777222,
+"lng": 135.562225,
 "prec": "area",
 "windows": [
 {
@@ -2193,12 +2218,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "大阪府摂津市"
 },
 {
 "area": "高石市",
-"lat": 34.520673,
-"lng": 135.442395,
+"lat": 34.520557,
+"lng": 135.442215,
 "prec": "area",
 "windows": [
 {
@@ -2238,12 +2264,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "大阪府高石市"
 },
 {
 "area": "藤井寺市",
-"lat": 34.574283,
-"lng": 135.597476,
+"lat": 34.574333,
+"lng": 135.597504,
 "prec": "area",
 "windows": [
 {
@@ -2271,12 +2298,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "大阪府藤井寺市"
 },
 {
 "area": "東大阪市",
-"lat": 34.679324,
-"lng": 135.600898,
+"lat": 34.679443,
+"lng": 135.60083,
 "prec": "area",
 "windows": [
 {
@@ -2328,12 +2356,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "大阪府東大阪市"
 },
 {
 "area": "泉南市",
-"lat": 34.366007,
-"lng": 135.2733,
+"lat": 34.365833,
+"lng": 135.273605,
 "prec": "area",
 "windows": [
 {
@@ -2403,12 +2432,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "大阪府泉南市"
 },
 {
 "area": "四條畷市",
-"lat": 34.740064,
-"lng": 135.639727,
+"lat": 34.740002,
+"lng": 135.63945,
 "prec": "area",
 "windows": [
 {
@@ -2442,12 +2472,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "大阪府四條畷市"
 },
 {
 "area": "交野市",
-"lat": 34.787958,
-"lng": 135.679978,
+"lat": 34.787968,
+"lng": 135.680008,
 "prec": "area",
 "windows": [
 {
@@ -2499,12 +2530,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "大阪府交野市"
 },
 {
 "area": "大阪狭山市",
-"lat": 34.503718,
-"lng": 135.555748,
+"lat": 34.503662,
+"lng": 135.555695,
 "prec": "area",
 "windows": [
 {
@@ -2538,12 +2570,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "大阪府大阪狭山市"
 },
 {
 "area": "阪南市",
-"lat": 34.359594,
-"lng": 135.239656,
+"lat": 34.359592,
+"lng": 135.239685,
 "prec": "area",
 "windows": [
 {
@@ -2553,12 +2586,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "大阪府阪南市"
 },
 {
 "area": "島本町",
-"lat": 34.883819,
-"lng": 135.663009,
+"lat": 34.883446,
+"lng": 135.662796,
 "prec": "area",
 "windows": [
 {
@@ -2574,12 +2608,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "大阪府島本町"
 },
 {
 "area": "豊能町",
-"lat": 34.91885,
-"lng": 135.494096,
+"lat": 34.919018,
+"lng": 135.494064,
 "prec": "area",
 "windows": [
 {
@@ -2595,12 +2630,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "大阪府豊能町"
 },
 {
 "area": "能勢町",
-"lat": 34.972445,
-"lng": 135.414189,
+"lat": 34.973434,
+"lng": 135.413895,
 "prec": "area",
 "windows": [
 {
@@ -2616,12 +2652,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "大阪府能勢町"
 },
 {
 "area": "忠岡町",
-"lat": 34.487125,
-"lng": 135.401497,
+"lat": 34.487171,
+"lng": 135.401382,
 "prec": "area",
 "windows": [
 {
@@ -2655,12 +2692,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "大阪府忠岡町"
 },
 {
 "area": "熊取町",
-"lat": 34.401308,
-"lng": 135.355863,
+"lat": 34.401459,
+"lng": 135.355988,
 "prec": "area",
 "windows": [
 {
@@ -2730,12 +2768,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "大阪府熊取町"
 },
 {
 "area": "田尻町",
-"lat": 34.393782,
-"lng": 135.291176,
+"lat": 34.393787,
+"lng": 135.291183,
 "prec": "area",
 "windows": [
 {
@@ -2769,12 +2808,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "大阪府田尻町"
 },
 {
 "area": "岬町",
-"lat": 34.3169,
-"lng": 135.142085,
+"lat": 34.316944,
+"lng": 135.142227,
 "prec": "area",
 "windows": [
 {
@@ -2796,12 +2836,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "大阪府岬町"
 },
 {
 "area": "太子町",
-"lat": 34.518656,
-"lng": 135.647734,
+"lat": 34.518723,
+"lng": 135.647583,
 "prec": "area",
 "windows": [
 {
@@ -2823,12 +2864,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "大阪府太子町"
 },
 {
 "area": "河南町",
-"lat": 34.491637,
-"lng": 135.62988,
+"lat": 34.491669,
+"lng": 135.629715,
 "prec": "area",
 "windows": [
 {
@@ -2856,12 +2898,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "大阪府河南町"
 },
 {
 "area": "千早赤阪村",
-"lat": 34.464601,
-"lng": 135.622531,
+"lat": 34.464573,
+"lng": 135.62262,
 "prec": "area",
 "windows": [
 {
@@ -2895,6 +2938,7 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "大阪府千早赤阪村"
 }
 ]

@@ -1,9 +1,9 @@
 [
 {
 "area": "愛媛県",
-"lat": null,
-"lng": null,
-"prec": "unresolved",
+"lat": 33.84164,
+"lng": 132.765686,
+"prec": "area",
 "windows": [
 {
 "n": "福祉総合支援センター",
@@ -114,12 +114,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "愛媛県"
 },
 {
 "area": "松山市",
-"lat": 33.839157,
-"lng": 132.765556,
+"lat": 33.839165,
+"lng": 132.76564,
 "prec": "area",
 "windows": [
 {
@@ -213,12 +214,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "愛媛県松山市"
 },
 {
 "area": "今治市",
-"lat": 34.066043,
-"lng": 132.997658,
+"lat": 34.066212,
+"lng": 132.997757,
 "prec": "area",
 "windows": [
 {
@@ -258,12 +260,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "愛媛県今治市"
 },
 {
 "area": "宇和島市",
-"lat": 33.22334,
-"lng": 132.560563,
+"lat": 33.223251,
+"lng": 132.560867,
 "prec": "area",
 "windows": [
 {
@@ -285,12 +288,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "愛媛県宇和島市"
 },
 {
 "area": "八幡浜市",
-"lat": 33.462898,
-"lng": 132.423334,
+"lat": 33.462883,
+"lng": 132.42337,
 "prec": "area",
 "windows": [
 {
@@ -342,12 +346,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "愛媛県八幡浜市"
 },
 {
 "area": "新居浜市",
-"lat": 33.960329,
-"lng": 133.283379,
+"lat": 33.960297,
+"lng": 133.283401,
 "prec": "area",
 "windows": [
 {
@@ -381,12 +386,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "愛媛県新居浜市"
 },
 {
 "area": "西条市",
-"lat": 33.919615,
-"lng": 133.181186,
+"lat": 33.919495,
+"lng": 133.181122,
 "prec": "area",
 "windows": [
 {
@@ -420,12 +426,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "愛媛県西条市"
 },
 {
 "area": "大洲市",
-"lat": 33.506285,
-"lng": 132.544514,
+"lat": 33.50618,
+"lng": 132.544495,
 "prec": "area",
 "windows": [
 {
@@ -471,12 +478,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "愛媛県大洲市"
 },
 {
 "area": "伊予市",
-"lat": 33.757461,
-"lng": 132.703778,
+"lat": 33.757683,
+"lng": 132.703827,
 "prec": "area",
 "windows": [
 {
@@ -492,12 +500,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "愛媛県伊予市"
 },
 {
 "area": "四国中央市",
-"lat": 33.980694,
-"lng": 133.549188,
+"lat": 33.980591,
+"lng": 133.549988,
 "prec": "area",
 "windows": [
 {
@@ -537,12 +546,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "愛媛県四国中央市"
 },
 {
 "area": "西予市",
-"lat": 33.363017,
-"lng": 132.510967,
+"lat": 33.362671,
+"lng": 132.51088,
 "prec": "area",
 "windows": [
 {
@@ -588,12 +598,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "愛媛県西予市"
 },
 {
 "area": "東温市",
-"lat": 33.791027,
-"lng": 132.872299,
+"lat": 33.791031,
+"lng": 132.872269,
 "prec": "area",
 "windows": [
 {
@@ -645,12 +656,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "愛媛県東温市"
 },
 {
 "area": "上島町",
-"lat": 34.257467,
-"lng": 133.204492,
+"lat": 34.257568,
+"lng": 133.204437,
 "prec": "area",
 "windows": [
 {
@@ -672,12 +684,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "愛媛県上島町"
 },
 {
 "area": "久万高原町",
-"lat": 33.655603,
-"lng": 132.901665,
+"lat": 33.655605,
+"lng": 132.901688,
 "prec": "area",
 "windows": [
 {
@@ -693,12 +706,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "愛媛県久万高原町"
 },
 {
 "area": "松前町",
-"lat": 33.787479,
-"lng": 132.711364,
+"lat": 33.787457,
+"lng": 132.711365,
 "prec": "area",
 "windows": [
 {
@@ -708,12 +722,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "愛媛県松前町"
 },
 {
 "area": "砥部町",
-"lat": 33.74926,
-"lng": 132.792233,
+"lat": 33.749214,
+"lng": 132.792252,
 "prec": "area",
 "windows": [
 {
@@ -759,12 +774,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "愛媛県砥部町"
 },
 {
 "area": "内子町",
-"lat": 33.532937,
-"lng": 132.658083,
+"lat": 33.533039,
+"lng": 132.658127,
 "prec": "area",
 "windows": [
 {
@@ -786,12 +802,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "愛媛県内子町"
 },
 {
 "area": "伊方町",
-"lat": 33.488593,
-"lng": 132.353998,
+"lat": 33.488571,
+"lng": 132.354172,
 "prec": "area",
 "windows": [
 {
@@ -813,12 +830,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "愛媛県伊方町"
 },
 {
 "area": "松野町",
-"lat": 33.22715,
-"lng": 132.710935,
+"lat": 33.227142,
+"lng": 132.711304,
 "prec": "area",
 "windows": [
 {
@@ -840,12 +858,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "愛媛県松野町"
 },
 {
 "area": "鬼北町",
-"lat": 33.255792,
-"lng": 132.684032,
+"lat": 33.255871,
+"lng": 132.684097,
 "prec": "area",
 "windows": [
 {
@@ -861,12 +880,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "愛媛県鬼北町"
 },
 {
 "area": "愛南町",
-"lat": 32.962168,
-"lng": 132.583326,
+"lat": 32.962494,
+"lng": 132.583389,
 "prec": "area",
 "windows": [
 {
@@ -900,6 +920,7 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "愛媛県愛南町"
 }
 ]

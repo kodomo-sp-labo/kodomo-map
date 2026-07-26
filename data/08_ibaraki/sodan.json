@@ -1,9 +1,9 @@
 [
 {
 "area": "茨城県",
-"lat": null,
-"lng": null,
-"prec": "unresolved",
+"lat": 36.341736,
+"lng": 140.446823,
+"prec": "area",
 "windows": [
 {
 "n": "茨城県教育研修センター子どもの教育相談",
@@ -96,12 +96,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "茨城県"
 },
 {
 "area": "水戸市",
-"lat": 36.365861,
-"lng": 140.471222,
+"lat": 36.365852,
+"lng": 140.471588,
 "prec": "area",
 "windows": [
 {
@@ -141,12 +142,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "茨城県水戸市"
 },
 {
 "area": "日立市",
-"lat": 36.599016,
-"lng": 140.651546,
+"lat": 36.599152,
+"lng": 140.65062,
 "prec": "area",
 "windows": [
 {
@@ -216,12 +218,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "茨城県日立市"
 },
 {
 "area": "土浦市",
-"lat": 36.07187,
-"lng": 140.196057,
+"lat": 36.078354,
+"lng": 140.204193,
 "prec": "area",
 "windows": [
 {
@@ -291,12 +294,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "茨城県土浦市"
 },
 {
 "area": "古河市",
-"lat": 36.178228,
-"lng": 139.755371,
+"lat": 36.178242,
+"lng": 139.75502,
 "prec": "area",
 "windows": [
 {
@@ -342,12 +346,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "茨城県古河市"
 },
 {
 "area": "石岡市",
-"lat": 36.19084,
-"lng": 140.287242,
+"lat": 36.190453,
+"lng": 140.286957,
 "prec": "area",
 "windows": [
 {
@@ -369,12 +374,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "茨城県石岡市"
 },
 {
 "area": "結城市",
-"lat": 36.305264,
-"lng": 139.877154,
+"lat": 36.289623,
+"lng": 139.871475,
 "prec": "area",
 "windows": [
 {
@@ -408,12 +414,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "茨城県結城市"
 },
 {
 "area": "龍ケ崎市",
-"lat": 35.911594,
-"lng": 140.182265,
+"lat": 35.911667,
+"lng": 140.18222,
 "prec": "area",
 "windows": [
 {
@@ -435,12 +442,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "茨城県龍ケ崎市"
 },
 {
 "area": "下妻市",
-"lat": 36.184516,
-"lng": 139.967374,
+"lat": 36.184387,
+"lng": 139.968231,
 "prec": "area",
 "windows": [
 {
@@ -456,12 +464,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "茨城県下妻市"
 },
 {
 "area": "常総市",
-"lat": 36.023563,
-"lng": 139.993934,
+"lat": 36.023487,
+"lng": 139.993683,
 "prec": "area",
 "windows": [
 {
@@ -489,12 +498,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "茨城県常総市"
 },
 {
 "area": "常陸太田市",
-"lat": 36.538227,
-"lng": 140.530929,
+"lat": 36.53833,
+"lng": 140.531128,
 "prec": "area",
 "windows": [
 {
@@ -510,12 +520,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "茨城県常陸太田市"
 },
 {
 "area": "高萩市",
-"lat": 36.71871991220759,
-"lng": 140.71683043661412,
+"lat": 36.713673,
+"lng": 140.709503,
 "prec": "area",
 "windows": [
 {
@@ -531,12 +542,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "茨城県高萩市"
 },
 {
 "area": "北茨城市",
-"lat": 36.801892,
-"lng": 140.751032,
+"lat": 36.801899,
+"lng": 140.751007,
 "prec": "area",
 "windows": [
 {
@@ -588,12 +600,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "茨城県北茨城市"
 },
 {
 "area": "笠間市",
-"lat": 36.345128,
-"lng": 140.304232,
+"lat": 36.345196,
+"lng": 140.30426,
 "prec": "area",
 "windows": [
 {
@@ -615,12 +628,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "茨城県笠間市"
 },
 {
 "area": "取手市",
-"lat": 35.911474,
-"lng": 140.050305,
+"lat": 35.911461,
+"lng": 140.050354,
 "prec": "area",
 "windows": [
 {
@@ -666,12 +680,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "茨城県取手市"
 },
 {
 "area": "牛久市",
-"lat": 35.979397,
-"lng": 140.149532,
+"lat": 35.979355,
+"lng": 140.149597,
 "prec": "area",
 "windows": [
 {
@@ -699,12 +714,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "茨城県牛久市"
 },
 {
 "area": "つくば市",
-"lat": 36.08356015746023,
-"lng": 140.076473165394,
+"lat": 36.083611,
+"lng": 140.076385,
 "prec": "area",
 "windows": [
 {
@@ -744,12 +760,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "茨城県つくば市"
 },
 {
 "area": "ひたちなか市",
-"lat": 36.396615,
-"lng": 140.534676,
+"lat": 36.39669,
+"lng": 140.534729,
 "prec": "area",
 "windows": [
 {
@@ -789,12 +806,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "茨城県ひたちなか市"
 },
 {
 "area": "鹿嶋市",
-"lat": 35.965720699486155,
-"lng": 140.64485242487154,
+"lat": 35.965702,
+"lng": 140.644791,
 "prec": "area",
 "windows": [
 {
@@ -816,12 +834,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "茨城県鹿嶋市"
 },
 {
 "area": "潮来市",
-"lat": 35.947134,
-"lng": 140.555364,
+"lat": 35.947117,
+"lng": 140.555405,
 "prec": "area",
 "windows": [
 {
@@ -849,12 +868,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "茨城県潮来市"
 },
 {
 "area": "守谷市",
-"lat": 35.95132696735869,
-"lng": 139.975465315889,
+"lat": 35.951389,
+"lng": 139.975555,
 "prec": "area",
 "windows": [
 {
@@ -876,12 +896,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "茨城県守谷市"
 },
 {
 "area": "常陸大宮市",
-"lat": 36.542592,
-"lng": 140.411012,
+"lat": 36.5425,
+"lng": 140.410843,
 "prec": "area",
 "windows": [
 {
@@ -921,12 +942,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "茨城県常陸大宮市"
 },
 {
 "area": "那珂市",
-"lat": 36.457424,
-"lng": 140.486726,
+"lat": 36.457436,
+"lng": 140.486801,
 "prec": "area",
 "windows": [
 {
@@ -966,12 +988,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "茨城県那珂市"
 },
 {
 "area": "筑西市",
-"lat": 36.307115,
-"lng": 139.983069,
+"lat": 36.305267,
+"lng": 139.979401,
 "prec": "area",
 "windows": [
 {
@@ -981,12 +1004,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "茨城県筑西市"
 },
 {
 "area": "坂東市",
-"lat": 36.048363,
-"lng": 139.88868,
+"lat": 36.048199,
+"lng": 139.88887,
 "prec": "area",
 "windows": [
 {
@@ -1002,12 +1026,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "茨城県坂東市"
 },
 {
 "area": "稲敷市",
-"lat": 35.956569,
-"lng": 140.323988,
+"lat": 35.97298,
+"lng": 140.303604,
 "prec": "area",
 "windows": [
 {
@@ -1029,12 +1054,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "茨城県稲敷市"
 },
 {
 "area": "かすみがうら市",
-"lat": 36.151812,
-"lng": 140.237006,
+"lat": 36.151821,
+"lng": 140.237122,
 "prec": "area",
 "windows": [
 {
@@ -1080,12 +1106,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "茨城県かすみがうら市"
 },
 {
 "area": "桜川市",
-"lat": 36.327273,
-"lng": 140.090478,
+"lat": 36.327339,
+"lng": 140.090607,
 "prec": "area",
 "windows": [
 {
@@ -1095,12 +1122,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "茨城県桜川市"
 },
 {
 "area": "神栖市",
-"lat": 35.889972,
-"lng": 140.664527,
+"lat": 35.889961,
+"lng": 140.664566,
 "prec": "area",
 "windows": [
 {
@@ -1122,12 +1150,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "茨城県神栖市"
 },
 {
 "area": "行方市",
-"lat": 35.99016591070916,
-"lng": 140.4890998583762,
+"lat": 35.990482,
+"lng": 140.489014,
 "prec": "area",
 "windows": [
 {
@@ -1137,12 +1166,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "茨城県行方市"
 },
 {
 "area": "鉾田市",
-"lat": 36.158687,
-"lng": 140.516437,
+"lat": 36.158607,
+"lng": 140.516403,
 "prec": "area",
 "windows": [
 {
@@ -1152,12 +1182,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "茨城県鉾田市"
 },
 {
 "area": "つくばみらい市",
-"lat": 35.962911,
-"lng": 140.037069,
+"lat": 35.962669,
+"lng": 140.036697,
 "prec": "area",
 "windows": [
 {
@@ -1167,12 +1198,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "茨城県つくばみらい市"
 },
 {
 "area": "小美玉市",
-"lat": 36.239283,
-"lng": 140.352589,
+"lat": 36.239315,
+"lng": 140.352585,
 "prec": "area",
 "windows": [
 {
@@ -1206,12 +1238,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "茨城県小美玉市"
 },
 {
 "area": "茨城町",
-"lat": 36.286921,
-"lng": 140.424517,
+"lat": 36.286942,
+"lng": 140.424728,
 "prec": "area",
 "windows": [
 {
@@ -1221,12 +1254,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "茨城県茨城町"
 },
 {
 "area": "大洗町",
-"lat": 36.313356,
-"lng": 140.574888,
+"lat": 36.313343,
+"lng": 140.574875,
 "prec": "area",
 "windows": [
 {
@@ -1236,12 +1270,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "茨城県大洗町"
 },
 {
 "area": "城里町",
-"lat": 36.479297,
-"lng": 140.376241,
+"lat": 36.47924,
+"lng": 140.376328,
 "prec": "area",
 "windows": [
 {
@@ -1257,12 +1292,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "茨城県城里町"
 },
 {
 "area": "東海村",
-"lat": 36.472882,
-"lng": 140.566301,
+"lat": 36.472927,
+"lng": 140.566223,
 "prec": "area",
 "windows": [
 {
@@ -1290,12 +1326,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "茨城県東海村"
 },
 {
 "area": "大子町",
-"lat": 36.768099,
-"lng": 140.355275,
+"lat": 36.764416,
+"lng": 140.363434,
 "prec": "area",
 "windows": [
 {
@@ -1323,12 +1360,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "茨城県大子町"
 },
 {
 "area": "美浦村",
-"lat": 36.004554,
-"lng": 140.301906,
+"lat": 36.004578,
+"lng": 140.301956,
 "prec": "area",
 "windows": [
 {
@@ -1338,12 +1376,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "茨城県美浦村"
 },
 {
 "area": "阿見町",
-"lat": 36.03087,
-"lng": 140.214769,
+"lat": 36.03083,
+"lng": 140.215012,
 "prec": "area",
 "windows": [
 {
@@ -1371,12 +1410,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "茨城県阿見町"
 },
 {
 "area": "河内町",
-"lat": 35.884743,
-"lng": 140.244516,
+"lat": 35.88472,
+"lng": 140.244446,
 "prec": "area",
 "windows": [
 {
@@ -1398,12 +1438,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "茨城県河内町"
 },
 {
 "area": "八千代町",
-"lat": 36.181632,
-"lng": 139.891145,
+"lat": 36.181648,
+"lng": 139.891174,
 "prec": "area",
 "windows": [
 {
@@ -1413,12 +1454,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "茨城県八千代町"
 },
 {
 "area": "五霞町",
-"lat": 36.114116,
-"lng": 139.745832,
+"lat": 36.11412,
+"lng": 139.745972,
 "prec": "area",
 "windows": [
 {
@@ -1428,12 +1470,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "茨城県五霞町"
 },
 {
 "area": "境町",
-"lat": 36.108529,
-"lng": 139.795054,
+"lat": 36.108456,
+"lng": 139.794952,
 "prec": "area",
 "windows": [
 {
@@ -1449,12 +1492,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "茨城県境町"
 },
 {
 "area": "利根町",
-"lat": 35.857825,
-"lng": 140.139106,
+"lat": 35.857769,
+"lng": 140.13913,
 "prec": "area",
 "windows": [
 {
@@ -1482,6 +1526,7 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "茨城県利根町"
 }
 ]

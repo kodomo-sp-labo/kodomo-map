@@ -1,9 +1,9 @@
 [
 {
 "area": "埼玉県",
-"lat": null,
-"lng": null,
-"prec": "unresolved",
+"lat": 35.857033,
+"lng": 139.649017,
+"prec": "area",
 "windows": [
 {
 "n": "With You さいたま",
@@ -186,12 +186,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "埼玉県"
 },
 {
 "area": "さいたま市",
-"lat": 35.861515,
-"lng": 139.645502,
+"lat": 35.861683,
+"lng": 139.645676,
 "prec": "area",
 "windows": [
 {
@@ -327,12 +328,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "埼玉県さいたま市"
 },
 {
 "area": "川越市",
-"lat": 35.925112,
-"lng": 139.48584,
+"lat": 35.925098,
+"lng": 139.485825,
 "prec": "area",
 "windows": [
 {
@@ -402,12 +404,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "埼玉県川越市"
 },
 {
 "area": "熊谷市",
-"lat": 36.147362,
-"lng": 139.388664,
+"lat": 36.147221,
+"lng": 139.388611,
 "prec": "area",
 "windows": [
 {
@@ -435,12 +438,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "埼玉県熊谷市"
 },
 {
 "area": "川口市",
-"lat": 35.807741,
-"lng": 139.724171,
+"lat": 35.806717,
+"lng": 139.723404,
 "prec": "area",
 "windows": [
 {
@@ -546,12 +550,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "埼玉県川口市"
 },
 {
 "area": "行田市",
-"lat": 36.138951,
-"lng": 139.455646,
+"lat": 36.138889,
+"lng": 139.455841,
 "prec": "area",
 "windows": [
 {
@@ -585,12 +590,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "埼玉県行田市"
 },
 {
 "area": "秩父市",
-"lat": 35.991681,
-"lng": 139.085475,
+"lat": 35.991596,
+"lng": 139.085251,
 "prec": "area",
 "windows": [
 {
@@ -600,12 +606,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "埼玉県秩父市"
 },
 {
 "area": "所沢市",
-"lat": 35.799672,
-"lng": 139.468613,
+"lat": 35.799648,
+"lng": 139.468704,
 "prec": "area",
 "windows": [
 {
@@ -669,12 +676,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "埼玉県所沢市"
 },
 {
 "area": "飯能市",
-"lat": 35.85576,
-"lng": 139.327791,
+"lat": 35.855656,
+"lng": 139.327621,
 "prec": "area",
 "windows": [
 {
@@ -696,12 +704,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "埼玉県飯能市"
 },
 {
 "area": "加須市",
-"lat": 36.131438,
-"lng": 139.601775,
+"lat": 36.13139,
+"lng": 139.601944,
 "prec": "area",
 "windows": [
 {
@@ -711,12 +720,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "埼玉県加須市"
 },
 {
 "area": "本庄市",
-"lat": 36.243329,
-"lng": 139.190629,
+"lat": 36.24374,
+"lng": 139.19046,
 "prec": "area",
 "windows": [
 {
@@ -780,12 +790,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "埼玉県本庄市"
 },
 {
 "area": "東松山市",
-"lat": 36.042162,
-"lng": 139.39995,
+"lat": 36.042221,
+"lng": 139.400009,
 "prec": "area",
 "windows": [
 {
@@ -825,12 +836,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "埼玉県東松山市"
 },
 {
 "area": "春日部市",
-"lat": 35.975305,
-"lng": 139.752409,
+"lat": 35.974045,
+"lng": 139.754761,
 "prec": "area",
 "windows": [
 {
@@ -852,12 +864,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "埼玉県春日部市"
 },
 {
 "area": "狭山市",
-"lat": 35.852907,
-"lng": 139.412227,
+"lat": 35.853054,
+"lng": 139.412231,
 "prec": "area",
 "windows": [
 {
@@ -939,12 +952,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "埼玉県狭山市"
 },
 {
 "area": "羽生市",
-"lat": 36.172667,
-"lng": 139.548592,
+"lat": 36.172634,
+"lng": 139.548477,
 "prec": "area",
 "windows": [
 {
@@ -984,12 +998,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "埼玉県羽生市"
 },
 {
 "area": "鴻巣市",
-"lat": 36.065758,
-"lng": 139.522172,
+"lat": 36.065834,
+"lng": 139.522232,
 "prec": "area",
 "windows": [
 {
@@ -1023,12 +1038,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "埼玉県鴻巣市"
 },
 {
 "area": "深谷市",
-"lat": 36.197466,
-"lng": 139.28147,
+"lat": 36.197018,
+"lng": 139.281708,
 "prec": "area",
 "windows": [
 {
@@ -1050,12 +1066,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "埼玉県深谷市"
 },
 {
 "area": "上尾市",
-"lat": 35.977408,
-"lng": 139.593203,
+"lat": 35.977417,
+"lng": 139.593185,
 "prec": "area",
 "windows": [
 {
@@ -1101,12 +1118,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "埼玉県上尾市"
 },
 {
 "area": "草加市",
-"lat": 35.825371,
-"lng": 139.805327,
+"lat": 35.825394,
+"lng": 139.805374,
 "prec": "area",
 "windows": [
 {
@@ -1152,12 +1170,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "埼玉県草加市"
 },
 {
 "area": "越谷市",
-"lat": 35.891087,
-"lng": 139.790943,
+"lat": 35.890644,
+"lng": 139.791031,
 "prec": "area",
 "windows": [
 {
@@ -1203,12 +1222,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "埼玉県越谷市"
 },
 {
 "area": "蕨市",
-"lat": 35.825576,
-"lng": 139.679758,
+"lat": 35.825581,
+"lng": 139.679581,
 "prec": "area",
 "windows": [
 {
@@ -1236,12 +1256,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "埼玉県蕨市"
 },
 {
 "area": "戸田市",
-"lat": 35.817635,
-"lng": 139.677931,
+"lat": 35.817623,
+"lng": 139.677979,
 "prec": "area",
 "windows": [
 {
@@ -1251,12 +1272,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "埼玉県戸田市"
 },
 {
 "area": "入間市",
-"lat": 35.835769,
-"lng": 139.391058,
+"lat": 35.835835,
+"lng": 139.391113,
 "prec": "area",
 "windows": [
 {
@@ -1314,12 +1336,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "埼玉県入間市"
 },
 {
 "area": "朝霞市",
-"lat": 35.797255,
-"lng": 139.593919,
+"lat": 35.797188,
+"lng": 139.593735,
 "prec": "area",
 "windows": [
 {
@@ -1377,12 +1400,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "埼玉県朝霞市"
 },
 {
 "area": "志木市",
-"lat": 35.836614,
-"lng": 139.58023,
+"lat": 35.83659,
+"lng": 139.580246,
 "prec": "area",
 "windows": [
 {
@@ -1458,12 +1482,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "埼玉県志木市"
 },
 {
 "area": "和光市",
-"lat": 35.781104,
-"lng": 139.605693,
+"lat": 35.781387,
+"lng": 139.605835,
 "prec": "area",
 "windows": [
 {
@@ -1539,12 +1564,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "埼玉県和光市"
 },
 {
 "area": "新座市",
-"lat": 35.793497,
-"lng": 139.56533,
+"lat": 35.793159,
+"lng": 139.565628,
 "prec": "area",
 "windows": [
 {
@@ -1584,12 +1610,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "埼玉県新座市"
 },
 {
 "area": "桶川市",
-"lat": 36.002966,
-"lng": 139.558177,
+"lat": 36.002766,
+"lng": 139.55838,
 "prec": "area",
 "windows": [
 {
@@ -1629,12 +1656,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "埼玉県桶川市"
 },
 {
 "area": "久喜市",
-"lat": 36.062059,
-"lng": 139.666838,
+"lat": 36.062222,
+"lng": 139.666946,
 "prec": "area",
 "windows": [
 {
@@ -1674,12 +1702,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "埼玉県久喜市"
 },
 {
 "area": "北本市",
-"lat": 36.027026,
-"lng": 139.53024,
+"lat": 36.026661,
+"lng": 139.529984,
 "prec": "area",
 "windows": [
 {
@@ -1695,12 +1724,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "埼玉県北本市"
 },
 {
 "area": "八潮市",
-"lat": 35.822539,
-"lng": 139.839175,
+"lat": 35.822308,
+"lng": 139.839661,
 "prec": "area",
 "windows": [
 {
@@ -1716,12 +1746,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "埼玉県八潮市"
 },
 {
 "area": "富士見市",
-"lat": 35.856759,
-"lng": 139.549074,
+"lat": 35.856667,
+"lng": 139.549164,
 "prec": "area",
 "windows": [
 {
@@ -1743,12 +1774,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "埼玉県富士見市"
 },
 {
 "area": "三郷市",
-"lat": 35.830132,
-"lng": 139.872247,
+"lat": 35.830151,
+"lng": 139.872284,
 "prec": "area",
 "windows": [
 {
@@ -1812,12 +1844,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "埼玉県三郷市"
 },
 {
 "area": "蓮田市",
-"lat": 35.994504,
-"lng": 139.6622,
+"lat": 35.99435,
+"lng": 139.66214,
 "prec": "area",
 "windows": [
 {
@@ -1827,12 +1860,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "埼玉県蓮田市"
 },
 {
 "area": "坂戸市",
-"lat": 35.957262,
-"lng": 139.402983,
+"lat": 35.957222,
+"lng": 139.403061,
 "prec": "area",
 "windows": [
 {
@@ -1854,12 +1888,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "埼玉県坂戸市"
 },
 {
 "area": "幸手市",
-"lat": 36.078089,
-"lng": 139.725805,
+"lat": 36.078056,
+"lng": 139.725845,
 "prec": "area",
 "windows": [
 {
@@ -1905,12 +1940,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "埼玉県幸手市"
 },
 {
 "area": "鶴ヶ島市",
-"lat": 35.934523,
-"lng": 139.393126,
+"lat": 35.934444,
+"lng": 139.393066,
 "prec": "area",
 "windows": [
 {
@@ -1920,12 +1956,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "埼玉県鶴ヶ島市"
 },
 {
 "area": "日高市",
-"lat": 35.907748,
-"lng": 139.33914,
+"lat": 35.90778,
+"lng": 139.339172,
 "prec": "area",
 "windows": [
 {
@@ -1941,12 +1978,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "埼玉県日高市"
 },
 {
 "area": "吉川市",
-"lat": 35.891124,
-"lng": 139.841328,
+"lat": 35.89595,
+"lng": 139.855652,
 "prec": "area",
 "windows": [
 {
@@ -1962,12 +2000,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "埼玉県吉川市"
 },
 {
 "area": "ふじみ野市",
-"lat": 35.879396,
-"lng": 139.51982,
+"lat": 35.879272,
+"lng": 139.519516,
 "prec": "area",
 "windows": [
 {
@@ -2001,12 +2040,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "埼玉県ふじみ野市"
 },
 {
 "area": "白岡市",
-"lat": 36.01907,
-"lng": 139.676861,
+"lat": 36.019089,
+"lng": 139.67691,
 "prec": "area",
 "windows": [
 {
@@ -2040,12 +2080,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "埼玉県白岡市"
 },
 {
 "area": "伊奈町",
-"lat": 35.999865,
-"lng": 139.623877,
+"lat": 35.999958,
+"lng": 139.623947,
 "prec": "area",
 "windows": [
 {
@@ -2067,12 +2108,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "埼玉県伊奈町"
 },
 {
 "area": "三芳町",
-"lat": 35.828347,
-"lng": 139.526514,
+"lat": 35.828335,
+"lng": 139.526672,
 "prec": "area",
 "windows": [
 {
@@ -2100,12 +2142,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "埼玉県三芳町"
 },
 {
 "area": "毛呂山町",
-"lat": 35.941596,
-"lng": 139.315954,
+"lat": 35.941498,
+"lng": 139.316025,
 "prec": "area",
 "windows": [
 {
@@ -2133,12 +2176,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "埼玉県毛呂山町"
 },
 {
 "area": "越生町",
-"lat": 35.964478,
-"lng": 139.294202,
+"lat": 35.964443,
+"lng": 139.294174,
 "prec": "area",
 "windows": [
 {
@@ -2160,12 +2204,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "埼玉県越生町"
 },
 {
 "area": "滑川町",
-"lat": 36.06599,
-"lng": 139.360919,
+"lat": 36.066113,
+"lng": 139.36084,
 "prec": "area",
 "windows": [
 {
@@ -2175,12 +2220,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "埼玉県滑川町"
 },
 {
 "area": "小川町",
-"lat": 36.056657,
-"lng": 139.261789,
+"lat": 36.056667,
+"lng": 139.261948,
 "prec": "area",
 "windows": [
 {
@@ -2202,12 +2248,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "埼玉県小川町"
 },
 {
 "area": "鳩山町",
-"lat": 35.981468,
-"lng": 139.334106,
+"lat": 35.981483,
+"lng": 139.334091,
 "prec": "area",
 "windows": [
 {
@@ -2241,12 +2288,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "埼玉県鳩山町"
 },
 {
 "area": "ときがわ町",
-"lat": 36.00857,
-"lng": 139.296763,
+"lat": 36.00861,
+"lng": 139.296951,
 "prec": "area",
 "windows": [
 {
@@ -2256,12 +2304,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "埼玉県ときがわ町"
 },
 {
 "area": "横瀬町",
-"lat": 35.987286,
-"lng": 139.100049,
+"lat": 35.987305,
+"lng": 139.100052,
 "prec": "area",
 "windows": [
 {
@@ -2271,12 +2320,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "埼玉県横瀬町"
 },
 {
 "area": "皆野町",
-"lat": 36.070845,
-"lng": 139.098754,
+"lat": 36.070805,
+"lng": 139.098816,
 "prec": "area",
 "windows": [
 {
@@ -2286,12 +2336,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "埼玉県皆野町"
 },
 {
 "area": "長瀞町",
-"lat": 36.114787,
-"lng": 139.10972,
+"lat": 36.114746,
+"lng": 139.109802,
 "prec": "area",
 "windows": [
 {
@@ -2307,12 +2358,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "埼玉県長瀞町"
 },
 {
 "area": "美里町",
-"lat": 36.177104,
-"lng": 139.18141,
+"lat": 36.17712,
+"lng": 139.181458,
 "prec": "area",
 "windows": [
 {
@@ -2322,12 +2374,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "埼玉県美里町"
 },
 {
 "area": "神川町",
-"lat": 36.213901,
-"lng": 139.101578,
+"lat": 36.213539,
+"lng": 139.101807,
 "prec": "area",
 "windows": [
 {
@@ -2337,12 +2390,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "埼玉県神川町"
 },
 {
 "area": "上里町",
-"lat": 36.251615,
-"lng": 139.14487,
+"lat": 36.251698,
+"lng": 139.144852,
 "prec": "area",
 "windows": [
 {
@@ -2352,12 +2406,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "埼玉県上里町"
 },
 {
 "area": "寄居町",
-"lat": 36.118348,
-"lng": 139.193014,
+"lat": 36.118332,
+"lng": 139.193054,
 "prec": "area",
 "windows": [
 {
@@ -2367,12 +2422,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "埼玉県寄居町"
 },
 {
 "area": "杉戸町",
-"lat": 36.025618,
-"lng": 139.736829,
+"lat": 36.025818,
+"lng": 139.73671,
 "prec": "area",
 "windows": [
 {
@@ -2406,12 +2462,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "埼玉県杉戸町"
 },
 {
 "area": "松伏町",
-"lat": 35.925751,
-"lng": 139.815139,
+"lat": 35.925735,
+"lng": 139.815155,
 "prec": "area",
 "windows": [
 {
@@ -2421,6 +2478,7 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "埼玉県松伏町"
 }
 ]

@@ -1,9 +1,9 @@
 [
 {
 "area": "京都府",
-"lat": null,
-"lng": null,
-"prec": "unresolved",
+"lat": 35.02124,
+"lng": 135.755615,
+"prec": "area",
 "windows": [
 {
 "n": "京都府医療的ケア児等支援センター「ことのわ」",
@@ -102,12 +102,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "京都府"
 },
 {
 "area": "京都市",
-"lat": 35.011574,
-"lng": 135.768181,
+"lat": 35.011669,
+"lng": 135.768112,
 "prec": "area",
 "windows": [
 {
@@ -207,12 +208,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "京都府京都市"
 },
 {
 "area": "福知山市",
-"lat": 35.296725,
-"lng": 135.126532,
+"lat": 35.296665,
+"lng": 135.126389,
 "prec": "area",
 "windows": [
 {
@@ -222,12 +224,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "京都府福知山市"
 },
 {
 "area": "舞鶴市",
-"lat": 35.474797,
-"lng": 135.385992,
+"lat": 35.474724,
+"lng": 135.386108,
 "prec": "area",
 "windows": [
 {
@@ -237,12 +240,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "京都府舞鶴市"
 },
 {
 "area": "綾部市",
-"lat": 35.298916,
-"lng": 135.258812,
+"lat": 35.298889,
+"lng": 135.258606,
 "prec": "area",
 "windows": [
 {
@@ -264,12 +268,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "京都府綾部市"
 },
 {
 "area": "宇治市",
-"lat": 34.8844,
-"lng": 135.79978,
+"lat": 34.884445,
+"lng": 135.799728,
 "prec": "area",
 "windows": [
 {
@@ -309,12 +314,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "京都府宇治市"
 },
 {
 "area": "宮津市",
-"lat": 35.535577,
-"lng": 135.195567,
+"lat": 35.535557,
+"lng": 135.195557,
 "prec": "area",
 "windows": [
 {
@@ -342,12 +348,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "京都府宮津市"
 },
 {
 "area": "亀岡市",
-"lat": 35.013475,
-"lng": 135.573512,
+"lat": 35.013401,
+"lng": 135.573593,
 "prec": "area",
 "windows": [
 {
@@ -393,12 +400,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "京都府亀岡市"
 },
 {
 "area": "城陽市",
-"lat": 34.852958,
-"lng": 135.780074,
+"lat": 34.853058,
+"lng": 135.779999,
 "prec": "area",
 "windows": [
 {
@@ -432,12 +440,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "京都府城陽市"
 },
 {
 "area": "向日市",
-"lat": 34.948699,
-"lng": 135.698319,
+"lat": 34.94838,
+"lng": 135.698364,
 "prec": "area",
 "windows": [
 {
@@ -459,12 +468,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "京都府向日市"
 },
 {
 "area": "長岡京市",
-"lat": 34.926782,
-"lng": 135.695685,
+"lat": 34.92646,
+"lng": 135.695251,
 "prec": "area",
 "windows": [
 {
@@ -492,12 +502,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "京都府長岡京市"
 },
 {
 "area": "八幡市",
-"lat": 34.875533,
-"lng": 135.707571,
+"lat": 34.875439,
+"lng": 135.707123,
 "prec": "area",
 "windows": [
 {
@@ -519,12 +530,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "京都府八幡市"
 },
 {
 "area": "京田辺市",
-"lat": 34.814442,
-"lng": 135.767842,
+"lat": 34.814434,
+"lng": 135.767715,
 "prec": "area",
 "windows": [
 {
@@ -540,12 +552,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "京都府京田辺市"
 },
 {
 "area": "京丹後市",
-"lat": 35.624169,
-"lng": 135.060997,
+"lat": 35.624168,
+"lng": 135.061111,
 "prec": "area",
 "windows": [
 {
@@ -585,12 +598,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "京都府京丹後市"
 },
 {
 "area": "南丹市",
-"lat": 35.10739,
-"lng": 135.470239,
+"lat": 35.107288,
+"lng": 135.470703,
 "prec": "area",
 "windows": [
 {
@@ -618,12 +632,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "京都府南丹市"
 },
 {
 "area": "木津川市",
-"lat": 34.737179,
-"lng": 135.820058,
+"lat": 34.737225,
+"lng": 135.820023,
 "prec": "area",
 "windows": [
 {
@@ -699,12 +714,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "京都府木津川市"
 },
 {
 "area": "大山崎町",
-"lat": 34.902795,
-"lng": 135.688476,
+"lat": 34.902779,
+"lng": 135.688614,
 "prec": "area",
 "windows": [
 {
@@ -726,12 +742,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "京都府大山崎町"
 },
 {
 "area": "久御山町",
-"lat": 34.881502,
-"lng": 135.732564,
+"lat": 34.88139,
+"lng": 135.732773,
 "prec": "area",
 "windows": [
 {
@@ -753,12 +770,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "京都府久御山町"
 },
 {
 "area": "井手町",
-"lat": 34.798373,
-"lng": 135.803308,
+"lat": 34.800713,
+"lng": 135.81459,
 "prec": "area",
 "windows": [
 {
@@ -786,12 +804,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "京都府井手町"
 },
 {
 "area": "宇治田原町",
-"lat": 34.852665,
-"lng": 135.85685,
+"lat": 34.844761,
+"lng": 135.868103,
 "prec": "area",
 "windows": [
 {
@@ -801,12 +820,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "京都府宇治田原町"
 },
 {
 "area": "笠置町",
-"lat": 34.760497,
-"lng": 135.93938,
+"lat": 34.760468,
+"lng": 135.939362,
 "prec": "area",
 "windows": [
 {
@@ -816,12 +836,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "京都府笠置町"
 },
 {
 "area": "和束町",
-"lat": 34.795726,
-"lng": 135.904866,
+"lat": 34.795689,
+"lng": 135.904968,
 "prec": "area",
 "windows": [
 {
@@ -831,12 +852,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "京都府和束町"
 },
 {
 "area": "精華町",
-"lat": 34.760819,
-"lng": 135.785686,
+"lat": 34.760834,
+"lng": 135.785828,
 "prec": "area",
 "windows": [
 {
@@ -846,12 +868,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "京都府精華町"
 },
 {
 "area": "南山城村",
-"lat": 34.772787,
-"lng": 135.993665,
+"lat": 34.772709,
+"lng": 135.993774,
 "prec": "area",
 "windows": [
 {
@@ -861,12 +884,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "京都府南山城村"
 },
 {
 "area": "京丹波町",
-"lat": 35.16435,
-"lng": 135.423267,
+"lat": 35.169998,
+"lng": 135.419312,
 "prec": "area",
 "windows": [
 {
@@ -882,12 +906,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "京都府京丹波町"
 },
 {
 "area": "伊根町",
-"lat": 35.675172,
-"lng": 135.272853,
+"lat": 35.675278,
+"lng": 135.272781,
 "prec": "area",
 "windows": [
 {
@@ -903,12 +928,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "京都府伊根町"
 },
 {
 "area": "与謝野町",
-"lat": 35.565375,
-"lng": 135.152916,
+"lat": 35.565338,
+"lng": 135.152893,
 "prec": "area",
 "windows": [
 {
@@ -918,6 +944,7 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "京都府与謝野町"
 }
 ]

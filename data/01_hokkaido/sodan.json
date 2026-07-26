@@ -1,9 +1,9 @@
 [
 {
 "area": "北海道",
-"lat": null,
-"lng": null,
-"prec": "unresolved",
+"lat": 43.064323,
+"lng": 141.346878,
+"prec": "area",
 "windows": [
 {
 "n": "北海道小児救急電話相談",
@@ -282,12 +282,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "北海道"
 },
 {
 "area": "札幌市",
-"lat": 43.061972,
-"lng": 141.354374,
+"lat": 43.062077,
+"lng": 141.354401,
 "prec": "area",
 "windows": [
 {
@@ -417,12 +418,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "北海道札幌市"
 },
 {
 "area": "函館市",
-"lat": 41.768712,
-"lng": 140.729108,
+"lat": 41.768688,
+"lng": 140.728943,
 "prec": "area",
 "windows": [
 {
@@ -432,12 +434,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "北海道函館市"
 },
 {
 "area": "小樽市",
-"lat": 43.19075266878744,
-"lng": 140.99460537820886,
+"lat": 43.190704,
+"lng": 140.994492,
 "prec": "area",
 "windows": [
 {
@@ -453,12 +456,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "北海道小樽市"
 },
 {
 "area": "旭川市",
-"lat": 43.770799,
-"lng": 142.364798,
+"lat": 43.771435,
+"lng": 142.365295,
 "prec": "area",
 "windows": [
 {
@@ -504,12 +508,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "北海道旭川市"
 },
 {
 "area": "室蘭市",
-"lat": 42.315204,
-"lng": 140.973784,
+"lat": 42.315208,
+"lng": 140.973816,
 "prec": "area",
 "windows": [
 {
@@ -519,12 +524,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "北海道室蘭市"
 },
 {
 "area": "釧路市",
-"lat": 42.984856,
-"lng": 144.38167,
+"lat": 42.984932,
+"lng": 144.381775,
 "prec": "area",
 "windows": [
 {
@@ -546,12 +552,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "北海道釧路市"
 },
 {
 "area": "帯広市",
-"lat": 42.924014,
-"lng": 143.196195,
+"lat": 42.924175,
+"lng": 143.196228,
 "prec": "area",
 "windows": [
 {
@@ -585,12 +592,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "北海道帯広市"
 },
 {
 "area": "北見市",
-"lat": 43.807823,
-"lng": 143.894384,
+"lat": 43.802906,
+"lng": 143.894684,
 "prec": "area",
 "windows": [
 {
@@ -678,12 +686,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "北海道北見市"
 },
 {
 "area": "夕張市",
-"lat": 43.056814,
-"lng": 141.974069,
+"lat": 43.056732,
+"lng": 141.973923,
 "prec": "area",
 "windows": [
 {
@@ -699,12 +708,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "北海道夕張市"
 },
 {
 "area": "岩見沢市",
-"lat": 43.196169,
-"lng": 141.775857,
+"lat": 43.19603,
+"lng": 141.77536,
 "prec": "area",
 "windows": [
 {
@@ -726,12 +736,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "北海道岩見沢市"
 },
 {
 "area": "網走市",
-"lat": 44.020631,
-"lng": 144.273422,
+"lat": 44.020134,
+"lng": 144.268402,
 "prec": "area",
 "windows": [
 {
@@ -753,12 +764,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "北海道網走市"
 },
 {
 "area": "留萌市",
-"lat": 43.940987,
-"lng": 141.637009,
+"lat": 43.941006,
+"lng": 141.636932,
 "prec": "area",
 "windows": [
 {
@@ -798,12 +810,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "北海道留萌市"
 },
 {
 "area": "苫小牧市",
-"lat": 42.634094,
-"lng": 141.605503,
+"lat": 42.634071,
+"lng": 141.60553,
 "prec": "area",
 "windows": [
 {
@@ -831,12 +844,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "北海道苫小牧市"
 },
 {
 "area": "稚内市",
-"lat": 45.415675,
-"lng": 141.673082,
+"lat": 45.416866,
+"lng": 141.673492,
 "prec": "area",
 "windows": [
 {
@@ -846,12 +860,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "北海道稚内市"
 },
 {
 "area": "美唄市",
-"lat": 43.332951,
-"lng": 141.853986,
+"lat": 43.332912,
+"lng": 141.853806,
 "prec": "area",
 "windows": [
 {
@@ -867,12 +882,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "北海道美唄市"
 },
 {
 "area": "芦別市",
-"lat": 43.51821,
-"lng": 142.189552,
+"lat": 43.518211,
+"lng": 142.189484,
 "prec": "area",
 "windows": [
 {
@@ -894,12 +910,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "北海道芦別市"
 },
 {
 "area": "江別市",
-"lat": 43.103666,
-"lng": 141.536103,
+"lat": 43.103745,
+"lng": 141.53624,
 "prec": "area",
 "windows": [
 {
@@ -945,12 +962,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "北海道江別市"
 },
 {
 "area": "赤平市",
-"lat": 43.558039,
-"lng": 142.044223,
+"lat": 43.558048,
+"lng": 142.044174,
 "prec": "area",
 "windows": [
 {
@@ -966,12 +984,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "北海道赤平市"
 },
 {
 "area": "紋別市",
-"lat": 44.356332,
-"lng": 143.354279,
+"lat": 44.356373,
+"lng": 143.35437,
 "prec": "area",
 "windows": [
 {
@@ -1023,12 +1042,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "北海道紋別市"
 },
 {
 "area": "士別市",
-"lat": 44.178626,
-"lng": 142.400182,
+"lat": 44.178116,
+"lng": 142.400772,
 "prec": "area",
 "windows": [
 {
@@ -1044,12 +1064,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "北海道士別市"
 },
 {
 "area": "名寄市",
-"lat": 44.355924,
-"lng": 142.463134,
+"lat": 44.355907,
+"lng": 142.463181,
 "prec": "area",
 "windows": [
 {
@@ -1089,12 +1110,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "北海道名寄市"
 },
 {
 "area": "三笠市",
-"lat": 43.245622,
-"lng": 141.875342,
+"lat": 43.24567,
+"lng": 141.875244,
 "prec": "area",
 "windows": [
 {
@@ -1116,12 +1138,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "北海道三笠市"
 },
 {
 "area": "根室市",
-"lat": 43.330036,
-"lng": 145.582903,
+"lat": 43.330105,
+"lng": 145.583466,
 "prec": "area",
 "windows": [
 {
@@ -1143,12 +1166,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "北海道根室市"
 },
 {
 "area": "千歳市",
-"lat": 42.821124,
-"lng": 141.651139,
+"lat": 42.821011,
+"lng": 141.651001,
 "prec": "area",
 "windows": [
 {
@@ -1200,12 +1224,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "北海道千歳市"
 },
 {
 "area": "滝川市",
-"lat": 43.557753,
-"lng": 141.910371,
+"lat": 43.557777,
+"lng": 141.91037,
 "prec": "area",
 "windows": [
 {
@@ -1227,12 +1252,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "北海道滝川市"
 },
 {
 "area": "砂川市",
-"lat": 43.494846,
-"lng": 141.903465,
+"lat": 43.494328,
+"lng": 141.902527,
 "prec": "area",
 "windows": [
 {
@@ -1260,12 +1286,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "北海道砂川市"
 },
 {
 "area": "歌志内市",
-"lat": 43.521682,
-"lng": 142.035353,
+"lat": 43.521393,
+"lng": 142.034485,
 "prec": "area",
 "windows": [
 {
@@ -1287,12 +1314,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "北海道歌志内市"
 },
 {
 "area": "深川市",
-"lat": 43.723184,
-"lng": 142.053528,
+"lat": 43.723644,
+"lng": 142.053802,
 "prec": "area",
 "windows": [
 {
@@ -1308,12 +1336,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "北海道深川市"
 },
 {
 "area": "富良野市",
-"lat": 43.342024,
-"lng": 142.383104,
+"lat": 43.342339,
+"lng": 142.383453,
 "prec": "area",
 "windows": [
 {
@@ -1341,12 +1370,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "北海道富良野市"
 },
 {
 "area": "登別市",
-"lat": 42.412735,
-"lng": 141.106556,
+"lat": 42.412777,
+"lng": 141.106674,
 "prec": "area",
 "windows": [
 {
@@ -1386,12 +1416,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "北海道登別市"
 },
 {
 "area": "恵庭市",
-"lat": 42.882592,
-"lng": 141.577799,
+"lat": 42.882584,
+"lng": 141.577774,
 "prec": "area",
 "windows": [
 {
@@ -1425,12 +1456,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "北海道恵庭市"
 },
 {
 "area": "伊達市",
-"lat": 42.471898,
-"lng": 140.864702,
+"lat": 42.471943,
+"lng": 140.864716,
 "prec": "area",
 "windows": [
 {
@@ -1452,12 +1484,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "北海道伊達市"
 },
 {
 "area": "北広島市",
-"lat": 42.985663,
-"lng": 141.563625,
+"lat": 42.985474,
+"lng": 141.562836,
 "prec": "area",
 "windows": [
 {
@@ -1509,12 +1542,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "北海道北広島市"
 },
 {
 "area": "石狩市",
-"lat": 43.171365,
-"lng": 141.315514,
+"lat": 43.171345,
+"lng": 141.315536,
 "prec": "area",
 "windows": [
 {
@@ -1536,12 +1570,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "北海道石狩市"
 },
 {
 "area": "北斗市",
-"lat": 41.824174,
-"lng": 140.653067,
+"lat": 41.824165,
+"lng": 140.653061,
 "prec": "area",
 "windows": [
 {
@@ -1563,12 +1598,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "北海道北斗市"
 },
 {
 "area": "当別町",
-"lat": 43.22363701354465,
-"lng": 141.51700268412768,
+"lat": 43.223682,
+"lng": 141.516998,
 "prec": "area",
 "windows": [
 {
@@ -1596,12 +1632,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "北海道当別町"
 },
 {
 "area": "新篠津村",
-"lat": 43.225368,
-"lng": 141.649247,
+"lat": 43.225315,
+"lng": 141.649231,
 "prec": "area",
 "windows": [
 {
@@ -1611,12 +1648,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "北海道新篠津村"
 },
 {
 "area": "松前町",
-"lat": 41.429981,
-"lng": 140.110403,
+"lat": 41.42997,
+"lng": 140.110367,
 "prec": "area",
 "windows": [
 {
@@ -1632,12 +1670,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "北海道松前町"
 },
 {
 "area": "福島町",
-"lat": 41.483783,
-"lng": 140.251315,
+"lat": 41.483864,
+"lng": 140.251419,
 "prec": "area",
 "windows": [
 {
@@ -1659,12 +1698,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "北海道福島町"
 },
 {
 "area": "知内町",
-"lat": 41.598377,
-"lng": 140.418861,
+"lat": 41.598331,
+"lng": 140.418884,
 "prec": "area",
 "windows": [
 {
@@ -1686,12 +1726,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "北海道知内町"
 },
 {
 "area": "木古内町",
-"lat": 41.678332,
-"lng": 140.437635,
+"lat": 41.678375,
+"lng": 140.437653,
 "prec": "area",
 "windows": [
 {
@@ -1713,12 +1754,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "北海道木古内町"
 },
 {
 "area": "七飯町",
-"lat": 41.895711,
-"lng": 140.694405,
+"lat": 41.895721,
+"lng": 140.694412,
 "prec": "area",
 "windows": [
 {
@@ -1728,12 +1770,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "北海道七飯町"
 },
 {
 "area": "鹿部町",
-"lat": 42.038567,
-"lng": 140.815907,
+"lat": 42.026638,
+"lng": 140.831665,
 "prec": "area",
 "windows": [
 {
@@ -1749,12 +1792,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "北海道鹿部町"
 },
 {
 "area": "森町",
-"lat": 42.104992,
-"lng": 140.576446,
+"lat": 42.105015,
+"lng": 140.576492,
 "prec": "area",
 "windows": [
 {
@@ -1776,12 +1820,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "北海道森町"
 },
 {
 "area": "八雲町",
-"lat": 42.255918,
-"lng": 140.265224,
+"lat": 42.256008,
+"lng": 140.265259,
 "prec": "area",
 "windows": [
 {
@@ -1815,12 +1860,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "北海道八雲町"
 },
 {
 "area": "長万部町",
-"lat": 42.513488,
-"lng": 140.380344,
+"lat": 42.513538,
+"lng": 140.38031,
 "prec": "area",
 "windows": [
 {
@@ -1836,12 +1882,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "北海道長万部町"
 },
 {
 "area": "江差町",
-"lat": 41.869244,
-"lng": 140.12756,
+"lat": 41.869194,
+"lng": 140.127457,
 "prec": "area",
 "windows": [
 {
@@ -1857,12 +1904,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "北海道江差町"
 },
 {
 "area": "上ノ国町",
-"lat": 41.801042,
-"lng": 140.121398,
+"lat": 41.801109,
+"lng": 140.121384,
 "prec": "area",
 "windows": [
 {
@@ -1884,12 +1932,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "北海道上ノ国町"
 },
 {
 "area": "厚沢部町",
-"lat": 41.920895,
-"lng": 140.225475,
+"lat": 41.920948,
+"lng": 140.225357,
 "prec": "area",
 "windows": [
 {
@@ -1899,12 +1948,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "北海道厚沢部町"
 },
 {
 "area": "乙部町",
-"lat": 41.968504,
-"lng": 140.13546,
+"lat": 41.96851,
+"lng": 140.135681,
 "prec": "area",
 "windows": [
 {
@@ -1920,12 +1970,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "北海道乙部町"
 },
 {
 "area": "奥尻町",
-"lat": 42.17226,
-"lng": 139.514121,
+"lat": 42.172264,
+"lng": 139.512207,
 "prec": "area",
 "windows": [
 {
@@ -1941,12 +1992,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "北海道奥尻町"
 },
 {
 "area": "今金町",
-"lat": 42.429373,
-"lng": 140.008766,
+"lat": 42.42934,
+"lng": 140.008682,
 "prec": "area",
 "windows": [
 {
@@ -1962,12 +2014,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "北海道今金町"
 },
 {
 "area": "せたな町",
-"lat": 42.417145,
-"lng": 139.882999,
+"lat": 42.417,
+"lng": 139.88327,
 "prec": "area",
 "windows": [
 {
@@ -1983,12 +2036,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "北海道せたな町"
 },
 {
 "area": "島牧村",
-"lat": 42.700471,
-"lng": 140.061454,
+"lat": 42.700497,
+"lng": 140.061539,
 "prec": "area",
 "windows": [
 {
@@ -1998,12 +2052,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "北海道島牧村"
 },
 {
 "area": "寿都町",
-"lat": 42.790984,
-"lng": 140.228891,
+"lat": 42.791054,
+"lng": 140.228821,
 "prec": "area",
 "windows": [
 {
@@ -2019,12 +2074,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "北海道寿都町"
 },
 {
 "area": "黒松内町",
-"lat": 42.667788,
-"lng": 140.307739,
+"lat": 42.667892,
+"lng": 140.307526,
 "prec": "area",
 "windows": [
 {
@@ -2040,12 +2096,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "北海道黒松内町"
 },
 {
 "area": "蘭越町",
-"lat": 42.809205,
-"lng": 140.528346,
+"lat": 42.809238,
+"lng": 140.528381,
 "prec": "area",
 "windows": [
 {
@@ -2073,12 +2130,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "北海道蘭越町"
 },
 {
 "area": "ニセコ町",
-"lat": 42.804788,
-"lng": 140.68754,
+"lat": 42.805031,
+"lng": 140.687988,
 "prec": "area",
 "windows": [
 {
@@ -2100,12 +2158,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "北海道ニセコ町"
 },
 {
 "area": "真狩村",
-"lat": 42.762955,
-"lng": 140.803669,
+"lat": 42.763004,
+"lng": 140.803665,
 "prec": "area",
 "windows": [
 {
@@ -2121,12 +2180,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "北海道真狩村"
 },
 {
 "area": "留寿都村",
-"lat": 42.737263,
-"lng": 140.875574,
+"lat": 42.737309,
+"lng": 140.875626,
 "prec": "area",
 "windows": [
 {
@@ -2154,12 +2214,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "北海道留寿都村"
 },
 {
 "area": "喜茂別町",
-"lat": 42.795439,
-"lng": 140.934532,
+"lat": 42.795433,
+"lng": 140.93454,
 "prec": "area",
 "windows": [
 {
@@ -2169,12 +2230,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "北海道喜茂別町"
 },
 {
 "area": "京極町",
-"lat": 42.858216,
-"lng": 140.883999,
+"lat": 42.858227,
+"lng": 140.884109,
 "prec": "area",
 "windows": [
 {
@@ -2184,12 +2246,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "北海道京極町"
 },
 {
 "area": "倶知安町",
-"lat": 42.901752,
-"lng": 140.758878,
+"lat": 42.901459,
+"lng": 140.759018,
 "prec": "area",
 "windows": [
 {
@@ -2199,12 +2262,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "北海道倶知安町"
 },
 {
 "area": "共和町",
-"lat": 42.980407,
-"lng": 140.611175,
+"lat": 42.980408,
+"lng": 140.61142,
 "prec": "area",
 "windows": [
 {
@@ -2226,12 +2290,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "北海道共和町"
 },
 {
 "area": "岩内町",
-"lat": 42.978778,
-"lng": 140.509212,
+"lat": 42.979813,
+"lng": 140.51474,
 "prec": "area",
 "windows": [
 {
@@ -2241,12 +2306,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "北海道岩内町"
 },
 {
 "area": "泊村",
-"lat": 43.063212,
-"lng": 140.498857,
+"lat": 43.063004,
+"lng": 140.498901,
 "prec": "area",
 "windows": [
 {
@@ -2256,12 +2322,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "北海道泊村"
 },
 {
 "area": "神恵内村",
-"lat": 43.143791,
-"lng": 140.430817,
+"lat": 43.143364,
+"lng": 140.430801,
 "prec": "area",
 "windows": [
 {
@@ -2271,12 +2338,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "北海道神恵内村"
 },
 {
 "area": "積丹町",
-"lat": 43.29871,
-"lng": 140.598001,
+"lat": 43.298748,
+"lng": 140.597977,
 "prec": "area",
 "windows": [
 {
@@ -2286,12 +2354,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "北海道積丹町"
 },
 {
 "area": "古平町",
-"lat": 43.265353,
-"lng": 140.639078,
+"lat": 43.264015,
+"lng": 140.638702,
 "prec": "area",
 "windows": [
 {
@@ -2307,12 +2376,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "北海道古平町"
 },
 {
 "area": "仁木町",
-"lat": 43.151675,
-"lng": 140.766168,
+"lat": 43.151669,
+"lng": 140.766113,
 "prec": "area",
 "windows": [
 {
@@ -2328,12 +2398,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "北海道仁木町"
 },
 {
 "area": "余市町",
-"lat": 43.195343,
-"lng": 140.783542,
+"lat": 43.195347,
+"lng": 140.783539,
 "prec": "area",
 "windows": [
 {
@@ -2343,12 +2414,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "北海道余市町"
 },
 {
 "area": "赤井川村",
-"lat": 43.083479,
-"lng": 140.81364,
+"lat": 43.083492,
+"lng": 140.813629,
 "prec": "area",
 "windows": [
 {
@@ -2358,12 +2430,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "北海道赤井川村"
 },
 {
 "area": "南幌町",
-"lat": 43.063739,
-"lng": 141.65033,
+"lat": 43.063755,
+"lng": 141.650436,
 "prec": "area",
 "windows": [
 {
@@ -2379,12 +2452,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "北海道南幌町"
 },
 {
 "area": "奈井江町",
-"lat": 43.425353,
-"lng": 141.882816,
+"lat": 43.425453,
+"lng": 141.88353,
 "prec": "area",
 "windows": [
 {
@@ -2394,12 +2468,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "北海道奈井江町"
 },
 {
 "area": "上砂川町",
-"lat": 43.482538,
-"lng": 141.984064,
+"lat": 43.482765,
+"lng": 141.984253,
 "prec": "area",
 "windows": [
 {
@@ -2415,12 +2490,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "北海道上砂川町"
 },
 {
 "area": "由仁町",
-"lat": 42.999598,
-"lng": 141.790309,
+"lat": 42.999607,
+"lng": 141.790283,
 "prec": "area",
 "windows": [
 {
@@ -2430,12 +2506,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "北海道由仁町"
 },
 {
 "area": "長沼町",
-"lat": 43.01034,
-"lng": 141.695367,
+"lat": 43.01041,
+"lng": 141.695282,
 "prec": "area",
 "windows": [
 {
@@ -2457,12 +2534,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "北海道長沼町"
 },
 {
 "area": "栗山町",
-"lat": 43.05629,
-"lng": 141.784099,
+"lat": 43.056328,
+"lng": 141.784256,
 "prec": "area",
 "windows": [
 {
@@ -2490,12 +2568,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "北海道栗山町"
 },
 {
 "area": "月形町",
-"lat": 43.338397,
-"lng": 141.669604,
+"lat": 43.338345,
+"lng": 141.669495,
 "prec": "area",
 "windows": [
 {
@@ -2505,12 +2584,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "北海道月形町"
 },
 {
 "area": "浦臼町",
-"lat": 43.430363,
-"lng": 141.818727,
+"lat": 43.43037,
+"lng": 141.818741,
 "prec": "area",
 "windows": [
 {
@@ -2520,12 +2600,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "北海道浦臼町"
 },
 {
 "area": "新十津川町",
-"lat": 43.5485,
-"lng": 141.877009,
+"lat": 43.548782,
+"lng": 141.877121,
 "prec": "area",
 "windows": [
 {
@@ -2547,12 +2628,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "北海道新十津川町"
 },
 {
 "area": "妹背牛町",
-"lat": 43.700093,
-"lng": 141.961606,
+"lat": 43.700169,
+"lng": 141.961502,
 "prec": "area",
 "windows": [
 {
@@ -2574,12 +2656,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "北海道妹背牛町"
 },
 {
 "area": "秩父別町",
-"lat": 43.767,
-"lng": 141.957896,
+"lat": 43.767014,
+"lng": 141.957855,
 "prec": "area",
 "windows": [
 {
@@ -2589,12 +2672,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "北海道秩父別町"
 },
 {
 "area": "雨竜町",
-"lat": 43.643943,
-"lng": 141.889036,
+"lat": 43.64394,
+"lng": 141.889664,
 "prec": "area",
 "windows": [
 {
@@ -2604,12 +2688,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "北海道雨竜町"
 },
 {
 "area": "北竜町",
-"lat": 43.731426,
-"lng": 141.879409,
+"lat": 43.731388,
+"lng": 141.879166,
 "prec": "area",
 "windows": [
 {
@@ -2619,12 +2704,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "北海道北竜町"
 },
 {
 "area": "沼田町",
-"lat": 43.80674,
-"lng": 141.933817,
+"lat": 43.806702,
+"lng": 141.933685,
 "prec": "area",
 "windows": [
 {
@@ -2634,12 +2720,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "北海道沼田町"
 },
 {
 "area": "鷹栖町",
-"lat": 43.843321,
-"lng": 142.354382,
+"lat": 43.843334,
+"lng": 142.354446,
 "prec": "area",
 "windows": [
 {
@@ -2649,12 +2736,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "北海道鷹栖町"
 },
 {
 "area": "東神楽町",
-"lat": 43.696303,
-"lng": 142.451571,
+"lat": 43.696491,
+"lng": 142.451263,
 "prec": "area",
 "windows": [
 {
@@ -2682,12 +2770,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "北海道東神楽町"
 },
 {
 "area": "当麻町",
-"lat": 43.828201,
-"lng": 142.508388,
+"lat": 43.827827,
+"lng": 142.508087,
 "prec": "area",
 "windows": [
 {
@@ -2697,12 +2786,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "北海道当麻町"
 },
 {
 "area": "比布町",
-"lat": 43.875021,
-"lng": 142.477699,
+"lat": 43.875004,
+"lng": 142.477676,
 "prec": "area",
 "windows": [
 {
@@ -2712,12 +2802,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "北海道比布町"
 },
 {
 "area": "愛別町",
-"lat": 43.906679,
-"lng": 142.577822,
+"lat": 43.906673,
+"lng": 142.57782,
 "prec": "area",
 "windows": [
 {
@@ -2727,12 +2818,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "北海道愛別町"
 },
 {
 "area": "上川町",
-"lat": 43.847128,
-"lng": 142.770459,
+"lat": 43.847122,
+"lng": 142.770462,
 "prec": "area",
 "windows": [
 {
@@ -2742,12 +2834,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "北海道上川町"
 },
 {
 "area": "東川町",
-"lat": 43.698877,
-"lng": 142.510128,
+"lat": 43.698849,
+"lng": 142.510223,
 "prec": "area",
 "windows": [
 {
@@ -2763,12 +2856,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "北海道東川町"
 },
 {
 "area": "美瑛町",
-"lat": 43.588279,
-"lng": 142.467055,
+"lat": 43.588284,
+"lng": 142.46698,
 "prec": "area",
 "windows": [
 {
@@ -2778,12 +2872,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "北海道美瑛町"
 },
 {
 "area": "上富良野町",
-"lat": 43.455614,
-"lng": 142.467112,
+"lat": 43.45565,
+"lng": 142.467087,
 "prec": "area",
 "windows": [
 {
@@ -2799,11 +2894,12 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "北海道上富良野町"
 },
 {
 "area": "中富良野町",
-"lat": 43.405576,
+"lat": 43.405529,
 "lng": 142.425034,
 "prec": "area",
 "windows": [
@@ -2820,12 +2916,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "北海道中富良野町"
 },
 {
 "area": "南富良野町",
-"lat": 43.164088,
-"lng": 142.568522,
+"lat": 43.164165,
+"lng": 142.568329,
 "prec": "area",
 "windows": [
 {
@@ -2853,12 +2950,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "北海道南富良野町"
 },
 {
 "area": "占冠村",
-"lat": 42.979836,
-"lng": 142.398526,
+"lat": 42.979881,
+"lng": 142.398529,
 "prec": "area",
 "windows": [
 {
@@ -2868,12 +2966,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "北海道占冠村"
 },
 {
 "area": "和寒町",
-"lat": 44.023119,
-"lng": 142.413383,
+"lat": 44.023129,
+"lng": 142.413406,
 "prec": "area",
 "windows": [
 {
@@ -2889,12 +2988,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "北海道和寒町"
 },
 {
 "area": "剣淵町",
-"lat": 44.095746,
-"lng": 142.361007,
+"lat": 44.09576,
+"lng": 142.361328,
 "prec": "area",
 "windows": [
 {
@@ -2910,12 +3010,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "北海道剣淵町"
 },
 {
 "area": "下川町",
-"lat": 44.302576,
-"lng": 142.635219,
+"lat": 44.302567,
+"lng": 142.635208,
 "prec": "area",
 "windows": [
 {
@@ -2943,12 +3044,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "北海道下川町"
 },
 {
 "area": "美深町",
-"lat": 44.480994,
-"lng": 142.342963,
+"lat": 44.481022,
+"lng": 142.343063,
 "prec": "area",
 "windows": [
 {
@@ -2958,12 +3060,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "北海道美深町"
 },
 {
 "area": "音威子府村",
-"lat": 44.725096,
-"lng": 142.262458,
+"lat": 44.72504,
+"lng": 142.262207,
 "prec": "area",
 "windows": [
 {
@@ -2973,12 +3076,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "北海道音威子府村"
 },
 {
 "area": "中川町",
-"lat": 44.811488,
-"lng": 142.071409,
+"lat": 44.81139,
+"lng": 142.071396,
 "prec": "area",
 "windows": [
 {
@@ -3000,12 +3104,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "北海道中川町"
 },
 {
 "area": "幌加内町",
-"lat": 44.009812,
-"lng": 142.153828,
+"lat": 44.009796,
+"lng": 142.153824,
 "prec": "area",
 "windows": [
 {
@@ -3015,12 +3120,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "北海道幌加内町"
 },
 {
 "area": "増毛町",
-"lat": 43.856063,
-"lng": 141.524978,
+"lat": 43.85606,
+"lng": 141.524918,
 "prec": "area",
 "windows": [
 {
@@ -3030,12 +3136,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "北海道増毛町"
 },
 {
 "area": "苫前町",
-"lat": 44.306086,
-"lng": 141.652932,
+"lat": 44.306141,
+"lng": 141.652908,
 "prec": "area",
 "windows": [
 {
@@ -3051,12 +3158,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "北海道苫前町"
 },
 {
 "area": "羽幌町",
-"lat": 44.36061,
-"lng": 141.697249,
+"lat": 44.360611,
+"lng": 141.697281,
 "prec": "area",
 "windows": [
 {
@@ -3066,12 +3174,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "北海道羽幌町"
 },
 {
 "area": "初山別村",
-"lat": 44.532149,
-"lng": 141.766342,
+"lat": 44.532146,
+"lng": 141.766312,
 "prec": "area",
 "windows": [
 {
@@ -3081,12 +3190,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "北海道初山別村"
 },
 {
 "area": "遠別町",
-"lat": 44.722462,
-"lng": 141.792322,
+"lat": 44.722507,
+"lng": 141.792328,
 "prec": "area",
 "windows": [
 {
@@ -3096,12 +3206,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "北海道遠別町"
 },
 {
 "area": "天塩町",
-"lat": 44.888121,
-"lng": 141.745324,
+"lat": 44.888172,
+"lng": 141.745346,
 "prec": "area",
 "windows": [
 {
@@ -3111,12 +3222,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "北海道天塩町"
 },
 {
 "area": "猿払村",
-"lat": 45.33061,
-"lng": 142.108945,
+"lat": 45.330608,
+"lng": 142.108978,
 "prec": "area",
 "windows": [
 {
@@ -3126,12 +3238,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "北海道猿払村"
 },
 {
 "area": "浜頓別町",
-"lat": 45.123716,
-"lng": 142.35964,
+"lat": 45.123779,
+"lng": 142.359741,
 "prec": "area",
 "windows": [
 {
@@ -3141,12 +3254,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "北海道浜頓別町"
 },
 {
 "area": "中頓別町",
-"lat": 44.96971,
-"lng": 142.286705,
+"lat": 44.969761,
+"lng": 142.286743,
 "prec": "area",
 "windows": [
 {
@@ -3162,12 +3276,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "北海道中頓別町"
 },
 {
 "area": "枝幸町",
-"lat": 44.9387,
-"lng": 142.581405,
+"lat": 44.938683,
+"lng": 142.58139,
 "prec": "area",
 "windows": [
 {
@@ -3183,12 +3298,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "北海道枝幸町"
 },
 {
 "area": "豊富町",
-"lat": 45.102847,
-"lng": 141.777508,
+"lat": 45.102856,
+"lng": 141.777496,
 "prec": "area",
 "windows": [
 {
@@ -3204,12 +3320,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "北海道豊富町"
 },
 {
 "area": "礼文町",
-"lat": 45.303062,
-"lng": 141.047717,
+"lat": 45.303082,
+"lng": 141.047745,
 "prec": "area",
 "windows": [
 {
@@ -3219,12 +3336,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "北海道礼文町"
 },
 {
 "area": "利尻町",
-"lat": 45.187041,
-"lng": 141.139597,
+"lat": 45.187016,
+"lng": 141.139587,
 "prec": "area",
 "windows": [
 {
@@ -3252,12 +3370,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "北海道利尻町"
 },
 {
 "area": "利尻富士町",
-"lat": 45.247459,
-"lng": 141.214719,
+"lat": 45.247501,
+"lng": 141.214722,
 "prec": "area",
 "windows": [
 {
@@ -3267,12 +3386,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "北海道利尻富士町"
 },
 {
 "area": "幌延町",
-"lat": 45.017635,
-"lng": 141.849386,
+"lat": 45.017776,
+"lng": 141.849442,
 "prec": "area",
 "windows": [
 {
@@ -3282,12 +3402,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "北海道幌延町"
 },
 {
 "area": "美幌町",
-"lat": 43.823721,
-"lng": 144.107151,
+"lat": 43.824249,
+"lng": 144.107529,
 "prec": "area",
 "windows": [
 {
@@ -3315,12 +3436,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "北海道美幌町"
 },
 {
 "area": "津別町",
-"lat": 43.706316,
-"lng": 144.024803,
+"lat": 43.706261,
+"lng": 144.025238,
 "prec": "area",
 "windows": [
 {
@@ -3330,12 +3452,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "北海道津別町"
 },
 {
 "area": "斜里町",
-"lat": 43.911441,
-"lng": 144.670713,
+"lat": 43.911476,
+"lng": 144.670837,
 "prec": "area",
 "windows": [
 {
@@ -3351,12 +3474,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "北海道斜里町"
 },
 {
 "area": "清里町",
-"lat": 43.835224,
-"lng": 144.594582,
+"lat": 43.835239,
+"lng": 144.594681,
 "prec": "area",
 "windows": [
 {
@@ -3366,12 +3490,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "北海道清里町"
 },
 {
 "area": "小清水町",
-"lat": 43.856679,
-"lng": 144.462114,
+"lat": 43.857033,
+"lng": 144.462524,
 "prec": "area",
 "windows": [
 {
@@ -3381,12 +3506,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "北海道小清水町"
 },
 {
 "area": "訓子府町",
-"lat": 43.725328,
-"lng": 143.741665,
+"lat": 43.725368,
+"lng": 143.741669,
 "prec": "area",
 "windows": [
 {
@@ -3408,12 +3534,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "北海道訓子府町"
 },
 {
 "area": "置戸町",
-"lat": 43.676328,
-"lng": 143.586402,
+"lat": 43.676388,
+"lng": 143.586395,
 "prec": "area",
 "windows": [
 {
@@ -3423,12 +3550,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "北海道置戸町"
 },
 {
 "area": "佐呂間町",
-"lat": 44.017859,
-"lng": 143.774714,
+"lat": 44.017853,
+"lng": 143.774765,
 "prec": "area",
 "windows": [
 {
@@ -3444,12 +3572,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "北海道佐呂間町"
 },
 {
 "area": "遠軽町",
-"lat": 44.061947,
-"lng": 143.527726,
+"lat": 44.061962,
+"lng": 143.528046,
 "prec": "area",
 "windows": [
 {
@@ -3465,12 +3594,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "北海道遠軽町"
 },
 {
 "area": "湧別町",
-"lat": 44.151465,
-"lng": 143.572919,
+"lat": 44.151604,
+"lng": 143.573029,
 "prec": "area",
 "windows": [
 {
@@ -3480,12 +3610,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "北海道湧別町"
 },
 {
 "area": "滝上町",
-"lat": 44.19227,
-"lng": 143.07765,
+"lat": 44.192276,
+"lng": 143.077621,
 "prec": "area",
 "windows": [
 {
@@ -3501,12 +3632,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "北海道滝上町"
 },
 {
 "area": "興部町",
-"lat": 44.469874,
-"lng": 143.123699,
+"lat": 44.469868,
+"lng": 143.123962,
 "prec": "area",
 "windows": [
 {
@@ -3516,12 +3648,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "北海道興部町"
 },
 {
 "area": "西興部村",
-"lat": 44.328833,
-"lng": 142.944445,
+"lat": 44.328808,
+"lng": 142.944458,
 "prec": "area",
 "windows": [
 {
@@ -3531,12 +3664,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "北海道西興部村"
 },
 {
 "area": "雄武町",
-"lat": 44.582482,
-"lng": 142.961863,
+"lat": 44.582504,
+"lng": 142.962006,
 "prec": "area",
 "windows": [
 {
@@ -3546,12 +3680,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "北海道雄武町"
 },
 {
 "area": "大空町",
-"lat": 43.911858,
-"lng": 144.172473,
+"lat": 43.911945,
+"lng": 144.172501,
 "prec": "area",
 "windows": [
 {
@@ -3567,12 +3702,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "北海道大空町"
 },
 {
 "area": "豊浦町",
-"lat": 42.583464,
-"lng": 140.711815,
+"lat": 42.583408,
+"lng": 140.71196,
 "prec": "area",
 "windows": [
 {
@@ -3594,12 +3730,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "北海道豊浦町"
 },
 {
 "area": "壮瞥町",
-"lat": 42.552556,
-"lng": 140.885472,
+"lat": 42.552109,
+"lng": 140.885834,
 "prec": "area",
 "windows": [
 {
@@ -3621,12 +3758,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "北海道壮瞥町"
 },
 {
 "area": "白老町",
-"lat": 42.551259,
-"lng": 141.355861,
+"lat": 42.551247,
+"lng": 141.355942,
 "prec": "area",
 "windows": [
 {
@@ -3660,12 +3798,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "北海道白老町"
 },
 {
 "area": "厚真町",
-"lat": 42.723566,
-"lng": 141.877841,
+"lat": 42.723667,
+"lng": 141.877945,
 "prec": "area",
 "windows": [
 {
@@ -3681,12 +3820,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "北海道厚真町"
 },
 {
 "area": "洞爺湖町",
-"lat": 42.551223,
-"lng": 140.764128,
+"lat": 42.551117,
+"lng": 140.764267,
 "prec": "area",
 "windows": [
 {
@@ -3702,12 +3842,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "北海道洞爺湖町"
 },
 {
 "area": "安平町",
-"lat": 42.762798,
-"lng": 141.818047,
+"lat": 42.762802,
+"lng": 141.818039,
 "prec": "area",
 "windows": [
 {
@@ -3723,12 +3864,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "北海道安平町"
 },
 {
 "area": "むかわ町",
-"lat": 42.574741,
-"lng": 141.926761,
+"lat": 42.574749,
+"lng": 141.926743,
 "prec": "area",
 "windows": [
 {
@@ -3744,12 +3886,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "北海道むかわ町"
 },
 {
 "area": "日高町",
-"lat": 42.480318,
-"lng": 142.074359,
+"lat": 42.480335,
+"lng": 142.074295,
 "prec": "area",
 "windows": [
 {
@@ -3771,12 +3914,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "北海道日高町"
 },
 {
 "area": "平取町",
-"lat": 42.585098,
-"lng": 142.128525,
+"lat": 42.58514,
+"lng": 142.128693,
 "prec": "area",
 "windows": [
 {
@@ -3798,12 +3942,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "北海道平取町"
 },
 {
 "area": "新冠町",
-"lat": 42.362417,
-"lng": 142.318315,
+"lat": 42.362442,
+"lng": 142.318436,
 "prec": "area",
 "windows": [
 {
@@ -3819,12 +3964,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "北海道新冠町"
 },
 {
 "area": "浦河町",
-"lat": 42.168355,
-"lng": 142.768213,
+"lat": 42.168343,
+"lng": 142.768204,
 "prec": "area",
 "windows": [
 {
@@ -3840,12 +3986,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "北海道浦河町"
 },
 {
 "area": "様似町",
-"lat": 42.127737,
-"lng": 142.933797,
+"lat": 42.127777,
+"lng": 142.933884,
 "prec": "area",
 "windows": [
 {
@@ -3867,12 +4014,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "北海道様似町"
 },
 {
 "area": "えりも町",
-"lat": 42.016298,
-"lng": 143.148348,
+"lat": 42.016388,
+"lng": 143.148331,
 "prec": "area",
 "windows": [
 {
@@ -3894,12 +4042,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "北海道えりも町"
 },
 {
 "area": "新ひだか町",
-"lat": 42.341276,
-"lng": 142.368588,
+"lat": 42.341255,
+"lng": 142.368607,
 "prec": "area",
 "windows": [
 {
@@ -3915,12 +4064,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "北海道新ひだか町"
 },
 {
 "area": "音更町",
-"lat": 42.994115,
-"lng": 143.197869,
+"lat": 42.99403,
+"lng": 143.19812,
 "prec": "area",
 "windows": [
 {
@@ -3936,12 +4086,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "北海道音更町"
 },
 {
 "area": "士幌町",
-"lat": 43.168047,
-"lng": 143.241344,
+"lat": 43.168049,
+"lng": 143.241455,
 "prec": "area",
 "windows": [
 {
@@ -3951,12 +4102,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "北海道士幌町"
 },
 {
 "area": "上士幌町",
-"lat": 43.232615,
-"lng": 143.296243,
+"lat": 43.232635,
+"lng": 143.296173,
 "prec": "area",
 "windows": [
 {
@@ -3972,12 +4124,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "北海道上士幌町"
 },
 {
 "area": "鹿追町",
-"lat": 43.098876,
-"lng": 142.989028,
+"lat": 43.098877,
+"lng": 142.988968,
 "prec": "area",
 "windows": [
 {
@@ -3993,12 +4146,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "北海道鹿追町"
 },
 {
 "area": "新得町",
-"lat": 43.079741,
-"lng": 142.838822,
+"lat": 43.079548,
+"lng": 142.838974,
 "prec": "area",
 "windows": [
 {
@@ -4008,12 +4162,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "北海道新得町"
 },
 {
 "area": "清水町",
-"lat": 43.011423,
-"lng": 142.884568,
+"lat": 43.011436,
+"lng": 142.884537,
 "prec": "area",
 "windows": [
 {
@@ -4041,12 +4196,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "北海道清水町"
 },
 {
 "area": "芽室町",
-"lat": 42.91189,
-"lng": 143.050807,
+"lat": 42.911545,
+"lng": 143.050842,
 "prec": "area",
 "windows": [
 {
@@ -4056,12 +4212,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "北海道芽室町"
 },
 {
 "area": "中札内村",
-"lat": 42.697611,
-"lng": 143.132443,
+"lat": 42.697865,
+"lng": 143.134399,
 "prec": "area",
 "windows": [
 {
@@ -4071,12 +4228,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "北海道中札内村"
 },
 {
 "area": "更別村",
-"lat": 42.650415,
-"lng": 143.187794,
+"lat": 42.650387,
+"lng": 143.187836,
 "prec": "area",
 "windows": [
 {
@@ -4086,12 +4244,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "北海道更別村"
 },
 {
 "area": "大樹町",
-"lat": 42.497525,
-"lng": 143.27891,
+"lat": 42.497696,
+"lng": 143.278992,
 "prec": "area",
 "windows": [
 {
@@ -4101,12 +4260,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "北海道大樹町"
 },
 {
 "area": "広尾町",
-"lat": 42.285841,
-"lng": 143.311498,
+"lat": 42.285931,
+"lng": 143.31163,
 "prec": "area",
 "windows": [
 {
@@ -4122,12 +4282,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "北海道広尾町"
 },
 {
 "area": "幕別町",
-"lat": 42.908198,
-"lng": 143.356085,
+"lat": 42.908627,
+"lng": 143.356094,
 "prec": "area",
 "windows": [
 {
@@ -4167,12 +4328,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "北海道幕別町"
 },
 {
 "area": "池田町",
-"lat": 42.92898,
-"lng": 143.448472,
+"lat": 42.929008,
+"lng": 143.448532,
 "prec": "area",
 "windows": [
 {
@@ -4182,12 +4344,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "北海道池田町"
 },
 {
 "area": "豊頃町",
-"lat": 42.801023,
-"lng": 143.5059,
+"lat": 42.801022,
+"lng": 143.50589,
 "prec": "area",
 "windows": [
 {
@@ -4197,12 +4360,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "北海道豊頃町"
 },
 {
 "area": "本別町",
-"lat": 43.124615,
-"lng": 143.610962,
+"lat": 43.124672,
+"lng": 143.610565,
 "prec": "area",
 "windows": [
 {
@@ -4224,12 +4388,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "北海道本別町"
 },
 {
 "area": "足寄町",
-"lat": 43.244786,
-"lng": 143.55393,
+"lat": 43.244801,
+"lng": 143.554047,
 "prec": "area",
 "windows": [
 {
@@ -4263,12 +4428,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "北海道足寄町"
 },
 {
 "area": "陸別町",
-"lat": 43.468914,
-"lng": 143.747305,
+"lat": 43.468887,
+"lng": 143.747223,
 "prec": "area",
 "windows": [
 {
@@ -4278,12 +4444,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "北海道陸別町"
 },
 {
 "area": "浦幌町",
-"lat": 42.808947,
-"lng": 143.658581,
+"lat": 42.808956,
+"lng": 143.658585,
 "prec": "area",
 "windows": [
 {
@@ -4293,12 +4460,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "北海道浦幌町"
 },
 {
 "area": "釧路町",
-"lat": 42.996124,
-"lng": 144.466081,
+"lat": 42.996174,
+"lng": 144.46608,
 "prec": "area",
 "windows": [
 {
@@ -4332,12 +4500,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "北海道釧路町"
 },
 {
 "area": "厚岸町",
-"lat": 43.051951,
-"lng": 144.847443,
+"lat": 43.05196,
+"lng": 144.847473,
 "prec": "area",
 "windows": [
 {
@@ -4353,12 +4522,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "北海道厚岸町"
 },
 {
 "area": "浜中町",
-"lat": 43.077087,
-"lng": 145.129391,
+"lat": 43.075947,
+"lng": 145.131134,
 "prec": "area",
 "windows": [
 {
@@ -4380,12 +4550,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "北海道浜中町"
 },
 {
 "area": "標茶町",
-"lat": 43.303337,
-"lng": 144.600665,
+"lat": 43.303349,
+"lng": 144.600662,
 "prec": "area",
 "windows": [
 {
@@ -4413,12 +4584,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "北海道標茶町"
 },
 {
 "area": "弟子屈町",
-"lat": 43.485352,
-"lng": 144.459223,
+"lat": 43.485214,
+"lng": 144.45932,
 "prec": "area",
 "windows": [
 {
@@ -4428,12 +4600,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "北海道弟子屈町"
 },
 {
 "area": "鶴居村",
-"lat": 43.23016,
-"lng": 144.321165,
+"lat": 43.230072,
+"lng": 144.321182,
 "prec": "area",
 "windows": [
 {
@@ -4443,12 +4616,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "北海道鶴居村"
 },
 {
 "area": "白糠町",
-"lat": 42.956161,
-"lng": 144.071805,
+"lat": 42.956165,
+"lng": 144.071732,
 "prec": "area",
 "windows": [
 {
@@ -4470,12 +4644,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "北海道白糠町"
 },
 {
 "area": "別海町",
-"lat": 43.39399,
-"lng": 145.117341,
+"lat": 43.394001,
+"lng": 145.117325,
 "prec": "area",
 "windows": [
 {
@@ -4497,12 +4672,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "北海道別海町"
 },
 {
 "area": "中標津町",
-"lat": 43.555191,
-"lng": 144.971504,
+"lat": 43.555206,
+"lng": 144.97139,
 "prec": "area",
 "windows": [
 {
@@ -4530,12 +4706,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "北海道中標津町"
 },
 {
 "area": "標津町",
-"lat": 43.661309,
-"lng": 145.131325,
+"lat": 43.66127,
+"lng": 145.131332,
 "prec": "area",
 "windows": [
 {
@@ -4563,12 +4740,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "北海道標津町"
 },
 {
 "area": "羅臼町",
-"lat": 44.021953,
-"lng": 145.189532,
+"lat": 44.021942,
+"lng": 145.189438,
 "prec": "area",
 "windows": [
 {
@@ -4578,6 +4756,7 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "北海道羅臼町"
 }
 ]

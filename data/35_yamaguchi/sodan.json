@@ -1,9 +1,9 @@
 [
 {
 "area": "山口県",
-"lat": null,
-"lng": null,
-"prec": "unresolved",
+"lat": 34.186043,
+"lng": 131.470657,
+"prec": "area",
 "windows": [
 {
 "n": "中央児童相談所",
@@ -204,12 +204,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "山口県"
 },
 {
 "area": "下関市",
-"lat": 33.957828,
-"lng": 130.941459,
+"lat": 33.957287,
+"lng": 130.940964,
 "prec": "area",
 "windows": [
 {
@@ -315,12 +316,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "山口県下関市"
 },
 {
 "area": "宇部市",
-"lat": 33.951623,
-"lng": 131.246761,
+"lat": 33.951824,
+"lng": 131.247314,
 "prec": "area",
 "windows": [
 {
@@ -378,12 +380,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "山口県宇部市"
 },
 {
 "area": "山口市",
-"lat": 34.178178,
-"lng": 131.473511,
+"lat": 34.177845,
+"lng": 131.473022,
 "prec": "area",
 "windows": [
 {
@@ -417,12 +420,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "山口県山口市"
 },
 {
 "area": "萩市",
-"lat": 34.408107,
-"lng": 131.399104,
+"lat": 34.408054,
+"lng": 131.39917,
 "prec": "area",
 "windows": [
 {
@@ -444,12 +448,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "山口県萩市"
 },
 {
 "area": "防府市",
-"lat": 34.051756,
-"lng": 131.562627,
+"lat": 34.05143,
+"lng": 131.562775,
 "prec": "area",
 "windows": [
 {
@@ -471,12 +476,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "山口県防府市"
 },
 {
 "area": "下松市",
-"lat": 34.015038,
-"lng": 131.870317,
+"lat": 34.014999,
+"lng": 131.870285,
 "prec": "area",
 "windows": [
 {
@@ -516,12 +522,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "山口県下松市"
 },
 {
 "area": "岩国市",
-"lat": 34.1665,
-"lng": 132.218942,
+"lat": 34.166595,
+"lng": 132.218842,
 "prec": "area",
 "windows": [
 {
@@ -555,12 +562,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "山口県岩国市"
 },
 {
 "area": "光市",
-"lat": 33.961916,
-"lng": 131.942296,
+"lat": 33.961895,
+"lng": 131.942123,
 "prec": "area",
 "windows": [
 {
@@ -576,12 +584,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "山口県光市"
 },
 {
 "area": "長門市",
-"lat": 34.370959,
-"lng": 131.182198,
+"lat": 34.37056,
+"lng": 131.182617,
 "prec": "area",
 "windows": [
 {
@@ -603,12 +612,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "山口県長門市"
 },
 {
 "area": "柳井市",
-"lat": 33.963839,
-"lng": 132.101597,
+"lat": 33.96389,
+"lng": 132.101669,
 "prec": "area",
 "windows": [
 {
@@ -666,12 +676,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "山口県柳井市"
 },
 {
 "area": "美祢市",
-"lat": 34.16667,
-"lng": 131.205703,
+"lat": 34.166714,
+"lng": 131.206207,
 "prec": "area",
 "windows": [
 {
@@ -693,12 +704,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "山口県美祢市"
 },
 {
 "area": "周南市",
-"lat": 34.055135,
-"lng": 131.806293,
+"lat": 34.055725,
+"lng": 131.806595,
 "prec": "area",
 "windows": [
 {
@@ -726,12 +738,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "山口県周南市"
 },
 {
 "area": "山陽小野田市",
-"lat": 34.003089,
-"lng": 131.181786,
+"lat": 34.003166,
+"lng": 131.181808,
 "prec": "area",
 "windows": [
 {
@@ -759,12 +772,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "山口県山陽小野田市"
 },
 {
 "area": "周防大島町",
-"lat": 33.927628,
-"lng": 132.19532,
+"lat": 33.927502,
+"lng": 132.195282,
 "prec": "area",
 "windows": [
 {
@@ -780,12 +794,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "山口県周防大島町"
 },
 {
 "area": "和木町",
-"lat": 34.202408,
-"lng": 132.220405,
+"lat": 34.202396,
+"lng": 132.220398,
 "prec": "area",
 "windows": [
 {
@@ -813,12 +828,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "山口県和木町"
 },
 {
 "area": "上関町",
-"lat": 33.831093,
-"lng": 132.110772,
+"lat": 33.830795,
+"lng": 132.110214,
 "prec": "area",
 "windows": [
 {
@@ -828,12 +844,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "山口県上関町"
 },
 {
 "area": "田布施町",
-"lat": 33.954677,
-"lng": 132.041366,
+"lat": 33.954723,
+"lng": 132.041382,
 "prec": "area",
 "windows": [
 {
@@ -861,12 +878,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "山口県田布施町"
 },
 {
 "area": "平生町",
-"lat": 33.937969,
-"lng": 132.073057,
+"lat": 33.938194,
+"lng": 132.073608,
 "prec": "area",
 "windows": [
 {
@@ -894,12 +912,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "山口県平生町"
 },
 {
 "area": "阿武町",
-"lat": 34.503352,
-"lng": 131.47136,
+"lat": 34.503326,
+"lng": 131.471436,
 "prec": "area",
 "windows": [
 {
@@ -915,6 +934,7 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "山口県阿武町"
 }
 ]

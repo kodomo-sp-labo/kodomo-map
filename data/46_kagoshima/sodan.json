@@ -1,9 +1,9 @@
 [
 {
 "area": "鹿児島県",
-"lat": null,
-"lng": null,
-"prec": "unresolved",
+"lat": 31.560171,
+"lng": 130.558029,
+"prec": "area",
 "windows": [
 {
 "n": "中央児童相談所",
@@ -174,12 +174,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "鹿児島県"
 },
 {
 "area": "鹿児島市",
-"lat": 31.596789,
-"lng": 130.557339,
+"lat": 31.596861,
+"lng": 130.557022,
 "prec": "area",
 "windows": [
 {
@@ -561,12 +562,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "鹿児島県鹿児島市"
 },
 {
 "area": "鹿屋市",
-"lat": 31.378268,
-"lng": 130.852223,
+"lat": 31.378332,
+"lng": 130.852219,
 "prec": "area",
 "windows": [
 {
@@ -594,12 +596,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "鹿児島県鹿屋市"
 },
 {
 "area": "枕崎市",
-"lat": 31.272922,
-"lng": 130.296991,
+"lat": 31.272837,
+"lng": 130.29689,
 "prec": "area",
 "windows": [
 {
@@ -615,12 +618,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "鹿児島県枕崎市"
 },
 {
 "area": "阿久根市",
-"lat": 32.014364,
-"lng": 130.192622,
+"lat": 32.014442,
+"lng": 130.19278,
 "prec": "area",
 "windows": [
 {
@@ -642,12 +646,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "鹿児島県阿久根市"
 },
 {
 "area": "出水市",
-"lat": 32.090458,
-"lng": 130.352647,
+"lat": 32.090275,
+"lng": 130.353165,
 "prec": "area",
 "windows": [
 {
@@ -663,12 +668,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "鹿児島県出水市"
 },
 {
 "area": "指宿市",
-"lat": 31.252805,
-"lng": 130.633118,
+"lat": 31.252777,
+"lng": 130.633057,
 "prec": "area",
 "windows": [
 {
@@ -684,12 +690,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "鹿児島県指宿市"
 },
 {
 "area": "西之表市",
-"lat": 30.732453,
-"lng": 130.997035,
+"lat": 30.732428,
+"lng": 130.997009,
 "prec": "area",
 "windows": [
 {
@@ -711,12 +718,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "鹿児島県西之表市"
 },
 {
 "area": "垂水市",
-"lat": 31.492758,
-"lng": 130.70093,
+"lat": 31.492752,
+"lng": 130.700912,
 "prec": "area",
 "windows": [
 {
@@ -768,12 +776,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "鹿児島県垂水市"
 },
 {
 "area": "薩摩川内市",
-"lat": 31.813486,
-"lng": 130.30395,
+"lat": 31.813334,
+"lng": 130.304169,
 "prec": "area",
 "windows": [
 {
@@ -801,12 +810,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "鹿児島県薩摩川内市"
 },
 {
 "area": "日置市",
-"lat": 31.633709,
-"lng": 130.402436,
+"lat": 31.633722,
+"lng": 130.40239,
 "prec": "area",
 "windows": [
 {
@@ -846,12 +856,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "鹿児島県日置市"
 },
 {
 "area": "曽於市",
-"lat": 31.653622,
-"lng": 131.019255,
+"lat": 31.65361,
+"lng": 131.019165,
 "prec": "area",
 "windows": [
 {
@@ -867,12 +878,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "鹿児島県曽於市"
 },
 {
 "area": "霧島市",
-"lat": 31.741015,
-"lng": 130.763136,
+"lat": 31.740877,
+"lng": 130.76329,
 "prec": "area",
 "windows": [
 {
@@ -882,12 +894,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "鹿児島県霧島市"
 },
 {
 "area": "いちき串木野市",
-"lat": 31.714542,
-"lng": 130.271934,
+"lat": 31.714561,
+"lng": 130.271942,
 "prec": "area",
 "windows": [
 {
@@ -909,12 +922,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "鹿児島県いちき串木野市"
 },
 {
 "area": "南さつま市",
-"lat": 31.41657,
-"lng": 130.323494,
+"lat": 31.416668,
+"lng": 130.323334,
 "prec": "area",
 "windows": [
 {
@@ -930,12 +944,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "鹿児島県南さつま市"
 },
 {
 "area": "志布志市",
-"lat": 31.495447,
-"lng": 131.045349,
+"lat": 31.477512,
+"lng": 131.099823,
 "prec": "area",
 "windows": [
 {
@@ -969,12 +984,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "鹿児島県志布志市"
 },
 {
 "area": "奄美市",
-"lat": 28.377273,
-"lng": 129.49378,
+"lat": 28.377674,
+"lng": 129.493835,
 "prec": "area",
 "windows": [
 {
@@ -990,12 +1006,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "鹿児島県奄美市"
 },
 {
 "area": "南九州市",
-"lat": 31.378251,
-"lng": 130.441623,
+"lat": 31.378332,
+"lng": 130.441666,
 "prec": "area",
 "windows": [
 {
@@ -1035,12 +1052,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "鹿児島県南九州市"
 },
 {
 "area": "伊佐市",
-"lat": 32.057152,
-"lng": 130.612934,
+"lat": 32.05722,
+"lng": 130.613052,
 "prec": "area",
 "windows": [
 {
@@ -1062,12 +1080,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "鹿児島県伊佐市"
 },
 {
 "area": "姶良市",
-"lat": 31.728213,
-"lng": 130.627758,
+"lat": 31.728367,
+"lng": 130.627686,
 "prec": "area",
 "windows": [
 {
@@ -1077,7 +1096,8 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "鹿児島県姶良市"
 },
 {
 "area": "三島村",
@@ -1117,8 +1137,8 @@
 },
 {
 "area": "さつま町",
-"lat": 31.906331,
-"lng": 130.45534,
+"lat": 31.905766,
+"lng": 130.45578,
 "prec": "area",
 "windows": [
 {
@@ -1140,12 +1160,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "鹿児島県さつま町"
 },
 {
 "area": "長島町",
-"lat": 32.19932,
-"lng": 130.176919,
+"lat": 32.199165,
+"lng": 130.176941,
 "prec": "area",
 "windows": [
 {
@@ -1155,12 +1176,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "鹿児島県長島町"
 },
 {
 "area": "湧水町",
-"lat": 31.951654,
-"lng": 130.721025,
+"lat": 31.951668,
+"lng": 130.721115,
 "prec": "area",
 "windows": [
 {
@@ -1170,12 +1192,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "鹿児島県湧水町"
 },
 {
 "area": "大崎町",
-"lat": 31.429102,
-"lng": 131.005592,
+"lat": 31.429167,
+"lng": 131.005829,
 "prec": "area",
 "windows": [
 {
@@ -1185,12 +1208,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "鹿児島県大崎町"
 },
 {
 "area": "東串良町",
-"lat": 31.38579,
-"lng": 130.973339,
+"lat": 31.385548,
+"lng": 130.973389,
 "prec": "area",
 "windows": [
 {
@@ -1200,12 +1224,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "鹿児島県東串良町"
 },
 {
 "area": "錦江町",
-"lat": 31.243572,
-"lng": 130.787485,
+"lat": 31.243486,
+"lng": 130.787659,
 "prec": "area",
 "windows": [
 {
@@ -1215,12 +1240,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "鹿児島県錦江町"
 },
 {
 "area": "南大隅町",
-"lat": 31.217205,
-"lng": 130.768061,
+"lat": 31.217297,
+"lng": 130.768646,
 "prec": "area",
 "windows": [
 {
@@ -1242,12 +1268,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "鹿児島県南大隅町"
 },
 {
 "area": "肝付町",
-"lat": 31.344362,
-"lng": 130.945223,
+"lat": 31.344723,
+"lng": 130.945282,
 "prec": "area",
 "windows": [
 {
@@ -1257,12 +1284,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "鹿児島県肝付町"
 },
 {
 "area": "中種子町",
-"lat": 30.532821,
-"lng": 130.958847,
+"lat": 30.533056,
+"lng": 130.958618,
 "prec": "area",
 "windows": [
 {
@@ -1284,12 +1312,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "鹿児島県中種子町"
 },
 {
 "area": "南種子町",
-"lat": 30.413916,
-"lng": 130.900867,
+"lat": 30.413979,
+"lng": 130.90094,
 "prec": "area",
 "windows": [
 {
@@ -1311,12 +1340,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "鹿児島県南種子町"
 },
 {
 "area": "屋久島町",
-"lat": 30.371155,
-"lng": 130.665043,
+"lat": 30.390165,
+"lng": 130.651108,
 "prec": "area",
 "windows": [
 {
@@ -1326,12 +1356,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "鹿児島県屋久島町"
 },
 {
 "area": "大和村",
-"lat": 28.358076,
-"lng": 129.395262,
+"lat": 28.358055,
+"lng": 129.395279,
 "prec": "area",
 "windows": [
 {
@@ -1353,12 +1384,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "鹿児島県大和村"
 },
 {
 "area": "宇検村",
-"lat": 28.280773,
-"lng": 129.297208,
+"lat": 28.280796,
+"lng": 129.297287,
 "prec": "area",
 "windows": [
 {
@@ -1368,12 +1400,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "鹿児島県宇検村"
 },
 {
 "area": "瀬戸内町",
-"lat": 28.146484,
-"lng": 129.314734,
+"lat": 28.146521,
+"lng": 129.314651,
 "prec": "area",
 "windows": [
 {
@@ -1389,12 +1422,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "鹿児島県瀬戸内町"
 },
 {
 "area": "龍郷町",
-"lat": 28.4133,
-"lng": 129.589355,
+"lat": 28.413055,
+"lng": 129.589447,
 "prec": "area",
 "windows": [
 {
@@ -1404,12 +1438,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "鹿児島県龍郷町"
 },
 {
 "area": "喜界町",
-"lat": 28.316838,
-"lng": 129.940035,
+"lat": 28.316944,
+"lng": 129.940002,
 "prec": "area",
 "windows": [
 {
@@ -1431,12 +1466,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "鹿児島県喜界町"
 },
 {
 "area": "徳之島町",
-"lat": 27.726621,
-"lng": 129.018504,
+"lat": 27.726368,
+"lng": 129.018692,
 "prec": "area",
 "windows": [
 {
@@ -1458,12 +1494,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "鹿児島県徳之島町"
 },
 {
 "area": "天城町",
-"lat": 27.81166,
-"lng": 128.897749,
+"lat": 27.811747,
+"lng": 128.897675,
 "prec": "area",
 "windows": [
 {
@@ -1473,12 +1510,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "鹿児島県天城町"
 },
 {
 "area": "伊仙町",
-"lat": 27.673583,
-"lng": 128.937584,
+"lat": 27.673157,
+"lng": 128.937714,
 "prec": "area",
 "windows": [
 {
@@ -1488,12 +1526,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "鹿児島県伊仙町"
 },
 {
 "area": "和泊町",
-"lat": 27.392559,
-"lng": 128.655253,
+"lat": 27.392038,
+"lng": 128.655487,
 "prec": "area",
 "windows": [
 {
@@ -1515,12 +1554,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "鹿児島県和泊町"
 },
 {
 "area": "知名町",
-"lat": 27.333676,
-"lng": 128.573732,
+"lat": 27.338585,
+"lng": 128.573868,
 "prec": "area",
 "windows": [
 {
@@ -1542,12 +1582,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "鹿児島県知名町"
 },
 {
 "area": "与論町",
-"lat": 27.04853,
-"lng": 128.414835,
+"lat": 27.044947,
+"lng": 128.421631,
 "prec": "area",
 "windows": [
 {
@@ -1557,6 +1598,7 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "鹿児島県与論町"
 }
 ]

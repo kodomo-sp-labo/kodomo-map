@@ -1,9 +1,9 @@
 [
 {
 "area": "広島県",
-"lat": null,
-"lng": null,
-"prec": "unresolved",
+"lat": 34.396557,
+"lng": 132.459641,
+"prec": "area",
 "windows": [
 {
 "n": "こころのライン相談＠広島県",
@@ -102,12 +102,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "広島県"
 },
 {
 "area": "広島市",
-"lat": 34.385253,
-"lng": 132.455337,
+"lat": 34.385277,
+"lng": 132.455276,
 "prec": "area",
 "windows": [
 {
@@ -189,12 +190,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "広島県広島市"
 },
 {
 "area": "呉市",
-"lat": 34.249254,
-"lng": 132.565805,
+"lat": 34.248688,
+"lng": 132.56543,
 "prec": "area",
 "windows": [
 {
@@ -210,12 +212,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "広島県呉市"
 },
 {
 "area": "竹原市",
-"lat": 34.341794,
-"lng": 132.907091,
+"lat": 34.341156,
+"lng": 132.90535,
 "prec": "area",
 "windows": [
 {
@@ -243,12 +246,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "広島県竹原市"
 },
 {
 "area": "三原市",
-"lat": 34.39747,
-"lng": 133.078525,
+"lat": 34.397724,
+"lng": 133.07811,
 "prec": "area",
 "windows": [
 {
@@ -318,12 +322,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "広島県三原市"
 },
 {
 "area": "尾道市",
-"lat": 34.408891,
-"lng": 133.204966,
+"lat": 34.409161,
+"lng": 133.205627,
 "prec": "area",
 "windows": [
 {
@@ -387,12 +392,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "広島県尾道市"
 },
 {
 "area": "福山市",
-"lat": 34.485927,
-"lng": 133.36234,
+"lat": 34.485832,
+"lng": 133.362503,
 "prec": "area",
 "windows": [
 {
@@ -438,12 +444,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "広島県福山市"
 },
 {
 "area": "府中市",
-"lat": 34.568349,
-"lng": 133.236323,
+"lat": 34.568333,
+"lng": 133.236389,
 "prec": "area",
 "windows": [
 {
@@ -489,12 +496,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "広島県府中市"
 },
 {
 "area": "三次市",
-"lat": 34.805627,
-"lng": 132.85179,
+"lat": 34.805538,
+"lng": 132.85173,
 "prec": "area",
 "windows": [
 {
@@ -534,12 +542,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "広島県三次市"
 },
 {
 "area": "庄原市",
-"lat": 34.857743,
-"lng": 133.017264,
+"lat": 34.857742,
+"lng": 133.017242,
 "prec": "area",
 "windows": [
 {
@@ -567,12 +576,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "広島県庄原市"
 },
 {
 "area": "大竹市",
-"lat": 34.237952,
-"lng": 132.222361,
+"lat": 34.237919,
+"lng": 132.222336,
 "prec": "area",
 "windows": [
 {
@@ -618,12 +628,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "広島県大竹市"
 },
 {
 "area": "東広島市",
-"lat": 34.426787,
-"lng": 132.743746,
+"lat": 34.426373,
+"lng": 132.743301,
 "prec": "area",
 "windows": [
 {
@@ -633,12 +644,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "広島県東広島市"
 },
 {
 "area": "廿日市市",
-"lat": 34.348416,
-"lng": 132.331541,
+"lat": 34.348637,
+"lng": 132.331451,
 "prec": "area",
 "windows": [
 {
@@ -678,12 +690,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "広島県廿日市市"
 },
 {
 "area": "安芸高田市",
-"lat": 34.666099,
-"lng": 132.703977,
+"lat": 34.666389,
+"lng": 132.703888,
 "prec": "area",
 "windows": [
 {
@@ -705,12 +718,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "広島県安芸高田市"
 },
 {
 "area": "江田島市",
-"lat": 34.222941,
-"lng": 132.443794,
+"lat": 34.174969,
+"lng": 132.462204,
 "prec": "area",
 "windows": [
 {
@@ -720,12 +734,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "広島県江田島市"
 },
 {
 "area": "府中町",
-"lat": 34.392589,
-"lng": 132.504544,
+"lat": 34.392574,
+"lng": 132.504562,
 "prec": "area",
 "windows": [
 {
@@ -741,12 +756,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "広島県府中町"
 },
 {
 "area": "海田町",
-"lat": 34.372159,
-"lng": 132.536155,
+"lat": 34.366402,
+"lng": 132.536255,
 "prec": "area",
 "windows": [
 {
@@ -780,12 +796,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "広島県海田町"
 },
 {
 "area": "熊野町",
-"lat": 34.335783,
-"lng": 132.584604,
+"lat": 34.335922,
+"lng": 132.58461,
 "prec": "area",
 "windows": [
 {
@@ -813,12 +830,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "広島県熊野町"
 },
 {
 "area": "坂町",
-"lat": 34.341282,
-"lng": 132.513639,
+"lat": 34.341389,
+"lng": 132.513885,
 "prec": "area",
 "windows": [
 {
@@ -840,12 +858,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "広島県坂町"
 },
 {
 "area": "安芸太田町",
-"lat": 34.576731,
-"lng": 132.227141,
+"lat": 34.576763,
+"lng": 132.227142,
 "prec": "area",
 "windows": [
 {
@@ -855,12 +874,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "広島県安芸太田町"
 },
 {
 "area": "北広島町",
-"lat": 34.674541,
-"lng": 132.538427,
+"lat": 34.674587,
+"lng": 132.538376,
 "prec": "area",
 "windows": [
 {
@@ -882,12 +902,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "広島県北広島町"
 },
 {
 "area": "大崎上島町",
-"lat": 34.269552,
-"lng": 132.914963,
+"lat": 34.269722,
+"lng": 132.915283,
 "prec": "area",
 "windows": [
 {
@@ -897,12 +918,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "広島県大崎上島町"
 },
 {
 "area": "世羅町",
-"lat": 34.586837,
-"lng": 133.056631,
+"lat": 34.586864,
+"lng": 133.056671,
 "prec": "area",
 "windows": [
 {
@@ -912,12 +934,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "広島県世羅町"
 },
 {
 "area": "神石高原町",
-"lat": 34.703654,
-"lng": 133.247642,
+"lat": 34.703659,
+"lng": 133.251495,
 "prec": "area",
 "windows": [
 {
@@ -945,6 +968,7 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "広島県神石高原町"
 }
 ]

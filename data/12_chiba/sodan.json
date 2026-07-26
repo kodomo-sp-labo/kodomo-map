@@ -1,9 +1,9 @@
 [
 {
 "area": "千葉県",
-"lat": null,
-"lng": null,
-"prec": "unresolved",
+"lat": 35.604561,
+"lng": 140.123154,
+"prec": "area",
 "windows": [
 {
 "n": "習志野保健所（習志野健康福祉センター）〇障害者差別に関する相談窓口",
@@ -270,12 +270,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "千葉県"
 },
 {
 "area": "千葉市",
-"lat": 35.607331,
-"lng": 140.10638,
+"lat": 35.607037,
+"lng": 140.106064,
 "prec": "area",
 "windows": [
 {
@@ -513,12 +514,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "千葉県千葉市"
 },
 {
 "area": "銚子市",
-"lat": 35.734667,
-"lng": 140.826791,
+"lat": 35.734699,
+"lng": 140.826569,
 "prec": "area",
 "windows": [
 {
@@ -534,12 +536,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "千葉県銚子市"
 },
 {
 "area": "市川市",
-"lat": 35.721914,
-"lng": 139.931013,
+"lat": 35.721855,
+"lng": 139.931061,
 "prec": "area",
 "windows": [
 {
@@ -567,12 +570,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "千葉県市川市"
 },
 {
 "area": "船橋市",
-"lat": 35.694711,
-"lng": 139.982621,
+"lat": 35.694721,
+"lng": 139.982498,
 "prec": "area",
 "windows": [
 {
@@ -810,12 +814,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "千葉県船橋市"
 },
 {
 "area": "館山市",
-"lat": 34.996608,
-"lng": 139.870085,
+"lat": 34.996468,
+"lng": 139.870041,
 "prec": "area",
 "windows": [
 {
@@ -831,12 +836,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "千葉県館山市"
 },
 {
 "area": "木更津市",
-"lat": 35.375969,
-"lng": 139.916884,
+"lat": 35.381248,
+"lng": 139.924896,
 "prec": "area",
 "windows": [
 {
@@ -870,12 +876,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "千葉県木更津市"
 },
 {
 "area": "松戸市",
-"lat": 35.787652,
-"lng": 139.903226,
+"lat": 35.787666,
+"lng": 139.903198,
 "prec": "area",
 "windows": [
 {
@@ -921,12 +928,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "千葉県松戸市"
 },
 {
 "area": "野田市",
-"lat": 35.955106,
-"lng": 139.874828,
+"lat": 35.955051,
+"lng": 139.874878,
 "prec": "area",
 "windows": [
 {
@@ -1008,12 +1016,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "千葉県野田市"
 },
 {
 "area": "茂原市",
-"lat": 35.42854,
-"lng": 140.28805,
+"lat": 35.428528,
+"lng": 140.287796,
 "prec": "area",
 "windows": [
 {
@@ -1023,12 +1032,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "千葉県茂原市"
 },
 {
 "area": "成田市",
-"lat": 35.776605,
-"lng": 140.318781,
+"lat": 35.776665,
+"lng": 140.318344,
 "prec": "area",
 "windows": [
 {
@@ -1062,12 +1072,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "千葉県成田市"
 },
 {
 "area": "佐倉市",
-"lat": 35.723441,
-"lng": 140.223972,
+"lat": 35.723492,
+"lng": 140.223969,
 "prec": "area",
 "windows": [
 {
@@ -1107,12 +1118,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "千葉県佐倉市"
 },
 {
 "area": "東金市",
-"lat": 35.559932,
-"lng": 140.366115,
+"lat": 35.559998,
+"lng": 140.366119,
 "prec": "area",
 "windows": [
 {
@@ -1146,12 +1158,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "千葉県東金市"
 },
 {
 "area": "旭市",
-"lat": 35.720454,
-"lng": 140.64659,
+"lat": 35.716034,
+"lng": 140.648178,
 "prec": "area",
 "windows": [
 {
@@ -1167,12 +1180,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "千葉県旭市"
 },
 {
 "area": "習志野市",
-"lat": 35.682932,
-"lng": 140.024384,
+"lat": 35.68166,
+"lng": 140.027267,
 "prec": "area",
 "windows": [
 {
@@ -1200,12 +1214,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "千葉県習志野市"
 },
 {
 "area": "柏市",
-"lat": 35.868295,
-"lng": 139.976199,
+"lat": 35.867508,
+"lng": 139.975937,
 "prec": "area",
 "windows": [
 {
@@ -1251,12 +1266,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "千葉県柏市"
 },
 {
 "area": "勝浦市",
-"lat": 35.152211,
-"lng": 140.320868,
+"lat": 35.152233,
+"lng": 140.320923,
 "prec": "area",
 "windows": [
 {
@@ -1296,12 +1312,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "千葉県勝浦市"
 },
 {
 "area": "市原市",
-"lat": 35.497897,
-"lng": 140.115594,
+"lat": 35.498055,
+"lng": 140.115555,
 "prec": "area",
 "windows": [
 {
@@ -1383,12 +1400,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "千葉県市原市"
 },
 {
 "area": "流山市",
-"lat": 35.856287,
-"lng": 139.902586,
+"lat": 35.856285,
+"lng": 139.90274,
 "prec": "area",
 "windows": [
 {
@@ -1422,12 +1440,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "千葉県流山市"
 },
 {
 "area": "八千代市",
-"lat": 35.722381,
-"lng": 140.099915,
+"lat": 35.7225,
+"lng": 140.099731,
 "prec": "area",
 "windows": [
 {
@@ -1461,12 +1480,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "千葉県八千代市"
 },
 {
 "area": "我孫子市",
-"lat": 35.864162,
-"lng": 140.028225,
+"lat": 35.864166,
+"lng": 140.028336,
 "prec": "area",
 "windows": [
 {
@@ -1524,12 +1544,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "千葉県我孫子市"
 },
 {
 "area": "鴨川市",
-"lat": 35.114017,
-"lng": 140.098805,
+"lat": 35.114075,
+"lng": 140.098953,
 "prec": "area",
 "windows": [
 {
@@ -1545,12 +1566,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "千葉県鴨川市"
 },
 {
 "area": "鎌ケ谷市",
-"lat": 35.776765,
-"lng": 140.000736,
+"lat": 35.776943,
+"lng": 140.000839,
 "prec": "area",
 "windows": [
 {
@@ -1620,12 +1642,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "千葉県鎌ケ谷市"
 },
 {
 "area": "君津市",
-"lat": 35.330424,
-"lng": 139.902561,
+"lat": 35.330555,
+"lng": 139.902496,
 "prec": "area",
 "windows": [
 {
@@ -1653,12 +1676,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "千葉県君津市"
 },
 {
 "area": "富津市",
-"lat": 35.30414,
-"lng": 139.857113,
+"lat": 35.304169,
+"lng": 139.857117,
 "prec": "area",
 "windows": [
 {
@@ -1674,12 +1698,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "千葉県富津市"
 },
 {
 "area": "浦安市",
-"lat": 35.653988,
-"lng": 139.902187,
+"lat": 35.65316,
+"lng": 139.901978,
 "prec": "area",
 "windows": [
 {
@@ -1779,12 +1804,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "千葉県浦安市"
 },
 {
 "area": "四街道市",
-"lat": 35.669713,
-"lng": 140.167957,
+"lat": 35.670216,
+"lng": 140.168228,
 "prec": "area",
 "windows": [
 {
@@ -1812,12 +1838,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "千葉県四街道市"
 },
 {
 "area": "袖ケ浦市",
-"lat": 35.429945,
-"lng": 139.954353,
+"lat": 35.429874,
+"lng": 139.954453,
 "prec": "area",
 "windows": [
 {
@@ -1869,12 +1896,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "千葉県袖ケ浦市"
 },
 {
 "area": "八街市",
-"lat": 35.665859,
-"lng": 140.317913,
+"lat": 35.665878,
+"lng": 140.318008,
 "prec": "area",
 "windows": [
 {
@@ -1896,12 +1924,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "千葉県八街市"
 },
 {
 "area": "印西市",
-"lat": 35.832332,
-"lng": 140.145765,
+"lat": 35.832336,
+"lng": 140.145798,
 "prec": "area",
 "windows": [
 {
@@ -1941,12 +1970,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "千葉県印西市"
 },
 {
 "area": "白井市",
-"lat": 35.791503,
-"lng": 140.056372,
+"lat": 35.791279,
+"lng": 140.056046,
 "prec": "area",
 "windows": [
 {
@@ -1968,12 +1998,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "千葉県白井市"
 },
 {
 "area": "富里市",
 "lat": 35.72681,
-"lng": 140.343071,
+"lng": 140.343109,
 "prec": "area",
 "windows": [
 {
@@ -1983,12 +2014,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "千葉県富里市"
 },
 {
 "area": "南房総市",
-"lat": 35.043147,
-"lng": 139.839997,
+"lat": 35.043152,
+"lng": 139.839981,
 "prec": "area",
 "windows": [
 {
@@ -1998,12 +2030,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "千葉県南房総市"
 },
 {
 "area": "匝瑳市",
-"lat": 35.707914,
-"lng": 140.564356,
+"lat": 35.707909,
+"lng": 140.564224,
 "prec": "area",
 "windows": [
 {
@@ -2013,12 +2046,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "千葉県匝瑳市"
 },
 {
 "area": "香取市",
-"lat": 35.89773,
-"lng": 140.499248,
+"lat": 35.897739,
+"lng": 140.499298,
 "prec": "area",
 "windows": [
 {
@@ -2070,12 +2104,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "千葉県香取市"
 },
 {
 "area": "山武市",
-"lat": 35.602992,
-"lng": 140.413531,
+"lat": 35.602943,
+"lng": 140.413544,
 "prec": "area",
 "windows": [
 {
@@ -2103,12 +2138,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "千葉県山武市"
 },
 {
 "area": "いすみ市",
 "lat": 35.253887,
-"lng": 140.385117,
+"lng": 140.385284,
 "prec": "area",
 "windows": [
 {
@@ -2148,12 +2184,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "千葉県いすみ市"
 },
 {
 "area": "大網白里市",
-"lat": 35.521708,
-"lng": 140.320963,
+"lat": 35.52169,
+"lng": 140.320953,
 "prec": "area",
 "windows": [
 {
@@ -2163,12 +2200,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "千葉県大網白里市"
 },
 {
 "area": "酒々井町",
-"lat": 35.724751,
-"lng": 140.269483,
+"lat": 35.724865,
+"lng": 140.269562,
 "prec": "area",
 "windows": [
 {
@@ -2184,12 +2222,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "千葉県酒々井町"
 },
 {
 "area": "栄町",
-"lat": 35.840866,
-"lng": 140.243945,
+"lat": 35.840832,
+"lng": 140.243896,
 "prec": "area",
 "windows": [
 {
@@ -2205,12 +2244,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "千葉県栄町"
 },
 {
 "area": "神崎町",
-"lat": 35.901611,
-"lng": 140.405326,
+"lat": 35.901546,
+"lng": 140.405228,
 "prec": "area",
 "windows": [
 {
@@ -2220,12 +2260,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "千葉県神崎町"
 },
 {
 "area": "多古町",
-"lat": 35.735592,
-"lng": 140.467727,
+"lat": 35.735554,
+"lng": 140.467789,
 "prec": "area",
 "windows": [
 {
@@ -2241,12 +2282,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "千葉県多古町"
 },
 {
 "area": "東庄町",
-"lat": 35.83715,
-"lng": 140.668786,
+"lat": 35.837135,
+"lng": 140.668701,
 "prec": "area",
 "windows": [
 {
@@ -2256,12 +2298,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "千葉県東庄町"
 },
 {
 "area": "九十九里町",
-"lat": 35.535065,
-"lng": 140.44025,
+"lat": 35.535049,
+"lng": 140.440353,
 "prec": "area",
 "windows": [
 {
@@ -2283,12 +2326,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "千葉県九十九里町"
 },
 {
 "area": "芝山町",
-"lat": 35.693064,
-"lng": 140.414255,
+"lat": 35.693069,
+"lng": 140.414291,
 "prec": "area",
 "windows": [
 {
@@ -2316,12 +2360,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "千葉県芝山町"
 },
 {
 "area": "横芝光町",
-"lat": 35.665609,
-"lng": 140.504396,
+"lat": 35.665581,
+"lng": 140.504318,
 "prec": "area",
 "windows": [
 {
@@ -2331,12 +2376,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "千葉県横芝光町"
 },
 {
 "area": "一宮町",
-"lat": 35.372812,
-"lng": 140.368734,
+"lat": 35.37262,
+"lng": 140.368652,
 "prec": "area",
 "windows": [
 {
@@ -2358,12 +2404,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "千葉県一宮町"
 },
 {
 "area": "睦沢町",
-"lat": 35.361091,
-"lng": 140.319275,
+"lat": 35.361031,
+"lng": 140.319229,
 "prec": "area",
 "windows": [
 {
@@ -2373,12 +2420,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "千葉県睦沢町"
 },
 {
 "area": "長生村",
-"lat": 35.412179,
-"lng": 140.354058,
+"lat": 35.412224,
+"lng": 140.354172,
 "prec": "area",
 "windows": [
 {
@@ -2394,12 +2442,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "千葉県長生村"
 },
 {
 "area": "白子町",
-"lat": 35.45434,
-"lng": 140.374253,
+"lat": 35.454346,
+"lng": 140.374268,
 "prec": "area",
 "windows": [
 {
@@ -2409,12 +2458,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "千葉県白子町"
 },
 {
 "area": "長柄町",
-"lat": 35.431152,
-"lng": 140.227073,
+"lat": 35.43111,
+"lng": 140.226944,
 "prec": "area",
 "windows": [
 {
@@ -2424,12 +2474,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "千葉県長柄町"
 },
 {
 "area": "長南町",
-"lat": 35.386423,
-"lng": 140.237039,
+"lat": 35.386066,
+"lng": 140.236786,
 "prec": "area",
 "windows": [
 {
@@ -2451,12 +2502,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "千葉県長南町"
 },
 {
 "area": "大多喜町",
-"lat": 35.284822,
-"lng": 140.245419,
+"lat": 35.285179,
+"lng": 140.245407,
 "prec": "area",
 "windows": [
 {
@@ -2466,12 +2518,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "千葉県大多喜町"
 },
 {
 "area": "御宿町",
-"lat": 35.191484,
-"lng": 140.348785,
+"lat": 35.191666,
+"lng": 140.348618,
 "prec": "area",
 "windows": [
 {
@@ -2487,12 +2540,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "千葉県御宿町"
 },
 {
 "area": "鋸南町",
-"lat": 35.111131,
-"lng": 139.835645,
+"lat": 35.111038,
+"lng": 139.835541,
 "prec": "area",
 "windows": [
 {
@@ -2508,6 +2562,7 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "千葉県鋸南町"
 }
 ]

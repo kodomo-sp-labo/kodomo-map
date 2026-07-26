@@ -1,9 +1,9 @@
 [
 {
 "area": "高知県",
-"lat": null,
-"lng": null,
-"prec": "unresolved",
+"lat": 33.559723,
+"lng": 133.531113,
+"prec": "area",
 "windows": [
 {
 "n": "思春期相談センターPRINK",
@@ -174,12 +174,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "高知県"
 },
 {
 "area": "高知市",
-"lat": 33.558788,
-"lng": 133.531166,
+"lat": 33.554119,
+"lng": 133.548538,
 "prec": "area",
 "windows": [
 {
@@ -225,12 +226,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "高知県高知市役知町"
 },
 {
 "area": "室戸市",
-"lat": 33.289955,
-"lng": 134.151981,
+"lat": 33.289932,
+"lng": 134.152023,
 "prec": "area",
 "windows": [
 {
@@ -240,12 +242,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "高知県室戸市"
 },
 {
 "area": "安芸市",
-"lat": 33.502416,
-"lng": 133.907074,
+"lat": 33.516407,
+"lng": 133.905807,
 "prec": "area",
 "windows": [
 {
@@ -285,12 +288,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "高知県安芸市"
 },
 {
 "area": "南国市",
-"lat": 33.575673,
-"lng": 133.64146,
+"lat": 33.575684,
+"lng": 133.641479,
 "prec": "area",
 "windows": [
 {
@@ -300,12 +304,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "高知県南国市"
 },
 {
 "area": "土佐市",
-"lat": 33.496012,
-"lng": 133.425326,
+"lat": 33.495998,
+"lng": 133.425049,
 "prec": "area",
 "windows": [
 {
@@ -351,11 +356,12 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "高知県土佐市"
 },
 {
 "area": "須崎市",
-"lat": 33.400745,
+"lat": 33.40073,
 "lng": 133.282959,
 "prec": "area",
 "windows": [
@@ -372,12 +378,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "高知県須崎市"
 },
 {
 "area": "宿毛市",
-"lat": 32.939014,
-"lng": 132.726269,
+"lat": 32.934013,
+"lng": 132.702026,
 "prec": "area",
 "windows": [
 {
@@ -387,12 +394,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "高知県宿毛市"
 },
 {
 "area": "土佐清水市",
-"lat": 32.781603,
-"lng": 132.9551,
+"lat": 32.781593,
+"lng": 132.954926,
 "prec": "area",
 "windows": [
 {
@@ -420,12 +428,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "高知県土佐清水市"
 },
 {
 "area": "四万十市",
-"lat": 32.991385,
-"lng": 132.93375,
+"lat": 32.991421,
+"lng": 132.933746,
 "prec": "area",
 "windows": [
 {
@@ -441,12 +450,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "高知県四万十市"
 },
 {
 "area": "香南市",
-"lat": 33.564124,
-"lng": 133.700543,
+"lat": 33.564362,
+"lng": 133.70079,
 "prec": "area",
 "windows": [
 {
@@ -468,12 +478,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "高知県香南市"
 },
 {
 "area": "香美市",
-"lat": 33.60386,
-"lng": 133.686245,
+"lat": 33.603756,
+"lng": 133.685837,
 "prec": "area",
 "windows": [
 {
@@ -489,12 +500,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "高知県香美市"
 },
 {
 "area": "東洋町",
-"lat": 33.527976,
-"lng": 134.279968,
+"lat": 33.527966,
+"lng": 134.28006,
 "prec": "area",
 "windows": [
 {
@@ -504,12 +516,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "高知県東洋町"
 },
 {
 "area": "奈半利町",
-"lat": 33.424179,
-"lng": 134.020957,
+"lat": 33.424175,
+"lng": 134.021011,
 "prec": "area",
 "windows": [
 {
@@ -519,12 +532,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "高知県奈半利町"
 },
 {
 "area": "田野町",
-"lat": 33.427713,
-"lng": 134.008209,
+"lat": 33.427704,
+"lng": 134.008179,
 "prec": "area",
 "windows": [
 {
@@ -534,12 +548,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "高知県田野町"
 },
 {
 "area": "安田町",
-"lat": 33.438601,
-"lng": 133.98108,
+"lat": 33.439079,
+"lng": 133.981216,
 "prec": "area",
 "windows": [
 {
@@ -549,12 +564,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "高知県安田町"
 },
 {
 "area": "北川村",
-"lat": 33.447694,
-"lng": 134.042069,
+"lat": 33.447826,
+"lng": 134.04216,
 "prec": "area",
 "windows": [
 {
@@ -564,12 +580,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "高知県北川村"
 },
 {
 "area": "馬路村",
-"lat": 33.555347,
-"lng": 134.048114,
+"lat": 33.555256,
+"lng": 134.048111,
 "prec": "area",
 "windows": [
 {
@@ -579,12 +596,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "高知県馬路村"
 },
 {
 "area": "芸西村",
-"lat": 33.526915,
-"lng": 133.808942,
+"lat": 33.526939,
+"lng": 133.808807,
 "prec": "area",
 "windows": [
 {
@@ -600,12 +618,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "高知県芸西村"
 },
 {
 "area": "本山町",
-"lat": 33.757028,
-"lng": 133.591481,
+"lat": 33.759655,
+"lng": 133.586716,
 "prec": "area",
 "windows": [
 {
@@ -621,12 +640,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "高知県本山町"
 },
 {
 "area": "大豊町",
-"lat": 33.764299,
-"lng": 133.664288,
+"lat": 33.768665,
+"lng": 133.643036,
 "prec": "area",
 "windows": [
 {
@@ -636,12 +656,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "高知県大豊町"
 },
 {
 "area": "土佐町",
-"lat": 33.736896,
-"lng": 133.532107,
+"lat": 33.737026,
+"lng": 133.531784,
 "prec": "area",
 "windows": [
 {
@@ -675,12 +696,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "高知県土佐町"
 },
 {
 "area": "大川村",
-"lat": 33.783927,
-"lng": 133.466613,
+"lat": 33.783718,
+"lng": 133.466599,
 "prec": "area",
 "windows": [
 {
@@ -690,12 +712,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "高知県大川村"
 },
 {
 "area": "いの町",
-"lat": 33.548689,
-"lng": 133.427583,
+"lat": 33.548717,
+"lng": 133.427811,
 "prec": "area",
 "windows": [
 {
@@ -717,12 +740,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "高知県いの町"
 },
 {
 "area": "仁淀川町",
-"lat": 33.575331,
-"lng": 133.168288,
+"lat": 33.575287,
+"lng": 133.171005,
 "prec": "area",
 "windows": [
 {
@@ -732,12 +756,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "高知県仁淀川町"
 },
 {
 "area": "中土佐町",
-"lat": 33.327411,
-"lng": 133.228122,
+"lat": 33.329266,
+"lng": 133.224823,
 "prec": "area",
 "windows": [
 {
@@ -747,12 +772,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "高知県中土佐町"
 },
 {
 "area": "佐川町",
-"lat": 33.500809,
-"lng": 133.286642,
+"lat": 33.500835,
+"lng": 133.286713,
 "prec": "area",
 "windows": [
 {
@@ -762,12 +788,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "高知県佐川町"
 },
 {
 "area": "越知町",
-"lat": 33.532848,
-"lng": 133.252221,
+"lat": 33.532871,
+"lng": 133.252182,
 "prec": "area",
 "windows": [
 {
@@ -789,12 +816,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "高知県越知町"
 },
 {
 "area": "梼原町",
-"lat": 33.39217,
-"lng": 132.927065,
+"lat": 33.39222,
+"lng": 132.926956,
 "prec": "area",
 "windows": [
 {
@@ -804,12 +832,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "高知県梼原町"
 },
 {
 "area": "日高村",
-"lat": 33.534833,
-"lng": 133.373342,
+"lat": 33.535084,
+"lng": 133.373199,
 "prec": "area",
 "windows": [
 {
@@ -825,12 +854,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "高知県日高村"
 },
 {
 "area": "津野町",
-"lat": 33.446666,
-"lng": 133.199377,
+"lat": 33.444817,
+"lng": 133.204163,
 "prec": "area",
 "windows": [
 {
@@ -840,12 +870,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "高知県津野町"
 },
 {
 "area": "四万十町",
-"lat": 33.208342,
-"lng": 133.135546,
+"lat": 33.211605,
+"lng": 133.137039,
 "prec": "area",
 "windows": [
 {
@@ -885,12 +916,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "高知県四万十町"
 },
 {
 "area": "大月町",
-"lat": 32.841534,
-"lng": 132.707092,
+"lat": 32.841492,
+"lng": 132.707001,
 "prec": "area",
 "windows": [
 {
@@ -906,12 +938,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "高知県大月町"
 },
 {
 "area": "三原村",
-"lat": 32.906019,
-"lng": 132.847233,
+"lat": 32.906128,
+"lng": 132.847321,
 "prec": "area",
 "windows": [
 {
@@ -921,12 +954,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "高知県三原村"
 },
 {
 "area": "黒潮町",
-"lat": 33.024905,
-"lng": 133.010953,
+"lat": 33.024956,
+"lng": 133.004181,
 "prec": "area",
 "windows": [
 {
@@ -936,6 +970,7 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "高知県黒潮町"
 }
 ]

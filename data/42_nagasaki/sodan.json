@@ -1,9 +1,9 @@
 [
 {
 "area": "長崎県",
-"lat": null,
-"lng": null,
-"prec": "unresolved",
+"lat": 32.750038,
+"lng": 129.867249,
+"prec": "area",
 "windows": [
 {
 "n": "長崎こども・女性・障害者支援センター",
@@ -36,12 +36,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "長崎県"
 },
 {
 "area": "長崎市",
-"lat": 32.750311,
-"lng": 129.877906,
+"lat": 32.749527,
+"lng": 129.879807,
 "prec": "area",
 "windows": [
 {
@@ -81,12 +82,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "長崎県長崎市"
 },
 {
 "area": "佐世保市",
-"lat": 33.17990417513263,
-"lng": 129.71509009448167,
+"lat": 33.17992,
+"lng": 129.715088,
 "prec": "area",
 "windows": [
 {
@@ -120,12 +122,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "長崎県佐世保市"
 },
 {
 "area": "島原市",
-"lat": 32.78812,
-"lng": 130.370526,
+"lat": 32.787956,
+"lng": 130.370178,
 "prec": "area",
 "windows": [
 {
@@ -141,12 +144,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "長崎県島原市"
 },
 {
 "area": "諫早市",
-"lat": 32.844208,
-"lng": 130.053601,
+"lat": 32.84343,
+"lng": 130.053162,
 "prec": "area",
 "windows": [
 {
@@ -186,12 +190,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "長崎県諫早市"
 },
 {
 "area": "大村市",
-"lat": 32.89996,
-"lng": 129.958217,
+"lat": 32.900002,
+"lng": 129.958328,
 "prec": "area",
 "windows": [
 {
@@ -219,12 +224,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "長崎県大村市"
 },
 {
 "area": "平戸市",
-"lat": 33.368065,
-"lng": 129.553671,
+"lat": 33.368046,
+"lng": 129.55365,
 "prec": "area",
 "windows": [
 {
@@ -246,12 +252,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "長崎県平戸市"
 },
 {
 "area": "松浦市",
-"lat": 33.341023,
-"lng": 129.709047,
+"lat": 33.341022,
+"lng": 129.709076,
 "prec": "area",
 "windows": [
 {
@@ -261,12 +268,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "長崎県松浦市"
 },
 {
 "area": "対馬市",
-"lat": 34.202643,
-"lng": 129.287518,
+"lat": 34.202778,
+"lng": 129.287506,
 "prec": "area",
 "windows": [
 {
@@ -276,12 +284,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "長崎県対馬市"
 },
 {
 "area": "壱岐市",
-"lat": 33.749978,
-"lng": 129.691377,
+"lat": 33.749958,
+"lng": 129.691345,
 "prec": "area",
 "windows": [
 {
@@ -291,12 +300,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "長崎県壱岐市"
 },
 {
 "area": "五島市",
-"lat": 32.695541,
-"lng": 128.840815,
+"lat": 32.695778,
+"lng": 128.840897,
 "prec": "area",
 "windows": [
 {
@@ -306,12 +316,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "長崎県五島市"
 },
 {
 "area": "西海市",
-"lat": 32.933117,
-"lng": 129.642962,
+"lat": 32.933056,
+"lng": 129.643051,
 "prec": "area",
 "windows": [
 {
@@ -321,12 +332,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "長崎県西海市"
 },
 {
 "area": "雲仙市",
-"lat": 32.835214,
-"lng": 130.187508,
+"lat": 32.834999,
+"lng": 130.1875,
 "prec": "area",
 "windows": [
 {
@@ -336,12 +348,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "長崎県雲仙市"
 },
 {
 "area": "南島原市",
-"lat": 32.659716,
-"lng": 130.297783,
+"lat": 32.659721,
+"lng": 130.297775,
 "prec": "area",
 "windows": [
 {
@@ -363,12 +376,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "長崎県南島原市"
 },
 {
 "area": "長与町",
-"lat": 32.82517,
-"lng": 129.875071,
+"lat": 32.825176,
+"lng": 129.875015,
 "prec": "area",
 "windows": [
 {
@@ -438,12 +452,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "長崎県長与町"
 },
 {
 "area": "時津町",
-"lat": 32.828885,
-"lng": 129.848527,
+"lat": 32.828888,
+"lng": 129.848618,
 "prec": "area",
 "windows": [
 {
@@ -483,12 +498,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "長崎県時津町"
 },
 {
 "area": "川棚町",
-"lat": 33.072679,
-"lng": 129.861562,
+"lat": 33.072742,
+"lng": 129.861603,
 "prec": "area",
 "windows": [
 {
@@ -510,12 +526,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "長崎県川棚町"
 },
 {
 "area": "波佐見町",
-"lat": 33.13789,
-"lng": 129.895548,
+"lat": 33.138393,
+"lng": 129.895432,
 "prec": "area",
 "windows": [
 {
@@ -531,12 +548,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "長崎県波佐見町"
 },
 {
 "area": "小値賀町",
-"lat": 33.191074,
-"lng": 129.058766,
+"lat": 33.191029,
+"lng": 129.058899,
 "prec": "area",
 "windows": [
 {
@@ -552,12 +570,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "長崎県小値賀町"
 },
 {
 "area": "佐々町",
-"lat": 33.238426,
-"lng": 129.650353,
+"lat": 33.237965,
+"lng": 129.65094,
 "prec": "area",
 "windows": [
 {
@@ -567,12 +586,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "長崎県佐々町"
 },
 {
 "area": "新上五島町",
-"lat": 32.984553,
-"lng": 129.073401,
+"lat": 32.984444,
+"lng": 129.073334,
 "prec": "area",
 "windows": [
 {
@@ -594,6 +614,7 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "長崎県新上五島町"
 }
 ]

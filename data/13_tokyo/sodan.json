@@ -1,9 +1,9 @@
 [
 {
 "area": "東京都",
-"lat": null,
-"lng": null,
-"prec": "unresolved",
+"lat": 35.689503,
+"lng": 139.691727,
+"prec": "area",
 "windows": [
 {
 "n": "相談ほっとLINE＠東京「生きるのがつらいと感じたら・・・」",
@@ -228,12 +228,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "東京都"
 },
 {
 "area": "千代田区",
-"lat": 35.694003,
-"lng": 139.753634,
+"lat": 35.69389,
+"lng": 139.753616,
 "prec": "area",
 "windows": [
 {
@@ -261,11 +262,12 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "東京都千代田区"
 },
 {
 "area": "中央区",
-"lat": 35.670587,
+"lat": 35.670601,
 "lng": 139.772003,
 "prec": "area",
 "windows": [
@@ -306,12 +308,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "東京都中央区"
 },
 {
 "area": "港区",
-"lat": 35.658071,
-"lng": 139.751599,
+"lat": 35.658054,
+"lng": 139.751663,
 "prec": "area",
 "windows": [
 {
@@ -363,12 +366,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "東京都港区"
 },
 {
 "area": "新宿区",
 "lat": 35.69389,
-"lng": 139.703463,
+"lng": 139.703613,
 "prec": "area",
 "windows": [
 {
@@ -474,12 +478,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "東京都新宿区"
 },
 {
 "area": "文京区",
-"lat": 35.707976,
-"lng": 139.752473,
+"lat": 35.707817,
+"lng": 139.752655,
 "prec": "area",
 "windows": [
 {
@@ -513,12 +518,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "東京都文京区"
 },
 {
 "area": "台東区",
-"lat": 35.712607,
-"lng": 139.779984,
+"lat": 35.712631,
+"lng": 139.779678,
 "prec": "area",
 "windows": [
 {
@@ -594,12 +600,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "東京都台東区"
 },
 {
 "area": "墨田区",
-"lat": 35.710724,
-"lng": 139.801497,
+"lat": 35.710678,
+"lng": 139.801514,
 "prec": "area",
 "windows": [
 {
@@ -735,12 +742,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "東京都墨田区"
 },
 {
 "area": "江東区",
-"lat": 35.672859,
-"lng": 139.817365,
+"lat": 35.67318,
+"lng": 139.817047,
 "prec": "area",
 "windows": [
 {
@@ -840,12 +848,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "東京都江東区"
 },
 {
 "area": "品川区",
-"lat": 35.609066,
-"lng": 139.73025,
+"lat": 35.608997,
+"lng": 139.730225,
 "prec": "area",
 "windows": [
 {
@@ -957,12 +966,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "東京都品川区"
 },
 {
 "area": "目黒区",
-"lat": 35.64141,
-"lng": 139.698118,
+"lat": 35.641479,
+"lng": 139.698196,
 "prec": "area",
 "windows": [
 {
@@ -984,12 +994,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "東京都目黒区"
 },
 {
 "area": "大田区",
-"lat": 35.56126,
-"lng": 139.715987,
+"lat": 35.561211,
+"lng": 139.716019,
 "prec": "area",
 "windows": [
 {
@@ -1095,12 +1106,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "東京都大田区"
 },
 {
 "area": "世田谷区",
-"lat": 35.646481,
-"lng": 139.653208,
+"lat": 35.64595,
+"lng": 139.653183,
 "prec": "area",
 "windows": [
 {
@@ -1224,12 +1236,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "東京都世田谷区"
 },
 {
 "area": "渋谷区",
-"lat": 35.663982,
-"lng": 139.697948,
+"lat": 35.66367,
+"lng": 139.697723,
 "prec": "area",
 "windows": [
 {
@@ -1257,12 +1270,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "東京都渋谷区"
 },
 {
 "area": "中野区",
-"lat": 35.707268,
-"lng": 139.663738,
+"lat": 35.708893,
+"lng": 139.662872,
 "prec": "area",
 "windows": [
 {
@@ -1356,12 +1370,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "東京都中野区"
 },
 {
 "area": "杉並区",
-"lat": 35.699546,
-"lng": 139.636414,
+"lat": 35.699532,
+"lng": 139.636475,
 "prec": "area",
 "windows": [
 {
@@ -1383,12 +1398,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "東京都杉並区"
 },
 {
 "area": "豊島区",
-"lat": 35.732437,
-"lng": 139.715469,
+"lat": 35.726112,
+"lng": 139.71666,
 "prec": "area",
 "windows": [
 {
@@ -1446,12 +1462,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "東京都豊島区"
 },
 {
 "area": "北区",
-"lat": 35.752805,
-"lng": 139.733657,
+"lat": 35.752777,
+"lng": 139.733612,
 "prec": "area",
 "windows": [
 {
@@ -1503,12 +1520,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "東京都北区"
 },
 {
 "area": "荒川区",
-"lat": 35.736083,
-"lng": 139.783372,
+"lat": 35.736111,
+"lng": 139.78334,
 "prec": "area",
 "windows": [
 {
@@ -1560,12 +1578,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "東京都荒川区"
 },
 {
 "area": "板橋区",
-"lat": 35.751245,
-"lng": 139.709246,
+"lat": 35.751221,
+"lng": 139.709229,
 "prec": "area",
 "windows": [
 {
@@ -1617,12 +1636,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "東京都板橋区"
 },
 {
 "area": "練馬区",
-"lat": 35.7356,
-"lng": 139.651725,
+"lat": 35.735641,
+"lng": 139.65184,
 "prec": "area",
 "windows": [
 {
@@ -1854,12 +1874,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "東京都練馬区"
 },
 {
 "area": "足立区",
-"lat": 35.774945,
-"lng": 139.804584,
+"lat": 35.775002,
+"lng": 139.804733,
 "prec": "area",
 "windows": [
 {
@@ -1923,12 +1944,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "東京都足立区"
 },
 {
 "area": "葛飾区",
-"lat": 35.74343,
-"lng": 139.847213,
+"lat": 35.743332,
+"lng": 139.847229,
 "prec": "area",
 "windows": [
 {
@@ -1986,12 +2008,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "東京都葛飾区"
 },
 {
 "area": "江戸川区",
-"lat": 35.706648,
-"lng": 139.868312,
+"lat": 35.706738,
+"lng": 139.868057,
 "prec": "area",
 "windows": [
 {
@@ -2079,12 +2102,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "東京都江戸川区"
 },
 {
 "area": "八王子市",
-"lat": 35.66657,
-"lng": 139.316075,
+"lat": 35.666668,
+"lng": 139.315842,
 "prec": "area",
 "windows": [
 {
@@ -2220,12 +2244,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "東京都八王子市"
 },
 {
 "area": "立川市",
-"lat": 35.713981,
-"lng": 139.407846,
+"lat": 35.71389,
+"lng": 139.407776,
 "prec": "area",
 "windows": [
 {
@@ -2259,12 +2284,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "東京都立川市"
 },
 {
 "area": "武蔵野市",
-"lat": 35.717837,
-"lng": 139.565938,
+"lat": 35.717777,
+"lng": 139.566116,
 "prec": "area",
 "windows": [
 {
@@ -2310,12 +2336,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "東京都武蔵野市"
 },
 {
 "area": "三鷹市",
-"lat": 35.683308,
-"lng": 139.559883,
+"lat": 35.683315,
+"lng": 139.55983,
 "prec": "area",
 "windows": [
 {
@@ -2379,12 +2406,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "東京都三鷹市"
 },
 {
 "area": "青梅市",
-"lat": 35.788171,
-"lng": 139.274994,
+"lat": 35.787956,
+"lng": 139.275848,
 "prec": "area",
 "windows": [
 {
@@ -2412,12 +2440,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "東京都青梅市"
 },
 {
 "area": "府中市",
-"lat": 35.668921,
-"lng": 139.477663,
+"lat": 35.669403,
+"lng": 139.477585,
 "prec": "area",
 "windows": [
 {
@@ -2439,12 +2468,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "東京都府中市"
 },
 {
 "area": "昭島市",
-"lat": 35.705705,
-"lng": 139.353773,
+"lat": 35.705673,
+"lng": 139.353607,
 "prec": "area",
 "windows": [
 {
@@ -2478,12 +2508,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "東京都昭島市"
 },
 {
 "area": "調布市",
-"lat": 35.650628,
-"lng": 139.540683,
+"lat": 35.650555,
+"lng": 139.540833,
 "prec": "area",
 "windows": [
 {
@@ -2529,12 +2560,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "東京都調布市"
 },
 {
 "area": "町田市",
-"lat": 35.546559,
-"lng": 139.438527,
+"lat": 35.546604,
+"lng": 139.438644,
 "prec": "area",
 "windows": [
 {
@@ -2592,12 +2624,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "東京都町田市"
 },
 {
 "area": "小金井市",
-"lat": 35.699479,
-"lng": 139.502989,
+"lat": 35.699444,
+"lng": 139.503052,
 "prec": "area",
 "windows": [
 {
@@ -2613,12 +2646,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "東京都小金井市"
 },
 {
 "area": "小平市",
-"lat": 35.728496,
-"lng": 139.477474,
+"lat": 35.728474,
+"lng": 139.477509,
 "prec": "area",
 "windows": [
 {
@@ -2676,12 +2710,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "東京都小平市"
 },
 {
 "area": "日野市",
-"lat": 35.671347,
-"lng": 139.394981,
+"lat": 35.671391,
+"lng": 139.395004,
 "prec": "area",
 "windows": [
 {
@@ -2787,12 +2822,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "東京都日野市"
 },
 {
 "area": "東村山市",
-"lat": 35.754624,
-"lng": 139.468484,
+"lat": 35.75465,
+"lng": 139.468582,
 "prec": "area",
 "windows": [
 {
@@ -2826,12 +2862,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "東京都東村山市"
 },
 {
 "area": "国分寺市",
-"lat": 35.710943,
-"lng": 139.462252,
+"lat": 35.696728,
+"lng": 139.469788,
 "prec": "area",
 "windows": [
 {
@@ -2895,12 +2932,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "東京都国分寺市"
 },
 {
 "area": "国立市",
-"lat": 35.683912,
-"lng": 139.441366,
+"lat": 35.683968,
+"lng": 139.441391,
 "prec": "area",
 "windows": [
 {
@@ -2922,12 +2960,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "東京都国立市"
 },
 {
 "area": "福生市",
-"lat": 35.738601,
-"lng": 139.326744,
+"lat": 35.738461,
+"lng": 139.32695,
 "prec": "area",
 "windows": [
 {
@@ -2943,12 +2982,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "東京都福生市"
 },
 {
 "area": "狛江市",
-"lat": 35.634814,
-"lng": 139.578696,
+"lat": 35.63483,
+"lng": 139.578705,
 "prec": "area",
 "windows": [
 {
@@ -2976,12 +3016,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "東京都狛江市"
 },
 {
 "area": "東大和市",
-"lat": 35.745328,
-"lng": 139.426591,
+"lat": 35.745396,
+"lng": 139.426865,
 "prec": "area",
 "windows": [
 {
@@ -2991,12 +3032,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "東京都東大和市"
 },
 {
 "area": "清瀬市",
-"lat": 35.785761,
-"lng": 139.526422,
+"lat": 35.785275,
+"lng": 139.526855,
 "prec": "area",
 "windows": [
 {
@@ -3030,12 +3072,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "東京都清瀬市"
 },
 {
 "area": "東久留米市",
-"lat": 35.757992,
-"lng": 139.529673,
+"lat": 35.758015,
+"lng": 139.529892,
 "prec": "area",
 "windows": [
 {
@@ -3057,12 +3100,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "東京都東久留米市"
 },
 {
 "area": "武蔵村山市",
-"lat": 35.754906,
-"lng": 139.387421,
+"lat": 35.754864,
+"lng": 139.387436,
 "prec": "area",
 "windows": [
 {
@@ -3072,12 +3116,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "東京都武蔵村山市"
 },
 {
 "area": "多摩市",
-"lat": 35.636959,
-"lng": 139.446366,
+"lat": 35.636944,
+"lng": 139.446396,
 "prec": "area",
 "windows": [
 {
@@ -3105,12 +3150,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "東京都多摩市"
 },
 {
 "area": "稲城市",
-"lat": 35.637938,
-"lng": 139.504603,
+"lat": 35.637939,
+"lng": 139.504578,
 "prec": "area",
 "windows": [
 {
@@ -3150,12 +3196,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "東京都稲城市"
 },
 {
 "area": "羽村市",
-"lat": 35.767168,
-"lng": 139.311042,
+"lat": 35.767223,
+"lng": 139.311111,
 "prec": "area",
 "windows": [
 {
@@ -3183,12 +3230,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "東京都羽村市"
 },
 {
 "area": "あきる野市",
-"lat": 35.728959,
-"lng": 139.294046,
+"lat": 35.728889,
+"lng": 139.294174,
 "prec": "area",
 "windows": [
 {
@@ -3198,12 +3246,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "東京都あきる野市"
 },
 {
 "area": "西東京市",
-"lat": 35.725499,
-"lng": 139.538159,
+"lat": 35.725704,
+"lng": 139.538483,
 "prec": "area",
 "windows": [
 {
@@ -3249,12 +3298,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "東京都西東京市"
 },
 {
 "area": "瑞穂町",
-"lat": 35.771989,
-"lng": 139.354054,
+"lat": 35.771923,
+"lng": 139.354111,
 "prec": "area",
 "windows": [
 {
@@ -3276,12 +3326,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "東京都瑞穂町"
 },
 {
 "area": "日の出町",
-"lat": 35.742115,
-"lng": 139.257405,
+"lat": 35.742134,
+"lng": 139.257446,
 "prec": "area",
 "windows": [
 {
@@ -3291,12 +3342,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "東京都日の出町"
 },
 {
 "area": "檜原村",
-"lat": 35.72684,
-"lng": 139.148852,
+"lat": 35.726822,
+"lng": 139.14888,
 "prec": "area",
 "windows": [
 {
@@ -3306,12 +3358,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "東京都檜原村"
 },
 {
 "area": "奥多摩町",
-"lat": 35.80952,
-"lng": 139.096214,
+"lat": 35.809544,
+"lng": 139.096222,
 "prec": "area",
 "windows": [
 {
@@ -3333,12 +3386,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "東京都奥多摩町"
 },
 {
 "area": "大島町",
-"lat": 34.750058,
-"lng": 139.355619,
+"lat": 34.750206,
+"lng": 139.355515,
 "prec": "area",
 "windows": [
 {
@@ -3348,12 +3402,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "東京都大島町"
 },
 {
 "area": "利島村",
-"lat": 34.529354,
-"lng": 139.282584,
+"lat": 34.529148,
+"lng": 139.281952,
 "prec": "area",
 "windows": [
 {
@@ -3363,12 +3418,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "東京都利島村"
 },
 {
 "area": "新島村",
-"lat": 34.377138,
-"lng": 139.256556,
+"lat": 34.377151,
+"lng": 139.256958,
 "prec": "area",
 "windows": [
 {
@@ -3378,12 +3434,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "東京都新島村"
 },
 {
 "area": "神津島村",
-"lat": 34.205371,
-"lng": 139.134426,
+"lat": 34.20549,
+"lng": 139.134521,
 "prec": "area",
 "windows": [
 {
@@ -3393,12 +3450,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "東京都神津島村"
 },
 {
 "area": "三宅村",
-"lat": 34.075779,
-"lng": 139.479747,
+"lat": 34.075832,
+"lng": 139.479721,
 "prec": "area",
 "windows": [
 {
@@ -3408,12 +3466,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "東京都三宅島三宅村"
 },
 {
 "area": "御蔵島村",
-"lat": 33.897156,
-"lng": 139.596009,
+"lat": 33.897301,
+"lng": 139.595917,
 "prec": "area",
 "windows": [
 {
@@ -3423,12 +3482,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "東京都御蔵島村"
 },
 {
 "area": "八丈町",
-"lat": 33.109413,
-"lng": 139.790927,
+"lat": 33.112785,
+"lng": 139.789062,
 "prec": "area",
 "windows": [
 {
@@ -3444,12 +3504,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "東京都八丈島八丈町"
 },
 {
 "area": "青ヶ島村",
-"lat": 32.466537,
-"lng": 139.763337,
+"lat": 32.466946,
+"lng": 139.763336,
 "prec": "area",
 "windows": [
 {
@@ -3459,12 +3520,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "東京都青ヶ島村"
 },
 {
 "area": "小笠原村",
-"lat": 27.09438,
-"lng": 142.191904,
+"lat": 27.094267,
+"lng": 142.191925,
 "prec": "area",
 "windows": [
 {
@@ -3474,6 +3536,7 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "東京都小笠原村"
 }
 ]

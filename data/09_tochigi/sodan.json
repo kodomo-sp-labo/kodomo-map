@@ -1,9 +1,9 @@
 [
 {
 "area": "栃木県",
-"lat": null,
-"lng": null,
-"prec": "unresolved",
+"lat": 36.56591,
+"lng": 139.883591,
+"prec": "area",
 "windows": [
 {
 "n": "栃木県県西健康福祉センター",
@@ -162,12 +162,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "栃木県"
 },
 {
 "area": "宇都宮市",
 "lat": 36.555115,
-"lng": 139.882807,
+"lng": 139.882599,
 "prec": "area",
 "windows": [
 {
@@ -231,12 +232,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "栃木県宇都宮市"
 },
 {
 "area": "足利市",
-"lat": 36.340146,
-"lng": 139.449696,
+"lat": 36.340149,
+"lng": 139.449753,
 "prec": "area",
 "windows": [
 {
@@ -252,12 +254,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "栃木県足利市"
 },
 {
 "area": "栃木市",
-"lat": 36.382413879181875,
-"lng": 139.73411109471664,
+"lat": 36.382435,
+"lng": 139.7341,
 "prec": "area",
 "windows": [
 {
@@ -279,12 +282,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "栃木県栃木市"
 },
 {
 "area": "佐野市",
-"lat": 36.308603,
-"lng": 139.593134,
+"lat": 36.314484,
+"lng": 139.578415,
 "prec": "area",
 "windows": [
 {
@@ -306,12 +310,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "栃木県佐野市"
 },
 {
 "area": "鹿沼市",
-"lat": 36.56712,
-"lng": 139.745098,
+"lat": 36.566681,
+"lng": 139.745041,
 "prec": "area",
 "windows": [
 {
@@ -351,12 +356,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "栃木県鹿沼市"
 },
 {
 "area": "日光市",
-"lat": 36.719861,
-"lng": 139.698204,
+"lat": 36.720013,
+"lng": 139.697617,
 "prec": "area",
 "windows": [
 {
@@ -396,12 +402,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "栃木県日光市"
 },
 {
 "area": "小山市",
-"lat": 36.314477,
-"lng": 139.800132,
+"lat": 36.314495,
+"lng": 139.800781,
 "prec": "area",
 "windows": [
 {
@@ -447,12 +454,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "栃木県小山市"
 },
 {
 "area": "真岡市",
-"lat": 36.440427,
-"lng": 140.013428,
+"lat": 36.440514,
+"lng": 140.012451,
 "prec": "area",
 "windows": [
 {
@@ -468,12 +476,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "栃木県真岡市"
 },
 {
 "area": "大田原市",
-"lat": 36.871076,
-"lng": 140.015458,
+"lat": 36.870922,
+"lng": 140.015839,
 "prec": "area",
 "windows": [
 {
@@ -483,12 +492,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "栃木県大田原市"
 },
 {
 "area": "矢板市",
-"lat": 36.806732,
-"lng": 139.924226,
+"lat": 36.806667,
+"lng": 139.924179,
 "prec": "area",
 "windows": [
 {
@@ -498,12 +508,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "栃木県矢板市"
 },
 {
 "area": "那須塩原市",
-"lat": 36.96169,
-"lng": 140.046044,
+"lat": 36.961666,
+"lng": 140.046127,
 "prec": "area",
 "windows": [
 {
@@ -525,12 +536,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "栃木県那須塩原市"
 },
 {
 "area": "さくら市",
-"lat": 36.685295,
-"lng": 139.966474,
+"lat": 36.685276,
+"lng": 139.9664,
 "prec": "area",
 "windows": [
 {
@@ -552,12 +564,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "栃木県さくら市"
 },
 {
 "area": "那須烏山市",
-"lat": 36.656891,
-"lng": 140.151376,
+"lat": 36.656918,
+"lng": 140.151459,
 "prec": "area",
 "windows": [
 {
@@ -573,12 +586,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "栃木県那須烏山市"
 },
 {
 "area": "下野市",
-"lat": 36.387167,
-"lng": 139.841942,
+"lat": 36.395294,
+"lng": 139.852005,
 "prec": "area",
 "windows": [
 {
@@ -630,12 +644,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "栃木県下野市"
 },
 {
 "area": "上三川町",
-"lat": 36.439268,
-"lng": 139.910214,
+"lat": 36.439293,
+"lng": 139.909897,
 "prec": "area",
 "windows": [
 {
@@ -651,12 +666,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "栃木県上三川町"
 },
 {
 "area": "益子町",
-"lat": 36.467353,
-"lng": 140.093381,
+"lat": 36.467407,
+"lng": 140.093384,
 "prec": "area",
 "windows": [
 {
@@ -678,12 +694,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "栃木県益子町"
 },
 {
 "area": "茂木町",
-"lat": 36.532184,
-"lng": 140.187535,
+"lat": 36.532135,
+"lng": 140.187576,
 "prec": "area",
 "windows": [
 {
@@ -711,12 +728,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "栃木県茂木町"
 },
 {
 "area": "市貝町",
-"lat": 36.543242,
-"lng": 140.102113,
+"lat": 36.543217,
+"lng": 140.102127,
 "prec": "area",
 "windows": [
 {
@@ -750,12 +768,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "栃木県市貝町"
 },
 {
 "area": "芳賀町",
-"lat": 36.548212,
-"lng": 140.058199,
+"lat": 36.548256,
+"lng": 140.058197,
 "prec": "area",
 "windows": [
 {
@@ -777,12 +796,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "栃木県芳賀町"
 },
 {
 "area": "壬生町",
-"lat": 36.427058,
-"lng": 139.803935,
+"lat": 36.442177,
+"lng": 139.814667,
 "prec": "area",
 "windows": [
 {
@@ -798,12 +818,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "栃木県壬生町"
 },
 {
 "area": "野木町",
-"lat": 36.233263,
-"lng": 139.740818,
+"lat": 36.233215,
+"lng": 139.740799,
 "prec": "area",
 "windows": [
 {
@@ -825,12 +846,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "栃木県野木町"
 },
 {
 "area": "塩谷町",
-"lat": 36.777605,
-"lng": 139.850578,
+"lat": 36.778896,
+"lng": 139.856949,
 "prec": "area",
 "windows": [
 {
@@ -846,12 +868,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "栃木県塩谷町"
 },
 {
 "area": "高根沢町",
-"lat": 36.630976,
-"lng": 139.986672,
+"lat": 36.630997,
+"lng": 139.986664,
 "prec": "area",
 "windows": [
 {
@@ -879,12 +902,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "栃木県高根沢町"
 },
 {
 "area": "那須町",
-"lat": 37.01977,
-"lng": 140.121008,
+"lat": 37.01976,
+"lng": 140.121017,
 "prec": "area",
 "windows": [
 {
@@ -912,12 +936,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "栃木県那須町"
 },
 {
 "area": "那珂川町",
-"lat": 36.738145,
-"lng": 140.171398,
+"lat": 36.736267,
+"lng": 140.172318,
 "prec": "area",
 "windows": [
 {
@@ -939,6 +964,7 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "栃木県那珂川町"
 }
 ]

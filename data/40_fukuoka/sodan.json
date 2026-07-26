@@ -1,9 +1,9 @@
 [
 {
 "area": "福岡県",
-"lat": null,
-"lng": null,
-"prec": "unresolved",
+"lat": 33.606388,
+"lng": 130.417969,
+"prec": "area",
 "windows": [
 {
 "n": "福岡県教育センター教育相談班",
@@ -336,12 +336,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "福岡県"
 },
 {
 "area": "北九州市",
-"lat": 33.883408,
-"lng": 130.875183,
+"lat": 33.883411,
+"lng": 130.875229,
 "prec": "area",
 "windows": [
 {
@@ -585,12 +586,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "福岡県北九州市"
 },
 {
 "area": "福岡市",
-"lat": 33.590313,
-"lng": 130.401735,
+"lat": 33.59,
+"lng": 130.401672,
 "prec": "area",
 "windows": [
 {
@@ -714,12 +716,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "福岡県福岡市"
 },
 {
 "area": "大牟田市",
-"lat": 33.030248,
-"lng": 130.446058,
+"lat": 33.030277,
+"lng": 130.446106,
 "prec": "area",
 "windows": [
 {
@@ -741,12 +744,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "福岡県大牟田市"
 },
 {
 "area": "久留米市",
-"lat": 33.319286,
-"lng": 130.508371,
+"lat": 33.319248,
+"lng": 130.508362,
 "prec": "area",
 "windows": [
 {
@@ -846,12 +850,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "福岡県久留米市"
 },
 {
 "area": "直方市",
-"lat": 33.744181,
-"lng": 130.729652,
+"lat": 33.744019,
+"lng": 130.729599,
 "prec": "area",
 "windows": [
 {
@@ -861,12 +866,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "福岡県直方市"
 },
 {
 "area": "飯塚市",
-"lat": 33.646083,
-"lng": 130.691422,
+"lat": 33.646603,
+"lng": 130.691147,
 "prec": "area",
 "windows": [
 {
@@ -882,12 +888,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "福岡県飯塚市"
 },
 {
 "area": "田川市",
-"lat": 33.63876,
-"lng": 130.806298,
+"lat": 33.638889,
+"lng": 130.806107,
 "prec": "area",
 "windows": [
 {
@@ -933,12 +940,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "福岡県田川市"
 },
 {
 "area": "柳川市",
-"lat": 33.163064,
-"lng": 130.405739,
+"lat": 33.163055,
+"lng": 130.406113,
 "prec": "area",
 "windows": [
 {
@@ -948,12 +956,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "福岡県柳川市"
 },
 {
 "area": "八女市",
-"lat": 33.211952,
-"lng": 130.557912,
+"lat": 33.211426,
+"lng": 130.558151,
 "prec": "area",
 "windows": [
 {
@@ -969,12 +978,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "福岡県八女市"
 },
 {
 "area": "筑後市",
-"lat": 33.212246,
-"lng": 130.502151,
+"lat": 33.212376,
+"lng": 130.502045,
 "prec": "area",
 "windows": [
 {
@@ -984,12 +994,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "福岡県筑後市"
 },
 {
 "area": "大川市",
-"lat": 33.206622,
-"lng": 130.383922,
+"lat": 33.206596,
+"lng": 130.383957,
 "prec": "area",
 "windows": [
 {
@@ -999,12 +1010,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "福岡県大川市"
 },
 {
 "area": "行橋市",
-"lat": 33.728761911794955,
-"lng": 130.982963327537,
+"lat": 33.728802,
+"lng": 130.982971,
 "prec": "area",
 "windows": [
 {
@@ -1038,12 +1050,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "福岡県行橋市"
 },
 {
 "area": "豊前市",
-"lat": 33.611538,
-"lng": 131.129941,
+"lat": 33.611507,
+"lng": 131.12999,
 "prec": "area",
 "windows": [
 {
@@ -1083,12 +1096,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "福岡県豊前市"
 },
 {
 "area": "中間市",
-"lat": 33.816699,
-"lng": 130.709026,
+"lat": 33.816666,
+"lng": 130.709167,
 "prec": "area",
 "windows": [
 {
@@ -1116,12 +1130,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "福岡県中間市"
 },
 {
 "area": "小郡市",
-"lat": 33.39645,
-"lng": 130.555541,
+"lat": 33.396389,
+"lng": 130.555557,
 "prec": "area",
 "windows": [
 {
@@ -1131,12 +1146,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "福岡県小郡市"
 },
 {
 "area": "筑紫野市",
-"lat": 33.496314,
-"lng": 130.515594,
+"lat": 33.487385,
+"lng": 130.526001,
 "prec": "area",
 "windows": [
 {
@@ -1188,12 +1204,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "福岡県筑紫野市"
 },
 {
 "area": "春日市",
-"lat": 33.532629,
-"lng": 130.470368,
+"lat": 33.53278,
+"lng": 130.470276,
 "prec": "area",
 "windows": [
 {
@@ -1203,12 +1220,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "福岡県春日市"
 },
 {
 "area": "大野城市",
-"lat": 33.53629,
-"lng": 130.478697,
+"lat": 33.536278,
+"lng": 130.478699,
 "prec": "area",
 "windows": [
 {
@@ -1230,12 +1248,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "福岡県大野城市"
 },
 {
 "area": "宗像市",
-"lat": 33.805448,
-"lng": 130.540651,
+"lat": 33.80558,
+"lng": 130.540588,
 "prec": "area",
 "windows": [
 {
@@ -1251,12 +1270,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "福岡県宗像市"
 },
 {
 "area": "太宰府市",
-"lat": 33.512835,
-"lng": 130.523876,
+"lat": 33.512779,
+"lng": 130.523895,
 "prec": "area",
 "windows": [
 {
@@ -1266,12 +1286,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "福岡県太宰府市"
 },
 {
 "area": "古賀市",
-"lat": 33.728664,
-"lng": 130.469995,
+"lat": 33.72876,
+"lng": 130.470047,
 "prec": "area",
 "windows": [
 {
@@ -1317,12 +1338,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "福岡県古賀市"
 },
 {
 "area": "福津市",
-"lat": 33.766897,
-"lng": 130.491038,
+"lat": 33.766945,
+"lng": 130.491104,
 "prec": "area",
 "windows": [
 {
@@ -1332,12 +1354,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "福岡県福津市"
 },
 {
 "area": "うきは市",
-"lat": 33.347305,
-"lng": 130.754928,
+"lat": 33.347404,
+"lng": 130.75499,
 "prec": "area",
 "windows": [
 {
@@ -1365,12 +1388,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "福岡県うきは市"
 },
 {
 "area": "宮若市",
-"lat": 33.723523,
-"lng": 130.666716,
+"lat": 33.723625,
+"lng": 130.667435,
 "prec": "area",
 "windows": [
 {
@@ -1380,12 +1404,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "福岡県宮若市"
 },
 {
 "area": "嘉麻市",
-"lat": 33.563283,
-"lng": 130.71151,
+"lat": 33.598419,
+"lng": 130.719223,
 "prec": "area",
 "windows": [
 {
@@ -1413,12 +1438,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "福岡県嘉麻市"
 },
 {
 "area": "朝倉市",
-"lat": 33.423412,
-"lng": 130.665573,
+"lat": 33.413612,
+"lng": 130.659729,
 "prec": "area",
 "windows": [
 {
@@ -1452,12 +1478,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "福岡県朝倉市"
 },
 {
 "area": "みやま市",
-"lat": 33.152434,
-"lng": 130.474734,
+"lat": 33.1525,
+"lng": 130.474716,
 "prec": "area",
 "windows": [
 {
@@ -1473,12 +1500,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "福岡県みやま市"
 },
 {
 "area": "糸島市",
-"lat": 33.55745,
-"lng": 130.1955,
+"lat": 33.557217,
+"lng": 130.196274,
 "prec": "area",
 "windows": [
 {
@@ -1488,12 +1516,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "福岡県糸島市"
 },
 {
 "area": "那珂川市",
-"lat": 33.499597,
-"lng": 130.4222,
+"lat": 33.499588,
+"lng": 130.422195,
 "prec": "area",
 "windows": [
 {
@@ -1503,12 +1532,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "福岡県那珂川市"
 },
 {
 "area": "宇美町",
-"lat": 33.567768,
-"lng": 130.511208,
+"lat": 33.56778,
+"lng": 130.511108,
 "prec": "area",
 "windows": [
 {
@@ -1524,12 +1554,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "福岡県宇美町"
 },
 {
 "area": "篠栗町",
-"lat": 33.623869,
-"lng": 130.526207,
+"lat": 33.62389,
+"lng": 130.526382,
 "prec": "area",
 "windows": [
 {
@@ -1545,12 +1576,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "福岡県篠栗町"
 },
 {
 "area": "志免町",
-"lat": 33.591503,
-"lng": 130.479807,
+"lat": 33.591496,
+"lng": 130.479797,
 "prec": "area",
 "windows": [
 {
@@ -1572,12 +1604,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "福岡県志免町"
 },
 {
 "area": "須恵町",
-"lat": 33.587268,
-"lng": 130.507234,
+"lat": 33.587223,
+"lng": 130.507217,
 "prec": "area",
 "windows": [
 {
@@ -1611,12 +1644,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "福岡県須惠町"
 },
 {
 "area": "新宮町",
-"lat": 33.715313,
-"lng": 130.446567,
+"lat": 33.715279,
+"lng": 130.446671,
 "prec": "area",
 "windows": [
 {
@@ -1626,12 +1660,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "福岡県新宮町"
 },
 {
 "area": "久山町",
-"lat": 33.646726,
-"lng": 130.499906,
+"lat": 33.646667,
+"lng": 130.5,
 "prec": "area",
 "windows": [
 {
@@ -1647,12 +1682,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "福岡県久山町"
 },
 {
 "area": "粕屋町",
-"lat": 33.610854,
-"lng": 130.480582,
+"lat": 33.610832,
+"lng": 130.48056,
 "prec": "area",
 "windows": [
 {
@@ -1674,12 +1710,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "福岡県粕屋町"
 },
 {
 "area": "芦屋町",
-"lat": 33.893862,
-"lng": 130.663874,
+"lat": 33.893929,
+"lng": 130.663757,
 "prec": "area",
 "windows": [
 {
@@ -1701,12 +1738,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "福岡県芦屋町"
 },
 {
 "area": "水巻町",
-"lat": 33.85485,
-"lng": 130.694783,
+"lat": 33.854687,
+"lng": 130.694687,
 "prec": "area",
 "windows": [
 {
@@ -1722,12 +1760,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "福岡県水巻町"
 },
 {
 "area": "岡垣町",
-"lat": 33.853491,
-"lng": 130.611749,
+"lat": 33.853611,
+"lng": 130.611389,
 "prec": "area",
 "windows": [
 {
@@ -1749,12 +1788,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "福岡県岡垣町"
 },
 {
 "area": "遠賀町",
-"lat": 33.848166,
-"lng": 130.668341,
+"lat": 33.848057,
+"lng": 130.668335,
 "prec": "area",
 "windows": [
 {
@@ -1776,12 +1816,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "福岡県遠賀町"
 },
 {
 "area": "小竹町",
-"lat": 33.692418,
-"lng": 130.712691,
+"lat": 33.696541,
+"lng": 130.707993,
 "prec": "area",
 "windows": [
 {
@@ -1803,12 +1844,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "福岡県小竹町"
 },
 {
 "area": "鞍手町",
-"lat": 33.792112,
-"lng": 130.674008,
+"lat": 33.792896,
+"lng": 130.692429,
 "prec": "area",
 "windows": [
 {
@@ -1824,12 +1866,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "福岡県鞍手町"
 },
 {
 "area": "桂川町",
-"lat": 33.578889,
-"lng": 130.678118,
+"lat": 33.578888,
+"lng": 130.678055,
 "prec": "area",
 "windows": [
 {
@@ -1875,12 +1918,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "福岡県桂川町"
 },
 {
 "area": "筑前町",
-"lat": 33.457033,
-"lng": 130.595183,
+"lat": 33.456944,
+"lng": 130.595276,
 "prec": "area",
 "windows": [
 {
@@ -1896,12 +1940,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "福岡県筑前町"
 },
 {
 "area": "東峰村",
-"lat": 33.397314,
-"lng": 130.869919,
+"lat": 33.397308,
+"lng": 130.870117,
 "prec": "area",
 "windows": [
 {
@@ -1911,12 +1956,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "福岡県東峰村"
 },
 {
 "area": "大刀洗町",
-"lat": 33.372425,
-"lng": 130.622454,
+"lat": 33.372364,
+"lng": 130.622604,
 "prec": "area",
 "windows": [
 {
@@ -1932,12 +1978,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "福岡県大刀洗町"
 },
 {
 "area": "大木町",
-"lat": 33.210453,
-"lng": 130.439806,
+"lat": 33.210556,
+"lng": 130.439728,
 "prec": "area",
 "windows": [
 {
@@ -1953,12 +2000,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "福岡県大木町"
 },
 {
 "area": "広川町",
-"lat": 33.241499,
-"lng": 130.551416,
+"lat": 33.241245,
+"lng": 130.551392,
 "prec": "area",
 "windows": [
 {
@@ -1968,12 +2016,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "福岡県広川町"
 },
 {
 "area": "香春町",
-"lat": 33.668006,
-"lng": 130.847401,
+"lat": 33.667992,
+"lng": 130.847412,
 "prec": "area",
 "windows": [
 {
@@ -1995,12 +2044,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "福岡県香春町"
 },
 {
 "area": "添田町",
-"lat": 33.571816,
-"lng": 130.854088,
+"lat": 33.571735,
+"lng": 130.854019,
 "prec": "area",
 "windows": [
 {
@@ -2016,12 +2066,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "福岡県添田町"
 },
 {
 "area": "糸田町",
-"lat": 33.652736,
-"lng": 130.778958,
+"lat": 33.652779,
+"lng": 130.77916,
 "prec": "area",
 "windows": [
 {
@@ -2031,12 +2082,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "福岡県糸田町"
 },
 {
 "area": "川崎町",
-"lat": 33.599956,
-"lng": 130.814915,
+"lat": 33.599976,
+"lng": 130.815018,
 "prec": "area",
 "windows": [
 {
@@ -2046,12 +2098,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "福岡県川崎町"
 },
 {
 "area": "大任町",
-"lat": 33.612164,
-"lng": 130.853742,
+"lat": 33.61227,
+"lng": 130.853729,
 "prec": "area",
 "windows": [
 {
@@ -2061,12 +2114,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "福岡県大任町"
 },
 {
 "area": "赤村",
-"lat": 33.616692,
-"lng": 130.870855,
+"lat": 33.616669,
+"lng": 130.870834,
 "prec": "area",
 "windows": [
 {
@@ -2076,12 +2130,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "福岡県赤村"
 },
 {
 "area": "福智町",
-"lat": 33.683263,
-"lng": 130.78012,
+"lat": 33.683334,
+"lng": 130.779999,
 "prec": "area",
 "windows": [
 {
@@ -2097,12 +2152,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "福岡県福智町"
 },
 {
 "area": "苅田町",
-"lat": 33.776006,
-"lng": 130.980475,
+"lat": 33.77597,
+"lng": 130.980515,
 "prec": "area",
 "windows": [
 {
@@ -2130,12 +2186,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "福岡県苅田町"
 },
 {
 "area": "みやこ町",
-"lat": 33.699236,
-"lng": 130.920096,
+"lat": 33.699165,
+"lng": 130.920563,
 "prec": "area",
 "windows": [
 {
@@ -2175,12 +2232,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "福岡県みやこ町"
 },
 {
 "area": "吉富町",
-"lat": 33.602643,
-"lng": 131.175951,
+"lat": 33.602581,
+"lng": 131.176102,
 "prec": "area",
 "windows": [
 {
@@ -2196,12 +2254,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "福岡県吉富町"
 },
 {
 "area": "上毛町",
-"lat": 33.578425,
-"lng": 131.164207,
+"lat": 33.578335,
+"lng": 131.164444,
 "prec": "area",
 "windows": [
 {
@@ -2211,12 +2270,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "福岡県上毛町"
 },
 {
 "area": "築上町",
-"lat": 33.656146,
-"lng": 131.05604,
+"lat": 33.656384,
+"lng": 131.055756,
 "prec": "area",
 "windows": [
 {
@@ -2226,6 +2286,7 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "福岡県築上町"
 }
 ]

@@ -1,9 +1,9 @@
 [
 {
 "area": "奈良県",
-"lat": null,
-"lng": null,
-"prec": "unresolved",
+"lat": 34.685272,
+"lng": 135.832855,
+"prec": "area",
 "windows": [
 {
 "n": "中央こども家庭相談センター",
@@ -72,12 +72,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "奈良県"
 },
 {
 "area": "奈良市",
-"lat": 34.685117,
-"lng": 135.804995,
+"lat": 34.685001,
+"lng": 135.804718,
 "prec": "area",
 "windows": [
 {
@@ -141,12 +142,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "奈良県奈良市"
 },
 {
 "area": "大和高田市",
-"lat": 34.514975,
-"lng": 135.736451,
+"lat": 34.515751,
+"lng": 135.737381,
 "prec": "area",
 "windows": [
 {
@@ -168,12 +170,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "奈良県大和高田市"
 },
 {
 "area": "大和郡山市",
-"lat": 34.649368,
-"lng": 135.782747,
+"lat": 34.649616,
+"lng": 135.782715,
 "prec": "area",
 "windows": [
 {
@@ -195,12 +198,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "奈良県大和郡山市"
 },
 {
 "area": "天理市",
-"lat": 34.596617,
-"lng": 135.837367,
+"lat": 34.596668,
+"lng": 135.837219,
 "prec": "area",
 "windows": [
 {
@@ -228,12 +232,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "奈良県天理市"
 },
 {
 "area": "橿原市",
-"lat": 34.509453,
-"lng": 135.792756,
+"lat": 34.509476,
+"lng": 135.792633,
 "prec": "area",
 "windows": [
 {
@@ -267,12 +272,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "奈良県橿原市"
 },
 {
 "area": "桜井市",
-"lat": 34.5187,
-"lng": 135.843232,
+"lat": 34.518841,
+"lng": 135.842743,
 "prec": "area",
 "windows": [
 {
@@ -288,12 +294,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "奈良県桜井市"
 },
 {
 "area": "五條市",
-"lat": 34.352118,
-"lng": 135.693497,
+"lat": 34.356358,
+"lng": 135.695557,
 "prec": "area",
 "windows": [
 {
@@ -315,12 +322,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "奈良県五條市"
 },
 {
 "area": "御所市",
-"lat": 34.46334,
-"lng": 135.740177,
+"lat": 34.463333,
+"lng": 135.74028,
 "prec": "area",
 "windows": [
 {
@@ -348,12 +356,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "奈良県御所市"
 },
 {
 "area": "生駒市",
-"lat": 34.691979,
-"lng": 135.700553,
+"lat": 34.691944,
+"lng": 135.700562,
 "prec": "area",
 "windows": [
 {
@@ -405,12 +414,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "奈良県生駒市"
 },
 {
 "area": "香芝市",
-"lat": 34.541295,
-"lng": 135.699162,
+"lat": 34.541275,
+"lng": 135.699005,
 "prec": "area",
 "windows": [
 {
@@ -468,12 +478,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "奈良県香芝市"
 },
 {
 "area": "葛城市",
-"lat": 34.489158,
-"lng": 135.726563,
+"lat": 34.489166,
+"lng": 135.726669,
 "prec": "area",
 "windows": [
 {
@@ -495,12 +506,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "奈良県葛城市"
 },
 {
 "area": "宇陀市",
-"lat": 34.528073,
-"lng": 135.952303,
+"lat": 34.528011,
+"lng": 135.952347,
 "prec": "area",
 "windows": [
 {
@@ -558,12 +570,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "奈良県宇陀市"
 },
 {
 "area": "山添村",
-"lat": 34.681261,
-"lng": 136.043797,
+"lat": 34.680874,
+"lng": 136.043472,
 "prec": "area",
 "windows": [
 {
@@ -579,12 +592,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "奈良県山添村"
 },
 {
 "area": "平群町",
-"lat": 34.629155,
-"lng": 135.700711,
+"lat": 34.629166,
+"lng": 135.700562,
 "prec": "area",
 "windows": [
 {
@@ -600,12 +614,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "奈良県平群町"
 },
 {
 "area": "三郷町",
-"lat": 34.599977,
-"lng": 135.695425,
+"lat": 34.600163,
+"lng": 135.695511,
 "prec": "area",
 "windows": [
 {
@@ -627,12 +642,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "奈良県三郷町"
 },
 {
 "area": "斑鳩町",
-"lat": 34.608852,
-"lng": 135.730593,
+"lat": 34.608891,
+"lng": 135.73056,
 "prec": "area",
 "windows": [
 {
@@ -666,12 +682,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "奈良県斑鳩町"
 },
 {
 "area": "安堵町",
-"lat": 34.606488,
-"lng": 135.756781,
+"lat": 34.606468,
+"lng": 135.75676,
 "prec": "area",
 "windows": [
 {
@@ -699,12 +716,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "奈良県安堵町"
 },
 {
 "area": "川西町",
-"lat": 34.584383,
-"lng": 135.773871,
+"lat": 34.584442,
+"lng": 135.77417,
 "prec": "area",
 "windows": [
 {
@@ -732,12 +750,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "奈良県川西町"
 },
 {
 "area": "三宅町",
-"lat": 34.573678,
-"lng": 135.773177,
+"lat": 34.573612,
+"lng": 135.773056,
 "prec": "area",
 "windows": [
 {
@@ -747,12 +766,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "奈良県三宅町"
 },
 {
 "area": "田原本町",
 "lat": 34.556667,
-"lng": 135.79494,
+"lng": 135.794998,
 "prec": "area",
 "windows": [
 {
@@ -804,12 +824,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "奈良県田原本町"
 },
 {
 "area": "曽爾村",
-"lat": 34.510664,
-"lng": 136.124475,
+"lat": 34.510685,
+"lng": 136.124695,
 "prec": "area",
 "windows": [
 {
@@ -831,12 +852,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "奈良県曽爾村"
 },
 {
 "area": "御杖村",
-"lat": 34.488391,
-"lng": 136.16591,
+"lat": 34.488029,
+"lng": 136.165909,
 "prec": "area",
 "windows": [
 {
@@ -852,12 +874,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "奈良県御杖村"
 },
 {
 "area": "高取町",
-"lat": 34.449468,
-"lng": 135.793168,
+"lat": 34.449444,
+"lng": 135.79306,
 "prec": "area",
 "windows": [
 {
@@ -879,12 +902,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "奈良県高取町"
 },
 {
 "area": "明日香村",
-"lat": 34.471281,
-"lng": 135.820633,
+"lat": 34.470509,
+"lng": 135.812546,
 "prec": "area",
 "windows": [
 {
@@ -894,12 +918,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "奈良県明日香村"
 },
 {
 "area": "上牧町",
-"lat": 34.562723,
-"lng": 135.716674,
+"lat": 34.562778,
+"lng": 135.71666,
 "prec": "area",
 "windows": [
 {
@@ -915,12 +940,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "奈良県上牧町"
 },
 {
 "area": "王寺町",
-"lat": 34.594696,
-"lng": 135.706705,
+"lat": 34.594734,
+"lng": 135.706573,
 "prec": "area",
 "windows": [
 {
@@ -948,12 +974,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "奈良県王寺町"
 },
 {
 "area": "広陵町",
-"lat": 34.54274,
-"lng": 135.750842,
+"lat": 34.542778,
+"lng": 135.750839,
 "prec": "area",
 "windows": [
 {
@@ -999,12 +1026,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "奈良県広陵町"
 },
 {
 "area": "河合町",
-"lat": 34.578369,
-"lng": 135.736699,
+"lat": 34.578335,
+"lng": 135.736664,
 "prec": "area",
 "windows": [
 {
@@ -1026,12 +1054,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "奈良県河合町"
 },
 {
 "area": "吉野町",
-"lat": 34.396046,
-"lng": 135.857612,
+"lat": 34.396038,
+"lng": 135.857605,
 "prec": "area",
 "windows": [
 {
@@ -1047,12 +1076,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "奈良県吉野町"
 },
 {
 "area": "大淀町",
-"lat": 34.390529,
-"lng": 135.789798,
+"lat": 34.390556,
+"lng": 135.789993,
 "prec": "area",
 "windows": [
 {
@@ -1068,12 +1098,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "奈良県大淀町"
 },
 {
 "area": "黒滝村",
-"lat": 34.309276,
-"lng": 135.85225,
+"lat": 34.309166,
+"lng": 135.852219,
 "prec": "area",
 "windows": [
 {
@@ -1083,12 +1114,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "奈良県黒滝村"
 },
 {
 "area": "天川村",
-"lat": 34.241929,
-"lng": 135.855135,
+"lat": 34.241943,
+"lng": 135.85527,
 "prec": "area",
 "windows": [
 {
@@ -1098,12 +1130,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "奈良県天川村"
 },
 {
 "area": "十津川村",
-"lat": 33.988504,
-"lng": 135.792611,
+"lat": 33.988609,
+"lng": 135.792496,
 "prec": "area",
 "windows": [
 {
@@ -1119,12 +1152,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "奈良県十津川村"
 },
 {
 "area": "下北山村",
-"lat": 34.00508,
-"lng": 135.955178,
+"lat": 34.005001,
+"lng": 135.955276,
 "prec": "area",
 "windows": [
 {
@@ -1134,12 +1168,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "奈良県下北山村"
 },
 {
 "area": "上北山村",
-"lat": 34.134321,
-"lng": 136.000149,
+"lat": 34.134312,
+"lng": 136.000122,
 "prec": "area",
 "windows": [
 {
@@ -1149,12 +1184,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "奈良県上北山村"
 },
 {
 "area": "川上村",
-"lat": 34.338121,
-"lng": 135.954303,
+"lat": 34.338333,
+"lng": 135.954437,
 "prec": "area",
 "windows": [
 {
@@ -1164,11 +1200,12 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "奈良県川上村"
 },
 {
 "area": "東吉野村",
-"lat": 34.403541,
+"lat": 34.403473,
 "lng": 135.968307,
 "prec": "area",
 "windows": [
@@ -1185,6 +1222,7 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "奈良県東吉野村"
 }
 ]

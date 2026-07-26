@@ -1,9 +1,9 @@
 [
 {
 "area": "熊本県",
-"lat": null,
-"lng": null,
-"prec": "unresolved",
+"lat": 32.789799,
+"lng": 130.741577,
+"prec": "area",
 "windows": [
 {
 "n": "熊本県子ども・若者総合相談センター",
@@ -78,12 +78,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "熊本県"
 },
 {
 "area": "熊本市",
-"lat": 32.803078,
-"lng": 130.707897,
+"lat": 32.803333,
+"lng": 130.708054,
 "prec": "area",
 "windows": [
 {
@@ -165,12 +166,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "熊本県熊本市"
 },
 {
 "area": "八代市",
-"lat": 32.507412,
-"lng": 130.601888,
+"lat": 32.5075,
+"lng": 130.601807,
 "prec": "area",
 "windows": [
 {
@@ -192,12 +194,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "熊本県八代市"
 },
 {
 "area": "人吉市",
-"lat": 32.210038,
-"lng": 130.762554,
+"lat": 32.205631,
+"lng": 130.760162,
 "prec": "area",
 "windows": [
 {
@@ -231,12 +234,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "熊本県人吉市"
 },
 {
 "area": "荒尾市",
-"lat": 32.986838,
-"lng": 130.433036,
+"lat": 32.986668,
+"lng": 130.433334,
 "prec": "area",
 "windows": [
 {
@@ -270,12 +274,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "熊本県荒尾市"
 },
 {
 "area": "水俣市",
-"lat": 32.211883,
-"lng": 130.408725,
+"lat": 32.211784,
+"lng": 130.4086,
 "prec": "area",
 "windows": [
 {
@@ -297,12 +302,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "熊本県水俣市"
 },
 {
 "area": "玉名市",
-"lat": 32.928141,
-"lng": 130.559619,
+"lat": 32.935265,
+"lng": 130.562881,
 "prec": "area",
 "windows": [
 {
@@ -318,12 +324,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "熊本県玉名市"
 },
 {
 "area": "山鹿市",
-"lat": 33.016728,
-"lng": 130.691297,
+"lat": 33.017574,
+"lng": 130.69136,
 "prec": "area",
 "windows": [
 {
@@ -339,12 +346,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "熊本県山鹿市"
 },
 {
 "area": "菊池市",
-"lat": 32.979485,
-"lng": 130.813241,
+"lat": 32.979736,
+"lng": 130.813217,
 "prec": "area",
 "windows": [
 {
@@ -366,12 +374,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "熊本県菊池市"
 },
 {
 "area": "宇土市",
-"lat": 32.687292,
-"lng": 130.658562,
+"lat": 32.687294,
+"lng": 130.658478,
 "prec": "area",
 "windows": [
 {
@@ -399,12 +408,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "熊本県宇土市"
 },
 {
 "area": "上天草市",
-"lat": 32.587422,
-"lng": 130.430405,
+"lat": 32.587502,
+"lng": 130.430557,
 "prec": "area",
 "windows": [
 {
@@ -420,12 +430,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "熊本県上天草市"
 },
 {
 "area": "宇城市",
-"lat": 32.647814,
-"lng": 130.684287,
+"lat": 32.647846,
+"lng": 130.684357,
 "prec": "area",
 "windows": [
 {
@@ -441,12 +452,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "熊本県宇城市"
 },
 {
 "area": "阿蘇市",
-"lat": 32.951869,
-"lng": 131.121031,
+"lat": 32.95512,
+"lng": 131.092148,
 "prec": "area",
 "windows": [
 {
@@ -486,12 +498,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "熊本県阿蘇市役犬原"
 },
 {
 "area": "天草市",
-"lat": 32.458621,
-"lng": 130.19301,
+"lat": 32.458923,
+"lng": 130.193451,
 "prec": "area",
 "windows": [
 {
@@ -501,12 +514,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "熊本県天草市"
 },
 {
 "area": "合志市",
-"lat": 32.885996,
-"lng": 130.789726,
+"lat": 32.88599,
+"lng": 130.789734,
 "prec": "area",
 "windows": [
 {
@@ -534,12 +548,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "熊本県合志市"
 },
 {
 "area": "美里町",
-"lat": 32.639609,
-"lng": 130.789007,
+"lat": 32.639721,
+"lng": 130.788895,
 "prec": "area",
 "windows": [
 {
@@ -555,12 +570,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "熊本県美里町"
 },
 {
 "area": "玉東町",
-"lat": 32.918905,
-"lng": 130.628593,
+"lat": 32.919273,
+"lng": 130.628601,
 "prec": "area",
 "windows": [
 {
@@ -582,12 +598,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "熊本県玉東町"
 },
 {
 "area": "南関町",
-"lat": 33.061599,
-"lng": 130.541126,
+"lat": 33.059566,
+"lng": 130.54364,
 "prec": "area",
 "windows": [
 {
@@ -597,12 +614,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "熊本県南関町"
 },
 {
 "area": "長洲町",
-"lat": 32.929756,
-"lng": 130.4527,
+"lat": 32.929722,
+"lng": 130.452774,
 "prec": "area",
 "windows": [
 {
@@ -624,12 +642,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "熊本県長洲町"
 },
 {
 "area": "和水町",
-"lat": 32.978158,
-"lng": 130.605813,
+"lat": 32.978058,
+"lng": 130.605835,
 "prec": "area",
 "windows": [
 {
@@ -639,12 +658,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "熊本県和水町"
 },
 {
 "area": "大津町",
-"lat": 32.87899,
-"lng": 130.868284,
+"lat": 32.877953,
+"lng": 130.868591,
 "prec": "area",
 "windows": [
 {
@@ -678,12 +698,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "熊本県大津町"
 },
 {
 "area": "菊陽町",
-"lat": 32.862515,
-"lng": 130.828654,
+"lat": 32.862499,
+"lng": 130.828613,
 "prec": "area",
 "windows": [
 {
@@ -705,12 +726,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "熊本県菊陽町"
 },
 {
 "area": "南小国町",
-"lat": 33.098192,
-"lng": 131.070724,
+"lat": 33.098564,
+"lng": 131.070511,
 "prec": "area",
 "windows": [
 {
@@ -720,12 +742,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "熊本県南小国町"
 },
 {
 "area": "小国町",
-"lat": 33.121568,
-"lng": 131.068157,
+"lat": 33.121387,
+"lng": 131.068329,
 "prec": "area",
 "windows": [
 {
@@ -735,12 +758,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "熊本県小国町"
 },
 {
 "area": "産山村",
-"lat": 32.995747,
-"lng": 131.216799,
+"lat": 32.995537,
+"lng": 131.216705,
 "prec": "area",
 "windows": [
 {
@@ -750,12 +774,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "熊本県産山村"
 },
 {
 "area": "高森町",
-"lat": 32.827271,
-"lng": 131.122023,
+"lat": 32.827221,
+"lng": 131.121948,
 "prec": "area",
 "windows": [
 {
@@ -765,12 +790,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "熊本県高森町"
 },
 {
 "area": "西原村",
-"lat": 32.834719,
-"lng": 130.903036,
+"lat": 32.834721,
+"lng": 130.903061,
 "prec": "area",
 "windows": [
 {
@@ -786,12 +812,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "熊本県西原村"
 },
 {
 "area": "南阿蘇村",
-"lat": 32.821978,
-"lng": 131.031444,
+"lat": 32.845081,
+"lng": 131.017792,
 "prec": "area",
 "windows": [
 {
@@ -807,12 +834,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "熊本県南阿蘇村"
 },
 {
 "area": "御船町",
-"lat": 32.714585,
-"lng": 130.801821,
+"lat": 32.714584,
+"lng": 130.801895,
 "prec": "area",
 "windows": [
 {
@@ -846,12 +874,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "熊本県御船町"
 },
 {
 "area": "嘉島町",
-"lat": 32.74007245233927,
-"lng": 130.7573033752953,
+"lat": 32.740002,
+"lng": 130.757217,
 "prec": "area",
 "windows": [
 {
@@ -861,12 +890,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "熊本県嘉島町"
 },
 {
 "area": "益城町",
-"lat": 32.791397,
-"lng": 130.816418,
+"lat": 32.791607,
+"lng": 130.816345,
 "prec": "area",
 "windows": [
 {
@@ -888,12 +918,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "熊本県益城町"
 },
 {
 "area": "甲佐町",
-"lat": 32.651356,
-"lng": 130.811466,
+"lat": 32.651173,
+"lng": 130.811234,
 "prec": "area",
 "windows": [
 {
@@ -903,12 +934,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "熊本県甲佐町"
 },
 {
 "area": "山都町",
-"lat": 32.685795,
-"lng": 130.985998,
+"lat": 32.685387,
+"lng": 130.990448,
 "prec": "area",
 "windows": [
 {
@@ -930,12 +962,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "熊本県山都町"
 },
 {
 "area": "氷川町",
-"lat": 32.582402,
-"lng": 130.673753,
+"lat": 32.5825,
+"lng": 130.673615,
 "prec": "area",
 "windows": [
 {
@@ -951,12 +984,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "熊本県氷川町"
 },
 {
 "area": "芦北町",
-"lat": 32.299102,
-"lng": 130.493119,
+"lat": 32.299034,
+"lng": 130.493118,
 "prec": "area",
 "windows": [
 {
@@ -972,11 +1006,12 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "熊本県芦北町"
 },
 {
 "area": "津奈木町",
-"lat": 32.233892,
+"lat": 32.233883,
 "lng": 130.439621,
 "prec": "area",
 "windows": [
@@ -987,12 +1022,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "熊本県津奈木町"
 },
 {
 "area": "錦町",
-"lat": 32.200987,
-"lng": 130.840902,
+"lat": 32.201111,
+"lng": 130.84111,
 "prec": "area",
 "windows": [
 {
@@ -1014,12 +1050,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "熊本県錦町"
 },
 {
 "area": "多良木町",
-"lat": 32.264039,
-"lng": 130.935795,
+"lat": 32.264019,
+"lng": 130.935837,
 "prec": "area",
 "windows": [
 {
@@ -1041,12 +1078,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "熊本県多良木町"
 },
 {
 "area": "湯前町",
-"lat": 32.276144,
-"lng": 130.980987,
+"lat": 32.276112,
+"lng": 130.980988,
 "prec": "area",
 "windows": [
 {
@@ -1062,12 +1100,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "熊本県湯前町"
 },
 {
 "area": "水上村",
-"lat": 32.314379,
-"lng": 131.009541,
+"lat": 32.314445,
+"lng": 131.009445,
 "prec": "area",
 "windows": [
 {
@@ -1077,12 +1116,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "熊本県水上村"
 },
 {
 "area": "相良村",
-"lat": 32.23526,
-"lng": 130.797985,
+"lat": 32.235279,
+"lng": 130.79805,
 "prec": "area",
 "windows": [
 {
@@ -1092,12 +1132,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "熊本県相良村"
 },
 {
 "area": "五木村",
 "lat": 32.397343,
-"lng": 130.827833,
+"lng": 130.82782,
 "prec": "area",
 "windows": [
 {
@@ -1107,12 +1148,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "熊本県五木村"
 },
 {
 "area": "山江村",
-"lat": 32.246465,
-"lng": 130.767136,
+"lat": 32.246803,
+"lng": 130.7668,
 "prec": "area",
 "windows": [
 {
@@ -1128,12 +1170,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "熊本県山江村"
 },
 {
 "area": "球磨村",
-"lat": 32.252621,
-"lng": 130.651274,
+"lat": 32.25238,
+"lng": 130.651276,
 "prec": "area",
 "windows": [
 {
@@ -1149,12 +1192,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "熊本県球磨村"
 },
 {
 "area": "あさぎり町",
-"lat": 32.240321,
-"lng": 130.897827,
+"lat": 32.240276,
+"lng": 130.898056,
 "prec": "area",
 "windows": [
 {
@@ -1176,12 +1220,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "熊本県あさぎり町"
 },
 {
 "area": "苓北町",
-"lat": 32.513413,
-"lng": 130.05472,
+"lat": 32.513058,
+"lng": 130.054718,
 "prec": "area",
 "windows": [
 {
@@ -1191,6 +1236,7 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "熊本県苓北町"
 }
 ]

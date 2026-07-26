@@ -1,9 +1,9 @@
 [
 {
 "area": "香川県",
-"lat": null,
-"lng": null,
-"prec": "unresolved",
+"lat": 34.340111,
+"lng": 134.043289,
+"prec": "area",
 "windows": [
 {
 "n": "香川県子ども女性相談センター",
@@ -126,12 +126,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "香川県"
 },
 {
 "area": "高松市",
-"lat": 34.342791,
-"lng": 134.046574,
+"lat": 34.342758,
+"lng": 134.046524,
 "prec": "area",
 "windows": [
 {
@@ -219,12 +220,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "香川県高松市"
 },
 {
 "area": "丸亀市",
-"lat": 34.289482,
-"lng": 133.797716,
+"lat": 34.289886,
+"lng": 133.798706,
 "prec": "area",
 "windows": [
 {
@@ -252,12 +254,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "香川県丸亀市"
 },
 {
 "area": "坂出市",
-"lat": 34.316478,
-"lng": 133.860502,
+"lat": 34.316692,
+"lng": 133.860504,
 "prec": "area",
 "windows": [
 {
@@ -273,12 +276,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "香川県坂出市"
 },
 {
 "area": "善通寺市",
-"lat": 34.228417,
-"lng": 133.787153,
+"lat": 34.227161,
+"lng": 133.787186,
 "prec": "area",
 "windows": [
 {
@@ -288,12 +292,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "香川県善通寺市"
 },
 {
 "area": "観音寺市",
-"lat": 34.12737,
-"lng": 133.661597,
+"lat": 34.128475,
+"lng": 133.662857,
 "prec": "area",
 "windows": [
 {
@@ -303,12 +308,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "香川県観音寺市"
 },
 {
 "area": "さぬき市",
-"lat": 34.32521,
-"lng": 134.171989,
+"lat": 34.32526,
+"lng": 134.172073,
 "prec": "area",
 "windows": [
 {
@@ -330,12 +336,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "香川県さぬき市"
 },
 {
 "area": "東かがわ市",
-"lat": 34.243803,
-"lng": 134.358837,
+"lat": 34.243809,
+"lng": 134.358826,
 "prec": "area",
 "windows": [
 {
@@ -357,12 +364,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "香川県東かがわ市"
 },
 {
 "area": "三豊市",
-"lat": 34.182556,
-"lng": 133.715203,
+"lat": 34.182674,
+"lng": 133.715118,
 "prec": "area",
 "windows": [
 {
@@ -378,12 +386,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "香川県三豊市"
 },
 {
 "area": "土庄町",
-"lat": 34.485987,
-"lng": 134.185594,
+"lat": 34.486652,
+"lng": 134.188629,
 "prec": "area",
 "windows": [
 {
@@ -411,12 +420,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "香川県土庄町"
 },
 {
 "area": "小豆島町",
-"lat": 34.482032,
-"lng": 134.233548,
+"lat": 34.479713,
+"lng": 134.308884,
 "prec": "area",
 "windows": [
 {
@@ -426,12 +436,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "香川県小豆島町"
 },
 {
 "area": "三木町",
-"lat": 34.268355,
-"lng": 134.134363,
+"lat": 34.268333,
+"lng": 134.134445,
 "prec": "area",
 "windows": [
 {
@@ -441,12 +452,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "香川県三木町"
 },
 {
 "area": "直島町",
-"lat": 34.45983,
-"lng": 133.995638,
+"lat": 34.459797,
+"lng": 133.99559,
 "prec": "area",
 "windows": [
 {
@@ -462,12 +474,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "香川県直島町"
 },
 {
 "area": "宇多津町",
-"lat": 34.310301,
-"lng": 133.825566,
+"lat": 34.310349,
+"lng": 133.825516,
 "prec": "area",
 "windows": [
 {
@@ -483,12 +496,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "香川県宇多津町"
 },
 {
 "area": "綾川町",
-"lat": 34.249613,
-"lng": 133.923099,
+"lat": 34.249619,
+"lng": 133.923096,
 "prec": "area",
 "windows": [
 {
@@ -528,12 +542,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "香川県綾川町"
 },
 {
 "area": "琴平町",
-"lat": 34.19142,
-"lng": 133.823303,
+"lat": 34.191418,
+"lng": 133.823334,
 "prec": "area",
 "windows": [
 {
@@ -549,12 +564,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "香川県琴平町"
 },
 {
 "area": "多度津町",
-"lat": 34.272474,
-"lng": 133.753569,
+"lat": 34.272713,
+"lng": 133.75856,
 "prec": "area",
 "windows": [
 {
@@ -582,12 +598,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "香川県多度津町"
 },
 {
 "area": "まんのう町",
-"lat": 34.192334,
-"lng": 133.841393,
+"lat": 34.192348,
+"lng": 133.841461,
 "prec": "area",
 "windows": [
 {
@@ -603,6 +620,7 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "香川県まんのう町"
 }
 ]

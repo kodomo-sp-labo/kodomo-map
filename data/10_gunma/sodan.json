@@ -1,9 +1,9 @@
 [
 {
 "area": "群馬県",
-"lat": null,
-"lng": null,
-"prec": "unresolved",
+"lat": 36.39069,
+"lng": 139.060455,
+"prec": "area",
 "windows": [
 {
 "n": "こどもホットライン24",
@@ -108,12 +108,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "群馬県"
 },
 {
 "area": "前橋市",
-"lat": 36.389413,
-"lng": 139.063493,
+"lat": 36.389462,
+"lng": 139.063461,
 "prec": "area",
 "windows": [
 {
@@ -183,12 +184,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "群馬県前橋市"
 },
 {
 "area": "高崎市",
-"lat": 36.32195,
-"lng": 139.003355,
+"lat": 36.321964,
+"lng": 139.003281,
 "prec": "area",
 "windows": [
 {
@@ -240,12 +242,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "群馬県高崎市"
 },
 {
 "area": "桐生市",
-"lat": 36.40521,
-"lng": 139.330646,
+"lat": 36.405743,
+"lng": 139.330826,
 "prec": "area",
 "windows": [
 {
@@ -261,12 +264,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "群馬県桐生市"
 },
 {
 "area": "伊勢崎市",
-"lat": 36.311341,
-"lng": 139.19696,
+"lat": 36.311386,
+"lng": 139.196671,
 "prec": "area",
 "windows": [
 {
@@ -300,12 +304,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "群馬県伊勢崎市"
 },
 {
 "area": "太田市",
-"lat": 36.291127,
-"lng": 139.37536,
+"lat": 36.291157,
+"lng": 139.375504,
 "prec": "area",
 "windows": [
 {
@@ -351,12 +356,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "群馬県太田市"
 },
 {
 "area": "沼田市",
-"lat": 36.646078,
-"lng": 139.044074,
+"lat": 36.643967,
+"lng": 139.042801,
 "prec": "area",
 "windows": [
 {
@@ -378,12 +384,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "群馬県沼田市"
 },
 {
 "area": "館林市",
-"lat": 36.244841,
-"lng": 139.542057,
+"lat": 36.244839,
+"lng": 139.542252,
 "prec": "area",
 "windows": [
 {
@@ -393,12 +400,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "群馬県館林市"
 },
 {
 "area": "渋川市",
-"lat": 36.48948,
-"lng": 139.000394,
+"lat": 36.489445,
+"lng": 139.000565,
 "prec": "area",
 "windows": [
 {
@@ -432,12 +440,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "群馬県渋川市"
 },
 {
 "area": "藤岡市",
-"lat": 36.258509,
-"lng": 139.074564,
+"lat": 36.25861,
+"lng": 139.074722,
 "prec": "area",
 "windows": [
 {
@@ -459,12 +468,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "群馬県藤岡市"
 },
 {
 "area": "富岡市",
-"lat": 36.259852,
-"lng": 138.889954,
+"lat": 36.259815,
+"lng": 138.889526,
 "prec": "area",
 "windows": [
 {
@@ -516,12 +526,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "群馬県富岡市"
 },
 {
 "area": "安中市",
-"lat": 36.326298,
-"lng": 138.887244,
+"lat": 36.326061,
+"lng": 138.890945,
 "prec": "area",
 "windows": [
 {
@@ -543,12 +554,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "群馬県安中市"
 },
 {
 "area": "みどり市",
-"lat": 36.394819,
-"lng": 139.281076,
+"lat": 36.394814,
+"lng": 139.281113,
 "prec": "area",
 "windows": [
 {
@@ -570,12 +582,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "群馬県みどり市"
 },
 {
 "area": "榛東村",
-"lat": 36.438647,
-"lng": 138.967118,
+"lat": 36.438469,
+"lng": 138.967224,
 "prec": "area",
 "windows": [
 {
@@ -603,12 +616,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "群馬県榛東村"
 },
 {
 "area": "吉岡町",
-"lat": 36.447443,
-"lng": 139.0097,
+"lat": 36.447437,
+"lng": 139.009735,
 "prec": "area",
 "windows": [
 {
@@ -630,12 +644,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "群馬県吉岡町"
 },
 {
 "area": "上野村",
-"lat": 36.083135,
-"lng": 138.777334,
+"lat": 36.083233,
+"lng": 138.777328,
 "prec": "area",
 "windows": [
 {
@@ -645,12 +660,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "群馬県上野村"
 },
 {
 "area": "神流町",
-"lat": 36.116013,
-"lng": 138.916991,
+"lat": 36.115971,
+"lng": 138.917023,
 "prec": "area",
 "windows": [
 {
@@ -660,12 +676,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "群馬県神流町"
 },
 {
 "area": "下仁田町",
-"lat": 36.21247,
-"lng": 138.789083,
+"lat": 36.212502,
+"lng": 138.789169,
 "prec": "area",
 "windows": [
 {
@@ -699,12 +716,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "群馬県下仁田町"
 },
 {
 "area": "南牧村",
-"lat": 36.158553,
-"lng": 138.711406,
+"lat": 36.158611,
+"lng": 138.711395,
 "prec": "area",
 "windows": [
 {
@@ -720,12 +738,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "群馬県南牧村"
 },
 {
 "area": "甘楽町",
-"lat": 36.243009,
-"lng": 138.921752,
+"lat": 36.243004,
+"lng": 138.921768,
 "prec": "area",
 "windows": [
 {
@@ -735,12 +754,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "群馬県甘楽町"
 },
 {
 "area": "中之条町",
-"lat": 36.589843,
-"lng": 138.841075,
+"lat": 36.589886,
+"lng": 138.841019,
 "prec": "area",
 "windows": [
 {
@@ -762,12 +782,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "群馬県中之条町"
 },
 {
 "area": "長野原町",
-"lat": 36.552434,
-"lng": 138.637572,
+"lat": 36.544319,
+"lng": 138.649841,
 "prec": "area",
 "windows": [
 {
@@ -789,12 +810,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "群馬県長野原町"
 },
 {
 "area": "嬬恋村",
-"lat": 36.516735,
-"lng": 138.530298,
+"lat": 36.516666,
+"lng": 138.530289,
 "prec": "area",
 "windows": [
 {
@@ -804,12 +826,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "群馬県嬬恋村"
 },
 {
 "area": "草津町",
-"lat": 36.620711,
-"lng": 138.596127,
+"lat": 36.620556,
+"lng": 138.596115,
 "prec": "area",
 "windows": [
 {
@@ -819,12 +842,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "群馬県草津町"
 },
 {
 "area": "高山村",
-"lat": 36.620809,
-"lng": 138.943477,
+"lat": 36.620834,
+"lng": 138.943619,
 "prec": "area",
 "windows": [
 {
@@ -846,12 +870,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "群馬県高山村"
 },
 {
 "area": "東吾妻町",
-"lat": 36.571414,
-"lng": 138.825563,
+"lat": 36.571529,
+"lng": 138.820526,
 "prec": "area",
 "windows": [
 {
@@ -879,12 +904,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "群馬県東吾妻町"
 },
 {
 "area": "片品村",
-"lat": 36.772549,
-"lng": 139.225241,
+"lat": 36.772343,
+"lng": 139.225296,
 "prec": "area",
 "windows": [
 {
@@ -894,12 +920,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "群馬県片品村"
 },
 {
 "area": "川場村",
-"lat": 36.694683,
-"lng": 139.106512,
+"lat": 36.692554,
+"lng": 139.103485,
 "prec": "area",
 "windows": [
 {
@@ -909,12 +936,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "群馬県川場村"
 },
 {
 "area": "昭和村",
-"lat": 36.639761,
-"lng": 139.065881,
+"lat": 36.639702,
+"lng": 139.066345,
 "prec": "area",
 "windows": [
 {
@@ -930,12 +958,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "群馬県昭和村"
 },
 {
 "area": "みなかみ町",
-"lat": 36.67865,
-"lng": 138.999055,
+"lat": 36.678684,
+"lng": 138.999069,
 "prec": "area",
 "windows": [
 {
@@ -945,12 +974,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "群馬県みなかみ町"
 },
 {
 "area": "玉村町",
-"lat": 36.304435,
-"lng": 139.114916,
+"lat": 36.304443,
+"lng": 139.115005,
 "prec": "area",
 "windows": [
 {
@@ -972,12 +1002,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "群馬県玉村町"
 },
 {
 "area": "板倉町",
-"lat": 36.222955,
-"lng": 139.610271,
+"lat": 36.225964,
+"lng": 139.601913,
 "prec": "area",
 "windows": [
 {
@@ -1005,12 +1036,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "群馬県板倉町"
 },
 {
 "area": "明和町",
-"lat": 36.211283,
-"lng": 139.534228,
+"lat": 36.211235,
+"lng": 139.534271,
 "prec": "area",
 "windows": [
 {
@@ -1038,12 +1070,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "群馬県明和町"
 },
 {
 "area": "千代田町",
-"lat": 36.217754,
-"lng": 139.442437,
+"lat": 36.217777,
+"lng": 139.442505,
 "prec": "area",
 "windows": [
 {
@@ -1053,12 +1086,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "群馬県千代田町"
 },
 {
 "area": "大泉町",
-"lat": 36.247862,
-"lng": 139.404843,
+"lat": 36.249561,
+"lng": 139.407089,
 "prec": "area",
 "windows": [
 {
@@ -1104,12 +1138,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "群馬県大泉町"
 },
 {
 "area": "邑楽町",
-"lat": 36.252392,
-"lng": 139.4623,
+"lat": 36.252499,
+"lng": 139.462509,
 "prec": "area",
 "windows": [
 {
@@ -1131,6 +1166,7 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "群馬県邑楽町"
 }
 ]

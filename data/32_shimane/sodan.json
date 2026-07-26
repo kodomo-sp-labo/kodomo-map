@@ -1,9 +1,9 @@
 [
 {
 "area": "島根県",
-"lat": null,
-"lng": null,
-"prec": "unresolved",
+"lat": 35.472294,
+"lng": 133.050522,
+"prec": "area",
 "windows": [
 {
 "n": "しまね不妊と妊娠・出産相談センター",
@@ -126,12 +126,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "島根県"
 },
 {
 "area": "松江市",
-"lat": 35.468039,
-"lng": 133.048527,
+"lat": 35.467815,
+"lng": 133.048523,
 "prec": "area",
 "windows": [
 {
@@ -189,12 +190,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "島根県松江市"
 },
 {
 "area": "浜田市",
-"lat": 34.899255,
-"lng": 132.079883,
+"lat": 34.899166,
+"lng": 132.080002,
 "prec": "area",
 "windows": [
 {
@@ -210,12 +212,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "島根県浜田市"
 },
 {
 "area": "出雲市",
-"lat": 35.366917,
-"lng": 132.754712,
+"lat": 35.367027,
+"lng": 132.754669,
 "prec": "area",
 "windows": [
 {
@@ -249,12 +252,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "島根県出雲市"
 },
 {
 "area": "益田市",
-"lat": 34.674814,
-"lng": 131.842862,
+"lat": 34.67487,
+"lng": 131.842896,
 "prec": "area",
 "windows": [
 {
@@ -276,12 +280,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "島根県益田市"
 },
 {
 "area": "大田市",
-"lat": 35.19209,
-"lng": 132.499351,
+"lat": 35.192223,
+"lng": 132.499725,
 "prec": "area",
 "windows": [
 {
@@ -315,12 +320,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "島根県大田市"
 },
 {
 "area": "安来市",
-"lat": 35.431451,
-"lng": 133.250851,
+"lat": 35.430935,
+"lng": 133.251099,
 "prec": "area",
 "windows": [
 {
@@ -360,12 +366,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "島根県安来市"
 },
 {
 "area": "江津市",
-"lat": 35.011148,
-"lng": 132.221206,
+"lat": 35.01162,
+"lng": 132.217758,
 "prec": "area",
 "windows": [
 {
@@ -381,12 +388,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "島根県江津市"
 },
 {
 "area": "雲南市",
-"lat": 35.287787,
-"lng": 132.900475,
+"lat": 35.307697,
+"lng": 132.900375,
 "prec": "area",
 "windows": [
 {
@@ -426,12 +434,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "島根県雲南市"
 },
 {
 "area": "奥出雲町",
-"lat": 35.197428,
-"lng": 133.002549,
+"lat": 35.197498,
+"lng": 133.002502,
 "prec": "area",
 "windows": [
 {
@@ -459,12 +468,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "島根県奥出雲町"
 },
 {
 "area": "飯南町",
-"lat": 35.00004,
-"lng": 132.713872,
+"lat": 34.998596,
+"lng": 132.713272,
 "prec": "area",
 "windows": [
 {
@@ -492,12 +502,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "島根県飯南町"
 },
 {
 "area": "川本町",
-"lat": 34.994002,
-"lng": 132.495388,
+"lat": 34.995213,
+"lng": 132.49585,
 "prec": "area",
 "windows": [
 {
@@ -513,12 +524,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "島根県川本町"
 },
 {
 "area": "美郷町",
-"lat": 35.076512,
-"lng": 132.590543,
+"lat": 35.076588,
+"lng": 132.590561,
 "prec": "area",
 "windows": [
 {
@@ -540,12 +552,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "島根県美郷町"
 },
 {
 "area": "邑南町",
-"lat": 34.893934,
-"lng": 132.437976,
+"lat": 34.89389,
+"lng": 132.437775,
 "prec": "area",
 "windows": [
 {
@@ -573,12 +586,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "島根県邑南町"
 },
 {
 "area": "津和野町",
-"lat": 34.543668,
-"lng": 131.838311,
+"lat": 34.541962,
+"lng": 131.835083,
 "prec": "area",
 "windows": [
 {
@@ -600,12 +614,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "島根県津和野町"
 },
 {
 "area": "吉賀町",
-"lat": 34.35351,
-"lng": 131.935137,
+"lat": 34.353611,
+"lng": 131.934998,
 "prec": "area",
 "windows": [
 {
@@ -621,12 +636,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "島根県吉賀町"
 },
 {
 "area": "海士町",
-"lat": 36.096561,
-"lng": 133.096701,
+"lat": 36.096695,
+"lng": 133.096466,
 "prec": "area",
 "windows": [
 {
@@ -648,12 +664,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "島根県海士町"
 },
 {
 "area": "西ノ島町",
-"lat": 36.093158,
-"lng": 132.994378,
+"lat": 36.091824,
+"lng": 133.013474,
 "prec": "area",
 "windows": [
 {
@@ -669,12 +686,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "島根県西ノ島町"
 },
 {
 "area": "知夫村",
-"lat": 36.013927,
-"lng": 133.039372,
+"lat": 36.013908,
+"lng": 133.039536,
 "prec": "area",
 "windows": [
 {
@@ -690,12 +708,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "島根県知夫村"
 },
 {
 "area": "隠岐の島町",
-"lat": 36.20902,
-"lng": 133.32178,
+"lat": 36.213398,
+"lng": 133.311829,
 "prec": "area",
 "windows": [
 {
@@ -717,6 +736,7 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "島根県隠岐の島町"
 }
 ]

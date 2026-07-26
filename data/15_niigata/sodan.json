@@ -1,9 +1,9 @@
 [
 {
 "area": "新潟県",
-"lat": null,
-"lng": null,
-"prec": "unresolved",
+"lat": 37.902451,
+"lng": 139.023239,
+"prec": "area",
 "windows": [
 {
 "n": "新潟県こころの相談ダイヤル",
@@ -174,12 +174,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "新潟県"
 },
 {
 "area": "新潟市",
-"lat": 37.916128,
-"lng": 139.036402,
+"lat": 37.916077,
+"lng": 139.036545,
 "prec": "area",
 "windows": [
 {
@@ -381,12 +382,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "新潟県新潟市"
 },
 {
 "area": "長岡市",
-"lat": 37.446587,
-"lng": 138.851224,
+"lat": 37.446533,
+"lng": 138.851486,
 "prec": "area",
 "windows": [
 {
@@ -408,12 +410,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "新潟県長岡市"
 },
 {
 "area": "三条市",
-"lat": 37.636768,
-"lng": 138.9617,
+"lat": 37.636387,
+"lng": 138.96167,
 "prec": "area",
 "windows": [
 {
@@ -453,12 +456,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "新潟県三条市"
 },
 {
 "area": "柏崎市",
-"lat": 37.371968,
-"lng": 138.558835,
+"lat": 37.364952,
+"lng": 138.557999,
 "prec": "area",
 "windows": [
 {
@@ -480,12 +484,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "新潟県柏崎市"
 },
 {
 "area": "新発田市",
-"lat": 37.950883,
-"lng": 139.327898,
+"lat": 37.947952,
+"lng": 139.327103,
 "prec": "area",
 "windows": [
 {
@@ -519,12 +524,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "新潟県新発田市"
 },
 {
 "area": "小千谷市",
-"lat": 37.31435,
-"lng": 138.795097,
+"lat": 37.314442,
+"lng": 138.795013,
 "prec": "area",
 "windows": [
 {
@@ -570,12 +576,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "新潟県小千谷市"
 },
 {
 "area": "加茂市",
-"lat": 37.666335,
-"lng": 139.04022,
+"lat": 37.666386,
+"lng": 139.040283,
 "prec": "area",
 "windows": [
 {
@@ -597,12 +604,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "新潟県加茂市"
 },
 {
 "area": "十日町市",
-"lat": 37.127588,
-"lng": 138.75571,
+"lat": 37.127499,
+"lng": 138.755569,
 "prec": "area",
 "windows": [
 {
@@ -618,12 +626,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "新潟県十日町市"
 },
 {
 "area": "見附市",
-"lat": 37.531496,
-"lng": 138.912724,
+"lat": 37.531593,
+"lng": 138.912781,
 "prec": "area",
 "windows": [
 {
@@ -663,12 +672,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "新潟県見附市"
 },
 {
 "area": "村上市",
-"lat": 38.22399,
-"lng": 139.48004,
+"lat": 38.224163,
+"lng": 139.480011,
 "prec": "area",
 "windows": [
 {
@@ -708,12 +718,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "新潟県村上市"
 },
 {
 "area": "燕市",
-"lat": 37.673149,
-"lng": 138.882249,
+"lat": 37.673161,
+"lng": 138.882095,
 "prec": "area",
 "windows": [
 {
@@ -747,12 +758,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "新潟県燕市"
 },
 {
 "area": "糸魚川市",
-"lat": 37.039025,
-"lng": 137.862658,
+"lat": 37.039131,
+"lng": 137.862701,
 "prec": "area",
 "windows": [
 {
@@ -780,12 +792,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "新潟県糸魚川市"
 },
 {
 "area": "妙高市",
-"lat": 37.025265,
-"lng": 138.253485,
+"lat": 37.025269,
+"lng": 138.253342,
 "prec": "area",
 "windows": [
 {
@@ -795,12 +808,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "新潟県妙高市"
 },
 {
 "area": "五泉市",
-"lat": 37.744483,
-"lng": 139.182568,
+"lat": 37.744495,
+"lng": 139.182587,
 "prec": "area",
 "windows": [
 {
@@ -846,12 +860,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "新潟県五泉市"
 },
 {
 "area": "上越市",
-"lat": 37.147873,
-"lng": 138.236039,
+"lat": 37.147865,
+"lng": 138.236099,
 "prec": "area",
 "windows": [
 {
@@ -999,12 +1014,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "新潟県上越市"
 },
 {
 "area": "阿賀野市",
-"lat": 37.834509,
-"lng": 139.226002,
+"lat": 37.834469,
+"lng": 139.225952,
 "prec": "area",
 "windows": [
 {
@@ -1014,12 +1030,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "新潟県阿賀野市"
 },
 {
 "area": "佐渡市",
-"lat": 38.018302,
-"lng": 138.368138,
+"lat": 38.018604,
+"lng": 138.368011,
 "prec": "area",
 "windows": [
 {
@@ -1029,12 +1046,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "新潟県佐渡市"
 },
 {
 "area": "魚沼市",
-"lat": 37.230103,
-"lng": 138.961434,
+"lat": 37.236431,
+"lng": 138.963776,
 "prec": "area",
 "windows": [
 {
@@ -1050,12 +1068,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "新潟県魚沼市"
 },
 {
 "area": "南魚沼市",
-"lat": 37.065522,
-"lng": 138.876081,
+"lat": 37.065556,
+"lng": 138.876114,
 "prec": "area",
 "windows": [
 {
@@ -1077,12 +1096,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "新潟県南魚沼市"
 },
 {
 "area": "胎内市",
-"lat": 38.059708,
-"lng": 139.41035,
+"lat": 38.059719,
+"lng": 139.410294,
 "prec": "area",
 "windows": [
 {
@@ -1092,12 +1112,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "新潟県胎内市"
 },
 {
 "area": "聖籠町",
-"lat": 37.974526,
-"lng": 139.274374,
+"lat": 37.974442,
+"lng": 139.27446,
 "prec": "area",
 "windows": [
 {
@@ -1113,12 +1134,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "新潟県聖籠町"
 },
 {
 "area": "弥彦村",
-"lat": 37.691007,
-"lng": 138.855252,
+"lat": 37.691059,
+"lng": 138.855164,
 "prec": "area",
 "windows": [
 {
@@ -1146,12 +1168,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "新潟県弥彦村"
 },
 {
 "area": "田上町",
-"lat": 37.698857,
-"lng": 139.057993,
+"lat": 37.698849,
+"lng": 139.057968,
 "prec": "area",
 "windows": [
 {
@@ -1167,12 +1190,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "新潟県田上町"
 },
 {
 "area": "阿賀町",
-"lat": 37.675487,
-"lng": 139.458781,
+"lat": 37.675606,
+"lng": 139.458771,
 "prec": "area",
 "windows": [
 {
@@ -1182,12 +1206,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "新潟県阿賀町"
 },
 {
 "area": "出雲崎町",
-"lat": 37.530715,
-"lng": 138.709361,
+"lat": 37.530731,
+"lng": 138.709396,
 "prec": "area",
 "windows": [
 {
@@ -1197,12 +1222,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "新潟県出雲崎町"
 },
 {
 "area": "湯沢町",
-"lat": 36.934007,
-"lng": 138.817424,
+"lat": 36.933987,
+"lng": 138.817474,
 "prec": "area",
 "windows": [
 {
@@ -1230,12 +1256,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "新潟県湯沢町"
 },
 {
 "area": "津南町",
-"lat": 37.014313,
-"lng": 138.652547,
+"lat": 37.014168,
+"lng": 138.652496,
 "prec": "area",
 "windows": [
 {
@@ -1257,12 +1284,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "新潟県津南町"
 },
 {
 "area": "刈羽村",
-"lat": 37.422361,
-"lng": 138.622442,
+"lat": 37.421906,
+"lng": 138.622498,
 "prec": "area",
 "windows": [
 {
@@ -1284,12 +1312,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "新潟県刈羽村"
 },
 {
 "area": "関川村",
-"lat": 38.089412,
-"lng": 139.564957,
+"lat": 38.089443,
+"lng": 139.565018,
 "prec": "area",
 "windows": [
 {
@@ -1311,12 +1340,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "新潟県関川村"
 },
 {
 "area": "粟島浦村",
-"lat": 38.468213,
-"lng": 139.25436,
+"lat": 38.468304,
+"lng": 139.25441,
 "prec": "area",
 "windows": [
 {
@@ -1332,6 +1362,7 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "新潟県粟島浦村"
 }
 ]

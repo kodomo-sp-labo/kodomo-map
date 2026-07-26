@@ -1,9 +1,9 @@
 [
 {
 "area": "愛知県",
-"lat": null,
-"lng": null,
-"prec": "unresolved",
+"lat": 35.18021,
+"lng": 136.906586,
+"prec": "area",
 "windows": [
 {
 "n": "あいち人権センター",
@@ -180,12 +180,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "愛知県"
 },
 {
 "area": "名古屋市",
-"lat": 35.181433,
-"lng": 136.906421,
+"lat": 35.181438,
+"lng": 136.90657,
 "prec": "area",
 "windows": [
 {
@@ -327,12 +328,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "愛知県名古屋市"
 },
 {
 "area": "豊橋市",
-"lat": 34.769199,
-"lng": 137.391469,
+"lat": 34.769169,
+"lng": 137.391388,
 "prec": "area",
 "windows": [
 {
@@ -378,12 +380,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "愛知県豊橋市"
 },
 {
 "area": "岡崎市",
-"lat": 34.954809,
-"lng": 137.172999,
+"lat": 34.954803,
+"lng": 137.173065,
 "prec": "area",
 "windows": [
 {
@@ -519,12 +522,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "愛知県岡崎市"
 },
 {
 "area": "一宮市",
-"lat": 35.304013,
-"lng": 136.802344,
+"lat": 35.303837,
+"lng": 136.802979,
 "prec": "area",
 "windows": [
 {
@@ -576,12 +580,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "愛知県一宮市"
 },
 {
 "area": "瀬戸市",
-"lat": 35.22362,
-"lng": 137.084117,
+"lat": 35.22374,
+"lng": 137.084045,
 "prec": "area",
 "windows": [
 {
@@ -639,12 +644,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "愛知県瀬戸市"
 },
 {
 "area": "半田市",
-"lat": 34.892626,
-"lng": 136.93785,
+"lat": 34.891808,
+"lng": 136.938004,
 "prec": "area",
 "windows": [
 {
@@ -660,12 +666,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "愛知県半田市"
 },
 {
 "area": "春日井市",
-"lat": 35.247664,
-"lng": 136.972232,
+"lat": 35.247501,
+"lng": 136.972229,
 "prec": "area",
 "windows": [
 {
@@ -753,12 +760,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "愛知県春日井市"
 },
 {
 "area": "豊川市",
-"lat": 34.826784,
-"lng": 137.375578,
+"lat": 34.826942,
+"lng": 137.375839,
 "prec": "area",
 "windows": [
 {
@@ -828,12 +836,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "愛知県豊川市"
 },
 {
 "area": "津島市",
-"lat": 35.17704,
-"lng": 136.741236,
+"lat": 35.177074,
+"lng": 136.741364,
 "prec": "area",
 "windows": [
 {
@@ -867,12 +876,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "愛知県津島市"
 },
 {
 "area": "碧南市",
-"lat": 34.884782,
-"lng": 136.993362,
+"lat": 34.884724,
+"lng": 136.993607,
 "prec": "area",
 "windows": [
 {
@@ -906,12 +916,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "愛知県碧南市"
 },
 {
 "area": "刈谷市",
-"lat": 34.988864,
-"lng": 137.00206,
+"lat": 34.989376,
+"lng": 137.002304,
 "prec": "area",
 "windows": [
 {
@@ -957,12 +968,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "愛知県刈谷市"
 },
 {
 "area": "豊田市",
-"lat": 35.082345,
-"lng": 137.156224,
+"lat": 35.082565,
+"lng": 137.156235,
 "prec": "area",
 "windows": [
 {
@@ -1008,12 +1020,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "愛知県豊田市"
 },
 {
 "area": "安城市",
-"lat": 34.958644,
-"lng": 137.080297,
+"lat": 34.958614,
+"lng": 137.080276,
 "prec": "area",
 "windows": [
 {
@@ -1083,12 +1096,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "愛知県安城市"
 },
 {
 "area": "西尾市",
-"lat": 34.862009,
-"lng": 137.061741,
+"lat": 34.861942,
+"lng": 137.061951,
 "prec": "area",
 "windows": [
 {
@@ -1128,12 +1142,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "愛知県西尾市"
 },
 {
 "area": "蒲郡市",
-"lat": 34.826439,
-"lng": 137.219653,
+"lat": 34.826389,
+"lng": 137.219727,
 "prec": "area",
 "windows": [
 {
@@ -1167,12 +1182,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "愛知県蒲郡市"
 },
 {
 "area": "犬山市",
-"lat": 35.378641,
-"lng": 136.944625,
+"lat": 35.378441,
+"lng": 136.944427,
 "prec": "area",
 "windows": [
 {
@@ -1218,12 +1234,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "愛知県犬山市"
 },
 {
 "area": "常滑市",
-"lat": 34.886678,
-"lng": 136.832375,
+"lat": 34.896088,
+"lng": 136.854477,
 "prec": "area",
 "windows": [
 {
@@ -1251,12 +1268,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "愛知県常滑市"
 },
 {
 "area": "江南市",
-"lat": 35.331953,
-"lng": 136.870453,
+"lat": 35.332081,
+"lng": 136.870773,
 "prec": "area",
 "windows": [
 {
@@ -1308,12 +1326,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "愛知県江南市"
 },
 {
 "area": "小牧市",
-"lat": 35.291141,
-"lng": 136.911971,
+"lat": 35.29044,
+"lng": 136.910995,
 "prec": "area",
 "windows": [
 {
@@ -1425,12 +1444,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "愛知県小牧市"
 },
 {
 "area": "稲沢市",
-"lat": 35.248135,
-"lng": 136.780216,
+"lat": 35.248055,
+"lng": 136.780273,
 "prec": "area",
 "windows": [
 {
@@ -1470,12 +1490,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "愛知県稲沢市"
 },
 {
 "area": "新城市",
-"lat": 34.899226,
-"lng": 137.498504,
+"lat": 34.89893,
+"lng": 137.497757,
 "prec": "area",
 "windows": [
 {
@@ -1491,12 +1512,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "愛知県新城市"
 },
 {
 "area": "東海市",
-"lat": 35.022976,
-"lng": 136.902229,
+"lat": 35.022957,
+"lng": 136.902328,
 "prec": "area",
 "windows": [
 {
@@ -1548,12 +1570,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "愛知県東海市"
 },
 {
 "area": "大府市",
-"lat": 35.011611,
-"lng": 136.963868,
+"lat": 35.011654,
+"lng": 136.963898,
 "prec": "area",
 "windows": [
 {
@@ -1569,12 +1592,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "愛知県大府市"
 },
 {
 "area": "知多市",
-"lat": 34.996533,
-"lng": 136.864755,
+"lat": 34.996532,
+"lng": 136.864761,
 "prec": "area",
 "windows": [
 {
@@ -1608,12 +1632,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "愛知県知多市"
 },
 {
 "area": "知立市",
-"lat": 35.001285,
-"lng": 137.050843,
+"lat": 35.001305,
+"lng": 137.050781,
 "prec": "area",
 "windows": [
 {
@@ -1659,12 +1684,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "愛知県知立市"
 },
 {
 "area": "尾張旭市",
-"lat": 35.216568,
-"lng": 137.035412,
+"lat": 35.21661,
+"lng": 137.035385,
 "prec": "area",
 "windows": [
 {
@@ -1734,12 +1760,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "愛知県尾張旭市"
 },
 {
 "area": "高浜市",
-"lat": 34.92763,
-"lng": 136.98766,
+"lat": 34.927578,
+"lng": 136.987305,
 "prec": "area",
 "windows": [
 {
@@ -1791,12 +1818,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "愛知県高浜市"
 },
 {
 "area": "岩倉市",
-"lat": 35.279433,
-"lng": 136.871428,
+"lat": 35.279434,
+"lng": 136.871414,
 "prec": "area",
 "windows": [
 {
@@ -1830,12 +1858,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "愛知県岩倉市"
 },
 {
 "area": "豊明市",
-"lat": 35.053756,
-"lng": 137.013124,
+"lat": 35.053692,
+"lng": 137.012909,
 "prec": "area",
 "windows": [
 {
@@ -1851,12 +1880,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "愛知県豊明市"
 },
 {
 "area": "日進市",
-"lat": 35.132018,
-"lng": 137.039414,
+"lat": 35.132008,
+"lng": 137.039444,
 "prec": "area",
 "windows": [
 {
@@ -1878,12 +1908,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "愛知県日進市"
 },
 {
 "area": "田原市",
-"lat": 34.668972,
-"lng": 137.26383,
+"lat": 34.669041,
+"lng": 137.263596,
 "prec": "area",
 "windows": [
 {
@@ -1923,12 +1954,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "愛知県田原市"
 },
 {
 "area": "愛西市",
-"lat": 35.152802,
-"lng": 136.728217,
+"lat": 35.153118,
+"lng": 136.728119,
 "prec": "area",
 "windows": [
 {
@@ -1968,12 +2000,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "愛知県愛西市"
 },
 {
 "area": "清須市",
-"lat": 35.199848,
-"lng": 136.852934,
+"lat": 35.199844,
+"lng": 136.852936,
 "prec": "area",
 "windows": [
 {
@@ -2001,12 +2034,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "愛知県清須市"
 },
 {
 "area": "北名古屋市",
-"lat": 35.245657,
-"lng": 136.865961,
+"lat": 35.24567,
+"lng": 136.865906,
 "prec": "area",
 "windows": [
 {
@@ -2034,12 +2068,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "愛知県北名古屋市"
 },
 {
 "area": "弥富市",
-"lat": 35.110118,
-"lng": 136.72472,
+"lat": 35.110149,
+"lng": 136.724762,
 "prec": "area",
 "windows": [
 {
@@ -2079,12 +2114,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "愛知県弥富市"
 },
 {
 "area": "みよし市",
-"lat": 35.089699,
-"lng": 137.074728,
+"lat": 35.089409,
+"lng": 137.074905,
 "prec": "area",
 "windows": [
 {
@@ -2100,12 +2136,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "愛知県みよし市"
 },
 {
 "area": "あま市",
-"lat": 35.200498,
-"lng": 136.783227,
+"lat": 35.188244,
+"lng": 136.803696,
 "prec": "area",
 "windows": [
 {
@@ -2241,12 +2278,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "愛知県あま市"
 },
 {
 "area": "長久手市",
-"lat": 35.18412,
-"lng": 137.048631,
+"lat": 35.184166,
+"lng": 137.048615,
 "prec": "area",
 "windows": [
 {
@@ -2304,12 +2342,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "愛知県長久手市"
 },
 {
 "area": "東郷町",
-"lat": 35.09679,
-"lng": 137.052623,
+"lat": 35.096897,
+"lng": 137.052643,
 "prec": "area",
 "windows": [
 {
@@ -2325,12 +2364,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "愛知県東郷町"
 },
 {
 "area": "豊山町",
-"lat": 35.250462,
-"lng": 136.911977,
+"lat": 35.250542,
+"lng": 136.912125,
 "prec": "area",
 "windows": [
 {
@@ -2340,12 +2380,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "愛知県豊山町"
 },
 {
 "area": "大口町",
-"lat": 35.332444,
-"lng": 136.907694,
+"lat": 35.3325,
+"lng": 136.907776,
 "prec": "area",
 "windows": [
 {
@@ -2361,12 +2402,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "愛知県大口町"
 },
 {
 "area": "扶桑町",
-"lat": 35.35914,
-"lng": 136.913079,
+"lat": 35.359165,
+"lng": 136.913055,
 "prec": "area",
 "windows": [
 {
@@ -2394,12 +2436,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "愛知県扶桑町"
 },
 {
 "area": "大治町",
-"lat": 35.175089,
-"lng": 136.8201,
+"lat": 35.175083,
+"lng": 136.820084,
 "prec": "area",
 "windows": [
 {
@@ -2433,12 +2476,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "愛知県大治町"
 },
 {
 "area": "蟹江町",
-"lat": 35.132339,
-"lng": 136.786679,
+"lat": 35.132221,
+"lng": 136.786942,
 "prec": "area",
 "windows": [
 {
@@ -2448,12 +2492,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "愛知県蟹江町"
 },
 {
 "area": "飛島村",
-"lat": 35.078804,
-"lng": 136.791157,
+"lat": 35.078842,
+"lng": 136.791168,
 "prec": "area",
 "windows": [
 {
@@ -2463,12 +2508,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "愛知県飛島村"
 },
 {
 "area": "阿久比町",
-"lat": 34.932569,
-"lng": 136.915512,
+"lat": 34.932888,
+"lng": 136.915222,
 "prec": "area",
 "windows": [
 {
@@ -2484,12 +2530,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "愛知県阿久比町"
 },
 {
 "area": "東浦町",
-"lat": 34.977139,
-"lng": 136.965569,
+"lat": 34.977142,
+"lng": 136.965607,
 "prec": "area",
 "windows": [
 {
@@ -2517,12 +2564,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "愛知県東浦町"
 },
 {
 "area": "南知多町",
-"lat": 34.715169,
-"lng": 136.929934,
+"lat": 34.715195,
+"lng": 136.929916,
 "prec": "area",
 "windows": [
 {
@@ -2544,12 +2592,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "愛知県南知多町"
 },
 {
 "area": "美浜町",
-"lat": 34.778843,
-"lng": 136.908251,
+"lat": 34.77882,
+"lng": 136.908173,
 "prec": "area",
 "windows": [
 {
@@ -2565,12 +2614,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "愛知県美浜町"
 },
 {
 "area": "武豊町",
-"lat": 34.85097,
-"lng": 136.914937,
+"lat": 34.851109,
+"lng": 136.91478,
 "prec": "area",
 "windows": [
 {
@@ -2610,12 +2660,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "愛知県武豊町"
 },
 {
 "area": "幸田町",
-"lat": 34.864425,
-"lng": 137.165667,
+"lat": 34.864429,
+"lng": 137.165588,
 "prec": "area",
 "windows": [
 {
@@ -2643,12 +2694,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "愛知県幸田町"
 },
 {
 "area": "設楽町",
-"lat": 35.097298,
-"lng": 137.571225,
+"lat": 35.097095,
+"lng": 137.571411,
 "prec": "area",
 "windows": [
 {
@@ -2658,12 +2710,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "愛知県設楽町"
 },
 {
 "area": "東栄町",
-"lat": 35.07693,
-"lng": 137.697833,
+"lat": 35.076885,
+"lng": 137.697876,
 "prec": "area",
 "windows": [
 {
@@ -2685,12 +2738,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "愛知県東栄町"
 },
 {
 "area": "豊根村",
-"lat": 35.146394,
-"lng": 137.719871,
+"lat": 35.146515,
+"lng": 137.719879,
 "prec": "area",
 "windows": [
 {
@@ -2706,6 +2760,7 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "愛知県豊根村"
 }
 ]

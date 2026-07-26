@@ -1,9 +1,9 @@
 [
 {
 "area": "滋賀県",
-"lat": null,
-"lng": null,
-"prec": "unresolved",
+"lat": 35.004513,
+"lng": 135.868561,
+"prec": "area",
 "windows": [
 {
 "n": "子ども・子育て応援センター",
@@ -78,12 +78,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "滋賀県"
 },
 {
 "area": "大津市",
-"lat": 35.018357,
-"lng": 135.854666,
+"lat": 35.017776,
+"lng": 135.854721,
 "prec": "area",
 "windows": [
 {
@@ -243,12 +244,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "滋賀県大津市"
 },
 {
 "area": "彦根市",
-"lat": 35.274464,
-"lng": 136.259623,
+"lat": 35.274445,
+"lng": 136.25972,
 "prec": "area",
 "windows": [
 {
@@ -288,12 +290,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "滋賀県彦根市"
 },
 {
 "area": "長浜市",
-"lat": 35.381447,
-"lng": 136.275444,
+"lat": 35.380753,
+"lng": 136.278412,
 "prec": "area",
 "windows": [
 {
@@ -375,12 +378,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "滋賀県長浜市"
 },
 {
 "area": "近江八幡市",
-"lat": 35.128214,
-"lng": 136.097846,
+"lat": 35.128159,
+"lng": 136.097687,
 "prec": "area",
 "windows": [
 {
@@ -420,12 +424,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "滋賀県近江八幡市"
 },
 {
 "area": "草津市",
-"lat": 35.013123,
-"lng": 135.959994,
+"lat": 35.01318,
+"lng": 135.959991,
 "prec": "area",
 "windows": [
 {
@@ -507,12 +512,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "滋賀県草津市"
 },
 {
 "area": "守山市",
-"lat": 35.058663,
-"lng": 135.99402,
+"lat": 35.058327,
+"lng": 135.994019,
 "prec": "area",
 "windows": [
 {
@@ -546,12 +552,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "滋賀県守山市"
 },
 {
 "area": "栗東市",
-"lat": 35.021614,
-"lng": 135.997993,
+"lat": 35.021667,
+"lng": 135.998062,
 "prec": "area",
 "windows": [
 {
@@ -591,12 +598,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "滋賀県栗東市"
 },
 {
 "area": "甲賀市",
-"lat": 34.96612,
-"lng": 136.167084,
+"lat": 34.966091,
+"lng": 136.166275,
 "prec": "area",
 "windows": [
 {
@@ -702,12 +710,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "滋賀県甲賀市"
 },
 {
 "area": "野洲市",
-"lat": 35.06747,
-"lng": 136.025873,
+"lat": 35.067501,
+"lng": 136.025833,
 "prec": "area",
 "windows": [
 {
@@ -753,12 +762,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "滋賀県野洲市"
 },
 {
 "area": "湖南市",
-"lat": 35.004106,
-"lng": 136.084693,
+"lat": 35.003849,
+"lng": 136.084641,
 "prec": "area",
 "windows": [
 {
@@ -846,12 +856,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "滋賀県湖南市"
 },
 {
 "area": "高島市",
-"lat": 35.353052,
-"lng": 136.035785,
+"lat": 35.353054,
+"lng": 136.035797,
 "prec": "area",
 "windows": [
 {
@@ -885,12 +896,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "滋賀県高島市"
 },
 {
 "area": "東近江市",
-"lat": 35.112603,
-"lng": 136.20762,
+"lat": 35.11264,
+"lng": 136.207596,
 "prec": "area",
 "windows": [
 {
@@ -1002,12 +1014,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "滋賀県東近江市"
 },
 {
 "area": "米原市",
-"lat": 35.315355,
-"lng": 136.284013,
+"lat": 35.315044,
+"lng": 136.291397,
 "prec": "area",
 "windows": [
 {
@@ -1047,12 +1060,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "滋賀県米原市"
 },
 {
 "area": "日野町",
-"lat": 35.018018,
-"lng": 136.246023,
+"lat": 35.018055,
+"lng": 136.246109,
 "prec": "area",
 "windows": [
 {
@@ -1068,12 +1082,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "滋賀県日野町"
 },
 {
 "area": "竜王町",
-"lat": 35.06075,
-"lng": 136.124438,
+"lat": 35.060822,
+"lng": 136.124542,
 "prec": "area",
 "windows": [
 {
@@ -1107,12 +1122,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "滋賀県竜王町"
 },
 {
 "area": "愛荘町",
-"lat": 35.168834,
-"lng": 136.212306,
+"lat": 35.168835,
+"lng": 136.212341,
 "prec": "area",
 "windows": [
 {
@@ -1146,12 +1162,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "滋賀県愛荘町"
 },
 {
 "area": "豊郷町",
-"lat": 35.200382,
-"lng": 136.229974,
+"lat": 35.200317,
+"lng": 136.230331,
 "prec": "area",
 "windows": [
 {
@@ -1173,12 +1190,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "滋賀県豊郷町"
 },
 {
 "area": "甲良町",
-"lat": 35.204224,
-"lng": 136.26135,
+"lat": 35.204166,
+"lng": 136.261383,
 "prec": "area",
 "windows": [
 {
@@ -1212,12 +1230,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "滋賀県甲良町"
 },
 {
 "area": "多賀町",
-"lat": 35.222035,
-"lng": 136.292199,
+"lat": 35.222054,
+"lng": 136.292221,
 "prec": "area",
 "windows": [
 {
@@ -1251,6 +1270,7 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "滋賀県多賀町"
 }
 ]

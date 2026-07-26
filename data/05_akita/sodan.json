@@ -1,9 +1,9 @@
 [
 {
 "area": "秋田県",
-"lat": null,
-"lng": null,
-"prec": "unresolved",
+"lat": 39.718624,
+"lng": 140.102386,
+"prec": "area",
 "windows": [
 {
 "n": "秋田県子ども・女性・障害者相談センター",
@@ -96,12 +96,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "秋田県"
 },
 {
 "area": "秋田市",
-"lat": 39.719929,
-"lng": 140.102512,
+"lat": 39.719959,
+"lng": 140.103516,
 "prec": "area",
 "windows": [
 {
@@ -117,12 +118,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "秋田県秋田市"
 },
 {
 "area": "能代市",
-"lat": 40.212131,
-"lng": 140.026641,
+"lat": 40.211853,
+"lng": 140.027084,
 "prec": "area",
 "windows": [
 {
@@ -144,12 +146,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "秋田県能代市"
 },
 {
 "area": "横手市",
-"lat": 39.313777,
-"lng": 140.566636,
+"lat": 39.313801,
+"lng": 140.566711,
 "prec": "area",
 "windows": [
 {
@@ -189,12 +192,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "秋田県横手市"
 },
 {
 "area": "大館市",
-"lat": 40.27137211649141,
-"lng": 140.56436293689225,
+"lat": 40.271687,
+"lng": 140.565247,
 "prec": "area",
 "windows": [
 {
@@ -216,12 +220,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "秋田県大館市"
 },
 {
 "area": "男鹿市",
-"lat": 39.886721,
-"lng": 139.8475,
+"lat": 39.886765,
+"lng": 139.847549,
 "prec": "area",
 "windows": [
 {
@@ -243,12 +248,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "秋田県男鹿市"
 },
 {
 "area": "湯沢市",
-"lat": 39.164074,
-"lng": 140.494683,
+"lat": 39.164333,
+"lng": 140.495697,
 "prec": "area",
 "windows": [
 {
@@ -270,12 +276,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "秋田県湯沢市"
 },
 {
 "area": "鹿角市",
-"lat": 40.215789,
-"lng": 140.788519,
+"lat": 40.215794,
+"lng": 140.788544,
 "prec": "area",
 "windows": [
 {
@@ -297,12 +304,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "秋田県鹿角市"
 },
 {
 "area": "由利本荘市",
-"lat": 39.385814,
-"lng": 140.048819,
+"lat": 39.385826,
+"lng": 140.048904,
 "prec": "area",
 "windows": [
 {
@@ -336,12 +344,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "秋田県由利本荘市"
 },
 {
 "area": "潟上市",
-"lat": 39.883243,
-"lng": 139.988623,
+"lat": 39.857227,
+"lng": 140.013046,
 "prec": "area",
 "windows": [
 {
@@ -357,12 +366,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "秋田県潟上市"
 },
 {
 "area": "大仙市",
-"lat": 39.45309,
-"lng": 140.475448,
+"lat": 39.453049,
+"lng": 140.475571,
 "prec": "area",
 "windows": [
 {
@@ -384,12 +394,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "秋田県大仙市"
 },
 {
 "area": "北秋田市",
-"lat": 40.226046,
-"lng": 140.370728,
+"lat": 40.226074,
+"lng": 140.370712,
 "prec": "area",
 "windows": [
 {
@@ -429,12 +440,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "秋田県北秋田市"
 },
 {
 "area": "にかほ市",
-"lat": 39.203067,
-"lng": 139.907649,
+"lat": 39.203003,
+"lng": 139.907806,
 "prec": "area",
 "windows": [
 {
@@ -450,12 +462,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "秋田県にかほ市"
 },
 {
 "area": "仙北市",
-"lat": 39.700044,
-"lng": 140.730728,
+"lat": 39.699993,
+"lng": 140.730576,
 "prec": "area",
 "windows": [
 {
@@ -465,12 +478,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "秋田県仙北市"
 },
 {
 "area": "小坂町",
-"lat": 40.332926,
-"lng": 140.736191,
+"lat": 40.333076,
+"lng": 140.736099,
 "prec": "area",
 "windows": [
 {
@@ -480,12 +494,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "秋田県小坂町"
 },
 {
 "area": "上小阿仁村",
-"lat": 40.063263,
-"lng": 140.295736,
+"lat": 40.063339,
+"lng": 140.2957,
 "prec": "area",
 "windows": [
 {
@@ -495,12 +510,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "秋田県上小阿仁村"
 },
 {
 "area": "藤里町",
-"lat": 40.278399,
-"lng": 140.261879,
+"lat": 40.278316,
+"lng": 140.261719,
 "prec": "area",
 "windows": [
 {
@@ -516,12 +532,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "秋田県藤里町"
 },
 {
 "area": "三種町",
-"lat": 40.101615,
-"lng": 140.004981,
+"lat": 40.101662,
+"lng": 140.005005,
 "prec": "area",
 "windows": [
 {
@@ -543,12 +560,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "秋田県三種町"
 },
 {
 "area": "八峰町",
-"lat": 40.318715,
-"lng": 140.038618,
+"lat": 40.318649,
+"lng": 140.038574,
 "prec": "area",
 "windows": [
 {
@@ -558,12 +576,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "秋田県八峰町"
 },
 {
 "area": "五城目町",
-"lat": 39.943895,
-"lng": 140.111309,
+"lat": 39.94389,
+"lng": 140.111649,
 "prec": "area",
 "windows": [
 {
@@ -579,12 +598,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "秋田県五城目町"
 },
 {
 "area": "八郎潟町",
-"lat": 39.949355,
-"lng": 140.073335,
+"lat": 39.94902,
+"lng": 140.073364,
 "prec": "area",
 "windows": [
 {
@@ -606,12 +626,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "秋田県八郎潟町"
 },
 {
 "area": "井川町",
-"lat": 39.914188,
-"lng": 140.081265,
+"lat": 39.914104,
+"lng": 140.081512,
 "prec": "area",
 "windows": [
 {
@@ -639,12 +660,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "秋田県井川町"
 },
 {
 "area": "大潟村",
-"lat": 40.017788,
-"lng": 139.960064,
+"lat": 40.017773,
+"lng": 139.960007,
 "prec": "area",
 "windows": [
 {
@@ -660,12 +682,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "秋田県大潟村"
 },
 {
 "area": "美郷町",
-"lat": 39.461633,
-"lng": 140.582127,
+"lat": 39.461586,
+"lng": 140.582123,
 "prec": "area",
 "windows": [
 {
@@ -681,12 +704,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "秋田県美郷町"
 },
 {
 "area": "羽後町",
-"lat": 39.199323,
-"lng": 140.412881,
+"lat": 39.19931,
+"lng": 140.412964,
 "prec": "area",
 "windows": [
 {
@@ -708,12 +732,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "秋田県羽後町"
 },
 {
 "area": "東成瀬村",
-"lat": 39.179185,
-"lng": 140.648892,
+"lat": 39.17905,
+"lng": 140.648956,
 "prec": "area",
 "windows": [
 {
@@ -723,6 +748,7 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "秋田県東成瀬村"
 }
 ]

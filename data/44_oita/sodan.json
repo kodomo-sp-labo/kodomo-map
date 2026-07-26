@@ -1,9 +1,9 @@
 [
 {
 "area": "大分県",
-"lat": null,
-"lng": null,
-"prec": "unresolved",
+"lat": 33.238129,
+"lng": 131.61264,
+"prec": "area",
 "windows": [
 {
 "n": "おおいた妊娠ヘルプセンター",
@@ -150,12 +150,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "大分県"
 },
 {
 "area": "大分市",
-"lat": 33.239526,
-"lng": 131.609377,
+"lat": 33.239445,
+"lng": 131.609726,
 "prec": "area",
 "windows": [
 {
@@ -255,12 +256,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "大分県大分市"
 },
 {
 "area": "別府市",
-"lat": 33.284642,
-"lng": 131.491328,
+"lat": 33.284721,
+"lng": 131.491104,
 "prec": "area",
 "windows": [
 {
@@ -276,12 +278,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "大分県別府市"
 },
 {
 "area": "中津市",
-"lat": 33.598302,
-"lng": 131.18824,
+"lat": 33.598331,
+"lng": 131.188339,
 "prec": "area",
 "windows": [
 {
@@ -309,12 +312,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "大分県中津市"
 },
 {
 "area": "日田市",
-"lat": 33.321041,
-"lng": 130.94131,
+"lat": 33.32111,
+"lng": 130.941391,
 "prec": "area",
 "windows": [
 {
@@ -342,12 +346,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "大分県日田市"
 },
 {
 "area": "佐伯市",
-"lat": 32.960204,
-"lng": 131.899499,
+"lat": 32.959805,
+"lng": 131.900009,
 "prec": "area",
 "windows": [
 {
@@ -357,12 +362,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "大分県佐伯市"
 },
 {
 "area": "臼杵市",
-"lat": 33.125948,
-"lng": 131.804638,
+"lat": 33.125832,
+"lng": 131.804718,
 "prec": "area",
 "windows": [
 {
@@ -390,12 +396,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "大分県臼杵市"
 },
 {
 "area": "津久見市",
-"lat": 33.072339,
-"lng": 131.861219,
+"lat": 33.072342,
+"lng": 131.861191,
 "prec": "area",
 "windows": [
 {
@@ -405,12 +412,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "大分県津久見市"
 },
 {
 "area": "竹田市",
-"lat": 32.973673,
-"lng": 131.397838,
+"lat": 32.973476,
+"lng": 131.398178,
 "prec": "area",
 "windows": [
 {
@@ -426,12 +434,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "大分県竹田市"
 },
 {
 "area": "豊後高田市",
-"lat": 33.557257,
-"lng": 131.444697,
+"lat": 33.556187,
+"lng": 131.447083,
 "prec": "area",
 "windows": [
 {
@@ -441,12 +450,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "大分県豊後高田市"
 },
 {
 "area": "杵築市",
-"lat": 33.417029,
-"lng": 131.616089,
+"lat": 33.417038,
+"lng": 131.616074,
 "prec": "area",
 "windows": [
 {
@@ -456,12 +466,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "大分県杵築市"
 },
 {
 "area": "宇佐市",
-"lat": 33.531972,
-"lng": 131.349545,
+"lat": 33.532326,
+"lng": 131.350342,
 "prec": "area",
 "windows": [
 {
@@ -477,12 +488,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "大分県宇佐市"
 },
 {
 "area": "豊後大野市",
-"lat": 32.978152,
-"lng": 131.585011,
+"lat": 32.977558,
+"lng": 131.584137,
 "prec": "area",
 "windows": [
 {
@@ -516,12 +528,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "大分県豊後大野市"
 },
 {
 "area": "由布市",
-"lat": 33.179996,
-"lng": 131.426792,
+"lat": 33.180122,
+"lng": 131.426834,
 "prec": "area",
 "windows": [
 {
@@ -549,12 +562,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "大分県由布市"
 },
 {
 "area": "国東市",
-"lat": 33.565302,
-"lng": 131.731676,
+"lat": 33.563328,
+"lng": 131.732269,
 "prec": "area",
 "windows": [
 {
@@ -570,12 +584,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "大分県国東市"
 },
 {
 "area": "姫島村",
-"lat": 33.724536,
-"lng": 131.645143,
+"lat": 33.724514,
+"lng": 131.645157,
 "prec": "area",
 "windows": [
 {
@@ -585,12 +600,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "大分県姫島村"
 },
 {
 "area": "日出町",
-"lat": 33.369442,
-"lng": 131.532536,
+"lat": 33.369446,
+"lng": 131.532501,
 "prec": "area",
 "windows": [
 {
@@ -600,12 +616,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "大分県日出町"
 },
 {
 "area": "九重町",
-"lat": 33.228521,
-"lng": 131.188797,
+"lat": 33.228333,
+"lng": 131.188889,
 "prec": "area",
 "windows": [
 {
@@ -633,12 +650,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "大分県九重町"
 },
 {
 "area": "玖珠町",
-"lat": 33.283135,
-"lng": 131.151553,
+"lat": 33.283169,
+"lng": 131.151566,
 "prec": "area",
 "windows": [
 {
@@ -648,6 +666,7 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "大分県玖珠町"
 }
 ]

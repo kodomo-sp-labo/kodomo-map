@@ -1,9 +1,9 @@
 [
 {
 "area": "鳥取県",
-"lat": null,
-"lng": null,
-"prec": "unresolved",
+"lat": 35.503448,
+"lng": 134.238266,
+"prec": "area",
 "windows": [
 {
 "n": "とっとり子ども救急ダイヤル",
@@ -54,12 +54,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "鳥取県"
 },
 {
 "area": "鳥取市",
-"lat": 35.501133,
-"lng": 134.235091,
+"lat": 35.494453,
+"lng": 134.222153,
 "prec": "area",
 "windows": [
 {
@@ -165,12 +166,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "鳥取県鳥取市"
 },
 {
 "area": "米子市",
-"lat": 35.428136,
-"lng": 133.330939,
+"lat": 35.428158,
+"lng": 133.330948,
 "prec": "area",
 "windows": [
 {
@@ -240,12 +242,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "鳥取県米子市"
 },
 {
 "area": "倉吉市",
-"lat": 35.430182,
-"lng": 133.825561,
+"lat": 35.430111,
+"lng": 133.825607,
 "prec": "area",
 "windows": [
 {
@@ -303,12 +306,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "鳥取県倉吉市"
 },
 {
 "area": "境港市",
-"lat": 35.539606,
-"lng": 133.2316,
+"lat": 35.539627,
+"lng": 133.231628,
 "prec": "area",
 "windows": [
 {
@@ -336,12 +340,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "鳥取県境港市"
 },
 {
 "area": "岩美町",
-"lat": 35.575896,
-"lng": 134.332087,
+"lat": 35.575954,
+"lng": 134.332138,
 "prec": "area",
 "windows": [
 {
@@ -369,12 +374,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "鳥取県岩美町"
 },
 {
 "area": "若桜町",
-"lat": 35.340149,
-"lng": 134.400992,
+"lat": 35.340157,
+"lng": 134.401016,
 "prec": "area",
 "windows": [
 {
@@ -384,12 +390,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "鳥取県若桜町"
 },
 {
 "area": "智頭町",
-"lat": 35.265081,
-"lng": 134.226587,
+"lat": 35.264999,
+"lng": 134.226669,
 "prec": "area",
 "windows": [
 {
@@ -405,12 +412,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "鳥取県智頭町"
 },
 {
 "area": "八頭町",
-"lat": 35.409211,
-"lng": 134.250526,
+"lat": 35.409229,
+"lng": 134.250534,
 "prec": "area",
 "windows": [
 {
@@ -456,12 +464,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "鳥取県八頭町"
 },
 {
 "area": "三朝町",
-"lat": 35.408461,
-"lng": 133.861742,
+"lat": 35.408504,
+"lng": 133.862289,
 "prec": "area",
 "windows": [
 {
@@ -489,12 +498,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "鳥取県三朝町"
 },
 {
 "area": "湯梨浜町",
-"lat": 35.489915,
-"lng": 133.864681,
+"lat": 35.489941,
+"lng": 133.864685,
 "prec": "area",
 "windows": [
 {
@@ -522,12 +532,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "鳥取県湯梨浜町"
 },
 {
 "area": "琴浦町",
-"lat": 35.495184,
-"lng": 133.692779,
+"lat": 35.49509,
+"lng": 133.693436,
 "prec": "area",
 "windows": [
 {
@@ -573,12 +584,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "鳥取県琴浦町"
 },
 {
 "area": "北栄町",
-"lat": 35.490011,
-"lng": 133.758294,
+"lat": 35.490028,
+"lng": 133.758392,
 "prec": "area",
 "windows": [
 {
@@ -612,12 +624,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "鳥取県北栄町"
 },
 {
 "area": "日吉津村",
-"lat": 35.440179,
-"lng": 133.380808,
+"lat": 35.440174,
+"lng": 133.380753,
 "prec": "area",
 "windows": [
 {
@@ -639,12 +652,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "鳥取県日吉津村"
 },
 {
 "area": "大山町",
-"lat": 35.510779,
-"lng": 133.496123,
+"lat": 35.510834,
+"lng": 133.496109,
 "prec": "area",
 "windows": [
 {
@@ -660,12 +674,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "鳥取県大山町"
 },
 {
 "area": "南部町",
-"lat": 35.34033,
-"lng": 133.326829,
+"lat": 35.340279,
+"lng": 133.32666,
 "prec": "area",
 "windows": [
 {
@@ -693,12 +708,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "鳥取県南部町"
 },
 {
 "area": "伯耆町",
-"lat": 35.38523,
-"lng": 133.407384,
+"lat": 35.385277,
+"lng": 133.407501,
 "prec": "area",
 "windows": [
 {
@@ -714,12 +730,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "鳥取県伯耆町"
 },
 {
 "area": "日南町",
-"lat": 35.163311,
-"lng": 133.306255,
+"lat": 35.163258,
+"lng": 133.306198,
 "prec": "area",
 "windows": [
 {
@@ -741,12 +758,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "鳥取県日南町"
 },
 {
 "area": "日野町",
-"lat": 35.240793,
-"lng": 133.442659,
+"lat": 35.240833,
+"lng": 133.44278,
 "prec": "area",
 "windows": [
 {
@@ -768,12 +786,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "鳥取県日野町"
 },
 {
 "area": "江府町",
-"lat": 35.283187,
-"lng": 133.488578,
+"lat": 35.275894,
+"lng": 133.479126,
 "prec": "area",
 "windows": [
 {
@@ -795,6 +814,7 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "鳥取県江府町"
 }
 ]

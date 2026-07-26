@@ -1,9 +1,9 @@
 [
 {
 "area": "三重県",
-"lat": null,
-"lng": null,
-"prec": "unresolved",
+"lat": 34.730278,
+"lng": 136.508606,
+"prec": "area",
 "windows": [
 {
 "n": "子どもの心やからだの悩みについての教育相談",
@@ -54,12 +54,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "三重県"
 },
 {
 "area": "津市",
-"lat": 34.718563,
-"lng": 136.505443,
+"lat": 34.718613,
+"lng": 136.505676,
 "prec": "area",
 "windows": [
 {
@@ -195,12 +196,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "三重県津市"
 },
 {
 "area": "四日市市",
-"lat": 34.965092,
-"lng": 136.624427,
+"lat": 34.965118,
+"lng": 136.624451,
 "prec": "area",
 "windows": [
 {
@@ -444,12 +446,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "三重県四日市市"
 },
 {
 "area": "伊勢市",
-"lat": 34.487506,
-"lng": 136.709286,
+"lat": 34.487492,
+"lng": 136.709335,
 "prec": "area",
 "windows": [
 {
@@ -489,12 +492,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "三重県伊勢市"
 },
 {
 "area": "松阪市",
-"lat": 34.577974,
-"lng": 136.527595,
+"lat": 34.577972,
+"lng": 136.527618,
 "prec": "area",
 "windows": [
 {
@@ -624,12 +628,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "三重県松阪市"
 },
 {
 "area": "桑名市",
-"lat": 35.062288,
-"lng": 136.683539,
+"lat": 35.062222,
+"lng": 136.683884,
 "prec": "area",
 "windows": [
 {
@@ -669,12 +674,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "三重県桑名市"
 },
 {
 "area": "鈴鹿市",
-"lat": 34.881866,
-"lng": 136.584185,
+"lat": 34.881855,
+"lng": 136.584213,
 "prec": "area",
 "windows": [
 {
@@ -834,12 +840,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "三重県鈴鹿市"
 },
 {
 "area": "名張市",
-"lat": 34.627662,
-"lng": 136.108299,
+"lat": 34.627617,
+"lng": 136.108414,
 "prec": "area",
 "windows": [
 {
@@ -885,12 +892,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "三重県名張市"
 },
 {
 "area": "尾鷲市",
-"lat": 34.070799,
-"lng": 136.190998,
+"lat": 34.070786,
+"lng": 136.190979,
 "prec": "area",
 "windows": [
 {
@@ -900,12 +908,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "三重県尾鷲市"
 },
 {
 "area": "亀山市",
-"lat": 34.855755,
-"lng": 136.451645,
+"lat": 34.855831,
+"lng": 136.45166,
 "prec": "area",
 "windows": [
 {
@@ -933,12 +942,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "三重県亀山市"
 },
 {
 "area": "鳥羽市",
-"lat": 34.481432,
-"lng": 136.843378,
+"lat": 34.481342,
+"lng": 136.84343,
 "prec": "area",
 "windows": [
 {
@@ -948,12 +958,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "三重県鳥羽市"
 },
 {
 "area": "熊野市",
-"lat": 33.88862,
-"lng": 136.100288,
+"lat": 33.888611,
+"lng": 136.100281,
 "prec": "area",
 "windows": [
 {
@@ -969,12 +980,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "三重県熊野市"
 },
 {
 "area": "いなべ市",
-"lat": 35.115709,
-"lng": 136.561379,
+"lat": 35.158424,
+"lng": 136.516693,
 "prec": "area",
 "windows": [
 {
@@ -1008,12 +1020,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "三重県いなべ市"
 },
 {
 "area": "志摩市",
-"lat": 34.328218,
-"lng": 136.829655,
+"lat": 34.328224,
+"lng": 136.829666,
 "prec": "area",
 "windows": [
 {
@@ -1047,12 +1060,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "三重県志摩市"
 },
 {
 "area": "伊賀市",
-"lat": 34.768829,
-"lng": 136.129908,
+"lat": 34.749832,
+"lng": 136.142258,
 "prec": "area",
 "windows": [
 {
@@ -1128,12 +1142,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "三重県伊賀市"
 },
 {
 "area": "木曽岬町",
-"lat": 35.075958,
-"lng": 136.731353,
+"lat": 35.075623,
+"lng": 136.731461,
 "prec": "area",
 "windows": [
 {
@@ -1161,12 +1176,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "三重県木曽岬町"
 },
 {
 "area": "東員町",
-"lat": 35.074125,
-"lng": 136.583756,
+"lat": 35.074226,
+"lng": 136.58374,
 "prec": "area",
 "windows": [
 {
@@ -1188,12 +1204,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "三重県東員町"
 },
 {
 "area": "菰野町",
-"lat": 35.020001,
-"lng": 136.507346,
+"lat": 35.02,
+"lng": 136.507507,
 "prec": "area",
 "windows": [
 {
@@ -1203,12 +1220,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "三重県菰野町"
 },
 {
 "area": "朝日町",
-"lat": 35.034221,
-"lng": 136.664366,
+"lat": 35.034241,
+"lng": 136.664429,
 "prec": "area",
 "windows": [
 {
@@ -1230,12 +1248,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "三重県朝日町"
 },
 {
 "area": "川越町",
-"lat": 35.02295,
-"lng": 136.673971,
+"lat": 35.022789,
+"lng": 136.674072,
 "prec": "area",
 "windows": [
 {
@@ -1257,12 +1276,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "三重県川越町"
 },
 {
 "area": "多気町",
-"lat": 34.496156,
-"lng": 136.546149,
+"lat": 34.496113,
+"lng": 136.546112,
 "prec": "area",
 "windows": [
 {
@@ -1290,12 +1310,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "三重県多気町"
 },
 {
 "area": "明和町",
-"lat": 34.547528,
-"lng": 136.623251,
+"lat": 34.547596,
+"lng": 136.623398,
 "prec": "area",
 "windows": [
 {
@@ -1341,12 +1362,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "三重県明和町"
 },
 {
 "area": "大台町",
-"lat": 34.39337,
-"lng": 136.407876,
+"lat": 34.393414,
+"lng": 136.407959,
 "prec": "area",
 "windows": [
 {
@@ -1362,12 +1384,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "三重県大台町"
 },
 {
 "area": "玉城町",
 "lat": 34.490276,
-"lng": 136.630932,
+"lng": 136.630829,
 "prec": "area",
 "windows": [
 {
@@ -1389,12 +1412,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "三重県玉城町"
 },
 {
 "area": "度会町",
-"lat": 34.4389,
-"lng": 136.62251,
+"lat": 34.438889,
+"lng": 136.622498,
 "prec": "area",
 "windows": [
 {
@@ -1404,12 +1428,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "三重県度会町"
 },
 {
 "area": "大紀町",
-"lat": 34.358023,
-"lng": 136.415798,
+"lat": 34.358055,
+"lng": 136.415833,
 "prec": "area",
 "windows": [
 {
@@ -1431,12 +1456,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "三重県大紀町"
 },
 {
 "area": "南伊勢町",
-"lat": 34.352059,
-"lng": 136.70365,
+"lat": 34.3521,
+"lng": 136.70372,
 "prec": "area",
 "windows": [
 {
@@ -1452,12 +1478,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "三重県南伊勢町"
 },
 {
 "area": "紀北町",
-"lat": 34.211199,
-"lng": 136.336852,
+"lat": 34.211468,
+"lng": 136.33728,
 "prec": "area",
 "windows": [
 {
@@ -1467,12 +1494,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "三重県紀北町"
 },
 {
 "area": "御浜町",
-"lat": 33.814505,
-"lng": 136.048677,
+"lat": 33.814384,
+"lng": 136.048752,
 "prec": "area",
 "windows": [
 {
@@ -1488,12 +1516,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "三重県御浜町"
 },
 {
 "area": "紀宝町",
-"lat": 33.73387,
-"lng": 136.009715,
+"lat": 33.733841,
+"lng": 136.00972,
 "prec": "area",
 "windows": [
 {
@@ -1515,6 +1544,7 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "三重県紀宝町"
 }
 ]

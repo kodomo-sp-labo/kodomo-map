@@ -1,9 +1,9 @@
 [
 {
 "area": "山形県",
-"lat": null,
-"lng": null,
-"prec": "unresolved",
+"lat": 38.240433,
+"lng": 140.363693,
+"prec": "area",
 "windows": [
 {
 "n": "山形県教育センター",
@@ -102,12 +102,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "山形県"
 },
 {
 "area": "山形市",
-"lat": 38.255436,
-"lng": 140.339605,
+"lat": 38.255459,
+"lng": 140.339767,
 "prec": "area",
 "windows": [
 {
@@ -129,12 +130,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "山形県山形市"
 },
 {
 "area": "米沢市",
-"lat": 37.922242,
-"lng": 140.116683,
+"lat": 37.921867,
+"lng": 140.116135,
 "prec": "area",
 "windows": [
 {
@@ -162,12 +164,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "山形県米沢市"
 },
 {
 "area": "鶴岡市",
-"lat": 38.727183,
-"lng": 139.826725,
+"lat": 38.727219,
+"lng": 139.826675,
 "prec": "area",
 "windows": [
 {
@@ -213,12 +216,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "山形県鶴岡市"
 },
 {
 "area": "酒田市",
-"lat": 38.914386,
-"lng": 139.836513,
+"lat": 38.914639,
+"lng": 139.836548,
 "prec": "area",
 "windows": [
 {
@@ -240,12 +244,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "山形県酒田市"
 },
 {
 "area": "新庄市",
-"lat": 38.76496,
-"lng": 140.301664,
+"lat": 38.765007,
+"lng": 140.30162,
 "prec": "area",
 "windows": [
 {
@@ -267,12 +272,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "山形県新庄市"
 },
 {
 "area": "寒河江市",
-"lat": 38.380954,
-"lng": 140.276068,
+"lat": 38.380974,
+"lng": 140.276169,
 "prec": "area",
 "windows": [
 {
@@ -294,12 +300,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "山形県寒河江市"
 },
 {
 "area": "上山市",
-"lat": 38.149562,
-"lng": 140.26783,
+"lat": 38.149628,
+"lng": 140.267899,
 "prec": "area",
 "windows": [
 {
@@ -321,12 +328,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "山形県上山市"
 },
 {
 "area": "村山市",
-"lat": 38.483352,
-"lng": 140.38038,
+"lat": 38.483383,
+"lng": 140.380386,
 "prec": "area",
 "windows": [
 {
@@ -366,12 +374,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "山形県村山市"
 },
 {
 "area": "長井市",
-"lat": 38.107486,
-"lng": 140.040535,
+"lat": 38.106087,
+"lng": 140.033951,
 "prec": "area",
 "windows": [
 {
@@ -387,12 +396,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "山形県長井市"
 },
 {
 "area": "天童市",
-"lat": 38.362177,
-"lng": 140.377802,
+"lat": 38.36224,
+"lng": 140.37793,
 "prec": "area",
 "windows": [
 {
@@ -414,12 +424,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "山形県天童市"
 },
 {
 "area": "東根市",
-"lat": 38.431292,
-"lng": 140.391021,
+"lat": 38.431381,
+"lng": 140.391129,
 "prec": "area",
 "windows": [
 {
@@ -441,12 +452,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "山形県東根市"
 },
 {
 "area": "尾花沢市",
-"lat": 38.60062,
-"lng": 140.405693,
+"lat": 38.601078,
+"lng": 140.406845,
 "prec": "area",
 "windows": [
 {
@@ -468,12 +480,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "山形県尾花沢市"
 },
 {
 "area": "南陽市",
-"lat": 38.055116,
-"lng": 140.148309,
+"lat": 38.055111,
+"lng": 140.148392,
 "prec": "area",
 "windows": [
 {
@@ -495,12 +508,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "山形県南陽市"
 },
 {
 "area": "山辺町",
-"lat": 38.289217,
-"lng": 140.26218,
+"lat": 38.289169,
+"lng": 140.262344,
 "prec": "area",
 "windows": [
 {
@@ -516,12 +530,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "山形県山辺町"
 },
 {
 "area": "中山町",
-"lat": 38.333122,
-"lng": 140.283051,
+"lat": 38.333164,
+"lng": 140.283066,
 "prec": "area",
 "windows": [
 {
@@ -531,12 +546,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "山形県中山町"
 },
 {
 "area": "河北町",
-"lat": 38.426276,
-"lng": 140.31431,
+"lat": 38.426632,
+"lng": 140.31459,
 "prec": "area",
 "windows": [
 {
@@ -546,12 +562,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "山形県河北町"
 },
 {
 "area": "西川町",
-"lat": 38.426487,
-"lng": 140.147661,
+"lat": 38.426502,
+"lng": 140.147385,
 "prec": "area",
 "windows": [
 {
@@ -567,12 +584,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "山形県西川町"
 },
 {
 "area": "朝日町",
-"lat": 38.299293,
-"lng": 140.145924,
+"lat": 38.299164,
+"lng": 140.145859,
 "prec": "area",
 "windows": [
 {
@@ -594,12 +612,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "山形県朝日町"
 },
 {
 "area": "大江町",
-"lat": 38.380713,
-"lng": 140.206793,
+"lat": 38.380699,
+"lng": 140.206772,
 "prec": "area",
 "windows": [
 {
@@ -609,12 +628,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "山形県大江町"
 },
 {
 "area": "大石田町",
-"lat": 38.593877,
-"lng": 140.372647,
+"lat": 38.593826,
+"lng": 140.372742,
 "prec": "area",
 "windows": [
 {
@@ -630,12 +650,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "山形県大石田町"
 },
 {
 "area": "金山町",
-"lat": 38.88344,
-"lng": 140.339367,
+"lat": 38.883446,
+"lng": 140.339417,
 "prec": "area",
 "windows": [
 {
@@ -657,12 +678,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "山形県金山町"
 },
 {
 "area": "最上町",
-"lat": 38.758467,
-"lng": 140.519359,
+"lat": 38.758453,
+"lng": 140.519348,
 "prec": "area",
 "windows": [
 {
@@ -672,12 +694,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "山形県最上町"
 },
 {
 "area": "舟形町",
-"lat": 38.691417,
-"lng": 140.319988,
+"lat": 38.691456,
+"lng": 140.320221,
 "prec": "area",
 "windows": [
 {
@@ -705,12 +728,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "山形県舟形町"
 },
 {
 "area": "真室川町",
-"lat": 38.857899,
-"lng": 140.252367,
+"lat": 38.856915,
+"lng": 140.251572,
 "prec": "area",
 "windows": [
 {
@@ -720,12 +744,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "山形県真室川町"
 },
 {
 "area": "大蔵村",
-"lat": 38.704121,
-"lng": 140.230368,
+"lat": 38.70414,
+"lng": 140.230408,
 "prec": "area",
 "windows": [
 {
@@ -735,12 +760,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "山形県大蔵村"
 },
 {
 "area": "鮭川村",
-"lat": 38.796455,
-"lng": 140.222007,
+"lat": 38.796432,
+"lng": 140.221985,
 "prec": "area",
 "windows": [
 {
@@ -750,12 +776,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "山形県鮭川村"
 },
 {
 "area": "戸沢村",
-"lat": 38.737601,
-"lng": 140.143569,
+"lat": 38.737648,
+"lng": 140.143631,
 "prec": "area",
 "windows": [
 {
@@ -771,12 +798,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "山形県戸沢村"
 },
 {
 "area": "高畠町",
-"lat": 38.002745,
-"lng": 140.189113,
+"lat": 38.002182,
+"lng": 140.18895,
 "prec": "area",
 "windows": [
 {
@@ -792,12 +820,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "山形県高畠町"
 },
 {
 "area": "川西町",
-"lat": 38.004482,
-"lng": 140.045787,
+"lat": 38.005203,
+"lng": 140.053177,
 "prec": "area",
 "windows": [
 {
@@ -813,12 +842,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "山形県川西町"
 },
 {
 "area": "小国町",
-"lat": 38.061391,
-"lng": 139.743333,
+"lat": 38.061611,
+"lng": 139.743408,
 "prec": "area",
 "windows": [
 {
@@ -834,12 +864,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "山形県小国町"
 },
 {
 "area": "白鷹町",
-"lat": 38.183069,
-"lng": 140.098571,
+"lat": 38.183582,
+"lng": 140.098221,
 "prec": "area",
 "windows": [
 {
@@ -849,12 +880,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "山形県白鷹町"
 },
 {
 "area": "飯豊町",
-"lat": 38.045714,
-"lng": 139.987617,
+"lat": 38.045708,
+"lng": 139.987579,
 "prec": "area",
 "windows": [
 {
@@ -888,12 +920,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "山形県飯豊町"
 },
 {
 "area": "三川町",
-"lat": 38.794529,
-"lng": 139.849612,
+"lat": 38.794514,
+"lng": 139.849686,
 "prec": "area",
 "windows": [
 {
@@ -915,12 +948,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "山形県三川町"
 },
 {
 "area": "庄内町",
-"lat": 38.849845,
-"lng": 139.904723,
+"lat": 38.84956,
+"lng": 139.904037,
 "prec": "area",
 "windows": [
 {
@@ -960,12 +994,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "山形県庄内町"
 },
 {
 "area": "遊佐町",
-"lat": 39.014585,
-"lng": 139.907338,
+"lat": 39.014835,
+"lng": 139.908661,
 "prec": "area",
 "windows": [
 {
@@ -987,6 +1022,7 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "山形県遊佐町"
 }
 ]

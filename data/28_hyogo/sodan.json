@@ -1,9 +1,9 @@
 [
 {
 "area": "兵庫県",
-"lat": null,
-"lng": null,
-"prec": "unresolved",
+"lat": 34.691257,
+"lng": 135.183075,
+"prec": "area",
 "windows": [
 {
 "n": "公益財団法人兵庫県人権啓発協会",
@@ -42,12 +42,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "兵庫県"
 },
 {
 "area": "神戸市",
-"lat": 34.689495,
-"lng": 135.195728,
+"lat": 34.689423,
+"lng": 135.195755,
 "prec": "area",
 "windows": [
 {
@@ -81,12 +82,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "兵庫県神戸市"
 },
 {
 "area": "姫路市",
-"lat": 34.815496,
-"lng": 134.685458,
+"lat": 34.815277,
+"lng": 134.685562,
 "prec": "area",
 "windows": [
 {
@@ -234,12 +236,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "兵庫県姫路市"
 },
 {
 "area": "尼崎市",
-"lat": 34.733554,
-"lng": 135.406394,
+"lat": 34.733334,
+"lng": 135.406387,
 "prec": "area",
 "windows": [
 {
@@ -285,12 +288,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "兵庫県尼崎市"
 },
 {
 "area": "明石市",
-"lat": 34.643109,
-"lng": 134.997182,
+"lat": 34.643131,
+"lng": 134.997604,
 "prec": "area",
 "windows": [
 {
@@ -318,12 +322,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "兵庫県明石市"
 },
 {
 "area": "西宮市",
-"lat": 34.737691,
-"lng": 135.34183,
+"lat": 34.73774,
+"lng": 135.341843,
 "prec": "area",
 "windows": [
 {
@@ -369,12 +374,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "兵庫県西宮市"
 },
 {
 "area": "洲本市",
-"lat": 34.342522,
-"lng": 134.895653,
+"lat": 34.34285,
+"lng": 134.895447,
 "prec": "area",
 "windows": [
 {
@@ -402,12 +408,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "兵庫県洲本市"
 },
 {
 "area": "芦屋市",
-"lat": 34.726522,
-"lng": 135.304179,
+"lat": 34.726952,
+"lng": 135.304123,
 "prec": "area",
 "windows": [
 {
@@ -513,12 +520,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "兵庫県芦屋市"
 },
 {
 "area": "伊丹市",
-"lat": 34.784295,
-"lng": 135.400933,
+"lat": 34.784462,
+"lng": 135.400375,
 "prec": "area",
 "windows": [
 {
@@ -546,12 +554,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "兵庫県伊丹市"
 },
 {
 "area": "相生市",
-"lat": 34.803662,
-"lng": 134.468193,
+"lat": 34.803612,
+"lng": 134.468063,
 "prec": "area",
 "windows": [
 {
@@ -567,12 +576,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "兵庫県相生市"
 },
 {
 "area": "豊岡市",
-"lat": 35.544475,
-"lng": 134.820187,
+"lat": 35.544601,
+"lng": 134.82016,
 "prec": "area",
 "windows": [
 {
@@ -594,12 +604,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "兵庫県豊岡市"
 },
 {
 "area": "加古川市",
-"lat": 34.75662,
-"lng": 134.8409,
+"lat": 34.756924,
+"lng": 134.841293,
 "prec": "area",
 "windows": [
 {
@@ -651,12 +662,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "兵庫県加古川市"
 },
 {
 "area": "赤穂市",
-"lat": 34.754974,
-"lng": 134.390354,
+"lat": 34.755001,
+"lng": 134.390274,
 "prec": "area",
 "windows": [
 {
@@ -672,12 +684,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "兵庫県赤穂市"
 },
 {
 "area": "西脇市",
-"lat": 34.993428,
-"lng": 134.969284,
+"lat": 34.983398,
+"lng": 134.979767,
 "prec": "area",
 "windows": [
 {
@@ -693,12 +706,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "兵庫県西脇市"
 },
 {
 "area": "宝塚市",
-"lat": 34.799817,
-"lng": 135.360098,
+"lat": 34.799999,
+"lng": 135.360275,
 "prec": "area",
 "windows": [
 {
@@ -756,12 +770,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "兵庫県宝塚市"
 },
 {
 "area": "三木市",
-"lat": 34.796922,
-"lng": 134.990188,
+"lat": 34.796852,
+"lng": 134.990219,
 "prec": "area",
 "windows": [
 {
@@ -819,12 +834,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "兵庫県三木市"
 },
 {
 "area": "高砂市",
-"lat": 34.766248,
-"lng": 134.790478,
+"lat": 34.766361,
+"lng": 134.790573,
 "prec": "area",
 "windows": [
 {
@@ -876,12 +892,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "兵庫県高砂市"
 },
 {
 "area": "川西市",
-"lat": 34.830132,
-"lng": 135.417222,
+"lat": 34.830002,
+"lng": 135.417221,
 "prec": "area",
 "windows": [
 {
@@ -909,12 +926,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "兵庫県川西市"
 },
 {
 "area": "小野市",
-"lat": 34.853183,
-"lng": 134.931545,
+"lat": 34.85788,
+"lng": 134.93988,
 "prec": "area",
 "windows": [
 {
@@ -930,12 +948,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "兵庫県小野市"
 },
 {
 "area": "三田市",
-"lat": 34.889672,
-"lng": 135.22529,
+"lat": 34.890015,
+"lng": 135.22551,
 "prec": "area",
 "windows": [
 {
@@ -981,12 +1000,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "兵庫県三田市"
 },
 {
 "area": "加西市",
-"lat": 34.927811,
-"lng": 134.841819,
+"lat": 34.927864,
+"lng": 134.841797,
 "prec": "area",
 "windows": [
 {
@@ -1026,12 +1046,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "兵庫県加西市"
 },
 {
 "area": "丹波市",
-"lat": 35.177259,
-"lng": 135.035816,
+"lat": 35.177101,
+"lng": 135.035843,
 "prec": "area",
 "windows": [
 {
@@ -1071,12 +1092,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "兵庫県丹波市"
 },
 {
 "area": "南あわじ市",
-"lat": 34.295807,
-"lng": 134.779083,
+"lat": 34.294399,
+"lng": 134.779938,
 "prec": "area",
 "windows": [
 {
@@ -1092,12 +1114,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "兵庫県南あわじ市"
 },
 {
 "area": "朝来市",
-"lat": 35.339835,
-"lng": 134.853117,
+"lat": 35.339867,
+"lng": 134.852722,
 "prec": "area",
 "windows": [
 {
@@ -1119,12 +1142,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "兵庫県朝来市"
 },
 {
 "area": "淡路市",
-"lat": 34.439847,
-"lng": 134.914633,
+"lat": 34.439732,
+"lng": 134.914963,
 "prec": "area",
 "windows": [
 {
@@ -1158,12 +1182,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "兵庫県淡路市"
 },
 {
 "area": "宍粟市",
-"lat": 35.004435,
-"lng": 134.549377,
+"lat": 35.004444,
+"lng": 134.549438,
 "prec": "area",
 "windows": [
 {
@@ -1227,12 +1252,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "兵庫県宍粟市"
 },
 {
 "area": "加東市",
-"lat": 34.91737,
-"lng": 134.973345,
+"lat": 34.918652,
+"lng": 134.973389,
 "prec": "area",
 "windows": [
 {
@@ -1296,12 +1322,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "兵庫県加東市"
 },
 {
 "area": "たつの市",
-"lat": 34.857847,
-"lng": 134.545397,
+"lat": 34.857857,
+"lng": 134.545334,
 "prec": "area",
 "windows": [
 {
@@ -1317,12 +1344,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "兵庫県たつの市"
 },
 {
 "area": "猪名川町",
-"lat": 34.894966,
-"lng": 135.376164,
+"lat": 34.895,
+"lng": 135.376114,
 "prec": "area",
 "windows": [
 {
@@ -1350,12 +1378,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "兵庫県猪名川町"
 },
 {
 "area": "多可町",
-"lat": 35.050315,
-"lng": 134.923359,
+"lat": 35.050217,
+"lng": 134.923355,
 "prec": "area",
 "windows": [
 {
@@ -1383,12 +1412,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "兵庫県多可町"
 },
 {
 "area": "稲美町",
-"lat": 34.748627,
-"lng": 134.913384,
+"lat": 34.74839,
+"lng": 134.912949,
 "prec": "area",
 "windows": [
 {
@@ -1410,12 +1440,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "兵庫県稲美町"
 },
 {
 "area": "播磨町",
-"lat": 34.715302,
-"lng": 134.867911,
+"lat": 34.715279,
+"lng": 134.868057,
 "prec": "area",
 "windows": [
 {
@@ -1449,12 +1480,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "兵庫県播磨町"
 },
 {
 "area": "市川町",
-"lat": 34.989365,
-"lng": 134.763289,
+"lat": 34.989262,
+"lng": 134.763229,
 "prec": "area",
 "windows": [
 {
@@ -1470,12 +1502,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "兵庫県市川町"
 },
 {
 "area": "福崎町",
-"lat": 34.950319,
-"lng": 134.760245,
+"lat": 34.95031,
+"lng": 134.760239,
 "prec": "area",
 "windows": [
 {
@@ -1485,12 +1518,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "兵庫県福崎町"
 },
 {
 "area": "神河町",
-"lat": 35.064235,
-"lng": 134.739856,
+"lat": 35.064217,
+"lng": 134.739838,
 "prec": "area",
 "windows": [
 {
@@ -1506,12 +1540,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "兵庫県神河町"
 },
 {
 "area": "太子町",
-"lat": 34.833469,
-"lng": 134.57781,
+"lat": 34.833244,
+"lng": 134.572311,
 "prec": "area",
 "windows": [
 {
@@ -1557,12 +1592,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "兵庫県太子町"
 },
 {
 "area": "上郡町",
-"lat": 34.873583,
-"lng": 134.356098,
+"lat": 34.873611,
+"lng": 134.35611,
 "prec": "area",
 "windows": [
 {
@@ -1578,12 +1614,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "兵庫県上郡町"
 },
 {
 "area": "佐用町",
-"lat": 35.004296,
-"lng": 134.355771,
+"lat": 35.004276,
+"lng": 134.355896,
 "prec": "area",
 "windows": [
 {
@@ -1605,12 +1642,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "兵庫県佐用町"
 },
 {
 "area": "香美町",
-"lat": 35.632169,
-"lng": 134.629175,
+"lat": 35.632221,
+"lng": 134.629166,
 "prec": "area",
 "windows": [
 {
@@ -1632,12 +1670,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "兵庫県香美町"
 },
 {
 "area": "新温泉町",
-"lat": 35.623509,
-"lng": 134.448942,
+"lat": 35.623432,
+"lng": 134.449051,
 "prec": "area",
 "windows": [
 {
@@ -1665,6 +1704,7 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "兵庫県新温泉町"
 }
 ]

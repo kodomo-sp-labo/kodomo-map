@@ -1,9 +1,9 @@
 [
 {
 "area": "青森県",
-"lat": null,
-"lng": null,
-"prec": "unresolved",
+"lat": 40.824589,
+"lng": 140.740555,
+"prec": "area",
 "windows": [
 {
 "n": "青森県中央児童相談所",
@@ -174,12 +174,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "青森県"
 },
 {
 "area": "青森市",
-"lat": 40.822358,
-"lng": 140.74732,
+"lat": 40.822639,
+"lng": 140.746964,
 "prec": "area",
 "windows": [
 {
@@ -201,12 +202,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "青森県青森市"
 },
 {
 "area": "弘前市",
-"lat": 40.602965,
-"lng": 140.464008,
+"lat": 40.603096,
+"lng": 140.464035,
 "prec": "area",
 "windows": [
 {
@@ -246,12 +248,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "青森県弘前市"
 },
 {
 "area": "八戸市",
-"lat": 40.512278,
-"lng": 141.488404,
+"lat": 40.512302,
+"lng": 141.488449,
 "prec": "area",
 "windows": [
 {
@@ -297,12 +300,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "青森県八戸市"
 },
 {
 "area": "黒石市",
-"lat": 40.642608,
-"lng": 140.594547,
+"lat": 40.642654,
+"lng": 140.594559,
 "prec": "area",
 "windows": [
 {
@@ -342,12 +346,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "青森県黒石市"
 },
 {
 "area": "五所川原市",
-"lat": 40.808101,
-"lng": 140.440007,
+"lat": 40.807739,
+"lng": 140.446075,
 "prec": "area",
 "windows": [
 {
@@ -363,12 +368,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "青森県五所川原市"
 },
 {
 "area": "十和田市",
-"lat": 40.612703,
-"lng": 141.20591,
+"lat": 40.612507,
+"lng": 141.205383,
 "prec": "area",
 "windows": [
 {
@@ -390,12 +396,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "青森県十和田市"
 },
 {
 "area": "三沢市",
-"lat": 40.683078,
-"lng": 141.369093,
+"lat": 40.683071,
+"lng": 141.36908,
 "prec": "area",
 "windows": [
 {
@@ -435,12 +442,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "青森県三沢市"
 },
 {
 "area": "むつ市",
-"lat": 41.292835,
-"lng": 141.183174,
+"lat": 41.293053,
+"lng": 141.18306,
 "prec": "area",
 "windows": [
 {
@@ -456,12 +464,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "青森県むつ市"
 },
 {
 "area": "つがる市",
-"lat": 40.808836,
-"lng": 140.380195,
+"lat": 40.808739,
+"lng": 140.380188,
 "prec": "area",
 "windows": [
 {
@@ -483,12 +492,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "青森県つがる市"
 },
 {
 "area": "平川市",
-"lat": 40.584114,
-"lng": 140.566506,
+"lat": 40.58374,
+"lng": 140.567123,
 "prec": "area",
 "windows": [
 {
@@ -498,12 +508,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "青森県平川市"
 },
 {
 "area": "平内町",
-"lat": 40.926023,
-"lng": 140.955884,
+"lat": 40.926052,
+"lng": 140.955933,
 "prec": "area",
 "windows": [
 {
@@ -525,12 +536,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "青森県平内町"
 },
 {
 "area": "蓬田村",
-"lat": 40.971779,
-"lng": 140.656053,
+"lat": 40.970299,
+"lng": 140.651886,
 "prec": "area",
 "windows": [
 {
@@ -540,12 +552,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "青森県蓬田村"
 },
 {
 "area": "外ヶ浜町",
-"lat": 41.043159,
-"lng": 140.632243,
+"lat": 41.043259,
+"lng": 140.632431,
 "prec": "area",
 "windows": [
 {
@@ -555,12 +568,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "青森県外ヶ浜町"
 },
 {
 "area": "鰺ヶ沢町",
-"lat": 40.779875,
-"lng": 140.208569,
+"lat": 40.783012,
+"lng": 140.233902,
 "prec": "area",
 "windows": [
 {
@@ -582,12 +596,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "青森県鰺ヶ沢町"
 },
 {
 "area": "深浦町",
-"lat": 40.647876,
-"lng": 139.927431,
+"lat": 40.647888,
+"lng": 139.927597,
 "prec": "area",
 "windows": [
 {
@@ -609,12 +624,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "青森県深浦町"
 },
 {
 "area": "西目屋村",
-"lat": 40.57684,
-"lng": 140.296285,
+"lat": 40.577484,
+"lng": 140.297318,
 "prec": "area",
 "windows": [
 {
@@ -624,12 +640,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "青森県西目屋村"
 },
 {
 "area": "藤崎町",
-"lat": 40.656064,
-"lng": 140.502824,
+"lat": 40.656055,
+"lng": 140.502838,
 "prec": "area",
 "windows": [
 {
@@ -663,12 +680,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "青森県藤崎町"
 },
 {
 "area": "大鰐町",
-"lat": 40.518356,
-"lng": 140.567878,
+"lat": 40.51833,
+"lng": 140.56778,
 "prec": "area",
 "windows": [
 {
@@ -696,12 +714,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "青森県大鰐町"
 },
 {
 "area": "田舎館村",
-"lat": 40.631259,
-"lng": 140.550198,
+"lat": 40.631233,
+"lng": 140.550201,
 "prec": "area",
 "windows": [
 {
@@ -711,12 +730,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "青森県田舎館村"
 },
 {
 "area": "板柳町",
-"lat": 40.695896,
-"lng": 140.457414,
+"lat": 40.695953,
+"lng": 140.457703,
 "prec": "area",
 "windows": [
 {
@@ -738,12 +758,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "青森県板柳町"
 },
 {
 "area": "鶴田町",
-"lat": 40.758819,
-"lng": 140.428702,
+"lat": 40.758774,
+"lng": 140.428711,
 "prec": "area",
 "windows": [
 {
@@ -759,12 +780,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "青森県鶴田町"
 },
 {
 "area": "中泊町",
-"lat": 40.965181,
-"lng": 140.439831,
+"lat": 40.960415,
+"lng": 140.434036,
 "prec": "area",
 "windows": [
 {
@@ -780,12 +802,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "青森県中泊町"
 },
 {
 "area": "野辺地町",
-"lat": 40.864447,
-"lng": 141.128685,
+"lat": 40.864388,
+"lng": 141.12793,
 "prec": "area",
 "windows": [
 {
@@ -795,12 +818,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "青森県野辺地町"
 },
 {
 "area": "七戸町",
-"lat": 40.744714,
-"lng": 141.157991,
+"lat": 40.744717,
+"lng": 141.157776,
 "prec": "area",
 "windows": [
 {
@@ -810,12 +834,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "青森県七戸町"
 },
 {
 "area": "六戸町",
-"lat": 40.609526,
-"lng": 141.324958,
+"lat": 40.609505,
+"lng": 141.324982,
 "prec": "area",
 "windows": [
 {
@@ -831,12 +856,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "青森県六戸町"
 },
 {
 "area": "横浜町",
-"lat": 41.083155,
-"lng": 141.247782,
+"lat": 41.083328,
+"lng": 141.247498,
 "prec": "area",
 "windows": [
 {
@@ -864,12 +890,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "青森県横浜町"
 },
 {
 "area": "東北町",
-"lat": 40.727871,
-"lng": 141.257888,
+"lat": 40.727947,
+"lng": 141.257736,
 "prec": "area",
 "windows": [
 {
@@ -891,12 +918,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "青森県東北町"
 },
 {
 "area": "六ヶ所村",
-"lat": 40.967375,
-"lng": 141.374434,
+"lat": 40.967293,
+"lng": 141.374634,
 "prec": "area",
 "windows": [
 {
@@ -930,12 +958,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "青森県六ヶ所村"
 },
 {
 "area": "おいらせ町",
-"lat": 40.599104,
-"lng": 141.397822,
+"lat": 40.59922,
+"lng": 141.397736,
 "prec": "area",
 "windows": [
 {
@@ -957,12 +986,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "青森県おいらせ町"
 },
 {
 "area": "大間町",
-"lat": 41.526765,
-"lng": 140.907438,
+"lat": 41.522388,
+"lng": 140.904831,
 "prec": "area",
 "windows": [
 {
@@ -972,12 +1002,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "青森県大間町"
 },
 {
 "area": "東通村",
-"lat": 41.277726,
-"lng": 141.3289,
+"lat": 41.277725,
+"lng": 141.329041,
 "prec": "area",
 "windows": [
 {
@@ -987,12 +1018,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "青森県東通村"
 },
 {
 "area": "風間浦村",
-"lat": 41.487487,
-"lng": 140.995534,
+"lat": 41.487576,
+"lng": 140.995728,
 "prec": "area",
 "windows": [
 {
@@ -1002,12 +1034,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "青森県風間浦村"
 },
 {
 "area": "佐井村",
 "lat": 41.429718,
-"lng": 140.859175,
+"lng": 140.859177,
 "prec": "area",
 "windows": [
 {
@@ -1017,12 +1050,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "青森県佐井村"
 },
 {
 "area": "三戸町",
-"lat": 40.378423,
-"lng": 141.25874,
+"lat": 40.378445,
+"lng": 141.258743,
 "prec": "area",
 "windows": [
 {
@@ -1050,12 +1084,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "青森県三戸町"
 },
 {
 "area": "五戸町",
-"lat": 40.531208,
-"lng": 141.307813,
+"lat": 40.531105,
+"lng": 141.307785,
 "prec": "area",
 "windows": [
 {
@@ -1077,12 +1112,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "青森県五戸町"
 },
 {
 "area": "田子町",
-"lat": 40.34003,
-"lng": 141.15215,
+"lat": 40.340092,
+"lng": 141.152206,
 "prec": "area",
 "windows": [
 {
@@ -1104,12 +1140,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "青森県田子町"
 },
 {
 "area": "南部町",
-"lat": 40.4668,
-"lng": 141.381912,
+"lat": 40.420341,
+"lng": 141.330307,
 "prec": "area",
 "windows": [
 {
@@ -1125,12 +1162,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "青森県南部町"
 },
 {
 "area": "階上町",
-"lat": 40.452454,
-"lng": 141.621001,
+"lat": 40.452396,
+"lng": 141.621094,
 "prec": "area",
 "windows": [
 {
@@ -1140,12 +1178,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "青森県階上町"
 },
 {
 "area": "新郷村",
-"lat": 40.465784,
-"lng": 141.1734,
+"lat": 40.465828,
+"lng": 141.17334,
 "prec": "area",
 "windows": [
 {
@@ -1173,6 +1212,7 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "青森県新郷村"
 }
 ]

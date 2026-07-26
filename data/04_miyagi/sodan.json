@@ -1,9 +1,9 @@
 [
 {
 "area": "宮城県",
-"lat": null,
-"lng": null,
-"prec": "unresolved",
+"lat": 38.268578,
+"lng": 140.87207,
+"prec": "area",
 "windows": [
 {
 "n": "仙南保健福祉事務所",
@@ -210,12 +210,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "宮城県"
 },
 {
 "area": "仙台市",
-"lat": 38.268008,
-"lng": 140.869617,
+"lat": 38.268162,
+"lng": 140.869507,
 "prec": "area",
 "windows": [
 {
@@ -315,12 +316,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "宮城県仙台市"
 },
 {
 "area": "石巻市",
-"lat": 38.434457,
-"lng": 141.302906,
+"lat": 38.43425,
+"lng": 141.302734,
 "prec": "area",
 "windows": [
 {
@@ -366,12 +368,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "宮城県石巻市"
 },
 {
 "area": "塩竈市",
-"lat": 38.31436,
-"lng": 141.02203,
+"lat": 38.314342,
+"lng": 141.022064,
 "prec": "area",
 "windows": [
 {
@@ -405,12 +408,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "宮城県塩竈市"
 },
 {
 "area": "気仙沼市",
-"lat": 38.908127,
-"lng": 141.570044,
+"lat": 38.90807,
+"lng": 141.570068,
 "prec": "area",
 "windows": [
 {
@@ -426,12 +430,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "宮城県気仙沼市"
 },
 {
 "area": "白石市",
-"lat": 38.002467,
-"lng": 140.619888,
+"lat": 38.002445,
+"lng": 140.619904,
 "prec": "area",
 "windows": [
 {
@@ -483,12 +488,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "宮城県白石市"
 },
 {
 "area": "名取市",
-"lat": 38.171501,
-"lng": 140.891849,
+"lat": 38.171368,
+"lng": 140.891953,
 "prec": "area",
 "windows": [
 {
@@ -546,12 +552,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "宮城県名取市"
 },
 {
 "area": "角田市",
-"lat": 37.977016,
-"lng": 140.781543,
+"lat": 37.97702,
+"lng": 140.781662,
 "prec": "area",
 "windows": [
 {
@@ -573,12 +580,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "宮城県角田市"
 },
 {
 "area": "多賀城市",
-"lat": 38.293803,
-"lng": 141.004369,
+"lat": 38.293839,
+"lng": 141.004379,
 "prec": "area",
 "windows": [
 {
@@ -642,12 +650,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "宮城県多賀城市"
 },
 {
 "area": "岩沼市",
-"lat": 38.104303,
-"lng": 140.869949,
+"lat": 38.104275,
+"lng": 140.870193,
 "prec": "area",
 "windows": [
 {
@@ -687,12 +696,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "宮城県岩沼市"
 },
 {
 "area": "登米市",
-"lat": 38.691856,
-"lng": 141.18772,
+"lat": 38.691895,
+"lng": 141.187683,
 "prec": "area",
 "windows": [
 {
@@ -726,12 +736,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "宮城県登米市"
 },
 {
 "area": "栗原市",
-"lat": 38.730062,
-"lng": 141.021508,
+"lat": 38.730076,
+"lng": 141.021271,
 "prec": "area",
 "windows": [
 {
@@ -789,12 +800,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "宮城県栗原市"
 },
 {
 "area": "東松島市",
-"lat": 38.426134,
-"lng": 141.210278,
+"lat": 38.426266,
+"lng": 141.210632,
 "prec": "area",
 "windows": [
 {
@@ -816,12 +828,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "宮城県東松島市"
 },
 {
 "area": "大崎市",
-"lat": 38.577132,
-"lng": 140.955565,
+"lat": 38.577541,
+"lng": 140.955719,
 "prec": "area",
 "windows": [
 {
@@ -843,12 +856,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "宮城県大崎市"
 },
 {
 "area": "富谷市",
-"lat": 38.399918,
-"lng": 140.895485,
+"lat": 38.399933,
+"lng": 140.895432,
 "prec": "area",
 "windows": [
 {
@@ -876,12 +890,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "宮城県富谷市"
 },
 {
 "area": "蔵王町",
-"lat": 38.098128,
-"lng": 140.65868,
+"lat": 38.098026,
+"lng": 140.658783,
 "prec": "area",
 "windows": [
 {
@@ -915,12 +930,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "宮城県蔵王町"
 },
 {
 "area": "七ヶ宿町",
-"lat": 37.993063,
-"lng": 140.441615,
+"lat": 37.992992,
+"lng": 140.44165,
 "prec": "area",
 "windows": [
 {
@@ -948,12 +964,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "宮城県七ヶ宿町"
 },
 {
 "area": "大河原町",
-"lat": 38.049412,
-"lng": 140.730774,
+"lat": 38.049351,
+"lng": 140.730865,
 "prec": "area",
 "windows": [
 {
@@ -963,12 +980,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "宮城県大河原町"
 },
 {
 "area": "村田町",
-"lat": 38.118589,
-"lng": 140.722404,
+"lat": 38.118534,
+"lng": 140.722427,
 "prec": "area",
 "windows": [
 {
@@ -984,12 +1002,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "宮城県村田町"
 },
 {
 "area": "柴田町",
-"lat": 38.056599,
-"lng": 140.765798,
+"lat": 38.056583,
+"lng": 140.76593,
 "prec": "area",
 "windows": [
 {
@@ -999,12 +1018,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "宮城県柴田町"
 },
 {
 "area": "川崎町",
-"lat": 38.177751,
-"lng": 140.643188,
+"lat": 38.177757,
+"lng": 140.643158,
 "prec": "area",
 "windows": [
 {
@@ -1014,12 +1034,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "宮城県川崎町"
 },
 {
 "area": "丸森町",
-"lat": 37.911536,
-"lng": 140.765365,
+"lat": 37.911526,
+"lng": 140.765427,
 "prec": "area",
 "windows": [
 {
@@ -1041,12 +1062,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "宮城県丸森町"
 },
 {
 "area": "亘理町",
-"lat": 38.037765,
-"lng": 140.852564,
+"lat": 38.044262,
+"lng": 140.86792,
 "prec": "area",
 "windows": [
 {
@@ -1068,12 +1090,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "宮城県亘理町"
 },
 {
 "area": "山元町",
-"lat": 37.962405,
-"lng": 140.877529,
+"lat": 37.962704,
+"lng": 140.878098,
 "prec": "area",
 "windows": [
 {
@@ -1107,12 +1130,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "宮城県山元町"
 },
 {
 "area": "松島町",
-"lat": 38.380149,
-"lng": 141.067291,
+"lat": 38.380192,
+"lng": 141.067368,
 "prec": "area",
 "windows": [
 {
@@ -1134,12 +1158,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "宮城県松島町"
 },
 {
 "area": "七ヶ浜町",
-"lat": 38.304554,
-"lng": 141.059143,
+"lat": 38.304558,
+"lng": 141.059204,
 "prec": "area",
 "windows": [
 {
@@ -1149,12 +1174,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "宮城県七ヶ浜町"
 },
 {
 "area": "利府町",
-"lat": 38.330355,
-"lng": 140.975793,
+"lat": 38.330269,
+"lng": 140.975601,
 "prec": "area",
 "windows": [
 {
@@ -1176,12 +1202,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "宮城県利府町"
 },
 {
 "area": "大和町",
-"lat": 38.43733,
-"lng": 140.886309,
+"lat": 38.437382,
+"lng": 140.886383,
 "prec": "area",
 "windows": [
 {
@@ -1203,12 +1230,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "宮城県大和町"
 },
 {
 "area": "大郷町",
-"lat": 38.424244,
-"lng": 141.00446,
+"lat": 38.42429,
+"lng": 141.004501,
 "prec": "area",
 "windows": [
 {
@@ -1218,12 +1246,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "宮城県大郷町"
 },
 {
 "area": "大衡村",
-"lat": 38.467278,
-"lng": 140.879982,
+"lat": 38.467224,
+"lng": 140.879913,
 "prec": "area",
 "windows": [
 {
@@ -1245,12 +1274,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "宮城県大衡村"
 },
 {
 "area": "色麻町",
-"lat": 38.548921,
-"lng": 140.849876,
+"lat": 38.548878,
+"lng": 140.850037,
 "prec": "area",
 "windows": [
 {
@@ -1272,12 +1302,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "宮城県色麻町"
 },
 {
 "area": "加美町",
-"lat": 38.57177,
-"lng": 140.854759,
+"lat": 38.571732,
+"lng": 140.854858,
 "prec": "area",
 "windows": [
 {
@@ -1305,12 +1336,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "宮城県加美町"
 },
 {
 "area": "涌谷町",
-"lat": 38.539704,
-"lng": 141.128105,
+"lat": 38.539669,
+"lng": 141.128174,
 "prec": "area",
 "windows": [
 {
@@ -1344,12 +1376,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "宮城県涌谷町"
 },
 {
 "area": "美里町",
-"lat": 38.5444,
-"lng": 141.056717,
+"lat": 38.53244,
+"lng": 141.076752,
 "prec": "area",
 "windows": [
 {
@@ -1377,12 +1410,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "宮城県美里町役田"
 },
 {
 "area": "女川町",
-"lat": 38.445533,
-"lng": 141.444435,
+"lat": 38.445511,
+"lng": 141.443115,
 "prec": "area",
 "windows": [
 {
@@ -1392,12 +1426,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "宮城県女川町"
 },
 {
 "area": "南三陸町",
-"lat": 38.679144,
-"lng": 141.460867,
+"lat": 38.680717,
+"lng": 141.462509,
 "prec": "area",
 "windows": [
 {
@@ -1407,6 +1442,7 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "宮城県南三陸町"
 }
 ]

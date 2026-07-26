@@ -1,9 +1,9 @@
 [
 {
 "area": "佐賀県",
-"lat": null,
-"lng": null,
-"prec": "unresolved",
+"lat": 33.249352,
+"lng": 130.298798,
+"prec": "area",
 "windows": [
 {
 "n": "心のテレホン",
@@ -198,12 +198,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "佐賀県"
 },
 {
 "area": "佐賀市",
-"lat": 33.263543,
-"lng": 130.300835,
+"lat": 33.263512,
+"lng": 130.300888,
 "prec": "area",
 "windows": [
 {
@@ -225,12 +226,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "佐賀県佐賀市"
 },
 {
 "area": "唐津市",
-"lat": 33.450103,
-"lng": 129.96797,
+"lat": 33.449802,
+"lng": 129.967682,
 "prec": "area",
 "windows": [
 {
@@ -258,12 +260,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "佐賀県唐津市"
 },
 {
 "area": "鳥栖市",
-"lat": 33.377758,
-"lng": 130.506244,
+"lat": 33.378059,
+"lng": 130.50502,
 "prec": "area",
 "windows": [
 {
@@ -285,12 +288,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "佐賀県鳥栖市"
 },
 {
 "area": "多久市",
-"lat": 33.288513,
-"lng": 130.110061,
+"lat": 33.288612,
+"lng": 130.110275,
 "prec": "area",
 "windows": [
 {
@@ -318,12 +322,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "佐賀県多久市"
 },
 {
 "area": "伊万里市",
-"lat": 33.264741,
-"lng": 129.880702,
+"lat": 33.264721,
+"lng": 129.880829,
 "prec": "area",
 "windows": [
 {
@@ -345,12 +350,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "佐賀県伊万里市"
 },
 {
 "area": "武雄市",
-"lat": 33.193751,
-"lng": 130.01915,
+"lat": 33.194874,
+"lng": 130.021561,
 "prec": "area",
 "windows": [
 {
@@ -390,12 +396,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "佐賀県武雄市"
 },
 {
 "area": "鹿島市",
-"lat": 33.103804,
-"lng": 130.098603,
+"lat": 33.103809,
+"lng": 130.098511,
 "prec": "area",
 "windows": [
 {
@@ -429,12 +436,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "佐賀県鹿島市"
 },
 {
 "area": "小城市",
-"lat": 33.273776,
-"lng": 130.21728,
+"lat": 33.273685,
+"lng": 130.216843,
 "prec": "area",
 "windows": [
 {
@@ -444,12 +452,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "佐賀県小城市"
 },
 {
 "area": "嬉野市",
-"lat": 33.128092,
-"lng": 130.06012,
+"lat": 33.127777,
+"lng": 130.059998,
 "prec": "area",
 "windows": [
 {
@@ -501,12 +510,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "佐賀県嬉野市"
 },
 {
 "area": "神埼市",
-"lat": 33.310732,
-"lng": 130.373057,
+"lat": 33.311649,
+"lng": 130.371796,
 "prec": "area",
 "windows": [
 {
@@ -540,12 +550,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "佐賀県神埼市"
 },
 {
 "area": "吉野ヶ里町",
-"lat": 33.321148,
-"lng": 130.398753,
+"lat": 33.32111,
+"lng": 130.398895,
 "prec": "area",
 "windows": [
 {
@@ -561,12 +572,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "佐賀県吉野ヶ里町"
 },
 {
 "area": "基山町",
-"lat": 33.426944,
-"lng": 130.523052,
+"lat": 33.426945,
+"lng": 130.523056,
 "prec": "area",
 "windows": [
 {
@@ -582,12 +594,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "佐賀県基山町"
 },
 {
 "area": "上峰町",
-"lat": 33.319626,
-"lng": 130.426137,
+"lat": 33.31963,
+"lng": 130.426163,
 "prec": "area",
 "windows": [
 {
@@ -627,12 +640,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "佐賀県上峰町"
 },
 {
 "area": "みやき町",
-"lat": 33.324943,
-"lng": 130.45459,
+"lat": 33.324638,
+"lng": 130.454437,
 "prec": "area",
 "windows": [
 {
@@ -666,12 +680,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "佐賀県みやき町"
 },
 {
 "area": "玄海町",
-"lat": 33.472164,
-"lng": 129.874689,
+"lat": 33.472221,
+"lng": 129.874725,
 "prec": "area",
 "windows": [
 {
@@ -681,12 +696,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "佐賀県玄海町"
 },
 {
 "area": "有田町",
-"lat": 33.210574,
-"lng": 129.849014,
+"lat": 33.210556,
+"lng": 129.849167,
 "prec": "area",
 "windows": [
 {
@@ -702,12 +718,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "佐賀県有田町"
 },
 {
 "area": "大町町",
-"lat": 33.213871,
-"lng": 130.116032,
+"lat": 33.21389,
+"lng": 130.116104,
 "prec": "area",
 "windows": [
 {
@@ -729,12 +746,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "佐賀県大町町"
 },
 {
 "area": "江北町",
-"lat": 33.220464,
-"lng": 130.15731,
+"lat": 33.220554,
+"lng": 130.157227,
 "prec": "area",
 "windows": [
 {
@@ -744,12 +762,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "佐賀県江北町"
 },
 {
 "area": "白石町",
-"lat": 33.181082,
-"lng": 130.143493,
+"lat": 33.180965,
+"lng": 130.143494,
 "prec": "area",
 "windows": [
 {
@@ -777,12 +796,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "佐賀県白石町"
 },
 {
 "area": "太良町",
-"lat": 33.019436,
-"lng": 130.179126,
+"lat": 33.019444,
+"lng": 130.179169,
 "prec": "area",
 "windows": [
 {
@@ -810,6 +830,7 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "佐賀県太良町"
 }
 ]

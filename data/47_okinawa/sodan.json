@@ -1,9 +1,9 @@
 [
 {
 "area": "沖縄県",
-"lat": null,
-"lng": null,
-"prec": "unresolved",
+"lat": 26.212444,
+"lng": 127.680923,
+"prec": "area",
 "windows": [
 {
 "n": "沖縄県子ども若者みらい相談プラザsoraeなは",
@@ -30,12 +30,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "沖縄県"
 },
 {
 "area": "那覇市",
-"lat": 26.212295,
-"lng": 127.679218,
+"lat": 26.212374,
+"lng": 127.679108,
 "prec": "area",
 "windows": [
 {
@@ -51,12 +52,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "沖縄県那覇市"
 },
 {
 "area": "石垣市",
-"lat": 24.340666,
-"lng": 124.155539,
+"lat": 24.344419,
+"lng": 124.185249,
 "prec": "area",
 "windows": [
 {
@@ -66,12 +68,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "沖縄県石垣市"
 },
 {
 "area": "糸満市",
-"lat": 26.123542,
-"lng": 127.665823,
+"lat": 26.123459,
+"lng": 127.66581,
 "prec": "area",
 "windows": [
 {
@@ -93,12 +96,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "沖縄県糸満市"
 },
 {
 "area": "沖縄市",
-"lat": 26.334354,
-"lng": 127.805694,
+"lat": 26.334202,
+"lng": 127.805649,
 "prec": "area",
 "windows": [
 {
@@ -114,12 +118,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "沖縄県沖縄市"
 },
 {
 "area": "豊見城市",
-"lat": 26.161026,
-"lng": 127.668883,
+"lat": 26.177135,
+"lng": 127.681229,
 "prec": "area",
 "windows": [
 {
@@ -135,12 +140,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "沖縄県豊見城市"
 },
 {
 "area": "うるま市",
-"lat": 26.379151,
-"lng": 127.85748,
+"lat": 26.378784,
+"lng": 127.8582,
 "prec": "area",
 "windows": [
 {
@@ -150,12 +156,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "沖縄県うるま市"
 },
 {
 "area": "宮古島市",
-"lat": 24.80549,
-"lng": 125.281162,
+"lat": 24.78997,
+"lng": 125.294754,
 "prec": "area",
 "windows": [
 {
@@ -165,12 +172,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "沖縄県宮古島市"
 },
 {
 "area": "南城市",
-"lat": 26.144402,
-"lng": 127.766922,
+"lat": 26.163191,
+"lng": 127.770622,
 "prec": "area",
 "windows": [
 {
@@ -204,12 +212,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "沖縄県南城市"
 },
 {
 "area": "国頭村",
-"lat": 26.745638,
-"lng": 128.177907,
+"lat": 26.745743,
+"lng": 128.178284,
 "prec": "area",
 "windows": [
 {
@@ -237,12 +246,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "沖縄県国頭村"
 },
 {
 "area": "大宜味村",
-"lat": 26.701712,
-"lng": 128.120159,
+"lat": 26.701778,
+"lng": 128.120102,
 "prec": "area",
 "windows": [
 {
@@ -258,12 +268,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "沖縄県大宜味村"
 },
 {
 "area": "今帰仁村",
-"lat": 26.682527,
-"lng": 127.972739,
+"lat": 26.682795,
+"lng": 127.972916,
 "prec": "area",
 "windows": [
 {
@@ -285,12 +296,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "沖縄県今帰仁村"
 },
 {
 "area": "本部町",
-"lat": 26.658035,
-"lng": 127.898175,
+"lat": 26.657511,
+"lng": 127.89782,
 "prec": "area",
 "windows": [
 {
@@ -300,12 +312,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "沖縄県本部町"
 },
 {
 "area": "宜野座村",
-"lat": 26.481585,
-"lng": 127.975615,
+"lat": 26.481623,
+"lng": 127.975639,
 "prec": "area",
 "windows": [
 {
@@ -321,12 +334,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "沖縄県宜野座村"
 },
 {
 "area": "伊江村",
-"lat": 26.71349,
-"lng": 127.807014,
+"lat": 26.713442,
+"lng": 127.807076,
 "prec": "area",
 "windows": [
 {
@@ -348,12 +362,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "沖縄県伊江村"
 },
 {
 "area": "読谷村",
-"lat": 26.396154,
-"lng": 127.744424,
+"lat": 26.396111,
+"lng": 127.744446,
 "prec": "area",
 "windows": [
 {
@@ -381,12 +396,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "沖縄県読谷村"
 },
 {
 "area": "北谷町",
-"lat": 26.320069,
-"lng": 127.763901,
+"lat": 26.320065,
+"lng": 127.76384,
 "prec": "area",
 "windows": [
 {
@@ -426,12 +442,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "沖縄県北谷町"
 },
 {
 "area": "北中城村",
-"lat": 26.301079,
-"lng": 127.793027,
+"lat": 26.300745,
+"lng": 127.792892,
 "prec": "area",
 "windows": [
 {
@@ -441,12 +458,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "沖縄県北中城村"
 },
 {
 "area": "中城村",
-"lat": 26.267379,
-"lng": 127.791146,
+"lat": 26.262011,
+"lng": 127.789619,
 "prec": "area",
 "windows": [
 {
@@ -456,12 +474,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "沖縄県中城村"
 },
 {
 "area": "西原町",
-"lat": 26.222856,
-"lng": 127.758819,
+"lat": 26.222952,
+"lng": 127.758926,
 "prec": "area",
 "windows": [
 {
@@ -489,12 +508,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "沖縄県西原町"
 },
 {
 "area": "与那原町",
-"lat": 26.199502,
-"lng": 127.754794,
+"lat": 26.199577,
+"lng": 127.754456,
 "prec": "area",
 "windows": [
 {
@@ -522,12 +542,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "沖縄県与那原町"
 },
 {
 "area": "南風原町",
-"lat": 26.191122,
-"lng": 127.728554,
+"lat": 26.191133,
+"lng": 127.728523,
 "prec": "area",
 "windows": [
 {
@@ -555,12 +576,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "沖縄県南風原町"
 },
 {
 "area": "北大東村",
-"lat": 25.945712,
-"lng": 131.298917,
+"lat": 25.945831,
+"lng": 131.299042,
 "prec": "area",
 "windows": [
 {
@@ -576,12 +598,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "沖縄県北大東村"
 },
 {
 "area": "伊是名村",
-"lat": 26.928305,
-"lng": 127.941226,
+"lat": 26.923693,
+"lng": 127.941322,
 "prec": "area",
 "windows": [
 {
@@ -591,12 +614,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "沖縄県伊是名村"
 },
 {
 "area": "久米島町",
-"lat": 26.340669,
-"lng": 126.805021,
+"lat": 26.340694,
+"lng": 126.804947,
 "prec": "area",
 "windows": [
 {
@@ -606,12 +630,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "沖縄県久米島町"
 },
 {
 "area": "八重瀬町",
-"lat": 26.121875,
-"lng": 127.742675,
+"lat": 26.15834,
+"lng": 127.718651,
 "prec": "area",
 "windows": [
 {
@@ -627,12 +652,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "沖縄県八重瀬町"
 },
 {
 "area": "与那国町",
-"lat": 24.468034,
-"lng": 123.004496,
+"lat": 24.468012,
+"lng": 123.004601,
 "prec": "area",
 "windows": [
 {
@@ -642,6 +668,7 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "沖縄県与那国町"
 }
 ]

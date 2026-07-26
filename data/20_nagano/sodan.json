@@ -1,9 +1,9 @@
 [
 {
 "area": "長野県",
-"lat": null,
-"lng": null,
-"prec": "unresolved",
+"lat": 36.651306,
+"lng": 138.180908,
+"prec": "area",
 "windows": [
 {
 "n": "長野県ヤングケアラー専用相談窓口（長野県社会福祉協議会委託）",
@@ -126,12 +126,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "長野県"
 },
 {
 "area": "長野市",
-"lat": 36.64863100099206,
-"lng": 138.19428659247185,
+"lat": 36.648537,
+"lng": 138.194824,
 "prec": "area",
 "windows": [
 {
@@ -159,12 +160,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "長野県長野市"
 },
 {
 "area": "松本市",
-"lat": 36.238096,
-"lng": 137.971992,
+"lat": 36.238056,
+"lng": 137.971954,
 "prec": "area",
 "windows": [
 {
@@ -270,12 +272,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "長野県松本市"
 },
 {
 "area": "上田市",
-"lat": 36.401942,
-"lng": 138.249069,
+"lat": 36.401978,
+"lng": 138.248672,
 "prec": "area",
 "windows": [
 {
@@ -333,12 +336,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "長野県上田市"
 },
 {
 "area": "岡谷市",
-"lat": 36.067003,
-"lng": 138.049557,
+"lat": 36.066944,
+"lng": 138.049454,
 "prec": "area",
 "windows": [
 {
@@ -366,12 +370,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "長野県岡谷市"
 },
 {
 "area": "飯田市",
-"lat": 35.514703,
-"lng": 137.821824,
+"lat": 35.515007,
+"lng": 137.821518,
 "prec": "area",
 "windows": [
 {
@@ -405,12 +410,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "長野県飯田市"
 },
 {
 "area": "諏訪市",
-"lat": 36.039175,
-"lng": 138.113984,
+"lat": 36.039165,
+"lng": 138.114166,
 "prec": "area",
 "windows": [
 {
@@ -438,12 +444,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "長野県諏訪市"
 },
 {
 "area": "須坂市",
-"lat": 36.651117,
-"lng": 138.307275,
+"lat": 36.6511,
+"lng": 138.307251,
 "prec": "area",
 "windows": [
 {
@@ -459,12 +466,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "長野県須坂市"
 },
 {
 "area": "小諸市",
-"lat": 36.326874,
-"lng": 138.426021,
+"lat": 36.32753,
+"lng": 138.425873,
 "prec": "area",
 "windows": [
 {
@@ -480,12 +488,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "長野県小諸市"
 },
 {
 "area": "伊那市",
-"lat": 35.827478,
-"lng": 137.954083,
+"lat": 35.827499,
+"lng": 137.953888,
 "prec": "area",
 "windows": [
 {
@@ -531,12 +540,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "長野県伊那市"
 },
 {
 "area": "駒ヶ根市",
-"lat": 35.728861,
-"lng": 137.933993,
+"lat": 35.728802,
+"lng": 137.934006,
 "prec": "area",
 "windows": [
 {
@@ -564,12 +574,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "長野県駒ヶ根市"
 },
 {
 "area": "中野市",
-"lat": 36.742027,
-"lng": 138.36947,
+"lat": 36.741505,
+"lng": 138.369217,
 "prec": "area",
 "windows": [
 {
@@ -663,12 +674,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "長野県中野市"
 },
 {
 "area": "大町市",
-"lat": 36.502976,
-"lng": 137.851169,
+"lat": 36.502983,
+"lng": 137.850922,
 "prec": "area",
 "windows": [
 {
@@ -684,12 +696,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "長野県大町市"
 },
 {
 "area": "飯山市",
-"lat": 36.851745,
-"lng": 138.365498,
+"lat": 36.851665,
+"lng": 138.365555,
 "prec": "area",
 "windows": [
 {
@@ -711,12 +724,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "長野県飯山市"
 },
 {
 "area": "茅野市",
-"lat": 35.995571,
-"lng": 138.158896,
+"lat": 35.995556,
+"lng": 138.15889,
 "prec": "area",
 "windows": [
 {
@@ -762,12 +776,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "長野県茅野市"
 },
 {
 "area": "塩尻市",
-"lat": 36.11502,
-"lng": 137.95338,
+"lat": 36.114998,
+"lng": 137.953613,
 "prec": "area",
 "windows": [
 {
@@ -801,12 +816,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "長野県塩尻市"
 },
 {
 "area": "佐久市",
-"lat": 36.248788,
-"lng": 138.476831,
+"lat": 36.24889,
+"lng": 138.476944,
 "prec": "area",
 "windows": [
 {
@@ -846,12 +862,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "長野県佐久市"
 },
 {
 "area": "千曲市",
-"lat": 36.533857,
-"lng": 138.119904,
+"lat": 36.530811,
+"lng": 138.114914,
 "prec": "area",
 "windows": [
 {
@@ -873,12 +890,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "長野県千曲市"
 },
 {
 "area": "東御市",
-"lat": 36.35955,
-"lng": 138.330295,
+"lat": 36.359444,
+"lng": 138.330566,
 "prec": "area",
 "windows": [
 {
@@ -912,12 +930,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "長野県東御市"
 },
 {
 "area": "安曇野市",
-"lat": 36.302827,
-"lng": 137.899806,
+"lat": 36.303944,
+"lng": 137.905777,
 "prec": "area",
 "windows": [
 {
@@ -951,12 +970,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "長野県安曇野市"
 },
 {
 "area": "小海町",
-"lat": 36.095241,
-"lng": 138.483515,
+"lat": 36.095116,
+"lng": 138.48349,
 "prec": "area",
 "windows": [
 {
@@ -966,12 +986,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "長野県小海町"
 },
 {
 "area": "川上村",
-"lat": 35.975487,
-"lng": 138.578605,
+"lat": 35.975136,
+"lng": 138.578476,
 "prec": "area",
 "windows": [
 {
@@ -981,12 +1002,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "長野県川上村"
 },
 {
 "area": "南牧村",
-"lat": 36.020907,
-"lng": 138.492185,
+"lat": 36.020897,
+"lng": 138.492157,
 "prec": "area",
 "windows": [
 {
@@ -996,12 +1018,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "長野県南牧村"
 },
 {
 "area": "南相木村",
-"lat": 36.036072,
-"lng": 138.54689,
+"lat": 36.036011,
+"lng": 138.547089,
 "prec": "area",
 "windows": [
 {
@@ -1011,12 +1034,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "長野県南相木村"
 },
 {
 "area": "北相木村",
-"lat": 36.059195,
-"lng": 138.551203,
+"lat": 36.059208,
+"lng": 138.551178,
 "prec": "area",
 "windows": [
 {
@@ -1026,12 +1050,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "長野県北相木村"
 },
 {
 "area": "佐久穂町",
-"lat": 36.16098,
-"lng": 138.483425,
+"lat": 36.160255,
+"lng": 138.483536,
 "prec": "area",
 "windows": [
 {
@@ -1041,12 +1066,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "長野県佐久穂町"
 },
 {
 "area": "軽井沢町",
-"lat": 36.34831,
-"lng": 138.596966,
+"lat": 36.348331,
+"lng": 138.596954,
 "prec": "area",
 "windows": [
 {
@@ -1086,12 +1112,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "長野県軽井沢町"
 },
 {
 "area": "立科町",
-"lat": 36.272089,
-"lng": 138.315991,
+"lat": 36.272053,
+"lng": 138.316071,
 "prec": "area",
 "windows": [
 {
@@ -1119,12 +1146,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "長野県立科町"
 },
 {
 "area": "青木村",
-"lat": 36.369998,
-"lng": 138.128698,
+"lat": 36.369999,
+"lng": 138.128616,
 "prec": "area",
 "windows": [
 {
@@ -1134,12 +1162,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "長野県青木村"
 },
 {
 "area": "長和町",
-"lat": 36.25594,
-"lng": 138.267791,
+"lat": 36.26992,
+"lng": 138.258041,
 "prec": "area",
 "windows": [
 {
@@ -1155,12 +1184,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "長野県長和町"
 },
 {
 "area": "下諏訪町",
-"lat": 36.069577,
-"lng": 138.080068,
+"lat": 36.069519,
+"lng": 138.080231,
 "prec": "area",
 "windows": [
 {
@@ -1176,12 +1206,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "長野県下諏訪町"
 },
 {
 "area": "富士見町",
-"lat": 35.914652,
-"lng": 138.24074,
+"lat": 35.914722,
+"lng": 138.240829,
 "prec": "area",
 "windows": [
 {
@@ -1191,12 +1222,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "長野県富士見町"
 },
 {
 "area": "原村",
-"lat": 35.964354,
-"lng": 138.217471,
+"lat": 35.964363,
+"lng": 138.217499,
 "prec": "area",
 "windows": [
 {
@@ -1206,12 +1238,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "長野県原村"
 },
 {
 "area": "辰野町",
-"lat": 35.982413,
-"lng": 137.987428,
+"lat": 35.982498,
+"lng": 137.987503,
 "prec": "area",
 "windows": [
 {
@@ -1233,12 +1266,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "長野県辰野町"
 },
 {
 "area": "箕輪町",
-"lat": 35.91502,
-"lng": 137.981992,
+"lat": 35.915001,
+"lng": 137.981949,
 "prec": "area",
 "windows": [
 {
@@ -1248,12 +1282,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "長野県箕輪町"
 },
 {
 "area": "飯島町",
-"lat": 35.676622,
-"lng": 137.919523,
+"lat": 35.676762,
+"lng": 137.919449,
 "prec": "area",
 "windows": [
 {
@@ -1269,12 +1304,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "長野県飯島町"
 },
 {
 "area": "南箕輪村",
-"lat": 35.872853,
-"lng": 137.975084,
+"lat": 35.872898,
+"lng": 137.975082,
 "prec": "area",
 "windows": [
 {
@@ -1296,12 +1332,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "長野県南箕輪村"
 },
 {
 "area": "中川村",
-"lat": 35.634617,
-"lng": 137.945961,
+"lat": 35.634544,
+"lng": 137.946014,
 "prec": "area",
 "windows": [
 {
@@ -1317,12 +1354,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "長野県中川村"
 },
 {
 "area": "宮田村",
-"lat": 35.768882,
-"lng": 137.944209,
+"lat": 35.76889,
+"lng": 137.944443,
 "prec": "area",
 "windows": [
 {
@@ -1356,12 +1394,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "長野県宮田村"
 },
 {
 "area": "松川町",
-"lat": 35.597231,
-"lng": 137.909667,
+"lat": 35.597221,
+"lng": 137.909729,
 "prec": "area",
 "windows": [
 {
@@ -1371,12 +1410,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "長野県松川町"
 },
 {
 "area": "高森町",
-"lat": 35.551542,
-"lng": 137.878519,
+"lat": 35.551544,
+"lng": 137.878525,
 "prec": "area",
 "windows": [
 {
@@ -1386,12 +1426,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "長野県高森町"
 },
 {
 "area": "阿南町",
-"lat": 35.32362,
-"lng": 137.81609,
+"lat": 35.323612,
+"lng": 137.816116,
 "prec": "area",
 "windows": [
 {
@@ -1407,12 +1448,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "長野県阿南町"
 },
 {
 "area": "阿智村",
-"lat": 35.443791,
-"lng": 137.747444,
+"lat": 35.44389,
+"lng": 137.747498,
 "prec": "area",
 "windows": [
 {
@@ -1422,12 +1464,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "長野県阿智村"
 },
 {
 "area": "平谷村",
-"lat": 35.323279,
-"lng": 137.630083,
+"lat": 35.323334,
+"lng": 137.63028,
 "prec": "area",
 "windows": [
 {
@@ -1437,12 +1480,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "長野県平谷村"
 },
 {
 "area": "根羽村",
-"lat": 35.253061,
-"lng": 137.581232,
+"lat": 35.255512,
+"lng": 137.58194,
 "prec": "area",
 "windows": [
 {
@@ -1464,12 +1508,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "長野県根羽村"
 },
 {
 "area": "下條村",
-"lat": 35.39733,
-"lng": 137.785926,
+"lat": 35.39735,
+"lng": 137.785889,
 "prec": "area",
 "windows": [
 {
@@ -1485,12 +1530,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "長野県下條村"
 },
 {
 "area": "売木村",
-"lat": 35.271068,
-"lng": 137.711191,
+"lat": 35.271111,
+"lng": 137.711105,
 "prec": "area",
 "windows": [
 {
@@ -1500,12 +1546,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "長野県売木村"
 },
 {
 "area": "天龍村",
-"lat": 35.276307,
-"lng": 137.854244,
+"lat": 35.276379,
+"lng": 137.854263,
 "prec": "area",
 "windows": [
 {
@@ -1515,12 +1562,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "長野県天龍村"
 },
 {
 "area": "泰阜村",
-"lat": 35.377434,
-"lng": 137.846157,
+"lat": 35.377411,
+"lng": 137.845947,
 "prec": "area",
 "windows": [
 {
@@ -1530,12 +1578,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "長野県泰阜村"
 },
 {
 "area": "喬木村",
-"lat": 35.513823,
-"lng": 137.873751,
+"lat": 35.513889,
+"lng": 137.873886,
 "prec": "area",
 "windows": [
 {
@@ -1557,12 +1606,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "長野県喬木村"
 },
 {
 "area": "豊丘村",
-"lat": 35.551497,
-"lng": 137.895791,
+"lat": 35.551388,
+"lng": 137.895828,
 "prec": "area",
 "windows": [
 {
@@ -1572,12 +1622,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "長野県豊丘村"
 },
 {
 "area": "大鹿村",
-"lat": 35.578234,
-"lng": 138.034044,
+"lat": 35.578209,
+"lng": 138.034088,
 "prec": "area",
 "windows": [
 {
@@ -1587,12 +1638,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "長野県大鹿村"
 },
 {
 "area": "上松町",
-"lat": 35.78402,
-"lng": 137.694153,
+"lat": 35.782188,
+"lng": 137.693237,
 "prec": "area",
 "windows": [
 {
@@ -1608,12 +1660,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "長野県上松町"
 },
 {
 "area": "南木曽町",
-"lat": 35.603787,
-"lng": 137.608936,
+"lat": 35.603611,
+"lng": 137.608887,
 "prec": "area",
 "windows": [
 {
@@ -1623,12 +1676,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "長野県南木曽町"
 },
 {
 "area": "木祖村",
-"lat": 35.936307,
-"lng": 137.783163,
+"lat": 35.936321,
+"lng": 137.783173,
 "prec": "area",
 "windows": [
 {
@@ -1644,12 +1698,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "長野県木祖村"
 },
 {
 "area": "王滝村",
-"lat": 35.809343,
-"lng": 137.551076,
+"lat": 35.809395,
+"lng": 137.550903,
 "prec": "area",
 "windows": [
 {
@@ -1665,12 +1720,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "長野県王滝村"
 },
 {
 "area": "大桑村",
-"lat": 35.682834,
-"lng": 137.664938,
+"lat": 35.68932,
+"lng": 137.67157,
 "prec": "area",
 "windows": [
 {
@@ -1686,12 +1742,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "長野県大桑村"
 },
 {
 "area": "木曽町",
-"lat": 35.842455,
-"lng": 137.691534,
+"lat": 35.841755,
+"lng": 137.691223,
 "prec": "area",
 "windows": [
 {
@@ -1701,12 +1758,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "長野県木曽町"
 },
 {
 "area": "麻績村",
-"lat": 36.456086,
-"lng": 138.045267,
+"lat": 36.456108,
+"lng": 138.045288,
 "prec": "area",
 "windows": [
 {
@@ -1722,12 +1780,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "長野県麻績村"
 },
 {
 "area": "生坂村",
-"lat": 36.425234,
-"lng": 137.927484,
+"lat": 36.425217,
+"lng": 137.927582,
 "prec": "area",
 "windows": [
 {
@@ -1743,12 +1802,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "長野県生坂村"
 },
 {
 "area": "山形村",
-"lat": 36.168104,
-"lng": 137.87897,
+"lat": 36.168056,
+"lng": 137.878891,
 "prec": "area",
 "windows": [
 {
@@ -1770,12 +1830,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "長野県山形村"
 },
 {
 "area": "朝日村",
-"lat": 36.123531,
-"lng": 137.866114,
+"lat": 36.129261,
+"lng": 137.867111,
 "prec": "area",
 "windows": [
 {
@@ -1785,12 +1846,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "長野県朝日村"
 },
 {
 "area": "筑北村",
-"lat": 36.426355,
-"lng": 138.015179,
+"lat": 36.402695,
+"lng": 138.011688,
 "prec": "area",
 "windows": [
 {
@@ -1800,12 +1862,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "長野県筑北村"
 },
 {
 "area": "池田町",
-"lat": 36.421368,
-"lng": 137.874499,
+"lat": 36.421288,
+"lng": 137.87468,
 "prec": "area",
 "windows": [
 {
@@ -1815,12 +1878,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "長野県池田町"
 },
 {
 "area": "松川村",
-"lat": 36.424045,
-"lng": 137.854556,
+"lat": 36.424168,
+"lng": 137.854446,
 "prec": "area",
 "windows": [
 {
@@ -1836,12 +1900,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "長野県松川村"
 },
 {
 "area": "白馬村",
-"lat": 36.69807,
-"lng": 137.861969,
+"lat": 36.698334,
+"lng": 137.862228,
 "prec": "area",
 "windows": [
 {
@@ -1857,12 +1922,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "長野県白馬村"
 },
 {
 "area": "小谷村",
-"lat": 36.779206,
-"lng": 137.908305,
+"lat": 36.779079,
+"lng": 137.90834,
 "prec": "area",
 "windows": [
 {
@@ -1884,12 +1950,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "長野県小谷村"
 },
 {
 "area": "坂城町",
-"lat": 36.461839,
-"lng": 138.180106,
+"lat": 36.46183,
+"lng": 138.180176,
 "prec": "area",
 "windows": [
 {
@@ -1911,12 +1978,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "長野県坂城町"
 },
 {
 "area": "小布施町",
-"lat": 36.697478,
-"lng": 138.312146,
+"lat": 36.697441,
+"lng": 138.312241,
 "prec": "area",
 "windows": [
 {
@@ -1938,12 +2006,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "長野県小布施町"
 },
 {
 "area": "高山村",
-"lat": 36.67977,
-"lng": 138.363261,
+"lat": 36.679764,
+"lng": 138.363312,
 "prec": "area",
 "windows": [
 {
@@ -1965,12 +2034,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "長野県高山村"
 },
 {
 "area": "山ノ内町",
-"lat": 36.744606,
-"lng": 138.412621,
+"lat": 36.744598,
+"lng": 138.412704,
 "prec": "area",
 "windows": [
 {
@@ -1986,12 +2056,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "長野県山ノ内町"
 },
 {
 "area": "木島平村",
-"lat": 36.858462,
-"lng": 138.406696,
+"lat": 36.857887,
+"lng": 138.407043,
 "prec": "area",
 "windows": [
 {
@@ -2013,12 +2084,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "長野県木島平村"
 },
 {
 "area": "野沢温泉村",
-"lat": 36.922728,
-"lng": 138.440456,
+"lat": 36.922775,
+"lng": 138.440567,
 "prec": "area",
 "windows": [
 {
@@ -2052,12 +2124,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "長野県野沢温泉村"
 },
 {
 "area": "信濃町",
-"lat": 36.806379,
-"lng": 138.206991,
+"lat": 36.806328,
+"lng": 138.207047,
 "prec": "area",
 "windows": [
 {
@@ -2079,12 +2152,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "長野県信濃町"
 },
 {
 "area": "小川村",
-"lat": 36.617135,
-"lng": 137.974801,
+"lat": 36.617241,
+"lng": 137.974747,
 "prec": "area",
 "windows": [
 {
@@ -2118,12 +2192,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "長野県小川村"
 },
 {
 "area": "飯綱町",
-"lat": 36.754661,
-"lng": 138.23553,
+"lat": 36.754478,
+"lng": 138.235443,
 "prec": "area",
 "windows": [
 {
@@ -2145,12 +2220,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "長野県飯綱町"
 },
 {
 "area": "栄村",
-"lat": 36.987481,
-"lng": 138.577359,
+"lat": 36.98748,
+"lng": 138.576645,
 "prec": "area",
 "windows": [
 {
@@ -2172,6 +2248,7 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "長野県栄村"
 }
 ]

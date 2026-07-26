@@ -1,9 +1,9 @@
 [
 {
 "area": "石川県",
-"lat": null,
-"lng": null,
-"prec": "unresolved",
+"lat": 36.594604,
+"lng": 136.625671,
+"prec": "area",
 "windows": [
 {
 "n": "いしかわ妊娠相談ダイヤル",
@@ -18,12 +18,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "石川県"
 },
 {
 "area": "金沢市",
-"lat": 36.561051,
-"lng": 136.656633,
+"lat": 36.56105,
+"lng": 136.656494,
 "prec": "area",
 "windows": [
 {
@@ -189,12 +190,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "石川県金沢市"
 },
 {
 "area": "七尾市",
-"lat": 37.043108,
-"lng": 136.967296,
+"lat": 37.043053,
+"lng": 136.967224,
 "prec": "area",
 "windows": [
 {
@@ -228,12 +230,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "石川県七尾市"
 },
 {
 "area": "小松市",
-"lat": 36.408357,
-"lng": 136.445588,
+"lat": 36.408611,
+"lng": 136.445557,
 "prec": "area",
 "windows": [
 {
@@ -261,12 +264,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "石川県小松市"
 },
 {
 "area": "輪島市",
-"lat": 37.390557,
-"lng": 136.899185,
+"lat": 37.390553,
+"lng": 136.89917,
 "prec": "area",
 "windows": [
 {
@@ -300,12 +304,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "石川県輪島市"
 },
 {
 "area": "珠洲市",
-"lat": 37.436369,
-"lng": 137.260406,
+"lat": 37.436367,
+"lng": 137.260483,
 "prec": "area",
 "windows": [
 {
@@ -327,12 +332,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "石川県珠洲市"
 },
 {
 "area": "加賀市",
-"lat": 36.302669,
-"lng": 136.314685,
+"lat": 36.302776,
+"lng": 136.315002,
 "prec": "area",
 "windows": [
 {
@@ -360,12 +366,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "石川県加賀市"
 },
 {
 "area": "羽咋市",
-"lat": 36.893599,
-"lng": 136.778999,
+"lat": 36.893608,
+"lng": 136.7789,
 "prec": "area",
 "windows": [
 {
@@ -381,12 +388,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "石川県羽咋市"
 },
 {
 "area": "かほく市",
-"lat": 36.719973,
-"lng": 136.706668,
+"lat": 36.719997,
+"lng": 136.706665,
 "prec": "area",
 "windows": [
 {
@@ -450,12 +458,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "石川県かほく市"
 },
 {
 "area": "白山市",
-"lat": 36.514427,
-"lng": 136.565833,
+"lat": 36.514442,
+"lng": 136.565552,
 "prec": "area",
 "windows": [
 {
@@ -507,12 +516,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "石川県白山市"
 },
 {
 "area": "能美市",
-"lat": 36.446888,
-"lng": 136.554028,
+"lat": 36.446991,
+"lng": 136.554169,
 "prec": "area",
 "windows": [
 {
@@ -534,12 +544,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "石川県能美市"
 },
 {
 "area": "野々市市",
-"lat": 36.519466,
-"lng": 136.609685,
+"lat": 36.519657,
+"lng": 136.609741,
 "prec": "area",
 "windows": [
 {
@@ -573,12 +584,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "石川県野々市市"
 },
 {
 "area": "川北町",
-"lat": 36.468632,
-"lng": 136.542276,
+"lat": 36.46841,
+"lng": 136.542389,
 "prec": "area",
 "windows": [
 {
@@ -594,12 +606,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "石川県川北町"
 },
 {
 "area": "津幡町",
-"lat": 36.669093,
-"lng": 136.728683,
+"lat": 36.668808,
+"lng": 136.728775,
 "prec": "area",
 "windows": [
 {
@@ -615,12 +628,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "石川県津幡町"
 },
 {
 "area": "内灘町",
-"lat": 36.65353,
-"lng": 136.645125,
+"lat": 36.653561,
+"lng": 136.645126,
 "prec": "area",
 "windows": [
 {
@@ -642,12 +656,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "石川県内灘町"
 },
 {
 "area": "志賀町",
-"lat": 37.006187,
-"lng": 136.77801,
+"lat": 37.00639,
+"lng": 136.778061,
 "prec": "area",
 "windows": [
 {
@@ -657,12 +672,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "石川県志賀町"
 },
 {
 "area": "宝達志水町",
-"lat": 36.862759,
-"lng": 136.797557,
+"lat": 36.862762,
+"lng": 136.797607,
 "prec": "area",
 "windows": [
 {
@@ -672,12 +688,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "石川県宝達志水町"
 },
 {
 "area": "中能登町",
-"lat": 36.98889,
-"lng": 136.901476,
+"lat": 36.988888,
+"lng": 136.901672,
 "prec": "area",
 "windows": [
 {
@@ -687,12 +704,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "石川県中能登町"
 },
 {
 "area": "穴水町",
-"lat": 37.230874,
-"lng": 136.912479,
+"lat": 37.230942,
+"lng": 136.912384,
 "prec": "area",
 "windows": [
 {
@@ -714,12 +732,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "石川県穴水町"
 },
 {
 "area": "能登町",
-"lat": 37.306588,
-"lng": 137.150052,
+"lat": 37.310421,
+"lng": 137.147781,
 "prec": "area",
 "windows": [
 {
@@ -735,6 +754,7 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "石川県能登町"
 }
 ]

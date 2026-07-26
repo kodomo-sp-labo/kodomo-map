@@ -1,9 +1,9 @@
 [
 {
 "area": "福島県",
-"lat": null,
-"lng": null,
-"prec": "unresolved",
+"lat": 37.750031,
+"lng": 140.467773,
+"prec": "area",
 "windows": [
 {
 "n": "中央児童相談所",
@@ -108,12 +108,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "福島県"
 },
 {
 "area": "福島市",
-"lat": 37.760759,
-"lng": 140.473269,
+"lat": 37.76083,
+"lng": 140.474747,
 "prec": "area",
 "windows": [
 {
@@ -123,12 +124,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "福島県福島市"
 },
 {
 "area": "会津若松市",
-"lat": 37.494842,
-"lng": 139.929707,
+"lat": 37.494431,
+"lng": 139.929626,
 "prec": "area",
 "windows": [
 {
@@ -144,12 +146,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "福島県会津若松市"
 },
 {
 "area": "郡山市",
-"lat": 37.400455,
-"lng": 140.35965,
+"lat": 37.40044,
+"lng": 140.359634,
 "prec": "area",
 "windows": [
 {
@@ -201,12 +204,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "福島県郡山市"
 },
 {
 "area": "いわき市",
-"lat": 37.050456,
-"lng": 140.887687,
+"lat": 37.050453,
+"lng": 140.887726,
 "prec": "area",
 "windows": [
 {
@@ -270,12 +274,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "福島県いわき市"
 },
 {
 "area": "白河市",
-"lat": 37.126379,
-"lng": 140.210923,
+"lat": 37.126343,
+"lng": 140.210953,
 "prec": "area",
 "windows": [
 {
@@ -285,12 +290,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "福島県白河市"
 },
 {
 "area": "須賀川市",
-"lat": 37.289441,
-"lng": 140.354272,
+"lat": 37.286934,
+"lng": 140.372574,
 "prec": "area",
 "windows": [
 {
@@ -306,12 +312,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "福島県須賀川市"
 },
 {
 "area": "喜多方市",
-"lat": 37.651134,
-"lng": 139.874484,
+"lat": 37.651302,
+"lng": 139.874695,
 "prec": "area",
 "windows": [
 {
@@ -333,12 +340,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "福島県喜多方市"
 },
 {
 "area": "相馬市",
-"lat": 37.796525,
-"lng": 140.919628,
+"lat": 37.79726,
+"lng": 140.91893,
 "prec": "area",
 "windows": [
 {
@@ -354,12 +362,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "福島県相馬市"
 },
 {
 "area": "二本松市",
-"lat": 37.584783,
-"lng": 140.431199,
+"lat": 37.584858,
+"lng": 140.431213,
 "prec": "area",
 "windows": [
 {
@@ -375,12 +384,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "福島県二本松市"
 },
 {
 "area": "田村市",
-"lat": 37.441366,
-"lng": 140.569098,
+"lat": 37.440639,
+"lng": 140.576324,
 "prec": "area",
 "windows": [
 {
@@ -390,12 +400,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "福島県田村市"
 },
 {
 "area": "南相馬市",
-"lat": 37.642197,
-"lng": 140.957237,
+"lat": 37.64217,
+"lng": 140.957352,
 "prec": "area",
 "windows": [
 {
@@ -411,12 +422,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "福島県南相馬市"
 },
 {
 "area": "伊達市",
-"lat": 37.819095,
-"lng": 140.562894,
+"lat": 37.819103,
+"lng": 140.562958,
 "prec": "area",
 "windows": [
 {
@@ -438,12 +450,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "福島県伊達市"
 },
 {
 "area": "本宮市",
-"lat": 37.513162,
-"lng": 140.393877,
+"lat": 37.513176,
+"lng": 140.393875,
 "prec": "area",
 "windows": [
 {
@@ -453,12 +466,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "福島県本宮市"
 },
 {
 "area": "桑折町",
-"lat": 37.849373,
-"lng": 140.516424,
+"lat": 37.854652,
+"lng": 140.520798,
 "prec": "area",
 "windows": [
 {
@@ -468,12 +482,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "福島県桑折町"
 },
 {
 "area": "国見町",
-"lat": 37.877097,
-"lng": 140.542346,
+"lat": 37.876781,
+"lng": 140.549255,
 "prec": "area",
 "windows": [
 {
@@ -489,12 +504,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "福島県国見町"
 },
 {
 "area": "川俣町",
-"lat": 37.664989,
-"lng": 140.598244,
+"lat": 37.66507,
+"lng": 140.598297,
 "prec": "area",
 "windows": [
 {
@@ -516,12 +532,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "福島県川俣町"
 },
 {
 "area": "大玉村",
-"lat": 37.534362,
-"lng": 140.371058,
+"lat": 37.534363,
+"lng": 140.371109,
 "prec": "area",
 "windows": [
 {
@@ -537,12 +554,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "福島県大玉村"
 },
 {
 "area": "鏡石町",
-"lat": 37.252858,
-"lng": 140.343405,
+"lat": 37.252823,
+"lng": 140.34343,
 "prec": "area",
 "windows": [
 {
@@ -552,12 +570,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "福島県鏡石町"
 },
 {
 "area": "天栄村",
-"lat": 37.255576,
-"lng": 140.247165,
+"lat": 37.255424,
+"lng": 140.247192,
 "prec": "area",
 "windows": [
 {
@@ -567,12 +586,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "福島県天栄村"
 },
 {
 "area": "檜枝岐村",
-"lat": 37.024141,
-"lng": 139.388941,
+"lat": 37.024166,
+"lng": 139.388962,
 "prec": "area",
 "windows": [
 {
@@ -582,12 +602,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "福島県檜枝岐村"
 },
 {
 "area": "只見町",
-"lat": 37.348657,
-"lng": 139.315789,
+"lat": 37.348717,
+"lng": 139.315842,
 "prec": "area",
 "windows": [
 {
@@ -597,12 +618,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "福島県只見町"
 },
 {
 "area": "南会津町",
-"lat": 37.200389,
-"lng": 139.773215,
+"lat": 37.200378,
+"lng": 139.773911,
 "prec": "area",
 "windows": [
 {
@@ -612,12 +634,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "福島県南会津町"
 },
 {
 "area": "北塩原村",
-"lat": 37.655673,
-"lng": 139.937383,
+"lat": 37.655678,
+"lng": 139.937637,
 "prec": "area",
 "windows": [
 {
@@ -639,12 +662,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "福島県北塩原村"
 },
 {
 "area": "西会津町",
-"lat": 37.588823,
-"lng": 139.647522,
+"lat": 37.587402,
+"lng": 139.649307,
 "prec": "area",
 "windows": [
 {
@@ -660,12 +684,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "福島県西会津町"
 },
 {
 "area": "磐梯町",
-"lat": 37.562099,
-"lng": 139.988766,
+"lat": 37.562065,
+"lng": 139.988663,
 "prec": "area",
 "windows": [
 {
@@ -693,12 +718,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "福島県磐梯町"
 },
 {
 "area": "猪苗代町",
-"lat": 37.557799,
-"lng": 140.104794,
+"lat": 37.557777,
+"lng": 140.104736,
 "prec": "area",
 "windows": [
 {
@@ -714,12 +740,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "福島県猪苗代町"
 },
 {
 "area": "会津坂下町",
-"lat": 37.561457,
-"lng": 139.821732,
+"lat": 37.561474,
+"lng": 139.821701,
 "prec": "area",
 "windows": [
 {
@@ -735,12 +762,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "福島県会津坂下町"
 },
 {
 "area": "柳津町",
-"lat": 37.526035,
-"lng": 139.719552,
+"lat": 37.526062,
+"lng": 139.719604,
 "prec": "area",
 "windows": [
 {
@@ -750,12 +778,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "福島県柳津町"
 },
 {
 "area": "金山町",
-"lat": 37.453735,
-"lng": 139.524524,
+"lat": 37.453732,
+"lng": 139.524643,
 "prec": "area",
 "windows": [
 {
@@ -765,12 +794,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "福島県金山町"
 },
 {
 "area": "会津美里町",
-"lat": 37.459835,
-"lng": 139.841143,
+"lat": 37.465164,
+"lng": 139.834564,
 "prec": "area",
 "windows": [
 {
@@ -780,12 +810,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "福島県会津美里町"
 },
 {
 "area": "西郷村",
-"lat": 37.141767,
-"lng": 140.155299,
+"lat": 37.141911,
+"lng": 140.156601,
 "prec": "area",
 "windows": [
 {
@@ -795,12 +826,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "福島県西郷村"
 },
 {
 "area": "泉崎村",
-"lat": 37.157052,
-"lng": 140.295257,
+"lat": 37.153801,
+"lng": 140.303345,
 "prec": "area",
 "windows": [
 {
@@ -810,12 +842,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "福島県泉崎村"
 },
 {
 "area": "中島村",
-"lat": 37.148756,
-"lng": 140.35023,
+"lat": 37.148819,
+"lng": 140.350204,
 "prec": "area",
 "windows": [
 {
@@ -831,12 +864,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "福島県中島村"
 },
 {
 "area": "矢吹町",
-"lat": 37.201221,
-"lng": 140.338493,
+"lat": 37.201244,
+"lng": 140.338638,
 "prec": "area",
 "windows": [
 {
@@ -846,12 +880,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "福島県矢吹町"
 },
 {
 "area": "棚倉町",
-"lat": 37.029867,
-"lng": 140.379591,
+"lat": 37.029892,
+"lng": 140.379669,
 "prec": "area",
 "windows": [
 {
@@ -879,12 +914,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "福島県棚倉町"
 },
 {
 "area": "矢祭町",
-"lat": 36.871334,
-"lng": 140.424755,
+"lat": 36.871326,
+"lng": 140.424789,
 "prec": "area",
 "windows": [
 {
@@ -906,12 +942,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "福島県矢祭町"
 },
 {
 "area": "塙町",
-"lat": 36.957238,
-"lng": 140.409647,
+"lat": 36.956879,
+"lng": 140.409805,
 "prec": "area",
 "windows": [
 {
@@ -921,12 +958,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "福島県塙町"
 },
 {
 "area": "鮫川村",
-"lat": 37.042229,
-"lng": 140.509699,
+"lat": 37.042374,
+"lng": 140.509689,
 "prec": "area",
 "windows": [
 {
@@ -936,12 +974,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "福島県鮫川村"
 },
 {
 "area": "石川町",
-"lat": 37.144301,
-"lng": 140.452117,
+"lat": 37.157085,
+"lng": 140.446716,
 "prec": "area",
 "windows": [
 {
@@ -969,12 +1008,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "福島県石川町"
 },
 {
 "area": "玉川村",
-"lat": 37.210718,
-"lng": 140.408939,
+"lat": 37.210728,
+"lng": 140.409027,
 "prec": "area",
 "windows": [
 {
@@ -990,12 +1030,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "福島県玉川村"
 },
 {
 "area": "平田村",
-"lat": 37.217885,
-"lng": 140.570258,
+"lat": 37.221985,
+"lng": 140.575653,
 "prec": "area",
 "windows": [
 {
@@ -1005,12 +1046,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "福島県平田村"
 },
 {
 "area": "浅川町",
-"lat": 37.080947,
-"lng": 140.412852,
+"lat": 37.080986,
+"lng": 140.412827,
 "prec": "area",
 "windows": [
 {
@@ -1026,12 +1068,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "福島県浅川町"
 },
 {
 "area": "古殿町",
-"lat": 37.089182,
-"lng": 140.555692,
+"lat": 37.089241,
+"lng": 140.555801,
 "prec": "area",
 "windows": [
 {
@@ -1047,12 +1090,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "福島県古殿町"
 },
 {
 "area": "三春町",
-"lat": 37.441047,
-"lng": 140.492575,
+"lat": 37.440498,
+"lng": 140.493393,
 "prec": "area",
 "windows": [
 {
@@ -1074,12 +1118,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "福島県三春町"
 },
 {
 "area": "小野町",
-"lat": 37.286823,
-"lng": 140.62628,
+"lat": 37.286922,
+"lng": 140.626282,
 "prec": "area",
 "windows": [
 {
@@ -1095,12 +1140,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "福島県小野町"
 },
 {
 "area": "広野町",
-"lat": 37.214403,
-"lng": 140.994561,
+"lat": 37.214436,
+"lng": 140.994614,
 "prec": "area",
 "windows": [
 {
@@ -1122,12 +1168,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "福島県広野町"
 },
 {
 "area": "楢葉町",
-"lat": 37.282605,
-"lng": 140.993465,
+"lat": 37.282574,
+"lng": 140.993484,
 "prec": "area",
 "windows": [
 {
@@ -1137,12 +1184,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "福島県楢葉町"
 },
 {
 "area": "富岡町",
-"lat": 37.345496,
-"lng": 141.008652,
+"lat": 37.345474,
+"lng": 141.008682,
 "prec": "area",
 "windows": [
 {
@@ -1152,12 +1200,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "福島県富岡町"
 },
 {
 "area": "川内村",
-"lat": 37.33768,
-"lng": 140.809266,
+"lat": 37.33765,
+"lng": 140.809387,
 "prec": "area",
 "windows": [
 {
@@ -1167,12 +1216,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "福島県川内村"
 },
 {
 "area": "大熊町",
-"lat": 37.404434,
-"lng": 140.9834,
+"lat": 37.381847,
+"lng": 140.95842,
 "prec": "area",
 "windows": [
 {
@@ -1182,12 +1232,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "福島県大熊町"
 },
 {
 "area": "双葉町",
-"lat": 37.449126,
-"lng": 141.012273,
+"lat": 37.452904,
+"lng": 141.006378,
 "prec": "area",
 "windows": [
 {
@@ -1197,12 +1248,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "福島県双葉町"
 },
 {
 "area": "飯舘村",
-"lat": 37.678947,
-"lng": 140.735091,
+"lat": 37.679043,
+"lng": 140.735199,
 "prec": "area",
 "windows": [
 {
@@ -1212,6 +1264,7 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "福島県飯舘村"
 }
 ]

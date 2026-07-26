@@ -1,9 +1,9 @@
 [
 {
 "area": "神奈川県",
-"lat": null,
-"lng": null,
-"prec": "unresolved",
+"lat": 35.447735,
+"lng": 139.642532,
+"prec": "area",
 "windows": [
 {
 "n": "中央児童相談所",
@@ -258,12 +258,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "神奈川県"
 },
 {
 "area": "横浜市",
-"lat": 35.444035,
-"lng": 139.637954,
+"lat": 35.450336,
+"lng": 139.634216,
 "prec": "area",
 "windows": [
 {
@@ -345,12 +346,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "神奈川県横浜市"
 },
 {
 "area": "川崎市",
-"lat": 35.530806,
-"lng": 139.703012,
+"lat": 35.530865,
+"lng": 139.703033,
 "prec": "area",
 "windows": [
 {
@@ -486,12 +488,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "神奈川県川崎市"
 },
 {
 "area": "相模原市",
-"lat": 35.571376,
-"lng": 139.373268,
+"lat": 35.571388,
+"lng": 139.373337,
 "prec": "area",
 "windows": [
 {
@@ -585,12 +588,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "神奈川県相模原市"
 },
 {
 "area": "横須賀市",
-"lat": 35.281276,
-"lng": 139.672284,
+"lat": 35.281467,
+"lng": 139.672226,
 "prec": "area",
 "windows": [
 {
@@ -678,12 +682,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "神奈川県横須賀市"
 },
 {
 "area": "平塚市",
-"lat": 35.335502,
-"lng": 139.349412,
+"lat": 35.335224,
+"lng": 139.349579,
 "prec": "area",
 "windows": [
 {
@@ -753,12 +758,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "神奈川県平塚市"
 },
 {
 "area": "鎌倉市",
-"lat": 35.319228,
-"lng": 139.54669,
+"lat": 35.319225,
+"lng": 139.546936,
 "prec": "area",
 "windows": [
 {
@@ -840,12 +846,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "神奈川県鎌倉市"
 },
 {
 "area": "藤沢市",
-"lat": 35.33894,
-"lng": 139.491116,
+"lat": 35.338879,
+"lng": 139.491241,
 "prec": "area",
 "windows": [
 {
@@ -909,12 +916,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "神奈川県藤沢市"
 },
 {
 "area": "小田原市",
-"lat": 35.264694,
-"lng": 139.152355,
+"lat": 35.264725,
+"lng": 139.152222,
 "prec": "area",
 "windows": [
 {
@@ -942,12 +950,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "神奈川県小田原市"
 },
 {
 "area": "茅ヶ崎市",
-"lat": 35.333879,
-"lng": 139.404702,
+"lat": 35.333874,
+"lng": 139.403687,
 "prec": "area",
 "windows": [
 {
@@ -975,12 +984,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "神奈川県茅ヶ崎市"
 },
 {
 "area": "逗子市",
-"lat": 35.295592,
-"lng": 139.580414,
+"lat": 35.295574,
+"lng": 139.580429,
 "prec": "area",
 "windows": [
 {
@@ -990,12 +1000,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "神奈川県逗子市"
 },
 {
 "area": "三浦市",
 "lat": 35.144176,
-"lng": 139.620765,
+"lng": 139.620773,
 "prec": "area",
 "windows": [
 {
@@ -1011,12 +1022,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "神奈川県三浦市"
 },
 {
 "area": "秦野市",
-"lat": 35.3748,
-"lng": 139.219946,
+"lat": 35.374737,
+"lng": 139.220047,
 "prec": "area",
 "windows": [
 {
@@ -1068,12 +1080,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "神奈川県秦野市"
 },
 {
 "area": "厚木市",
-"lat": 35.443049,
-"lng": 139.362442,
+"lat": 35.443054,
+"lng": 139.362503,
 "prec": "area",
 "windows": [
 {
@@ -1185,12 +1198,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "神奈川県厚木市"
 },
 {
 "area": "大和市",
-"lat": 35.487515,
-"lng": 139.45795,
+"lat": 35.487499,
+"lng": 139.458054,
 "prec": "area",
 "windows": [
 {
@@ -1242,12 +1256,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "神奈川県大和市"
 },
 {
 "area": "伊勢原市",
-"lat": 35.402985,
-"lng": 139.314906,
+"lat": 35.40295,
+"lng": 139.314987,
 "prec": "area",
 "windows": [
 {
@@ -1293,12 +1308,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "神奈川県伊勢原市"
 },
 {
 "area": "海老名市",
-"lat": 35.446449,
-"lng": 139.390803,
+"lat": 35.446388,
+"lng": 139.390839,
 "prec": "area",
 "windows": [
 {
@@ -1350,12 +1366,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "神奈川県海老名市"
 },
 {
 "area": "座間市",
-"lat": 35.48864,
-"lng": 139.407637,
+"lat": 35.488628,
+"lng": 139.4077,
 "prec": "area",
 "windows": [
 {
@@ -1425,12 +1442,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "神奈川県座間市"
 },
 {
 "area": "南足柄市",
-"lat": 35.320633,
-"lng": 139.099729,
+"lat": 35.320557,
+"lng": 139.100006,
 "prec": "area",
 "windows": [
 {
@@ -1494,12 +1512,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "神奈川県南足柄市"
 },
 {
 "area": "綾瀬市",
-"lat": 35.437161,
-"lng": 139.426348,
+"lat": 35.437153,
+"lng": 139.426376,
 "prec": "area",
 "windows": [
 {
@@ -1521,12 +1540,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "神奈川県綾瀬市"
 },
 {
 "area": "葉山町",
-"lat": 35.272025,
-"lng": 139.586275,
+"lat": 35.272079,
+"lng": 139.586166,
 "prec": "area",
 "windows": [
 {
@@ -1542,12 +1562,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "神奈川県葉山町"
 },
 {
 "area": "寒川町",
-"lat": 35.372963,
-"lng": 139.384188,
+"lat": 35.372971,
+"lng": 139.38385,
 "prec": "area",
 "windows": [
 {
@@ -1593,12 +1614,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "神奈川県寒川町"
 },
 {
 "area": "大磯町",
-"lat": 35.30694,
-"lng": 139.311348,
+"lat": 35.306812,
+"lng": 139.311371,
 "prec": "area",
 "windows": [
 {
@@ -1638,12 +1660,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "神奈川県大磯町"
 },
 {
 "area": "二宮町",
-"lat": 35.299494,
-"lng": 139.255525,
+"lat": 35.299492,
+"lng": 139.255554,
 "prec": "area",
 "windows": [
 {
@@ -1677,12 +1700,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "神奈川県二宮町"
 },
 {
 "area": "中井町",
-"lat": 35.330751,
-"lng": 139.218766,
+"lat": 35.330833,
+"lng": 139.218887,
 "prec": "area",
 "windows": [
 {
@@ -1710,12 +1734,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "神奈川県中井町"
 },
 {
 "area": "大井町",
-"lat": 35.326619,
-"lng": 139.156649,
+"lat": 35.326668,
+"lng": 139.156387,
 "prec": "area",
 "windows": [
 {
@@ -1737,12 +1762,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "神奈川県大井町"
 },
 {
 "area": "松田町",
-"lat": 35.348199,
-"lng": 139.139337,
+"lat": 35.348171,
+"lng": 139.139389,
 "prec": "area",
 "windows": [
 {
@@ -1764,12 +1790,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "神奈川県松田町"
 },
 {
 "area": "山北町",
-"lat": 35.360631,
-"lng": 139.083806,
+"lat": 35.360558,
+"lng": 139.083893,
 "prec": "area",
 "windows": [
 {
@@ -1791,12 +1818,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "神奈川県山北町"
 },
 {
 "area": "開成町",
-"lat": 35.33643,
-"lng": 139.123183,
+"lat": 35.33606,
+"lng": 139.123413,
 "prec": "area",
 "windows": [
 {
@@ -1818,12 +1846,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "神奈川県開成町"
 },
 {
 "area": "箱根町",
-"lat": 35.232301,
-"lng": 139.106886,
+"lat": 35.232388,
+"lng": 139.106949,
 "prec": "area",
 "windows": [
 {
@@ -1839,12 +1868,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "神奈川県箱根町"
 },
 {
 "area": "真鶴町",
-"lat": 35.158399,
-"lng": 139.137233,
+"lat": 35.158432,
+"lng": 139.137146,
 "prec": "area",
 "windows": [
 {
@@ -1866,12 +1896,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "神奈川県真鶴町"
 },
 {
 "area": "湯河原町",
-"lat": 35.147931,
-"lng": 139.108336,
+"lat": 35.147778,
+"lng": 139.108337,
 "prec": "area",
 "windows": [
 {
@@ -1899,12 +1930,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "神奈川県湯河原町"
 },
 {
 "area": "愛川町",
-"lat": 35.528746,
-"lng": 139.32172,
+"lat": 35.528889,
+"lng": 139.321671,
 "prec": "area",
 "windows": [
 {
@@ -1926,12 +1958,13 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "神奈川県愛川町"
 },
 {
 "area": "清川村",
-"lat": 35.48233,
-"lng": 139.276374,
+"lat": 35.482296,
+"lng": 139.276413,
 "prec": "area",
 "windows": [
 {
@@ -1947,6 +1980,7 @@
 "override": null
 }
 ],
-"src": "cfa_sodan"
+"src": "cfa_sodan",
+"geocode_matched": "神奈川県清川村"
 }
 ]
