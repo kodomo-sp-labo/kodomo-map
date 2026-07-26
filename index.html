@@ -43,6 +43,9 @@ if ('serviceWorker' in navigator) {
   header{padding:16px 24px 0;border-bottom:3px solid var(--c1);background:var(--panel)}
   header h1{font-size:1.25rem;font-weight:700;letter-spacing:.02em}
   header p.sub{font-size:.8rem;color:var(--sub);margin:4px 0 10px}
+  .concerns-cta{display:inline-block;margin-left:10px;font-size:.78rem;font-weight:700;color:#fff;
+    background:var(--c2);border-radius:6px;padding:3px 10px;text-decoration:none}
+  .concerns-cta:hover,.concerns-cta:focus-visible{background:#3C6449}
   .region-bar{display:flex;align-items:center;gap:8px;flex-wrap:wrap;background:#EFF2ED;border:1px solid var(--line);
     border-radius:8px;padding:8px 12px;margin-bottom:12px;font-size:.78rem}
   .region-bar label{font-weight:700;color:var(--ink)}
@@ -112,7 +115,9 @@ if ('serviceWorker' in navigator) {
 <body>
 <header>
   <h1>こども支援資源マップ</h1>
-  <p class="sub">子ども・家族を支える資源を5つの機能で整理（社会的処方フレームワーク試作版）</p>
+  <p class="sub">子ども・家族を支える資源を5つの機能で整理（社会的処方フレームワーク試作版）
+    <a class="concerns-cta" href="concerns.html">困りごとから探す →</a>
+  </p>
   <div class="region-bar">
     <label for="region-select">対象地域：</label>
     <select id="region-select">
