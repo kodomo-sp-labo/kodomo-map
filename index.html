@@ -1617,7 +1617,7 @@ sortedRegionKeys.forEach(function(key){
   }
   regionSelect.appendChild(opt);  // 既存ノードなら移動、新規なら末尾追加。
 });
-regionSelect.addEventListener('change', function(e){ loadRegion(e.target.value); });
+regionSelect.addEventListener('change', function(e){ loadRegion(e.target.value); syncURLState(); });
 
 /* ============ タブ切り替え ============ */
 function activateTab(name){
@@ -1640,16 +1640,61 @@ function activateTab(name){
     }
   }, 50);
 }
-document.querySelectorAll('.tab-btn').forEach(function(btn){ btn.addEventListener('click', function(){ activateTab(btn.dataset.tab); }); });
-if(['manabi','ibasho','sodan','oyakazoku','hattatsu'].indexOf(location.hash.slice(1)) !== -1){
-  activateTab(location.hash.slice(1));
+document.querySelectorAll('.tab-btn').forEach(function(btn){ btn.addEventListener('click', function(){ activateTab(btn.dataset.tab); syncURLState(); }); });
+
+/* ============ URL状態の復元・同期（困りごと選択ページ concerns.html との連携用） ============
+   ?layers=<番号>&pref=<都道府県コード> の形式。番号はkodomo-concerns.jsonのmeta.layersと
+   共通の1〜5（①学び=1・②居場所=2・③相談=3・④親家族=4・⑤発達=5）。このUIはタブを同時に
+   1つしか表示できないため、layersに複数（例: "3,4"）が指定されていても有効な先頭の値だけを
+   採用する。既存の#hash（タブ名のみ・書き込みは行わない旧方式）はブックマーク・既存リンクとの
+   後方互換のため読み取りのみ残す。 */
+const LAYER_NUM_TO_TAB = {'1':'manabi','2':'ibasho','3':'sodan','4':'oyakazoku','5':'hattatsu'};
+const TAB_TO_LAYER_NUM = {manabi:'1', ibasho:'2', sodan:'3', oyakazoku:'4', hattatsu:'5'};
+const PREF_CODE_TO_KEY = {};
+Object.keys(REGIONS).forEach(function(key){ PREF_CODE_TO_KEY[regionPrefCode(key)] = key; });
+
+function parseStateFromURL(){
+  const params = new URLSearchParams(location.search);
+  const out = {};
+  const layersParam = params.get('layers');
+  if(layersParam){
+    const nums = layersParam.split(',').map(function(s){ return s.trim(); });
+    for(let i=0; i<nums.length; i++){
+      if(LAYER_NUM_TO_TAB[nums[i]]){ out.tab = LAYER_NUM_TO_TAB[nums[i]]; break; }
+    }
+  }
+  const prefParam = params.get('pref');
+  if(prefParam && PREF_CODE_TO_KEY[parseInt(prefParam, 10)]){
+    out.regionKey = PREF_CODE_TO_KEY[parseInt(prefParam, 10)];
+  }
+  return out;
 }
+
+// 利用者が都道府県・タブを操作するたびに呼び、現在の状態をURLに反映する
+// （履歴を汚さないreplaceStateを使用。ページ遷移扱いにはしない）。
+function syncURLState(){
+  const activeBtn = document.querySelector('.tab-btn.active');
+  const tab = activeBtn ? activeBtn.dataset.tab : null;
+  const params = new URLSearchParams();
+  if(tab && TAB_TO_LAYER_NUM[tab]) params.set('layers', TAB_TO_LAYER_NUM[tab]);
+  const code = regionPrefCode(regionSelect.value);
+  params.set('pref', (code < 10 ? '0' : '') + code);
+  history.replaceState(null, '', location.pathname + '?' + params.toString());
+}
+
+const initialURLState = parseStateFromURL();
+const initialRegionKey = (initialURLState.regionKey && REGIONS[initialURLState.regionKey]) ? initialURLState.regionKey : 'okayama';
+const initialTab = initialURLState.tab
+  || (['manabi','ibasho','sodan','oyakazoku','hattatsu'].indexOf(location.hash.slice(1)) !== -1 ? location.hash.slice(1) : null);
+if(initialTab) activateTab(initialTab);
 
 /* ============ 初期ロード ============ */
 // 出典台帳を先に読む。地図データの読み込みは台帳を待たずに始めてよいが、
 // フッターの出典は台帳が無いと組み立てられないため、読み終わったら再描画する。
 loadLedger().then(function(){ renderFooterSources(REGIONS[regionSelect.value]); });
-loadRegion('okayama');
+regionSelect.value = initialRegionKey;
+loadRegion(initialRegionKey);
+syncURLState();
 </script>
 </body>
 </html>
