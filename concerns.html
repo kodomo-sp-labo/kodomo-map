@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>困りごとから探す｜こども支援資源マップ</title>
+<meta name="description" content="お子さんや子育てで困っていることを1つ選ぶと、今すぐの相談窓口・お住まいの地域の資源・関連プログラムをまとめて確認できます。">
+<link href="https://fonts.googleapis.com/css2?family=BIZ+UDPGothic:wght@400;700&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --ink:#22303C; --sub:#5B6B78; --base:#F6F7F6; --panel:#FFFFFF; --line:#E1E6E4;
+    --c1:#31547E; --c2:#4A7C59; --warm:#C1682B; --danger:#B23A3A;
+    --focus:#1A5FB4;
+  }
+  *{margin:0;padding:0;box-sizing:border-box}
+  body{font-family:'BIZ UDPGothic','Hiragino Sans','Yu Gothic',sans-serif;background:var(--base);color:var(--ink);line-height:1.7;font-size:16px}
+  a{color:var(--c1)}
+  .wrap{max-width:760px;margin:0 auto;padding:0 18px 60px}
+  header{padding:28px 18px 20px;background:var(--panel);border-bottom:3px solid var(--c1)}
+  header .backlink{font-size:.82rem}
+  header h1{font-size:1.35rem;font-weight:700;margin-top:10px}
+  header p.sub{font-size:.85rem;color:var(--sub);margin-top:6px}
+  .mode-switch{display:flex;gap:0;margin-top:16px;border:1px solid var(--line);border-radius:8px;overflow:hidden;width:fit-content}
+  .mode-switch button{font-family:inherit;font-size:.82rem;font-weight:700;padding:8px 16px;border:none;background:var(--panel);color:var(--sub);cursor:pointer}
+  .mode-switch button.active{background:var(--c1);color:#fff}
+  .mode-switch button:focus-visible{outline:3px solid var(--focus);outline-offset:-3px}
+  .privacy-note{font-size:.72rem;color:var(--sub);margin-top:10px;line-height:1.6}
+
+  /* ---- 一覧画面 ---- */
+  .group{margin-top:28px}
+  .group h2{font-size:1rem;font-weight:700;color:var(--c1);margin-bottom:10px;padding-bottom:4px;border-bottom:2px solid var(--line)}
+  .concern-list{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:10px}
+  .concern-btn{font-family:inherit;text-align:left;background:var(--panel);border:1px solid var(--line);border-radius:10px;
+    padding:14px 16px;font-size:.92rem;font-weight:700;color:var(--ink);cursor:pointer;line-height:1.5}
+  .concern-btn:hover{border-color:var(--c1)}
+  .concern-btn:focus-visible{outline:3px solid var(--focus);outline-offset:2px}
+  .concern-btn .urg{display:block;font-size:.68rem;font-weight:700;margin-top:6px}
+  .urg-critical .urg,.urg-high .urg{color:var(--warm)}
+  .urg-critical{border-left:4px solid var(--warm)}
+  .urg-high{border-left:4px solid var(--warm)}
+
+  /* ---- 結果画面 ---- */
+  #result{margin-top:24px}
+  .result-title{font-size:1.3rem;font-weight:700;margin-bottom:4px}
+  .result-back{font-size:.85rem;margin-bottom:18px;display:inline-block}
+  .block{background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:20px 22px;margin-bottom:18px}
+  .block h2{font-size:1rem;font-weight:700;color:var(--c1);margin-bottom:14px;display:flex;align-items:center;gap:8px}
+  .block.safety{border-color:var(--c1);border-width:2px}
+  .block.safety.urgent{background:#FBF3EA;border-color:var(--warm)}
+  .block.safety.urgent h2{color:var(--warm)}
+  .urgency-flag{display:inline-block;font-size:.7rem;font-weight:700;color:#fff;background:var(--warm);border-radius:4px;padding:2px 8px}
+  .hotline{border-bottom:1px solid var(--line);padding:12px 0}
+  .hotline:last-child{border-bottom:none}
+  .hotline .name{font-weight:700;font-size:.95rem}
+  .hotline .tel{font-size:1.1rem;font-weight:700;color:var(--c1);margin-top:4px;display:inline-block}
+  .hotline .meta{font-size:.78rem;color:var(--sub);margin-top:2px}
+  .hotline .note{font-size:.82rem;margin-top:6px;line-height:1.6}
+  .family-note{background:#EFF4EE;border-radius:8px;padding:8px 12px;font-size:.82rem;margin-top:8px}
+  .layer-links{display:flex;flex-wrap:wrap;gap:10px}
+  .layer-link{font-family:inherit;font-size:.88rem;font-weight:700;background:var(--c2);color:#fff;border:none;border-radius:8px;
+    padding:10px 16px;text-decoration:none;display:inline-block;cursor:pointer}
+  .layer-link:focus-visible{outline:3px solid var(--focus);outline-offset:2px}
+  .program-card{border:1px solid var(--line);border-radius:10px;padding:14px 16px;margin-bottom:10px}
+  .program-card h3{font-size:.95rem;font-weight:700}
+  .program-card .line{font-size:.82rem;color:var(--sub);margin-top:4px}
+  .empty-msg{font-size:.85rem;color:var(--sub)}
+  /* supporter-only要素は、印刷時に画面上のモードを問わず必ず隠す（@media print側）。
+     画面表示では、familyモードのときだけ隠す（body.mode-familyで制御）。 */
+  body.mode-family .supporter-only{display:none}
+  .title-family{display:none}
+  body.mode-family .title-family{display:inline}
+  body.mode-family .title-supporter{display:none}
+  .badge{display:inline-block;font-size:.66rem;font-weight:700;color:#fff;background:var(--c1);border-radius:3px;padding:1px 6px;margin-right:4px}
+
+  /* ---- DV離脱ボタン ---- */
+  .dv-exit-bar{position:sticky;top:0;z-index:50;background:var(--danger);color:#fff;padding:12px 18px;display:flex;
+    gap:12px;align-items:center;flex-wrap:wrap;font-size:.85rem}
+  .dv-exit-bar button{font-family:inherit;font-weight:700;background:#fff;color:var(--danger);border:none;border-radius:6px;
+    padding:8px 16px;cursor:pointer;font-size:.85rem}
+  .dv-exit-bar button:focus-visible{outline:3px solid #fff;outline-offset:2px}
+  .dv-guide{background:#FDECEC;border:1px solid #F0B8B8;border-radius:10px;padding:16px 18px;margin-bottom:18px;font-size:.85rem;line-height:1.8}
+  .dv-guide h2{color:var(--danger);font-size:.95rem;margin-bottom:8px}
+
+  .skip-link{position:absolute;left:-999px;top:0;background:var(--c1);color:#fff;padding:10px 16px;z-index:100}
+  .skip-link:focus{left:8px;top:8px}
+
+  footer{padding:20px 18px 40px;font-size:.72rem;color:var(--sub);text-align:center}
+
+  @media (max-width:600px){
+    .concern-list{grid-template-columns:1fr}
+  }
+
+  @media print{
+    header .backlink, .mode-switch, .privacy-note, .result-back, .dv-exit-bar,
+    .supporter-only, .badge{ display:none !important; }
+    /* 印刷直前の画面モードに関わらず、困りごと名は必ずfamilyラベルを出す */
+    .title-supporter{ display:none !important; }
+    .title-family{ display:inline !important; }
+    body{background:#fff;font-size:12pt}
+    .block{border:1px solid #999;box-shadow:none;break-inside:avoid}
+  }
+</style>
+</head>
+<body>
+<a class="skip-link" href="#main">本文へスキップ</a>
+<div id="dv-exit-container"></div>
+<header>
+  <a class="backlink" href="index.html">← 地図トップへ戻る</a>
+  <h1>困りごとから探す</h1>
+  <p class="sub">お子さんや子育てで困っていることを1つ選ぶと、相談窓口・地域の資源・関連プログラムをまとめて表示します。</p>
+  <div class="mode-switch" role="group" aria-label="表示モード">
+    <button type="button" id="mode-supporter" class="active" aria-pressed="true">支援者向け</button>
+    <button type="button" id="mode-family" aria-pressed="false">保護者向け</button>
+  </div>
+  <p class="privacy-note" id="privacy-note"></p>
+</header>
+<main id="main" class="wrap">
+  <div id="list-view"></div>
+  <div id="result-view" style="display:none"></div>
+</main>
+<footer>
+  選択内容は送信・保存されません（このページを閉じれば消えます）。<br>
+  掲載情報は変更されることがあります。利用前に各機関へご確認ください。
+</footer>
+
+<script>
+(function(){
+  'use strict';
+  let DATA = null;
+  let mode = 'supporter'; // 'supporter' | 'family'（localStorageには保存しない）
+
+  const listView = document.getElementById('list-view');
+  const resultView = document.getElementById('result-view');
+  const dvExitContainer = document.getElementById('dv-exit-container');
+
+  function escHtml(s){
+    return String(s == null ? '' : s).replace(/[&<>"']/g, function(c){
+      return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c];
+    });
+  }
+
+  function setMode(m){
+    mode = m;
+    document.body.classList.toggle('mode-family', m === 'family');
+    document.getElementById('mode-supporter').classList.toggle('active', m === 'supporter');
+    document.getElementById('mode-supporter').setAttribute('aria-pressed', m === 'supporter');
+    document.getElementById('mode-family').classList.toggle('active', m === 'family');
+    document.getElementById('mode-family').setAttribute('aria-pressed', m === 'family');
+    document.getElementById('privacy-note').textContent = DATA ? DATA.meta.audience_modes[m] : '';
+    render();
+  }
+  document.getElementById('mode-supporter').addEventListener('click', function(){ setMode('supporter'); });
+  document.getElementById('mode-family').addEventListener('click', function(){ setMode('family'); });
+
+  function conceptLabel(c){ return mode === 'family' ? c.label_family : c.label_supporter; }
+
+  function findById(list, id){
+    for(let i=0;i<list.length;i++){ if(list[i].id === id) return list[i]; }
+    return null;
+  }
+
+  /* ============ 一覧画面 ============ */
+  function renderList(){
+    const groups = {};
+    const order = [];
+    DATA.concerns.forEach(function(c){
+      if(order.indexOf(c.group) === -1) order.push(c.group);
+      (groups[c.group] = groups[c.group] || []).push(c);
+    });
+    let html = '';
+    order.forEach(function(g){
+      html += '<section class="group"><h2>' + escHtml(g) + '</h2><div class="concern-list">';
+      groups[g].forEach(function(c){
+        const urgClass = (c.urgency === 'critical' || c.urgency === 'high') ? ' urg-' + c.urgency : '';
+        const urgLabel = c.urgency === 'critical' ? '急ぎの対応が必要です' : (c.urgency === 'high' ? '早めのご相談をおすすめします' : '');
+        html += '<button type="button" class="concern-btn' + urgClass + '" data-id="' + c.id + '">'
+          + escHtml(conceptLabel(c))
+          + (urgLabel ? '<span class="urg">' + urgLabel + '</span>' : '')
+          + '</button>';
+      });
+      html += '</div></section>';
+    });
+    listView.innerHTML = html;
+    listView.querySelectorAll('.concern-btn').forEach(function(btn){
+      btn.addEventListener('click', function(){ goToConcern(btn.dataset.id); });
+    });
+  }
+
+  function goToConcern(id){
+    const params = new URLSearchParams(location.search);
+    params.set('id', id);
+    history.pushState({id:id}, '', location.pathname + '?' + params.toString());
+    render();
+    window.scrollTo(0,0);
+  }
+  function goToList(){
+    history.pushState({}, '', location.pathname);
+    render();
+    window.scrollTo(0,0);
+  }
+
+  /* ============ 結果画面 ============ */
+  function renderHotline(hid){
+    const h = findById(DATA.hotlines, hid);
+    if(!h) return '';
+    let body = '<div class="hotline">';
+    body += '<div class="name">' + escHtml(h.name) + '</div>';
+    if(h.tel){
+      body += '<a class="tel" href="tel:' + escHtml(h.tel.replace(/[^0-9+]/g,'')) + '">' + escHtml(h.tel) + '</a>';
+    } else if(h.resolve){
+      // 電話番号が地域により異なる窓口。番号を推測せず、地図の③相談タブへ誘導する。
+      body += '<a class="tel" href="index.html?layers=3">お住まいの地域の窓口を地図で探す →</a>';
+    } else if(h.channel){
+      // 電話番号を持たずLINE等別チャネルのみの窓口。リンクを推測で作らず種別のみ示す。
+      body += '<div class="meta">相談方法: ' + escHtml(h.channel) + '</div>';
+    }
+    const metaBits = [];
+    if(h.hours) metaBits.push(h.hours);
+    if(h.free) metaBits.push('無料');
+    if(h.anonymous) metaBits.push('匿名可');
+    if(metaBits.length) body += '<div class="meta">' + escHtml(metaBits.join('・')) + '</div>';
+    if(h.note) body += '<div class="note">' + escHtml(h.note) + '</div>';
+    if(h.url) body += '<div class="note"><a href="' + escHtml(h.url) + '" target="_blank" rel="noopener">詳しく見る</a></div>';
+    if(h.verify_required){
+      body += '<!-- verify_required: true（運営者確認用。この情報は未確認のため要再確認） -->';
+    }
+    body += '</div>';
+    return body;
+  }
+
+  /* プログラムカードの内容は「画面上の現在のモード」に関わらず一定にする。
+     ・常に表示する基本情報（名称・形式・概要）はmode非依存でDOMに含める
+     （印刷はscreen上のmodeを問わず常にこの基本情報だけが残る設計にするため）。
+     ・専門的情報（エビデンス格付け・認定tier・紹介経路・注意点）はsupporter-only
+       クラスを付けたうえで常にDOMには入れておき、画面表示はCSSでmode-familyの
+       ときだけ隠す。印刷時は@media printで問答無用に隠すため、印刷直前の
+       画面モードによらず常に保護者向けの基本情報だけが出る。 */
+  function renderProgram(pid){
+    const p = findById(DATA.programs, pid);
+    if(!p) return '';
+    const grades = DATA.meta.evidence_grades;
+    const tiers = DATA.meta.certification_tiers;
+    let html = '<div class="program-card"><h3>' + escHtml(p.name) + '</h3>';
+    html += '<div class="line">' + escHtml(p.format || '') + '</div>';
+    if(p.availability_note) html += '<div class="line">' + escHtml(p.availability_note) + '</div>';
+    html += '<div class="line supporter-only">';
+    if(p.evidence) html += '<span class="badge">エビデンス: ' + escHtml(grades[p.evidence.grade] || p.evidence.grade) + '</span>';
+    if(p.certification) html += '<span class="badge">認定: ' + escHtml(tiers[p.certification.tier] || p.certification.tier) + '</span>';
+    html += '</div>';
+    if(p.referral) html += '<div class="line supporter-only">紹介経路: ' + escHtml(p.referral) + '</div>';
+    if(p.caution) html += '<div class="line supporter-only">注意: ' + escHtml(p.caution) + '</div>';
+    if(p.certification && p.certification.directory_url){
+      html += '<div class="line supporter-only"><a href="' + escHtml(p.certification.directory_url) + '" target="_blank" rel="noopener">認定者名簿・実施団体を見る</a></div>';
+    }
+    html += '</div>';
+    return html;
+  }
+
+  function renderResult(id){
+    const c = findById(DATA.concerns, id);
+    dvExitContainer.innerHTML = '';
+    if(!c){
+      resultView.innerHTML = '<p>指定された困りごとが見つかりませんでした。<a href="' + location.pathname + '">一覧に戻る</a></p>';
+      return;
+    }
+    const isUrgent = (c.urgency === 'critical' || c.urgency === 'high');
+    let html = '<a class="result-back" href="#" id="back-to-list">← 困りごと一覧に戻る</a>';
+    // 印刷時は画面上のモードに関わらず必ずfamilyラベルを出すため、両方をDOMに入れてCSSで出し分ける。
+    html += '<h2 class="result-title"><span class="title-supporter">' + escHtml(c.label_supporter) + '</span>'
+      + '<span class="title-family">' + escHtml(c.label_family) + '</span></h2>';
+
+    if(c.id === 'c_dv'){
+      html += '<div class="dv-guide"><h2>安全のために</h2>'
+        + '共有している端末でこの画面を見ている場合、閲覧履歴が残ることがあります。'
+        + 'このページを閉じた後、ブラウザの履歴（設定 → 履歴 → 削除）から今日の履歴を消すことをおすすめします。'
+        + '緊急時は迷わず110番・またはページ上部の離脱ボタンをお使いください。</div>';
+    }
+
+    // ---- ブロック1: 今すぐの窓口 ----
+    html += '<section class="block safety' + (isUrgent ? ' urgent' : '') + '">'
+      + '<h2>今すぐの窓口'
+      + (isUrgent ? '<span class="urgency-flag">' + (c.urgency === 'critical' ? '至急' : '早めに') + '</span>' : '')
+      + '</h2>';
+    (c.safety_first || []).forEach(function(hid){ html += renderHotline(hid); });
+    if(mode === 'family' && c.family_note){
+      html += '<div class="family-note">' + escHtml(c.family_note) + '</div>';
+    }
+    html += '</section>';
+
+    // ---- ブロック2: 地域の実在資源 ----
+    html += '<section class="block local"><h2>地域の実在資源</h2><div class="layer-links">';
+    (c.map_layers || []).forEach(function(ml){
+      const label = DATA.meta.layers[ml.layer] || ('レイヤ' + ml.layer);
+      html += '<a class="layer-link" href="index.html?layers=' + escHtml(ml.layer) + '">地図で見る（' + escHtml(label) + '）</a>';
+    });
+    html += '</div><p class="line" style="margin-top:10px;font-size:.8rem;color:var(--sub)">'
+      + '都道府県を選ぶとその地域の実在施設が表示されます。データが未整備の地域では「準備中」と表示されます。</p></section>';
+
+    // ---- ブロック3: プログラム（hide_programsのときは描画自体しない） ----
+    if(!c.hide_programs){
+      html += '<section class="block programs"><h2>プログラム</h2>';
+      const progs = c.programs || [];
+      if(progs.length === 0){
+        html += '<p class="empty-msg">' + escHtml(DATA.meta.output_contract.blocks[2].empty_message) + '</p>';
+      } else {
+        progs.forEach(function(pid){ html += renderProgram(pid); });
+      }
+      html += '</section>';
+    }
+
+    if(mode === 'supporter' && c.notes_supporter){
+      html += '<section class="block supporter-only"><h2>支援者向けメモ</h2><p class="line">' + escHtml(c.notes_supporter) + '</p></section>';
+    }
+    if(mode === 'supporter' && c.exclusion){
+      html += '<section class="block supporter-only"><h2>留意点</h2><p class="line">' + escHtml(c.exclusion) + '</p></section>';
+    }
+
+    resultView.innerHTML = html;
+    document.getElementById('back-to-list').addEventListener('click', function(e){ e.preventDefault(); goToList(); });
+
+    if(c.id === 'c_dv'){
+      const bar = document.createElement('div');
+      bar.className = 'dv-exit-bar';
+      bar.innerHTML = '<span>この画面をすぐに隠せます</span>'
+        + '<button type="button" id="dv-exit-btn">今すぐ離れる</button>';
+      dvExitContainer.appendChild(bar);
+      document.getElementById('dv-exit-btn').addEventListener('click', function(){
+        location.replace('https://www.google.com/search?q=weather');
+      });
+    }
+  }
+
+  /* ============ 画面切り替え ============ */
+  function render(){
+    const id = new URLSearchParams(location.search).get('id');
+    if(id){
+      listView.style.display = 'none';
+      resultView.style.display = '';
+      renderResult(id);
+    } else {
+      dvExitContainer.innerHTML = '';
+      listView.style.display = '';
+      resultView.style.display = 'none';
+      renderList();
+    }
+  }
+  window.addEventListener('popstate', render);
+
+  fetch('kodomo-concerns.json').then(function(r){
+    if(!r.ok) throw new Error('failed');
+    return r.json();
+  }).then(function(json){
+    DATA = json;
+    document.getElementById('privacy-note').textContent = DATA.meta.audience_modes.supporter;
+    render();
+  }).catch(function(){
+    listView.innerHTML = '<p>データの読み込みに失敗しました。時間をおいて再度お試しください。</p>';
+  });
+})();
+</script>
+</body>
+</html>
