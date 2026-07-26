@@ -411,6 +411,22 @@
       "terms_checked": null,
       "conditions": "【未確認】都道府県教育委員会等の公式サイトのサイトポリシーは個別に確認していない。掲載しているのは施設名・所在地・電話番号等の事実情報のみ（CLAUDE.mdルール17により確認必須の対象外）。"
     },
+    "kumamoto_pref_freeschool": {
+      "source_label": "熊本県「フリースクール等民間施設」",
+      "source": "https://www.pref.kumamoto.jp/soshiki/132/205898.html",
+      "publisher": "熊本県",
+      "checked": "2026-07-26",
+      "as_of": "令和8年3月現在",
+      "tier": "B",
+      "discovery_query": "熊本県教育委員会 不登校 フリースクール 民間施設 一覧",
+      "notes": "熊本県の児童生徒が利用したことのある施設のみ（原文: 「県内すべての民間施設ではありません。また、熊本県教育委員会が所管しているものではありません。」）。原資料22件のうち、福岡県大牟田市所在の1件（県外拠点）を除く21件を収録。",
+      "license": null,
+      "license_url": null,
+      "credit": true,
+      "modified_note": true,
+      "terms_checked": null,
+      "conditions": "【未確認】都道府県教育委員会等の公式サイトのサイトポリシーは個別に確認していない。掲載しているのは施設名・所在地・電話番号等の事実情報のみ（CLAUDE.mdルール17により確認必須の対象外）。"
+    },
     "mie_pref_freeschool": {
       "source_label": "三重県教育委員会「不登校児童生徒の支援を行うフリースクール等民間施設一覧」",
       "source": "https://www.pref.mie.lg.jp/SEISHI/HP/m0206900092.htm",
