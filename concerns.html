@@ -6,6 +6,9 @@
 <title>困りごとから探す｜こども支援資源マップ</title>
 <meta name="description" content="お子さんや子育てで困っていることを1つ選ぶと、今すぐの相談窓口・お住まいの地域の資源・関連プログラムをまとめて確認できます。">
 <link href="https://fonts.googleapis.com/css2?family=BIZ+UDPGothic:wght@400;700&display=swap" rel="stylesheet">
+<!-- QRコード生成: kazuhikoarase/qrcode-generator（MIT）をローカルに同梱。外部CDNへは通信しない。
+     印刷面で地図へのディープリンクをQR化するためだけに使用する（vendor/qrcode-generator/README.md参照）。 -->
+<script src="vendor/qrcode-generator/qrcode.js"></script>
 <style>
   :root{
     --ink:#22303C; --sub:#5B6B78; --base:#F6F7F6; --panel:#FFFFFF; --line:#E1E6E4;
@@ -56,10 +59,15 @@
   .hotline .meta{font-size:.78rem;color:var(--sub);margin-top:2px}
   .hotline .note{font-size:.82rem;margin-top:6px;line-height:1.6}
   .family-note{background:#EFF4EE;border-radius:8px;padding:8px 12px;font-size:.82rem;margin-top:8px}
-  .layer-links{display:flex;flex-wrap:wrap;gap:10px}
+  .layer-links{display:flex;flex-wrap:wrap;gap:16px}
+  .layer-link-wrap{display:flex;flex-direction:column;align-items:flex-start;gap:6px}
   .layer-link{font-family:inherit;font-size:.88rem;font-weight:700;background:var(--c2);color:#fff;border:none;border-radius:8px;
     padding:10px 16px;text-decoration:none;display:inline-block;cursor:pointer}
   .layer-link:focus-visible{outline:3px solid var(--focus);outline-offset:2px}
+  /* QRコードは印刷時だけ表示する（画面ではボタンで直接遷移できるため不要）。 */
+  .qr-print{display:none}
+  .qr-print svg{width:104px;height:104px}
+  .qr-print .qr-url{font-size:.68rem;color:var(--sub);word-break:break-all;max-width:150px}
   .program-card{border:1px solid var(--line);border-radius:10px;padding:14px 16px;margin-bottom:10px}
   .program-card h3{font-size:.95rem;font-weight:700}
   .program-card .line{font-size:.82rem;color:var(--sub);margin-top:4px}
@@ -96,6 +104,9 @@
     /* 印刷直前の画面モードに関わらず、困りごと名は必ずfamilyラベルを出す */
     .title-supporter{ display:none !important; }
     .title-family{ display:inline !important; }
+    /* 画面のボタンは印刷では押せないため隠し、代わりにQRコードとURL文字列を出す */
+    .layer-link{ display:none !important; }
+    .qr-print{ display:flex !important; flex-direction:column; align-items:flex-start; gap:4px; }
     body{background:#fff;font-size:12pt}
     .block{border:1px solid #999;box-shadow:none;break-inside:avoid}
   }
@@ -256,6 +267,32 @@
     return html;
   }
 
+  /* 画面には出さず印刷時だけ使うQRコードを、地図へのディープリンクごとに生成する。
+     画面上の相対href（例: index.html?layers=3）は、<a>要素の.href（DOM経由）で読むと
+     ブラウザが自動的に絶対URLへ解決してくれるため、それをQR化する（印刷物だけを見た人が
+     スキャンしてもこのページ上のパスに依存せず正しく開けるようにするため）。 */
+  function fillQrCodes(){
+    if(typeof qrcode !== 'function') return;
+    document.querySelectorAll('.qr-print').forEach(function(el){
+      const href = el.getAttribute('data-href');
+      const label = el.getAttribute('data-label') || '';
+      if(!href) return;
+      // 一時的な<a>で相対パスを絶対URLに解決する。
+      const a = document.createElement('a');
+      a.href = href;
+      const absoluteUrl = a.href;
+      try {
+        const qr = qrcode(0, 'M');
+        qr.addData(absoluteUrl);
+        qr.make();
+        const svg = qr.createSvgTag({ scalable: true, alt: '地図（' + label + '）へのQRコード' });
+        el.innerHTML = svg + '<span class="qr-url">' + escHtml(absoluteUrl) + '</span>';
+      } catch(err){
+        el.innerHTML = '<span class="qr-url">' + escHtml(absoluteUrl) + '</span>';
+      }
+    });
+  }
+
   function renderResult(id){
     const c = findById(DATA.concerns, id);
     dvExitContainer.innerHTML = '';
@@ -291,7 +328,11 @@
     html += '<section class="block local"><h2>地域の実在資源</h2><div class="layer-links">';
     (c.map_layers || []).forEach(function(ml){
       const label = DATA.meta.layers[ml.layer] || ('レイヤ' + ml.layer);
-      html += '<a class="layer-link" href="index.html?layers=' + escHtml(ml.layer) + '">地図で見る（' + escHtml(label) + '）</a>';
+      const href = 'index.html?layers=' + encodeURIComponent(ml.layer);
+      html += '<div class="layer-link-wrap">'
+        + '<a class="layer-link" href="' + escHtml(href) + '">地図で見る（' + escHtml(label) + '）</a>'
+        + '<span class="qr-print" data-href="' + escHtml(href) + '" data-label="' + escHtml(label) + '"></span>'
+        + '</div>';
     });
     html += '</div><p class="line" style="margin-top:10px;font-size:.8rem;color:var(--sub)">'
       + '都道府県を選ぶとその地域の実在施設が表示されます。データが未整備の地域では「準備中」と表示されます。</p></section>';
@@ -317,6 +358,7 @@
 
     resultView.innerHTML = html;
     document.getElementById('back-to-list').addEventListener('click', function(e){ e.preventDefault(); goToList(); });
+    fillQrCodes();
 
     if(c.id === 'c_dv'){
       const bar = document.createElement('div');
