@@ -832,6 +832,13 @@ const boundsDirty = {};
 // 都道府県内の位置関係が分かる程度（12〜13）に抑える。
 const FIT_MAX_ZOOM = 13;
 let currentRegionCenter = [34.661739, 133.935028];  // loadRegion()でregion.centerに差し替える
+/* 地域切り替えのリクエスト世代カウンタ。fetchJson()は非同期のため、地域を素早く
+   切り替えると前の地域への応答が後から返ってくることがある（ネットワーク遅延・
+   データ量の違いによる到着順の逆転）。ガード無しだと古い地域のデータで新しい地域の
+   表示を上書きしてしまう（例: 東京都を選んだ直後に北海道の施設が表示される）。
+   loadRegion()呼び出しごとにインクリメントし、各非同期コールバックの先頭で
+   「自分が呼ばれた時点の世代がまだ最新か」を確認してから状態を書き換える。 */
+let loadSeq = 0;
 let currentManabiData = [];
 let currentIbashoJidoukan = [];
 let currentIbashoPlaces = [];
@@ -1113,6 +1120,7 @@ function loadRegion(key){
   const region = REGIONS[key];
   if(!region) return;
   const avail = region.available;
+  const seq = ++loadSeq;  // このロード呼び出し固有の世代番号（下の非同期コールバックが参照する）
   // 0件時のフォールバック表示に使う中心座標。選択中の都道府県のものに差し替える
   // （岡山県固定だと他県で常に岡山が表示されてしまうため）。
   currentRegionCenter = region.center || currentRegionCenter;
@@ -1132,53 +1140,58 @@ function loadRegion(key){
   // ①学び
   if(avail.manabi){
     fetchJson(region.base + 'manabi.json').then(function(data){
+      if(seq !== loadSeq) return;  // 別の地域へ切り替え済みなら、この古い応答は無視する
       renderManabi(data);
       updateManabiNotice(key, data);
       currentSrcIds.manabi = collectSrcIds(data);
       srcLoaded.manabi = true;
       renderFooterSources(region);
-    }).catch(function(err){ showFetchError('map-manabi', err); });
+    }).catch(function(err){ if(seq === loadSeq) showFetchError('map-manabi', err); });
   } else { showUnavailable('panel-manabi','map-manabi','list-manabi'); }
 
   // ②居場所
   if(avail.ibasho){
     Promise.all([fetchJson(region.base + 'jidoukan.json'), fetchJson(region.base + 'ibasho.json')])
       .then(function(r){
+        if(seq !== loadSeq) return;
         renderIbasho(r[0], r[1], key);
         currentSrcIds.ibasho = collectSrcIds(r[0], r[1]);
         srcLoaded.ibasho = true;
         renderFooterSources(region);
       })
-      .catch(function(err){ showFetchError('map-ibasho', err); });
+      .catch(function(err){ if(seq === loadSeq) showFetchError('map-ibasho', err); });
   } else { showUnavailable('panel-ibasho','map-ibasho','ibasho-list-body'); }
 
   // ③相談
   if(avail.sodan){
     fetchJson(region.base + 'sodan.json').then(function(data){
+      if(seq !== loadSeq) return;
       renderSodan(data);
       updateSodanLegend(region, data);
       updateSodanNotice(region, data);
       currentSrcIds.sodan = collectSrcIds(data);
       srcLoaded.sodan = true;
       renderFooterSources(region);
-    }).catch(function(err){ showFetchError('map-sodan', err); });
+    }).catch(function(err){ if(seq === loadSeq) showFetchError('map-sodan', err); });
   } else { showUnavailable('panel-sodan','map-sodan','sodan-list-body'); }
 
   // ④親家族
   if(avail.oyakazoku){
     Promise.all([fetchJson(region.base + 'kyoten.json'), fetchJson(region.base + 'jidoukan.json'), fetchJson(region.base + 'oyanokai.json')])
       .then(function(r){
+        if(seq !== loadSeq) return;
         renderOyakazoku(r[0], r[1], r[2]);
         currentSrcIds.oyakazoku = collectSrcIds(r[0], r[1], r[2]);
         srcLoaded.oyakazoku = true;
         renderFooterSources(region);
       })
-      .catch(function(err){ showFetchError('map-oyakazoku', err); });
+      .catch(function(err){ if(seq === loadSeq) showFetchError('map-oyakazoku', err); });
   } else { showUnavailable('panel-oyakazoku','map-oyakazoku','oya-list-body'); }
 
   // ⑤発達
   if(avail.hattatsu){
     fetchJson(region.base + 'hattatsu.json').then(function(data){
+      if(seq !== loadSeq) return;
       renderHattatsu(data);
       updateHattatsuNotice(region, key, data);
       // 岡山県は県資料との突合済みレコードがあるため、その出典も拾う（pref_list_srcを持つ件）。
@@ -1186,7 +1199,7 @@ function loadRegion(key){
       srcLoaded.hattatsu = true;
       if(data.some(function(r){ return r.pref_list_src; })) currentSrcIds.hattatsu.push('okayama_pref_hattatsu_list');
       renderFooterSources(region);
-    }).catch(function(err){ showFetchError('map-hattatsu', err); });
+    }).catch(function(err){ if(seq === loadSeq) showFetchError('map-hattatsu', err); });
   } else { showUnavailable('panel-hattatsu','map-hattatsu','ryoiku-list-body'); }
 
   // 学区界
@@ -1196,6 +1209,7 @@ function loadRegion(key){
   setDistrictsNote('準備中');  // データ取得完了までの暫定表示。取得できれば下でエリア数に置き換える
   if(districtsAvailable){
     fetchJson(region.base + 'districts.json').then(function(geojson){
+      if(seq !== loadSeq) return;
       Object.keys(ALL_MAPS).forEach(function(key){
         const layer = L.geoJSON(geojson, {
           style: {color:'#8A4B2B', weight:1, fillColor:'#C9A87C', fillOpacity:.08},
@@ -1234,7 +1248,7 @@ function loadRegion(key){
       srcLoaded.districts = true;
       renderFooterSources(region);
       if(districtsVisible) setDistrictsVisible(true);
-    }).catch(function(err){ console.warn('学区界の読み込みに失敗:', err); districtsAvailable = false; setDistrictsNote('準備中'); });
+    }).catch(function(err){ if(seq !== loadSeq) return; console.warn('学区界の読み込みに失敗:', err); districtsAvailable = false; setDistrictsNote('準備中'); });
   }
   setDistrictsVisible(false);
   document.querySelectorAll('.toggle-districts').forEach(function(cb){ cb.disabled = !districtsAvailable; });
