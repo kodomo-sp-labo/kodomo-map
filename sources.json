@@ -443,6 +443,22 @@
       "terms_checked": "2026-07-27",
       "conditions": "福島県の著作権規定は「私的使用のための複製・引用など著作権法上認められた場合を除き、無断で転用・引用することはできない。内容の改変も不可」（政府標準利用規約・PDL・CC BYへの言及なし）。当サイトが保持しているのは施設名・所在地・電話番号等の事実情報のみで、内容を改変せずそのまま使用している。"
     },
+    "yamagata_pref_kyoten": {
+      "source_label": "山形県「地域子育て支援拠点一覧」",
+      "source": "https://www.pref.yamagata.jp/documents/2498/chiikikosodatesienkyotenitiran2025.pdf",
+      "publisher": "山形県",
+      "checked": "2026-07-27",
+      "as_of": "令和7年4月1日現在",
+      "tier": "B",
+      "discovery_query": "山形県 地域子育て支援拠点 一覧 施設",
+      "notes": "県内4地区（村山・最上・置賜・庄内）別に整理番号・地区内番号・市町村内番号の見出し列が挟まる複雑な表組みのPDF（計112件）。行ごとの列数が地区により9列/10列と異なっていたため、常に末尾6列（市町村・名称・設置場所・郵便番号・住所・電話）を取得する方式で吸収した。住所欄は市町村名を含まないため、ジオコーディング時に市町村名を先頭に付与。県内35市町村全てに実施施設があった。既存のyamagata_pref_oyanokai（親の会17件、別ソースURL）とは別集計。",
+      "license": "山形県サイトポリシー（オープンデータではない）",
+      "license_url": "https://www.pref.yamagata.jp/kensei/shoukai/aboutthissite/mensekijikou.html",
+      "credit": true,
+      "modified_note": true,
+      "terms_checked": "2026-07-27",
+      "conditions": "山形県の著作権規定は「著作権法で認められた場合を除き、複製・転用をすることはできない」という一般的なもの（政府標準利用規約・PDL・CC BYへの言及なし）。当サイトが保持しているのは施設名・所在地・電話番号等の事実情報のみ。"
+    },
     "ishikawa_pref_kyoten": {
       "source_label": "いしかわおやコミ！.net「地域子育て支援拠点一覧」PDF",
       "source": "https://www.i-oyacomi.net/uploads/media/BUOOYk4wVAA",
