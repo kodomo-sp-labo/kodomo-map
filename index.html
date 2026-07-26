@@ -494,7 +494,8 @@ const REGIONS = {
     label: '石川県',
     base: 'data/17_ishikawa/',
     center: [36.594604, 136.625671],
-    available: { manabi:true, sodan:true, hattatsu:true, districts:true }
+    // 【2026-07-27追加】④は地域子育て支援拠点（93件・ishikawa_pref_kyoten）のみ。jidoukan.json・oyanokai.jsonは空配列。
+    available: { manabi:true, sodan:true, hattatsu:true, districts:true, oyakazoku:true }
   },
   fukui: {
     label: '福井県',
