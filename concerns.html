@@ -59,6 +59,16 @@
   .hotline .meta{font-size:.78rem;color:var(--sub);margin-top:2px}
   .hotline .note{font-size:.82rem;margin-top:6px;line-height:1.6}
   .family-note{background:#EFF4EE;border-radius:8px;padding:8px 12px;font-size:.82rem;margin-top:8px}
+  /* concern単位の出典（supporter_sources）。親要素が .block.supporter-only のため、
+     家族モードでの非表示（body.mode-family .supporter-only）と印刷時の非表示
+     （at-media print の .supporter-only）は既存ルールでそのまま効く。 */
+  .supporter-sources{margin-top:14px;padding-top:12px;border-top:1px solid var(--line)}
+  .supporter-sources h3{font-size:.8rem;font-weight:700;color:var(--sub);margin-bottom:8px}
+  .supporter-sources ul{list-style:none;margin:0;padding:0}
+  .supporter-sources li{font-size:.78rem;line-height:1.6;margin-bottom:10px}
+  .supporter-sources li:last-child{margin-bottom:0}
+  .supporter-sources a{word-break:break-word}
+  .supporter-sources .src-meta,.supporter-sources .src-note{display:block;color:var(--sub);font-size:.72rem;margin-top:2px}
   .external-link-note{background:#FBF3EA;border:1px solid #EAD9C2;border-radius:8px;padding:10px 14px;font-size:.85rem;margin-top:12px;line-height:1.7}
   .external-link-note p{margin-bottom:6px;color:var(--sub)}
   .external-link-note a{font-weight:700}
@@ -275,6 +285,32 @@
     return html;
   }
 
+  /* concern単位の出典を、支援者モードのときだけ支援者向けメモの下に描画する。
+     supporter_sources が無い、または空配列のconcernでは何も描画しない（空の見出しを出さない）。
+     _needs_review は内部QA用フィールドのため描画しない。 */
+  function renderSupporterSources(c){
+    const list = c.supporter_sources || [];
+    if(!list.length) return '';
+    let html = '<div class="supporter-sources"><h3>出典</h3><ul>';
+    list.forEach(function(s){
+      const label = escHtml(s.label || '');
+      html += '<li>';
+      if(s.url){
+        html += '<a href="' + escHtml(s.url) + '" target="_blank" rel="noopener">' + label + '</a>';
+      } else {
+        html += label;
+      }
+      const meta = [];
+      if(s.publisher) meta.push(s.publisher);
+      if(s.checked) meta.push('確認日 ' + s.checked);
+      if(meta.length) html += '<span class="src-meta">' + escHtml(meta.join('／')) + '</span>';
+      if(s.note) html += '<span class="src-note">' + escHtml(s.note) + '</span>';
+      html += '</li>';
+    });
+    html += '</ul></div>';
+    return html;
+  }
+
   /* 画面には出さず印刷時だけ使うQRコードを、地図へのディープリンクごとに生成する。
      画面上の相対href（例: index.html?layers=3）は、<a>要素の.href（DOM経由）で読むと
      ブラウザが自動的に絶対URLへ解決してくれるため、それをQR化する（印刷物だけを見た人が
@@ -364,8 +400,11 @@
       html += '</section>';
     }
 
-    if(mode === 'supporter' && c.notes_supporter){
-      html += '<section class="block supporter-only"><h2>支援者向けメモ</h2><p class="line">' + escHtml(c.notes_supporter) + '</p></section>';
+    if(mode === 'supporter' && (c.notes_supporter || (c.supporter_sources || []).length)){
+      html += '<section class="block supporter-only"><h2>支援者向けメモ</h2>';
+      if(c.notes_supporter) html += '<p class="line">' + escHtml(c.notes_supporter) + '</p>';
+      html += renderSupporterSources(c);
+      html += '</section>';
     }
     if(mode === 'supporter' && c.exclusion){
       html += '<section class="block supporter-only"><h2>留意点</h2><p class="line">' + escHtml(c.exclusion) + '</p></section>';
