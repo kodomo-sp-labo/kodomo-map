@@ -541,8 +541,10 @@ const REGIONS = {
     center: [36.695267, 137.211304],
     // 【2026-07-28追加】県作成の一覧(H25.3時点)を出発点に、15市町村すべてで現況を個別に
     // 確認し直して67件を採用（市町村ごとにiwate同様`toyama_<市町>_kyoten`の出典）。
-    // jidoukan.json・oyanokai.jsonは空配列。
-    available: { manabi:true, sodan:true, hattatsu:true, districts:true, oyakazoku:true }
+    // oyanokai.jsonは空配列。
+    // 【2026-07-28追加】②居場所は児童館・児童センター50件（13市町村）を投入し有効化。
+    // 子ども食堂（ibasho.json）はIBASHO_MAP_ENABLED=falseのため空配列のまま。
+    available: { manabi:true, ibasho:true, sodan:true, hattatsu:true, districts:true, oyakazoku:true }
   },
   ishikawa: {
     label: '石川県',
