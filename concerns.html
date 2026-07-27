@@ -59,6 +59,9 @@
   .hotline .meta{font-size:.78rem;color:var(--sub);margin-top:2px}
   .hotline .note{font-size:.82rem;margin-top:6px;line-height:1.6}
   .family-note{background:#EFF4EE;border-radius:8px;padding:8px 12px;font-size:.82rem;margin-top:8px}
+  .external-link-note{background:#FBF3EA;border:1px solid #EAD9C2;border-radius:8px;padding:10px 14px;font-size:.85rem;margin-top:12px;line-height:1.7}
+  .external-link-note p{margin-bottom:6px;color:var(--sub)}
+  .external-link-note a{font-weight:700}
   .layer-links{display:flex;flex-wrap:wrap;gap:16px}
   .layer-link-wrap{display:flex;flex-direction:column;align-items:flex-start;gap:6px}
   .layer-link{font-family:inherit;font-size:.88rem;font-weight:700;background:var(--c2);color:#fff;border:none;border-radius:8px;
@@ -338,7 +341,14 @@
         + '<span class="qr-print" data-href="' + escHtml(href) + '" data-label="' + escHtml(label) + '"></span>'
         + '</div>';
     });
-    html += '</div><p class="line" style="margin-top:10px;font-size:.8rem;color:var(--sub)">'
+    html += '</div>';
+    (c.external_links || []).forEach(function(el){
+      html += '<div class="external-link-note">'
+        + (el.note ? '<p>' + escHtml(el.note) + '</p>' : '')
+        + '<a href="' + escHtml(el.url) + '" target="_blank" rel="noopener">' + escHtml(el.label) + ' →</a>'
+        + '</div>';
+    });
+    html += '<p class="line" style="margin-top:10px;font-size:.8rem;color:var(--sub)">'
       + '都道府県を選ぶとその地域の実在施設が表示されます。データが未整備の地域では「準備中」と表示されます。</p></section>';
 
     // ---- ブロック3: プログラム（hide_programsのときは描画自体しない） ----

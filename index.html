@@ -57,6 +57,13 @@ if ('serviceWorker' in navigator) {
   .tab-btn{font-family:inherit;font-size:.82rem;font-weight:700;padding:9px 14px;border:none;background:transparent;
     color:var(--sub);cursor:pointer;border-bottom:3px solid transparent;margin-bottom:-3px;white-space:nowrap}
   .tab-btn.active{color:var(--c1);border-bottom-color:var(--c1)}
+  /* 子ども食堂の地図表示を一時停止している間、②居場所タブを選んでいる時だけ隣にむすびえへの
+     案内リンクを出す（IBASHO_MAP_ENABLEDと連動。CSSの隣接セレクタで.activeの付け外しに追従させる）。 */
+  .tab-side-link{display:none;align-items:center;gap:4px;align-self:center;margin-left:4px;
+    padding:4px 10px;font-size:.76rem;color:var(--sub);text-decoration:none;white-space:nowrap;
+    border:1px solid var(--line);border-radius:20px}
+  .tab-side-link:hover{color:var(--c1);border-color:var(--c1)}
+  .tab-btn[data-tab="ibasho"].active + .tab-side-link{display:inline-flex}
   .tab-panel{display:none}
   .tab-panel.active{display:block}
   .wrap{display:flex;gap:0;height:calc(100vh - 175px);min-height:520px}
@@ -130,6 +137,9 @@ if ('serviceWorker' in navigator) {
   <div class="tabs">
     <button class="tab-btn active" data-tab="manabi">①学び・出席扱い系</button>
     <button class="tab-btn" data-tab="ibasho">②居場所系</button>
+    <a class="tab-side-link" href="https://kodomoshokudo.gaccom.jp/map" target="_blank" rel="noopener">
+      <span aria-hidden="true">🍚</span> こども食堂の地図情報はこちら（ガッコム・むすびえ こども食堂マップ）<span aria-hidden="true">↗</span>
+    </a>
     <button class="tab-btn" data-tab="sodan">③相談・伴走系</button>
     <button class="tab-btn" data-tab="oyakazoku">④親・家族支援系</button>
     <button class="tab-btn" data-tab="hattatsu">⑤発達・医療連携系</button>
@@ -803,6 +813,10 @@ function clearDirectMarkers(map){
   map.eachLayer(function(l){ if(l instanceof L.CircleMarker || l instanceof L.Marker) map.removeLayer(l); });
 }
 
+/* 子ども食堂（ibasho.json）は、大阪府・岡山県とも「第三者サイトでの転載」への同意が
+   一次資料上で確認できていないため、むすびえへの相談が済むまで地図表示を一時停止する
+   （2026-07-27運営者判断）。データ自体（data/*/ibasho.json）は削除せず保持する。 */
+const IBASHO_MAP_ENABLED = false;
 const ibashoCluster = L.markerClusterGroup({maxClusterRadius:45, spiderfyOnMaxZoom:true});
 const oyaCluster = L.markerClusterGroup({maxClusterRadius:45, spiderfyOnMaxZoom:true});
 const ryoikuCluster = L.markerClusterGroup({
@@ -919,13 +933,15 @@ function renderIbasho(jidoukan, ibasho, key){
       '<div class="badges"><span class="badge" style="background:#B2508C">④地域子育て支援拠点 兼用</span></div></div>');
     markers.push(m);
   });
-  ibasho.forEach(function(f){
-    const precNote = f.prec==='town' ? '（町丁目レベルの概算）' : '（番地レベルの位置）';
-    const m = L.circleMarker([f.lat,f.lng],{radius:8,color:'#fff',weight:2,fillColor:'#4A7C59',fillOpacity:.95, ibType:'ibasho'});
-    m.bindTooltip('<strong>'+f.n+'</strong><br>子ども食堂・プレーパーク等'+precNote+'<br>'+f.a, {direction:'top', offset:[0,-10], opacity:.95, className:'facility-tip'});
-    m.bindPopup('<div class="popup-name">'+f.n+'</div><div class="popup-body">子ども食堂・プレーパーク等<br>学区：'+f.gakku+'<br>'+f.a+(f.t?'<br>'+f.t:'')+'</div>');
-    markers.push(m);
-  });
+  if(IBASHO_MAP_ENABLED){
+    ibasho.forEach(function(f){
+      const precNote = f.prec==='town' ? '（町丁目レベルの概算）' : '（番地レベルの位置）';
+      const m = L.circleMarker([f.lat,f.lng],{radius:8,color:'#fff',weight:2,fillColor:'#4A7C59',fillOpacity:.95, ibType:'ibasho'});
+      m.bindTooltip('<strong>'+f.n+'</strong><br>子ども食堂・プレーパーク等'+precNote+'<br>'+f.a, {direction:'top', offset:[0,-10], opacity:.95, className:'facility-tip'});
+      m.bindPopup('<div class="popup-name">'+f.n+'</div><div class="popup-body">子ども食堂・プレーパーク等<br>学区：'+f.gakku+'<br>'+f.a+(f.t?'<br>'+f.t:'')+'</div>');
+      markers.push(m);
+    });
+  }
   ibashoCluster.addLayers(markers);
   if(!mapIbasho.hasLayer(ibashoCluster)) mapIbasho.addLayer(ibashoCluster);
   if(markers.length){ const b = L.featureGroup(markers).getBounds().pad(0.1); lastBounds.ibasho = b; boundsDirty.ibasho = true; mapIbasho.fitBounds(b, {maxZoom:FIT_MAX_ZOOM}); }
@@ -947,8 +963,10 @@ function renderIbashoList(query){
       const cat = (f.facility_type==='jidouyuen') ? '児童遊園' : '児童館・児童センター';
       const yonyou = (f.facility_type==='jidouyuen') ? '' : '<span class="badge" style="background:#B2508C">④兼用</span>';
       return '<div class="card no-pin"><div class="cat">'+cat+'</div><h2>'+f.n+'</h2><div class="addr">'+f.a+'</div>'+(f.t?'<div class="tel">'+f.t+'</div>':'')+'<div class="badges">'+susp+yonyou+'</div></div>'; }).join('');
-  const iHtml = currentIbashoPlaces.filter(function(f){return !q || f.n.indexOf(q)!==-1 || f.gakku.indexOf(q)!==-1 || f.a.indexOf(q)!==-1;})
-    .map(function(f){ return '<div class="card no-pin"><div class="cat">子ども食堂・プレーパーク等</div><h2>'+f.n+'</h2><div class="addr">学区：'+f.gakku+'　'+f.a+'</div>'+(f.t?'<div class="tel">'+f.t+'</div>':'')+'</div>'; }).join('');
+  const iHtml = IBASHO_MAP_ENABLED
+    ? currentIbashoPlaces.filter(function(f){return !q || f.n.indexOf(q)!==-1 || f.gakku.indexOf(q)!==-1 || f.a.indexOf(q)!==-1;})
+        .map(function(f){ return '<div class="card no-pin"><div class="cat">子ども食堂・プレーパーク等</div><h2>'+f.n+'</h2><div class="addr">学区：'+f.gakku+'　'+f.a+'</div>'+(f.t?'<div class="tel">'+f.t+'</div>':'')+'</div>'; }).join('')
+    : '<div class="card no-pin"><div class="addr">子ども食堂・プレーパーク等は現在表示を停止しています。<a href="https://kodomoshokudo.gaccom.jp/map" target="_blank" rel="noopener">ガッコム・むすびえ こども食堂マップ</a>をご覧ください。</div></div>';
   body.innerHTML = '<div class="area-head">児童館・児童センター</div>'+jHtml+'<div class="area-head">子ども食堂・プレーパーク等</div>'+iHtml;
 }
 
@@ -1174,7 +1192,8 @@ function loadRegion(key){
       .then(function(r){
         if(seq !== loadSeq) return;
         renderIbasho(r[0], r[1], key);
-        currentSrcIds.ibasho = collectSrcIds(r[0], r[1]);
+        // 子ども食堂データ（r[1]）は表示を停止中のため、出典クレジットも表示箇所に合わせて外す（ルール19）
+        currentSrcIds.ibasho = IBASHO_MAP_ENABLED ? collectSrcIds(r[0], r[1]) : collectSrcIds(r[0]);
         srcLoaded.ibasho = true;
         renderFooterSources(region);
       })
@@ -1287,8 +1306,21 @@ function updateIbashoLegend(key){
   const jy = currentIbashoJidoukan.length - jk;
   const susp = currentIbashoJidoukan.filter(function(f){ return f.status==='suspended'; }).length;
   setText('lg-ibasho-1-n', jy ? (jk+'館＋児童遊園'+jy+'か所') : (jk+'館'));
-  setText('lg-ibasho-2-n', currentIbashoPlaces.length+'件');
   const suspNote = susp ? ('休止中の施設が'+susp+'件含まれます（一覧に明示）。') : '';
+  const jidoukanNote = jk ? ('児童館・児童センターを'+jk+'件収録しています。') : '児童館・児童センターは今後の調査対象です（現時点で0件）。';
+  if(!IBASHO_MAP_ENABLED){
+    setText('lg-ibasho-2-n', '非表示中');
+    const noticeEl = document.getElementById('notice-ibasho');
+    if(noticeEl){
+      noticeEl.innerHTML = jidoukanNote + suspNote
+        + '子ども食堂・プレーパーク等は、第三者サイトでの掲載についてデータ提供元への確認が済んでいないため、'
+        + '表示を一時停止しています。お近くのこども食堂は<a href="https://kodomoshokudo.gaccom.jp/map" target="_blank" rel="noopener">'
+        + 'ガッコム・むすびえ こども食堂マップ</a>でご確認いただけます。'
+        + '座標は国土地理院APIで市区町村名を突合して確認しています。';
+    }
+    return;
+  }
+  setText('lg-ibasho-2-n', currentIbashoPlaces.length+'件');
   let base;
   if(key === 'okayama'){
     base = '児童館・児童遊園は岡山県全域、子ども食堂・プレーパーク等は岡山市内のみを収録しています。'
@@ -1300,7 +1332,7 @@ function updateIbashoLegend(key){
       + '（特に大阪市・豊中市・門真市は原本の一部施設のみ、太子町は現時点で未収録）。'
       + (jk ? '' : '児童館・児童センターは今後の調査対象です（現時点で0件）。');
   } else {
-    base = jk ? ('児童館・児童センターを'+jk+'件収録しています。') : '児童館・児童センターは今後の調査対象です（現時点で0件）。';
+    base = jidoukanNote;
   }
   setText('notice-ibasho', base + suspNote + '座標は国土地理院APIで市区町村名を突合して確認しています。');
 }
