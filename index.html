@@ -815,7 +815,7 @@ function clearDirectMarkers(map){
 
 /* 子ども食堂（ibasho.json）は、大阪府・岡山県とも「第三者サイトでの転載」への同意が
    一次資料上で確認できていないため、むすびえへの相談が済むまで地図表示を一時停止する
-   （2026-07-27運営者判断）。データ自体（data/*/ibasho.json）は削除せず保持する。 */
+   （2026-07-27運営者判断）。データ自体（各県のdata配下のibasho.json）は削除せず保持する。 */
 const IBASHO_MAP_ENABLED = false;
 const ibashoCluster = L.markerClusterGroup({maxClusterRadius:45, spiderfyOnMaxZoom:true});
 const oyaCluster = L.markerClusterGroup({maxClusterRadius:45, spiderfyOnMaxZoom:true});
