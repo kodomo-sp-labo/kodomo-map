@@ -185,7 +185,8 @@
       ],
       "programs": [],
       "notes_supporter": "出席扱い制度の可否は自治体・学校長判断。学びの多様化学校と教育支援センターを先に確認。親の会（④）併走が有効。",
-      "exclusion": null
+      "exclusion": "答えは学びの多様化学校・フリースクール等の「施設」であり、本サイトのprogramsは行動介入プログラムのみのため該当なし。プログラムブロックを非表示にする。",
+      "hide_programs": true
     },
     {
       "id": "c_school_daytime",
@@ -206,7 +207,8 @@
       ],
       "programs": [],
       "notes_supporter": "フリースクール費用の自治体補助の有無を確認。児童館は年齢制限に注意。",
-      "exclusion": null
+      "exclusion": "答えは学びの多様化学校・フリースクール・児童館等の「施設」であり、本サイトのprogramsは行動介入プログラムのみのため該当なし。プログラムブロックを非表示にする。",
+      "hide_programs": true
     },
     {
       "id": "c_bullying",
@@ -229,7 +231,34 @@
       ],
       "programs": [],
       "notes_supporter": "重大事態該当性の判断は学校設置者。SSW・SC接続を優先。",
-      "exclusion": null
+      "exclusion": "答えはSSW・SC等の「相談窓口」であり、本サイトのprogramsは行動介入プログラムのみのため該当なし。プログラムブロックを非表示にする。",
+      "hide_programs": true
+    },
+    {
+      "id": "c_learning_difficulty",
+      "label_supporter": "学習面の困難（読み書き・計算等）",
+      "label_family": "勉強についていけない・しんどい",
+      "group": "学びと居場所",
+      "urgency": "low",
+      "safety_first": [
+        "h_kodomo_katei_center",
+        "h_hattatsu_center"
+      ],
+      "map_layers": [
+        {
+          "layer": "5"
+        },
+        {
+          "layer": "1"
+        },
+        {
+          "layer": "3"
+        }
+      ],
+      "programs": [],
+      "notes_supporter": "全般的な知的発達に遅れがなく特定の学習面（読む・書く・計算する等）のみに困難がある場合、限局性学習症（SLD／学習障害）の可能性がある。まずは学校のスクールカウンセラー・特別支援教育コーディネーターへの相談、通級指導教室の利用可否の確認を優先。診断・検査（WISC等）や専門的な相談は発達障害者支援センターへ接続する。「頑張ればできるはず」という励ましは自己肯定感を損なうことがあるため、努力不足ではなく特性である可能性を前提に対応する。",
+      "exclusion": "答えは通級指導教室・発達障害者支援センター等の「制度・施設」であり、本サイトのprogramsは行動介入プログラムのみのため該当なし。プログラムブロックを非表示にする。",
+      "hide_programs": true
     },
     {
       "id": "c_dev_concern",
@@ -491,7 +520,8 @@
         }
       ],
       "notes_supporter": "自立相談支援機関（生活困窮者自立支援法）、就学援助、児童扶養手当を確認。子ども食堂は②レイヤ（現在表示停止中、むすびえのマップへ誘導）。",
-      "exclusion": null
+      "exclusion": "答えは自立相談支援機関・就学援助等の「制度」であり、本サイトのprogramsは行動介入プログラムのみのため該当なし。プログラムブロックを非表示にする。",
+      "hide_programs": true
     },
     {
       "id": "c_single_parent",

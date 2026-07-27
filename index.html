@@ -44,26 +44,16 @@ if ('serviceWorker' in navigator) {
   header{padding:16px 24px 0;background:var(--panel)}
   header h1{font-size:1.25rem;font-weight:700;letter-spacing:.02em}
   header p.sub{font-size:.8rem;color:var(--sub);margin:4px 0 10px}
-  /* タイトル行の右に、角丸正方形の優しいバッジとして配置する
-     （フルワイド帯は「バランスが悪い」、space-betweenで両端に離すと「タイトルから
-     離れすぎ」との指摘を受け、タイトルのすぐ右に寄せる形に変更。文言は「こまったら／
-     こちら」を試したが「カジュアルすぎる」との指摘で「困りごとから探す」に戻した。
-     色は暖色グラデーション→ティールグラデーションと試したが「グラデーションが重たい・
-     暗い印象」との指摘を受け、明るい単色の淡いティールに変更。文字も白から濃いティール
-     にして、暗い塊に見えないようにした。アイコンは吹き出し→はてなマーク→「お助け」を
-     直接示す浮き輪（🛟）に変更。 */
+  /* タイトル行の右に配置する。CSSだけで文言・色・アイコンを何度も試したが決め手に
+     欠けたため、運営者が用意した専用デザインのバナー画像（吹き出しピン風、640x297）に
+     差し替えた。画像はWebP（フォールバックPNG）に軽量化済み（元6.3MB→16KB）。 */
   .header-top{display:flex;align-items:center;justify-content:flex-start;gap:20px;flex-wrap:wrap}
-  .concerns-banner{display:flex;flex-direction:column;align-items:center;justify-content:center;gap:4px;
-    width:92px;height:92px;flex-shrink:0;text-align:center;
-    background:#DFF1EF;color:#1F5F5D;
-    border:2px solid #BFE3E0;border-radius:22px;text-decoration:none;font-weight:700;
-    box-shadow:0 2px 6px rgba(31,95,93,.18);transition:transform .15s,box-shadow .15s,background .15s}
-  .concerns-banner .cb-icon{font-size:1.7rem;line-height:1}
-  .concerns-banner .cb-text{font-size:.72rem;line-height:1.3;width:72px}
-  .concerns-banner:hover{background:#CFEAE7;transform:translateY(-2px);box-shadow:0 4px 10px rgba(31,95,93,.24)}
-  .concerns-banner:focus-visible{outline:3px solid #1A5FB4;outline-offset:2px}
-  @media (max-width:520px){ .concerns-banner{width:72px;height:72px;border-radius:16px}
-    .concerns-banner .cb-icon{font-size:1.3rem} .concerns-banner .cb-text{font-size:.6rem;width:56px} }
+  .concerns-banner{display:block;flex-shrink:0;line-height:0;border-radius:14px;
+    transition:transform .15s,filter .15s}
+  .concerns-banner img{display:block;height:84px;width:auto}
+  .concerns-banner:hover{transform:translateY(-2px);filter:brightness(1.05)}
+  .concerns-banner:focus-visible{outline:3px solid #1A5FB4;outline-offset:3px}
+  @media (max-width:520px){ .concerns-banner img{height:64px} }
   .region-bar{display:flex;align-items:center;gap:8px;flex-wrap:wrap;background:#EFF2ED;border:1px solid var(--line);
     border-radius:8px;padding:8px 12px;margin-bottom:12px;font-size:.78rem}
   .region-bar label{font-weight:700;color:var(--ink)}
@@ -159,8 +149,10 @@ if ('serviceWorker' in navigator) {
       <p class="sub">子ども・家族を支える資源を5つの機能で整理（社会的処方フレームワーク試作版）</p>
     </div>
     <a class="concerns-banner" href="concerns.html">
-      <span class="cb-icon" aria-hidden="true">🛟</span>
-      <span class="cb-text">困りごとから探す</span>
+      <picture>
+        <source srcset="concerns-banner.webp" type="image/webp">
+        <img src="concerns-banner.png" alt="困りごとから探す" width="640" height="297">
+      </picture>
     </a>
   </div>
   <div class="region-bar">
