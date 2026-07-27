@@ -48,11 +48,18 @@ if ('serviceWorker' in navigator) {
      欠けたため、運営者が用意した専用デザインのバナー画像（吹き出しピン風、640x297）に
      差し替えた。画像はWebP（フォールバックPNG）に軽量化済み（元6.3MB→16KB）。 */
   .header-top{display:flex;align-items:center;justify-content:flex-start;gap:20px;flex-wrap:wrap}
-  .concerns-banner{display:block;flex-shrink:0;line-height:0;border-radius:14px;
-    transition:transform .15s,filter .15s}
+  .concerns-banner{display:block;flex-shrink:0;line-height:0;border-radius:14px;cursor:pointer;
+    transition:transform .15s,filter .15s;animation:concerns-pulse 2.6s ease-in-out infinite}
   .concerns-banner img{display:block;height:84px;width:auto}
-  .concerns-banner:hover{transform:translateY(-2px);filter:brightness(1.05)}
+  .concerns-banner:hover{transform:translateY(-2px) scale(1.04);filter:brightness(1.06);animation-play-state:paused}
   .concerns-banner:focus-visible{outline:3px solid #1A5FB4;outline-offset:3px}
+  /* クリックできるボタンだと伝わりにくいとの指摘を受け、ごく控えめな拍動アニメーションで
+     操作可能であることを示す（過度に気を取られないよう振れ幅は小さく抑える）。 */
+  @keyframes concerns-pulse{
+    0%,100%{transform:scale(1);filter:drop-shadow(0 2px 4px rgba(31,95,93,.15))}
+    50%{transform:scale(1.035);filter:drop-shadow(0 4px 9px rgba(31,95,93,.3))}
+  }
+  @media (prefers-reduced-motion:reduce){ .concerns-banner{animation:none} }
   @media (max-width:520px){ .concerns-banner img{height:64px} }
   .region-bar{display:flex;align-items:center;gap:8px;flex-wrap:wrap;background:#EFF2ED;border:1px solid var(--line);
     border-radius:8px;padding:8px 12px;margin-bottom:12px;font-size:.78rem}
