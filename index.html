@@ -44,20 +44,26 @@ if ('serviceWorker' in navigator) {
   header{padding:16px 24px 0;background:var(--panel)}
   header h1{font-size:1.25rem;font-weight:700;letter-spacing:.02em}
   header p.sub{font-size:.8rem;color:var(--sub);margin:4px 0 10px}
-  /* タイトル行の右の余白に、角丸正方形の優しいバッジとして配置する
-     （フルワイド帯にしたところ「バランスが悪い」との指摘を受けて変更）。 */
-  .header-top{display:flex;align-items:center;justify-content:space-between;gap:16px;flex-wrap:wrap}
+  /* タイトル行の右に、角丸正方形の優しいバッジとして配置する
+     （フルワイド帯は「バランスが悪い」、space-betweenで両端に離すと「タイトルから
+     離れすぎ」との指摘を受け、タイトルのすぐ右に寄せる形に変更。文言は「こまったら／
+     こちら」を試したが「カジュアルすぎる」との指摘で「困りごとから探す」に戻した。
+     色は暖色グラデーション→ティールグラデーションと試したが「グラデーションが重たい・
+     暗い印象」との指摘を受け、明るい単色の淡いティールに変更。文字も白から濃いティール
+     にして、暗い塊に見えないようにした。アイコンは吹き出し→はてなマーク→「お助け」を
+     直接示す浮き輪（🛟）に変更。 */
+  .header-top{display:flex;align-items:center;justify-content:flex-start;gap:20px;flex-wrap:wrap}
   .concerns-banner{display:flex;flex-direction:column;align-items:center;justify-content:center;gap:4px;
-    width:96px;height:96px;flex-shrink:0;text-align:center;
-    background:linear-gradient(135deg,#C1682B,#A84A0E);color:#fff;
-    border-radius:24px;text-decoration:none;font-weight:700;
-    box-shadow:0 3px 10px rgba(168,74,14,.35);transition:transform .15s,box-shadow .15s}
+    width:92px;height:92px;flex-shrink:0;text-align:center;
+    background:#DFF1EF;color:#1F5F5D;
+    border:2px solid #BFE3E0;border-radius:22px;text-decoration:none;font-weight:700;
+    box-shadow:0 2px 6px rgba(31,95,93,.18);transition:transform .15s,box-shadow .15s,background .15s}
   .concerns-banner .cb-icon{font-size:1.7rem;line-height:1}
-  .concerns-banner .cb-text{font-size:.72rem;line-height:1.3;width:74px}
-  .concerns-banner:hover{transform:translateY(-2px);box-shadow:0 5px 14px rgba(168,74,14,.45)}
+  .concerns-banner .cb-text{font-size:.72rem;line-height:1.3;width:72px}
+  .concerns-banner:hover{background:#CFEAE7;transform:translateY(-2px);box-shadow:0 4px 10px rgba(31,95,93,.24)}
   .concerns-banner:focus-visible{outline:3px solid #1A5FB4;outline-offset:2px}
-  @media (max-width:520px){ .concerns-banner{width:76px;height:76px;border-radius:18px}
-    .concerns-banner .cb-icon{font-size:1.3rem} .concerns-banner .cb-text{font-size:.62rem;width:58px} }
+  @media (max-width:520px){ .concerns-banner{width:72px;height:72px;border-radius:16px}
+    .concerns-banner .cb-icon{font-size:1.3rem} .concerns-banner .cb-text{font-size:.6rem;width:56px} }
   .region-bar{display:flex;align-items:center;gap:8px;flex-wrap:wrap;background:#EFF2ED;border:1px solid var(--line);
     border-radius:8px;padding:8px 12px;margin-bottom:12px;font-size:.78rem}
   .region-bar label{font-weight:700;color:var(--ink)}
@@ -153,7 +159,7 @@ if ('serviceWorker' in navigator) {
       <p class="sub">子ども・家族を支える資源を5つの機能で整理（社会的処方フレームワーク試作版）</p>
     </div>
     <a class="concerns-banner" href="concerns.html">
-      <span class="cb-icon" aria-hidden="true">💬</span>
+      <span class="cb-icon" aria-hidden="true">🛟</span>
       <span class="cb-text">困りごとから探す</span>
     </a>
   </div>
@@ -419,7 +425,9 @@ const REGIONS = {
     label: '秋田県',
     base: 'data/05_akita/',
     center: [39.718624, 140.102386],
-    available: { manabi:true, sodan:true, hattatsu:true, districts:true }
+    // 【2026-07-27追加】④は地域子育て支援拠点（55件・akita_pref_kyoten、R8.4.1現在＝
+    // ほぼ最新）のみ。jidoukan.json・oyanokai.jsonは空配列。
+    available: { manabi:true, sodan:true, hattatsu:true, districts:true, oyakazoku:true }
   },
   yamagata: {
     label: '山形県',
