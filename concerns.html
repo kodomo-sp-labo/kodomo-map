@@ -134,7 +134,8 @@
 </main>
 <footer>
   選択内容は送信・保存されません（このページを閉じれば消えます）。<br>
-  掲載情報は変更されることがあります。利用前に各機関へご確認ください。
+  掲載情報は変更されることがあります。利用前に各機関へご確認ください。<br>
+  © 2026 子どもウェルビーイングlabo
 </footer>
 
 <script>
@@ -234,7 +235,7 @@
     if(h.anonymous) metaBits.push('匿名可');
     if(metaBits.length) body += '<div class="meta">' + escHtml(metaBits.join('・')) + '</div>';
     if(h.note) body += '<div class="note">' + escHtml(h.note) + '</div>';
-    if(h.url) body += '<div class="note"><a href="' + escHtml(h.url) + '" target="_blank" rel="noopener">詳しく見る</a></div>';
+    if(h.url) body += '<div class="note"><a href="' + escHtml(h.url) + '" target="_blank" rel="noopener">' + escHtml(h.name) + 'のサイトを見る</a></div>';
     if(h.verify_required){
       body += '<!-- verify_required: true（運営者確認用。この情報は未確認のため要再確認） -->';
     }

@@ -260,11 +260,11 @@ if ('serviceWorker' in navigator) {
 
 <footer>
   <div style="margin-bottom:14px;padding:14px 16px;background:#F0F2F0;border-radius:8px;font-size:.78rem;line-height:1.8;color:var(--ink)">
-    <strong style="font-size:.85rem">子どもウェルビーイングlabo について</strong><br>
+    <strong style="font-size:.85rem">子どもウェルビーイングlabo について</strong>　<span style="color:var(--sub)">© 2026 子どもウェルビーイングlabo</span><br>
     本サイトは、医療・教育・福祉の資源情報を必要とする家族に届ける「社会的処方」の普及を目的に、研究活動の一環として運営している非営利のサイトです。掲載は無料で、広告は掲載していません。掲載情報は自治体等の公的な公表資料に基づいています。<br>
     <strong>自治体・支援機関の方へ</strong>：フリースクール等の民間施設一覧、地域子育て支援拠点一覧、児童館・こどもの居場所一覧など、地域独自の公式資料をご提供いただければ、地域を問わず順次掲載します（発達支援・学びの多様化学校・相談窓口の全国データは国の公表データを基に収集しています）。掲載のご希望・掲載情報の訂正は <a href="mailto:kodomo.sp.lab@gmail.com">kodomo.sp.lab@gmail.com</a> までご連絡ください。<br>
     運営責任者：松本尚美（岡山大学 疫学・衛生学分野／専門：ライフコース疫学・社会的処方／認定小児科指導医・社会医学系専門医）　<a href="https://kodomo-sp-labo.github.io/naomi-matsumoto/#top" target="_blank" rel="noopener">研究者ページ</a><br>
-    <strong>データの利用について</strong>：個々の施設情報（名称・住所・電話番号等）は各出典元の公表資料に基づく事実であり、その引用・ご紹介は妨げません。一方、本サイトが独自に収集・整理・地図化したデータベース（分類・座標付与・出典整理等の編集を含む）を大量に複製し、そのまま別のサービスや出版物として無断で二次利用・再配布することはご遠慮ください。研究・学術目的での利用やまとまった量のデータのご提供については、上記メールアドレスまでご相談ください。
+    <strong>データの利用について</strong>：個々の施設情報（名称・住所・電話番号等）は各出典元の公表資料に基づく事実であり、その引用・ご紹介は妨げません。一方、本サイトが独自に収集・整理・地図化したデータベース（分類・座標付与・出典整理等の編集を含む）や、本サイトのデザイン・文章・プログラムコードを大量に複製し、そのまま別のサービスや出版物として無断で二次利用・再配布することはご遠慮ください。研究等でのご相談は上記メールアドレスまでご連絡ください。
   </div>
   <strong>①学び：</strong><span id="footer-src-manabi"></span><br>
   <strong>②居場所：</strong><span id="footer-src-ibasho"></span><br>
@@ -317,7 +317,9 @@ const REGIONS = {
     label: '広島県',
     base: 'data/34_hiroshima/',
     center: [34.396557, 132.459641],
-    available: { manabi:true, sodan:true, hattatsu:true, districts:true }
+    // 【2026-07-27追加】④は地域子育て支援拠点（126件・県内23市町を個別収集。市町ごとにhiroshima_<市町>_kyoten）
+    // のみ。jidoukan.json・oyanokai.jsonは空配列。
+    available: { manabi:true, sodan:true, hattatsu:true, districts:true, oyakazoku:true }
   },
   yamaguchi: {
     label: '山口県',
