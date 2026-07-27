@@ -35,12 +35,13 @@ if ('serviceWorker' in navigator) {
        識別性が通常視力で最大（ΔE 26.1/21.6）。色覚シミュレーションでの緑との分離は7.7で
        目標8.0に僅かに届かないため、白2pxリング・ツールチップ・一覧カードの文字表記を併用する。 */
     --c1t:#C1432B;
+    --c5:#6B4C9A;
     --c5jidou:#6B4C9A; --c5iryo:#1F7A8C; --c5hokago:#C1432B; --c5homon:#B7791F; --c5hoiku:#4A7C59;
     --badge-pref:#2C6E49; --badge-council:#8A4B2B;
   }
   *{margin:0;padding:0;box-sizing:border-box}
   body{font-family:'BIZ UDPGothic','Hiragino Sans','Yu Gothic',sans-serif;background:var(--base);color:var(--ink);line-height:1.6}
-  header{padding:16px 24px 0;border-bottom:3px solid var(--c1);background:var(--panel)}
+  header{padding:16px 24px 0;background:var(--panel)}
   header h1{font-size:1.25rem;font-weight:700;letter-spacing:.02em}
   header p.sub{font-size:.8rem;color:var(--sub);margin:4px 0 10px}
   .concerns-banner{display:inline-flex;align-items:center;gap:6px;background:#B5540F;color:#fff;
@@ -53,10 +54,31 @@ if ('serviceWorker' in navigator) {
   .region-bar select{font-family:inherit;font-size:.8rem;padding:4px 8px;border:1px solid var(--line);border-radius:5px;background:#fff}
   .region-bar .region-cta{color:var(--sub);flex:1;min-width:240px}
   .region-bar .region-cta a{color:var(--c2);font-weight:700}
-  .tabs{display:flex;gap:2px;flex-wrap:wrap}
-  .tab-btn{font-family:inherit;font-size:.82rem;font-weight:700;padding:9px 14px;border:none;background:transparent;
-    color:var(--sub);cursor:pointer;border-bottom:3px solid transparent;margin-bottom:-3px;white-space:nowrap}
-  .tab-btn.active{color:var(--c1);border-bottom-color:var(--c1)}
+  /* タブをExcelのシートタブ風（上角丸・タブごとに色分け）にする。
+     .tabsの背景をページ地色(--base)にして「タブが台紙から浮き上がっている」印象にし、
+     選択中タブだけをその機能の色で塗って直下のコンテンツ（同じ--panel白）へ切れ目なく
+     繋げる。以前は固定の紺色（--c1）の下線が header 全体の底にあり、選んでいるタブに
+     関係なく常に同じ色で目立たなかった（レビューで「線より上のタブに目がいかない」と
+     指摘）ため撤去し、タブ自体の色で現在地を示す方式に変更した。 */
+  .tabs{display:flex;gap:4px;flex-wrap:wrap;background:var(--base);margin:14px -24px 0;padding:10px 24px 0;
+    border-bottom:1px solid var(--line)}
+  .tab-btn{font-family:inherit;font-size:.82rem;font-weight:700;padding:10px 16px;border:none;
+    cursor:pointer;white-space:nowrap;border-radius:8px 8px 0 0;margin-bottom:-1px}
+  /* 非選択タブも、機能色をうっすら敷いた背景＋その色の文字にして、ホバーせずとも
+     見やすく・色分けが分かるようにする（レビューで「タブが見づらい」との指摘）。 */
+  .tab-btn[data-tab="manabi"]{background:color-mix(in srgb, var(--c1) 12%, transparent);color:var(--c1)}
+  .tab-btn[data-tab="ibasho"]{background:color-mix(in srgb, var(--c2) 12%, transparent);color:var(--c2)}
+  .tab-btn[data-tab="sodan"]{background:color-mix(in srgb, var(--c3) 12%, transparent);color:var(--c3)}
+  .tab-btn[data-tab="oyakazoku"]{background:color-mix(in srgb, var(--c4) 12%, transparent);color:var(--c4)}
+  .tab-btn[data-tab="hattatsu"]{background:color-mix(in srgb, var(--c5) 12%, transparent);color:var(--c5)}
+  .tab-btn:hover{filter:brightness(0.94)}
+  .tab-btn.active{color:#fff;box-shadow:0 -1px 3px rgba(0,0,0,.12)}
+  .tab-btn[data-tab="manabi"].active{background:var(--c1)}
+  .tab-btn[data-tab="ibasho"].active{background:var(--c2)}
+  .tab-btn[data-tab="sodan"].active{background:var(--c3)}
+  .tab-btn[data-tab="oyakazoku"].active{background:var(--c4)}
+  .tab-btn[data-tab="hattatsu"].active{background:var(--c5)}
+  .tab-btn:focus-visible{outline:3px solid #1A5FB4;outline-offset:-3px}
   .tab-panel{display:none}
   .tab-panel.active{display:block}
   .wrap{display:flex;gap:0;height:calc(100vh - 175px);min-height:520px}
@@ -164,7 +186,7 @@ if ('serviceWorker' in navigator) {
   <div class="legend">
     <!-- 件数は実データから算出してJSが埋める（updateIbashoLegend/updateOyaLegend）。
          静的に書くと実データと乖離する（例: ④が「58件」のまま実際は39件だった）。 -->
-    <span class="dot" style="--dc:var(--c1)" id="lg-ibasho-1">児童館・児童センター（<span id="lg-ibasho-1-n">-</span>）</span>
+    <span class="dot" style="--dc:var(--c1b)" id="lg-ibasho-1">児童館・児童センター（<span id="lg-ibasho-1-n">-</span>）</span>
     <span class="dot" style="--dc:var(--c2)" id="lg-ibasho-2">子ども食堂・プレーパーク等<span id="lg-ibasho-2-count">（<span id="lg-ibasho-2-n">-</span>）</span><a id="lg-ibasho-2-link" href="https://kodomoshokudo.gaccom.jp/map" target="_blank" rel="noopener" style="display:none;margin-left:6px;font-weight:700;text-decoration:underline">こども食堂はこちら</a></span>
     <label style="margin-left:auto;display:flex;align-items:center;gap:4px;cursor:pointer">
       <input type="checkbox" class="toggle-districts" data-map="ibasho"> 小学校区界を表示（<span class="districts-note">準備中</span>）
@@ -210,7 +232,7 @@ if ('serviceWorker' in navigator) {
 <div class="tab-panel" id="panel-oyakazoku">
   <div class="legend">
     <span class="dot" style="--dc:var(--c4)" id="lg-oya-1">地域子育て支援拠点（<span id="lg-oya-1-n">-</span>）</span>
-    <span class="dot" style="--dc:var(--c1)" id="lg-oya-3">児童館（②居場所と兼用・<span id="lg-oya-3-n">-</span>）</span>
+    <span class="dot" style="--dc:var(--c1b)" id="lg-oya-3">児童館（②居場所と兼用・<span id="lg-oya-3-n">-</span>）</span>
     <!-- 親の会のマーカー色#C1682Bに対応するCSS変数が無いため直値で指定（renderOyakazoku参照） -->
     <span class="dot" style="--dc:#C1682B" id="lg-oya-2">親の会</span>
     <label style="margin-left:auto;display:flex;align-items:center;gap:4px;cursor:pointer">
@@ -531,7 +553,9 @@ const REGIONS = {
     label: '三重県',
     base: 'data/24_mie/',
     center: [34.730278, 136.508606],
-    available: { manabi:true, sodan:true, hattatsu:true, districts:true }
+    // 【2026-07-27追加】④は地域子育て支援拠点（122件・mie_pref_kyoten、県公式PDFは令和2年4月時点で
+    // 確認できる最新版）のみ。jidoukan.json・oyanokai.jsonは空配列。
+    available: { manabi:true, sodan:true, hattatsu:true, districts:true, oyakazoku:true }
   },
   // 【北海道・今回追加】①学び（学びの多様化学校のみ）・③相談・⑤発達を登録
   // （②居場所・④親家族は未整備のため対象外）。data/01_hokkaido/に
@@ -919,7 +943,7 @@ function renderIbasho(jidoukan, ibasho, key){
   const markers = [];
   jidoukan.forEach(function(f){
     const precNote = f.prec === 'town' ? '（町丁目レベルの概算）' : '（番地レベルの位置）';
-    const m = L.circleMarker([f.lat,f.lng],{radius:8,color:'#fff',weight:2,fillColor:'#31547E',fillOpacity:.95, ibType:'jidoukan'});
+    const m = L.circleMarker([f.lat,f.lng],{radius:8,color:'#fff',weight:2,fillColor:'#B7791F',fillOpacity:.95, ibType:'jidoukan'});
     m.bindTooltip('<strong>'+f.n+'</strong><br>児童館・児童センター（②居場所／④親家族 兼用）'+precNote+'<br>'+f.a, {direction:'top', offset:[0,-10], opacity:.95, className:'facility-tip'});
     m.bindPopup('<div class="popup-name">'+f.n+'</div><div class="popup-body">児童館・児童センター<br>'+f.a+(f.t?'<br>'+f.t:'')+
       '<div class="badges"><span class="badge" style="background:#B2508C">④地域子育て支援拠点 兼用</span></div></div>');
@@ -1025,7 +1049,7 @@ function renderOyakazoku(kyoten, jidoukan, oyanokai){
   // ④には出さない。データ側のtagsが正（児童館=["②","④"] / 児童遊園=["②"]）。
   jidoukan.filter(function(f){ return !f.tags || f.tags.indexOf('④')!==-1; }).forEach(function(f){
     const precNote = f.prec === 'town' ? '（町丁目レベルの概算）' : '（番地レベルの位置）';
-    const m = L.circleMarker([f.lat,f.lng],{radius:8,color:'#fff',weight:2,fillColor:'#31547E',fillOpacity:.95});
+    const m = L.circleMarker([f.lat,f.lng],{radius:8,color:'#fff',weight:2,fillColor:'#B7791F',fillOpacity:.95});
     m.bindTooltip('<strong>'+f.n+'</strong><br>児童館（②居場所／④親家族 兼用）'+precNote+'<br>'+f.a, {direction:'top', offset:[0,-10], opacity:.95, className:'facility-tip'});
     m.bindPopup('<div class="popup-name">'+f.n+'</div><div class="popup-body">児童館（②居場所も兼用）<br>'+f.a+(f.t?'<br>'+f.t:'')+'</div>');
     markers.push(m);

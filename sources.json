@@ -1082,6 +1082,22 @@
       "modified_note": true,
       "terms_checked": null,
       "conditions": "【個別の利用条件確認は未実施】県内23市町を一括収集したため、個々の著作権表示ページは確認していない。当サイトが保持しているのは施設名・所在地・電話番号等の事実情報のみ。"
+    },
+    "mie_pref_kyoten": {
+      "source_label": "三重県「地域子育て支援拠点事業　届出一覧」",
+      "source": "https://www.pref.mie.lg.jp/common/content/000918031.pdf",
+      "publisher": "三重県",
+      "checked": "2026-07-27",
+      "as_of": "令和2年4月1日現在",
+      "tier": "B",
+      "discovery_query": "三重県 地域子育て支援拠点 一覧 施設",
+      "notes": "三重県公式サイト（地域子育て支援拠点事業ページ）掲載のPDF届出一覧（122件）。確認できる限り現在もこの令和2年（2020年）4月時点の版が最新として公開されており、より新しい版は見当たらなかった（運営者に報告のうえ、この版を採用することで合意）。市町名・拠点名称・拠点所在地の3列構成で電話番号の記載はない。pypdfのlayoutモードで抽出（列の空白幅が保たれるため regex分割で高精度に復元できた）。",
+      "license": null,
+      "license_url": null,
+      "credit": true,
+      "modified_note": true,
+      "terms_checked": null,
+      "conditions": "三重県サイトの著作権規定ページは個別に確認していない。当サイトが保持しているのは施設名・所在地等の事実情報のみ。"
     }
   },
   "datasets": {
