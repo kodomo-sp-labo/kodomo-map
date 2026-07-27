@@ -44,10 +44,20 @@ if ('serviceWorker' in navigator) {
   header{padding:16px 24px 0;background:var(--panel)}
   header h1{font-size:1.25rem;font-weight:700;letter-spacing:.02em}
   header p.sub{font-size:.8rem;color:var(--sub);margin:4px 0 10px}
-  .concerns-banner{display:inline-flex;align-items:center;gap:6px;background:#B5540F;color:#fff;
-    border-radius:8px;padding:7px 14px;margin-bottom:12px;text-decoration:none;font-size:.85rem;font-weight:700}
-  .concerns-banner:hover{background:#9C4A0D}
+  /* タイトル行の右の余白に、角丸正方形の優しいバッジとして配置する
+     （フルワイド帯にしたところ「バランスが悪い」との指摘を受けて変更）。 */
+  .header-top{display:flex;align-items:center;justify-content:space-between;gap:16px;flex-wrap:wrap}
+  .concerns-banner{display:flex;flex-direction:column;align-items:center;justify-content:center;gap:4px;
+    width:96px;height:96px;flex-shrink:0;text-align:center;
+    background:linear-gradient(135deg,#C1682B,#A84A0E);color:#fff;
+    border-radius:24px;text-decoration:none;font-weight:700;
+    box-shadow:0 3px 10px rgba(168,74,14,.35);transition:transform .15s,box-shadow .15s}
+  .concerns-banner .cb-icon{font-size:1.7rem;line-height:1}
+  .concerns-banner .cb-text{font-size:.72rem;line-height:1.3;width:74px}
+  .concerns-banner:hover{transform:translateY(-2px);box-shadow:0 5px 14px rgba(168,74,14,.45)}
   .concerns-banner:focus-visible{outline:3px solid #1A5FB4;outline-offset:2px}
+  @media (max-width:520px){ .concerns-banner{width:76px;height:76px;border-radius:18px}
+    .concerns-banner .cb-icon{font-size:1.3rem} .concerns-banner .cb-text{font-size:.62rem;width:58px} }
   .region-bar{display:flex;align-items:center;gap:8px;flex-wrap:wrap;background:#EFF2ED;border:1px solid var(--line);
     border-radius:8px;padding:8px 12px;margin-bottom:12px;font-size:.78rem}
   .region-bar label{font-weight:700;color:var(--ink)}
@@ -137,11 +147,16 @@ if ('serviceWorker' in navigator) {
 </head>
 <body>
 <header>
-  <h1>こども支援資源マップ</h1>
-  <p class="sub">子ども・家族を支える資源を5つの機能で整理（社会的処方フレームワーク試作版）</p>
-  <a class="concerns-banner" href="concerns.html">
-    <span aria-hidden="true">💬</span> 困りごとから探す <span aria-hidden="true">→</span>
-  </a>
+  <div class="header-top">
+    <div>
+      <h1>こども支援資源マップ</h1>
+      <p class="sub">子ども・家族を支える資源を5つの機能で整理（社会的処方フレームワーク試作版）</p>
+    </div>
+    <a class="concerns-banner" href="concerns.html">
+      <span class="cb-icon" aria-hidden="true">💬</span>
+      <span class="cb-text">困りごとから探す</span>
+    </a>
+  </div>
   <div class="region-bar">
     <label for="region-select">対象地域：</label>
     <select id="region-select">
@@ -604,7 +619,9 @@ const REGIONS = {
     label: '京都府',
     base: 'data/26_kyoto/',
     center: [35.02124, 135.755615],
-    available: { manabi:true, sodan:true, hattatsu:true, districts:true }
+    // 【2026-07-27追加】④は地域子育て支援拠点（131件：府90件kyoto_pref_kyoten＋京都市41件
+    // kyoto_city_kyoten、出典が異なるため2ソース）のみ。jidoukan.json・oyanokai.jsonは空配列。
+    available: { manabi:true, sodan:true, hattatsu:true, districts:true, oyakazoku:true }
   },
   osaka: {
     label: '大阪府',

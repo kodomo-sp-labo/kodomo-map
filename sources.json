@@ -1098,6 +1098,38 @@
       "modified_note": true,
       "terms_checked": null,
       "conditions": "三重県サイトの著作権規定ページは個別に確認していない。当サイトが保持しているのは施設名・所在地等の事実情報のみ。"
+    },
+    "kyoto_pref_kyoten": {
+      "source_label": "京都府「地域子育て支援拠点一覧」",
+      "source": "https://www.pref.kyoto.jp/kosodate/documents/kyoten_r50401.pdf",
+      "publisher": "京都府",
+      "checked": "2026-07-27",
+      "as_of": "令和5年4月1日現在",
+      "tier": "B",
+      "discovery_query": "京都府 地域子育て支援拠点 一覧 施設",
+      "notes": "京都府公式サイト掲載のPDF一覧（京都市内は対象外、90件）。地域・市町村名・実施場所・種別・住所・電話番号・運営主体・備考の7列構成で、電話番号と運営主体が空白なしで連結されている行が多かったため、電話番号の正規表現をアンカーに列を分離した。南丹市「ぽこぽこくらぶ園部ひろば」と宇治市「ぽけっと」は、開催日により2会場を交互利用する施設だったため、各会場を別レコードとして2件に分割した。",
+      "license": null,
+      "license_url": null,
+      "credit": true,
+      "modified_note": true,
+      "terms_checked": null,
+      "conditions": "京都府サイトの著作権規定ページは個別に確認していない。当サイトが保持しているのは施設名・所在地・電話番号等の事実情報のみ。"
+    },
+    "kyoto_city_kyoten": {
+      "source_label": "京都市「乳幼児親子のつどいの広場」施設一覧",
+      "source": "https://www.city.kyoto.lg.jp/hagukumi/page/0000065698.html",
+      "publisher": "京都市",
+      "checked": "2026-07-27",
+      "as_of": null,
+      "tier": "C",
+      "discovery_query": "京都市 つどいの広場 地域子育て支援拠点 一覧",
+      "notes": "京都市公式サイトのHTML表から抽出（41件、11区）。名称ラベルの全角スペース数が施設によって不揃い（「名　称」/「名　　称」）だったため空白除去した正規化比較に書き換えて対応。住所が2行に折り返す施設の区名判定でも一度誤りが発生し、住所テキストに実在する区名が含まれるかで再判定する方式に修正した。",
+      "license": null,
+      "license_url": null,
+      "credit": true,
+      "modified_note": true,
+      "terms_checked": null,
+      "conditions": "京都市サイトの著作権規定ページは個別に確認していない。当サイトが保持しているのは施設名・所在地・電話番号等の事実情報のみ。"
     }
   },
   "datasets": {
