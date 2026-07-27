@@ -539,7 +539,10 @@ const REGIONS = {
     label: '富山県',
     base: 'data/16_toyama/',
     center: [36.695267, 137.211304],
-    available: { manabi:true, sodan:true, hattatsu:true, districts:true }
+    // 【2026-07-28追加】県作成の一覧(H25.3時点)を出発点に、15市町村すべてで現況を個別に
+    // 確認し直して67件を採用（市町村ごとにiwate同様`toyama_<市町>_kyoten`の出典）。
+    // jidoukan.json・oyanokai.jsonは空配列。
+    available: { manabi:true, sodan:true, hattatsu:true, districts:true, oyakazoku:true }
   },
   ishikawa: {
     label: '石川県',
