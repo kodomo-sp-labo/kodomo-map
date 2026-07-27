@@ -412,7 +412,10 @@ const REGIONS = {
     label: '岩手県',
     base: 'data/03_iwate/',
     center: [39.703526, 141.152695],
-    available: { manabi:true, sodan:true, hattatsu:true, districts:true }
+    // 【2026-07-28追加】県内単一の一覧が存在しないため33市町村を個別調査（86件・iwate_muni_kyoten）。
+    // 7市町村（普代村・洋野町・九戸村・西和賀町・金ケ崎町・住田町・田野畑村）は施設の存在を
+    // 確認できず0件。jidoukan.json・oyanokai.jsonは空配列。
+    available: { manabi:true, sodan:true, hattatsu:true, districts:true, oyakazoku:true }
   },
   miyagi: {
     label: '宮城県',
