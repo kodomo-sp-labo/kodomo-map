@@ -794,6 +794,22 @@ function showUnavailable(panelId, mapDivId, listId, noticeId){
   if(panelId === 'panel-manabi') currentManabiData = [];
   if(panelId === 'panel-ibasho'){ currentIbashoJidoukan = []; currentIbashoPlaces = []; }
   if(panelId === 'panel-oyakazoku'){ currentKyoten = []; currentOyanokai = []; }
+  // 【2026-07-29追加】②居場所タブがavailable:falseの県（本サイトが子ども食堂・児童館データを
+  // まだ収集していない大多数の県）では、これまで「準備中」としか出ず、こども食堂を探している
+  // 利用者への案内が一切なかった（運営者からの指摘で発覚）。岡山県・大阪府でIBASHO_MAP_ENABLED=false
+  // のときに出している「ガッコム・むすびえへ誘導する」案内を、データ未収集の県でも同様に出す。
+  if(panelId === 'panel-ibasho'){
+    const ibashoNoticeEl = document.getElementById('notice-ibasho');
+    if(ibashoNoticeEl){
+      ibashoNoticeEl.innerHTML = 'この地域の児童館データは未収集です。お近くのこども食堂は'
+        + '<a href="https://kodomoshokudo.gaccom.jp/map" target="_blank" rel="noopener">ガッコム・むすびえ こども食堂マップ</a>'
+        + 'でご確認いただけます。';
+    }
+    const countEl3 = document.getElementById('lg-ibasho-2-count');
+    const linkEl3 = document.getElementById('lg-ibasho-2-link');
+    if(countEl3) countEl3.style.display = 'none';
+    if(linkEl3) linkEl3.style.display = 'inline';
+  }
 }
 
 /* ①学びのカテゴリ定義。1カテゴリ=1制度になるよう分けている（同じラベルの下に別制度を
