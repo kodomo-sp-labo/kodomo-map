@@ -2078,6 +2078,23 @@
       "terms_checked": "2026-07-29",
       "usage_note": null,
       "conditions": "県公式オープンデータページにCC BY 4.0の明記あり。帰属表示・改変明示を条件に自由に利用可能。"
+    },
+    "shizuoka_city_jidoukan": {
+      "source_label": "静岡県オープンデータカタログ「市内児童館一覧」(静岡市こども未来課提供)",
+      "source": "https://opendata.pref.shizuoka.jp/dataset/12262.html",
+      "publisher": "静岡市",
+      "checked": "2026-07-29",
+      "as_of": "2025-07-04時点",
+      "tier": "A",
+      "discovery_query": "静岡県 オープンデータ 児童館",
+      "notes": "国土数値情報P14は静岡県全体を「HP掲載情報以外は非公開」という利用条件表の記載により全件保留していた(ksj_p14参照)。静岡県オープンデータカタログにCC BYライセンス明記の静岡市児童館一覧(13件)が存在したため収集。【重要な限界】これは静岡市分のみであり、浜松市など県内他市町の児童館は未収集(2026-07-29時点)。REGIONSに登録する際はこの限界を凡例・注記で明示すること。全13件を国土地理院住所検索APIでジオコーディングし、期待する行政区（葵区・駿河区・清水区）が応答titleに含まれることを確認済み(CLAUDE.mdルール9)。",
+      "license": "クリエイティブ・コモンズ・ライセンス表示4.0国際 (CC BY 4.0)",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/deed.ja",
+      "credit": true,
+      "modified_note": true,
+      "terms_checked": "2026-07-29",
+      "usage_note": null,
+      "conditions": "静岡県オープンデータカタログのデータセットページにCC BY明記あり。"
     }
   },
   "datasets": {
