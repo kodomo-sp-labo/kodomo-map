@@ -1,1 +1,2416 @@
-[]
+[
+  {
+    "n": "大社児童センター",
+    "a": "神垣町7-32",
+    "t": "",
+    "lat": 34.748579,
+    "lng": 135.340521,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "西宮市"
+  },
+  {
+    "n": "高須児童センター",
+    "a": "高須町2-1-35",
+    "t": "",
+    "lat": 34.705588,
+    "lng": 135.369395,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "西宮市"
+  },
+  {
+    "n": "塩瀬児童センター",
+    "a": "名塩新町1",
+    "t": "",
+    "lat": 34.82636,
+    "lng": 135.307536,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "西宮市"
+  },
+  {
+    "n": "山口児童センター",
+    "a": "山口町下山口4-1-8",
+    "t": "",
+    "lat": 34.828334,
+    "lng": 135.240322,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "西宮市"
+  },
+  {
+    "n": "高羽児童館",
+    "a": "高羽4-1-1",
+    "t": "",
+    "lat": 34.73736,
+    "lng": 135.23828,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "神戸市灘区"
+  },
+  {
+    "n": "神戸市立児童センター(こべっこランド)",
+    "a": "上庄通1-1-43",
+    "t": "",
+    "lat": 34.65927,
+    "lng": 135.175291,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "神戸市兵庫区"
+  },
+  {
+    "n": "神陵台児童館",
+    "a": "南多聞台1-9",
+    "t": "",
+    "lat": 34.657612,
+    "lng": 135.032904,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "神戸市垂水区"
+  },
+  {
+    "n": "好徳児童館",
+    "a": "淡河町野瀬新田468-2",
+    "t": "",
+    "lat": 34.821866,
+    "lng": 135.151119,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "神戸市北区"
+  },
+  {
+    "n": "すずらんだい児童館",
+    "a": "鈴蘭台西町1-22-1",
+    "t": "",
+    "lat": 34.727321,
+    "lng": 135.143889,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "神戸市北区"
+  },
+  {
+    "n": "長尾児童館",
+    "a": "長尾町宅原130",
+    "t": "",
+    "lat": 34.872794,
+    "lng": 135.203882,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "神戸市北区"
+  },
+  {
+    "n": "生田川児童館",
+    "a": "真砂通2-1-1",
+    "t": "",
+    "lat": 34.694998,
+    "lng": 135.204471,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "神戸市中央区"
+  },
+  {
+    "n": "東川崎児童館",
+    "a": "東川崎町7-4-11",
+    "t": "",
+    "lat": 34.67526,
+    "lng": 135.179462,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "神戸市中央区"
+  },
+  {
+    "n": "鶴甲児童館",
+    "a": "鶴甲3-4-1",
+    "t": "",
+    "lat": 34.735802,
+    "lng": 135.233701,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "神戸市灘区"
+  },
+  {
+    "n": "むつみ児童館",
+    "a": "芦原町7-7",
+    "t": "",
+    "lat": 34.741301,
+    "lng": 135.352677,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "西宮市"
+  },
+  {
+    "n": "浜脇児童館",
+    "a": "浜脇町3-13",
+    "t": "",
+    "lat": 34.732372,
+    "lng": 135.337476,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "西宮市"
+  },
+  {
+    "n": "津門児童館",
+    "a": "津門稲荷町5-23",
+    "t": "",
+    "lat": 34.73661,
+    "lng": 135.351758,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "西宮市"
+  },
+  {
+    "n": "鳴尾児童館(法外)",
+    "a": "笠屋町19-1",
+    "t": "",
+    "lat": 34.713187,
+    "lng": 135.374902,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "西宮市"
+  },
+  {
+    "n": "段上児童館",
+    "a": "段上町2-10-23",
+    "t": "",
+    "lat": 34.769913,
+    "lng": 135.367321,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "西宮市"
+  },
+  {
+    "n": "宿泊型児童館(星の子館)",
+    "a": "青山1470-24",
+    "t": "",
+    "lat": 34.852773,
+    "lng": 134.628664,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "姫路市"
+  },
+  {
+    "n": "飾磨児童センター",
+    "a": "飾磨区細江2654",
+    "t": "",
+    "lat": 34.80079,
+    "lng": 134.665434,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "姫路市"
+  },
+  {
+    "n": "広畑児童センター",
+    "a": "広畑区正門通1-7-3",
+    "t": "",
+    "lat": 34.805186,
+    "lng": 134.628516,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "姫路市"
+  },
+  {
+    "n": "網干児童センター",
+    "a": "網干区垣内中町120",
+    "t": "",
+    "lat": 34.789176,
+    "lng": 134.588878,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "姫路市"
+  },
+  {
+    "n": "東児童センター",
+    "a": "花田町加納原田813",
+    "t": "",
+    "lat": 34.832669,
+    "lng": 134.728259,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "姫路市"
+  },
+  {
+    "n": "安室児童センター",
+    "a": "田寺東2-7-13",
+    "t": "",
+    "lat": 34.856609,
+    "lng": 134.672785,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "姫路市"
+  },
+  {
+    "n": "東光児童センター",
+    "a": "幸町99-1",
+    "t": "",
+    "lat": 34.831787,
+    "lng": 134.704858,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "姫路市"
+  },
+  {
+    "n": "面白山児童センター",
+    "a": "神子岡前3-8-1",
+    "t": "",
+    "lat": 34.839879,
+    "lng": 134.670973,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "姫路市"
+  },
+  {
+    "n": "北児童センター",
+    "a": "豊富町御蔭1110-3",
+    "t": "",
+    "lat": 34.881864,
+    "lng": 134.746851,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "姫路市"
+  },
+  {
+    "n": "灘児童センター",
+    "a": "白浜町宇佐崎中2-520",
+    "t": "",
+    "lat": 34.78273,
+    "lng": 134.712874,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "姫路市"
+  },
+  {
+    "n": "坊勢児童館",
+    "a": "家島町坊勢303-3",
+    "t": "",
+    "lat": 34.653222,
+    "lng": 134.515668,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "姫路市"
+  },
+  {
+    "n": "垂水児童館",
+    "a": "日向1-5-1　レバンテ垂水2番館4階",
+    "t": "",
+    "lat": 34.630055,
+    "lng": 135.056769,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "神戸市垂水区"
+  },
+  {
+    "n": "霞ヶ丘児童館",
+    "a": "五色山5-2-15",
+    "t": "",
+    "lat": 34.631325,
+    "lng": 135.043657,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "神戸市垂水区"
+  },
+  {
+    "n": "塩屋児童館",
+    "a": "塩屋町4-3-9",
+    "t": "",
+    "lat": 34.634535,
+    "lng": 135.081848,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "神戸市垂水区"
+  },
+  {
+    "n": "東垂水児童館",
+    "a": "東垂水1-1-1",
+    "t": "",
+    "lat": 34.636796,
+    "lng": 135.068477,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "神戸市垂水区"
+  },
+  {
+    "n": "星陵台児童館",
+    "a": "星陵台1-1-3",
+    "t": "",
+    "lat": 34.638783,
+    "lng": 135.046236,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "神戸市垂水区"
+  },
+  {
+    "n": "乙木児童館",
+    "a": "美山台2-1-2",
+    "t": "",
+    "lat": 34.639617,
+    "lng": 135.07025,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "神戸市垂水区"
+  },
+  {
+    "n": "松風児童館",
+    "a": "行幸町1-2-26",
+    "t": "",
+    "lat": 34.644505,
+    "lng": 135.123866,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "神戸市須磨区"
+  },
+  {
+    "n": "千鳥が丘児童館",
+    "a": "千鳥が丘3-20-14",
+    "t": "",
+    "lat": 34.64553,
+    "lng": 135.057924,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "神戸市垂水区"
+  },
+  {
+    "n": "舞子児童館",
+    "a": "西舞子7-30-3",
+    "t": "",
+    "lat": 34.645994,
+    "lng": 135.02769,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "神戸市垂水区"
+  },
+  {
+    "n": "長楽児童館",
+    "a": "海運町7-1-23",
+    "t": "",
+    "lat": 34.648575,
+    "lng": 135.142095,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "神戸市長田区"
+  },
+  {
+    "n": "たかとり児童館",
+    "a": "行平町2-2-17",
+    "t": "",
+    "lat": 34.649586,
+    "lng": 135.133349,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "神戸市須磨区"
+  },
+  {
+    "n": "駒栄児童館",
+    "a": "駒栄町3-1-17",
+    "t": "",
+    "lat": 34.652527,
+    "lng": 135.151197,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "神戸市長田区"
+  },
+  {
+    "n": "西脇こどもひろば",
+    "a": "本多聞1-5-1",
+    "t": "",
+    "lat": 34.652689,
+    "lng": 135.038613,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "神戸市垂水区"
+  },
+  {
+    "n": "高倉台児童館",
+    "a": "高倉台1-2-1",
+    "t": "",
+    "lat": 34.655369,
+    "lng": 135.109137,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "神戸市須磨区"
+  },
+  {
+    "n": "東須磨児童館",
+    "a": "若木町3-5-9",
+    "t": "",
+    "lat": 34.656021,
+    "lng": 135.12455,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "神戸市須磨区"
+  },
+  {
+    "n": "桃山台児童館",
+    "a": "桃山台3-25",
+    "t": "",
+    "lat": 34.656281,
+    "lng": 135.081096,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "神戸市垂水区"
+  },
+  {
+    "n": "真野児童館",
+    "a": "東尻池町6-3-19",
+    "t": "",
+    "lat": 34.656606,
+    "lng": 135.15682,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "神戸市長田区"
+  },
+  {
+    "n": "本多聞児童館",
+    "a": "本多聞4-1-2",
+    "t": "",
+    "lat": 34.657491,
+    "lng": 135.05089,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "神戸市垂水区"
+  },
+  {
+    "n": "御崎児童館",
+    "a": "御崎町1-3-2",
+    "t": "",
+    "lat": 34.657714,
+    "lng": 135.16756,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "神戸市兵庫区"
+  },
+  {
+    "n": "志里池児童館",
+    "a": "苅藻通1-4-7",
+    "t": "",
+    "lat": 34.659618,
+    "lng": 135.152204,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "神戸市長田区"
+  },
+  {
+    "n": "細田児童館",
+    "a": "細田町7-1-30",
+    "t": "",
+    "lat": 34.659763,
+    "lng": 135.144669,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "神戸市長田区"
+  },
+  {
+    "n": "大黒児童館",
+    "a": "大黒町2-2-12",
+    "t": "",
+    "lat": 34.659967,
+    "lng": 135.134982,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "神戸市須磨区"
+  },
+  {
+    "n": "玉津児童館",
+    "a": "玉津町上池字五鬼田315-1",
+    "t": "",
+    "lat": 34.659932,
+    "lng": 134.990592,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "神戸市西区"
+  },
+  {
+    "n": "多聞台児童館",
+    "a": "多聞台3-9-13",
+    "t": "",
+    "lat": 34.661917,
+    "lng": 135.039906,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "神戸市垂水区"
+  },
+  {
+    "n": "板宿児童館",
+    "a": "板宿町1-4-9",
+    "t": "",
+    "lat": 34.662396,
+    "lng": 135.130607,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "神戸市須磨区"
+  },
+  {
+    "n": "松原児童館",
+    "a": "松原通4-2-27",
+    "t": "",
+    "lat": 34.664283,
+    "lng": 135.166247,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "神戸市兵庫区"
+  },
+  {
+    "n": "有瀬児童館",
+    "a": "伊川谷町有瀬字金井場1137-8",
+    "t": "",
+    "lat": 34.665416,
+    "lng": 135.019099,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "神戸市西区"
+  },
+  {
+    "n": "小束山児童館",
+    "a": "小束山5-868-614",
+    "t": "",
+    "lat": 34.665762,
+    "lng": 135.062173,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "神戸市垂水区"
+  },
+  {
+    "n": "五位の池児童館",
+    "a": "長尾町1-4-30",
+    "t": "",
+    "lat": 34.666485,
+    "lng": 135.136269,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "神戸市長田区"
+  },
+  {
+    "n": "兵庫児童館",
+    "a": "駅前通4-3-6",
+    "t": "",
+    "lat": 34.667251,
+    "lng": 135.160777,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "神戸市兵庫区"
+  },
+  {
+    "n": "枝吉児童館",
+    "a": "枝吉4-26",
+    "t": "",
+    "lat": 34.667393,
+    "lng": 134.974436,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "神戸市西区"
+  },
+  {
+    "n": "北須磨児童館",
+    "a": "友が丘7-275-1",
+    "t": "",
+    "lat": 34.669701,
+    "lng": 135.096967,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "神戸市須磨区"
+  },
+  {
+    "n": "長田児童館",
+    "a": "四番町4-54",
+    "t": "",
+    "lat": 34.66987,
+    "lng": 135.154068,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "神戸市長田区"
+  },
+  {
+    "n": "池田児童館",
+    "a": "池田広町41-10",
+    "t": "",
+    "lat": 34.670062,
+    "lng": 135.144756,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "神戸市長田区"
+  },
+  {
+    "n": "港島児童館",
+    "a": "港島中町2-3-3",
+    "t": "",
+    "lat": 34.67043,
+    "lng": 135.214901,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "神戸市中央区"
+  },
+  {
+    "n": "伊川谷児童館",
+    "a": "北別府3-6-9",
+    "t": "",
+    "lat": 34.672757,
+    "lng": 135.013511,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "神戸市西区"
+  },
+  {
+    "n": "菅の台児童館",
+    "a": "菅の台4-5",
+    "t": "",
+    "lat": 34.673034,
+    "lng": 135.084448,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "神戸市須磨区"
+  },
+  {
+    "n": "横尾児童館",
+    "a": "横尾1-11-2",
+    "t": "",
+    "lat": 34.67386,
+    "lng": 135.110934,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "神戸市須磨区"
+  },
+  {
+    "n": "妙法寺児童館",
+    "a": "妙法寺字毘沙門山1",
+    "t": "",
+    "lat": 34.674542,
+    "lng": 135.114982,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "神戸市須磨区"
+  },
+  {
+    "n": "中道児童館",
+    "a": "中道通4-2-9",
+    "t": "",
+    "lat": 34.674918,
+    "lng": 135.164051,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "神戸市兵庫区"
+  },
+  {
+    "n": "片山児童館",
+    "a": "片山町3-2-11",
+    "t": "",
+    "lat": 34.674987,
+    "lng": 135.149261,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "神戸市長田区"
+  },
+  {
+    "n": "落合児童館",
+    "a": "中落合1-1-25",
+    "t": "",
+    "lat": 34.677833,
+    "lng": 135.097843,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "神戸市須磨区"
+  },
+  {
+    "n": "たちばな児童館",
+    "a": "橘通3-4-1",
+    "t": "",
+    "lat": 34.681128,
+    "lng": 135.174396,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "神戸市中央区"
+  },
+  {
+    "n": "湊川児童館",
+    "a": "東山町4-20-1",
+    "t": "",
+    "lat": 34.681903,
+    "lng": 135.162234,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "神戸市兵庫区"
+  },
+  {
+    "n": "夢野児童館",
+    "a": "湊川町7-6-5",
+    "t": "",
+    "lat": 34.68306,
+    "lng": 135.158541,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "神戸市兵庫区"
+  },
+  {
+    "n": "太山寺児童館",
+    "a": "学園西町5-2-3",
+    "t": "",
+    "lat": 34.683069,
+    "lng": 135.055543,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "神戸市西区"
+  },
+  {
+    "n": "清風児童館",
+    "a": "楠町8-10-3",
+    "t": "",
+    "lat": 34.686466,
+    "lng": 135.174352,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "神戸市中央区"
+  },
+  {
+    "n": "平野児童館",
+    "a": "下祇園町6-22",
+    "t": "",
+    "lat": 34.687747,
+    "lng": 135.169713,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "神戸市兵庫区"
+  },
+  {
+    "n": "玉津北児童館",
+    "a": "長畑町162-4",
+    "t": "",
+    "lat": 34.688156,
+    "lng": 134.983473,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "神戸市西区"
+  },
+  {
+    "n": "向洋児童館",
+    "a": "向洋町中6-3-2",
+    "t": "",
+    "lat": 34.688193,
+    "lng": 135.263882,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "神戸市東灘区"
+  },
+  {
+    "n": "大日丘児童館",
+    "a": "大日丘町3-8-10",
+    "t": "",
+    "lat": 34.688917,
+    "lng": 135.135842,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "神戸市長田区"
+  },
+  {
+    "n": "神の谷児童館",
+    "a": "神の谷5-2-1",
+    "t": "",
+    "lat": 34.689294,
+    "lng": 135.085295,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "神戸市須磨区"
+  },
+  {
+    "n": "雪御所児童館",
+    "a": "雪御所町1-8",
+    "t": "",
+    "lat": 34.6894,
+    "lng": 135.165656,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "神戸市兵庫区"
+  },
+  {
+    "n": "若草児童館",
+    "a": "若草町3-14-9",
+    "t": "",
+    "lat": 34.69012,
+    "lng": 135.111978,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "神戸市須磨区"
+  },
+  {
+    "n": "神戸諏訪山児童館",
+    "a": "北長狭通4-9-5",
+    "t": "",
+    "lat": 34.69081,
+    "lng": 135.185765,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "神戸市中央区"
+  },
+  {
+    "n": "井吹西児童館",
+    "a": "井吹台西町4-4",
+    "t": "",
+    "lat": 34.692237,
+    "lng": 135.022364,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "神戸市西区"
+  },
+  {
+    "n": "白川台児童館",
+    "a": "白川台7-3-8",
+    "t": "",
+    "lat": 34.69572,
+    "lng": 135.101769,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "神戸市須磨区"
+  },
+  {
+    "n": "なぎさ児童館",
+    "a": "脇浜海岸通3-1-5",
+    "t": "",
+    "lat": 34.696924,
+    "lng": 135.209912,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "神戸市中央区"
+  },
+  {
+    "n": "ひよどり台児童館",
+    "a": "ひよどり台2-1-1",
+    "t": "",
+    "lat": 34.698563,
+    "lng": 135.120856,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "神戸市北区"
+  },
+  {
+    "n": "二宮児童館",
+    "a": "二宮町1-3-2",
+    "t": "",
+    "lat": 34.699963,
+    "lng": 135.199061,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "神戸市中央区"
+  },
+  {
+    "n": "八雲児童館",
+    "a": "八雲通1-1-7",
+    "t": "",
+    "lat": 34.700963,
+    "lng": 135.20711,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "神戸市中央区"
+  },
+  {
+    "n": "井吹台児童館",
+    "a": "井吹台東町4-20-7",
+    "t": "",
+    "lat": 34.703555,
+    "lng": 135.041615,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "神戸市西区"
+  },
+  {
+    "n": "旗塚児童館",
+    "a": "旗塚通4-4-20",
+    "t": "",
+    "lat": 34.704551,
+    "lng": 135.20156,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "神戸市中央区"
+  },
+  {
+    "n": "灘児童館",
+    "a": "新在家南町5-13-15",
+    "t": "",
+    "lat": 34.704964,
+    "lng": 135.233463,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "神戸市灘区"
+  },
+  {
+    "n": "春日台児童館",
+    "a": "春日台4-6-2",
+    "t": "",
+    "lat": 34.707369,
+    "lng": 134.995439,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "神戸市西区"
+  },
+  {
+    "n": "平野児童館",
+    "a": "平野町宮前字下辻石223",
+    "t": "",
+    "lat": 34.708315,
+    "lng": 134.98341,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "神戸市西区"
+  },
+  {
+    "n": "櫨谷児童館",
+    "a": "櫨谷町池谷字苗代ノ内440-1",
+    "t": "",
+    "lat": 34.710597,
+    "lng": 135.025744,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "神戸市西区"
+  },
+  {
+    "n": "河原児童館",
+    "a": "上河原通4-1-1",
+    "t": "",
+    "lat": 34.711183,
+    "lng": 135.23078,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "神戸市灘区"
+  },
+  {
+    "n": "原田児童館",
+    "a": "王子町2-3-1",
+    "t": "",
+    "lat": 34.711257,
+    "lng": 135.218504,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "神戸市灘区"
+  },
+  {
+    "n": "籠池児童館",
+    "a": "籠池通2-1-19",
+    "t": "",
+    "lat": 34.711422,
+    "lng": 135.210228,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "神戸市中央区"
+  },
+  {
+    "n": "竹の台児童館",
+    "a": "竹の台2-20-1",
+    "t": "",
+    "lat": 34.711571,
+    "lng": 135.011835,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "神戸市西区"
+  },
+  {
+    "n": "浜御影児童館",
+    "a": "御影本町6-5-8",
+    "t": "",
+    "lat": 34.712551,
+    "lng": 135.25533,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "神戸市東灘区"
+  },
+  {
+    "n": "住之江児童館",
+    "a": "住吉宮町1-2-15",
+    "t": "",
+    "lat": 34.712693,
+    "lng": 135.264719,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "神戸市東灘区"
+  },
+  {
+    "n": "魚崎児童館",
+    "a": "魚崎中町4-3-16",
+    "t": "",
+    "lat": 34.713935,
+    "lng": 135.271434,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "神戸市東灘区"
+  },
+  {
+    "n": "岩岡児童館",
+    "a": "上新地2-3-6",
+    "t": "",
+    "lat": 34.713928,
+    "lng": 134.937678,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "神戸市西区"
+  },
+  {
+    "n": "六甲道児童館",
+    "a": "深田町4-1-39-401",
+    "t": "",
+    "lat": 34.714733,
+    "lng": 135.239058,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "神戸市灘区"
+  },
+  {
+    "n": "上野児童館",
+    "a": "赤坂通6-1-18",
+    "t": "",
+    "lat": 34.715241,
+    "lng": 135.218314,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "神戸市灘区"
+  },
+  {
+    "n": "都児童館",
+    "a": "神前町2-3-12",
+    "t": "",
+    "lat": 34.716477,
+    "lng": 135.233636,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "神戸市灘区"
+  },
+  {
+    "n": "北青木児童館",
+    "a": "北青木4-6-31",
+    "t": "",
+    "lat": 34.717376,
+    "lng": 135.279015,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "神戸市東灘区"
+  },
+  {
+    "n": "美賀多台児童館",
+    "a": "美賀多台3-13",
+    "t": "",
+    "lat": 34.717492,
+    "lng": 135.005519,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "神戸市西区"
+  },
+  {
+    "n": "八幡児童館",
+    "a": "八幡町2-4-22",
+    "t": "",
+    "lat": 34.718673,
+    "lng": 135.237593,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "神戸市灘区"
+  },
+  {
+    "n": "南五葉児童館",
+    "a": "南五葉3-5-21",
+    "t": "",
+    "lat": 34.719774,
+    "lng": 135.133688,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "神戸市北区"
+  },
+  {
+    "n": "頌栄児童館",
+    "a": "鳴子2-11-2",
+    "t": "",
+    "lat": 34.72205,
+    "lng": 135.12633,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "神戸市北区"
+  },
+  {
+    "n": "篠原児童館",
+    "a": "篠原北町2-2-37",
+    "t": "",
+    "lat": 34.72241,
+    "lng": 135.228426,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "神戸市灘区"
+  },
+  {
+    "n": "田中児童館",
+    "a": "田中町4-11-24",
+    "t": "",
+    "lat": 34.722734,
+    "lng": 135.270096,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "神戸市東灘区"
+  },
+  {
+    "n": "狩場台児童館",
+    "a": "狩場台3-6-2",
+    "t": "",
+    "lat": 34.723001,
+    "lng": 135.031429,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "神戸市西区"
+  },
+  {
+    "n": "御影北児童館",
+    "a": "御影2-20-10",
+    "t": "",
+    "lat": 34.723362,
+    "lng": 135.25018,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "神戸市東灘区"
+  },
+  {
+    "n": "本庄児童館",
+    "a": "本庄町2-5-1",
+    "t": "",
+    "lat": 34.726071,
+    "lng": 135.29146,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "神戸市東灘区"
+  },
+  {
+    "n": "北五葉児童館",
+    "a": "北五葉1-7-24",
+    "t": "",
+    "lat": 34.727569,
+    "lng": 135.13458,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "神戸市北区"
+  },
+  {
+    "n": "小部児童館",
+    "a": "鈴蘭台北町7-11-40",
+    "t": "",
+    "lat": 34.728361,
+    "lng": 135.157552,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "神戸市北区"
+  },
+  {
+    "n": "本山児童館",
+    "a": "本山北町3-10-2",
+    "t": "",
+    "lat": 34.728514,
+    "lng": 135.279574,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "神戸市東灘区"
+  },
+  {
+    "n": "本山東児童館",
+    "a": "森南町2-8-25",
+    "t": "",
+    "lat": 34.729237,
+    "lng": 135.290116,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "神戸市東灘区"
+  },
+  {
+    "n": "渦森台児童館",
+    "a": "渦森台1-2-1",
+    "t": "",
+    "lat": 34.738314,
+    "lng": 135.252313,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "神戸市東灘区"
+  },
+  {
+    "n": "泉台児童館",
+    "a": "泉台3-39-3",
+    "t": "",
+    "lat": 34.738797,
+    "lng": 135.139488,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "神戸市北区"
+  },
+  {
+    "n": "桜の宮児童館",
+    "a": "甲栄台2-2-10",
+    "t": "",
+    "lat": 34.742058,
+    "lng": 135.149363,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "神戸市北区"
+  },
+  {
+    "n": "秋葉台児童館",
+    "a": "秋葉台3-2-29",
+    "t": "",
+    "lat": 34.74489,
+    "lng": 135.067347,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "神戸市西区"
+  },
+  {
+    "n": "神出児童館",
+    "a": "神出町田井長原34-2",
+    "t": "",
+    "lat": 34.746256,
+    "lng": 134.989896,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "神戸市西区"
+  },
+  {
+    "n": "桂木児童館",
+    "a": "桂木1-2-4",
+    "t": "",
+    "lat": 34.747521,
+    "lng": 135.145524,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "神戸市北区"
+  },
+  {
+    "n": "広陵児童館",
+    "a": "筑紫が丘2-22-11",
+    "t": "",
+    "lat": 34.747619,
+    "lng": 135.167362,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "神戸市北区"
+  },
+  {
+    "n": "あさひ児童館",
+    "a": "桜が丘東町1-3-1",
+    "t": "",
+    "lat": 34.751381,
+    "lng": 135.058438,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "神戸市西区"
+  },
+  {
+    "n": "押部谷児童館",
+    "a": "美穂が丘1-1",
+    "t": "",
+    "lat": 34.75748,
+    "lng": 135.042543,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "神戸市西区"
+  },
+  {
+    "n": "箕谷児童館",
+    "a": "日の峰1-19",
+    "t": "",
+    "lat": 34.759545,
+    "lng": 135.147639,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "神戸市北区"
+  },
+  {
+    "n": "大池児童館",
+    "a": "東大池2-3-13",
+    "t": "",
+    "lat": 34.780343,
+    "lng": 135.199702,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "神戸市北区"
+  },
+  {
+    "n": "からと児童館",
+    "a": "唐櫃台2-38-1",
+    "t": "",
+    "lat": 34.789767,
+    "lng": 135.215184,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "神戸市北区"
+  },
+  {
+    "n": "有野台児童館",
+    "a": "有野台6-22-1",
+    "t": "",
+    "lat": 34.81161,
+    "lng": 135.232939,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "神戸市北区"
+  },
+  {
+    "n": "淡河児童館",
+    "a": "淡河町萩原323",
+    "t": "",
+    "lat": 34.812696,
+    "lng": 135.104278,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "神戸市北区"
+  },
+  {
+    "n": "藤原台児童館",
+    "a": "藤原台中町7-14-15",
+    "t": "",
+    "lat": 34.813985,
+    "lng": 135.21545,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "神戸市北区"
+  },
+  {
+    "n": "八多児童館",
+    "a": "八多町附物字下殿関393-1",
+    "t": "",
+    "lat": 34.821736,
+    "lng": 135.197032,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "神戸市北区"
+  },
+  {
+    "n": "有野児童館",
+    "a": "有野中町2-20-19",
+    "t": "",
+    "lat": 34.826364,
+    "lng": 135.224644,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "神戸市北区"
+  },
+  {
+    "n": "西山児童館",
+    "a": "菖蒲が丘1-14-3",
+    "t": "",
+    "lat": 34.839224,
+    "lng": 135.217444,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "神戸市北区"
+  },
+  {
+    "n": "大沢児童館",
+    "a": "大沢町中大沢984",
+    "t": "",
+    "lat": 34.854979,
+    "lng": 135.165425,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "神戸市北区"
+  },
+  {
+    "n": "鹿の子台児童館",
+    "a": "鹿の子台北町6-34-3",
+    "t": "",
+    "lat": 34.861955,
+    "lng": 135.21794,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "神戸市北区"
+  },
+  {
+    "n": "道場児童館",
+    "a": "道場町日下部663-3",
+    "t": "",
+    "lat": 34.863189,
+    "lng": 135.228276,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "神戸市北区"
+  }
+]

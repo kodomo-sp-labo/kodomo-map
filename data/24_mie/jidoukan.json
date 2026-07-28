@@ -1,1 +1,648 @@
-[]
+[
+  {
+    "n": "津市さくら児童館",
+    "a": "中河原2003-34",
+    "t": "",
+    "lat": 34.72657,
+    "lng": 136.51759,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "津市"
+  },
+  {
+    "n": "四日市市立北部児童館",
+    "a": "富州原町31-50",
+    "t": "",
+    "lat": 35.01043,
+    "lng": 136.66298,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "四日市市"
+  },
+  {
+    "n": "四日市市立塩浜児童館",
+    "a": "大字塩浜887-1",
+    "t": "",
+    "lat": 34.928491,
+    "lng": 136.621146,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "四日市市"
+  },
+  {
+    "n": "四日市市こどもの家",
+    "a": "諏訪栄町22-25",
+    "t": "",
+    "lat": 34.968655,
+    "lng": 136.621966,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "四日市市"
+  },
+  {
+    "n": "朝日町児童館",
+    "a": "柿2278",
+    "t": "",
+    "lat": 35.0367,
+    "lng": 136.659172,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "三重郡朝日町"
+  },
+  {
+    "n": "川越町つばめ児童館",
+    "a": "大字豊田一色235-1",
+    "t": "",
+    "lat": 35.023726,
+    "lng": 136.672113,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "三重郡川越町"
+  },
+  {
+    "n": "川越町おひさま児童館",
+    "a": "大字高松197-1",
+    "t": "",
+    "lat": 35.021299,
+    "lng": 136.664763,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "三重郡川越町"
+  },
+  {
+    "n": "すばる児童館",
+    "a": "一身田平野360-1",
+    "t": "",
+    "lat": 34.755202,
+    "lng": 136.515354,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "津市"
+  },
+  {
+    "n": "津市一志児童館",
+    "a": "一志町高野160-699",
+    "t": "",
+    "lat": 34.659648,
+    "lng": 136.423956,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "津市"
+  },
+  {
+    "n": "津市川合児童館",
+    "a": "一志町八太1008-1",
+    "t": "",
+    "lat": 34.651782,
+    "lng": 136.448229,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "津市"
+  },
+  {
+    "n": "みえこどもの城",
+    "a": "立野町1291",
+    "t": "",
+    "lat": 34.544972,
+    "lng": 136.50344,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "松阪市"
+  },
+  {
+    "n": "たき児童館",
+    "a": "四疋田594",
+    "t": "",
+    "lat": 34.493644,
+    "lng": 136.534374,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "多気郡多気町"
+  },
+  {
+    "n": "明和町立児童センター",
+    "a": "大字上村1419",
+    "t": "",
+    "lat": 34.529211,
+    "lng": 136.609059,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "多気郡明和町"
+  },
+  {
+    "n": "伊勢市小俣児童館",
+    "a": "小俣町元町662-1",
+    "t": "",
+    "lat": 34.507224,
+    "lng": 136.673108,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "伊勢市"
+  },
+  {
+    "n": "伊勢市明野児童館",
+    "a": "小俣町新村399-3",
+    "t": "",
+    "lat": 34.515071,
+    "lng": 136.660938,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "伊勢市"
+  },
+  {
+    "n": "玉城町立さくら児童館",
+    "a": "佐田1247",
+    "t": "",
+    "lat": 34.493913,
+    "lng": 136.633895,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "度会郡玉城町"
+  },
+  {
+    "n": "玉城町立梅がおか児童館",
+    "a": "蚊野2171-5",
+    "t": "",
+    "lat": 34.483476,
+    "lng": 136.602414,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "度会郡玉城町"
+  },
+  {
+    "n": "伊賀市しろなみ児童館",
+    "a": "八幡町3183-1",
+    "t": "",
+    "lat": 34.754861,
+    "lng": 136.125591,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "伊賀市"
+  },
+  {
+    "n": "伊賀市いがまち人権センター・まえがわ児童館",
+    "a": "柘植町8898",
+    "t": "",
+    "lat": 34.832358,
+    "lng": 136.241772,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "伊賀市"
+  },
+  {
+    "n": "伊賀市老川児童館",
+    "a": "老川1790-1",
+    "t": "",
+    "lat": 34.642139,
+    "lng": 136.204584,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "伊賀市"
+  },
+  {
+    "n": "名張市一ノ井児童館",
+    "a": "赤目町一ノ井311-1",
+    "t": "",
+    "lat": 34.591927,
+    "lng": 136.074189,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "名張市"
+  },
+  {
+    "n": "名張市比奈知児童館",
+    "a": "下比奈知1521",
+    "t": "",
+    "lat": 34.623409,
+    "lng": 136.130477,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "名張市"
+  },
+  {
+    "n": "伊勢市あさま児童センター",
+    "a": "朝熊町1994-1",
+    "t": "",
+    "lat": 34.477959,
+    "lng": 136.753726,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "伊勢市"
+  },
+  {
+    "n": "伊勢市黒瀬児童センター",
+    "a": "黒瀬町1736-2",
+    "t": "",
+    "lat": 34.500446,
+    "lng": 136.735068,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "伊勢市"
+  },
+  {
+    "n": "亀山市立亀山児童センター",
+    "a": "東御幸町69-5",
+    "t": "",
+    "lat": 34.851223,
+    "lng": 136.455958,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "亀山市"
+  },
+  {
+    "n": "桑名市深谷児童センター",
+    "a": "大字下深谷部4798-1",
+    "t": "",
+    "lat": 35.097882,
+    "lng": 136.669835,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "桑名市"
+  },
+  {
+    "n": "桑名市深谷北児童センター",
+    "a": "大字上深谷部367-22",
+    "t": "",
+    "lat": 35.108555,
+    "lng": 136.66003,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "桑名市"
+  },
+  {
+    "n": "松阪市児童センター",
+    "a": "清生町622-1",
+    "t": "",
+    "lat": 34.574122,
+    "lng": 136.541097,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "松阪市"
+  },
+  {
+    "n": "津市久居児童センター",
+    "a": "久居北口町862-5",
+    "t": "",
+    "lat": 34.684197,
+    "lng": 136.477452,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "津市"
+  },
+  {
+    "n": "鈴鹿市一ノ宮団地児童センター",
+    "a": "一ノ宮町500-48",
+    "t": "",
+    "lat": 34.894471,
+    "lng": 136.593403,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "鈴鹿市"
+  },
+  {
+    "n": "鈴鹿市玉垣児童センター",
+    "a": "東玉垣町527-1",
+    "t": "",
+    "lat": 34.863003,
+    "lng": 136.594916,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "鈴鹿市"
+  },
+  {
+    "n": "伊勢市中央児童センター",
+    "a": "八日市場町13-1",
+    "t": "",
+    "lat": 34.48961,
+    "lng": 136.698665,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "伊勢市"
+  },
+  {
+    "n": "明照児童館",
+    "a": "吹上2-5-41",
+    "t": "",
+    "lat": 34.491496,
+    "lng": 136.713332,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "伊勢市"
+  },
+  {
+    "n": "伊勢市御薗こども広場",
+    "a": "御薗町長屋2767",
+    "t": "",
+    "lat": 34.509575,
+    "lng": 136.707868,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "伊勢市"
+  },
+  {
+    "n": "名張市こども支援ｾﾝﾀーかがやき",
+    "a": "桔梗が丘西3番町3-107",
+    "t": "",
+    "lat": 34.645454,
+    "lng": 136.111407,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "名張市"
+  },
+  {
+    "n": "津市まん中こども館",
+    "a": "大門7-15",
+    "t": "",
+    "lat": 34.71897,
+    "lng": 136.511213,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "津市"
+  },
+  {
+    "n": "四日市市こども子育て交流プラザ",
+    "a": "東新町26-32",
+    "t": "",
+    "lat": 34.976119,
+    "lng": 136.636852,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "四日市市"
+  },
+  {
+    "n": "大型児童センターHIKARI",
+    "a": "大字桑部字中府1482",
+    "t": "",
+    "lat": 35.051285,
+    "lng": 136.644976,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "桑名市"
+  }
+]

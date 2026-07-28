@@ -1,1 +1,8842 @@
-[]
+[
+  {
+    "n": "神田児童館",
+    "a": "外神田3-4-7",
+    "t": "",
+    "lat": 35.70112,
+    "lng": 139.769954,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "千代田区"
+  },
+  {
+    "n": "一番町児童館",
+    "a": "一番町10-22",
+    "t": "",
+    "lat": 35.686405,
+    "lng": 139.73927,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "千代田区"
+  },
+  {
+    "n": "新川児童館",
+    "a": "新川2-13-4",
+    "t": "",
+    "lat": 35.67585,
+    "lng": 139.782168,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "中央区"
+  },
+  {
+    "n": "築地児童館",
+    "a": "築地7-9-17",
+    "t": "",
+    "lat": 35.666239,
+    "lng": 139.775901,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "中央区"
+  },
+  {
+    "n": "佃児童館",
+    "a": "佃1-11-1",
+    "t": "",
+    "lat": 35.668906,
+    "lng": 139.784741,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "中央区"
+  },
+  {
+    "n": "白金台児童館",
+    "a": "白金台4-8-5",
+    "t": "",
+    "lat": 35.63763,
+    "lng": 139.724941,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "港区"
+  },
+  {
+    "n": "高輪子ども中高生プラザ",
+    "a": "高輪1-4-35",
+    "t": "",
+    "lat": 35.642432,
+    "lng": 139.734805,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "港区"
+  },
+  {
+    "n": "台場児童館",
+    "a": "台場1-5-1",
+    "t": "",
+    "lat": 35.630025,
+    "lng": 139.777096,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "港区"
+  },
+  {
+    "n": "本塩町児童館",
+    "a": "四谷本塩町4-9",
+    "t": "",
+    "lat": 35.688539,
+    "lng": 139.729345,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "新宿区"
+  },
+  {
+    "n": "西新宿児童館",
+    "a": "西新宿4-35-28",
+    "t": "",
+    "lat": 35.686351,
+    "lng": 139.686902,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "新宿区"
+  },
+  {
+    "n": "上落合児童館",
+    "a": "上落合2-28-8",
+    "t": "",
+    "lat": 35.711051,
+    "lng": 139.685364,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "新宿区"
+  },
+  {
+    "n": "榎町子ども家庭支援センター",
+    "a": "榎町36",
+    "t": "",
+    "lat": 35.704551,
+    "lng": 139.727722,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "新宿区"
+  },
+  {
+    "n": "中町児童館",
+    "a": "中町25",
+    "t": "",
+    "lat": 35.698992,
+    "lng": 139.734569,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "新宿区"
+  },
+  {
+    "n": "北山伏児童館",
+    "a": "北山伏町2-17",
+    "t": "",
+    "lat": 35.700328,
+    "lng": 139.729911,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "新宿区"
+  },
+  {
+    "n": "高田馬場第一児童館",
+    "a": "高田馬場3-18-21",
+    "t": "",
+    "lat": 35.714222,
+    "lng": 139.697796,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "新宿区"
+  },
+  {
+    "n": "柳町児童館",
+    "a": "小石川1-23-9",
+    "t": "",
+    "lat": 35.713913,
+    "lng": 139.750492,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "文京区"
+  },
+  {
+    "n": "小日向台町児童館",
+    "a": "小日向2-2-2",
+    "t": "",
+    "lat": 35.71296,
+    "lng": 139.734855,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "文京区"
+  },
+  {
+    "n": "千石児童館",
+    "a": "千石1-4-3",
+    "t": "",
+    "lat": 35.724797,
+    "lng": 139.743239,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "文京区"
+  },
+  {
+    "n": "目日台第二児童館",
+    "a": "目白台3-18-7",
+    "t": "",
+    "lat": 35.717149,
+    "lng": 139.723467,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "文京区"
+  },
+  {
+    "n": "白山東児童館",
+    "a": "白山1-29-10",
+    "t": "",
+    "lat": 35.719122,
+    "lng": 139.753103,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "文京区"
+  },
+  {
+    "n": "しおみ児童館",
+    "a": "千駄木2-27-8",
+    "t": "",
+    "lat": 35.724983,
+    "lng": 139.761936,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "文京区"
+  },
+  {
+    "n": "根津児童館",
+    "a": "根津1-14-3",
+    "t": "",
+    "lat": 35.718276,
+    "lng": 139.76348,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "文京区"
+  },
+  {
+    "n": "本郷児童館",
+    "a": "本郷5-30-8",
+    "t": "",
+    "lat": 35.71169,
+    "lng": 139.758419,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "文京区"
+  },
+  {
+    "n": "谷中児童館",
+    "a": "谷中5-6-5　谷中防災コミュニティセンター内",
+    "t": "",
+    "lat": 35.7256,
+    "lng": 139.766639,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "台東区"
+  },
+  {
+    "n": "池之端児童館",
+    "a": "池之端2-3-3",
+    "t": "",
+    "lat": 35.714658,
+    "lng": 139.766943,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "台東区"
+  },
+  {
+    "n": "台東児童館",
+    "a": "台東1-11-5",
+    "t": "",
+    "lat": 35.701069,
+    "lng": 139.776519,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "台東区"
+  },
+  {
+    "n": "玉姫児童館",
+    "a": "清川2-22-13",
+    "t": "",
+    "lat": 35.727511,
+    "lng": 139.803866,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "台東区"
+  },
+  {
+    "n": "今戸児童館",
+    "a": "今戸1-3-6",
+    "t": "",
+    "lat": 35.719416,
+    "lng": 139.804668,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "台東区"
+  },
+  {
+    "n": "寿児童館",
+    "a": "寿1-4-5",
+    "t": "",
+    "lat": 35.70693,
+    "lng": 139.790018,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "台東区"
+  },
+  {
+    "n": "千田児童館",
+    "a": "千田21-18",
+    "t": "",
+    "lat": 35.681023,
+    "lng": 139.816537,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "江東区"
+  },
+  {
+    "n": "東陽児童館",
+    "a": "東陽5-16-13",
+    "t": "",
+    "lat": 35.671424,
+    "lng": 139.811832,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "江東区"
+  },
+  {
+    "n": "古石場児童館",
+    "a": "古石場1-11-11",
+    "t": "",
+    "lat": 35.669224,
+    "lng": 139.794538,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "江東区"
+  },
+  {
+    "n": "辰巳児童館",
+    "a": "辰巳1-1-36",
+    "t": "",
+    "lat": 35.647526,
+    "lng": 139.80897,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "江東区"
+  },
+  {
+    "n": "豊洲児童館",
+    "a": "豊洲4-10-4-111",
+    "t": "",
+    "lat": 35.653359,
+    "lng": 139.803034,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "江東区"
+  },
+  {
+    "n": "亀戸児童館",
+    "a": "亀戸2-1-19",
+    "t": "",
+    "lat": 35.69781,
+    "lng": 139.821673,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "江東区"
+  },
+  {
+    "n": "亀戸第三児童館",
+    "a": "亀戸7-39-9",
+    "t": "",
+    "lat": 35.696965,
+    "lng": 139.839347,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "江東区"
+  },
+  {
+    "n": "大島第二児童館",
+    "a": "大島4-5-1",
+    "t": "",
+    "lat": 35.689076,
+    "lng": 139.826842,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "江東区"
+  },
+  {
+    "n": "大島児童館",
+    "a": "大島7-28-1-104",
+    "t": "",
+    "lat": 35.693392,
+    "lng": 139.840033,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "江東区"
+  },
+  {
+    "n": "小名木川児童館",
+    "a": "北砂5-20-5-101",
+    "t": "",
+    "lat": 35.682214,
+    "lng": 139.833716,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "江東区"
+  },
+  {
+    "n": "東砂第二児童館",
+    "a": "東砂2-13-13",
+    "t": "",
+    "lat": 35.686037,
+    "lng": 139.841633,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "江東区"
+  },
+  {
+    "n": "東砂児童館",
+    "a": "東砂7-15-3",
+    "t": "",
+    "lat": 35.674499,
+    "lng": 139.839815,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "江東区"
+  },
+  {
+    "n": "南砂児童館",
+    "a": "南砂2-3-17",
+    "t": "",
+    "lat": 35.671075,
+    "lng": 139.823228,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "江東区"
+  },
+  {
+    "n": "南品川児童センター",
+    "a": "南品川4-5-28",
+    "t": "",
+    "lat": 35.613464,
+    "lng": 139.73873,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "品川区"
+  },
+  {
+    "n": "水神児童センター",
+    "a": "南大井5-13-19",
+    "t": "",
+    "lat": 35.595441,
+    "lng": 139.734136,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "品川区"
+  },
+  {
+    "n": "大井倉田児童センター",
+    "a": "大井4-11-34",
+    "t": "",
+    "lat": 35.602362,
+    "lng": 139.733693,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "品川区"
+  },
+  {
+    "n": "滝王子児童センター",
+    "a": "大井5-19-14",
+    "t": "",
+    "lat": 35.59821,
+    "lng": 139.729067,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "品川区"
+  },
+  {
+    "n": "小関児童センター",
+    "a": "北品川5-8-15",
+    "t": "",
+    "lat": 35.620137,
+    "lng": 139.73245,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "品川区"
+  },
+  {
+    "n": "三ツ木児童センター",
+    "a": "西品川2-6-13",
+    "t": "",
+    "lat": 35.613977,
+    "lng": 139.726252,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "品川区"
+  },
+  {
+    "n": "大原児童センター",
+    "a": "戸越6-16-1",
+    "t": "",
+    "lat": 35.607321,
+    "lng": 139.715416,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "品川区"
+  },
+  {
+    "n": "目黒区立五本木住区センター児童館",
+    "a": "中央町2-17-2",
+    "t": "",
+    "lat": 35.633225,
+    "lng": 139.689369,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "目黒区"
+  },
+  {
+    "n": "目黒区立向原住区センター児童館",
+    "a": "目黒本町5-22-11",
+    "t": "",
+    "lat": 35.618741,
+    "lng": 139.698605,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "目黒区"
+  },
+  {
+    "n": "目黒区立駒場児童館",
+    "a": "駒場2-7-5",
+    "t": "",
+    "lat": 35.658782,
+    "lng": 139.682083,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "目黒区"
+  },
+  {
+    "n": "目黒区立東山児童館",
+    "a": "東山3-24-2",
+    "t": "",
+    "lat": 35.647878,
+    "lng": 139.685361,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "目黒区"
+  },
+  {
+    "n": "目黒区立烏森住区センター児童館",
+    "a": "上目黒3-44-2",
+    "t": "",
+    "lat": 35.643906,
+    "lng": 139.691638,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "目黒区"
+  },
+  {
+    "n": "目黒区立上目黒住区センター児童館",
+    "a": "祐天寺2-6-6",
+    "t": "",
+    "lat": 35.636713,
+    "lng": 139.693833,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "目黒区"
+  },
+  {
+    "n": "目黒区立中目黒住区センター児童館",
+    "a": "中目黒2-10-13",
+    "t": "",
+    "lat": 35.640407,
+    "lng": 139.703054,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "目黒区"
+  },
+  {
+    "n": "目黒区立目黒区民センター児童館",
+    "a": "目黒2-4-36",
+    "t": "",
+    "lat": 35.635868,
+    "lng": 139.708085,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "目黒区"
+  },
+  {
+    "n": "目黒区立不動児童館",
+    "a": "下目黒5-18-4",
+    "t": "",
+    "lat": 35.630241,
+    "lng": 139.702277,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "目黒区"
+  },
+  {
+    "n": "大森本町児童館",
+    "a": "大森本町2-2-4",
+    "t": "",
+    "lat": 35.580972,
+    "lng": 139.737429,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "大田区"
+  },
+  {
+    "n": "大森児童館",
+    "a": "大森東3-5-15",
+    "t": "",
+    "lat": 35.570502,
+    "lng": 139.736169,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "大田区"
+  },
+  {
+    "n": "大森南児童館",
+    "a": "大森南2-7-9",
+    "t": "",
+    "lat": 35.562689,
+    "lng": 139.74651,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "大田区"
+  },
+  {
+    "n": "大森中児童館",
+    "a": "大森中2-13-5",
+    "t": "",
+    "lat": 35.568298,
+    "lng": 139.73485,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "大田区"
+  },
+  {
+    "n": "沢田児童館",
+    "a": "大森西2-2-1",
+    "t": "",
+    "lat": 35.578823,
+    "lng": 139.728389,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "大田区"
+  },
+  {
+    "n": "大森西児童館",
+    "a": "大森西5-20-17",
+    "t": "",
+    "lat": 35.571534,
+    "lng": 139.725144,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "大田区"
+  },
+  {
+    "n": "山王児童館",
+    "a": "山王1-5-13",
+    "t": "",
+    "lat": 35.591774,
+    "lng": 139.726693,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "大田区"
+  },
+  {
+    "n": "新井宿児童館",
+    "a": "中央1-15-4",
+    "t": "",
+    "lat": 35.580563,
+    "lng": 139.719597,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "大田区"
+  },
+  {
+    "n": "中央八丁目児童館",
+    "a": "中央8-29-4",
+    "t": "",
+    "lat": 35.573368,
+    "lng": 139.718515,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "大田区"
+  },
+  {
+    "n": "南馬込児童館",
+    "a": "南馬込1-59-21",
+    "t": "",
+    "lat": 35.589248,
+    "lng": 139.712322,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "大田区"
+  },
+  {
+    "n": "南馬込三丁目児童館",
+    "a": "南馬込3-3-7",
+    "t": "",
+    "lat": 35.587636,
+    "lng": 139.717804,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "大田区"
+  },
+  {
+    "n": "東糀谷児童館",
+    "a": "東糀谷4-1-7",
+    "t": "",
+    "lat": 35.556957,
+    "lng": 139.743531,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "大田区"
+  },
+  {
+    "n": "西糀谷児童館",
+    "a": "西糀谷1-12-10",
+    "t": "",
+    "lat": 35.558524,
+    "lng": 139.728733,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "大田区"
+  },
+  {
+    "n": "糀谷児童館",
+    "a": "西糀谷2-26-3-101",
+    "t": "",
+    "lat": 35.557499,
+    "lng": 139.737498,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "大田区"
+  },
+  {
+    "n": "南六郷児童館",
+    "a": "南六郷1-29-1-101",
+    "t": "",
+    "lat": 35.546328,
+    "lng": 139.726017,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "大田区"
+  },
+  {
+    "n": "南六郷三丁目児童館",
+    "a": "南六郷3-18-2",
+    "t": "",
+    "lat": 35.544646,
+    "lng": 139.717796,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "大田区"
+  },
+  {
+    "n": "東六郷児童館",
+    "a": "東六郷3-5-19",
+    "t": "",
+    "lat": 35.545937,
+    "lng": 139.714071,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "大田区"
+  },
+  {
+    "n": "萩中児童館",
+    "a": "萩中1-1-8",
+    "t": "",
+    "lat": 35.55242,
+    "lng": 139.723543,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "大田区"
+  },
+  {
+    "n": "萩中三丁目児童館",
+    "a": "萩中3-30-9",
+    "t": "",
+    "lat": 35.550036,
+    "lng": 139.734339,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "大田区"
+  },
+  {
+    "n": "西蒲田児童館",
+    "a": "西蒲田3-8-6",
+    "t": "",
+    "lat": 35.569294,
+    "lng": 139.710814,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "大田区"
+  },
+  {
+    "n": "高畑児童館",
+    "a": "西六郷3-18-2",
+    "t": "",
+    "lat": 35.546594,
+    "lng": 139.707394,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "大田区"
+  },
+  {
+    "n": "洗足池児童館",
+    "a": "南千束2-15-1",
+    "t": "",
+    "lat": 35.60305,
+    "lng": 139.689362,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "大田区"
+  },
+  {
+    "n": "上池台児童館",
+    "a": "上池台2-35-18",
+    "t": "",
+    "lat": 35.597943,
+    "lng": 139.691649,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "大田区"
+  },
+  {
+    "n": "南雪谷児童館",
+    "a": "南雪谷5-18-22",
+    "t": "",
+    "lat": 35.588076,
+    "lng": 139.69045,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "大田区"
+  },
+  {
+    "n": "田園調布本町児童館",
+    "a": "田園調布本町13-22",
+    "t": "",
+    "lat": 35.584508,
+    "lng": 139.678022,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "大田区"
+  },
+  {
+    "n": "東嶺町児童館",
+    "a": "東嶺町20-4",
+    "t": "",
+    "lat": 35.582902,
+    "lng": 139.685427,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "大田区"
+  },
+  {
+    "n": "池上児童館",
+    "a": "池上5-9-9",
+    "t": "",
+    "lat": 35.572806,
+    "lng": 139.707955,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "大田区"
+  },
+  {
+    "n": "徳持児童館",
+    "a": "池上8-13-4",
+    "t": "",
+    "lat": 35.569449,
+    "lng": 139.698671,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "大田区"
+  },
+  {
+    "n": "千鳥児童館",
+    "a": "千鳥3-11-7",
+    "t": "",
+    "lat": 35.572746,
+    "lng": 139.68789,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "大田区"
+  },
+  {
+    "n": "久が原児童館",
+    "a": "久が原5-4-9",
+    "t": "",
+    "lat": 35.578792,
+    "lng": 139.697705,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "大田区"
+  },
+  {
+    "n": "鵜の木児童館",
+    "a": "鵜の木3-34-7",
+    "t": "",
+    "lat": 35.575798,
+    "lng": 139.675631,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "大田区"
+  },
+  {
+    "n": "下丸子四丁目児童館",
+    "a": "下丸子4-25-1",
+    "t": "",
+    "lat": 35.57235,
+    "lng": 139.67795,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "大田区"
+  },
+  {
+    "n": "矢口児童館",
+    "a": "矢口3-3-20",
+    "t": "",
+    "lat": 35.561167,
+    "lng": 139.694281,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "大田区"
+  },
+  {
+    "n": "蓮沼児童館",
+    "a": "東矢口3-2-1-201",
+    "t": "",
+    "lat": 35.563743,
+    "lng": 139.708003,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "大田区"
+  },
+  {
+    "n": "多摩川児童館",
+    "a": "多摩川2-24-25",
+    "t": "",
+    "lat": 35.555221,
+    "lng": 139.704629,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "大田区"
+  },
+  {
+    "n": "野沢児童館",
+    "a": "野沢1-8-14",
+    "t": "",
+    "lat": 35.634692,
+    "lng": 139.671067,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "世田谷区"
+  },
+  {
+    "n": "新町児童館",
+    "a": "新町2-23-4-101",
+    "t": "",
+    "lat": 35.630908,
+    "lng": 139.64769,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "世田谷区"
+  },
+  {
+    "n": "弦巻児童館",
+    "a": "弦巻1-26-11",
+    "t": "",
+    "lat": 35.636952,
+    "lng": 139.651822,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "世田谷区"
+  },
+  {
+    "n": "上町児童館",
+    "a": "世田谷2-30-16",
+    "t": "",
+    "lat": 35.643044,
+    "lng": 139.642809,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "世田谷区"
+  },
+  {
+    "n": "代田児童館",
+    "a": "代田6-34-13",
+    "t": "",
+    "lat": 35.662797,
+    "lng": 139.660648,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "世田谷区"
+  },
+  {
+    "n": "松沢児童館",
+    "a": "赤堤4-37-14",
+    "t": "",
+    "lat": 35.664458,
+    "lng": 139.641864,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "世田谷区"
+  },
+  {
+    "n": "桜丘児童館",
+    "a": "桜丘5-14-1",
+    "t": "",
+    "lat": 35.64471,
+    "lng": 139.6222,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "世田谷区"
+  },
+  {
+    "n": "船橋児童館",
+    "a": "船橋5-17-28",
+    "t": "",
+    "lat": 35.654872,
+    "lng": 139.625426,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "世田谷区"
+  },
+  {
+    "n": "上北沢児童館",
+    "a": "上北沢3-8-9",
+    "t": "",
+    "lat": 35.667569,
+    "lng": 139.625615,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "世田谷区"
+  },
+  {
+    "n": "烏山児童館",
+    "a": "南烏山4-26-3",
+    "t": "",
+    "lat": 35.671659,
+    "lng": 139.601657,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "世田谷区"
+  },
+  {
+    "n": "粕谷児童館",
+    "a": "粕谷4-13-6",
+    "t": "",
+    "lat": 35.663124,
+    "lng": 139.605145,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "世田谷区"
+  },
+  {
+    "n": "上祖師谷ぱる児童館",
+    "a": "上祖師谷4-5-6",
+    "t": "",
+    "lat": 35.653569,
+    "lng": 139.596618,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "世田谷区"
+  },
+  {
+    "n": "成城さくら児童館",
+    "a": "成城3-18-23",
+    "t": "",
+    "lat": 35.634127,
+    "lng": 139.597595,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "世田谷区"
+  },
+  {
+    "n": "喜多見児童館",
+    "a": "喜多見2-10-40",
+    "t": "",
+    "lat": 35.624736,
+    "lng": 139.594712,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "世田谷区"
+  },
+  {
+    "n": "祖師谷児童館",
+    "a": "祖師谷4-28-6-101",
+    "t": "",
+    "lat": 35.649671,
+    "lng": 139.606212,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "世田谷区"
+  },
+  {
+    "n": "山野児童館",
+    "a": "砧4-1-7",
+    "t": "",
+    "lat": 35.638046,
+    "lng": 139.61465,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "世田谷区"
+  },
+  {
+    "n": "鎌田児童館",
+    "a": "鎌田3-35-1",
+    "t": "",
+    "lat": 35.622269,
+    "lng": 139.613479,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "世田谷区"
+  },
+  {
+    "n": "深沢児童館",
+    "a": "深沢4-33-11",
+    "t": "",
+    "lat": 35.620222,
+    "lng": 139.653782,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "世田谷区"
+  },
+  {
+    "n": "等々力児童館",
+    "a": "等々力3-25-16",
+    "t": "",
+    "lat": 35.611353,
+    "lng": 139.650048,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "世田谷区"
+  },
+  {
+    "n": "森の児童館",
+    "a": "上野毛4-29-18",
+    "t": "",
+    "lat": 35.616896,
+    "lng": 139.638816,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "世田谷区"
+  },
+  {
+    "n": "玉川台児童館",
+    "a": "玉川台1-6-15",
+    "t": "",
+    "lat": 35.622963,
+    "lng": 139.63295,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "世田谷区"
+  },
+  {
+    "n": "上用賀児童館",
+    "a": "上用賀4-14-3-101",
+    "t": "",
+    "lat": 35.635894,
+    "lng": 139.630049,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "世田谷区"
+  },
+  {
+    "n": "文園児童館",
+    "a": "中野6-10-6",
+    "t": "",
+    "lat": 35.706514,
+    "lng": 139.676766,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "中野区"
+  },
+  {
+    "n": "上高田児童館",
+    "a": "上高田5-30-15",
+    "t": "",
+    "lat": 35.718759,
+    "lng": 139.67511,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "中野区"
+  },
+  {
+    "n": "朝日が丘児童館",
+    "a": "本町2-32-14",
+    "t": "",
+    "lat": 35.695042,
+    "lng": 139.681019,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "中野区"
+  },
+  {
+    "n": "宮の台児童館",
+    "a": "本町4-8-16",
+    "t": "",
+    "lat": 35.695705,
+    "lng": 139.673156,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "中野区"
+  },
+  {
+    "n": "弥生児童館",
+    "a": "弥生1-14-6",
+    "t": "",
+    "lat": 35.690365,
+    "lng": 139.681033,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "中野区"
+  },
+  {
+    "n": "みなみ児童館",
+    "a": "南台5-15-3",
+    "t": "",
+    "lat": 35.680121,
+    "lng": 139.662419,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "中野区"
+  },
+  {
+    "n": "野方児童館",
+    "a": "新井2-48-10",
+    "t": "",
+    "lat": 35.712009,
+    "lng": 139.6605,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "中野区"
+  },
+  {
+    "n": "新井薬師児童館",
+    "a": "新井5-4-17",
+    "t": "",
+    "lat": 35.715216,
+    "lng": 139.667757,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "中野区"
+  },
+  {
+    "n": "北原児童館",
+    "a": "野方6-35-13",
+    "t": "",
+    "lat": 35.721258,
+    "lng": 139.65064,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "中野区"
+  },
+  {
+    "n": "かみさぎ児童館",
+    "a": "上鷺宮3-9-19",
+    "t": "",
+    "lat": 35.734689,
+    "lng": 139.631491,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "中野区"
+  },
+  {
+    "n": "鷺宮児童館",
+    "a": "鷺宮3-40-13",
+    "t": "",
+    "lat": 35.724007,
+    "lng": 139.640557,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "中野区"
+  },
+  {
+    "n": "若宮児童館",
+    "a": "若宮3-54-7",
+    "t": "",
+    "lat": 35.720232,
+    "lng": 139.640827,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "中野区"
+  },
+  {
+    "n": "大和児童館",
+    "a": "大和町2-8-12",
+    "t": "",
+    "lat": 35.716046,
+    "lng": 139.651652,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "中野区"
+  },
+  {
+    "n": "大和西児童館",
+    "a": "大和町4-14-9",
+    "t": "",
+    "lat": 35.714526,
+    "lng": 139.646448,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "中野区"
+  },
+  {
+    "n": "馬橋児童館",
+    "a": "高円寺北4-2-17",
+    "t": "",
+    "lat": 35.705898,
+    "lng": 139.643418,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "杉並区"
+  },
+  {
+    "n": "高円寺東児童館",
+    "a": "高円寺南1-7-22",
+    "t": "",
+    "lat": 35.698605,
+    "lng": 139.658094,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "杉並区"
+  },
+  {
+    "n": "子ども・子育てプラザ高円寺",
+    "a": "高円寺南2-52-2",
+    "t": "",
+    "lat": 35.702087,
+    "lng": 139.651755,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "杉並区"
+  },
+  {
+    "n": "和田中央児童館",
+    "a": "和田1-38-18",
+    "t": "",
+    "lat": 35.692428,
+    "lng": 139.661111,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "杉並区"
+  },
+  {
+    "n": "子ども・子育てプラザ成田西",
+    "a": "成田西3-10-38",
+    "t": "",
+    "lat": 35.691211,
+    "lng": 139.630741,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "杉並区"
+  },
+  {
+    "n": "四宮森児童館",
+    "a": "上井草2-41-11",
+    "t": "",
+    "lat": 35.724312,
+    "lng": 139.608225,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "杉並区"
+  },
+  {
+    "n": "上井草児童館",
+    "a": "上井草3-6-24",
+    "t": "",
+    "lat": 35.718584,
+    "lng": 139.602456,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "杉並区"
+  },
+  {
+    "n": "天沼児童館",
+    "a": "天沼1-6-25",
+    "t": "",
+    "lat": 35.705693,
+    "lng": 139.627149,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "杉並区"
+  },
+  {
+    "n": "子ども・子育てプラザ天沼",
+    "a": "天沼3-19-16",
+    "t": "",
+    "lat": 35.710174,
+    "lng": 139.620809,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "杉並区"
+  },
+  {
+    "n": "桃井児童館",
+    "a": "桃井2-10-9",
+    "t": "",
+    "lat": 35.71201,
+    "lng": 139.610769,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "杉並区"
+  },
+  {
+    "n": "今川児童館",
+    "a": "今川3-3-18",
+    "t": "",
+    "lat": 35.715498,
+    "lng": 139.606028,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "杉並区"
+  },
+  {
+    "n": "子ども・子育てプラザ善福寺",
+    "a": "善福寺1-18-9",
+    "t": "",
+    "lat": 35.713018,
+    "lng": 139.597666,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "杉並区"
+  },
+  {
+    "n": "善福寺北児童館",
+    "a": "善福寺3-13-10",
+    "t": "",
+    "lat": 35.717736,
+    "lng": 139.592794,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "杉並区"
+  },
+  {
+    "n": "児童青少年センター",
+    "a": "荻窪1-56-3",
+    "t": "",
+    "lat": 35.694454,
+    "lng": 139.627503,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "杉並区"
+  },
+  {
+    "n": "荻窪児童館",
+    "a": "荻窪2-40-2",
+    "t": "",
+    "lat": 35.697674,
+    "lng": 139.622224,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "杉並区"
+  },
+  {
+    "n": "西荻南児童館",
+    "a": "西荻南3-5-23",
+    "t": "",
+    "lat": 35.701508,
+    "lng": 139.60181,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "杉並区"
+  },
+  {
+    "n": "方南児童館",
+    "a": "方南1-51-7",
+    "t": "",
+    "lat": 35.679096,
+    "lng": 139.658918,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "杉並区"
+  },
+  {
+    "n": "子ども・子育てプラザ和泉",
+    "a": "和泉2-36-14",
+    "t": "",
+    "lat": 35.675119,
+    "lng": 139.651165,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "杉並区"
+  },
+  {
+    "n": "高井戸西児童館",
+    "a": "高井戸西1-17-5",
+    "t": "",
+    "lat": 35.681393,
+    "lng": 139.606907,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "杉並区"
+  },
+  {
+    "n": "高井戸児童館",
+    "a": "高井戸西2-5-10",
+    "t": "",
+    "lat": 35.684066,
+    "lng": 139.611588,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "杉並区"
+  },
+  {
+    "n": "下高井戸児童館",
+    "a": "下高井戸4-19-6",
+    "t": "",
+    "lat": 35.673179,
+    "lng": 139.63042,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "杉並区"
+  },
+  {
+    "n": "宮前北児童館",
+    "a": "宮前3-29-6",
+    "t": "",
+    "lat": 35.696593,
+    "lng": 139.608227,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "杉並区"
+  },
+  {
+    "n": "宮前児童館",
+    "a": "宮前4-15-13",
+    "t": "",
+    "lat": 35.69237,
+    "lng": 139.602468,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "杉並区"
+  },
+  {
+    "n": "王子東児童館",
+    "a": "王子6-2-60",
+    "t": "",
+    "lat": 35.759248,
+    "lng": 139.741026,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "北区"
+  },
+  {
+    "n": "豊島東児童館",
+    "a": "豊島5-5-9-120",
+    "t": "",
+    "lat": 35.766551,
+    "lng": 139.753637,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "北区"
+  },
+  {
+    "n": "豊島児童館",
+    "a": "豊島7-17-1",
+    "t": "",
+    "lat": 35.764497,
+    "lng": 139.744378,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "北区"
+  },
+  {
+    "n": "滝野川西児童館",
+    "a": "滝野川6-21-25",
+    "t": "",
+    "lat": 35.745623,
+    "lng": 139.725917,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "北区"
+  },
+  {
+    "n": "西ケ原子どもセンター",
+    "a": "西ヶ原1-41-3",
+    "t": "",
+    "lat": 35.741688,
+    "lng": 139.744647,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "北区"
+  },
+  {
+    "n": "八幡山子どもセンター",
+    "a": "中十条4-15-7",
+    "t": "",
+    "lat": 35.768351,
+    "lng": 139.722466,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "北区"
+  },
+  {
+    "n": "志茂子ども交流館",
+    "a": "志茂5-18-3",
+    "t": "",
+    "lat": 35.783442,
+    "lng": 139.731229,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "北区"
+  },
+  {
+    "n": "神谷子どもセンター",
+    "a": "神谷3-35-17",
+    "t": "",
+    "lat": 35.771319,
+    "lng": 139.731087,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "北区"
+  },
+  {
+    "n": "袋児童館",
+    "a": "赤羽北3-7-2-101",
+    "t": "",
+    "lat": 35.782839,
+    "lng": 139.705989,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "北区"
+  },
+  {
+    "n": "桐ヶ丘児童館",
+    "a": "桐ヶ丘1-16-27-102",
+    "t": "",
+    "lat": 35.778189,
+    "lng": 139.706613,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "北区"
+  },
+  {
+    "n": "南板橋児童館",
+    "a": "板橋1-39-1",
+    "t": "",
+    "lat": 35.747756,
+    "lng": 139.714974,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "板橋区"
+  },
+  {
+    "n": "氷川児童館",
+    "a": "氷川町24-2",
+    "t": "",
+    "lat": 35.754408,
+    "lng": 139.705106,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "板橋区"
+  },
+  {
+    "n": "蓮根第二児童館",
+    "a": "蓮根3-15-1-104",
+    "t": "",
+    "lat": 35.788305,
+    "lng": 139.676426,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "板橋区"
+  },
+  {
+    "n": "あずさわ児童館",
+    "a": "小豆沢3-9-2-103",
+    "t": "",
+    "lat": 35.780552,
+    "lng": 139.696235,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "板橋区"
+  },
+  {
+    "n": "清水児童館",
+    "a": "清水町72-7",
+    "t": "",
+    "lat": 35.765397,
+    "lng": 139.704666,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "板橋区"
+  },
+  {
+    "n": "志村児童館",
+    "a": "志村2-16-11",
+    "t": "",
+    "lat": 35.774891,
+    "lng": 139.68594,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "板橋区"
+  },
+  {
+    "n": "富士見台児童館",
+    "a": "前野町1-8-1",
+    "t": "",
+    "lat": 35.764005,
+    "lng": 139.696233,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "板橋区"
+  },
+  {
+    "n": "西徳児童館",
+    "a": "西台4-4-37",
+    "t": "",
+    "lat": 35.770141,
+    "lng": 139.668136,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "板橋区"
+  },
+  {
+    "n": "新河岸児童館",
+    "a": "新河岸1-3-2-101",
+    "t": "",
+    "lat": 35.794443,
+    "lng": 139.664352,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "板橋区"
+  },
+  {
+    "n": "はすのみ児童館",
+    "a": "高島平1-50-2",
+    "t": "",
+    "lat": 35.783695,
+    "lng": 139.67183,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "板橋区"
+  },
+  {
+    "n": "高島平児童館",
+    "a": "高島平3-12-28",
+    "t": "",
+    "lat": 35.787039,
+    "lng": 139.658964,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "板橋区"
+  },
+  {
+    "n": "赤塚児童館",
+    "a": "赤塚6-38-1",
+    "t": "",
+    "lat": 35.778752,
+    "lng": 139.644801,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "板橋区"
+  },
+  {
+    "n": "なります児童館",
+    "a": "成増3-34-21",
+    "t": "",
+    "lat": 35.781288,
+    "lng": 139.631598,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "板橋区"
+  },
+  {
+    "n": "しらさぎ児童館",
+    "a": "成増5-19-41",
+    "t": "",
+    "lat": 35.788025,
+    "lng": 139.633967,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "板橋区"
+  },
+  {
+    "n": "三原台児童館",
+    "a": "三原台2-11-29",
+    "t": "",
+    "lat": 35.757291,
+    "lng": 139.606412,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "練馬区"
+  },
+  {
+    "n": "石神井児童館",
+    "a": "石神井町7-28-21",
+    "t": "",
+    "lat": 35.744876,
+    "lng": 139.598446,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "練馬区"
+  },
+  {
+    "n": "上石神井児童館",
+    "a": "上石神井1-5-2",
+    "t": "",
+    "lat": 35.725658,
+    "lng": 139.592377,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "練馬区"
+  },
+  {
+    "n": "関町児童館",
+    "a": "関町南4-15-7-102",
+    "t": "",
+    "lat": 35.722467,
+    "lng": 139.572198,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "練馬区"
+  },
+  {
+    "n": "光が丘児童館",
+    "a": "光が丘1-3-1",
+    "t": "",
+    "lat": 35.767678,
+    "lng": 139.639236,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "練馬区"
+  },
+  {
+    "n": "千住河原町児童館",
+    "a": "千住河原町5-12",
+    "t": "",
+    "lat": 35.744522,
+    "lng": 139.795736,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "足立区"
+  },
+  {
+    "n": "東伊興生活館児童館",
+    "a": "東伊興3-23-6",
+    "t": "",
+    "lat": 35.804348,
+    "lng": 139.793541,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "足立区"
+  },
+  {
+    "n": "渕江住区センター分館児童館",
+    "a": "西保木間3-14-16-101",
+    "t": "",
+    "lat": 35.804236,
+    "lng": 139.800401,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "足立区"
+  },
+  {
+    "n": "中道児童館",
+    "a": "西亀有1-2-7",
+    "t": "",
+    "lat": 35.756795,
+    "lng": 139.837088,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "葛飾区"
+  },
+  {
+    "n": "宝町児童館",
+    "a": "宝町1-5-1",
+    "t": "",
+    "lat": 35.742256,
+    "lng": 139.835367,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "葛飾区"
+  },
+  {
+    "n": "渋江児童館",
+    "a": "東四つ木1-20-4",
+    "t": "",
+    "lat": 35.730942,
+    "lng": 139.8437,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "葛飾区"
+  },
+  {
+    "n": "西奥戸児童館",
+    "a": "奥戸1-12-1",
+    "t": "",
+    "lat": 35.72856,
+    "lng": 139.854148,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "葛飾区"
+  },
+  {
+    "n": "東奥戸児童館",
+    "a": "奥戸4-20-11",
+    "t": "",
+    "lat": 35.728876,
+    "lng": 139.867932,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "葛飾区"
+  },
+  {
+    "n": "西亀有児童館",
+    "a": "西亀有4-24-1",
+    "t": "",
+    "lat": 35.764846,
+    "lng": 139.843621,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "葛飾区"
+  },
+  {
+    "n": "花の木児童館",
+    "a": "南水元3-7-1",
+    "t": "",
+    "lat": 35.773805,
+    "lng": 139.865644,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "葛飾区"
+  },
+  {
+    "n": "金町子どもセンター",
+    "a": "東金町3-8-1",
+    "t": "",
+    "lat": 35.771543,
+    "lng": 139.875441,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "葛飾区"
+  },
+  {
+    "n": "東金町児童館",
+    "a": "東金町5-22-18",
+    "t": "",
+    "lat": 35.779295,
+    "lng": 139.87796,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "葛飾区"
+  },
+  {
+    "n": "末広児童館",
+    "a": "金町5-4-1",
+    "t": "",
+    "lat": 35.765966,
+    "lng": 139.866344,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "葛飾区"
+  },
+  {
+    "n": "柴又児童館",
+    "a": "柴又2-4-5",
+    "t": "",
+    "lat": 35.758005,
+    "lng": 139.870124,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "葛飾区"
+  },
+  {
+    "n": "新柴又児童館",
+    "a": "柴又5-33-8",
+    "t": "",
+    "lat": 35.753739,
+    "lng": 139.881843,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "葛飾区"
+  },
+  {
+    "n": "鎌倉児童館",
+    "a": "鎌倉2-6-20",
+    "t": "",
+    "lat": 35.745323,
+    "lng": 139.874524,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "葛飾区"
+  },
+  {
+    "n": "高砂児童館",
+    "a": "高砂5-6-7",
+    "t": "",
+    "lat": 35.751419,
+    "lng": 139.865217,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "葛飾区"
+  },
+  {
+    "n": "亀有児童館",
+    "a": "亀有1-17-5",
+    "t": "",
+    "lat": 35.759175,
+    "lng": 139.845928,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "葛飾区"
+  },
+  {
+    "n": "青戸児童館",
+    "a": "青戸3-10-5",
+    "t": "",
+    "lat": 35.746307,
+    "lng": 139.848831,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "葛飾区"
+  },
+  {
+    "n": "青戸中央児童館",
+    "a": "青戸6-16-12",
+    "t": "",
+    "lat": 35.753008,
+    "lng": 139.857123,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "葛飾区"
+  },
+  {
+    "n": "南大谷児童館",
+    "a": "大谷町46-1",
+    "t": "",
+    "lat": 35.669427,
+    "lng": 139.353877,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "八王子市"
+  },
+  {
+    "n": "中野児童館",
+    "a": "中野山王3-6-27",
+    "t": "",
+    "lat": 35.674617,
+    "lng": 139.325311,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "八王子市"
+  },
+  {
+    "n": "松が谷児童館鹿島分館",
+    "a": "鹿島2",
+    "t": "",
+    "lat": 35.633154,
+    "lng": 139.426799,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "八王子市"
+  },
+  {
+    "n": "松が谷児童館",
+    "a": "松が谷13",
+    "t": "",
+    "lat": 35.629273,
+    "lng": 139.414306,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "八王子市"
+  },
+  {
+    "n": "由木児童館",
+    "a": "越野692-1",
+    "t": "",
+    "lat": 35.629372,
+    "lng": 139.384394,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "八王子市"
+  },
+  {
+    "n": "北野児童館",
+    "a": "北野町549-9",
+    "t": "",
+    "lat": 35.646432,
+    "lng": 139.353096,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "八王子市"
+  },
+  {
+    "n": "川口児童館",
+    "a": "川口町3974",
+    "t": "",
+    "lat": 35.692761,
+    "lng": 139.282011,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "八王子市"
+  },
+  {
+    "n": "元八王子児童館",
+    "a": "大楽寺町508-3",
+    "t": "",
+    "lat": 35.671798,
+    "lng": 139.296572,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "八王子市"
+  },
+  {
+    "n": "中郷児童館長房分館",
+    "a": "長房町341",
+    "t": "",
+    "lat": 35.657257,
+    "lng": 139.298371,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "八王子市"
+  },
+  {
+    "n": "中郷児童館",
+    "a": "長房町891-2",
+    "t": "",
+    "lat": 35.653511,
+    "lng": 139.290688,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "八王子市"
+  },
+  {
+    "n": "浅川児童館",
+    "a": "初沢町1323",
+    "t": "",
+    "lat": 35.639322,
+    "lng": 139.281967,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "八王子市"
+  },
+  {
+    "n": "館ケ丘児童館",
+    "a": "館町1097-57",
+    "t": "",
+    "lat": 35.628212,
+    "lng": 139.287733,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "八王子市"
+  },
+  {
+    "n": "立川市若葉児童館",
+    "a": "若葉町4-25-114",
+    "t": "",
+    "lat": 35.722256,
+    "lng": 139.443516,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "立川市"
+  },
+  {
+    "n": "立川市幸児童館",
+    "a": "幸町2-19-1",
+    "t": "",
+    "lat": 35.719472,
+    "lng": 139.427748,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "立川市"
+  },
+  {
+    "n": "立川市高松児童館",
+    "a": "高松町2-25-26",
+    "t": "",
+    "lat": 35.704151,
+    "lng": 139.420184,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "立川市"
+  },
+  {
+    "n": "西立川児童会館",
+    "a": "富士見町1-23-6",
+    "t": "",
+    "lat": 35.701845,
+    "lng": 139.396474,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "立川市"
+  },
+  {
+    "n": "立川市富士見児童館",
+    "a": "富士見町7-7-12",
+    "t": "",
+    "lat": 35.693481,
+    "lng": 139.397455,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "立川市"
+  },
+  {
+    "n": "立川市羽衣児童館",
+    "a": "羽衣町2-44-16",
+    "t": "",
+    "lat": 35.692617,
+    "lng": 139.42508,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "立川市"
+  },
+  {
+    "n": "立川市錦児童館",
+    "a": "錦町3-12-1",
+    "t": "",
+    "lat": 35.691644,
+    "lng": 139.416414,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "立川市"
+  },
+  {
+    "n": "桜堤児童館",
+    "a": "桜堤2-1-29",
+    "t": "",
+    "lat": 35.707594,
+    "lng": 139.532412,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "武蔵野市"
+  },
+  {
+    "n": "紅葉丘児童館",
+    "a": "紅葉丘2-1",
+    "t": "",
+    "lat": 35.676565,
+    "lng": 139.50918,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "府中市"
+  },
+  {
+    "n": "白糸台児童館",
+    "a": "白糸台1-60",
+    "t": "",
+    "lat": 35.667037,
+    "lng": 139.506203,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "府中市"
+  },
+  {
+    "n": "押立児童館",
+    "a": "押立町5-4",
+    "t": "",
+    "lat": 35.653637,
+    "lng": 139.517872,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "府中市"
+  },
+  {
+    "n": "是政児童館",
+    "a": "是政2-20",
+    "t": "",
+    "lat": 35.660881,
+    "lng": 139.495327,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "府中市"
+  },
+  {
+    "n": "片町児童館",
+    "a": "片町2-17",
+    "t": "",
+    "lat": 35.670292,
+    "lng": 139.469378,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "府中市"
+  },
+  {
+    "n": "西府児童館",
+    "a": "西府町1-60",
+    "t": "",
+    "lat": 35.670867,
+    "lng": 139.456146,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "府中市"
+  },
+  {
+    "n": "住吉児童館",
+    "a": "住吉町1-61",
+    "t": "",
+    "lat": 35.660228,
+    "lng": 139.460325,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "府中市"
+  },
+  {
+    "n": "四谷児童館",
+    "a": "四谷2-75",
+    "t": "",
+    "lat": 35.66526,
+    "lng": 139.445544,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "府中市"
+  },
+  {
+    "n": "武蔵台児童館",
+    "a": "武蔵台2-2",
+    "t": "",
+    "lat": 35.688562,
+    "lng": 139.461462,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "府中市"
+  },
+  {
+    "n": "新町児童館",
+    "a": "新町1-66",
+    "t": "",
+    "lat": 35.687203,
+    "lng": 139.489227,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "府中市"
+  },
+  {
+    "n": "緑ヶ丘児童館",
+    "a": "緑ヶ丘2-20-16",
+    "t": "",
+    "lat": 35.669186,
+    "lng": 139.584172,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "調布市"
+  },
+  {
+    "n": "つつじケ丘児童館",
+    "a": "西つつじヶ丘3-19-1",
+    "t": "",
+    "lat": 35.657823,
+    "lng": 139.571382,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "調布市"
+  },
+  {
+    "n": "深大寺児童館",
+    "a": "深大寺東町5-14-1",
+    "t": "",
+    "lat": 35.672504,
+    "lng": 139.555753,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "調布市"
+  },
+  {
+    "n": "佐須児童館",
+    "a": "佐須町4-42-2",
+    "t": "",
+    "lat": 35.658471,
+    "lng": 139.556041,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "調布市"
+  },
+  {
+    "n": "調布ヶ丘児童館",
+    "a": "調布ヶ丘2-36-1",
+    "t": "",
+    "lat": 35.654878,
+    "lng": 139.551351,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "調布市"
+  },
+  {
+    "n": "染地児童館",
+    "a": "染地2-41-12",
+    "t": "",
+    "lat": 35.642404,
+    "lng": 139.555623,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "調布市"
+  },
+  {
+    "n": "多摩川児童館",
+    "a": "多摩川5-1-2",
+    "t": "",
+    "lat": 35.645431,
+    "lng": 139.537744,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "調布市"
+  },
+  {
+    "n": "富士見児童館",
+    "a": "富士見町1-8-1",
+    "t": "",
+    "lat": 35.658342,
+    "lng": 139.536665,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "調布市"
+  },
+  {
+    "n": "西部児童館",
+    "a": "上石原3-21-6",
+    "t": "",
+    "lat": 35.653023,
+    "lng": 139.522155,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "調布市"
+  },
+  {
+    "n": "子どもセンターばあん",
+    "a": "金森4-5-7",
+    "t": "",
+    "lat": 35.523814,
+    "lng": 139.467071,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "町田市"
+  },
+  {
+    "n": "子どもセンター　まあち",
+    "a": "中町1-31-22",
+    "t": "",
+    "lat": 35.54824,
+    "lng": 139.448818,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "町田市"
+  },
+  {
+    "n": "南大谷子どもクラブ",
+    "a": "南大谷264",
+    "t": "",
+    "lat": 35.553111,
+    "lng": 139.458231,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "町田市"
+  },
+  {
+    "n": "子どもセンター　ただＯＮ",
+    "a": "忠生1-11-1",
+    "t": "",
+    "lat": 35.574063,
+    "lng": 139.422247,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "町田市"
+  },
+  {
+    "n": "木曽子どもクラブ",
+    "a": "木曽東1-6-40",
+    "t": "",
+    "lat": 35.557825,
+    "lng": 139.430868,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "町田市"
+  },
+  {
+    "n": "玉川学園子どもクラブころころ児童館",
+    "a": "玉川学園3-35-45",
+    "t": "",
+    "lat": 35.563019,
+    "lng": 139.458982,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "町田市"
+  },
+  {
+    "n": "子どもセンターぱお",
+    "a": "相原町2025-2",
+    "t": "",
+    "lat": 35.608257,
+    "lng": 139.321437,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "町田市"
+  },
+  {
+    "n": "小山子どもクラブ",
+    "a": "小山町1165-3",
+    "t": "",
+    "lat": 35.595248,
+    "lng": 139.371876,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "町田市"
+  },
+  {
+    "n": "三輪子どもクラブ",
+    "a": "三輪緑山3-25-2",
+    "t": "",
+    "lat": 35.573813,
+    "lng": 139.488522,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "町田市"
+  },
+  {
+    "n": "子どもセンターつるっこ",
+    "a": "大蔵町1913",
+    "t": "",
+    "lat": 35.5899,
+    "lng": 139.465884,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "町田市"
+  },
+  {
+    "n": "緑児童館",
+    "a": "緑町4-18-25",
+    "t": "",
+    "lat": 35.709362,
+    "lng": 139.518101,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "小金井市"
+  },
+  {
+    "n": "本町児童館",
+    "a": "本町5-4-25",
+    "t": "",
+    "lat": 35.702716,
+    "lng": 139.501029,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "小金井市"
+  },
+  {
+    "n": "東児童館",
+    "a": "東町4-25-7",
+    "t": "",
+    "lat": 35.69768,
+    "lng": 139.526341,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "小金井市"
+  },
+  {
+    "n": "貫井南児童館",
+    "a": "貫井南町4-3-23",
+    "t": "",
+    "lat": 35.693663,
+    "lng": 139.4937,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "小金井市"
+  },
+  {
+    "n": "小平市立花小金井南児童館",
+    "a": "花小金井南町3-3-17",
+    "t": "",
+    "lat": 35.722085,
+    "lng": 139.518626,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "小平市"
+  },
+  {
+    "n": "小平市立小川町一丁目児童館",
+    "a": "小川町1-3045",
+    "t": "",
+    "lat": 35.729302,
+    "lng": 139.448114,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "小平市"
+  },
+  {
+    "n": "小平市立小川町二丁目児童館",
+    "a": "小川町2-1154",
+    "t": "",
+    "lat": 35.727624,
+    "lng": 139.467372,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "小平市"
+  },
+  {
+    "n": "基幹型さかえまち児童館",
+    "a": "栄町2-13-4",
+    "t": "",
+    "lat": 35.683141,
+    "lng": 139.392062,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "日野市"
+  },
+  {
+    "n": "みさわ児童館",
+    "a": "三沢217-1",
+    "t": "",
+    "lat": 35.660986,
+    "lng": 139.42467,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "日野市"
+  },
+  {
+    "n": "みなみだいら児童館ぷらねっと",
+    "a": "南平6-12-113",
+    "t": "",
+    "lat": 35.656432,
+    "lng": 139.393087,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "日野市"
+  },
+  {
+    "n": "基幹型ひらやま児童館",
+    "a": "平山3-26-3",
+    "t": "",
+    "lat": 35.64568,
+    "lng": 139.385159,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "日野市"
+  },
+  {
+    "n": "たまだいら児童館ふれっしゅ",
+    "a": "多摩平2-9",
+    "t": "",
+    "lat": 35.663349,
+    "lng": 139.381633,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "日野市"
+  },
+  {
+    "n": "秋津児童館",
+    "a": "秋津町3-51-25",
+    "t": "",
+    "lat": 35.773393,
+    "lng": 139.483578,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "東村山市"
+  },
+  {
+    "n": "栄町児童館",
+    "a": "栄町3-14-1",
+    "t": "",
+    "lat": 35.746905,
+    "lng": 139.469125,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "東村山市"
+  },
+  {
+    "n": "本町児童館",
+    "a": "本町4-19-26",
+    "t": "",
+    "lat": 35.753673,
+    "lng": 139.474594,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "東村山市"
+  },
+  {
+    "n": "北山児童館",
+    "a": "野口町3-26-2",
+    "t": "",
+    "lat": 35.765148,
+    "lng": 139.453304,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "東村山市"
+  },
+  {
+    "n": "富士見児童館",
+    "a": "富士見町5-4-51",
+    "t": "",
+    "lat": 35.746641,
+    "lng": 139.46288,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "東村山市"
+  },
+  {
+    "n": "しんまち児童館",
+    "a": "新町1-7-2",
+    "t": "",
+    "lat": 35.713307,
+    "lng": 139.454022,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "国分寺市"
+  },
+  {
+    "n": "本多児童館",
+    "a": "本多1-7-1",
+    "t": "",
+    "lat": 35.704926,
+    "lng": 139.482596,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "国分寺市"
+  },
+  {
+    "n": "もとまち児童館",
+    "a": "東元町2-5-19",
+    "t": "",
+    "lat": 35.69171,
+    "lng": 139.481289,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "国分寺市"
+  },
+  {
+    "n": "いずみ児童館",
+    "a": "泉町3-29-14",
+    "t": "",
+    "lat": 35.698339,
+    "lng": 139.464847,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "国分寺市"
+  },
+  {
+    "n": "ひかり児童館",
+    "a": "光町3-13-19",
+    "t": "",
+    "lat": 35.707789,
+    "lng": 139.443133,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "国分寺市"
+  },
+  {
+    "n": "にしまち児童館",
+    "a": "西町3-22-1",
+    "t": "",
+    "lat": 35.710842,
+    "lng": 139.434456,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "国分寺市"
+  },
+  {
+    "n": "西児童館",
+    "a": "西1-12-26",
+    "t": "",
+    "lat": 35.696949,
+    "lng": 139.433158,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "国立市"
+  },
+  {
+    "n": "福生市熊川児童館",
+    "a": "熊川1143-1",
+    "t": "",
+    "lat": 35.730138,
+    "lng": 139.341221,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "福生市"
+  },
+  {
+    "n": "福生市田園児童館",
+    "a": "南田園3-6-1",
+    "t": "",
+    "lat": 35.73011,
+    "lng": 139.330971,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "福生市"
+  },
+  {
+    "n": "福生市武蔵野台児童館",
+    "a": "武蔵野台1-12-2",
+    "t": "",
+    "lat": 35.746858,
+    "lng": 139.333887,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "福生市"
+  },
+  {
+    "n": "北部児童館",
+    "a": "和泉本町3-31-19",
+    "t": "",
+    "lat": 35.642068,
+    "lng": 139.575444,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "狛江市"
+  },
+  {
+    "n": "岩戸児童センター",
+    "a": "岩戸南3-15-1",
+    "t": "",
+    "lat": 35.62916,
+    "lng": 139.587914,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "狛江市"
+  },
+  {
+    "n": "きよはら児童館",
+    "a": "清原2-1",
+    "t": "",
+    "lat": 35.74319,
+    "lng": 139.446968,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "東大和市"
+  },
+  {
+    "n": "むこうはら児童館",
+    "a": "向原3-10",
+    "t": "",
+    "lat": 35.74062,
+    "lng": 139.436769,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "東大和市"
+  },
+  {
+    "n": "なんがい児童館",
+    "a": "南街5-32",
+    "t": "",
+    "lat": 35.737175,
+    "lng": 139.431558,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "東大和市"
+  },
+  {
+    "n": "さくらがおか児童館",
+    "a": "桜が丘3-44-13",
+    "t": "",
+    "lat": 35.734287,
+    "lng": 139.420086,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "東大和市"
+  },
+  {
+    "n": "かみきただい児童館",
+    "a": "上北台2-865-9",
+    "t": "",
+    "lat": 35.742888,
+    "lng": 139.414714,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "東大和市"
+  },
+  {
+    "n": "下宿児童館",
+    "a": "下宿2-524-1",
+    "t": "",
+    "lat": 35.797518,
+    "lng": 139.533252,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "清瀬市"
+  },
+  {
+    "n": "子どもセンターひばり",
+    "a": "ひばりが丘団地8-11",
+    "t": "",
+    "lat": 35.747071,
+    "lng": 139.531566,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "東久留米市"
+  },
+  {
+    "n": "子どもセンターあおぞら",
+    "a": "前沢4-25-8",
+    "t": "",
+    "lat": 35.745798,
+    "lng": 139.511506,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "東久留米市"
+  },
+  {
+    "n": "中央児童館",
+    "a": "中央町1-10-11",
+    "t": "",
+    "lat": 35.754793,
+    "lng": 139.524397,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "東久留米市"
+  },
+  {
+    "n": "山王森児童館",
+    "a": "三ツ藤3-6-10",
+    "t": "",
+    "lat": 35.755786,
+    "lng": 139.371861,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "武蔵村山市"
+  },
+  {
+    "n": "一ノ宮児童館",
+    "a": "一ノ宮1-18-7",
+    "t": "",
+    "lat": 35.652932,
+    "lng": 139.44282,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "多摩市"
+  },
+  {
+    "n": "桜ヶ丘児童館",
+    "a": "桜ヶ丘1-17-7",
+    "t": "",
+    "lat": 35.639956,
+    "lng": 139.44652,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "多摩市"
+  },
+  {
+    "n": "連光寺児童館",
+    "a": "連光寺3-57-1",
+    "t": "",
+    "lat": 35.642753,
+    "lng": 139.456826,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "多摩市"
+  },
+  {
+    "n": "諏訪児童館",
+    "a": "諏訪2-8",
+    "t": "",
+    "lat": 35.625322,
+    "lng": 139.451465,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "多摩市"
+  },
+  {
+    "n": "永山児童館",
+    "a": "永山3-6",
+    "t": "",
+    "lat": 35.625578,
+    "lng": 139.445792,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "多摩市"
+  },
+  {
+    "n": "落合児童館",
+    "a": "落合6-5",
+    "t": "",
+    "lat": 35.612237,
+    "lng": 139.425607,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "多摩市"
+  },
+  {
+    "n": "唐木田児童館",
+    "a": "鶴牧6-14",
+    "t": "",
+    "lat": 35.61544,
+    "lng": 139.413194,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "多摩市"
+  },
+  {
+    "n": "愛宕児童館",
+    "a": "愛宕1-65-3",
+    "t": "",
+    "lat": 35.6347,
+    "lng": 139.432507,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "多摩市"
+  },
+  {
+    "n": "稲城市第四文化センター児童館",
+    "a": "東長沼271",
+    "t": "",
+    "lat": 35.645955,
+    "lng": 139.505476,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "稲城市"
+  },
+  {
+    "n": "稲城市城山文化センター児童館",
+    "a": "向陽台6-7",
+    "t": "",
+    "lat": 35.641485,
+    "lng": 139.490795,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "稲城市"
+  },
+  {
+    "n": "稲城市第二文化センター児童館",
+    "a": "矢野口1780",
+    "t": "",
+    "lat": 35.635242,
+    "lng": 139.518406,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "稲城市"
+  },
+  {
+    "n": "稲城市第三文化センター児童館",
+    "a": "平尾1-20-5",
+    "t": "",
+    "lat": 35.613108,
+    "lng": 139.49244,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "稲城市"
+  },
+  {
+    "n": "西児童館",
+    "a": "小作台5-28-3",
+    "t": "",
+    "lat": 35.772798,
+    "lng": 139.303028,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "羽村市"
+  },
+  {
+    "n": "中央児童館",
+    "a": "羽中3-6-19",
+    "t": "",
+    "lat": 35.761356,
+    "lng": 139.309216,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "羽村市"
+  },
+  {
+    "n": "東児童館",
+    "a": "神明台3-30-2",
+    "t": "",
+    "lat": 35.760273,
+    "lng": 139.328332,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "羽村市"
+  },
+  {
+    "n": "五日市児童館",
+    "a": "五日市315",
+    "t": "",
+    "lat": 35.731879,
+    "lng": 139.221864,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "あきる野市"
+  },
+  {
+    "n": "多西児童館",
+    "a": "草花2572",
+    "t": "",
+    "lat": 35.743052,
+    "lng": 139.299279,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "あきる野市"
+  },
+  {
+    "n": "若竹児童館",
+    "a": "野辺1123",
+    "t": "",
+    "lat": 35.724116,
+    "lng": 139.306592,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "あきる野市"
+  },
+  {
+    "n": "南秋留児童館",
+    "a": "雨間801-2",
+    "t": "",
+    "lat": 35.720751,
+    "lng": 139.292074,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "あきる野市"
+  },
+  {
+    "n": "若葉児童館",
+    "a": "上代継303-5",
+    "t": "",
+    "lat": 35.723206,
+    "lng": 139.277691,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "あきる野市"
+  },
+  {
+    "n": "一の谷児童館",
+    "a": "引田928",
+    "t": "",
+    "lat": 35.720088,
+    "lng": 139.270991,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "あきる野市"
+  },
+  {
+    "n": "北原児童館",
+    "a": "北原町1-16-2",
+    "t": "",
+    "lat": 35.733723,
+    "lng": 139.544546,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "西東京市"
+  },
+  {
+    "n": "田無児童館",
+    "a": "田無町4-14-2",
+    "t": "",
+    "lat": 35.727772,
+    "lng": 139.535205,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "西東京市"
+  },
+  {
+    "n": "田無柳沢児童センター",
+    "a": "向台町1-7-25",
+    "t": "",
+    "lat": 35.721138,
+    "lng": 139.546932,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "西東京市"
+  },
+  {
+    "n": "芝久保児童館",
+    "a": "芝久保町1-16-18",
+    "t": "",
+    "lat": 35.724664,
+    "lng": 139.525675,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "西東京市"
+  },
+  {
+    "n": "ひばりが丘北児童センター",
+    "a": "ひばりが丘北1-6-8",
+    "t": "",
+    "lat": 35.752368,
+    "lng": 139.549498,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "西東京市"
+  },
+  {
+    "n": "中町児童館",
+    "a": "中町4-4-1",
+    "t": "",
+    "lat": 35.737748,
+    "lng": 139.564327,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "西東京市"
+  },
+  {
+    "n": "保谷柳沢児童館",
+    "a": "柳沢2-6-11",
+    "t": "",
+    "lat": 35.723476,
+    "lng": 139.556222,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "西東京市"
+  },
+  {
+    "n": "志茂町児童館",
+    "a": "平井1254-1",
+    "t": "",
+    "lat": 35.740884,
+    "lng": 139.270393,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "西多摩郡日の出町"
+  },
+  {
+    "n": "下丸子児童館",
+    "a": "下丸子2-20-15",
+    "t": "",
+    "lat": 35.5645,
+    "lng": 139.68773,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "大田区"
+  },
+  {
+    "n": "蒲田児童館",
+    "a": "蒲田2-8-8",
+    "t": "",
+    "lat": 35.566211,
+    "lng": 139.727093,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "大田区"
+  },
+  {
+    "n": "本蒲田児童館",
+    "a": "蒲田1-4-23",
+    "t": "",
+    "lat": 35.567781,
+    "lng": 139.721501,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "大田区"
+  },
+  {
+    "n": "大森東一丁目児童館",
+    "a": "大森東1-31-3-105",
+    "t": "",
+    "lat": 35.57624,
+    "lng": 139.738711,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "大田区"
+  },
+  {
+    "n": "子ども交流センター",
+    "a": "大森西2-16-2",
+    "t": "",
+    "lat": 35.576567,
+    "lng": 139.729829,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "大田区"
+  },
+  {
+    "n": "大森北児童館",
+    "a": "大森北3-25-2",
+    "t": "",
+    "lat": 35.582421,
+    "lng": 139.731213,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "大田区"
+  },
+  {
+    "n": "仲池上児童館",
+    "a": "仲池上1-21-16",
+    "t": "",
+    "lat": 35.586196,
+    "lng": 139.6979,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "大田区"
+  },
+  {
+    "n": "南馬込四丁目児童館",
+    "a": "南馬込4-6-5",
+    "t": "",
+    "lat": 35.58644,
+    "lng": 139.709839,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "大田区"
+  },
+  {
+    "n": "南大井児童センター",
+    "a": "南大井3-7-13",
+    "t": "",
+    "lat": 35.591675,
+    "lng": 139.734451,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "品川区"
+  },
+  {
+    "n": "中馬込児童館",
+    "a": "中馬込1-19-1-201",
+    "t": "",
+    "lat": 35.594715,
+    "lng": 139.704745,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "大田区"
+  },
+  {
+    "n": "田園調布二丁目児童館",
+    "a": "田園調布2-17-2",
+    "t": "",
+    "lat": 35.595362,
+    "lng": 139.672922,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "大田区"
+  },
+  {
+    "n": "伊藤児童センター",
+    "a": "西大井6-13-1",
+    "t": "",
+    "lat": 35.600726,
+    "lng": 139.717604,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "品川区"
+  },
+  {
+    "n": "冨士見台児童センター",
+    "a": "西大井6-1-8",
+    "t": "",
+    "lat": 35.601313,
+    "lng": 139.71425,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "品川区"
+  },
+  {
+    "n": "東大井児童センター",
+    "a": "東大井1-22-16",
+    "t": "",
+    "lat": 35.603326,
+    "lng": 139.741511,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "品川区"
+  },
+  {
+    "n": "旗の台児童センター",
+    "a": "旗の台5-19-5",
+    "t": "",
+    "lat": 35.603867,
+    "lng": 139.700478,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "品川区"
+  },
+  {
+    "n": "一本橋児童センター",
+    "a": "大井2-25-1",
+    "t": "",
+    "lat": 35.604629,
+    "lng": 139.729653,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "品川区"
+  },
+  {
+    "n": "南ゆたか児童センター",
+    "a": "豊町4-17-21",
+    "t": "",
+    "lat": 35.606504,
+    "lng": 139.720915,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "品川区"
+  },
+  {
+    "n": "西中延児童センター",
+    "a": "西中延3-8-5",
+    "t": "",
+    "lat": 35.607315,
+    "lng": 139.70811,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "品川区"
+  },
+  {
+    "n": "東中延児童センター",
+    "a": "東中延2-5-10",
+    "t": "",
+    "lat": 35.607799,
+    "lng": 139.713933,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "品川区"
+  },
+  {
+    "n": "目黒区立緑が丘児童館",
+    "a": "緑が丘2-7-20",
+    "t": "",
+    "lat": 35.609471,
+    "lng": 139.674296,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "目黒区"
+  },
+  {
+    "n": "ゆたか児童センター",
+    "a": "豊町1-18-15",
+    "t": "",
+    "lat": 35.611586,
+    "lng": 139.722664,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "品川区"
+  },
+  {
+    "n": "中延児童センター",
+    "a": "西中延1-6-16",
+    "t": "",
+    "lat": 35.612426,
+    "lng": 139.708439,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "品川区"
+  },
+  {
+    "n": "豊ケ丘児童館",
+    "a": "豊ヶ丘5-6",
+    "t": "",
+    "lat": 35.614541,
+    "lng": 139.434682,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "多摩市"
+  },
+  {
+    "n": "目黒区立原町住区センター児童館",
+    "a": "南1-8-9",
+    "t": "",
+    "lat": 35.615123,
+    "lng": 139.689382,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "目黒区"
+  },
+  {
+    "n": "目黒区立八雲住区センター児童館",
+    "a": "八雲1-10-5",
+    "t": "",
+    "lat": 35.618734,
+    "lng": 139.672246,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "目黒区"
+  },
+  {
+    "n": "北品川児童センター",
+    "a": "北品川2-7-21",
+    "t": "",
+    "lat": 35.618761,
+    "lng": 139.743967,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "品川区"
+  },
+  {
+    "n": "平塚児童センター",
+    "a": "平塚2-2-3",
+    "t": "",
+    "lat": 35.618818,
+    "lng": 139.717381,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "品川区"
+  },
+  {
+    "n": "東品川児童センター",
+    "a": "東品川1-34-9",
+    "t": "",
+    "lat": 35.619149,
+    "lng": 139.746113,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "品川区"
+  },
+  {
+    "n": "後地児童センター",
+    "a": "小山2-9-19",
+    "t": "",
+    "lat": 35.620632,
+    "lng": 139.709158,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "品川区"
+  },
+  {
+    "n": "中原児童センター",
+    "a": "小山1-4-1",
+    "t": "",
+    "lat": 35.622082,
+    "lng": 139.712587,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "品川区"
+  },
+  {
+    "n": "こどもの森児童館",
+    "a": "本町1-16-17",
+    "t": "",
+    "lat": 35.627018,
+    "lng": 139.694303,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "目黒区"
+  },
+  {
+    "n": "東五反田児童センター",
+    "a": "東五反田5-24-1",
+    "t": "",
+    "lat": 35.628019,
+    "lng": 139.723264,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "品川区"
+  },
+  {
+    "n": "港南子ども中高生プラザ",
+    "a": "港南4-3-7",
+    "t": "",
+    "lat": 35.630889,
+    "lng": 139.74977,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "港区"
+  },
+  {
+    "n": "目黒区立油面住区センター児童館",
+    "a": "中町1-6-23",
+    "t": "",
+    "lat": 35.631399,
+    "lng": 139.699813,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "目黒区"
+  },
+  {
+    "n": "目黒区立中央町児童館",
+    "a": "中央町2-32-5",
+    "t": "",
+    "lat": 35.631519,
+    "lng": 139.688805,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "目黒区"
+  },
+  {
+    "n": "高輪児童館",
+    "a": "高輪3-18-15",
+    "t": "",
+    "lat": 35.633125,
+    "lng": 139.735688,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "港区"
+  },
+  {
+    "n": "和泉児童館",
+    "a": "中和泉3-12-6",
+    "t": "",
+    "lat": 35.636914,
+    "lng": 139.570497,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "狛江市"
+  },
+  {
+    "n": "本郷児童館",
+    "a": "東長沼2115-2",
+    "t": "",
+    "lat": 35.637799,
+    "lng": 139.501316,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "稲城市"
+  },
+  {
+    "n": "芝浦アイランド児童高齢者交流プラザ",
+    "a": "芝浦4-20-1",
+    "t": "",
+    "lat": 35.640423,
+    "lng": 139.752568,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "港区"
+  },
+  {
+    "n": "東寺方児童館",
+    "a": "東寺方626-7",
+    "t": "",
+    "lat": 35.643301,
+    "lng": 139.437757,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "多摩市"
+  },
+  {
+    "n": "東雲児童館",
+    "a": "東雲2-4-4-102",
+    "t": "",
+    "lat": 35.64334,
+    "lng": 139.799034,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "江東区"
+  },
+  {
+    "n": "豊岡児童館",
+    "a": "三田5-7-7",
+    "t": "",
+    "lat": 35.646525,
+    "lng": 139.739582,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "港区"
+  },
+  {
+    "n": "池尻児童館",
+    "a": "池尻2-3-11",
+    "t": "",
+    "lat": 35.646607,
+    "lng": 139.682421,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "世田谷区"
+  },
+  {
+    "n": "若林児童館",
+    "a": "若林5-18-13",
+    "t": "",
+    "lat": 35.648595,
+    "lng": 139.656978,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "世田谷区"
+  },
+  {
+    "n": "国領児童館",
+    "a": "国領町3-8-15",
+    "t": "",
+    "lat": 35.648898,
+    "lng": 139.561669,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "調布市"
+  },
+  {
+    "n": "麻布子ども中高生プラザ",
+    "a": "南麻布4-6-7",
+    "t": "",
+    "lat": 35.650991,
+    "lng": 139.727396,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "港区"
+  },
+  {
+    "n": "もぐさだい児童館",
+    "a": "百草999",
+    "t": "",
+    "lat": 35.652708,
+    "lng": 139.420354,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "日野市"
+  },
+  {
+    "n": "晴海児童館",
+    "a": "晴海2-4-31",
+    "t": "",
+    "lat": 35.654912,
+    "lng": 139.784032,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "中央区"
+  },
+  {
+    "n": "東部児童館",
+    "a": "若葉町1-29-21",
+    "t": "",
+    "lat": 35.658189,
+    "lng": 139.583059,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "調布市"
+  },
+  {
+    "n": "神明子ども中高生プラザ",
+    "a": "浜松町1-6-7",
+    "t": "",
+    "lat": 35.658808,
+    "lng": 139.757516,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "港区"
+  },
+  {
+    "n": "勝どき児童館",
+    "a": "勝どき1-8-1",
+    "t": "",
+    "lat": 35.659649,
+    "lng": 139.776621,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "中央区"
+  },
+  {
+    "n": "塩浜児童館",
+    "a": "塩浜2-5-20",
+    "t": "",
+    "lat": 35.661833,
+    "lng": 139.805439,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "江東区"
+  },
+  {
+    "n": "月島児童館",
+    "a": "月島4-1-1",
+    "t": "",
+    "lat": 35.662019,
+    "lng": 139.782234,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "中央区"
+  },
+  {
+    "n": "基幹型あさひがおか児童館",
+    "a": "旭が丘2-42-5",
+    "t": "",
+    "lat": 35.662178,
+    "lng": 139.368714,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "日野市"
+  },
+  {
+    "n": "港区立赤坂子ども中高生プラザ青山館",
+    "a": "北青山3-4-1-201号",
+    "t": "",
+    "lat": 35.668278,
+    "lng": 139.71386,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "港区"
+  },
+  {
+    "n": "赤坂子ども中高生プラザ",
+    "a": "赤坂6-6-14",
+    "t": "",
+    "lat": 35.669953,
+    "lng": 139.737656,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "港区"
+  },
+  {
+    "n": "しんめい児童館",
+    "a": "神明3-10-4",
+    "t": "",
+    "lat": 35.674897,
+    "lng": 139.392435,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "日野市"
+  },
+  {
+    "n": "中央児童館",
+    "a": "府中町2-25",
+    "t": "",
+    "lat": 35.675816,
+    "lng": 139.482254,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "府中市"
+  },
+  {
+    "n": "昭島市児童センター",
+    "a": "つつじヶ丘2-3-21",
+    "t": "",
+    "lat": 35.714246,
+    "lng": 139.36709,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "昭島市"
+  },
+  {
+    "n": "平野児童館",
+    "a": "平野1-2-3",
+    "t": "",
+    "lat": 35.678472,
+    "lng": 139.798668,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "江東区"
+  },
+  {
+    "n": "ひの児童館",
+    "a": "日野本町7-5-23",
+    "t": "",
+    "lat": 35.67919,
+    "lng": 139.399931,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "日野市"
+  },
+  {
+    "n": "児童青少年センター　フレンズ本町",
+    "a": "本町6-6-2",
+    "t": "",
+    "lat": 35.682066,
+    "lng": 139.679644,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "渋谷区"
+  },
+  {
+    "n": "上高井戸児童館",
+    "a": "高井戸東1-18-5",
+    "t": "",
+    "lat": 35.682601,
+    "lng": 139.619818,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "杉並区"
+  },
+  {
+    "n": "信濃町子ども家庭支援センター",
+    "a": "信濃町20",
+    "t": "",
+    "lat": 35.683406,
+    "lng": 139.720247,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "新宿区"
+  },
+  {
+    "n": "浜町児童館",
+    "a": "日本橋浜町3-37-1",
+    "t": "",
+    "lat": 35.68567,
+    "lng": 139.791491,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "中央区"
+  },
+  {
+    "n": "森下児童館",
+    "a": "森下3-14-6",
+    "t": "",
+    "lat": 35.685957,
+    "lng": 139.802989,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "江東区"
+  },
+  {
+    "n": "堀留町児童館",
+    "a": "日本橋堀留町1-1-1",
+    "t": "",
+    "lat": 35.687414,
+    "lng": 139.778956,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "中央区"
+  },
+  {
+    "n": "中央児童館",
+    "a": "富士見台2-38-5",
+    "t": "",
+    "lat": 35.687384,
+    "lng": 139.444679,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "国立市"
+  },
+  {
+    "n": "四番町児童館",
+    "a": "四番町5-8",
+    "t": "",
+    "lat": 35.688305,
+    "lng": 139.736613,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "千代田区"
+  },
+  {
+    "n": "南中野児童館",
+    "a": "弥生町4-36-15",
+    "t": "",
+    "lat": 35.689933,
+    "lng": 139.670969,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "中野区"
+  },
+  {
+    "n": "堀ノ内東児童館",
+    "a": "堀ノ内3-49-19-101",
+    "t": "",
+    "lat": 35.692152,
+    "lng": 139.654095,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "杉並区"
+  },
+  {
+    "n": "富久町児童館",
+    "a": "富久町22-21",
+    "t": "",
+    "lat": 35.694019,
+    "lng": 139.715395,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "新宿区"
+  },
+  {
+    "n": "薬王寺児童館",
+    "a": "市谷薬王寺町51",
+    "t": "",
+    "lat": 35.696117,
+    "lng": 139.724645,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "新宿区"
+  },
+  {
+    "n": "北新宿第一児童館",
+    "a": "北新宿2-3-7",
+    "t": "",
+    "lat": 35.698567,
+    "lng": 139.690183,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "新宿区"
+  },
+  {
+    "n": "千代田区立児童・家庭支援センター西神田分館",
+    "a": "西神田2-6-2",
+    "t": "",
+    "lat": 35.698852,
+    "lng": 139.754763,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "千代田区"
+  },
+  {
+    "n": "松庵児童館",
+    "a": "松庵2-23-34",
+    "t": "",
+    "lat": 35.699665,
+    "lng": 139.593264,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "杉並区"
+  },
+  {
+    "n": "阿佐ヶ谷南児童館",
+    "a": "阿佐谷南1-14-8",
+    "t": "",
+    "lat": 35.69974,
+    "lng": 139.637112,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "杉並区"
+  },
+  {
+    "n": "高円寺南児童館",
+    "a": "高円寺南3-24-15",
+    "t": "",
+    "lat": 35.701491,
+    "lng": 139.645745,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "杉並区"
+  },
+  {
+    "n": "北新宿子ども家庭支援センター",
+    "a": "北新宿3-20-2",
+    "t": "",
+    "lat": 35.702981,
+    "lng": 139.6895,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "新宿区"
+  },
+  {
+    "n": "百人町児童館",
+    "a": "百人町2-18-21",
+    "t": "",
+    "lat": 35.703301,
+    "lng": 139.698145,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "新宿区"
+  },
+  {
+    "n": "湯島児童館",
+    "a": "本郷3-10-18",
+    "t": "",
+    "lat": 35.703923,
+    "lng": 139.763676,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "文京区"
+  },
+  {
+    "n": "早稲田南町児童館",
+    "a": "早稲田南町50",
+    "t": "",
+    "lat": 35.705069,
+    "lng": 139.722299,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "新宿区"
+  },
+  {
+    "n": "上荻児童館",
+    "a": "上荻1-20-13",
+    "t": "",
+    "lat": 35.70608,
+    "lng": 139.616925,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "杉並区"
+  },
+  {
+    "n": "東五軒町児童館",
+    "a": "東五軒町5-24",
+    "t": "",
+    "lat": 35.706817,
+    "lng": 139.740132,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "新宿区"
+  },
+  {
+    "n": "水道児童館",
+    "a": "水道1-3-26",
+    "t": "",
+    "lat": 35.709513,
+    "lng": 139.742213,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "文京区"
+  },
+  {
+    "n": "高田馬場第二児童館",
+    "a": "高田馬場1-4-17",
+    "t": "",
+    "lat": 35.710964,
+    "lng": 139.70911,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "新宿区"
+  },
+  {
+    "n": "新町児童館",
+    "a": "新町5-2-7",
+    "t": "",
+    "lat": 35.712965,
+    "lng": 139.536362,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "西東京市"
+  },
+  {
+    "n": "目白台児童館",
+    "a": "目白台1-5-1",
+    "t": "",
+    "lat": 35.713536,
+    "lng": 139.720755,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "文京区"
+  },
+  {
+    "n": "中井児童館",
+    "a": "中井1-8-12",
+    "t": "",
+    "lat": 35.714732,
+    "lng": 139.683906,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "新宿区"
+  },
+  {
+    "n": "本天沼児童館",
+    "a": "本天沼3-34-35",
+    "t": "",
+    "lat": 35.716251,
+    "lng": 139.623103,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "杉並区"
+  },
+  {
+    "n": "中落合子ども家庭支援センター",
+    "a": "中落合2-7-24",
+    "t": "",
+    "lat": 35.717962,
+    "lng": 139.693934,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "新宿区"
+  },
+  {
+    "n": "久堅児童館",
+    "a": "小石川5-27-7",
+    "t": "",
+    "lat": 35.718576,
+    "lng": 139.741581,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "文京区"
+  },
+  {
+    "n": "松が谷児童館",
+    "a": "松が谷4-15-11",
+    "t": "",
+    "lat": 35.718636,
+    "lng": 139.786312,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "台東区"
+  },
+  {
+    "n": "子ども・子育てプラザ下井草",
+    "a": "下井草3-13-9",
+    "t": "",
+    "lat": 35.719364,
+    "lng": 139.62466,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "杉並区"
+  },
+  {
+    "n": "西落合児童館",
+    "a": "西落合1-31-24",
+    "t": "",
+    "lat": 35.71976,
+    "lng": 139.679643,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "新宿区"
+  },
+  {
+    "n": "立川市上砂児童館",
+    "a": "上砂町1-13-1",
+    "t": "",
+    "lat": 35.720258,
+    "lng": 139.391439,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "立川市"
+  },
+  {
+    "n": "西中野児童館",
+    "a": "白鷺3-15-5",
+    "t": "",
+    "lat": 35.722143,
+    "lng": 139.630388,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "中野区"
+  },
+  {
+    "n": "阿佐谷児童館",
+    "a": "阿佐谷北1-1-1",
+    "t": "",
+    "lat": 35.705369,
+    "lng": 139.641003,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "杉並区"
+  },
+  {
+    "n": "千束児童館",
+    "a": "千束3-20-6",
+    "t": "",
+    "lat": 35.722433,
+    "lng": 139.792731,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "台東区"
+  },
+  {
+    "n": "大塚児童館",
+    "a": "大塚6-22-19",
+    "t": "",
+    "lat": 35.724545,
+    "lng": 139.725755,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "文京区"
+  },
+  {
+    "n": "千石西児童館",
+    "a": "千石3-15-15",
+    "t": "",
+    "lat": 35.724943,
+    "lng": 139.73821,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "文京区"
+  },
+  {
+    "n": "井草児童館",
+    "a": "井草2-15-15",
+    "t": "",
+    "lat": 35.727166,
+    "lng": 139.619647,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "杉並区"
+  },
+  {
+    "n": "本駒込南児童館",
+    "a": "本駒込3-11-14",
+    "t": "",
+    "lat": 35.727831,
+    "lng": 139.755236,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "文京区"
+  },
+  {
+    "n": "中村児童館",
+    "a": "中村2-25-3",
+    "t": "",
+    "lat": 35.731825,
+    "lng": 139.642435,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "練馬区"
+  },
+  {
+    "n": "南奥戸児童館",
+    "a": "奥戸2-30-11",
+    "t": "",
+    "lat": 35.733675,
+    "lng": 139.859791,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "葛飾区"
+  },
+  {
+    "n": "本駒込児童館",
+    "a": "本駒込5-63-2",
+    "t": "",
+    "lat": 35.733851,
+    "lng": 139.752382,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "文京区"
+  },
+  {
+    "n": "檜原村児童館",
+    "a": "2717",
+    "t": "",
+    "lat": 35.735306,
+    "lng": 139.144254,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "西多摩郡檜原村"
+  },
+  {
+    "n": "石神井台児童館",
+    "a": "石神井台2-18-13",
+    "t": "",
+    "lat": 35.735574,
+    "lng": 139.589717,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "練馬区"
+  },
+  {
+    "n": "西原北児童館",
+    "a": "西原町4-5-96",
+    "t": "",
+    "lat": 35.736634,
+    "lng": 139.530209,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "西東京市"
+  },
+  {
+    "n": "田端児童館",
+    "a": "田端3-24-14",
+    "t": "",
+    "lat": 35.73671,
+    "lng": 139.756063,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "北区"
+  },
+  {
+    "n": "南田中児童館",
+    "a": "南田中5-15-25",
+    "t": "",
+    "lat": 35.737761,
+    "lng": 139.611564,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "練馬区"
+  },
+  {
+    "n": "栄町児童館",
+    "a": "栄町40-7",
+    "t": "",
+    "lat": 35.739491,
+    "lng": 139.671035,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "練馬区"
+  },
+  {
+    "n": "堀切児童館",
+    "a": "堀切1-9-18",
+    "t": "",
+    "lat": 35.740098,
+    "lng": 139.828022,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "葛飾区"
+  },
+  {
+    "n": "さいかち児童館",
+    "a": "緑が丘1460",
+    "t": "",
+    "lat": 35.74017,
+    "lng": 139.407659,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "武蔵村山市"
+  },
+  {
+    "n": "梅田児童館",
+    "a": "立石3-26-10",
+    "t": "",
+    "lat": 35.741049,
+    "lng": 139.84543,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "葛飾区"
+  },
+  {
+    "n": "東大泉児童館",
+    "a": "東大泉7-20-1",
+    "t": "",
+    "lat": 35.742391,
+    "lng": 139.57725,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "練馬区"
+  },
+  {
+    "n": "向原児童館",
+    "a": "向原1-18-5",
+    "t": "",
+    "lat": 35.742548,
+    "lng": 139.684844,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "板橋区"
+  },
+  {
+    "n": "千住あずま児童館",
+    "a": "千住東2-21-18",
+    "t": "",
+    "lat": 35.745767,
+    "lng": 139.810235,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "足立区"
+  },
+  {
+    "n": "ひばりが丘児童センター",
+    "a": "ひばりが丘3-1-25",
+    "t": "",
+    "lat": 35.746176,
+    "lng": 139.537069,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "西東京市"
+  },
+  {
+    "n": "滝野川東児童館",
+    "a": "滝野川1-46-7",
+    "t": "",
+    "lat": 35.746863,
+    "lng": 139.73407,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "北区"
+  },
+  {
+    "n": "大山東児童館",
+    "a": "大山東町8-7",
+    "t": "",
+    "lat": 35.747497,
+    "lng": 139.706336,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "板橋区"
+  },
+  {
+    "n": "栄町子どもセンター",
+    "a": "栄町33-3",
+    "t": "",
+    "lat": 35.749887,
+    "lng": 139.742234,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "北区"
+  },
+  {
+    "n": "小菅児童館",
+    "a": "小菅2-19-1",
+    "t": "",
+    "lat": 35.750434,
+    "lng": 139.826139,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "葛飾区"
+  },
+  {
+    "n": "下保谷児童センター",
+    "a": "下保谷4-3-20",
+    "t": "",
+    "lat": 35.750501,
+    "lng": 139.56503,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "西東京市"
+  },
+  {
+    "n": "お伊勢の森児童館",
+    "a": "中央2-117-1",
+    "t": "",
+    "lat": 35.750785,
+    "lng": 139.393264,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "武蔵村山市"
+  },
+  {
+    "n": "東堀切児童館",
+    "a": "東堀切2-20-8",
+    "t": "",
+    "lat": 35.751517,
+    "lng": 139.835065,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "葛飾区"
+  },
+  {
+    "n": "東新児童館",
+    "a": "東新町2-43-5",
+    "t": "",
+    "lat": 35.752477,
+    "lng": 139.680621,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "板橋区"
+  },
+  {
+    "n": "ならはし児童館",
+    "a": "奈良橋4-600",
+    "t": "",
+    "lat": 35.752482,
+    "lng": 139.4259,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "東大和市"
+  },
+  {
+    "n": "千住本町児童館",
+    "a": "千住5-6-2",
+    "t": "",
+    "lat": 35.754748,
+    "lng": 139.803748,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "足立区"
+  },
+  {
+    "n": "白鳥児童館",
+    "a": "白鳥3-32-6",
+    "t": "",
+    "lat": 35.755487,
+    "lng": 139.8443,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "葛飾区"
+  },
+  {
+    "n": "江南児童館",
+    "a": "小台2-4-18",
+    "t": "",
+    "lat": 35.755926,
+    "lng": 139.757544,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "足立区"
+  },
+  {
+    "n": "北町はるのひ児童館",
+    "a": "北町6-35-7",
+    "t": "",
+    "lat": 35.757244,
+    "lng": 139.649566,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "練馬区"
+  },
+  {
+    "n": "十条台子どもセンター",
+    "a": "中十条1-2-18",
+    "t": "",
+    "lat": 35.757723,
+    "lng": 139.729654,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "北区"
+  },
+  {
+    "n": "光が丘なかよし児童館",
+    "a": "光が丘2-9-6",
+    "t": "",
+    "lat": 35.759422,
+    "lng": 139.629875,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "練馬区"
+  },
+  {
+    "n": "西大泉児童館",
+    "a": "西大泉3-21-16",
+    "t": "",
+    "lat": 35.759465,
+    "lng": 139.578928,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "練馬区"
+  },
+  {
+    "n": "平和台児童館",
+    "a": "平和台2-18-14",
+    "t": "",
+    "lat": 35.760186,
+    "lng": 139.661636,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "練馬区"
+  },
+  {
+    "n": "南新宿児童館",
+    "a": "新宿1-23-4",
+    "t": "",
+    "lat": 35.76042,
+    "lng": 139.860944,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "葛飾区"
+  },
+  {
+    "n": "五反野児童館",
+    "a": "西綾瀬2-1-13",
+    "t": "",
+    "lat": 35.761577,
+    "lng": 139.813975,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "足立区"
+  },
+  {
+    "n": "上板橋児童館",
+    "a": "上板橋2-3-8",
+    "t": "",
+    "lat": 35.761827,
+    "lng": 139.67386,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "板橋区"
+  },
+  {
+    "n": "北大泉児童館",
+    "a": "大泉町4-15-15",
+    "t": "",
+    "lat": 35.762962,
+    "lng": 139.600011,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "練馬区"
+  },
+  {
+    "n": "土支田児童館",
+    "a": "土支田2-32-8",
+    "t": "",
+    "lat": 35.763517,
+    "lng": 139.613776,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "練馬区"
+  },
+  {
+    "n": "北町児童館",
+    "a": "北町1-19-17",
+    "t": "",
+    "lat": 35.764305,
+    "lng": 139.667882,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "練馬区"
+  },
+  {
+    "n": "本木関原児童館",
+    "a": "関原1-21-11",
+    "t": "",
+    "lat": 35.764688,
+    "lng": 139.787273,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "足立区"
+  },
+  {
+    "n": "綾瀬児童館",
+    "a": "綾瀬3-17-9",
+    "t": "",
+    "lat": 35.764703,
+    "lng": 139.824576,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "足立区"
+  },
+  {
+    "n": "けやき児童館",
+    "a": "大門町2-10-5",
+    "t": "",
+    "lat": 35.765038,
+    "lng": 139.540751,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "東久留米市"
+  },
+  {
+    "n": "扇児童館",
+    "a": "扇1-47-38",
+    "t": "",
+    "lat": 35.765603,
+    "lng": 139.77531,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "足立区"
+  },
+  {
+    "n": "南前野児童館",
+    "a": "前野町2-23-1",
+    "t": "",
+    "lat": 35.76593,
+    "lng": 139.687991,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "板橋区"
+  },
+  {
+    "n": "東綾瀬児童館",
+    "a": "東綾瀬1-28-7",
+    "t": "",
+    "lat": 35.76608,
+    "lng": 139.833095,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "足立区"
+  },
+  {
+    "n": "東十条東児童館",
+    "a": "東十条3-10-1",
+    "t": "",
+    "lat": 35.766348,
+    "lng": 139.732779,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "北区"
+  },
+  {
+    "n": "西が丘児童館",
+    "a": "西が丘2-4-1",
+    "t": "",
+    "lat": 35.766382,
+    "lng": 139.714075,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "北区"
+  },
+  {
+    "n": "江北児童館",
+    "a": "江北2-8-2",
+    "t": "",
+    "lat": 35.767216,
+    "lng": 139.76322,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "足立区"
+  },
+  {
+    "n": "興本児童館",
+    "a": "本木東17-10",
+    "t": "",
+    "lat": 35.76739,
+    "lng": 139.781148,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "足立区"
+  },
+  {
+    "n": "梅田児童館",
+    "a": "梅田6-26-1",
+    "t": "",
+    "lat": 35.767521,
+    "lng": 139.797458,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "足立区"
+  },
+  {
+    "n": "弘道児童館",
+    "a": "弘道2-16-1-101",
+    "t": "",
+    "lat": 35.768508,
+    "lng": 139.816815,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "足立区"
+  },
+  {
+    "n": "長門児童館",
+    "a": "中川2-24-2-101",
+    "t": "",
+    "lat": 35.768611,
+    "lng": 139.857172,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "足立区"
+  },
+  {
+    "n": "ゆりの木児童館",
+    "a": "赤塚新町3-32-11-209",
+    "t": "",
+    "lat": 35.7692,
+    "lng": 139.639144,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "板橋区"
+  },
+  {
+    "n": "あすなろ児童館",
+    "a": "大字石畑1837",
+    "t": "",
+    "lat": 35.76943,
+    "lng": 139.356163,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "西多摩郡瑞穂町"
+  },
+  {
+    "n": "東和児童館",
+    "a": "東和3-12-9",
+    "t": "",
+    "lat": 35.771456,
+    "lng": 139.839554,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "足立区"
+  },
+  {
+    "n": "新田児童館",
+    "a": "新田2-2-2",
+    "t": "",
+    "lat": 35.771525,
+    "lng": 139.738056,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "足立区"
+  },
+  {
+    "n": "中央本町児童館",
+    "a": "中央本町3-15-1",
+    "t": "",
+    "lat": 35.772214,
+    "lng": 139.809717,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "足立区"
+  },
+  {
+    "n": "赤羽西児童館",
+    "a": "赤羽西4-42-9",
+    "t": "",
+    "lat": 35.773107,
+    "lng": 139.714025,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "北区"
+  },
+  {
+    "n": "緑が丘児童館",
+    "a": "中台3-27-2",
+    "t": "",
+    "lat": 35.773182,
+    "lng": 139.679154,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "板橋区"
+  },
+  {
+    "n": "西新井栄町児童館",
+    "a": "西新井栄町3-1-6-101",
+    "t": "",
+    "lat": 35.774832,
+    "lng": 139.783715,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "足立区"
+  },
+  {
+    "n": "加平児童館",
+    "a": "加平1-10-6",
+    "t": "",
+    "lat": 35.775023,
+    "lng": 139.828192,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "足立区"
+  },
+  {
+    "n": "梅島児童館",
+    "a": "梅島2-14-5",
+    "t": "",
+    "lat": 35.77544,
+    "lng": 139.799306,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "足立区"
+  },
+  {
+    "n": "清瀬市中央児童館",
+    "a": "中清戸3-235-5",
+    "t": "",
+    "lat": 35.776374,
+    "lng": 139.530758,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "清瀬市"
+  },
+  {
+    "n": "紅梅児童館",
+    "a": "徳丸6-2-10",
+    "t": "",
+    "lat": 35.776498,
+    "lng": 139.662906,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "板橋区"
+  },
+  {
+    "n": "西新井本町児童館",
+    "a": "西新井本町2-30-37",
+    "t": "",
+    "lat": 35.776542,
+    "lng": 139.771447,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "足立区"
+  },
+  {
+    "n": "栗島児童館",
+    "a": "中央本町4-5-2",
+    "t": "",
+    "lat": 35.776799,
+    "lng": 139.805798,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "足立区"
+  },
+  {
+    "n": "大谷田児童館",
+    "a": "大谷田1-1-2-101",
+    "t": "",
+    "lat": 35.77678,
+    "lng": 139.844528,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "足立区"
+  },
+  {
+    "n": "赤羽児童館",
+    "a": "赤羽南1-16-1-101",
+    "t": "",
+    "lat": 35.776861,
+    "lng": 139.725372,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "北区"
+  },
+  {
+    "n": "青井児童館",
+    "a": "青井5-11-40-101",
+    "t": "",
+    "lat": 35.777006,
+    "lng": 139.819728,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "足立区"
+  },
+  {
+    "n": "野塩児童館",
+    "a": "野塩1-322-2",
+    "t": "",
+    "lat": 35.779255,
+    "lng": 139.499432,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "清瀬市"
+  },
+  {
+    "n": "鹿浜いきいき館児童館",
+    "a": "鹿浜2-24-2",
+    "t": "",
+    "lat": 35.780531,
+    "lng": 139.749277,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "足立区"
+  },
+  {
+    "n": "大谷田谷中児童館",
+    "a": "大谷田4-16-6",
+    "t": "",
+    "lat": 35.78084,
+    "lng": 139.838354,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "足立区"
+  },
+  {
+    "n": "蓮根児童館",
+    "a": "蓮根2-6-15",
+    "t": "",
+    "lat": 35.781305,
+    "lng": 139.67652,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "板橋区"
+  },
+  {
+    "n": "西新井児童館",
+    "a": "西新井7-19-6",
+    "t": "",
+    "lat": 35.781899,
+    "lng": 139.772168,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "足立区"
+  },
+  {
+    "n": "平野児童館",
+    "a": "平野2-2-14",
+    "t": "",
+    "lat": 35.782165,
+    "lng": 139.804596,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "足立区"
+  },
+  {
+    "n": "島根児童館",
+    "a": "島根4-19-1-101",
+    "t": "",
+    "lat": 35.782706,
+    "lng": 139.796636,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "足立区"
+  },
+  {
+    "n": "鹿浜児童館",
+    "a": "鹿浜6-8-1",
+    "t": "",
+    "lat": 35.783934,
+    "lng": 139.758255,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "足立区"
+  },
+  {
+    "n": "新水元児童館",
+    "a": "東水元3-5-7",
+    "t": "",
+    "lat": 35.784214,
+    "lng": 139.866034,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "葛飾区"
+  },
+  {
+    "n": "赤羽北児童館",
+    "a": "赤羽北1-5-5",
+    "t": "",
+    "lat": 35.785684,
+    "lng": 139.715047,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "北区"
+  },
+  {
+    "n": "幸田児童館",
+    "a": "西水元2-16-10",
+    "t": "",
+    "lat": 35.786054,
+    "lng": 139.851416,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "葛飾区"
+  },
+  {
+    "n": "保塚児童館",
+    "a": "保塚町7-16",
+    "t": "",
+    "lat": 35.786698,
+    "lng": 139.816073,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "足立区"
+  },
+  {
+    "n": "栗原北児童館",
+    "a": "栗原4-19-15",
+    "t": "",
+    "lat": 35.786807,
+    "lng": 139.785115,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "足立区"
+  },
+  {
+    "n": "神明児童館",
+    "a": "神明南2-6-19",
+    "t": "",
+    "lat": 35.78737,
+    "lng": 139.833222,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "足立区"
+  },
+  {
+    "n": "佐野児童館",
+    "a": "佐野2-43-5",
+    "t": "",
+    "lat": 35.788155,
+    "lng": 139.840247,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "足立区"
+  },
+  {
+    "n": "竹の塚六月児童館",
+    "a": "六月2-26-3-101",
+    "t": "",
+    "lat": 35.78816,
+    "lng": 139.796479,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "足立区"
+  },
+  {
+    "n": "押皿谷児童館",
+    "a": "鹿浜8-27-15",
+    "t": "",
+    "lat": 35.789895,
+    "lng": 139.764983,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "足立区"
+  },
+  {
+    "n": "南花畑児童館",
+    "a": "南花畑3-14-7",
+    "t": "",
+    "lat": 35.790526,
+    "lng": 139.824858,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "足立区"
+  },
+  {
+    "n": "花保児童館",
+    "a": "東保木間1-25-4-101",
+    "t": "",
+    "lat": 35.790723,
+    "lng": 139.815385,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "足立区"
+  },
+  {
+    "n": "西伊興児童館",
+    "a": "西伊興1-12-12",
+    "t": "",
+    "lat": 35.790816,
+    "lng": 139.773457,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "足立区"
+  },
+  {
+    "n": "志村橋児童館",
+    "a": "舟渡3-6-3",
+    "t": "",
+    "lat": 35.793723,
+    "lng": 139.680513,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "板橋区"
+  },
+  {
+    "n": "加賀児童館",
+    "a": "加賀2-31-6-101",
+    "t": "",
+    "lat": 35.794269,
+    "lng": 139.760597,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "足立区"
+  },
+  {
+    "n": "渕江児童館",
+    "a": "西保木間1-2-1-101",
+    "t": "",
+    "lat": 35.795014,
+    "lng": 139.801439,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "足立区"
+  },
+  {
+    "n": "伊興児童館",
+    "a": "伊興5-22-13",
+    "t": "",
+    "lat": 35.798149,
+    "lng": 139.779994,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "足立区"
+  },
+  {
+    "n": "六木児童館",
+    "a": "六木3-39-5-101",
+    "t": "",
+    "lat": 35.799756,
+    "lng": 139.840206,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "足立区"
+  },
+  {
+    "n": "花畑児童館",
+    "a": "花畑4-16-8",
+    "t": "",
+    "lat": 35.802787,
+    "lng": 139.807534,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "足立区"
+  },
+  {
+    "n": "東伊興住区センター　児童館",
+    "a": "東伊興1-5-22",
+    "t": "",
+    "lat": 35.803376,
+    "lng": 139.785857,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "足立区"
+  },
+  {
+    "n": "桜花児童館",
+    "a": "花畑6-4-16",
+    "t": "",
+    "lat": 35.804889,
+    "lng": 139.81694,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "足立区"
+  },
+  {
+    "n": "舎人児童館",
+    "a": "舎人1-3-26",
+    "t": "",
+    "lat": 35.806008,
+    "lng": 139.773208,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "足立区"
+  },
+  {
+    "n": "入谷児童館",
+    "a": "舎人6-12-4-101",
+    "t": "",
+    "lat": 35.811326,
+    "lng": 139.761732,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "足立区"
+  }
+]

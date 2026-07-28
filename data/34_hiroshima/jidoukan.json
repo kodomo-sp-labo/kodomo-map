@@ -1,1 +1,2433 @@
-[]
+[
+  {
+    "n": "広島市原児童館",
+    "a": "西原4-23-35",
+    "t": "",
+    "lat": 34.43749,
+    "lng": 132.470991,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "広島市安佐南区"
+  },
+  {
+    "n": "広島市川内児童館",
+    "a": "川内5-39-32",
+    "t": "",
+    "lat": 34.464795,
+    "lng": 132.484635,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "広島市安佐南区"
+  },
+  {
+    "n": "広島市緑井児童館",
+    "a": "緑井4-31-3",
+    "t": "",
+    "lat": 34.469157,
+    "lng": 132.472926,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "広島市安佐南区"
+  },
+  {
+    "n": "広島市中島児童館",
+    "a": "加古町10-43",
+    "t": "",
+    "lat": 34.386899,
+    "lng": 132.448412,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "広島市中区"
+  },
+  {
+    "n": "広島市倉掛児童館",
+    "a": "倉掛1-12-1",
+    "t": "",
+    "lat": 34.474156,
+    "lng": 132.528406,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "広島市安佐北区"
+  },
+  {
+    "n": "広島市袋町児童館",
+    "a": "袋町6-36",
+    "t": "",
+    "lat": 34.391841,
+    "lng": 132.458876,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "広島市中区"
+  },
+  {
+    "n": "広島市大河児童館",
+    "a": "旭1-5-25",
+    "t": "",
+    "lat": 34.375376,
+    "lng": 132.478897,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "広島市南区"
+  },
+  {
+    "n": "広島市大芝児童館",
+    "a": "大芝1-25-17",
+    "t": "",
+    "lat": 34.416308,
+    "lng": 132.456763,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "広島市西区"
+  },
+  {
+    "n": "広島市大町児童館",
+    "a": "大町西1-16-12",
+    "t": "",
+    "lat": 34.454635,
+    "lng": 132.462845,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "広島市安佐南区"
+  },
+  {
+    "n": "広島市大塚児童館",
+    "a": "大塚西6-1-2",
+    "t": "",
+    "lat": 34.44817,
+    "lng": 132.39292,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "広島市安佐南区"
+  },
+  {
+    "n": "広島市中筋児童館",
+    "a": "中筋2-15-16",
+    "t": "",
+    "lat": 34.449211,
+    "lng": 132.479198,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "広島市安佐南区"
+  },
+  {
+    "n": "広島市中野児童館",
+    "a": "中野4-21-2",
+    "t": "",
+    "lat": 34.398654,
+    "lng": 132.573639,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "広島市安芸区"
+  },
+  {
+    "n": "広島市中野東児童館",
+    "a": "中野5-11-1",
+    "t": "",
+    "lat": 34.403751,
+    "lng": 132.580818,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "広島市安芸区"
+  },
+  {
+    "n": "広島市長束児童館",
+    "a": "長束4-15-1",
+    "t": "",
+    "lat": 34.426519,
+    "lng": 132.454184,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "広島市安佐南区"
+  },
+  {
+    "n": "広島市長束西児童館",
+    "a": "長束西1-26-3",
+    "t": "",
+    "lat": 34.429094,
+    "lng": 132.448337,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "広島市安佐南区"
+  },
+  {
+    "n": "広島市東浄児童館",
+    "a": "戸坂新町3-1-4",
+    "t": "",
+    "lat": 34.423255,
+    "lng": 132.499828,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "広島市東区"
+  },
+  {
+    "n": "広島市藤の木児童館",
+    "a": "藤の木2-2-2",
+    "t": "",
+    "lat": 34.425685,
+    "lng": 132.365096,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "広島市佐伯区"
+  },
+  {
+    "n": "広島市楠那児童館",
+    "a": "楠那町5-24",
+    "t": "",
+    "lat": 34.362128,
+    "lng": 132.485677,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "広島市南区"
+  },
+  {
+    "n": "広島市日浦児童館",
+    "a": "あさひが丘3-21-1",
+    "t": "",
+    "lat": 34.507212,
+    "lng": 132.436013,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "広島市安佐北区"
+  },
+  {
+    "n": "広島市白島児童館",
+    "a": "西白島町26-30",
+    "t": "",
+    "lat": 34.403933,
+    "lng": 132.460854,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "広島市中区"
+  },
+  {
+    "n": "広島市畑賀児童館",
+    "a": "畑賀3-23-12",
+    "t": "",
+    "lat": 34.394149,
+    "lng": 132.549034,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "広島市安芸区"
+  },
+  {
+    "n": "広島市八幡児童館",
+    "a": "八幡2-3-1",
+    "t": "",
+    "lat": 34.391681,
+    "lng": 132.358,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "広島市佐伯区"
+  },
+  {
+    "n": "広島市八木児童館",
+    "a": "八木9-20-19",
+    "t": "",
+    "lat": 34.487682,
+    "lng": 132.505655,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "広島市安佐南区"
+  },
+  {
+    "n": "広島市伴児童館",
+    "a": "伴中央1-7-2",
+    "t": "",
+    "lat": 34.462513,
+    "lng": 132.406454,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "広島市安佐南区"
+  },
+  {
+    "n": "広島市伴南児童館",
+    "a": "伴南1-21-1",
+    "t": "",
+    "lat": 34.452117,
+    "lng": 132.383141,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "広島市安佐南区"
+  },
+  {
+    "n": "広島市毘沙門台児童館",
+    "a": "毘沙門台3-1-1",
+    "t": "",
+    "lat": 34.480254,
+    "lng": 132.466004,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "広島市安佐南区"
+  },
+  {
+    "n": "広島市美鈴が丘児童館",
+    "a": "美鈴が丘西1-8-2",
+    "t": "",
+    "lat": 34.391363,
+    "lng": 132.379129,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "広島市佐伯区"
+  },
+  {
+    "n": "広島市福木児童館",
+    "a": "馬木9-1-1",
+    "t": "",
+    "lat": 34.446318,
+    "lng": 132.535518,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "広島市東区"
+  },
+  {
+    "n": "広島市矢賀児童館",
+    "a": "矢賀2-10-31",
+    "t": "",
+    "lat": 34.397753,
+    "lng": 132.496031,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "広島市東区"
+  },
+  {
+    "n": "広島市矢野児童館",
+    "a": "矢野西6-11-1",
+    "t": "",
+    "lat": 34.347464,
+    "lng": 132.536518,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "広島市安芸区"
+  },
+  {
+    "n": "広島市矢野西児童館",
+    "a": "矢野西4-5-1",
+    "t": "",
+    "lat": 34.349823,
+    "lng": 132.533115,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "広島市安芸区"
+  },
+  {
+    "n": "広島市矢野南児童館",
+    "a": "矢野南4-9-22",
+    "t": "",
+    "lat": 34.339407,
+    "lng": 132.530639,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "広島市安芸区"
+  },
+  {
+    "n": "広島市落合児童館",
+    "a": "落合南2-13-3",
+    "t": "",
+    "lat": 34.467543,
+    "lng": 132.51443,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "広島市安佐北区"
+  },
+  {
+    "n": "広島市落合東児童館",
+    "a": "落合4-13-2",
+    "t": "",
+    "lat": 34.475562,
+    "lng": 132.515128,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "広島市安佐北区"
+  },
+  {
+    "n": "広島市鈴が峰児童館",
+    "a": "鈴が峰町36-3",
+    "t": "",
+    "lat": 34.38045,
+    "lng": 132.395331,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "広島市西区"
+  },
+  {
+    "n": "広島市鈴張児童館",
+    "a": "安佐町大字鈴張1915",
+    "t": "",
+    "lat": 34.583679,
+    "lng": 132.459889,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "広島市安佐北区"
+  },
+  {
+    "n": "広島市幟町児童館",
+    "a": "幟町3-49",
+    "t": "",
+    "lat": 34.396991,
+    "lng": 132.466346,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "広島市中区"
+  },
+  {
+    "n": "広島市阿戸児童館",
+    "a": "阿戸町6175-2",
+    "t": "",
+    "lat": 34.381166,
+    "lng": 132.625521,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "広島市安芸区"
+  },
+  {
+    "n": "広島市安西児童館",
+    "a": "高取南2-18-1",
+    "t": "",
+    "lat": 34.46771,
+    "lng": 132.432684,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "広島市安佐南区"
+  },
+  {
+    "n": "広島市安東児童館",
+    "a": "安東3-1-1",
+    "t": "",
+    "lat": 34.476013,
+    "lng": 132.459424,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "広島市安佐南区"
+  },
+  {
+    "n": "広島市安北児童館",
+    "a": "高取北2-30-1",
+    "t": "",
+    "lat": 34.479696,
+    "lng": 132.43617,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "広島市安佐南区"
+  },
+  {
+    "n": "広島市井口児童館",
+    "a": "井口2-13-1",
+    "t": "",
+    "lat": 34.372322,
+    "lng": 132.383392,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "広島市西区"
+  },
+  {
+    "n": "広島市井口台児童館",
+    "a": "井口台3-5-1",
+    "t": "",
+    "lat": 34.380174,
+    "lng": 132.38065,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "広島市西区"
+  },
+  {
+    "n": "広島市井口明神児童館",
+    "a": "井口明神1-13-2",
+    "t": "",
+    "lat": 34.371871,
+    "lng": 132.391569,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "広島市西区"
+  },
+  {
+    "n": "広島市黄金山児童館",
+    "a": "北大河町35-2",
+    "t": "",
+    "lat": 34.372545,
+    "lng": 132.482372,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "広島市南区"
+  },
+  {
+    "n": "広島市温品児童館",
+    "a": "温品8-8-25",
+    "t": "",
+    "lat": 34.415965,
+    "lng": 132.512027,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "広島市東区"
+  },
+  {
+    "n": "広島市可部児童館",
+    "a": "可部4-9-2",
+    "t": "",
+    "lat": 34.518107,
+    "lng": 132.510308,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "広島市安佐北区"
+  },
+  {
+    "n": "広島市可部南児童館",
+    "a": "可部南2-11-2",
+    "t": "",
+    "lat": 34.503521,
+    "lng": 132.517032,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "広島市安佐北区"
+  },
+  {
+    "n": "広島市河内児童館",
+    "a": "五日市町大字上河内1601-2",
+    "t": "",
+    "lat": 34.413448,
+    "lng": 132.354705,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "広島市佐伯区"
+  },
+  {
+    "n": "広島市楽々園児童館",
+    "a": "楽々園6-8-2",
+    "t": "",
+    "lat": 34.357863,
+    "lng": 132.352922,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "広島市佐伯区"
+  },
+  {
+    "n": "広島市亀崎児童館",
+    "a": "亀崎4-2-2",
+    "t": "",
+    "lat": 34.483116,
+    "lng": 132.526582,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "広島市安佐北区"
+  },
+  {
+    "n": "広島市亀山児童館",
+    "a": "亀山7-4-10",
+    "t": "",
+    "lat": 34.52631,
+    "lng": 132.492546,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "広島市安佐北区"
+  },
+  {
+    "n": "広島市亀山南児童館",
+    "a": "亀山南3-28-3",
+    "t": "",
+    "lat": 34.520059,
+    "lng": 132.495022,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "広島市安佐北区"
+  },
+  {
+    "n": "広島市祇園児童館",
+    "a": "祇園3-1-22",
+    "t": "",
+    "lat": 34.442258,
+    "lng": 132.463127,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "広島市安佐南区"
+  },
+  {
+    "n": "広島市久地南児童館",
+    "a": "安佐町大字くすの木台52-1",
+    "t": "",
+    "lat": 34.500895,
+    "lng": 132.394969,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "広島市安佐北区"
+  },
+  {
+    "n": "広島市牛田児童館",
+    "a": "牛田旭1-14-44",
+    "t": "",
+    "lat": 34.413137,
+    "lng": 132.470948,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "広島市東区"
+  },
+  {
+    "n": "広島市牛田新町児童館",
+    "a": "牛田新町1-15-1",
+    "t": "",
+    "lat": 34.41893,
+    "lng": 132.47038,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "広島市東区"
+  },
+  {
+    "n": "広島市古市児童館",
+    "a": "中須1-38-13",
+    "t": "",
+    "lat": 34.456593,
+    "lng": 132.470629,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "広島市安佐南区"
+  },
+  {
+    "n": "広島市古田児童館",
+    "a": "古江西町19-15",
+    "t": "",
+    "lat": 34.385515,
+    "lng": 132.408052,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "広島市西区"
+  },
+  {
+    "n": "広島市己斐児童館",
+    "a": "己斐上2-1-2",
+    "t": "",
+    "lat": 34.399544,
+    "lng": 132.423355,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "広島市西区"
+  },
+  {
+    "n": "広島市己斐上児童館",
+    "a": "己斐上6-456",
+    "t": "",
+    "lat": 34.416659,
+    "lng": 132.424809,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "広島市西区"
+  },
+  {
+    "n": "広島市戸坂城山児童館",
+    "a": "戸坂城山町1-2",
+    "t": "",
+    "lat": 34.429464,
+    "lng": 132.48807,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "広島市東区"
+  },
+  {
+    "n": "広島市五月が丘児童館",
+    "a": "五月が丘2-22-2",
+    "t": "",
+    "lat": 34.421501,
+    "lng": 132.405501,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "広島市佐伯区"
+  },
+  {
+    "n": "広島市五日市観音西児童館",
+    "a": "坪井3-877",
+    "t": "",
+    "lat": 34.380723,
+    "lng": 132.339993,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "広島市佐伯区"
+  },
+  {
+    "n": "広島市五日市中央児童館",
+    "a": "五日市中央3-12-2",
+    "t": "",
+    "lat": 34.369294,
+    "lng": 132.352291,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "広島市佐伯区"
+  },
+  {
+    "n": "広島市五日市東児童館",
+    "a": "皆賀2-3-2",
+    "t": "",
+    "lat": 34.375163,
+    "lng": 132.370332,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "広島市佐伯区"
+  },
+  {
+    "n": "広島市五日市南児童館",
+    "a": "海老園3-18-2",
+    "t": "",
+    "lat": 34.360286,
+    "lng": 132.35706,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "広島市佐伯区"
+  },
+  {
+    "n": "広島市口田児童館",
+    "a": "口田南2-7-3",
+    "t": "",
+    "lat": 34.458261,
+    "lng": 132.495378,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "広島市安佐北区"
+  },
+  {
+    "n": "広島市口田東児童館",
+    "a": "口田2-1-3",
+    "t": "",
+    "lat": 34.468852,
+    "lng": 132.500616,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "広島市安佐北区"
+  },
+  {
+    "n": "広島市向洋新町児童館",
+    "a": "向洋新町1-6-2",
+    "t": "",
+    "lat": 34.36578,
+    "lng": 132.509403,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "広島市南区"
+  },
+  {
+    "n": "広島市庚午児童館",
+    "a": "庚午中1-15-2",
+    "t": "",
+    "lat": 34.383063,
+    "lng": 132.416108,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "広島市西区"
+  },
+  {
+    "n": "広島市高須児童館",
+    "a": "高須4-16-1",
+    "t": "",
+    "lat": 34.396669,
+    "lng": 132.413725,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "広島市西区"
+  },
+  {
+    "n": "広島市彩が丘児童館",
+    "a": "河内南2-10-2",
+    "t": "",
+    "lat": 34.40954,
+    "lng": 132.343603,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "広島市佐伯区"
+  },
+  {
+    "n": "広島市三入児童館",
+    "a": "三入5-15-9",
+    "t": "",
+    "lat": 34.542369,
+    "lng": 132.530466,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "広島市安佐北区"
+  },
+  {
+    "n": "広島市三入東児童館",
+    "a": "三入東1-10-5",
+    "t": "",
+    "lat": 34.535149,
+    "lng": 132.53886,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "広島市安佐北区"
+  },
+  {
+    "n": "広島市山田児童館",
+    "a": "山田新町1-17-4",
+    "t": "",
+    "lat": 34.4,
+    "lng": 132.392063,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "広島市西区"
+  },
+  {
+    "n": "広島市山本児童館",
+    "a": "山本3-13-2",
+    "t": "",
+    "lat": 34.437853,
+    "lng": 132.453221,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "広島市安佐南区"
+  },
+  {
+    "n": "広島市狩小川児童館",
+    "a": "上深川町1315-4",
+    "t": "",
+    "lat": 34.480292,
+    "lng": 132.566913,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "広島市安佐北区"
+  },
+  {
+    "n": "広島市上安児童館",
+    "a": "上安5-7-21",
+    "t": "",
+    "lat": 34.484487,
+    "lng": 132.449673,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "広島市安佐南区"
+  },
+  {
+    "n": "広島市上温品児童館",
+    "a": "上温品3-4-1",
+    "t": "",
+    "lat": 34.42749,
+    "lng": 132.517313,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "広島市東区"
+  },
+  {
+    "n": "広島市深川児童館",
+    "a": "深川5-12-2",
+    "t": "",
+    "lat": 34.481934,
+    "lng": 132.531719,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "広島市安佐北区"
+  },
+  {
+    "n": "広島市真亀児童館",
+    "a": "真亀1-3-27",
+    "t": "",
+    "lat": 34.480548,
+    "lng": 132.520549,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "広島市安佐北区"
+  },
+  {
+    "n": "広島市翠町児童館",
+    "a": "翠4-10-2",
+    "t": "",
+    "lat": 34.367827,
+    "lng": 132.474525,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "広島市南区"
+  },
+  {
+    "n": "広島市瀬野児童館",
+    "a": "瀬野1-36-13",
+    "t": "",
+    "lat": 34.422071,
+    "lng": 132.607399,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "広島市安芸区"
+  },
+  {
+    "n": "広島市青崎児童館",
+    "a": "青崎1-12-7",
+    "t": "",
+    "lat": 34.373248,
+    "lng": 132.506225,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "広島市南区"
+  },
+  {
+    "n": "広島市千田児童館",
+    "a": "東千田町2-1-23",
+    "t": "",
+    "lat": 34.379138,
+    "lng": 132.459393,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "広島市中区"
+  },
+  {
+    "n": "呉市宮原児童館",
+    "a": "宮原7-4-20",
+    "t": "",
+    "lat": 34.230102,
+    "lng": 132.55957,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "呉市"
+  },
+  {
+    "n": "呉市二川児童館",
+    "a": "三条1-14-9",
+    "t": "",
+    "lat": 34.245659,
+    "lng": 132.548851,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "呉市"
+  },
+  {
+    "n": "呉市大坪谷児童館",
+    "a": "阿賀北3-1-3",
+    "t": "",
+    "lat": 34.250045,
+    "lng": 132.593757,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "呉市"
+  },
+  {
+    "n": "竹原市中央児童館",
+    "a": "中央5-5-17",
+    "t": "",
+    "lat": 34.341429,
+    "lng": 132.905933,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "竹原市"
+  },
+  {
+    "n": "三原市児童館",
+    "a": "城町1-2-1ペアシティ三原西館2階",
+    "t": "",
+    "lat": 34.399579,
+    "lng": 133.081819,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "三原市"
+  },
+  {
+    "n": "尾道市北久保児童館",
+    "a": "防地町26-24",
+    "t": "",
+    "lat": 34.422014,
+    "lng": 133.201143,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "尾道市"
+  },
+  {
+    "n": "福山市児童館",
+    "a": "赤坂町赤坂545",
+    "t": "",
+    "lat": 34.489822,
+    "lng": 133.291146,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "福山市"
+  },
+  {
+    "n": "府中市こどもの国",
+    "a": "土生町1581-7",
+    "t": "",
+    "lat": 34.571565,
+    "lng": 133.229931,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "府中市"
+  },
+  {
+    "n": "黒瀬児童館",
+    "a": "黒瀬町丸山1450-1",
+    "t": "",
+    "lat": 34.324528,
+    "lng": 132.672475,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "東広島市"
+  },
+  {
+    "n": "安芸津児童館子どもの家",
+    "a": "安芸津町風早3092-1",
+    "t": "",
+    "lat": 34.317282,
+    "lng": 132.809021,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "東広島市"
+  },
+  {
+    "n": "友和児童館",
+    "a": "友田30-1",
+    "t": "",
+    "lat": 34.359597,
+    "lng": 132.227106,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "廿日市市"
+  },
+  {
+    "n": "津田児童館",
+    "a": "津田4109",
+    "t": "",
+    "lat": 34.36687,
+    "lng": 132.174809,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "廿日市市"
+  },
+  {
+    "n": "平良児童館",
+    "a": "陽光台1-4-1",
+    "t": "",
+    "lat": 34.354617,
+    "lng": 132.314069,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "廿日市市"
+  },
+  {
+    "n": "大野東児童館",
+    "a": "大野840-6",
+    "t": "",
+    "lat": 34.308958,
+    "lng": 132.283733,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "廿日市市"
+  },
+  {
+    "n": "大野西児童館",
+    "a": "大野原4-3-11",
+    "t": "",
+    "lat": 34.290315,
+    "lng": 132.268949,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "廿日市市"
+  },
+  {
+    "n": "津久茂児童館",
+    "a": "江田島町津久茂3-1-23",
+    "t": "",
+    "lat": 34.248165,
+    "lng": 132.448066,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "江田島市"
+  },
+  {
+    "n": "中町児童館",
+    "a": "能美町中町4972-1",
+    "t": "",
+    "lat": 34.223328,
+    "lng": 132.441081,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "江田島市"
+  },
+  {
+    "n": "柿浦児童館",
+    "a": "大柿町柿浦2579-4",
+    "t": "",
+    "lat": 34.177258,
+    "lng": 132.472298,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "江田島市"
+  },
+  {
+    "n": "府中北交流センタ児童センター",
+    "a": "本町5-3-8",
+    "t": "",
+    "lat": 34.397345,
+    "lng": 132.502279,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "安芸郡府中町"
+  },
+  {
+    "n": "府中南交流センタ児童センター",
+    "a": "鹿籠1-21-3",
+    "t": "",
+    "lat": 34.381169,
+    "lng": 132.505847,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "安芸郡府中町"
+  },
+  {
+    "n": "海田児童館",
+    "a": "幸町5-7",
+    "t": "",
+    "lat": 34.369603,
+    "lng": 132.542029,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "安芸郡海田町"
+  },
+  {
+    "n": "海田東児童館",
+    "a": "寺迫1-1-29",
+    "t": "",
+    "lat": 34.372944,
+    "lng": 132.549346,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "安芸郡海田町"
+  },
+  {
+    "n": "安芸太田町筒賀児童センター",
+    "a": "中筒賀401",
+    "t": "",
+    "lat": 34.572378,
+    "lng": 132.269146,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "山県郡安芸太田町"
+  },
+  {
+    "n": "広島市基町児童館",
+    "a": "基町19-7",
+    "t": "",
+    "lat": 34.403635,
+    "lng": 132.455967,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "広島市中区"
+  },
+  {
+    "n": "広島市竹屋児童館",
+    "a": "鶴見町8-54",
+    "t": "",
+    "lat": 34.385755,
+    "lng": 132.467248,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "広島市中区"
+  },
+  {
+    "n": "広島市吉島東児童館",
+    "a": "吉島東3-2-7",
+    "t": "",
+    "lat": 34.368436,
+    "lng": 132.452651,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "広島市中区"
+  },
+  {
+    "n": "広島市吉島児童館",
+    "a": "吉島西3-4-25",
+    "t": "",
+    "lat": 34.370984,
+    "lng": 132.444852,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "広島市中区"
+  },
+  {
+    "n": "広島市広瀬児童館",
+    "a": "広瀬町2-17",
+    "t": "",
+    "lat": 34.400085,
+    "lng": 132.44698,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "広島市中区"
+  },
+  {
+    "n": "広島市本川児童館",
+    "a": "本川町1-5-24",
+    "t": "",
+    "lat": 34.395149,
+    "lng": 132.449912,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "広島市中区"
+  },
+  {
+    "n": "広島市舟入児童館",
+    "a": "舟入幸町14-16",
+    "t": "",
+    "lat": 34.385078,
+    "lng": 132.43919,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "広島市中区"
+  },
+  {
+    "n": "広島市江波児童館",
+    "a": "江波東2-2-2",
+    "t": "",
+    "lat": 34.370178,
+    "lng": 132.438559,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "広島市中区"
+  },
+  {
+    "n": "広島市戸坂児童館",
+    "a": "戸坂出江2-1-1",
+    "t": "",
+    "lat": 34.435176,
+    "lng": 132.48562,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "広島市東区"
+  },
+  {
+    "n": "広島市中山児童館",
+    "a": "中山東1-2-1",
+    "t": "",
+    "lat": 34.409682,
+    "lng": 132.50028,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "広島市東区"
+  },
+  {
+    "n": "広島市尾長児童館",
+    "a": "山根町21-10",
+    "t": "",
+    "lat": 34.399653,
+    "lng": 132.485914,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "広島市東区"
+  },
+  {
+    "n": "広島市大州児童館",
+    "a": "大州5-10-12",
+    "t": "",
+    "lat": 34.384952,
+    "lng": 132.497292,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "広島市南区"
+  },
+  {
+    "n": "広島市段原児童館",
+    "a": "的場町2-6-13",
+    "t": "",
+    "lat": 34.391316,
+    "lng": 132.475575,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "広島市南区"
+  },
+  {
+    "n": "広島市東雲児童館",
+    "a": "東雲本町2-11-2",
+    "t": "",
+    "lat": 34.381749,
+    "lng": 132.487551,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "広島市南区"
+  },
+  {
+    "n": "広島市皆実児童館",
+    "a": "皆実町1-15-2",
+    "t": "",
+    "lat": 34.379294,
+    "lng": 132.468114,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "広島市南区"
+  },
+  {
+    "n": "広島市仁保児童館",
+    "a": "仁保新町2-8-12",
+    "t": "",
+    "lat": 34.375018,
+    "lng": 132.495538,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "広島市南区"
+  },
+  {
+    "n": "広島市宇品東児童館",
+    "a": "宇品東7-11-8",
+    "t": "",
+    "lat": 34.357913,
+    "lng": 132.467942,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "広島市南区"
+  },
+  {
+    "n": "広島市宇品児童館",
+    "a": "宇品御幸4-5-32",
+    "t": "",
+    "lat": 34.359503,
+    "lng": 132.461094,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "広島市南区"
+  },
+  {
+    "n": "広島市似島児童館",
+    "a": "似島町字大黄2403-1",
+    "t": "",
+    "lat": 34.312115,
+    "lng": 132.43301,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "広島市南区"
+  },
+  {
+    "n": "広島市三篠児童館",
+    "a": "三滝町18-13",
+    "t": "",
+    "lat": 34.414228,
+    "lng": 132.45021,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "広島市西区"
+  },
+  {
+    "n": "広島市天満児童館",
+    "a": "天満町1-27",
+    "t": "",
+    "lat": 34.397474,
+    "lng": 132.441566,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "広島市西区"
+  },
+  {
+    "n": "広島市観音児童館",
+    "a": "観音本町2-1-74",
+    "t": "",
+    "lat": 34.390251,
+    "lng": 132.436566,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "広島市西区"
+  },
+  {
+    "n": "広島市南観音児童館",
+    "a": "南観音6-5-15",
+    "t": "",
+    "lat": 34.381502,
+    "lng": 132.426792,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "広島市西区"
+  },
+  {
+    "n": "広島市己斐東児童館",
+    "a": "己斐東2-30-3",
+    "t": "",
+    "lat": 34.406034,
+    "lng": 132.426367,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "広島市西区"
+  },
+  {
+    "n": "広島市草津児童館",
+    "a": "草津東2-20-1",
+    "t": "",
+    "lat": 34.380957,
+    "lng": 132.404085,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "広島市西区"
+  },
+  {
+    "n": "広島市安児童館",
+    "a": "上安2-7-56",
+    "t": "",
+    "lat": 34.473398,
+    "lng": 132.442792,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "広島市安佐南区"
+  },
+  {
+    "n": "広島市伴東児童館",
+    "a": "伴東7-11-1",
+    "t": "",
+    "lat": 34.462953,
+    "lng": 132.420482,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "広島市安佐南区"
+  },
+  {
+    "n": "広島市飯室児童館",
+    "a": "安佐町飯室1544-1",
+    "t": "",
+    "lat": 34.55198,
+    "lng": 132.44516,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "広島市安佐北区"
+  },
+  {
+    "n": "広島市みどり坂児童館",
+    "a": "瀬野西1-38-2",
+    "t": "",
+    "lat": 34.42667,
+    "lng": 132.59028,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "広島市安芸区"
+  },
+  {
+    "n": "広島市船越児童館",
+    "a": "船越4-28-3",
+    "t": "",
+    "lat": 34.376276,
+    "lng": 132.527085,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "広島市安芸区"
+  },
+  {
+    "n": "広島市利松児童館",
+    "a": "利松1-10-7",
+    "t": "",
+    "lat": 34.39574,
+    "lng": 132.364246,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "広島市佐伯区"
+  },
+  {
+    "n": "広島市坪井児童館",
+    "a": "坪井1-32-9",
+    "t": "",
+    "lat": 34.374348,
+    "lng": 132.350878,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "広島市佐伯区"
+  },
+  {
+    "n": "広島市五日市児童館",
+    "a": "五日市3-1-1",
+    "t": "",
+    "lat": 34.368855,
+    "lng": 132.360759,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "広島市佐伯区"
+  },
+  {
+    "n": "尾道市児童センター",
+    "a": "門田町22-5",
+    "t": "",
+    "lat": 34.421349,
+    "lng": 133.185469,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "尾道市"
+  }
+]
