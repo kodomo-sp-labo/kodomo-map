@@ -437,7 +437,9 @@ const REGIONS = {
     center: [38.240433, 140.363693],
     available: { manabi:true, sodan:true, hattatsu:true, districts:true, oyakazoku:true }
     // 【2026-07-27追加】④は地域子育て支援拠点（112件・yamagata_pref_kyoten）＋親の会
-    // （17件・yamagata_pref_oyanokai）。jidoukan.jsonは空配列（児童館は未調査のため0件）。
+    // （17件・yamagata_pref_oyanokai）。
+    // 【2026-07-28追記】jidoukan.json（児童館、②居場所と④両方で使用）は当初空配列だったが、
+    // 国土数値情報P14による全国展開で33件を追加済み（src: ksj_p14）。④タブにも合算表示される。
   },
   fukushima: {
     label: '福島県',
@@ -773,12 +775,25 @@ function showFetchError(mapDivId, err){
   clearDirectMarkers(ALL_MAPS[mapKeyFromDivId(mapDivId)]);
   showMapNote(mapDivId, '⚠ ' + msg, true);
 }
-function showUnavailable(panelId, mapDivId, listId){
+function showUnavailable(panelId, mapDivId, listId, noticeId){
   clearDirectMarkers(ALL_MAPS[mapKeyFromDivId(mapDivId)]);
   showMapNote(mapDivId,
     'この地域のデータはまだ準備中です。\n公式データをご提供いただける場合はフッターの連絡先までご連絡ください。', false);
   const listEl = document.getElementById(listId);  // 一覧パネル側は地図と無関係なので従来どおり空にする
   if(listEl) listEl.innerHTML = '';
+  // 【2026-07-29修正】前の地域で表示されていた件数入りの説明文（notice-oyakazoku等）が
+  // この地域では未取得のまま残り、「地図は準備中なのに凡例だけ他県の件数を表示する」
+  // という不整合が起きていた（運営者からの指摘で発覚）。available:falseの地域に来たら
+  // 凡例テキストも明示的に空にする。
+  if(noticeId){
+    const noticeEl = document.getElementById(noticeId);
+    if(noticeEl) noticeEl.textContent = '';
+  }
+  // 同じ理由（前の地域のデータが検索ボックス経由で再表示されるのを防ぐ）で、
+  // 検索用のcurrent*配列も地域切り替え時にリセットする。
+  if(panelId === 'panel-manabi') currentManabiData = [];
+  if(panelId === 'panel-ibasho'){ currentIbashoJidoukan = []; currentIbashoPlaces = []; }
+  if(panelId === 'panel-oyakazoku'){ currentKyoten = []; currentOyanokai = []; }
 }
 
 /* ①学びのカテゴリ定義。1カテゴリ=1制度になるよう分けている（同じラベルの下に別制度を
@@ -1235,7 +1250,7 @@ function loadRegion(key){
       srcLoaded.manabi = true;
       renderFooterSources(region);
     }).catch(function(err){ if(seq === loadSeq) showFetchError('map-manabi', err); });
-  } else { showUnavailable('panel-manabi','map-manabi','list-manabi'); }
+  } else { showUnavailable('panel-manabi','map-manabi','list-manabi','notice-manabi'); }
 
   // ②居場所
   if(avail.ibasho){
@@ -1249,7 +1264,7 @@ function loadRegion(key){
         renderFooterSources(region);
       })
       .catch(function(err){ if(seq === loadSeq) showFetchError('map-ibasho', err); });
-  } else { showUnavailable('panel-ibasho','map-ibasho','ibasho-list-body'); }
+  } else { showUnavailable('panel-ibasho','map-ibasho','ibasho-list-body','notice-ibasho'); }
 
   // ③相談
   if(avail.sodan){
@@ -1275,7 +1290,7 @@ function loadRegion(key){
         renderFooterSources(region);
       })
       .catch(function(err){ if(seq === loadSeq) showFetchError('map-oyakazoku', err); });
-  } else { showUnavailable('panel-oyakazoku','map-oyakazoku','oya-list-body'); }
+  } else { showUnavailable('panel-oyakazoku','map-oyakazoku','oya-list-body','notice-oyakazoku'); }
 
   // ⑤発達
   if(avail.hattatsu){
