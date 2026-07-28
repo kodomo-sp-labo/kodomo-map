@@ -12,7 +12,7 @@
 <style>
   :root{
     --ink:#22303C; --sub:#5B6B78; --base:#F6F7F6; --panel:#FFFFFF; --line:#E1E6E4;
-    --c1:#31547E; --c2:#4A7C59; --warm:#C1682B; --danger:#B23A3A;
+    --c1:#31547E; --c2:#4A7C59; --c3:#8A4B2B; --c4:#B2508C; --c5:#6B4C9A; --warm:#C1682B; --danger:#B23A3A;
     --focus:#1A5FB4;
   }
   *{margin:0;padding:0;box-sizing:border-box}
@@ -373,8 +373,9 @@
     (c.map_layers || []).forEach(function(ml){
       const label = DATA.meta.layers[ml.layer] || ('レイヤ' + ml.layer);
       const href = 'index.html?layers=' + encodeURIComponent(ml.layer);
+      const layerColor = 'var(--c' + ml.layer + ', var(--c2))';
       html += '<div class="layer-link-wrap">'
-        + '<a class="layer-link" href="' + escHtml(href) + '">地図で見る（' + escHtml(label) + '）</a>'
+        + '<a class="layer-link" style="background:' + layerColor + '" href="' + escHtml(href) + '">地図で見る（' + escHtml(label) + '）</a>'
         + '<span class="qr-print" data-href="' + escHtml(href) + '" data-label="' + escHtml(label) + '"></span>'
         + '</div>';
     });
