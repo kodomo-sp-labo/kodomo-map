@@ -1359,6 +1359,20 @@ function updateIbashoLegend(key){
   setText('lg-ibasho-1-n', jy ? (jk+'館＋児童遊園'+jy+'か所') : (jk+'館'));
   const suspNote = susp ? ('休止中の施設が'+susp+'件含まれます（一覧に明示）。') : '';
   const jidoukanNote = jk ? ('児童館・児童センターを'+jk+'件収録しています。') : '児童館・児童センターは今後の調査対象です（現時点で0件）。';
+  // 座標の出典は実データのsrcから出し分ける（ルール13・19）。児童館データは
+  // 岡山・富山は国土地理院API突合、それ以外の県は国土数値情報P14（座標も原典付与）を使うため、
+  // 実際にcurrentIbashoJidoukanに含まれるsrcを見て文言を切り替える。
+  const jidoukanSrcs = currentIbashoJidoukan.map(function(f){ return f.src; });
+  const hasKsjP14 = jidoukanSrcs.indexOf('ksj_p14') !== -1;
+  const hasGsiJidoukan = jidoukanSrcs.some(function(s){ return s && s !== 'ksj_p14'; });
+  let geoNote;
+  if(hasKsjP14 && hasGsiJidoukan){
+    geoNote = '座標は、児童館は国土数値情報（福祉施設データ）付与のもの、その他は国土地理院APIで市区町村名を突合して確認しています。';
+  } else if(hasKsjP14){
+    geoNote = '座標は国土数値情報（福祉施設データ）に付与されているものを使用しています。';
+  } else {
+    geoNote = '座標は国土地理院APIで市区町村名を突合して確認しています。';
+  }
   if(!IBASHO_MAP_ENABLED){
     const countEl = document.getElementById('lg-ibasho-2-count');
     const linkEl = document.getElementById('lg-ibasho-2-link');
@@ -1370,7 +1384,7 @@ function updateIbashoLegend(key){
         + '子ども食堂・プレーパーク等は、第三者サイトでの掲載についてデータ提供元への確認が済んでいないため、'
         + '表示を一時停止しています。お近くのこども食堂は<a href="https://kodomoshokudo.gaccom.jp/map" target="_blank" rel="noopener">'
         + 'ガッコム・むすびえ こども食堂マップ</a>でご確認いただけます。'
-        + '座標は国土地理院APIで市区町村名を突合して確認しています。';
+        + geoNote;
     }
     return;
   }
@@ -1392,7 +1406,7 @@ function updateIbashoLegend(key){
   } else {
     base = jidoukanNote;
   }
-  setText('notice-ibasho', base + suspNote + '座標は国土地理院APIで市区町村名を突合して確認しています。');
+  setText('notice-ibasho', base + suspNote + geoNote);
 }
 function updateOyaLegend(){
   const kj = currentKyoten.length;
