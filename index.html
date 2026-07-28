@@ -810,11 +810,14 @@ function ryoikuPrimaryCat(catArr){
 function ryoikuLabels(catArr){ return catArr.map(function(c){return RYOIKU_CAT[c] ? RYOIKU_CAT[c].label : c;}).join('・'); }
 
 /* ============ 地図インスタンス（1回だけ作成、地域切替時は中身を差し替え） ============ */
-const mapManabi = L.map('map-manabi'); tileLayerFor(mapManabi);
-const mapIbasho = L.map('map-ibasho'); tileLayerFor(mapIbasho);
-const mapSodan = L.map('map-sodan'); tileLayerFor(mapSodan);
-const mapOya = L.map('map-oyakazoku'); tileLayerFor(mapOya);
-const mapHattatsu = L.map('map-hattatsu'); tileLayerFor(mapHattatsu);
+/* scrollWheelZoom: false — カーソルを乗せただけ・スクロールしただけでは地図が拡大縮小せず
+   ページ全体がスクロールする。ドラッグでのパン、ズームボタン、ダブルクリックズームは有効のまま。 */
+const MAP_OPTS = { scrollWheelZoom: false };
+const mapManabi = L.map('map-manabi', MAP_OPTS); tileLayerFor(mapManabi);
+const mapIbasho = L.map('map-ibasho', MAP_OPTS); tileLayerFor(mapIbasho);
+const mapSodan = L.map('map-sodan', MAP_OPTS); tileLayerFor(mapSodan);
+const mapOya = L.map('map-oyakazoku', MAP_OPTS); tileLayerFor(mapOya);
+const mapHattatsu = L.map('map-hattatsu', MAP_OPTS); tileLayerFor(mapHattatsu);
 const ALL_MAPS = {manabi:mapManabi, ibasho:mapIbasho, sodan:mapSodan, oyakazoku:mapOya, hattatsu:mapHattatsu};
 
 /* ============ 地図上の案内オーバーレイ（5タブ分を1枚ずつ） ============
