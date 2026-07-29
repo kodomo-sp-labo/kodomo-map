@@ -1,1 +1,767 @@
-[]
+[
+  {
+    "n": "長町児童館",
+    "a": "長町2丁目2番16号",
+    "t": "076-232-9221",
+    "lat": 36.563198,
+    "lng": 136.649094,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "kanazawa_city_jidoukan",
+    "checked": "2026-07-29",
+    "muni": "金沢市"
+  },
+  {
+    "n": "瓢箪児童館",
+    "a": "彦三町2-10-5",
+    "t": "076-221-1518",
+    "lat": 36.575756,
+    "lng": 136.657211,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "kanazawa_city_jidoukan",
+    "checked": "2026-07-29",
+    "muni": "金沢市"
+  },
+  {
+    "n": "芳斎児童館",
+    "a": "芳斉2丁目3番43号",
+    "t": "076-222-7477",
+    "lat": 36.572441,
+    "lng": 136.648895,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "kanazawa_city_jidoukan",
+    "checked": "2026-07-29",
+    "muni": "金沢市"
+  },
+  {
+    "n": "浅野町児童館",
+    "a": "浅野本町2丁目13-12",
+    "t": "076-252-5664",
+    "lat": 36.584602,
+    "lng": 136.661453,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "kanazawa_city_jidoukan",
+    "checked": "2026-07-29",
+    "muni": "金沢市"
+  },
+  {
+    "n": "小坂児童館",
+    "a": "小坂町北312",
+    "t": "076-251-6055",
+    "lat": 36.593502,
+    "lng": 136.67601,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "kanazawa_city_jidoukan",
+    "checked": "2026-07-29",
+    "muni": "金沢市"
+  },
+  {
+    "n": "花園児童館",
+    "a": "今町チ41番地",
+    "t": "076-258-0028",
+    "lat": 36.633633,
+    "lng": 136.707809,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "kanazawa_city_jidoukan",
+    "checked": "2026-07-29",
+    "muni": "金沢市"
+  },
+  {
+    "n": "馬場児童館",
+    "a": "東山3-29-22",
+    "t": "076-253-1255",
+    "lat": 36.576668,
+    "lng": 136.663727,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "kanazawa_city_jidoukan",
+    "checked": "2026-07-29",
+    "muni": "金沢市"
+  },
+  {
+    "n": "森山児童館",
+    "a": "森山2-11-13",
+    "t": "076-251-4332",
+    "lat": 36.579521,
+    "lng": 136.668915,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "kanazawa_city_jidoukan",
+    "checked": "2026-07-29",
+    "muni": "金沢市"
+  },
+  {
+    "n": "小立野児童館",
+    "a": "小立野4丁目7-51",
+    "t": "076-233-1780",
+    "lat": 36.551014,
+    "lng": 136.679245,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "kanazawa_city_jidoukan",
+    "checked": "2026-07-29",
+    "muni": "金沢市"
+  },
+  {
+    "n": "材木児童館",
+    "a": "材木町13番11号",
+    "t": "076-223-7765",
+    "lat": 36.567055,
+    "lng": 136.667465,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "kanazawa_city_jidoukan",
+    "checked": "2026-07-29",
+    "muni": "金沢市"
+  },
+  {
+    "n": "杜の里児童館",
+    "a": "若松町3丁目281番地",
+    "t": "076-222-7759",
+    "lat": 36.557335,
+    "lng": 136.686844,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "kanazawa_city_jidoukan",
+    "checked": "2026-07-29",
+    "muni": "金沢市"
+  },
+  {
+    "n": "扇台児童館",
+    "a": "馬替1-29-1",
+    "t": "076-296-1180",
+    "lat": 36.521873,
+    "lng": 136.624069,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "kanazawa_city_jidoukan",
+    "checked": "2026-07-29",
+    "muni": "金沢市"
+  },
+  {
+    "n": "富樫児童館",
+    "a": "山科1丁目6-8",
+    "t": "076-242-4252",
+    "lat": 36.528564,
+    "lng": 136.647369,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "kanazawa_city_jidoukan",
+    "checked": "2026-07-29",
+    "muni": "金沢市"
+  },
+  {
+    "n": "中村児童館",
+    "a": "中村町10番35号",
+    "t": "076-247-4456",
+    "lat": 36.559582,
+    "lng": 136.641754,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "kanazawa_city_jidoukan",
+    "checked": "2026-07-29",
+    "muni": "金沢市"
+  },
+  {
+    "n": "平和町児童館",
+    "a": "平和町2丁目8-7",
+    "t": "076-241-4851",
+    "lat": 36.54303,
+    "lng": 136.666534,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "kanazawa_city_jidoukan",
+    "checked": "2026-07-29",
+    "muni": "金沢市"
+  },
+  {
+    "n": "弥生児童館",
+    "a": "弥生1丁目29-13",
+    "t": "076-243-7588",
+    "lat": 36.549458,
+    "lng": 136.644562,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "kanazawa_city_jidoukan",
+    "checked": "2026-07-29",
+    "muni": "金沢市"
+  },
+  {
+    "n": "粟崎児童館",
+    "a": "粟崎町1-3",
+    "t": "076-237-3837",
+    "lat": 36.625641,
+    "lng": 136.627945,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "kanazawa_city_jidoukan",
+    "checked": "2026-07-29",
+    "muni": "金沢市"
+  },
+  {
+    "n": "大野町児童館",
+    "a": "大野町1-8-5",
+    "t": "076-268-1277",
+    "lat": 36.610844,
+    "lng": 136.602432,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "kanazawa_city_jidoukan",
+    "checked": "2026-07-29",
+    "muni": "金沢市"
+  },
+  {
+    "n": "金石児童館",
+    "a": "金石通町3-14",
+    "t": "076-266-1125",
+    "lat": 36.604202,
+    "lng": 136.594452,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "kanazawa_city_jidoukan",
+    "checked": "2026-07-29",
+    "muni": "金沢市"
+  },
+  {
+    "n": "鞍月児童館",
+    "a": "直江南1丁目1番地",
+    "t": "076-237-8957",
+    "lat": 36.602657,
+    "lng": 136.632721,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "kanazawa_city_jidoukan",
+    "checked": "2026-07-29",
+    "muni": "金沢市"
+  },
+  {
+    "n": "大徳児童館",
+    "a": "畝田中2丁目234",
+    "t": "076-268-2533",
+    "lat": 36.594852,
+    "lng": 136.612762,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "kanazawa_city_jidoukan",
+    "checked": "2026-07-29",
+    "muni": "金沢市"
+  },
+  {
+    "n": "長田町児童館",
+    "a": "長田1丁目5番50号",
+    "t": "076-235-2180",
+    "lat": 36.575802,
+    "lng": 136.643143,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "kanazawa_city_jidoukan",
+    "checked": "2026-07-29",
+    "muni": "金沢市"
+  },
+  {
+    "n": "戸板児童館",
+    "a": "戸板1丁目2番地",
+    "t": "076-231-5145",
+    "lat": 36.578934,
+    "lng": 136.624527,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "kanazawa_city_jidoukan",
+    "checked": "2026-07-29",
+    "muni": "金沢市"
+  },
+  {
+    "n": "諸江児童館",
+    "a": "北安江2丁目22番44号",
+    "t": "076-204-7920",
+    "lat": 36.58736,
+    "lng": 136.649445,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "kanazawa_city_jidoukan",
+    "checked": "2026-07-29",
+    "muni": "金沢市"
+  },
+  {
+    "n": "押野児童館",
+    "a": "八日市2丁目464",
+    "t": "076-247-3220",
+    "lat": 36.546127,
+    "lng": 136.608673,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "kanazawa_city_jidoukan",
+    "checked": "2026-07-29",
+    "muni": "金沢市"
+  },
+  {
+    "n": "新神田児童館",
+    "a": "新神田1-1-18",
+    "t": "076-291-4496",
+    "lat": 36.563816,
+    "lng": 136.635452,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "kanazawa_city_jidoukan",
+    "checked": "2026-07-29",
+    "muni": "金沢市"
+  },
+  {
+    "n": "二塚児童館",
+    "a": "北塚町西98",
+    "t": "076-269-0272",
+    "lat": 36.573017,
+    "lng": 136.597061,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "kanazawa_city_jidoukan",
+    "checked": "2026-07-29",
+    "muni": "金沢市"
+  },
+  {
+    "n": "安原児童館",
+    "a": "福増町北1067番地",
+    "t": "076-249-8930",
+    "lat": 36.567547,
+    "lng": 136.580582,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "kanazawa_city_jidoukan",
+    "checked": "2026-07-29",
+    "muni": "金沢市"
+  },
+  {
+    "n": "米丸児童館",
+    "a": "間明町2丁目346",
+    "t": "076-291-5535",
+    "lat": 36.565819,
+    "lng": 136.620377,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "kanazawa_city_jidoukan",
+    "checked": "2026-07-29",
+    "muni": "金沢市"
+  },
+  {
+    "n": "西南部児童館",
+    "a": "八日市出町815",
+    "t": "076-240-3878",
+    "lat": 36.553768,
+    "lng": 136.609375,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "kanazawa_city_jidoukan",
+    "checked": "2026-07-29",
+    "muni": "金沢市"
+  },
+  {
+    "n": "三和児童館",
+    "a": "上荒屋4-82",
+    "t": "076-249-2908",
+    "lat": 36.553501,
+    "lng": 136.593369,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "kanazawa_city_jidoukan",
+    "checked": "2026-07-29",
+    "muni": "金沢市"
+  },
+  {
+    "n": "城北児童会館",
+    "a": "小坂町西8-11",
+    "t": "076-251-0444",
+    "lat": 36.589951,
+    "lng": 136.670303,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "kanazawa_city_jidoukan",
+    "checked": "2026-07-29",
+    "muni": "金沢市"
+  },
+  {
+    "n": "松任児童館",
+    "a": "古城町305",
+    "t": "076-276-1170",
+    "lat": 36.52454,
+    "lng": 136.567245,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "hakusan_city_jidoukan",
+    "checked": "2026-07-29",
+    "muni": "白山市"
+  },
+  {
+    "n": "美川児童館",
+    "a": "美川和波町北1-1",
+    "t": "076-278-8145",
+    "lat": 36.490498,
+    "lng": 136.485413,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "hakusan_city_jidoukan",
+    "checked": "2026-07-29",
+    "muni": "白山市"
+  },
+  {
+    "n": "湊児童館",
+    "a": "湊町カ63",
+    "t": "076-278-4981",
+    "lat": 36.475368,
+    "lng": 136.477814,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "hakusan_city_jidoukan",
+    "checked": "2026-07-29",
+    "muni": "白山市"
+  },
+  {
+    "n": "鶴来北児童館",
+    "a": "七原町77",
+    "t": "076-273-8900",
+    "lat": 36.48502,
+    "lng": 136.597641,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "hakusan_city_jidoukan",
+    "checked": "2026-07-29",
+    "muni": "白山市"
+  },
+  {
+    "n": "鶴来南児童館",
+    "a": "鶴来大国町ロ125-2",
+    "t": "076-273-5055",
+    "lat": 36.454586,
+    "lng": 136.619446,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "hakusan_city_jidoukan",
+    "checked": "2026-07-29",
+    "muni": "白山市"
+  },
+  {
+    "n": "かわち児童館",
+    "a": "河内町福岡88",
+    "t": "076-273-3211",
+    "lat": 36.39397,
+    "lng": 136.625,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "hakusan_city_jidoukan",
+    "checked": "2026-07-29",
+    "muni": "白山市"
+  },
+  {
+    "n": "吉野谷児童館",
+    "a": "吉野東56",
+    "t": "076-255-5238",
+    "lat": 36.357849,
+    "lng": 136.632263,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "hakusan_city_jidoukan",
+    "checked": "2026-07-29",
+    "muni": "白山市"
+  },
+  {
+    "n": "蝶屋児童館",
+    "a": "井関町ヌ15-2",
+    "t": "076-278-3222",
+    "lat": 36.491646,
+    "lng": 136.501526,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "hakusan_city_jidoukan",
+    "checked": "2026-07-29",
+    "muni": "白山市"
+  },
+  {
+    "n": "あいのき児童センター",
+    "a": "相木町777-1",
+    "t": "076-276-6629",
+    "lat": 36.532028,
+    "lng": 136.563614,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "hakusan_city_jidoukan",
+    "checked": "2026-07-29",
+    "muni": "白山市"
+  },
+  {
+    "n": "わかみや児童センター",
+    "a": "八ツ矢町566番地",
+    "t": "076-274-3001",
+    "lat": 36.524158,
+    "lng": 136.572449,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "hakusan_city_jidoukan",
+    "checked": "2026-07-29",
+    "muni": "白山市"
+  },
+  {
+    "n": "千代野児童センター",
+    "a": "千代野西8丁目30",
+    "t": "076-275-2122",
+    "lat": 36.527378,
+    "lng": 136.537781,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "hakusan_city_jidoukan",
+    "checked": "2026-07-29",
+    "muni": "白山市"
+  },
+  {
+    "n": "山島台児童センター",
+    "a": "漆島町281",
+    "t": "076-275-0083",
+    "lat": 36.472366,
+    "lng": 136.57782,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "hakusan_city_jidoukan",
+    "checked": "2026-07-29",
+    "muni": "白山市"
+  },
+  {
+    "n": "あさひ児童センター",
+    "a": "旭丘二丁目34",
+    "t": "076-274-2266",
+    "lat": 36.551704,
+    "lng": 136.568634,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "hakusan_city_jidoukan",
+    "checked": "2026-07-29",
+    "muni": "白山市"
+  }
+]

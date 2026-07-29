@@ -2163,6 +2163,40 @@
       "terms_checked": "2026-07-29",
       "usage_note": "施設の名称・所在地・電話番号という事実情報の利用（CLAUDE.mdルール17）。",
       "conditions": "地図・図形データや一括提供物CSVの転載ではなく、事実情報の抽出。"
+    },
+    "kanazawa_city_jidoukan": {
+      "source_label": "金沢市児童館ポータルサイト（金沢市こども未来局子育て支援課）",
+      "source": "https://kanazawa-city-jidokan.jp/",
+      "publisher": "金沢市",
+      "checked": "2026-07-29",
+      "as_of": null,
+      "tier": "A",
+      "discovery_query": "金沢市 児童館 一覧",
+      "notes": "P14抽出36件はe-Stat公式統計(91件)との乖離が極めて大きく(石川県全体の欠落が疑われた)自動反映を見送っていた(ksj_p14参照)。金沢市児童館ポータルサイトから32地区児童館＋大型児童館(城北児童会館)の全33件のうち32件を、施設ごとの個別ページから住所・電話番号を収集(千坂児童館のみ公式ページが接続不可のため未収集)。西南部児童館・三和児童館の2件は公式個別ページが接続不可だったため、NAVITIME等のアグリゲーターサイトに掲載された住所・電話番号で代替した(公的機関の一次資料ではないため、他の32件より確からしさが一段低いことを明記)。全32件を国土地理院APIでジオコーディングし金沢市との一致を確認済み(CLAUDE.mdルール9)。",
+      "license": null,
+      "license_url": null,
+      "credit": true,
+      "modified_note": true,
+      "terms_checked": "2026-07-29",
+      "usage_note": "施設の名称・所在地・電話番号という事実情報の利用（CLAUDE.mdルール17）。",
+      "conditions": "地図・図形データや一括提供物CSVの転載ではなく、事実情報の抽出。"
+    },
+    "hakusan_city_jidoukan": {
+      "source_label": "白山市「児童館・児童センター」施設案内",
+      "source": "https://www.city.hakusan.lg.jp/shisetsu/1006434/1005282/index.html",
+      "publisher": "白山市",
+      "checked": "2026-07-29",
+      "as_of": null,
+      "tier": "A",
+      "discovery_query": "白山市 児童館 児童センター 一覧",
+      "notes": "石川県全体の乖離への対応として金沢市に続き白山市も収集。公式サイトの一覧ページから13施設の個別ページを全件確認し住所・電話番号を収集。全13件を国土地理院APIでジオコーディングし白山市との一致を確認済み(CLAUDE.mdルール9)。金沢市(32件)と合わせて計45件。金沢市・白山市以外の県内市町(小松市・七尾市・加賀市等)は未収集。",
+      "license": null,
+      "license_url": null,
+      "credit": true,
+      "modified_note": true,
+      "terms_checked": "2026-07-29",
+      "usage_note": "施設の名称・所在地・電話番号という事実情報の利用（CLAUDE.mdルール17）。",
+      "conditions": "地図・図形データや一括提供物CSVの転載ではなく、事実情報の抽出。"
     }
   },
   "datasets": {
