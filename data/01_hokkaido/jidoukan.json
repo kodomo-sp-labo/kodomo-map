@@ -1,1 +1,3759 @@
-[]
+[
+  {
+    "n": "中島児童会館",
+    "a": "中島公園1-1",
+    "t": "011-511-3397",
+    "lat": 43.048294,
+    "lng": 141.355133,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "sapporo_city_jidoukan",
+    "checked": "2026-07-29",
+    "muni": "札幌市中央区"
+  },
+  {
+    "n": "円山児童会館",
+    "a": "北1条西23丁目1-18",
+    "t": "011-621-0325",
+    "lat": 43.057899,
+    "lng": 141.321838,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "sapporo_city_jidoukan",
+    "checked": "2026-07-29",
+    "muni": "札幌市中央区"
+  },
+  {
+    "n": "山鼻児童会館",
+    "a": "南24条西13丁目1-1",
+    "t": "011-561-6220",
+    "lat": 43.027828,
+    "lng": 141.341766,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "sapporo_city_jidoukan",
+    "checked": "2026-07-29",
+    "muni": "札幌市中央区"
+  },
+  {
+    "n": "緑丘児童会館",
+    "a": "南10条西23丁目1-5",
+    "t": "011-562-1283",
+    "lat": 43.043022,
+    "lng": 141.322662,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "sapporo_city_jidoukan",
+    "checked": "2026-07-29",
+    "muni": "札幌市中央区"
+  },
+  {
+    "n": "宮の森児童会館",
+    "a": "宮の森2条5丁目2-21",
+    "t": "011-641-9710",
+    "lat": 43.062023,
+    "lng": 141.309036,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "sapporo_city_jidoukan",
+    "checked": "2026-07-29",
+    "muni": "札幌市中央区"
+  },
+  {
+    "n": "桑園児童会館",
+    "a": "北7条西15丁目28",
+    "t": "011-641-7008",
+    "lat": 43.06712,
+    "lng": 141.331467,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "sapporo_city_jidoukan",
+    "checked": "2026-07-29",
+    "muni": "札幌市中央区"
+  },
+  {
+    "n": "中央児童会館",
+    "a": "大通東6丁目",
+    "t": "011-788-8641",
+    "lat": 43.06303,
+    "lng": 141.365784,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "sapporo_city_jidoukan",
+    "checked": "2026-07-29",
+    "muni": "札幌市中央区"
+  },
+  {
+    "n": "幌西児童会館",
+    "a": "南14条西16丁目2-15",
+    "t": "011-563-2263",
+    "lat": 43.040218,
+    "lng": 141.333801,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "sapporo_city_jidoukan",
+    "checked": "2026-07-29",
+    "muni": "札幌市中央区"
+  },
+  {
+    "n": "円山西町児童会館",
+    "a": "円山西町8丁目1-50",
+    "t": "011-611-1980",
+    "lat": 43.045551,
+    "lng": 141.305481,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "sapporo_city_jidoukan",
+    "checked": "2026-07-29",
+    "muni": "札幌市中央区"
+  },
+  {
+    "n": "山鼻かしわ児童会館",
+    "a": "南15条西8丁目1-20",
+    "t": "011-533-0622",
+    "lat": 43.039791,
+    "lng": 141.34761,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "sapporo_city_jidoukan",
+    "checked": "2026-07-29",
+    "muni": "札幌市中央区"
+  },
+  {
+    "n": "二条はるにれ児童会館",
+    "a": "南2条西15丁目",
+    "t": "011-252-7283",
+    "lat": 43.055401,
+    "lng": 141.334869,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "sapporo_city_jidoukan",
+    "checked": "2026-07-29",
+    "muni": "札幌市中央区"
+  },
+  {
+    "n": "資生館小ミニ",
+    "a": "南3条西7丁目",
+    "t": "011-208-5828",
+    "lat": 43.05595,
+    "lng": 141.34758,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "sapporo_city_jidoukan",
+    "checked": "2026-07-29",
+    "muni": "札幌市中央区"
+  },
+  {
+    "n": "三角山小ミニ",
+    "a": "宮の森4条11丁目",
+    "t": "011-299-6008",
+    "lat": 43.058655,
+    "lng": 141.295776,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "sapporo_city_jidoukan",
+    "checked": "2026-07-29",
+    "muni": "札幌市中央区"
+  },
+  {
+    "n": "伏見小ミニ",
+    "a": "南18条西15丁目",
+    "t": "011-206-8688",
+    "lat": 43.034855,
+    "lng": 141.336304,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "sapporo_city_jidoukan",
+    "checked": "2026-07-29",
+    "muni": "札幌市中央区"
+  },
+  {
+    "n": "幌南小ミニ",
+    "a": "南21条西5丁目",
+    "t": "011-206-4682",
+    "lat": 43.031597,
+    "lng": 141.353561,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "sapporo_city_jidoukan",
+    "checked": "2026-07-29",
+    "muni": "札幌市中央区"
+  },
+  {
+    "n": "日新小ミニ",
+    "a": "北8条西25丁目",
+    "t": "011-676-4715",
+    "lat": 43.066925,
+    "lng": 141.317383,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "sapporo_city_jidoukan",
+    "checked": "2026-07-29",
+    "muni": "札幌市中央区"
+  },
+  {
+    "n": "新琴似児童会館",
+    "a": "新琴似11条7丁目3-16",
+    "t": "011-761-7501",
+    "lat": 43.120895,
+    "lng": 141.329956,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "sapporo_city_jidoukan",
+    "checked": "2026-07-29",
+    "muni": "札幌市北区"
+  },
+  {
+    "n": "篠路児童会館",
+    "a": "篠路4条9丁目3-1",
+    "t": "011-772-9292",
+    "lat": 43.146378,
+    "lng": 141.370972,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "sapporo_city_jidoukan",
+    "checked": "2026-07-29",
+    "muni": "札幌市北区"
+  },
+  {
+    "n": "新川児童会館",
+    "a": "新川4条11丁目5-16",
+    "t": "011-764-3664",
+    "lat": 43.108925,
+    "lng": 141.307709,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "sapporo_city_jidoukan",
+    "checked": "2026-07-29",
+    "muni": "札幌市北区"
+  },
+  {
+    "n": "屯田児童会館",
+    "a": "屯田5条6丁目2-23",
+    "t": "011-772-7130",
+    "lat": 43.132221,
+    "lng": 141.329758,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "sapporo_city_jidoukan",
+    "checked": "2026-07-29",
+    "muni": "札幌市北区"
+  },
+  {
+    "n": "太平児童会館",
+    "a": "太平8条7丁目2-1",
+    "t": "011-771-6324",
+    "lat": 43.132053,
+    "lng": 141.359299,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "sapporo_city_jidoukan",
+    "checked": "2026-07-29",
+    "muni": "札幌市北区"
+  },
+  {
+    "n": "麻生児童会館",
+    "a": "北39条西5丁目3-5",
+    "t": "011-757-0185",
+    "lat": 43.106976,
+    "lng": 141.337311,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "sapporo_city_jidoukan",
+    "checked": "2026-07-29",
+    "muni": "札幌市北区"
+  },
+  {
+    "n": "新琴似西児童会館",
+    "a": "新琴似9条13丁目4-1",
+    "t": "011-762-6632",
+    "lat": 43.1236,
+    "lng": 141.315475,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "sapporo_city_jidoukan",
+    "checked": "2026-07-29",
+    "muni": "札幌市北区"
+  },
+  {
+    "n": "篠路西児童会館",
+    "a": "篠路6条4丁目2-32",
+    "t": "011-771-2191",
+    "lat": 43.151268,
+    "lng": 141.358948,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "sapporo_city_jidoukan",
+    "checked": "2026-07-29",
+    "muni": "札幌市北区"
+  },
+  {
+    "n": "新川中央児童会館",
+    "a": "新川3条3丁目3-21",
+    "t": "011-762-8433",
+    "lat": 43.099667,
+    "lng": 141.319305,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "sapporo_city_jidoukan",
+    "checked": "2026-07-29",
+    "muni": "札幌市北区"
+  },
+  {
+    "n": "幌北児童会館",
+    "a": "北17条西6丁目1-20",
+    "t": "011-727-6225",
+    "lat": 43.080391,
+    "lng": 141.343338,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "sapporo_city_jidoukan",
+    "checked": "2026-07-29",
+    "muni": "札幌市北区"
+  },
+  {
+    "n": "エルムの森児童会館",
+    "a": "北27条西14丁目",
+    "t": "011-737-3974",
+    "lat": 43.095245,
+    "lng": 141.327225,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "sapporo_city_jidoukan",
+    "checked": "2026-07-29",
+    "muni": "札幌市北区"
+  },
+  {
+    "n": "光陽児童会館",
+    "a": "新琴似5条11丁目",
+    "t": "011-765-6141",
+    "lat": 43.115959,
+    "lng": 141.315552,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "sapporo_city_jidoukan",
+    "checked": "2026-07-29",
+    "muni": "札幌市北区"
+  },
+  {
+    "n": "百合が原児童会館",
+    "a": "百合が原9丁目9-11",
+    "t": "011-774-2050",
+    "lat": 43.13747,
+    "lng": 141.365479,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "sapporo_city_jidoukan",
+    "checked": "2026-07-29",
+    "muni": "札幌市北区"
+  },
+  {
+    "n": "あいの里児童会館",
+    "a": "あいの里1条3丁目6-1",
+    "t": "011-778-3755",
+    "lat": 43.157715,
+    "lng": 141.388321,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "sapporo_city_jidoukan",
+    "checked": "2026-07-29",
+    "muni": "札幌市北区"
+  },
+  {
+    "n": "あいの里ひがし児童会館",
+    "a": "あいの里3条7丁目9-1",
+    "t": "011-778-2358",
+    "lat": 43.163563,
+    "lng": 141.406235,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "sapporo_city_jidoukan",
+    "checked": "2026-07-29",
+    "muni": "札幌市北区"
+  },
+  {
+    "n": "屯田北（愛称：屯珍館）児童会館",
+    "a": "屯田8条7丁目1-39",
+    "t": "011-788-8122",
+    "lat": 43.139801,
+    "lng": 141.331284,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "sapporo_city_jidoukan",
+    "checked": "2026-07-29",
+    "muni": "札幌市北区"
+  },
+  {
+    "n": "新琴似南小ミニ",
+    "a": "新琴似1条3丁目",
+    "t": "011-762-3666",
+    "lat": 43.10416,
+    "lng": 141.322205,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "sapporo_city_jidoukan",
+    "checked": "2026-07-29",
+    "muni": "札幌市北区"
+  },
+  {
+    "n": "白楊小ミニ",
+    "a": "北24条西7丁目",
+    "t": "011-717-5562",
+    "lat": 43.090336,
+    "lng": 141.339035,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "sapporo_city_jidoukan",
+    "checked": "2026-07-29",
+    "muni": "札幌市北区"
+  },
+  {
+    "n": "拓北小ミニ",
+    "a": "あいの里2条1丁目",
+    "t": "011-299-8868",
+    "lat": 43.161106,
+    "lng": 141.38443,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "sapporo_city_jidoukan",
+    "checked": "2026-07-29",
+    "muni": "札幌市北区"
+  },
+  {
+    "n": "新琴似小ミニ",
+    "a": "新琴似7条3丁目",
+    "t": "011-876-8008",
+    "lat": 43.112293,
+    "lng": 141.330536,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "sapporo_city_jidoukan",
+    "checked": "2026-07-29",
+    "muni": "札幌市北区"
+  },
+  {
+    "n": "屯田北小ミニ",
+    "a": "屯田9条3丁目",
+    "t": "011-790-8030",
+    "lat": 43.142521,
+    "lng": 141.341751,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "sapporo_city_jidoukan",
+    "checked": "2026-07-29",
+    "muni": "札幌市北区"
+  },
+  {
+    "n": "太平小ミニ",
+    "a": "篠路1条2丁目",
+    "t": "011-214-0002",
+    "lat": 43.141212,
+    "lng": 141.352234,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "sapporo_city_jidoukan",
+    "checked": "2026-07-29",
+    "muni": "札幌市北区"
+  },
+  {
+    "n": "新琴似西小ミニ",
+    "a": "新琴似11条15丁目",
+    "t": "011-374-7774",
+    "lat": 43.129112,
+    "lng": 141.315536,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "sapporo_city_jidoukan",
+    "checked": "2026-07-29",
+    "muni": "札幌市北区"
+  },
+  {
+    "n": "北九条小ミニ",
+    "a": "北9条西1丁目",
+    "t": "011-299-1888",
+    "lat": 43.072445,
+    "lng": 141.353256,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "sapporo_city_jidoukan",
+    "checked": "2026-07-29",
+    "muni": "札幌市北区"
+  },
+  {
+    "n": "北陽小ミニ",
+    "a": "北31条西9丁目",
+    "t": "011-788-4131",
+    "lat": 43.097305,
+    "lng": 141.334198,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "sapporo_city_jidoukan",
+    "checked": "2026-07-29",
+    "muni": "札幌市北区"
+  },
+  {
+    "n": "屯田西小ミニ",
+    "a": "屯田6条10丁目",
+    "t": "011-214-0715",
+    "lat": 43.136303,
+    "lng": 141.320847,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "sapporo_city_jidoukan",
+    "checked": "2026-07-29",
+    "muni": "札幌市北区"
+  },
+  {
+    "n": "鴻城小ミニ",
+    "a": "あいの里3条6丁目",
+    "t": "011-299-1524",
+    "lat": 43.161858,
+    "lng": 141.40271,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "sapporo_city_jidoukan",
+    "checked": "2026-07-29",
+    "muni": "札幌市北区"
+  },
+  {
+    "n": "新川小ミニ",
+    "a": "新川5条15丁目",
+    "t": "011-374-6845",
+    "lat": 43.114773,
+    "lng": 141.299652,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "sapporo_city_jidoukan",
+    "checked": "2026-07-29",
+    "muni": "札幌市北区"
+  },
+  {
+    "n": "和光小ミニ",
+    "a": "北34条西7丁目",
+    "t": "011-792-0655",
+    "lat": 43.10133,
+    "lng": 141.335938,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "sapporo_city_jidoukan",
+    "checked": "2026-07-29",
+    "muni": "札幌市北区"
+  },
+  {
+    "n": "茨戸小ミニ",
+    "a": "東茨戸1条2丁目",
+    "t": "011-769-0667",
+    "lat": 43.159359,
+    "lng": 141.356354,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "sapporo_city_jidoukan",
+    "checked": "2026-07-29",
+    "muni": "札幌市北区"
+  },
+  {
+    "n": "新生児童会館",
+    "a": "北8条東7丁目1",
+    "t": "011-711-1339",
+    "lat": 43.072475,
+    "lng": 141.364639,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "sapporo_city_jidoukan",
+    "checked": "2026-07-29",
+    "muni": "札幌市東区"
+  },
+  {
+    "n": "ひのまる児童会館",
+    "a": "北38条東9丁目1-29",
+    "t": "011-752-1551",
+    "lat": 43.107864,
+    "lng": 141.360092,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "sapporo_city_jidoukan",
+    "checked": "2026-07-29",
+    "muni": "札幌市東区"
+  },
+  {
+    "n": "伏古児童会館",
+    "a": "伏古10条3丁目6-8",
+    "t": "011-782-5620",
+    "lat": 43.093605,
+    "lng": 141.396881,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "sapporo_city_jidoukan",
+    "checked": "2026-07-29",
+    "muni": "札幌市東区"
+  },
+  {
+    "n": "苗穂・本町児童会館",
+    "a": "本町2条7丁目",
+    "t": "011-768-8667",
+    "lat": 43.077316,
+    "lng": 141.393539,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "sapporo_city_jidoukan",
+    "checked": "2026-07-29",
+    "muni": "札幌市東区"
+  },
+  {
+    "n": "札苗児童会館",
+    "a": "東苗穂9条3丁目2-30",
+    "t": "011-791-5200",
+    "lat": 43.098873,
+    "lng": 141.418335,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "sapporo_city_jidoukan",
+    "checked": "2026-07-29",
+    "muni": "札幌市東区"
+  },
+  {
+    "n": "元町児童会館",
+    "a": "北21条東18丁目5-1",
+    "t": "011-784-6664",
+    "lat": 43.091602,
+    "lng": 141.377701,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "sapporo_city_jidoukan",
+    "checked": "2026-07-29",
+    "muni": "札幌市東区"
+  },
+  {
+    "n": "丘珠たから児童会館",
+    "a": "北35条東23丁目7-10",
+    "t": "011-784-8095",
+    "lat": 43.103928,
+    "lng": 141.383026,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "sapporo_city_jidoukan",
+    "checked": "2026-07-29",
+    "muni": "札幌市東区"
+  },
+  {
+    "n": "栄西児童会館",
+    "a": "北46条東5丁目3-18",
+    "t": "011-752-8363",
+    "lat": 43.116936,
+    "lng": 141.351181,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "sapporo_city_jidoukan",
+    "checked": "2026-07-29",
+    "muni": "札幌市東区"
+  },
+  {
+    "n": "北光児童会館",
+    "a": "北18条東5丁目1-1",
+    "t": "011-753-6353",
+    "lat": 43.083359,
+    "lng": 141.358261,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "sapporo_city_jidoukan",
+    "checked": "2026-07-29",
+    "muni": "札幌市東区"
+  },
+  {
+    "n": "東苗穂児童会館",
+    "a": "東苗穂5条2丁目2-10",
+    "t": "011-786-3191",
+    "lat": 43.089718,
+    "lng": 141.405334,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "sapporo_city_jidoukan",
+    "checked": "2026-07-29",
+    "muni": "札幌市東区"
+  },
+  {
+    "n": "北栄児童会館",
+    "a": "北30条東6丁目1-15",
+    "t": "011-711-3755",
+    "lat": 43.098038,
+    "lng": 141.356827,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "sapporo_city_jidoukan",
+    "checked": "2026-07-29",
+    "muni": "札幌市東区"
+  },
+  {
+    "n": "丘珠ひばり児童会館",
+    "a": "北丘珠4条1丁目12-5",
+    "t": "011-785-6137",
+    "lat": 43.125648,
+    "lng": 141.400238,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "sapporo_city_jidoukan",
+    "checked": "2026-07-29",
+    "muni": "札幌市東区"
+  },
+  {
+    "n": "元町南児童会館",
+    "a": "北16条東16丁目2-1",
+    "t": "011-785-6148",
+    "lat": 43.083996,
+    "lng": 141.374878,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "sapporo_city_jidoukan",
+    "checked": "2026-07-29",
+    "muni": "札幌市東区"
+  },
+  {
+    "n": "東雁来児童会館",
+    "a": "東雁来14条2丁目1-1",
+    "t": "011-214-9215",
+    "lat": 43.105724,
+    "lng": 141.430786,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "sapporo_city_jidoukan",
+    "checked": "2026-07-29",
+    "muni": "札幌市東区"
+  },
+  {
+    "n": "栄西小はんのき児童会館",
+    "a": "北39条東4丁目1-1",
+    "t": "011-768-8883",
+    "lat": 43.107624,
+    "lng": 141.351379,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "sapporo_city_jidoukan",
+    "checked": "2026-07-29",
+    "muni": "札幌市東区"
+  },
+  {
+    "n": "元町北ポプラ児童会館",
+    "a": "北31条東14丁目",
+    "t": "011-214-1246",
+    "lat": 43.101139,
+    "lng": 141.367493,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "sapporo_city_jidoukan",
+    "checked": "2026-07-29",
+    "muni": "札幌市東区"
+  },
+  {
+    "n": "札苗小ミニ",
+    "a": "東苗穂7条2丁目",
+    "t": "011-781-2818",
+    "lat": 43.094379,
+    "lng": 141.410416,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "sapporo_city_jidoukan",
+    "checked": "2026-07-29",
+    "muni": "札幌市東区"
+  },
+  {
+    "n": "苗穂小ミニ",
+    "a": "北9条東13丁目",
+    "t": "011-731-5977",
+    "lat": 43.075249,
+    "lng": 141.373688,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "sapporo_city_jidoukan",
+    "checked": "2026-07-29",
+    "muni": "札幌市東区"
+  },
+  {
+    "n": "中沼小ミニ",
+    "a": "中沼町73-10",
+    "t": "011-790-4733",
+    "lat": 43.131104,
+    "lng": 141.430649,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "sapporo_city_jidoukan",
+    "checked": "2026-07-29",
+    "muni": "札幌市東区"
+  },
+  {
+    "n": "北園小ミニ",
+    "a": "北25条東4丁目",
+    "t": "011-876-8010",
+    "lat": 43.093281,
+    "lng": 141.355148,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "sapporo_city_jidoukan",
+    "checked": "2026-07-29",
+    "muni": "札幌市東区"
+  },
+  {
+    "n": "元町小ミニ",
+    "a": "北25条東17丁目",
+    "t": "011-788-4040",
+    "lat": 43.09605,
+    "lng": 141.374191,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "sapporo_city_jidoukan",
+    "checked": "2026-07-29",
+    "muni": "札幌市東区"
+  },
+  {
+    "n": "東光小ミニ",
+    "a": "本町2条1丁目",
+    "t": "011-374-7744",
+    "lat": 43.081875,
+    "lng": 141.380814,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "sapporo_city_jidoukan",
+    "checked": "2026-07-29",
+    "muni": "札幌市東区"
+  },
+  {
+    "n": "栄小ミニ",
+    "a": "北42条東10丁目",
+    "t": "011-594-8153",
+    "lat": 43.112846,
+    "lng": 141.359772,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "sapporo_city_jidoukan",
+    "checked": "2026-07-29",
+    "muni": "札幌市東区"
+  },
+  {
+    "n": "栄東小ミニ",
+    "a": "北46条東13丁目",
+    "t": "011-788-4171",
+    "lat": 43.117744,
+    "lng": 141.361374,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "sapporo_city_jidoukan",
+    "checked": "2026-07-29",
+    "muni": "札幌市東区"
+  },
+  {
+    "n": "札幌小ミニ",
+    "a": "伏古1条2丁目",
+    "t": "011-788-6791",
+    "lat": 43.083954,
+    "lng": 141.386719,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "sapporo_city_jidoukan",
+    "checked": "2026-07-29",
+    "muni": "札幌市東区"
+  },
+  {
+    "n": "伏古北小ミニ",
+    "a": "伏古11条1丁目",
+    "t": "011-214-9110",
+    "lat": 43.098408,
+    "lng": 141.393921,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "sapporo_city_jidoukan",
+    "checked": "2026-07-29",
+    "muni": "札幌市東区"
+  },
+  {
+    "n": "栄緑小ミニ",
+    "a": "北51条東10丁目",
+    "t": "011-792-1043",
+    "lat": 43.123978,
+    "lng": 141.358261,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "sapporo_city_jidoukan",
+    "checked": "2026-07-29",
+    "muni": "札幌市東区"
+  },
+  {
+    "n": "北郷児童会館",
+    "a": "北郷4条5丁目",
+    "t": "011-871-2770",
+    "lat": 43.058907,
+    "lng": 141.420929,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "sapporo_city_jidoukan",
+    "checked": "2026-07-29",
+    "muni": "札幌市白石区"
+  },
+  {
+    "n": "菊水やよい児童会館",
+    "a": "菊水1条4丁目6-61",
+    "t": "011-841-5150",
+    "lat": 43.052608,
+    "lng": 141.375,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "sapporo_city_jidoukan",
+    "checked": "2026-07-29",
+    "muni": "札幌市白石区"
+  },
+  {
+    "n": "東札幌児童会館",
+    "a": "東札幌5条3丁目2-26",
+    "t": "011-822-5811",
+    "lat": 43.052483,
+    "lng": 141.391922,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "sapporo_city_jidoukan",
+    "checked": "2026-07-29",
+    "muni": "札幌市白石区"
+  },
+  {
+    "n": "北東白石児童会館",
+    "a": "川下3条5丁目3-1",
+    "t": "011-875-1311",
+    "lat": 43.050716,
+    "lng": 141.446548,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "sapporo_city_jidoukan",
+    "checked": "2026-07-29",
+    "muni": "札幌市白石区"
+  },
+  {
+    "n": "東白石児童会館",
+    "a": "本通14丁目南",
+    "t": "011-863-8833",
+    "lat": 43.03791,
+    "lng": 141.427399,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "sapporo_city_jidoukan",
+    "checked": "2026-07-29",
+    "muni": "札幌市白石区"
+  },
+  {
+    "n": "菊水元町児童会館",
+    "a": "菊水元町8条2丁目15-5",
+    "t": "011-873-1610",
+    "lat": 43.072689,
+    "lng": 141.412399,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "sapporo_city_jidoukan",
+    "checked": "2026-07-29",
+    "muni": "札幌市白石区"
+  },
+  {
+    "n": "柏丘児童会館",
+    "a": "平和通8丁目北3-44",
+    "t": "011-865-7520",
+    "lat": 43.047413,
+    "lng": 141.421738,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "sapporo_city_jidoukan",
+    "checked": "2026-07-29",
+    "muni": "札幌市白石区"
+  },
+  {
+    "n": "栄通児童会館",
+    "a": "栄通6丁目19-12",
+    "t": "011-853-5706",
+    "lat": 43.040073,
+    "lng": 141.405533,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "sapporo_city_jidoukan",
+    "checked": "2026-07-29",
+    "muni": "札幌市白石区"
+  },
+  {
+    "n": "川北児童会館",
+    "a": "川北4条1丁目4-29",
+    "t": "011-872-0002",
+    "lat": 43.063583,
+    "lng": 141.433929,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "sapporo_city_jidoukan",
+    "checked": "2026-07-29",
+    "muni": "札幌市白石区"
+  },
+  {
+    "n": "菊水小ミニ",
+    "a": "菊水元町2条3丁目",
+    "t": "011-872-3310",
+    "lat": 43.066109,
+    "lng": 141.400833,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "sapporo_city_jidoukan",
+    "checked": "2026-07-29",
+    "muni": "札幌市白石区"
+  },
+  {
+    "n": "北白石ミニ",
+    "a": "北郷6条3丁目",
+    "t": "011-871-6100",
+    "lat": 43.065472,
+    "lng": 141.417587,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "sapporo_city_jidoukan",
+    "checked": "2026-07-29",
+    "muni": "札幌市白石区"
+  },
+  {
+    "n": "本郷小ミニ",
+    "a": "南郷通10丁目南",
+    "t": "011-868-4616",
+    "lat": 43.037117,
+    "lng": 141.416245,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "sapporo_city_jidoukan",
+    "checked": "2026-07-29",
+    "muni": "札幌市白石区"
+  },
+  {
+    "n": "白石小ミニ",
+    "a": "本通1丁目北",
+    "t": "011-860-3931",
+    "lat": 43.052635,
+    "lng": 141.405319,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "sapporo_city_jidoukan",
+    "checked": "2026-07-29",
+    "muni": "札幌市白石区"
+  },
+  {
+    "n": "西白石小ミニ",
+    "a": "中央3条5丁目",
+    "t": "011-860-8318",
+    "lat": 43.059109,
+    "lng": 141.403778,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "sapporo_city_jidoukan",
+    "checked": "2026-07-29",
+    "muni": "札幌市白石区"
+  },
+  {
+    "n": "南郷小ミニ",
+    "a": "本郷通4丁目南",
+    "t": "011-868-7557",
+    "lat": 43.045345,
+    "lng": 141.406662,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "sapporo_city_jidoukan",
+    "checked": "2026-07-29",
+    "muni": "札幌市白石区"
+  },
+  {
+    "n": "大谷地小ミニ",
+    "a": "本通18丁目南",
+    "t": "011-206-4006",
+    "lat": 43.032757,
+    "lng": 141.436447,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "sapporo_city_jidoukan",
+    "checked": "2026-07-29",
+    "muni": "札幌市白石区"
+  },
+  {
+    "n": "平和通小ミニ",
+    "a": "本通15丁目北",
+    "t": "011-826-5586",
+    "lat": 43.038738,
+    "lng": 141.431732,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "sapporo_city_jidoukan",
+    "checked": "2026-07-29",
+    "muni": "札幌市白石区"
+  },
+  {
+    "n": "東橋小ミニ",
+    "a": "菊水8条1丁目",
+    "t": "011-876-8011",
+    "lat": 43.062801,
+    "lng": 141.379761,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "sapporo_city_jidoukan",
+    "checked": "2026-07-29",
+    "muni": "札幌市白石区"
+  },
+  {
+    "n": "上白石小ミニ",
+    "a": "菊水上町1条3丁目",
+    "t": "011-876-8020",
+    "lat": 43.061729,
+    "lng": 141.3871,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "sapporo_city_jidoukan",
+    "checked": "2026-07-29",
+    "muni": "札幌市白石区"
+  },
+  {
+    "n": "北都小ミニ",
+    "a": "北郷3条11丁目",
+    "t": "011-827-9515",
+    "lat": 43.05154,
+    "lng": 141.433334,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "sapporo_city_jidoukan",
+    "checked": "2026-07-29",
+    "muni": "札幌市白石区"
+  },
+  {
+    "n": "もみじ台児童会館",
+    "a": "もみじ台西6丁目1-2",
+    "t": "011-897-0775",
+    "lat": 43.031628,
+    "lng": 141.490692,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "sapporo_city_jidoukan",
+    "checked": "2026-07-29",
+    "muni": "札幌市厚別区"
+  },
+  {
+    "n": "厚別西（※3月7日より施設再開。詳細についてはこちらをご覧ください。）児童会館",
+    "a": "厚別西2条4丁目3-20",
+    "t": "011-891-7237",
+    "lat": 43.050213,
+    "lng": 141.467926,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "sapporo_city_jidoukan",
+    "checked": "2026-07-29",
+    "muni": "札幌市厚別区"
+  },
+  {
+    "n": "厚別南児童会館",
+    "a": "厚別南1丁目15-10",
+    "t": "011-894-1710",
+    "lat": 43.029099,
+    "lng": 141.465607,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "sapporo_city_jidoukan",
+    "checked": "2026-07-29",
+    "muni": "札幌市厚別区"
+  },
+  {
+    "n": "厚別東児童会館",
+    "a": "厚別東3条4丁目4-13",
+    "t": "011-897-4425",
+    "lat": 43.04744,
+    "lng": 141.48468,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "sapporo_city_jidoukan",
+    "checked": "2026-07-29",
+    "muni": "札幌市厚別区"
+  },
+  {
+    "n": "青葉児童会館",
+    "a": "青葉町7丁目1-38",
+    "t": "011-895-9962",
+    "lat": 43.030552,
+    "lng": 141.47757,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "sapporo_city_jidoukan",
+    "checked": "2026-07-29",
+    "muni": "札幌市厚別区"
+  },
+  {
+    "n": "しなの児童会館",
+    "a": "厚別中央4条5丁目7-16",
+    "t": "011-891-2025",
+    "lat": 43.043678,
+    "lng": 141.470093,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "sapporo_city_jidoukan",
+    "checked": "2026-07-29",
+    "muni": "札幌市厚別区"
+  },
+  {
+    "n": "上野幌児童会館",
+    "a": "上野幌2条4丁目5-1",
+    "t": "011-895-9749",
+    "lat": 43.014206,
+    "lng": 141.474731,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "sapporo_city_jidoukan",
+    "checked": "2026-07-29",
+    "muni": "札幌市厚別区"
+  },
+  {
+    "n": "もみじ台ふれあい児童会館",
+    "a": "もみじ台東7丁目9-1",
+    "t": "011-897-4760",
+    "lat": 43.026035,
+    "lng": 141.501663,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "sapporo_city_jidoukan",
+    "checked": "2026-07-29",
+    "muni": "札幌市厚別区"
+  },
+  {
+    "n": "ひばりが丘小ミニ",
+    "a": "厚別中央2条4丁目",
+    "t": "011-896-8822",
+    "lat": 43.037037,
+    "lng": 141.467667,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "sapporo_city_jidoukan",
+    "checked": "2026-07-29",
+    "muni": "札幌市厚別区"
+  },
+  {
+    "n": "厚別北小ミニ",
+    "a": "厚別北2条3丁目",
+    "t": "011-894-3015",
+    "lat": 43.055836,
+    "lng": 141.477188,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "sapporo_city_jidoukan",
+    "checked": "2026-07-29",
+    "muni": "札幌市厚別区"
+  },
+  {
+    "n": "厚別東小ミニ",
+    "a": "厚別東4条8丁目",
+    "t": "011-375-7765",
+    "lat": 43.056667,
+    "lng": 141.488449,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "sapporo_city_jidoukan",
+    "checked": "2026-07-29",
+    "muni": "札幌市厚別区"
+  },
+  {
+    "n": "もみじの丘小ミニ",
+    "a": "もみじ台東4丁目",
+    "t": "011-398-8833",
+    "lat": 43.030174,
+    "lng": 141.497787,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "sapporo_city_jidoukan",
+    "checked": "2026-07-29",
+    "muni": "札幌市厚別区"
+  },
+  {
+    "n": "新札幌わかば小ミニ",
+    "a": "厚別南7丁目",
+    "t": "011-378-6851",
+    "lat": 43.021175,
+    "lng": 141.480408,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "sapporo_city_jidoukan",
+    "checked": "2026-07-29",
+    "muni": "札幌市厚別区"
+  },
+  {
+    "n": "厚別西小ミニ",
+    "a": "厚別西3条1丁目",
+    "t": "011-375-7165",
+    "lat": 43.047943,
+    "lng": 141.456909,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "sapporo_city_jidoukan",
+    "checked": "2026-07-29",
+    "muni": "札幌市厚別区"
+  },
+  {
+    "n": "大谷地東小ミニ",
+    "a": "大谷地東5丁目",
+    "t": "011-375-8717",
+    "lat": 43.024338,
+    "lng": 141.457993,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "sapporo_city_jidoukan",
+    "checked": "2026-07-29",
+    "muni": "札幌市厚別区"
+  },
+  {
+    "n": "豊平児童会館",
+    "a": "豊平6条7丁目1-12",
+    "t": "011-811-1376",
+    "lat": 43.04768,
+    "lng": 141.372284,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "sapporo_city_jidoukan",
+    "checked": "2026-07-29",
+    "muni": "札幌市豊平区"
+  },
+  {
+    "n": "西岡児童会館",
+    "a": "西岡3条6丁目6-1",
+    "t": "011-852-8113",
+    "lat": 43.01376,
+    "lng": 141.387039,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "sapporo_city_jidoukan",
+    "checked": "2026-07-29",
+    "muni": "札幌市豊平区"
+  },
+  {
+    "n": "平岸児童会館",
+    "a": "平岸3条9丁目15-22",
+    "t": "011-812-2493",
+    "lat": 43.031166,
+    "lng": 141.37178,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "sapporo_city_jidoukan",
+    "checked": "2026-07-29",
+    "muni": "札幌市豊平区"
+  },
+  {
+    "n": "東月寒児童会館",
+    "a": "月寒東3条16丁目13-28",
+    "t": "011-853-9741",
+    "lat": 43.02269,
+    "lng": 141.420624,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "sapporo_city_jidoukan",
+    "checked": "2026-07-29",
+    "muni": "札幌市豊平区"
+  },
+  {
+    "n": "福住児童会館",
+    "a": "福住1条1丁目5-5",
+    "t": "011-855-0350",
+    "lat": 43.020672,
+    "lng": 141.402405,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "sapporo_city_jidoukan",
+    "checked": "2026-07-29",
+    "muni": "札幌市豊平区"
+  },
+  {
+    "n": "中の島児童会館",
+    "a": "中の島2条3丁目8-1",
+    "t": "011-811-5215",
+    "lat": 43.033951,
+    "lng": 141.360901,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "sapporo_city_jidoukan",
+    "checked": "2026-07-29",
+    "muni": "札幌市豊平区"
+  },
+  {
+    "n": "美園児童会館",
+    "a": "美園6条5丁目4-1",
+    "t": "011-824-5440",
+    "lat": 43.038925,
+    "lng": 141.384705,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "sapporo_city_jidoukan",
+    "checked": "2026-07-29",
+    "muni": "札幌市豊平区"
+  },
+  {
+    "n": "月寒児童会館",
+    "a": "月寒西1条6丁目3-21",
+    "t": "011-851-6433",
+    "lat": 43.031094,
+    "lng": 141.393753,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "sapporo_city_jidoukan",
+    "checked": "2026-07-29",
+    "muni": "札幌市豊平区"
+  },
+  {
+    "n": "西岡高台児童会館",
+    "a": "西岡4条11丁目4-22",
+    "t": "011-581-5394",
+    "lat": 42.998734,
+    "lng": 141.38353,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "sapporo_city_jidoukan",
+    "checked": "2026-07-29",
+    "muni": "札幌市豊平区"
+  },
+  {
+    "n": "天神山児童会館",
+    "a": "平岸1条19丁目2-55",
+    "t": "011-816-0388",
+    "lat": 43.02029,
+    "lng": 141.360901,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "sapporo_city_jidoukan",
+    "checked": "2026-07-29",
+    "muni": "札幌市豊平区"
+  },
+  {
+    "n": "あやめ野児童会館",
+    "a": "月寒東4条10丁目6-10",
+    "t": "011-857-5862",
+    "lat": 43.031559,
+    "lng": 141.411316,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "sapporo_city_jidoukan",
+    "checked": "2026-07-29",
+    "muni": "札幌市豊平区"
+  },
+  {
+    "n": "羊丘児童会館",
+    "a": "月寒東1条16丁目",
+    "t": "011-876-8022",
+    "lat": 43.018585,
+    "lng": 141.411179,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "sapporo_city_jidoukan",
+    "checked": "2026-07-29",
+    "muni": "札幌市豊平区"
+  },
+  {
+    "n": "東山児童会館",
+    "a": "平岸4条11丁目",
+    "t": "011-831-6616",
+    "lat": 43.029224,
+    "lng": 141.3741,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "sapporo_city_jidoukan",
+    "checked": "2026-07-29",
+    "muni": "札幌市豊平区"
+  },
+  {
+    "n": "西岡小ミニ",
+    "a": "西岡2条9丁目",
+    "t": "011-854-6660",
+    "lat": 43.005821,
+    "lng": 141.381531,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "sapporo_city_jidoukan",
+    "checked": "2026-07-29",
+    "muni": "札幌市豊平区"
+  },
+  {
+    "n": "あやめ野小ミニ",
+    "a": "月寒東1条11丁目",
+    "t": "011-850-1081",
+    "lat": 43.025795,
+    "lng": 141.402756,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "sapporo_city_jidoukan",
+    "checked": "2026-07-29",
+    "muni": "札幌市豊平区"
+  },
+  {
+    "n": "東園小ミニ",
+    "a": "豊平1条12丁目",
+    "t": "011-820-5356",
+    "lat": 43.047565,
+    "lng": 141.382339,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "sapporo_city_jidoukan",
+    "checked": "2026-07-29",
+    "muni": "札幌市豊平区"
+  },
+  {
+    "n": "南月寒小ミニ",
+    "a": "月寒西4条8丁目",
+    "t": "011-850-1248",
+    "lat": 43.026871,
+    "lng": 141.389038,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "sapporo_city_jidoukan",
+    "checked": "2026-07-29",
+    "muni": "札幌市豊平区"
+  },
+  {
+    "n": "平岸小ミニ",
+    "a": "平岸2条14丁目",
+    "t": "011-817-5744",
+    "lat": 43.025913,
+    "lng": 141.366348,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "sapporo_city_jidoukan",
+    "checked": "2026-07-29",
+    "muni": "札幌市豊平区"
+  },
+  {
+    "n": "豊園小ミニ",
+    "a": "美園1条4丁目",
+    "t": "011-299-5051",
+    "lat": 43.044136,
+    "lng": 141.388809,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "sapporo_city_jidoukan",
+    "checked": "2026-07-29",
+    "muni": "札幌市豊平区"
+  },
+  {
+    "n": "平岸高台小ミニ",
+    "a": "平岸5条18丁目",
+    "t": "011-299-8686",
+    "lat": 43.017227,
+    "lng": 141.374771,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "sapporo_city_jidoukan",
+    "checked": "2026-07-29",
+    "muni": "札幌市豊平区"
+  },
+  {
+    "n": "旭小ミニ",
+    "a": "水車町3丁目",
+    "t": "011-206-4118",
+    "lat": 43.047405,
+    "lng": 141.363068,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "sapporo_city_jidoukan",
+    "checked": "2026-07-29",
+    "muni": "札幌市豊平区"
+  },
+  {
+    "n": "みどり小ミニ",
+    "a": "美園5条2丁目",
+    "t": "011-827-8005",
+    "lat": 43.041866,
+    "lng": 141.382019,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "sapporo_city_jidoukan",
+    "checked": "2026-07-29",
+    "muni": "札幌市豊平区"
+  },
+  {
+    "n": "清田（※改築工事中。詳細についてこちらをご覧ください。）児童会館",
+    "a": "清田1条4丁目3-53",
+    "t": "011-882-2960（※改築工事中は080-2876-4546におかけください。）",
+    "lat": 43.000584,
+    "lng": 141.441422,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "sapporo_city_jidoukan",
+    "checked": "2026-07-29",
+    "muni": "札幌市清田区"
+  },
+  {
+    "n": "平岡児童会館",
+    "a": "平岡8条1丁目6-22",
+    "t": "011-881-9766",
+    "lat": 43.014366,
+    "lng": 141.456329,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "sapporo_city_jidoukan",
+    "checked": "2026-07-29",
+    "muni": "札幌市清田区"
+  },
+  {
+    "n": "北野児童会館",
+    "a": "北野4条2丁目8-17",
+    "t": "011-884-6992",
+    "lat": 43.016518,
+    "lng": 141.435043,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "sapporo_city_jidoukan",
+    "checked": "2026-07-29",
+    "muni": "札幌市清田区"
+  },
+  {
+    "n": "清田中央（※改修工事予定）児童会館",
+    "a": "清田6条2丁目10-1",
+    "t": "011-884-9610（※改修工事中は080-2876-4512）",
+    "lat": 42.994106,
+    "lng": 141.43045,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "sapporo_city_jidoukan",
+    "checked": "2026-07-29",
+    "muni": "札幌市清田区"
+  },
+  {
+    "n": "里塚児童会館",
+    "a": "里塚2条3丁目12-23",
+    "t": "011-881-4822",
+    "lat": 42.98901,
+    "lng": 141.464096,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "sapporo_city_jidoukan",
+    "checked": "2026-07-29",
+    "muni": "札幌市清田区"
+  },
+  {
+    "n": "北野台児童会館",
+    "a": "北野4条5丁目4-58",
+    "t": "011-882-9640",
+    "lat": 43.01133,
+    "lng": 141.449127,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "sapporo_city_jidoukan",
+    "checked": "2026-07-29",
+    "muni": "札幌市清田区"
+  },
+  {
+    "n": "美しが丘児童会館",
+    "a": "美しが丘5条6丁目1-5",
+    "t": "011-885-9766",
+    "lat": 42.976837,
+    "lng": 141.452927,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "sapporo_city_jidoukan",
+    "checked": "2026-07-29",
+    "muni": "札幌市清田区"
+  },
+  {
+    "n": "平岡みどり児童会館",
+    "a": "平岡公園東10丁目13-10",
+    "t": "011-884-6866",
+    "lat": 43.003513,
+    "lng": 141.474808,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "sapporo_city_jidoukan",
+    "checked": "2026-07-29",
+    "muni": "札幌市清田区"
+  },
+  {
+    "n": "真栄小ミニ",
+    "a": "美しが丘1条1丁目",
+    "t": "011-882-7946",
+    "lat": 42.989986,
+    "lng": 141.448715,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "sapporo_city_jidoukan",
+    "checked": "2026-07-29",
+    "muni": "札幌市清田区"
+  },
+  {
+    "n": "三里塚小ミニ",
+    "a": "里塚2条6丁目",
+    "t": "011-398-8388",
+    "lat": 42.98138,
+    "lng": 141.468048,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "sapporo_city_jidoukan",
+    "checked": "2026-07-29",
+    "muni": "札幌市清田区"
+  },
+  {
+    "n": "清田緑小ミニ",
+    "a": "清田7条3丁目",
+    "t": "011-802-5522",
+    "lat": 42.988113,
+    "lng": 141.432861,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "sapporo_city_jidoukan",
+    "checked": "2026-07-29",
+    "muni": "札幌市清田区"
+  },
+  {
+    "n": "美しが丘小ミニ",
+    "a": "美しが丘2条5丁目",
+    "t": "011-376-0041",
+    "lat": 42.983852,
+    "lng": 141.455032,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "sapporo_city_jidoukan",
+    "checked": "2026-07-29",
+    "muni": "札幌市清田区"
+  },
+  {
+    "n": "平岡中央小ミニ",
+    "a": "平岡5条3丁目",
+    "t": "011-807-7528",
+    "lat": 43.006393,
+    "lng": 141.455399,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "sapporo_city_jidoukan",
+    "checked": "2026-07-29",
+    "muni": "札幌市清田区"
+  },
+  {
+    "n": "北野平小ミニ",
+    "a": "北野2条3丁目",
+    "t": "011-807-0161",
+    "lat": 43.008858,
+    "lng": 141.436066,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "sapporo_city_jidoukan",
+    "checked": "2026-07-29",
+    "muni": "札幌市清田区"
+  },
+  {
+    "n": "澄川児童会館",
+    "a": "澄川5条4丁目1-1",
+    "t": "011-831-5150",
+    "lat": 43.012486,
+    "lng": 141.371063,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "sapporo_city_jidoukan",
+    "checked": "2026-07-29",
+    "muni": "札幌市南区"
+  },
+  {
+    "n": "藻岩児童会館",
+    "a": "川沿8条2丁目1-26",
+    "t": "011-571-8616",
+    "lat": 42.987514,
+    "lng": 141.333313,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "sapporo_city_jidoukan",
+    "checked": "2026-07-29",
+    "muni": "札幌市南区"
+  },
+  {
+    "n": "藤野児童会館",
+    "a": "藤野2条8丁目6-1",
+    "t": "011-592-1532",
+    "lat": 42.963017,
+    "lng": 141.289963,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "sapporo_city_jidoukan",
+    "checked": "2026-07-29",
+    "muni": "札幌市南区"
+  },
+  {
+    "n": "真駒内児童会館",
+    "a": "真駒内本町3丁目4-1",
+    "t": "011-584-3336",
+    "lat": 43.006931,
+    "lng": 141.349335,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "sapporo_city_jidoukan",
+    "checked": "2026-07-29",
+    "muni": "札幌市南区"
+  },
+  {
+    "n": "南の沢児童会館",
+    "a": "南沢4条2丁目6-21",
+    "t": "011-571-2909",
+    "lat": 42.988007,
+    "lng": 141.316406,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "sapporo_city_jidoukan",
+    "checked": "2026-07-29",
+    "muni": "札幌市南区"
+  },
+  {
+    "n": "石山児童会館",
+    "a": "石山1条4丁目1-1",
+    "t": "011-591-7730",
+    "lat": 42.966805,
+    "lng": 141.33197,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "sapporo_city_jidoukan",
+    "checked": "2026-07-29",
+    "muni": "札幌市南区"
+  },
+  {
+    "n": "常盤児童会館",
+    "a": "常盤2条3丁目",
+    "t": "011-592-6091",
+    "lat": 42.946659,
+    "lng": 141.350708,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "sapporo_city_jidoukan",
+    "checked": "2026-07-29",
+    "muni": "札幌市南区"
+  },
+  {
+    "n": "真駒内五輪児童会館",
+    "a": "真駒内泉町3丁目1-6",
+    "t": "011-581-1823",
+    "lat": 42.988636,
+    "lng": 141.355789,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "sapporo_city_jidoukan",
+    "checked": "2026-07-29",
+    "muni": "札幌市南区"
+  },
+  {
+    "n": "みすまい児童会館",
+    "a": "簾舞3条6丁目8-25",
+    "t": "011-596-3911",
+    "lat": 42.960361,
+    "lng": 141.256348,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "sapporo_city_jidoukan",
+    "checked": "2026-07-29",
+    "muni": "札幌市南区"
+  },
+  {
+    "n": "定山渓児童会館",
+    "a": "定山渓温泉西1丁目31",
+    "t": "011-595-3090",
+    "lat": 42.972301,
+    "lng": 141.171799,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "sapporo_city_jidoukan",
+    "checked": "2026-07-29",
+    "muni": "札幌市南区"
+  },
+  {
+    "n": "南小ミニ",
+    "a": "南31条西9丁目",
+    "t": "011-581-0191",
+    "lat": 43.017509,
+    "lng": 141.348724,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "sapporo_city_jidoukan",
+    "checked": "2026-07-29",
+    "muni": "札幌市南区"
+  },
+  {
+    "n": "澄川南小ミニ",
+    "a": "澄川5条13丁目",
+    "t": "011-299-6605",
+    "lat": 42.992672,
+    "lng": 141.36821,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "sapporo_city_jidoukan",
+    "checked": "2026-07-29",
+    "muni": "札幌市南区"
+  },
+  {
+    "n": "藤野南小ミニ",
+    "a": "藤野4条6丁目",
+    "t": "011-299-5303",
+    "lat": 42.958385,
+    "lng": 141.294815,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "sapporo_city_jidoukan",
+    "checked": "2026-07-29",
+    "muni": "札幌市南区"
+  },
+  {
+    "n": "藻岩北小ミニ",
+    "a": "川沿2条3丁目",
+    "t": "011-206-1777",
+    "lat": 42.999237,
+    "lng": 141.330704,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "sapporo_city_jidoukan",
+    "checked": "2026-07-29",
+    "muni": "札幌市南区"
+  },
+  {
+    "n": "藤の沢小ミニ",
+    "a": "石山528番地",
+    "t": "011-213-0071",
+    "lat": 42.957279,
+    "lng": 141.313904,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "sapporo_city_jidoukan",
+    "checked": "2026-07-29",
+    "muni": "札幌市南区"
+  },
+  {
+    "n": "藻岩南小ミニ",
+    "a": "川沿18条2丁目",
+    "t": "011-200-0871",
+    "lat": 42.972275,
+    "lng": 141.332642,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "sapporo_city_jidoukan",
+    "checked": "2026-07-29",
+    "muni": "札幌市南区"
+  },
+  {
+    "n": "北の沢小ミニ",
+    "a": "北ノ沢1727番地",
+    "t": "011-596-6315",
+    "lat": 43.005154,
+    "lng": 141.311569,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "sapporo_city_jidoukan",
+    "checked": "2026-07-29",
+    "muni": "札幌市南区"
+  },
+  {
+    "n": "澄川西小ミニ",
+    "a": "澄川2条5丁目",
+    "t": "011-595-8316",
+    "lat": 43.010635,
+    "lng": 141.362488,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "sapporo_city_jidoukan",
+    "checked": "2026-07-29",
+    "muni": "札幌市南区"
+  },
+  {
+    "n": "手稲東児童会館",
+    "a": "西町北10丁目3-8",
+    "t": "011-661-7332",
+    "lat": 43.082455,
+    "lng": 141.286728,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "sapporo_city_jidoukan",
+    "checked": "2026-07-29",
+    "muni": "札幌市西区"
+  },
+  {
+    "n": "八軒児童会館",
+    "a": "八軒7条東1丁目1-7",
+    "t": "011-631-7061",
+    "lat": 43.088131,
+    "lng": 141.316467,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "sapporo_city_jidoukan",
+    "checked": "2026-07-29",
+    "muni": "札幌市西区"
+  },
+  {
+    "n": "西野児童会館",
+    "a": "西野7条3丁目5-15",
+    "t": "011-663-6355",
+    "lat": 43.065891,
+    "lng": 141.271149,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "sapporo_city_jidoukan",
+    "checked": "2026-07-29",
+    "muni": "札幌市西区"
+  },
+  {
+    "n": "発寒北児童会館",
+    "a": "発寒13条4丁目1-37",
+    "t": "011-664-9710",
+    "lat": 43.098129,
+    "lng": 141.292282,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "sapporo_city_jidoukan",
+    "checked": "2026-07-29",
+    "muni": "札幌市西区"
+  },
+  {
+    "n": "山の手児童会館",
+    "a": "山の手5条6丁目",
+    "t": "011-642-0118",
+    "lat": 43.070461,
+    "lng": 141.291153,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "sapporo_city_jidoukan",
+    "checked": "2026-07-29",
+    "muni": "札幌市西区"
+  },
+  {
+    "n": "二十四軒児童会館",
+    "a": "二十四軒2条3丁目",
+    "t": "011-644-4730",
+    "lat": 43.073273,
+    "lng": 141.313889,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "sapporo_city_jidoukan",
+    "checked": "2026-07-29",
+    "muni": "札幌市西区"
+  },
+  {
+    "n": "発寒児童会館",
+    "a": "発寒5条7丁目",
+    "t": "011-666-0206",
+    "lat": 43.086948,
+    "lng": 141.285645,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "sapporo_city_jidoukan",
+    "checked": "2026-07-29",
+    "muni": "札幌市西区"
+  },
+  {
+    "n": "宮の沢児童会館",
+    "a": "宮の沢1条5丁目11-25",
+    "t": "011-666-5323",
+    "lat": 43.095657,
+    "lng": 141.266953,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "sapporo_city_jidoukan",
+    "checked": "2026-07-29",
+    "muni": "札幌市西区"
+  },
+  {
+    "n": "平和児童会館",
+    "a": "平和1条5丁目1-27",
+    "t": "011-667-3359",
+    "lat": 43.059738,
+    "lng": 141.256256,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "sapporo_city_jidoukan",
+    "checked": "2026-07-29",
+    "muni": "札幌市西区"
+  },
+  {
+    "n": "八軒北児童会館",
+    "a": "八軒8条西6丁目1-20",
+    "t": "011-644-3643",
+    "lat": 43.094311,
+    "lng": 141.308426,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "sapporo_city_jidoukan",
+    "checked": "2026-07-29",
+    "muni": "札幌市西区"
+  },
+  {
+    "n": "発寒南さくら児童会館",
+    "a": "発寒2条4丁目",
+    "t": "011-213-9185",
+    "lat": 43.081413,
+    "lng": 141.29332,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "sapporo_city_jidoukan",
+    "checked": "2026-07-29",
+    "muni": "札幌市西区"
+  },
+  {
+    "n": "西野第二小ミニ",
+    "a": "西野8条7丁目",
+    "t": "011-671-0205",
+    "lat": 43.067059,
+    "lng": 141.262451,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "sapporo_city_jidoukan",
+    "checked": "2026-07-29",
+    "muni": "札幌市西区"
+  },
+  {
+    "n": "発寒小ミニ",
+    "a": "発寒10条4丁目",
+    "t": "011-669-1218",
+    "lat": 43.091709,
+    "lng": 141.292145,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "sapporo_city_jidoukan",
+    "checked": "2026-07-29",
+    "muni": "札幌市西区"
+  },
+  {
+    "n": "西園小ミニ",
+    "a": "西野1条7丁目",
+    "t": "011-299-5650",
+    "lat": 43.08165,
+    "lng": 141.277145,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "sapporo_city_jidoukan",
+    "checked": "2026-07-29",
+    "muni": "札幌市西区"
+  },
+  {
+    "n": "八軒西小ミニ",
+    "a": "八軒3条西5丁目",
+    "t": "011-206-4804",
+    "lat": 43.0886,
+    "lng": 141.305084,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "sapporo_city_jidoukan",
+    "checked": "2026-07-29",
+    "muni": "札幌市西区"
+  },
+  {
+    "n": "八軒小ミニ",
+    "a": "八軒4条西1丁目",
+    "t": "011-876-8722",
+    "lat": 43.085945,
+    "lng": 141.312347,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "sapporo_city_jidoukan",
+    "checked": "2026-07-29",
+    "muni": "札幌市西区"
+  },
+  {
+    "n": "手稲東小ミニ",
+    "a": "西野4条3丁目",
+    "t": "011-676-3600",
+    "lat": 43.072147,
+    "lng": 141.278442,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "sapporo_city_jidoukan",
+    "checked": "2026-07-29",
+    "muni": "札幌市西区"
+  },
+  {
+    "n": "琴似小ミニ",
+    "a": "琴似2条7丁目",
+    "t": "011-624-5451",
+    "lat": 43.074318,
+    "lng": 141.299576,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "sapporo_city_jidoukan",
+    "checked": "2026-07-29",
+    "muni": "札幌市西区"
+  },
+  {
+    "n": "福井野小ミニ",
+    "a": "福井6丁目",
+    "t": "011-688-5863",
+    "lat": 43.054848,
+    "lng": 141.266434,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "sapporo_city_jidoukan",
+    "checked": "2026-07-29",
+    "muni": "札幌市西区"
+  },
+  {
+    "n": "山の手南小ミニ",
+    "a": "山の手1条9丁目",
+    "t": "011-624-5961",
+    "lat": 43.063435,
+    "lng": 141.296661,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "sapporo_city_jidoukan",
+    "checked": "2026-07-29",
+    "muni": "札幌市西区"
+  },
+  {
+    "n": "手稲宮丘小ミニ",
+    "a": "宮の沢3条2丁目",
+    "t": "011-688-5260",
+    "lat": 43.08548,
+    "lng": 141.267563,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "sapporo_city_jidoukan",
+    "checked": "2026-07-29",
+    "muni": "札幌市西区"
+  },
+  {
+    "n": "手稲前田児童会館",
+    "a": "前田2条12丁目1-4",
+    "t": "011-682-2070",
+    "lat": 43.123795,
+    "lng": 141.245682,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "sapporo_city_jidoukan",
+    "checked": "2026-07-29",
+    "muni": "札幌市手稲区"
+  },
+  {
+    "n": "稲穂児童会館",
+    "a": "稲穂3条5丁目9-23",
+    "t": "011-684-0901",
+    "lat": 43.124687,
+    "lng": 141.218124,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "sapporo_city_jidoukan",
+    "checked": "2026-07-29",
+    "muni": "札幌市手稲区"
+  },
+  {
+    "n": "あけぼの児童会館",
+    "a": "曙9条1丁目9-40",
+    "t": "011-685-4821",
+    "lat": 43.145233,
+    "lng": 141.240875,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "sapporo_city_jidoukan",
+    "checked": "2026-07-29",
+    "muni": "札幌市手稲区"
+  },
+  {
+    "n": "富丘児童会館",
+    "a": "富丘3条6丁目2-7",
+    "t": "011-685-9393",
+    "lat": 43.110767,
+    "lng": 141.246048,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "sapporo_city_jidoukan",
+    "checked": "2026-07-29",
+    "muni": "札幌市手稲区"
+  },
+  {
+    "n": "西宮の沢児童会館",
+    "a": "西宮の沢2条4丁目5-35",
+    "t": "011-681-6940",
+    "lat": 43.105976,
+    "lng": 141.258698,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "sapporo_city_jidoukan",
+    "checked": "2026-07-29",
+    "muni": "札幌市手稲区"
+  },
+  {
+    "n": "いなづみ児童会館",
+    "a": "前田4条4丁目2-13",
+    "t": "011-684-3072",
+    "lat": 43.116848,
+    "lng": 141.263443,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "sapporo_city_jidoukan",
+    "checked": "2026-07-29",
+    "muni": "札幌市手稲区"
+  },
+  {
+    "n": "前田しらかば児童会館",
+    "a": "前田8条15丁目17-25",
+    "t": "011-694-2474",
+    "lat": 43.135571,
+    "lng": 141.252457,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "sapporo_city_jidoukan",
+    "checked": "2026-07-29",
+    "muni": "札幌市手稲区"
+  },
+  {
+    "n": "星置児童会館",
+    "a": "星置2条7丁目3-1",
+    "t": "011-684-4610",
+    "lat": 43.13549,
+    "lng": 141.198227,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "sapporo_city_jidoukan",
+    "checked": "2026-07-29",
+    "muni": "札幌市手稲区"
+  },
+  {
+    "n": "新発寒児童会館",
+    "a": "新発寒6条4丁目15-1",
+    "t": "011-685-7343",
+    "lat": 43.118263,
+    "lng": 141.277283,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "sapporo_city_jidoukan",
+    "checked": "2026-07-29",
+    "muni": "札幌市手稲区"
+  },
+  {
+    "n": "金山児童会館",
+    "a": "金山3条2丁目1-30",
+    "t": "011-695-0919",
+    "lat": 43.125031,
+    "lng": 141.203323,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "sapporo_city_jidoukan",
+    "checked": "2026-07-29",
+    "muni": "札幌市手稲区"
+  },
+  {
+    "n": "富丘小ミニ",
+    "a": "富丘1条6丁目",
+    "t": "011-685-3797",
+    "lat": 43.113857,
+    "lng": 141.251358,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "sapporo_city_jidoukan",
+    "checked": "2026-07-29",
+    "muni": "札幌市手稲区"
+  },
+  {
+    "n": "前田中央小ミニ",
+    "a": "前田8条12丁目",
+    "t": "011-695-7766",
+    "lat": 43.132088,
+    "lng": 141.256271,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "sapporo_city_jidoukan",
+    "checked": "2026-07-29",
+    "muni": "札幌市手稲区"
+  },
+  {
+    "n": "星置東小ミニ",
+    "a": "星置2条1丁目",
+    "t": "011-694-7595",
+    "lat": 43.135784,
+    "lng": 141.218079,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "sapporo_city_jidoukan",
+    "checked": "2026-07-29",
+    "muni": "札幌市手稲区"
+  },
+  {
+    "n": "前田小ミニ",
+    "a": "前田6条11丁目",
+    "t": "011-688-1828",
+    "lat": 43.127312,
+    "lng": 141.253662,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "sapporo_city_jidoukan",
+    "checked": "2026-07-29",
+    "muni": "札幌市手稲区"
+  },
+  {
+    "n": "新発寒小ミニ",
+    "a": "新発寒2条2丁目",
+    "t": "011-299-5066",
+    "lat": 43.107491,
+    "lng": 141.270859,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "sapporo_city_jidoukan",
+    "checked": "2026-07-29",
+    "muni": "札幌市手稲区"
+  },
+  {
+    "n": "新陵小ミニ",
+    "a": "新発寒6条6丁目",
+    "t": "011-215-8611",
+    "lat": 43.11982,
+    "lng": 141.273636,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "sapporo_city_jidoukan",
+    "checked": "2026-07-29",
+    "muni": "札幌市手稲区"
+  },
+  {
+    "n": "西部児童館",
+    "a": "入舟町6-17",
+    "t": "0138-23-1765",
+    "lat": 41.773224,
+    "lng": 140.703033,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "hakodate_city_jidoukan",
+    "checked": "2026-07-29",
+    "muni": "函館市"
+  },
+  {
+    "n": "谷地頭児童館",
+    "a": "谷地頭町9-5",
+    "t": "0138-23-4475",
+    "lat": 41.754532,
+    "lng": 140.713516,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "hakodate_city_jidoukan",
+    "checked": "2026-07-29",
+    "muni": "函館市"
+  },
+  {
+    "n": "東川児童館",
+    "a": "東川町11-12",
+    "t": "0138-23-1497",
+    "lat": 41.763699,
+    "lng": 140.721909,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "hakodate_city_jidoukan",
+    "checked": "2026-07-29",
+    "muni": "函館市"
+  },
+  {
+    "n": "中島児童館",
+    "a": "中島町30-8",
+    "t": "0138-56-0475",
+    "lat": 41.783714,
+    "lng": 140.743942,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "hakodate_city_jidoukan",
+    "checked": "2026-07-29",
+    "muni": "函館市"
+  },
+  {
+    "n": "大森浜児童館",
+    "a": "金堀町3-2",
+    "t": "0138-55-7881",
+    "lat": 41.777832,
+    "lng": 140.755692,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "hakodate_city_jidoukan",
+    "checked": "2026-07-29",
+    "muni": "函館市"
+  },
+  {
+    "n": "赤川児童館",
+    "a": "赤川1丁目30-35",
+    "t": "0138-46-1717",
+    "lat": 41.827061,
+    "lng": 140.755508,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "hakodate_city_jidoukan",
+    "checked": "2026-07-29",
+    "muni": "函館市"
+  },
+  {
+    "n": "鍛冶児童館",
+    "a": "鍛冶2丁目20-5",
+    "t": "0138-51-1044",
+    "lat": 41.804169,
+    "lng": 140.763824,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "hakodate_city_jidoukan",
+    "checked": "2026-07-29",
+    "muni": "函館市"
+  },
+  {
+    "n": "山の手児童館",
+    "a": "山の手3丁目4-7",
+    "t": "0138-51-4480",
+    "lat": 41.804852,
+    "lng": 140.778381,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "hakodate_city_jidoukan",
+    "checked": "2026-07-29",
+    "muni": "函館市"
+  },
+  {
+    "n": "桔梗福祉交流センター",
+    "a": "桔梗4丁目1-18",
+    "t": "0138-47-7099",
+    "lat": 41.848209,
+    "lng": 140.728302,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "hakodate_city_jidoukan",
+    "checked": "2026-07-29",
+    "muni": "函館市"
+  },
+  {
+    "n": "日吉が丘児童館",
+    "a": "日吉町2丁目34-5",
+    "t": "0138-56-0946",
+    "lat": 41.794388,
+    "lng": 140.788513,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "hakodate_city_jidoukan",
+    "checked": "2026-07-29",
+    "muni": "函館市"
+  },
+  {
+    "n": "上湯川児童館",
+    "a": "上湯川町8-1",
+    "t": "0138-57-2332",
+    "lat": 41.779961,
+    "lng": 140.812027,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "hakodate_city_jidoukan",
+    "checked": "2026-07-29",
+    "muni": "函館市"
+  },
+  {
+    "n": "深堀児童館",
+    "a": "深堀町14-6",
+    "t": "0138-52-4411",
+    "lat": 41.788822,
+    "lng": 140.77861,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "hakodate_city_jidoukan",
+    "checked": "2026-07-29",
+    "muni": "函館市"
+  },
+  {
+    "n": "湯浜児童館",
+    "a": "湯浜町14-3",
+    "t": "0138-51-5472",
+    "lat": 41.776272,
+    "lng": 140.777283,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "hakodate_city_jidoukan",
+    "checked": "2026-07-29",
+    "muni": "函館市"
+  },
+  {
+    "n": "湯川児童館",
+    "a": "湯川町2丁目13-16",
+    "t": "0138-57-4578",
+    "lat": 41.779011,
+    "lng": 140.790237,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "hakodate_city_jidoukan",
+    "checked": "2026-07-29",
+    "muni": "函館市"
+  },
+  {
+    "n": "旭岡児童館",
+    "a": "西旭岡町2丁目51-1",
+    "t": "0138-50-5105",
+    "lat": 41.800976,
+    "lng": 140.828506,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "hakodate_city_jidoukan",
+    "checked": "2026-07-29",
+    "muni": "函館市"
+  },
+  {
+    "n": "古川母と子の家",
+    "a": "古川町7-1",
+    "t": "0138-58-2601",
+    "lat": 41.760159,
+    "lng": 140.858398,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "hakodate_city_jidoukan",
+    "checked": "2026-07-29",
+    "muni": "函館市"
+  },
+  {
+    "n": "宮前児童館",
+    "a": "宮前町25-15",
+    "t": "0138-41-1609",
+    "lat": 41.789417,
+    "lng": 140.738617,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "hakodate_city_jidoukan",
+    "checked": "2026-07-29",
+    "muni": "函館市"
+  },
+  {
+    "n": "大川児童館",
+    "a": "大川町9-8",
+    "t": "0138-41-3618",
+    "lat": 41.79813,
+    "lng": 140.738785,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "hakodate_city_jidoukan",
+    "checked": "2026-07-29",
+    "muni": "函館市"
+  },
+  {
+    "n": "五稜児童館",
+    "a": "白鳥町14-29",
+    "t": "0138-42-7095",
+    "lat": 41.794834,
+    "lng": 140.747742,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "hakodate_city_jidoukan",
+    "checked": "2026-07-29",
+    "muni": "函館市"
+  },
+  {
+    "n": "亀田港児童館",
+    "a": "亀田港町42-16",
+    "t": "0138-45-0216",
+    "lat": 41.809349,
+    "lng": 140.725098,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "hakodate_city_jidoukan",
+    "checked": "2026-07-29",
+    "muni": "函館市"
+  },
+  {
+    "n": "富岡児童館",
+    "a": "富岡町1丁目49-27",
+    "t": "0138-42-4013",
+    "lat": 41.808712,
+    "lng": 140.744568,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "hakodate_city_jidoukan",
+    "checked": "2026-07-29",
+    "muni": "函館市"
+  },
+  {
+    "n": "昭和児童館",
+    "a": "昭和2丁目37-2",
+    "t": "0138-45-9030",
+    "lat": 41.814644,
+    "lng": 140.739502,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "hakodate_city_jidoukan",
+    "checked": "2026-07-29",
+    "muni": "函館市"
+  }
+]

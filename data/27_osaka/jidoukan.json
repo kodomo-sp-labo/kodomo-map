@@ -1,1 +1,808 @@
-[]
+[
+  {
+    "n": "すみれ児童館",
+    "a": "古市1-21-41",
+    "t": "",
+    "lat": 34.7073,
+    "lng": 135.558513,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "大阪市城東区"
+  },
+  {
+    "n": "千里丘児童会館(あそまな館)",
+    "a": "千里丘上26-19",
+    "t": "",
+    "lat": 34.797931,
+    "lng": 135.548902,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "吹田市"
+  },
+  {
+    "n": "高城児童会館(吹田っ子ひろば　たかしろ)",
+    "a": "高城町6-2",
+    "t": "",
+    "lat": 34.760262,
+    "lng": 135.529111,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "吹田市"
+  },
+  {
+    "n": "朝日が丘児童センター(仲良しハウス)",
+    "a": "朝日が丘町15-1",
+    "t": "",
+    "lat": 34.768971,
+    "lng": 135.519156,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "吹田市"
+  },
+  {
+    "n": "五月が丘児童センター(さつきっこ)",
+    "a": "五月が丘西5-1",
+    "t": "",
+    "lat": 34.785991,
+    "lng": 135.522873,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "吹田市"
+  },
+  {
+    "n": "南吹田児童センター(ワクワク☆キッズセンター)",
+    "a": "南吹田5-21-27",
+    "t": "",
+    "lat": 34.751775,
+    "lng": 135.501328,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "吹田市"
+  },
+  {
+    "n": "原町児童センター(スマイルハラーセン)",
+    "a": "原町4-26-8",
+    "t": "",
+    "lat": 34.778494,
+    "lng": 135.527135,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "吹田市"
+  },
+  {
+    "n": "山田西児童センター(ジーセンダー)",
+    "a": "山田西1-5-1",
+    "t": "",
+    "lat": 34.791782,
+    "lng": 135.533343,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "吹田市"
+  },
+  {
+    "n": "竹見台児童センター(たけのっこ)",
+    "a": "竹見台3-5-3",
+    "t": "",
+    "lat": 34.79502,
+    "lng": 135.500633,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "吹田市"
+  },
+  {
+    "n": "豊一児童センター(SMILEセンター)",
+    "a": "垂水町3-7-13",
+    "t": "",
+    "lat": 34.762899,
+    "lng": 135.503208,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "吹田市"
+  },
+  {
+    "n": "寿町児童センター(キッズランド寿)",
+    "a": "寿町2-8-16",
+    "t": "",
+    "lat": 34.754527,
+    "lng": 135.521285,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "吹田市"
+  },
+  {
+    "n": "千里山竹園児童センター(クローバーセンター)",
+    "a": "千里山竹園2-1-5",
+    "t": "",
+    "lat": 34.78484,
+    "lng": 135.50233,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "吹田市"
+  },
+  {
+    "n": "北千里児童センター",
+    "a": "古江台3-8-1",
+    "t": "",
+    "lat": 34.81975,
+    "lng": 135.50844,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "吹田市"
+  },
+  {
+    "n": "四恩児童館もんじゅ",
+    "a": "苅田4-3-15",
+    "t": "",
+    "lat": 34.600696,
+    "lng": 135.521422,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "大阪市住吉区"
+  },
+  {
+    "n": "育徳園子どもの家",
+    "a": "阪南町5-15-28",
+    "t": "",
+    "lat": 34.622655,
+    "lng": 135.513614,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "大阪市阿倍野区"
+  },
+  {
+    "n": "きのみ子どもの家",
+    "a": "南港中4-2-30",
+    "t": "",
+    "lat": 34.633889,
+    "lng": 135.42604,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "大阪市住之江区"
+  },
+  {
+    "n": "山王こどもセンター",
+    "a": "山王2-5-4",
+    "t": "",
+    "lat": 34.644633,
+    "lng": 135.506118,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "大阪市西成区"
+  },
+  {
+    "n": "愛染園愛染橋児童館",
+    "a": "日本橋東2-9-11",
+    "t": "",
+    "lat": 34.659118,
+    "lng": 135.507591,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "大阪市浪速区"
+  },
+  {
+    "n": "都島児童館",
+    "a": "都島本通3-16-10-4F",
+    "t": "",
+    "lat": 34.707954,
+    "lng": 135.528506,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "大阪市都島区"
+  },
+  {
+    "n": "東淡路子ども館",
+    "a": "東淡路2-7-5",
+    "t": "",
+    "lat": 34.736531,
+    "lng": 135.516991,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "大阪市東淀川区"
+  },
+  {
+    "n": "シャロン千里こども館",
+    "a": "古江台3-9-3",
+    "t": "",
+    "lat": 34.819408,
+    "lng": 135.507123,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "吹田市"
+  },
+  {
+    "n": "高槻市立富田ふれあい文化センター児童館",
+    "a": "富田町4-15-28",
+    "t": "",
+    "lat": 34.830825,
+    "lng": 135.591946,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "ksj_p14",
+    "checked": "2026-07-28",
+    "muni": "高槻市"
+  },
+  {
+    "n": "北区子ども・子育てプラザ",
+    "a": "本庄東1-24-11",
+    "t": "06-6374-0870",
+    "lat": 34.711472,
+    "lng": 135.50676,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "osaka_city_kosodate_plaza",
+    "checked": "2026-07-29",
+    "muni": "大阪市北区",
+    "note": "大阪市の制度上の名称は「子ども・子育てプラザ」（児童福祉法上の児童館とは別枠）だが、機能的に同等の拠点として収録"
+  },
+  {
+    "n": "都島区子ども・子育てプラザ",
+    "a": "中野町5-15-21",
+    "t": "06-6923-0150",
+    "lat": 34.70829,
+    "lng": 135.522308,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "osaka_city_kosodate_plaza",
+    "checked": "2026-07-29",
+    "muni": "大阪市都島区",
+    "note": "大阪市の制度上の名称は「子ども・子育てプラザ」（児童福祉法上の児童館とは別枠）だが、機能的に同等の拠点として収録"
+  },
+  {
+    "n": "福島区子ども・子育てプラザ",
+    "a": "海老江6-1-14",
+    "t": "06-6453-0207",
+    "lat": 34.698185,
+    "lng": 135.47139,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "osaka_city_kosodate_plaza",
+    "checked": "2026-07-29",
+    "muni": "大阪市福島区",
+    "note": "大阪市の制度上の名称は「子ども・子育てプラザ」（児童福祉法上の児童館とは別枠）だが、機能的に同等の拠点として収録"
+  },
+  {
+    "n": "此花区子ども・子育てプラザ",
+    "a": "四貫島2-26-17",
+    "t": "06-6463-1881",
+    "lat": 34.685429,
+    "lng": 135.452728,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "osaka_city_kosodate_plaza",
+    "checked": "2026-07-29",
+    "muni": "大阪市此花区",
+    "note": "大阪市の制度上の名称は「子ども・子育てプラザ」（児童福祉法上の児童館とは別枠）だが、機能的に同等の拠点として収録"
+  },
+  {
+    "n": "中央区子ども・子育てプラザ",
+    "a": "島之内2-12-6",
+    "t": "06-6213-2171",
+    "lat": 34.671333,
+    "lng": 135.508148,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "osaka_city_kosodate_plaza",
+    "checked": "2026-07-29",
+    "muni": "大阪市中央区",
+    "note": "大阪市の制度上の名称は「子ども・子育てプラザ」（児童福祉法上の児童館とは別枠）だが、機能的に同等の拠点として収録"
+  },
+  {
+    "n": "西区子ども・子育てプラザ",
+    "a": "本田3-7-2",
+    "t": "06-6582-9553",
+    "lat": 34.677692,
+    "lng": 135.474243,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "osaka_city_kosodate_plaza",
+    "checked": "2026-07-29",
+    "muni": "大阪市西区",
+    "note": "大阪市の制度上の名称は「子ども・子育てプラザ」（児童福祉法上の児童館とは別枠）だが、機能的に同等の拠点として収録"
+  },
+  {
+    "n": "港区子ども・子育てプラザ",
+    "a": "磯路1-7-17",
+    "t": "06-6573-7792",
+    "lat": 34.668053,
+    "lng": 135.461746,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "osaka_city_kosodate_plaza",
+    "checked": "2026-07-29",
+    "muni": "大阪市港区",
+    "note": "大阪市の制度上の名称は「子ども・子育てプラザ」（児童福祉法上の児童館とは別枠）だが、機能的に同等の拠点として収録"
+  },
+  {
+    "n": "大正区子ども・子育てプラザ",
+    "a": "泉尾3-9-16",
+    "t": "06-6554-5377",
+    "lat": 34.657616,
+    "lng": 135.472366,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "osaka_city_kosodate_plaza",
+    "checked": "2026-07-29",
+    "muni": "大阪市大正区",
+    "note": "大阪市の制度上の名称は「子ども・子育てプラザ」（児童福祉法上の児童館とは別枠）だが、機能的に同等の拠点として収録"
+  },
+  {
+    "n": "天王寺区子ども・子育てプラザ",
+    "a": "味原町9-14",
+    "t": "06-6763-3525",
+    "lat": 34.667797,
+    "lng": 135.527786,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "osaka_city_kosodate_plaza",
+    "checked": "2026-07-29",
+    "muni": "大阪市天王寺区",
+    "note": "大阪市の制度上の名称は「子ども・子育てプラザ」（児童福祉法上の児童館とは別枠）だが、機能的に同等の拠点として収録"
+  },
+  {
+    "n": "浪速区子ども・子育てプラザ",
+    "a": "下寺2-2-12",
+    "t": "06-6643-0694",
+    "lat": 34.659943,
+    "lng": 135.50975,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "osaka_city_kosodate_plaza",
+    "checked": "2026-07-29",
+    "muni": "大阪市浪速区",
+    "note": "大阪市の制度上の名称は「子ども・子育てプラザ」（児童福祉法上の児童館とは別枠）だが、機能的に同等の拠点として収録"
+  },
+  {
+    "n": "西淀川区子ども・子育てプラザ",
+    "a": "姫里2-13-22",
+    "t": "06-6474-7245",
+    "lat": 34.706478,
+    "lng": 135.45813,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "osaka_city_kosodate_plaza",
+    "checked": "2026-07-29",
+    "muni": "大阪市西淀川区",
+    "note": "大阪市の制度上の名称は「子ども・子育てプラザ」（児童福祉法上の児童館とは別枠）だが、機能的に同等の拠点として収録"
+  },
+  {
+    "n": "淀川区子ども・子育てプラザ",
+    "a": "新高1-11-19",
+    "t": "06-6395-6420",
+    "lat": 34.730385,
+    "lng": 135.479736,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "osaka_city_kosodate_plaza",
+    "checked": "2026-07-29",
+    "muni": "大阪市淀川区",
+    "note": "大阪市の制度上の名称は「子ども・子育てプラザ」（児童福祉法上の児童館とは別枠）だが、機能的に同等の拠点として収録"
+  },
+  {
+    "n": "東淀川区子ども・子育てプラザ",
+    "a": "豊新2-1-4",
+    "t": "06-6327-5650",
+    "lat": 34.740986,
+    "lng": 135.529282,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "osaka_city_kosodate_plaza",
+    "checked": "2026-07-29",
+    "muni": "大阪市東淀川区",
+    "note": "大阪市の制度上の名称は「子ども・子育てプラザ」（児童福祉法上の児童館とは別枠）だが、機能的に同等の拠点として収録"
+  },
+  {
+    "n": "東成区子ども・子育てプラザ",
+    "a": "東中本2-3-16",
+    "t": "06-6976-0300",
+    "lat": 34.679779,
+    "lng": 135.547928,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "osaka_city_kosodate_plaza",
+    "checked": "2026-07-29",
+    "muni": "大阪市東成区",
+    "note": "大阪市の制度上の名称は「子ども・子育てプラザ」（児童福祉法上の児童館とは別枠）だが、機能的に同等の拠点として収録"
+  },
+  {
+    "n": "生野区子ども・子育てプラザ",
+    "a": "巽北2-4-16",
+    "t": "06-6752-8000",
+    "lat": 34.653519,
+    "lng": 135.548813,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "osaka_city_kosodate_plaza",
+    "checked": "2026-07-29",
+    "muni": "大阪市生野区",
+    "note": "大阪市の制度上の名称は「子ども・子育てプラザ」（児童福祉法上の児童館とは別枠）だが、機能的に同等の拠点として収録"
+  },
+  {
+    "n": "旭区子ども・子育てプラザ",
+    "a": "森小路2-5-29",
+    "t": "06-6955-1144",
+    "lat": 34.723011,
+    "lng": 135.549347,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "osaka_city_kosodate_plaza",
+    "checked": "2026-07-29",
+    "muni": "大阪市旭区",
+    "note": "大阪市の制度上の名称は「子ども・子育てプラザ」（児童福祉法上の児童館とは別枠）だが、機能的に同等の拠点として収録"
+  },
+  {
+    "n": "城東区子ども・子育てプラザ",
+    "a": "今福西1-1-39",
+    "t": "06-6933-2880",
+    "lat": 34.697796,
+    "lng": 135.548294,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "osaka_city_kosodate_plaza",
+    "checked": "2026-07-29",
+    "muni": "大阪市城東区",
+    "note": "大阪市の制度上の名称は「子ども・子育てプラザ」（児童福祉法上の児童館とは別枠）だが、機能的に同等の拠点として収録"
+  },
+  {
+    "n": "鶴見区子ども・子育てプラザ",
+    "a": "今津中1-1-14",
+    "t": "06-6967-1033",
+    "lat": 34.693222,
+    "lng": 135.567627,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "osaka_city_kosodate_plaza",
+    "checked": "2026-07-29",
+    "muni": "大阪市鶴見区",
+    "note": "大阪市の制度上の名称は「子ども・子育てプラザ」（児童福祉法上の児童館とは別枠）だが、機能的に同等の拠点として収録"
+  },
+  {
+    "n": "阿倍野区子ども・子育てプラザ",
+    "a": "阪南町2-23-21",
+    "t": "06-6623-1775",
+    "lat": 34.63102,
+    "lng": 135.515457,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "osaka_city_kosodate_plaza",
+    "checked": "2026-07-29",
+    "muni": "大阪市阿倍野区",
+    "note": "大阪市の制度上の名称は「子ども・子育てプラザ」（児童福祉法上の児童館とは別枠）だが、機能的に同等の拠点として収録"
+  },
+  {
+    "n": "住之江区子ども・子育てプラザ",
+    "a": "浜口西3-4-22",
+    "t": "06-6674-5405",
+    "lat": 34.608517,
+    "lng": 135.48436,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "osaka_city_kosodate_plaza",
+    "checked": "2026-07-29",
+    "muni": "大阪市住之江区",
+    "note": "大阪市の制度上の名称は「子ども・子育てプラザ」（児童福祉法上の児童館とは別枠）だが、機能的に同等の拠点として収録"
+  },
+  {
+    "n": "住吉区子ども・子育てプラザ",
+    "a": "南住吉2-18-21",
+    "t": "06-6693-2970",
+    "lat": 34.609211,
+    "lng": 135.502914,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "osaka_city_kosodate_plaza",
+    "checked": "2026-07-29",
+    "muni": "大阪市住吉区",
+    "note": "大阪市の制度上の名称は「子ども・子育てプラザ」（児童福祉法上の児童館とは別枠）だが、機能的に同等の拠点として収録"
+  },
+  {
+    "n": "東住吉区子ども・子育てプラザ",
+    "a": "東田辺2-11-28",
+    "t": "06-6699-3600",
+    "lat": 34.620327,
+    "lng": 135.527573,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "osaka_city_kosodate_plaza",
+    "checked": "2026-07-29",
+    "muni": "大阪市東住吉区",
+    "note": "大阪市の制度上の名称は「子ども・子育てプラザ」（児童福祉法上の児童館とは別枠）だが、機能的に同等の拠点として収録"
+  },
+  {
+    "n": "平野区子ども・子育てプラザ",
+    "a": "瓜破3-3-64",
+    "t": "06-6707-0900",
+    "lat": 34.603783,
+    "lng": 135.552765,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "osaka_city_kosodate_plaza",
+    "checked": "2026-07-29",
+    "muni": "大阪市平野区",
+    "note": "大阪市の制度上の名称は「子ども・子育てプラザ」（児童福祉法上の児童館とは別枠）だが、機能的に同等の拠点として収録"
+  },
+  {
+    "n": "西成区子ども・子育てプラザ",
+    "a": "梅南1-2-6",
+    "t": "06-6658-4528",
+    "lat": 34.642502,
+    "lng": 135.496033,
+    "prec": "address",
+    "tags": [
+      "②",
+      "④"
+    ],
+    "facility_type": "jidoukan",
+    "status": "active",
+    "src": "osaka_city_kosodate_plaza",
+    "checked": "2026-07-29",
+    "muni": "大阪市西成区",
+    "note": "大阪市の制度上の名称は「子ども・子育てプラザ」（児童福祉法上の児童館とは別枠）だが、機能的に同等の拠点として収録"
+  }
+]
