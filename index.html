@@ -347,13 +347,13 @@ const REGIONS = {
     label: '鳥取県',
     base: 'data/31_tottori/',
     center: [35.503448, 134.238266],
-    available: { manabi:true, sodan:true, hattatsu:true, districts:true }
+    available: { manabi:true, ibasho:true, sodan:true, hattatsu:true, districts:true }
   },
   shimane: {
     label: '島根県',
     base: 'data/32_shimane/',
     center: [35.472294, 133.050522],
-    available: { manabi:true, sodan:true, hattatsu:true, districts:true }
+    available: { manabi:true, ibasho:true, sodan:true, hattatsu:true, districts:true }
   },
   hiroshima: {
     label: '広島県',
@@ -361,37 +361,37 @@ const REGIONS = {
     center: [34.396557, 132.459641],
     // 【2026-07-27追加】④は地域子育て支援拠点（126件・県内23市町を個別収集。市町ごとにhiroshima_<市町>_kyoten）
     // のみ。jidoukan.json・oyanokai.jsonは空配列。
-    available: { manabi:true, sodan:true, hattatsu:true, districts:true, oyakazoku:true }
+    available: { manabi:true, ibasho:true, sodan:true, hattatsu:true, districts:true, oyakazoku:true }
   },
   yamaguchi: {
     label: '山口県',
     base: 'data/35_yamaguchi/',
     center: [34.186043, 131.470657],
-    available: { manabi:true, sodan:true, hattatsu:true, districts:true }
+    available: { manabi:true, ibasho:true, sodan:true, hattatsu:true, districts:true }
   },
   tokushima: {
     label: '徳島県',
     base: 'data/36_tokushima/',
     center: [34.065762, 134.55928],
-    available: { manabi:true, sodan:true, hattatsu:true, districts:true }
+    available: { manabi:true, ibasho:true, sodan:true, hattatsu:true, districts:true }
   },
   kagawa: {
     label: '香川県',
     base: 'data/37_kagawa/',
     center: [34.340111, 134.043289],
-    available: { manabi:true, sodan:true, hattatsu:true, districts:true }
+    available: { manabi:true, ibasho:true, sodan:true, hattatsu:true, districts:true }
   },
   ehime: {
     label: '愛媛県',
     base: 'data/38_ehime/',
     center: [33.84164, 132.765686],
-    available: { manabi:true, sodan:true, hattatsu:true, districts:true }
+    available: { manabi:true, ibasho:true, sodan:true, hattatsu:true, districts:true }
   },
   kochi: {
     label: '高知県',
     base: 'data/39_kochi/',
     center: [33.559723, 133.531113],
-    available: { manabi:true, sodan:true, hattatsu:true, districts:true }
+    available: { manabi:true, ibasho:true, sodan:true, hattatsu:true, districts:true }
   },
   // 【東北6県・今回追加】①学び（学びの多様化学校のみ）・③相談・⑤発達を登録
   // （②居場所・④親家族は未整備のため対象外）。data/<コード>_<ローマ字>/に
@@ -406,7 +406,7 @@ const REGIONS = {
     label: '青森県',
     base: 'data/02_aomori/',
     center: [40.824589, 140.740555],
-    available: { manabi:true, sodan:true, hattatsu:true, districts:true }
+    available: { manabi:true, ibasho:true, sodan:true, hattatsu:true, districts:true }
   },
   iwate: {
     label: '岩手県',
@@ -415,13 +415,13 @@ const REGIONS = {
     // 【2026-07-28追加】県内単一の一覧が存在しないため33市町村を個別調査（86件・iwate_muni_kyoten）。
     // 7市町村（普代村・洋野町・九戸村・西和賀町・金ケ崎町・住田町・田野畑村）は施設の存在を
     // 確認できず0件。jidoukan.json・oyanokai.jsonは空配列。
-    available: { manabi:true, sodan:true, hattatsu:true, districts:true, oyakazoku:true }
+    available: { manabi:true, ibasho:true, sodan:true, hattatsu:true, districts:true, oyakazoku:true }
   },
   miyagi: {
     label: '宮城県',
     base: 'data/04_miyagi/',
     center: [38.268578, 140.87207],
-    available: { manabi:true, sodan:true, hattatsu:true, districts:true }
+    available: { manabi:true, ibasho:true, sodan:true, hattatsu:true, districts:true }
   },
   akita: {
     label: '秋田県',
@@ -429,13 +429,13 @@ const REGIONS = {
     center: [39.718624, 140.102386],
     // 【2026-07-27追加】④は地域子育て支援拠点（55件・akita_pref_kyoten、R8.4.1現在＝
     // ほぼ最新）のみ。jidoukan.json・oyanokai.jsonは空配列。
-    available: { manabi:true, sodan:true, hattatsu:true, districts:true, oyakazoku:true }
+    available: { manabi:true, ibasho:true, sodan:true, hattatsu:true, districts:true, oyakazoku:true }
   },
   yamagata: {
     label: '山形県',
     base: 'data/06_yamagata/',
     center: [38.240433, 140.363693],
-    available: { manabi:true, sodan:true, hattatsu:true, districts:true, oyakazoku:true }
+    available: { manabi:true, ibasho:true, sodan:true, hattatsu:true, districts:true, oyakazoku:true }
     // 【2026-07-27追加】④は地域子育て支援拠点（112件・yamagata_pref_kyoten）＋親の会
     // （17件・yamagata_pref_oyanokai）。
     // 【2026-07-28追記】jidoukan.json（児童館、②居場所と④両方で使用）は当初空配列だったが、
@@ -445,7 +445,7 @@ const REGIONS = {
     label: '福島県',
     base: 'data/07_fukushima/',
     center: [37.750031, 140.467773],
-    available: { manabi:true, sodan:true, hattatsu:true, districts:true, oyakazoku:true }
+    available: { manabi:true, ibasho:true, sodan:true, hattatsu:true, districts:true, oyakazoku:true }
     // 【2026-07-27追加】④は地域子育て支援拠点（134件・fukushima_pref_kyoten、令和7年3月31日現在）のみ。
     // jidoukan.json・oyanokai.jsonは空配列。
   },
@@ -462,19 +462,19 @@ const REGIONS = {
     label: '茨城県',
     base: 'data/08_ibaraki/',
     center: [36.341736, 140.446823],
-    available: { manabi:true, sodan:true, hattatsu:true, districts:true }
+    available: { manabi:true, ibasho:true, sodan:true, hattatsu:true, districts:true }
   },
   tochigi: {
     label: '栃木県',
     base: 'data/09_tochigi/',
     center: [36.56591, 139.883591],
-    available: { manabi:true, sodan:true, hattatsu:true, districts:true }
+    available: { manabi:true, ibasho:true, sodan:true, hattatsu:true, districts:true }
   },
   gunma: {
     label: '群馬県',
     base: 'data/10_gunma/',
     center: [36.39069, 139.060455],
-    available: { manabi:true, sodan:true, hattatsu:true, districts:true, oyakazoku:true }
+    available: { manabi:true, ibasho:true, sodan:true, hattatsu:true, districts:true, oyakazoku:true }
     // 【2026-07-27追加】④は地域子育て支援拠点（166件・gunma_pref_kyoten、令和8年4月1日現在）のみ。
     // jidoukan.json・oyanokai.jsonは空配列。
   },
@@ -482,7 +482,7 @@ const REGIONS = {
     label: '埼玉県',
     base: 'data/11_saitama/',
     center: [35.857033, 139.649017],
-    available: { manabi:true, sodan:true, hattatsu:true, districts:true, oyakazoku:true }
+    available: { manabi:true, ibasho:true, sodan:true, hattatsu:true, districts:true, oyakazoku:true }
     // 【2026-07-27追加】④は地域子育て支援拠点（596件・saitama_pref_kyoten、県内63市町村中63市町村）のみ。
     // jidoukan.json・oyanokai.jsonは空配列。
   },
@@ -490,13 +490,13 @@ const REGIONS = {
     label: '千葉県',
     base: 'data/12_chiba/',
     center: [35.604561, 140.123154],
-    available: { manabi:true, sodan:true, hattatsu:true, districts:true }
+    available: { manabi:true, ibasho:true, sodan:true, hattatsu:true, districts:true }
   },
   tokyo: {
     label: '東京都',
     base: 'data/13_tokyo/',
     center: [35.689503, 139.691727],
-    available: { manabi:true, sodan:true, hattatsu:true, districts:true, oyakazoku:true }
+    available: { manabi:true, ibasho:true, sodan:true, hattatsu:true, districts:true, oyakazoku:true }
     // 【2026-07-27追加】④は地域子育て支援拠点（1,091件・tokyo_pref_kyoten）のみ。
     // kyoten.jsonは東京都福祉局「子育てひろば実施施設一覧」由来（②居場所タブは対象外のため
     // jidoukan.jsonへの二重登録はしていない）。jidoukan.json・oyanokai.jsonは空配列。
@@ -505,7 +505,7 @@ const REGIONS = {
     label: '神奈川県',
     base: 'data/14_kanagawa/',
     center: [35.447735, 139.642532],
-    available: { manabi:true, sodan:true, hattatsu:true, districts:true }
+    available: { manabi:true, ibasho:true, sodan:true, hattatsu:true, districts:true }
   },
   niigata: {
     label: '新潟県',
@@ -513,19 +513,19 @@ const REGIONS = {
     center: [37.902451, 139.023239],
     // 【2026-07-27追加】④は地域子育て支援拠点（237件・niigata_pref_kyoten）のみ。
     // jidoukan.json・oyanokai.jsonは空配列。
-    available: { manabi:true, sodan:true, hattatsu:true, districts:true, oyakazoku:true }
+    available: { manabi:true, ibasho:true, sodan:true, hattatsu:true, districts:true, oyakazoku:true }
   },
   yamanashi: {
     label: '山梨県',
     base: 'data/19_yamanashi/',
     center: [35.664108, 138.568451],
-    available: { manabi:true, sodan:true, hattatsu:true, districts:true }
+    available: { manabi:true, ibasho:true, sodan:true, hattatsu:true, districts:true }
   },
   nagano: {
     label: '長野県',
     base: 'data/20_nagano/',
     center: [36.651306, 138.180908],
-    available: { manabi:true, sodan:true, hattatsu:true, districts:true }
+    available: { manabi:true, ibasho:true, sodan:true, hattatsu:true, districts:true }
   },
   // 【北陸3県・東海4県、計7県・今回追加】①学び（学びの多様化学校のみ）・③相談・
   // ⑤発達を登録（②居場所・④親家族は未整備のため対象外）。
@@ -553,31 +553,31 @@ const REGIONS = {
     base: 'data/17_ishikawa/',
     center: [36.594604, 136.625671],
     // 【2026-07-27追加】④は地域子育て支援拠点（93件・ishikawa_pref_kyoten）のみ。jidoukan.json・oyanokai.jsonは空配列。
-    available: { manabi:true, sodan:true, hattatsu:true, districts:true, oyakazoku:true }
+    available: { manabi:true, ibasho:true, sodan:true, hattatsu:true, districts:true, oyakazoku:true }
   },
   fukui: {
     label: '福井県',
     base: 'data/18_fukui/',
     center: [36.065208, 136.221725],
-    available: { manabi:true, sodan:true, hattatsu:true, districts:true }
+    available: { manabi:true, ibasho:true, sodan:true, hattatsu:true, districts:true }
   },
   gifu: {
     label: '岐阜県',
     base: 'data/21_gifu/',
     center: [35.391174, 136.723663],
-    available: { manabi:true, sodan:true, hattatsu:true, districts:true }
+    available: { manabi:true, ibasho:true, sodan:true, hattatsu:true, districts:true }
   },
   shizuoka: {
     label: '静岡県',
     base: 'data/22_shizuoka/',
     center: [34.976944, 138.383057],
-    available: { manabi:true, sodan:true, hattatsu:true, districts:true }
+    available: { manabi:true, ibasho:true, sodan:true, hattatsu:true, districts:true }
   },
   aichi: {
     label: '愛知県',
     base: 'data/23_aichi/',
     center: [35.18021, 136.906586],
-    available: { manabi:true, sodan:true, hattatsu:true, districts:true, oyakazoku:true }
+    available: { manabi:true, ibasho:true, sodan:true, hattatsu:true, districts:true, oyakazoku:true }
     // 【2026-07-27追加】④は地域子育て支援拠点（424件・aichi_pref_kyoten、県内54市町村中54市町村）のみ。
     // jidoukan.json・oyanokai.jsonは空配列。
   },
@@ -587,7 +587,7 @@ const REGIONS = {
     center: [34.730278, 136.508606],
     // 【2026-07-27追加】④は地域子育て支援拠点（122件・mie_pref_kyoten、県公式PDFは令和2年4月時点で
     // 確認できる最新版）のみ。jidoukan.json・oyanokai.jsonは空配列。
-    available: { manabi:true, sodan:true, hattatsu:true, districts:true, oyakazoku:true }
+    available: { manabi:true, ibasho:true, sodan:true, hattatsu:true, districts:true, oyakazoku:true }
   },
   // 【北海道・今回追加】①学び（学びの多様化学校のみ）・③相談・⑤発達を登録
   // （②居場所・④親家族は未整備のため対象外）。data/01_hokkaido/に
@@ -606,7 +606,7 @@ const REGIONS = {
     label: '北海道',
     base: 'data/01_hokkaido/',
     center: [43.064323, 141.346878],
-    available: { manabi:true, sodan:true, hattatsu:true, districts:true, oyakazoku:true }
+    available: { manabi:true, ibasho:true, sodan:true, hattatsu:true, districts:true, oyakazoku:true }
     // 【2026-07-26追加】④は親の会（18件・hokkaido_pref_oyanokai）のみ。
     // kyoten.json・jidoukan.jsonは空配列（地域子育て支援拠点・児童館は未調査のため0件）。
   },
@@ -630,7 +630,7 @@ const REGIONS = {
     label: '滋賀県',
     base: 'data/25_shiga/',
     center: [35.004513, 135.868561],
-    available: { manabi:true, sodan:true, hattatsu:true, districts:true }
+    available: { manabi:true, ibasho:true, sodan:true, hattatsu:true, districts:true }
   },
   kyoto: {
     label: '京都府',
@@ -638,7 +638,7 @@ const REGIONS = {
     center: [35.02124, 135.755615],
     // 【2026-07-27追加】④は地域子育て支援拠点（131件：府90件kyoto_pref_kyoten＋京都市41件
     // kyoto_city_kyoten、出典が異なるため2ソース）のみ。jidoukan.json・oyanokai.jsonは空配列。
-    available: { manabi:true, sodan:true, hattatsu:true, districts:true, oyakazoku:true }
+    available: { manabi:true, ibasho:true, sodan:true, hattatsu:true, districts:true, oyakazoku:true }
   },
   osaka: {
     label: '大阪府',
@@ -650,7 +650,7 @@ const REGIONS = {
     label: '兵庫県',
     base: 'data/28_hyogo/',
     center: [34.691257, 135.183075],
-    available: { manabi:true, sodan:true, hattatsu:true, districts:true, oyakazoku:true }
+    available: { manabi:true, ibasho:true, sodan:true, hattatsu:true, districts:true, oyakazoku:true }
     // 【2026-07-27追加】④は地域子育て支援拠点（346件・hyogo_pref_kyoten、県内41市町全てに実施施設あり）のみ。
     // jidoukan.json・oyanokai.jsonは空配列。
   },
@@ -658,61 +658,61 @@ const REGIONS = {
     label: '奈良県',
     base: 'data/29_nara/',
     center: [34.685272, 135.832855],
-    available: { manabi:true, sodan:true, hattatsu:true, districts:true }
+    available: { manabi:true, ibasho:true, sodan:true, hattatsu:true, districts:true }
   },
   wakayama: {
     label: '和歌山県',
     base: 'data/30_wakayama/',
     center: [34.226112, 135.167496],
-    available: { manabi:true, sodan:true, hattatsu:true, districts:true }
+    available: { manabi:true, ibasho:true, sodan:true, hattatsu:true, districts:true }
   },
   fukuoka: {
     label: '福岡県',
     base: 'data/40_fukuoka/',
     center: [33.606388, 130.417969],
-    available: { manabi:true, sodan:true, hattatsu:true, districts:true }
+    available: { manabi:true, ibasho:true, sodan:true, hattatsu:true, districts:true }
   },
   saga: {
     label: '佐賀県',
     base: 'data/41_saga/',
     center: [33.249352, 130.298798],
-    available: { manabi:true, sodan:true, hattatsu:true, districts:true }
+    available: { manabi:true, ibasho:true, sodan:true, hattatsu:true, districts:true }
   },
   nagasaki: {
     label: '長崎県',
     base: 'data/42_nagasaki/',
     center: [32.750038, 129.867249],
-    available: { manabi:true, sodan:true, hattatsu:true, districts:true }
+    available: { manabi:true, ibasho:true, sodan:true, hattatsu:true, districts:true }
   },
   kumamoto: {
     label: '熊本県',
     base: 'data/43_kumamoto/',
     center: [32.789799, 130.741577],
-    available: { manabi:true, sodan:true, hattatsu:true, districts:true }
+    available: { manabi:true, ibasho:true, sodan:true, hattatsu:true, districts:true }
   },
   oita: {
     label: '大分県',
     base: 'data/44_oita/',
     center: [33.238129, 131.61264],
-    available: { manabi:true, sodan:true, hattatsu:true, districts:true }
+    available: { manabi:true, ibasho:true, sodan:true, hattatsu:true, districts:true }
   },
   miyazaki: {
     label: '宮崎県',
     base: 'data/45_miyazaki/',
     center: [31.911034, 131.423889],
-    available: { manabi:true, sodan:true, hattatsu:true, districts:true }
+    available: { manabi:true, ibasho:true, sodan:true, hattatsu:true, districts:true }
   },
   kagoshima: {
     label: '鹿児島県',
     base: 'data/46_kagoshima/',
     center: [31.560171, 130.558029],
-    available: { manabi:true, sodan:true, hattatsu:true, districts:true }
+    available: { manabi:true, ibasho:true, sodan:true, hattatsu:true, districts:true }
   },
   okinawa: {
     label: '沖縄県',
     base: 'data/47_okinawa/',
     center: [26.212444, 127.680923],
-    available: { manabi:true, sodan:true, hattatsu:true, districts:true }
+    available: { manabi:true, ibasho:true, sodan:true, hattatsu:true, districts:true }
   }
   // 例）以降、他県を追加する場合はこのパターンを踏襲する。
 };
