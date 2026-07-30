@@ -4,9 +4,9 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>こども支援資源マップ｜不登校・発達支援・居場所を地図で探す</title>
-<meta name="description" content="岡山県内の不登校支援（教育支援センター・フリースクール）、子どもの居場所（児童館・子ども食堂）、相談窓口、親の会、児童発達支援・放課後等デイサービス（療育）を地図から探せる無料サイトです。公的な公表資料に基づき作成しています。">
+<meta name="description" content="岡山県内の不登校支援（教育支援センター・フリースクール）、こどもの居場所（児童館・こども食堂）、相談窓口、親の会、児童発達支援・放課後等デイサービス（療育）を地図から探せる無料サイトです。公的な公表資料に基づき作成しています。">
 <meta property="og:title" content="こども支援資源マップ">
-<meta property="og:description" content="不登校支援・子どもの居場所・相談窓口・療育資源を岡山県の地図から探せます。">
+<meta property="og:description" content="不登校支援・こどもの居場所・相談窓口・療育資源を岡山県の地図から探せます。">
 <meta property="og:type" content="website">
 <meta property="og:locale" content="ja_JP">
 <link rel="manifest" href="manifest.json">
@@ -154,7 +154,7 @@ if ('serviceWorker' in navigator) {
   <div class="header-top">
     <div>
       <h1>こども支援資源マップ</h1>
-      <p class="sub">子ども・家族を支える資源を5つの機能で整理（社会的処方フレームワーク試作版）</p>
+      <p class="sub">こども・家族を支える資源を5つの機能で整理（社会的処方フレームワーク試作版）</p>
     </div>
     <a class="concerns-banner" href="concerns.html">
       <picture>
@@ -208,7 +208,7 @@ if ('serviceWorker' in navigator) {
     <!-- 件数は実データから算出してJSが埋める（updateIbashoLegend/updateOyaLegend）。
          静的に書くと実データと乖離する（例: ④が「58件」のまま実際は39件だった）。 -->
     <span class="dot" style="--dc:var(--c1b)" id="lg-ibasho-1">児童館・児童センター（<span id="lg-ibasho-1-n">-</span>）</span>
-    <span class="dot" style="--dc:var(--c2)" id="lg-ibasho-2">子ども食堂・プレーパーク等<span id="lg-ibasho-2-count">（<span id="lg-ibasho-2-n">-</span>）</span><a id="lg-ibasho-2-link" href="https://kodomoshokudo.gaccom.jp/map" target="_blank" rel="noopener" style="display:none;margin-left:6px;font-weight:700;text-decoration:underline">こども食堂はこちら</a></span>
+    <span class="dot" style="--dc:var(--c2)" id="lg-ibasho-2">こども食堂・プレーパーク等<span id="lg-ibasho-2-count">（<span id="lg-ibasho-2-n">-</span>）</span><a id="lg-ibasho-2-link" href="https://kodomoshokudo.gaccom.jp/map" target="_blank" rel="noopener" style="display:none;margin-left:6px;font-weight:700;text-decoration:underline">こども食堂はこちら</a></span>
     <label style="margin-left:auto;display:flex;align-items:center;gap:4px;cursor:pointer">
       <input type="checkbox" class="toggle-districts" data-map="ibasho"> 小学校区界を表示（<span class="districts-note">準備中</span>）
     </label>
@@ -304,7 +304,7 @@ if ('serviceWorker' in navigator) {
 
 <footer>
   <div style="margin-bottom:14px;padding:14px 16px;background:#F0F2F0;border-radius:8px;font-size:.78rem;line-height:1.8;color:var(--ink)">
-    <strong style="font-size:.85rem">子どもウェルビーイングlabo について</strong>　<span style="color:var(--sub)">© 2026 子どもウェルビーイングlabo</span><br>
+    <strong style="font-size:.85rem">こどもウェルビーイングlabo について</strong>　<span style="color:var(--sub)">© 2026 こどもウェルビーイングlabo</span><br>
     本サイトは、医療・教育・福祉の資源情報を必要とする家族に届ける「社会的処方」の普及を目的に、研究活動の一環として運営している非営利のサイトです。掲載は無料で、広告は掲載していません。掲載情報は自治体等の公的な公表資料に基づいています。<br>
     <strong>自治体・支援機関の方へ</strong>：フリースクール等の民間施設一覧、地域子育て支援拠点一覧、児童館・こどもの居場所一覧など、地域独自の公式資料をご提供いただければ、地域を問わず順次掲載します（発達支援・学びの多様化学校・相談窓口の全国データは国の公表データを基に収集しています）。掲載のご希望・掲載情報の訂正は <a href="mailto:kodomo.sp.lab@gmail.com">kodomo.sp.lab@gmail.com</a> までご連絡ください。<br>
     運営責任者：松本尚美（岡山大学 疫学・衛生学分野／専門：ライフコース疫学・社会的処方／認定小児科指導医・社会医学系専門医）　<a href="https://kodomo-sp-labo.github.io/naomi-matsumoto/#top" target="_blank" rel="noopener">研究者ページ</a><br>
@@ -547,7 +547,7 @@ const REGIONS = {
     // 確認し直して67件を採用（市町村ごとにiwate同様`toyama_<市町>_kyoten`の出典）。
     // oyanokai.jsonは空配列。
     // 【2026-07-28追加】②居場所は児童館・児童センター50件（13市町村）を投入し有効化。
-    // 子ども食堂（ibasho.json）はIBASHO_MAP_ENABLED=falseのため空配列のまま。
+    // こども食堂（ibasho.json）はIBASHO_MAP_ENABLED=falseのため空配列のまま。
     available: { manabi:true, ibasho:true, sodan:true, hattatsu:true, districts:true, oyakazoku:true }
   },
   ishikawa: {
@@ -796,7 +796,7 @@ function showUnavailable(panelId, mapDivId, listId, noticeId){
   if(panelId === 'panel-manabi') currentManabiData = [];
   if(panelId === 'panel-ibasho'){ currentIbashoJidoukan = []; currentIbashoPlaces = []; }
   if(panelId === 'panel-oyakazoku'){ currentKyoten = []; currentOyanokai = []; }
-  // 【2026-07-29追加】②居場所タブがavailable:falseの県（本サイトが子ども食堂・児童館データを
+  // 【2026-07-29追加】②居場所タブがavailable:falseの県（本サイトがこども食堂・児童館データを
   // まだ収集していない大多数の県）では、これまで「準備中」としか出ず、こども食堂を探している
   // 利用者への案内が一切なかった（運営者からの指摘で発覚）。岡山県・大阪府でIBASHO_MAP_ENABLED=false
   // のときに出している「ガッコム・むすびえへ誘導する」案内を、データ未収集の県でも同様に出す。
@@ -901,7 +901,7 @@ function clearDirectMarkers(map){
   map.eachLayer(function(l){ if(l instanceof L.CircleMarker || l instanceof L.Marker) map.removeLayer(l); });
 }
 
-/* 子ども食堂（ibasho.json）は、大阪府・岡山県とも「第三者サイトでの転載」への同意が
+/* こども食堂（ibasho.json）は、大阪府・岡山県とも「第三者サイトでの転載」への同意が
    一次資料上で確認できていないため、むすびえへの相談が済むまで地図表示を一時停止する
    （2026-07-27運営者判断）。データ自体（各県のdata配下のibasho.json）は削除せず保持する。 */
 const IBASHO_MAP_ENABLED = false;
@@ -1025,8 +1025,8 @@ function renderIbasho(jidoukan, ibasho, key){
     ibasho.forEach(function(f){
       const precNote = f.prec==='town' ? '（町丁目レベルの概算）' : '（番地レベルの位置）';
       const m = L.circleMarker([f.lat,f.lng],{radius:8,color:'#fff',weight:2,fillColor:'#4A7C59',fillOpacity:.95, ibType:'ibasho'});
-      m.bindTooltip('<strong>'+f.n+'</strong><br>子ども食堂・プレーパーク等'+precNote+'<br>'+f.a, {direction:'top', offset:[0,-10], opacity:.95, className:'facility-tip'});
-      m.bindPopup('<div class="popup-name">'+f.n+'</div><div class="popup-body">子ども食堂・プレーパーク等<br>学区：'+f.gakku+'<br>'+f.a+(f.t?'<br>'+f.t:'')+'</div>');
+      m.bindTooltip('<strong>'+f.n+'</strong><br>こども食堂・プレーパーク等'+precNote+'<br>'+f.a, {direction:'top', offset:[0,-10], opacity:.95, className:'facility-tip'});
+      m.bindPopup('<div class="popup-name">'+f.n+'</div><div class="popup-body">こども食堂・プレーパーク等<br>学区：'+f.gakku+'<br>'+f.a+(f.t?'<br>'+f.t:'')+'</div>');
       markers.push(m);
     });
   }
@@ -1053,9 +1053,9 @@ function renderIbashoList(query){
       return '<div class="card no-pin"><div class="cat">'+cat+'</div><h2>'+f.n+'</h2><div class="addr">'+f.a+'</div>'+(f.t?'<div class="tel">'+f.t+'</div>':'')+'<div class="badges">'+susp+yonyou+'</div></div>'; }).join('');
   const iHtml = IBASHO_MAP_ENABLED
     ? currentIbashoPlaces.filter(function(f){return !q || f.n.indexOf(q)!==-1 || f.gakku.indexOf(q)!==-1 || f.a.indexOf(q)!==-1;})
-        .map(function(f){ return '<div class="card no-pin"><div class="cat">子ども食堂・プレーパーク等</div><h2>'+f.n+'</h2><div class="addr">学区：'+f.gakku+'　'+f.a+'</div>'+(f.t?'<div class="tel">'+f.t+'</div>':'')+'</div>'; }).join('')
-    : '<div class="card no-pin"><div class="addr">子ども食堂・プレーパーク等は現在表示を停止しています。<a href="https://kodomoshokudo.gaccom.jp/map" target="_blank" rel="noopener">ガッコム・むすびえ こども食堂マップ</a>をご覧ください。</div></div>';
-  body.innerHTML = '<div class="area-head">児童館・児童センター</div>'+jHtml+'<div class="area-head">子ども食堂・プレーパーク等</div>'+iHtml;
+        .map(function(f){ return '<div class="card no-pin"><div class="cat">こども食堂・プレーパーク等</div><h2>'+f.n+'</h2><div class="addr">学区：'+f.gakku+'　'+f.a+'</div>'+(f.t?'<div class="tel">'+f.t+'</div>':'')+'</div>'; }).join('')
+    : '<div class="card no-pin"><div class="addr">こども食堂・プレーパーク等は現在表示を停止しています。<a href="https://kodomoshokudo.gaccom.jp/map" target="_blank" rel="noopener">ガッコム・むすびえ こども食堂マップ</a>をご覧ください。</div></div>';
+  body.innerHTML = '<div class="area-head">児童館・児童センター</div>'+jHtml+'<div class="area-head">こども食堂・プレーパーク等</div>'+iHtml;
 }
 
 /* ============ ③相談 ============ */
@@ -1283,7 +1283,7 @@ function loadRegion(key){
       .then(function(r){
         if(seq !== loadSeq) return;
         renderIbasho(r[0], r[1], key);
-        // 子ども食堂データ（r[1]）は表示を停止中のため、出典クレジットも表示箇所に合わせて外す（ルール19）
+        // こども食堂データ（r[1]）は表示を停止中のため、出典クレジットも表示箇所に合わせて外す（ルール19）
         currentSrcIds.ibasho = IBASHO_MAP_ENABLED ? collectSrcIds(r[0], r[1]) : collectSrcIds(r[0]);
         srcLoaded.ibasho = true;
         renderFooterSources(region);
@@ -1421,7 +1421,7 @@ function updateIbashoLegend(key){
     const noticeEl = document.getElementById('notice-ibasho');
     if(noticeEl){
       noticeEl.innerHTML = jidoukanNote + suspNote
-        + '子ども食堂・プレーパーク等は、第三者サイトでの掲載についてデータ提供元への確認が済んでいないため、'
+        + 'こども食堂・プレーパーク等は、第三者サイトでの掲載についてデータ提供元への確認が済んでいないため、'
         + '表示を一時停止しています。お近くのこども食堂は<a href="https://kodomoshokudo.gaccom.jp/map" target="_blank" rel="noopener">'
         + 'ガッコム・むすびえ こども食堂マップ</a>でご確認いただけます。'
         + geoNote;
@@ -1435,10 +1435,10 @@ function updateIbashoLegend(key){
   setText('lg-ibasho-2-n', currentIbashoPlaces.length+'件');
   let base;
   if(key === 'okayama'){
-    base = '児童館・児童遊園は岡山県全域、子ども食堂・プレーパーク等は岡山市内のみを収録しています。'
+    base = '児童館・児童遊園は岡山県全域、こども食堂・プレーパーク等は岡山市内のみを収録しています。'
       + '児童館は原則すべて④地域子育て支援拠点も兼ねています。';
   } else if(key === 'osaka'){
-    base = '子ども食堂等は大阪府公式一覧（令和7年6月1日現在・1,057件）のうち、住所等の詳細が'
+    base = 'こども食堂等は大阪府公式一覧（令和7年6月1日現在・1,057件）のうち、住所等の詳細が'
       + '記載されており抽出できた'+currentIbashoPlaces.length+'件を収録しています。'
       + '原本に件数の記載がある市町村でも、詳細情報が記載されていない施設は未収録です'
       + '（特に大阪市・豊中市・門真市は原本の一部施設のみ、太子町は現時点で未収録）。'
