@@ -37,6 +37,7 @@ if ('serviceWorker' in navigator) {
     --c1t:#C1432B;
     --c5:#6B4C9A;
     --c5jidou:#6B4C9A; --c5iryo:#1F7A8C; --c5hokago:#C1432B; --c5homon:#B7791F; --c5hoiku:#4A7C59;
+    --c5both:#31547E;
     --badge-pref:#2C6E49; --badge-council:#8A4B2B;
   }
   *{margin:0;padding:0;box-sizing:border-box}
@@ -274,9 +275,10 @@ if ('serviceWorker' in navigator) {
 <!-- ============ ⑤発達 ============ -->
 <div class="tab-panel" id="panel-hattatsu">
   <div class="legend">
-    <span class="dot" style="--dc:var(--c5jidou)" id="lg-h-1">児童発達支援</span>
+    <span class="dot" style="--dc:var(--c5jidou)" id="lg-h-1">児童発達支援（単独）</span>
+    <span class="dot" style="--dc:var(--c5both)" id="lg-h-6">児童発達支援＋放課後等デイ併設</span>
     <span class="dot" style="--dc:var(--c5iryo)" id="lg-h-2">医療型児童発達支援</span>
-    <span class="dot" style="--dc:var(--c5hokago)" id="lg-h-3">放課後等デイサービス</span>
+    <span class="dot" style="--dc:var(--c5hokago)" id="lg-h-3">放課後等デイサービス（単独）</span>
     <span class="dot" style="--dc:var(--c5homon)" id="lg-h-4">居宅訪問型児童発達支援</span>
     <span class="dot" style="--dc:var(--c5hoiku)" id="lg-h-5">保育所等訪問支援</span>
     <label style="margin-left:auto;display:flex;align-items:center;gap:4px;cursor:pointer">
@@ -306,7 +308,7 @@ if ('serviceWorker' in navigator) {
     本サイトは、医療・教育・福祉の資源情報を必要とする家族に届ける「社会的処方」の普及を目的に、研究活動の一環として運営している非営利のサイトです。掲載は無料で、広告は掲載していません。掲載情報は自治体等の公的な公表資料に基づいています。<br>
     <strong>自治体・支援機関の方へ</strong>：フリースクール等の民間施設一覧、地域子育て支援拠点一覧、児童館・こどもの居場所一覧など、地域独自の公式資料をご提供いただければ、地域を問わず順次掲載します（発達支援・学びの多様化学校・相談窓口の全国データは国の公表データを基に収集しています）。掲載のご希望・掲載情報の訂正は <a href="mailto:kodomo.sp.lab@gmail.com">kodomo.sp.lab@gmail.com</a> までご連絡ください。<br>
     運営責任者：松本尚美（岡山大学 疫学・衛生学分野／専門：ライフコース疫学・社会的処方／認定小児科指導医・社会医学系専門医）　<a href="https://kodomo-sp-labo.github.io/naomi-matsumoto/#top" target="_blank" rel="noopener">研究者ページ</a><br>
-    <strong>データの利用について</strong>：個々の施設情報（名称・住所・電話番号等）は各出典元の公表資料に基づく事実であり、その引用・ご紹介は妨げません。一方、本サイトが独自に収集・整理・地図化したデータベース（分類・座標付与・出典整理等の編集を含む）や、本サイトのデザイン・文章・プログラムコードを大量に複製し、そのまま別のサービスや出版物として無断で二次利用・再配布することはご遠慮ください。研究等でのご相談は上記メールアドレスまでご連絡ください。
+    <strong>データの利用について</strong>：個々の施設情報（名称・住所・電話番号等）は、下記の出典元が公表している事実です。引用・ご紹介の際は、下記出典欄の原典をご確認のうえご利用ください。一方、本サイトが独自に収集・整理・地図化したデータベース（分類・座標付与・出典整理等の編集を含む）や、本サイトのデザイン・文章・プログラムコードを大量に複製し、そのまま別のサービスや出版物として無断で二次利用・再配布することはご遠慮ください。研究等でのご相談は上記メールアドレスまでご連絡ください。
   </div>
   <strong>①学び：</strong><span id="footer-src-manabi"></span><br>
   <strong>②居場所：</strong><span id="footer-src-ibasho"></span><br>
@@ -830,11 +832,15 @@ const RYOIKU_CAT = {
   iryo_jidou_hattatsu:   {label:"医療型児童発達支援",       color:"#1F7A8C"},
   hokago_day:            {label:"放課後等デイサービス",     color:"#C1432B"},
   homon_jidou_hattatsu:  {label:"居宅訪問型児童発達支援",   color:"#B7791F"},
-  hoikusho_homon:        {label:"保育所等訪問支援",         color:"#4A7C59"}
+  hoikusho_homon:        {label:"保育所等訪問支援",         color:"#4A7C59"},
+  // 実データでは児童発達支援と放課後等デイサービスの併設が過半数（岡山県で約55%）を占め、
+  // 単独提供より一般的なパターンのため、専用の色を持つ独立カテゴリとして扱う。
+  jidou_hokago_both:     {label:"児童発達支援＋放課後等デイ併設", color:"#31547E"}
 };
 // cat配列から代表カテゴリ（クラスタ色・マーカー色用）を選ぶ優先順位
 const RYOIKU_CAT_ORDER = ["jidou_hattatsu","hokago_day","iryo_jidou_hattatsu","homon_jidou_hattatsu","hoikusho_homon"];
 function ryoikuPrimaryCat(catArr){
+  if(catArr.indexOf("jidou_hattatsu") !== -1 && catArr.indexOf("hokago_day") !== -1) return "jidou_hokago_both";
   for(var i=0;i<RYOIKU_CAT_ORDER.length;i++){ if(catArr.indexOf(RYOIKU_CAT_ORDER[i]) !== -1) return RYOIKU_CAT_ORDER[i]; }
   return catArr[0];
 }
@@ -1162,8 +1168,11 @@ function renderRyoikuMap(activeCats){
   const markers = [];
   currentRyoikuData.forEach(function(r){
     const catArr = Array.isArray(r.cat) ? r.cat : [r.cat];
-    if(!catArr.some(function(c){ return activeCats.indexOf(c) !== -1; })) return;
-    const primary = ryoikuPrimaryCat(catArr);
+    const matchedCats = catArr.filter(function(c){ return activeCats.indexOf(c) !== -1; });
+    if(!matchedCats.length) return;
+    // 色はチェックが入っている区分だけから決める。両方チェックが入っている施設だけが
+    // 併設色になり、片方だけ外すと残った区分本来の色に切り替わる。
+    const primary = ryoikuPrimaryCat(matchedCats);
     const color = RYOIKU_CAT[primary].color;
     const m = L.circleMarker([r.lat, r.lng], {radius:8, color:'#fff', weight:2, fillColor:color, fillOpacity:.95, ryoCat:primary});
     const precLabel = {address:'（番地レベルの位置）', town:'（町丁目レベルの位置）', area:'（地図位置は市区町村レベルの概算）'};
