@@ -3,7 +3,7 @@
   "_schema_version": 3,
   "_generated": "2026-07-26",
   "_generator": "メモ等/build_sources_json.py（生成は初回のみ。以後は人が直接編集する）",
-  "_credit_holder": "子どもウェルビーイングlabo",
+  "_credit_holder": "こどもウェルビーイングlabo",
   "sources": {
     "mext_tayouka": {
       "source_label": "文部科学省「学びの多様化学校（いわゆる不登校特例校）の設置者一覧」",
@@ -267,6 +267,22 @@
       "terms_checked": "2026-07-26",
       "conditions": "okayama_city_shienkyoshitsu と同じ。事実情報のみ掲載。"
     },
+    "own_survey_boarding_hs": {
+      "source_label": "学校法人吉備高原学園「吉備高原学園高等学校」公式サイト",
+      "source": "https://kibikogengakuen.ed.jp/",
+      "publisher": "学校法人吉備高原学園",
+      "checked": "2026-07-31",
+      "as_of": null,
+      "tier": "C",
+      "discovery_query": "吉備高原学園高等学校 公式サイト 所在地 電話番号",
+      "notes": "文科省「学びの多様化学校」の指定は受けていない私立全日制高校（全寮制・不登校生を主対象と公式サイトに明記）。公設民営（岡山県が施設整備、運営は学校法人吉備高原学園）。このタイプの施設に全国共通の公式名簿は存在しないため独自調査扱い（own_survey_oyanokaiと同種のTier C）。運営者からの指摘を受け発見。同種施設の有無を北海道・宮城県・兵庫県・広島県・熊本県で一次資料調査したが該当なし（2026-07-31時点、調査継続中）。",
+      "license": null,
+      "license_url": null,
+      "credit": true,
+      "modified_note": false,
+      "terms_checked": "2026-07-31",
+      "conditions": "【未確認】学校公式サイトに汎用的な利用条件の明記は見当たらなかった。掲載しているのは名称・住所・電話番号等の事実情報のみ。"
+    },
     "okayama_pref_hattatsu_list": {
       "source_label": "岡山県「保健福祉施設・病院等一覧」児童福祉施設",
       "source": "https://www.pref.okayama.jp/page/785878.html",
@@ -508,15 +524,15 @@
       "conditions": "【条件の記載を確認できず】サイトにプライバシーポリシーはあるが、コンテンツの利用条件の記載を見つけられなかった。掲載しているのは事実情報のみ。先方に確認するのが望ましい。"
     },
     "own_survey_oyanokai": {
-      "source_label": "子どもウェルビーイングlabo 独自調査（親の会）",
+      "source_label": "こどもウェルビーイングlabo 独自調査（親の会）",
       "source": null,
-      "publisher": "子どもウェルビーイングlabo",
+      "publisher": "こどもウェルビーイングlabo",
       "checked": "2026-07-23",
       "as_of": null,
       "tier": "C",
       "discovery_query": null,
       "notes": "親の会には全国・県単位の公的名簿が存在しない（仕様書§1 Tier C）。各会の公表情報から確認できた分のみを掲載しており、網羅的な一覧ではない。この性質は画面上にも明示している。",
-      "license": "子どもウェルビーイングlabo 独自調査（当団体が権利者）",
+      "license": "こどもウェルビーイングlabo 独自調査（当団体が権利者）",
       "license_url": null,
       "credit": false,
       "modified_note": false,
@@ -2209,7 +2225,8 @@
           "tayouka": "mext_tayouka",
           "public": "okayama_city_shienkyoshitsu",
           "consult": "okayama_city_kyoiku_sodan",
-          "freeschool": "okayama_pref_freeschool"
+          "freeschool": "okayama_pref_freeschool",
+          "boarding_hs": "own_survey_boarding_hs"
         }
       },
       "geo_sources": [
@@ -2223,7 +2240,7 @@
       "last_count": 108,
       "last_checked": "2026-07-25",
       "monitor": false,
-      "notes": "1ファイル内に複数の出典が混在する唯一の全国ファイル（岡山県のみ4カテゴリ、他46県はtayoukaのみ）。"
+      "notes": "1ファイル内に複数の出典が混在する唯一の全国ファイル（岡山県のみ5カテゴリ、他46県はtayoukaのみ）。boarding_hsは全国共通の公式名簿がない独自調査カテゴリ（吉備高原学園高等学校のみ、2026-07-31追加）。"
     },
     "sodan": {
       "label": "③相談",

@@ -35,6 +35,9 @@ if ('serviceWorker' in navigator) {
        識別性が通常視力で最大（ΔE 26.1/21.6）。色覚シミュレーションでの緑との分離は7.7で
        目標8.0に僅かに届かないため、白2pxリング・ツールチップ・一覧カードの文字表記を併用する。 */
     --c1t:#C1432B;
+    /* --c1p: ①学びの「全寮制高校（独自調査）」用。--c5と同じ値だが、⑤発達タブの
+       アイデンティティカラーとは別に管理するための独立した変数。 */
+    --c1p:#6B4C9A;
     --c5:#6B4C9A;
     --c5jidou:#6B4C9A; --c5iryo:#1F7A8C; --c5hokago:#C1432B; --c5homon:#B7791F; --c5hoiku:#4A7C59;
     --c5both:#31547E;
@@ -184,11 +187,15 @@ if ('serviceWorker' in navigator) {
   <div class="legend">
     <!-- 「岡山市児童生徒支援教室」「協議会加盟」バッジは岡山県固有の制度・データ。
          「民間フリースクール等」は東京都・北海道等でも収録済みのため実データで出し分ける。
-         表示・非表示はupdateManabiLegend()/updateManabiNotice()が切り替える。「公設」の語は
+         「全寮制高校（独自調査）」は文科省の学びの多様化学校指定を受けていない私立校
+         （例: 吉備高原学園高等学校）を独自調査で収録したもの。全国共通の公式名簿が
+         存在しないカテゴリのため、現時点では岡山県のみ。表示・非表示は
+         updateManabiLegend()/updateManabiNotice()が切り替える。「公設」の語は
          使わない（学びの多様化学校81件中23件は学校法人＝私立のため事実に反する）。 -->
     <span class="dot" style="--dc:var(--c1t)" id="lg-manabi-tayouka">学びの多様化学校（文部科学省指定）</span>
     <span class="dot" style="--dc:var(--c1)" id="lg-manabi-public">岡山市児童生徒支援教室</span>
     <span class="dot" style="--dc:var(--c2)" id="lg-manabi-free">民間フリースクール等</span>
+    <span class="dot" style="--dc:var(--c1p)" id="lg-manabi-boarding">全寮制高校（不登校生対象・独自調査）</span>
     <span class="badge b-pref" id="lg-manabi-badge-pref">県HP掲載</span>
     <span class="badge b-council" id="lg-manabi-badge-council">岡山フリースクール協議会加盟</span>
     <label style="margin-left:auto;display:flex;align-items:center;gap:4px;cursor:pointer">
@@ -821,11 +828,15 @@ function showUnavailable(panelId, mapDivId, listId, noticeId){
      出典 https://www.mext.go.jp/a_menu/shotou/seitoshidou/1387004.htm
    - public : 岡山市が設置する教育支援センター系の施設。学校ではない。岡山県のみ。
      正式名称を使用（出典 https://www.city.okayama.jp/kurashi/0000006631.html ）
-   - freeschool: 民間のフリースクール等（岡山県の独自調査分）。岡山県のみ。 */
+   - freeschool: 民間のフリースクール等（岡山県の独自調査分）。岡山県のみ。
+   - boarding_hs: 文科省の学びの多様化学校指定を受けていない私立の全寮制高校で、
+     不登校生を主対象とすることが公式サイト等で確認できるもの（例: 吉備高原学園
+     高等学校）。全国共通の公式名簿が存在しないため独自調査扱い。岡山県のみ。 */
 const MANABI_CAT = {
-  tayouka:    {label:"学びの多様化学校（文部科学省指定）", color:"#C1432B"},
-  public:     {label:"岡山市児童生徒支援教室",             color:"#31547E"},
-  freeschool: {label:"民間フリースクール等",               color:"#4A7C59"}
+  tayouka:     {label:"学びの多様化学校（文部科学省指定）",       color:"#C1432B"},
+  public:      {label:"岡山市児童生徒支援教室",                   color:"#31547E"},
+  freeschool:  {label:"民間フリースクール等",                     color:"#4A7C59"},
+  boarding_hs: {label:"全寮制高校（不登校生対象・独自調査）",     color:"#6B4C9A"}
 };
 const RYOIKU_CAT = {
   jidou_hattatsu:        {label:"児童発達支援",           color:"#6B4C9A"},
@@ -1479,13 +1490,16 @@ function updateManabiLegend(key){
 
 function updateManabiNotice(key, data){
   const hasFreeschool = data.some(function(f){ return f.category === 'freeschool'; });
+  const hasBoarding = data.some(function(f){ return f.category === 'boarding_hs'; });
   const freeEl = document.getElementById('lg-manabi-free');
   if(freeEl) freeEl.style.display = hasFreeschool ? '' : 'none';
+  const boardingEl = document.getElementById('lg-manabi-boarding');
+  if(boardingEl) boardingEl.style.display = hasBoarding ? '' : 'none';
   const noticeEl = document.getElementById('notice-manabi');
   if(noticeEl){
     noticeEl.style.display = '';
     if(key === 'okayama'){
-      noticeEl.textContent = '文部科学省「学びの多様化学校の設置者一覧」に加え、岡山市児童生徒支援教室・民間フリースクール等の独自調査データを収録しています。';
+      noticeEl.textContent = '文部科学省「学びの多様化学校の設置者一覧」に加え、岡山市児童生徒支援教室・民間フリースクール等・全寮制高校（独自調査）を収録しています。';
     } else if(hasFreeschool){
       noticeEl.textContent = '文部科学省「学びの多様化学校の設置者一覧」に加え、都道府県教育委員会等が公表する民間フリースクール等の一覧を収録しています。';
     } else {
