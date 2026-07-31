@@ -356,13 +356,17 @@ const REGIONS = {
     label: '鳥取県',
     base: 'data/31_tottori/',
     center: [35.503448, 134.238266],
-    available: { manabi:true, ibasho:true, sodan:true, hattatsu:true, districts:true }
+    // 【2026-07-31追加】④は児童館（jidoukan.json、45件、国土数値情報P14等由来。②居場所と兼用）のみ。
+    // kyoten.json・oyanokai.jsonは空配列。
+    available: { manabi:true, ibasho:true, sodan:true, hattatsu:true, districts:true, oyakazoku:true }
   },
   shimane: {
     label: '島根県',
     base: 'data/32_shimane/',
     center: [35.472294, 133.050522],
-    available: { manabi:true, ibasho:true, sodan:true, hattatsu:true, districts:true }
+    // 【2026-07-31追加】④は児童館（jidoukan.json、3件、国土数値情報P14等由来。②居場所と兼用）のみ。
+    // kyoten.json・oyanokai.jsonは空配列。
+    available: { manabi:true, ibasho:true, sodan:true, hattatsu:true, districts:true, oyakazoku:true }
   },
   hiroshima: {
     label: '広島県',
@@ -376,31 +380,41 @@ const REGIONS = {
     label: '山口県',
     base: 'data/35_yamaguchi/',
     center: [34.186043, 131.470657],
-    available: { manabi:true, ibasho:true, sodan:true, hattatsu:true, districts:true }
+    // 【2026-07-31追加】④は児童館（jidoukan.json、25件、国土数値情報P14等由来。②居場所と兼用）のみ。
+    // kyoten.json・oyanokai.jsonは空配列。
+    available: { manabi:true, ibasho:true, sodan:true, hattatsu:true, districts:true, oyakazoku:true }
   },
   tokushima: {
     label: '徳島県',
     base: 'data/36_tokushima/',
     center: [34.065762, 134.55928],
-    available: { manabi:true, ibasho:true, sodan:true, hattatsu:true, districts:true }
+    // 【2026-07-31追加】④は児童館（jidoukan.json、48件、国土数値情報P14等由来。②居場所と兼用）のみ。
+    // kyoten.json・oyanokai.jsonは空配列。
+    available: { manabi:true, ibasho:true, sodan:true, hattatsu:true, districts:true, oyakazoku:true }
   },
   kagawa: {
     label: '香川県',
     base: 'data/37_kagawa/',
     center: [34.340111, 134.043289],
-    available: { manabi:true, ibasho:true, sodan:true, hattatsu:true, districts:true }
+    // 【2026-07-31追加】④は児童館（jidoukan.json、34件、国土数値情報P14等由来。②居場所と兼用）のみ。
+    // kyoten.json・oyanokai.jsonは空配列。
+    available: { manabi:true, ibasho:true, sodan:true, hattatsu:true, districts:true, oyakazoku:true }
   },
   ehime: {
     label: '愛媛県',
     base: 'data/38_ehime/',
     center: [33.84164, 132.765686],
-    available: { manabi:true, ibasho:true, sodan:true, hattatsu:true, districts:true }
+    // 【2026-07-31追加】④は児童館（jidoukan.json、43件、国土数値情報P14等由来。②居場所と兼用）のみ。
+    // kyoten.json・oyanokai.jsonは空配列。
+    available: { manabi:true, ibasho:true, sodan:true, hattatsu:true, districts:true, oyakazoku:true }
   },
   kochi: {
     label: '高知県',
     base: 'data/39_kochi/',
     center: [33.559723, 133.531113],
-    available: { manabi:true, ibasho:true, sodan:true, hattatsu:true, districts:true }
+    // 【2026-07-31追加】④は児童館（jidoukan.json、29件、国土数値情報P14等由来。②居場所と兼用）のみ。
+    // kyoten.json・oyanokai.jsonは空配列。
+    available: { manabi:true, ibasho:true, sodan:true, hattatsu:true, districts:true, oyakazoku:true }
   },
   // 【東北6県・今回追加】①学び（学びの多様化学校のみ）・③相談・⑤発達を登録
   // （②居場所・④親家族は未整備のため対象外）。data/<コード>_<ローマ字>/に
@@ -415,7 +429,9 @@ const REGIONS = {
     label: '青森県',
     base: 'data/02_aomori/',
     center: [40.824589, 140.740555],
-    available: { manabi:true, ibasho:true, sodan:true, hattatsu:true, districts:true }
+    // 【2026-07-31追加】④は児童館（jidoukan.json、77件、国土数値情報P14等由来。②居場所と兼用）のみ。
+    // kyoten.json・oyanokai.jsonは空配列。
+    available: { manabi:true, ibasho:true, sodan:true, hattatsu:true, districts:true, oyakazoku:true }
   },
   iwate: {
     label: '岩手県',
@@ -430,7 +446,9 @@ const REGIONS = {
     label: '宮城県',
     base: 'data/04_miyagi/',
     center: [38.268578, 140.87207],
-    available: { manabi:true, ibasho:true, sodan:true, hattatsu:true, districts:true }
+    // 【2026-07-31追加】④は児童館（jidoukan.json、157件、国土数値情報P14等由来。②居場所と兼用）のみ。
+    // kyoten.json・oyanokai.jsonは空配列。
+    available: { manabi:true, ibasho:true, sodan:true, hattatsu:true, districts:true, oyakazoku:true }
   },
   akita: {
     label: '秋田県',
@@ -471,13 +489,17 @@ const REGIONS = {
     label: '茨城県',
     base: 'data/08_ibaraki/',
     center: [36.341736, 140.446823],
-    available: { manabi:true, ibasho:true, sodan:true, hattatsu:true, districts:true }
+    // 【2026-07-31追加】④は児童館（jidoukan.json、48件、国土数値情報P14等由来。②居場所と兼用）のみ。
+    // kyoten.json・oyanokai.jsonは空配列。
+    available: { manabi:true, ibasho:true, sodan:true, hattatsu:true, districts:true, oyakazoku:true }
   },
   tochigi: {
     label: '栃木県',
     base: 'data/09_tochigi/',
     center: [36.56591, 139.883591],
-    available: { manabi:true, ibasho:true, sodan:true, hattatsu:true, districts:true }
+    // 【2026-07-31追加】④は児童館（jidoukan.json、40件、国土数値情報P14等由来。②居場所と兼用）のみ。
+    // kyoten.json・oyanokai.jsonは空配列。
+    available: { manabi:true, ibasho:true, sodan:true, hattatsu:true, districts:true, oyakazoku:true }
   },
   gunma: {
     label: '群馬県',
@@ -499,7 +521,9 @@ const REGIONS = {
     label: '千葉県',
     base: 'data/12_chiba/',
     center: [35.604561, 140.123154],
-    available: { manabi:true, ibasho:true, sodan:true, hattatsu:true, districts:true }
+    // 【2026-07-31追加】④は児童館（jidoukan.json、93件、国土数値情報P14等由来。②居場所と兼用）のみ。
+    // kyoten.json・oyanokai.jsonは空配列。
+    available: { manabi:true, ibasho:true, sodan:true, hattatsu:true, districts:true, oyakazoku:true }
   },
   tokyo: {
     label: '東京都',
@@ -514,7 +538,9 @@ const REGIONS = {
     label: '神奈川県',
     base: 'data/14_kanagawa/',
     center: [35.447735, 139.642532],
-    available: { manabi:true, ibasho:true, sodan:true, hattatsu:true, districts:true }
+    // 【2026-07-31追加】④は児童館（jidoukan.json、151件、国土数値情報P14等由来。②居場所と兼用）のみ。
+    // kyoten.json・oyanokai.jsonは空配列。
+    available: { manabi:true, ibasho:true, sodan:true, hattatsu:true, districts:true, oyakazoku:true }
   },
   niigata: {
     label: '新潟県',
@@ -528,13 +554,17 @@ const REGIONS = {
     label: '山梨県',
     base: 'data/19_yamanashi/',
     center: [35.664108, 138.568451],
-    available: { manabi:true, ibasho:true, sodan:true, hattatsu:true, districts:true }
+    // 【2026-07-31追加】④は児童館（jidoukan.json、63件、国土数値情報P14等由来。②居場所と兼用）のみ。
+    // kyoten.json・oyanokai.jsonは空配列。
+    available: { manabi:true, ibasho:true, sodan:true, hattatsu:true, districts:true, oyakazoku:true }
   },
   nagano: {
     label: '長野県',
     base: 'data/20_nagano/',
     center: [36.651306, 138.180908],
-    available: { manabi:true, ibasho:true, sodan:true, hattatsu:true, districts:true }
+    // 【2026-07-31追加】④は児童館（jidoukan.json、172件、国土数値情報P14等由来。②居場所と兼用）のみ。
+    // kyoten.json・oyanokai.jsonは空配列。
+    available: { manabi:true, ibasho:true, sodan:true, hattatsu:true, districts:true, oyakazoku:true }
   },
   // 【北陸3県・東海4県、計7県・今回追加】①学び（学びの多様化学校のみ）・③相談・
   // ⑤発達を登録（②居場所・④親家族は未整備のため対象外）。
@@ -568,19 +598,25 @@ const REGIONS = {
     label: '福井県',
     base: 'data/18_fukui/',
     center: [36.065208, 136.221725],
-    available: { manabi:true, ibasho:true, sodan:true, hattatsu:true, districts:true }
+    // 【2026-07-31追加】④は児童館（jidoukan.json、96件、国土数値情報P14等由来。②居場所と兼用）のみ。
+    // kyoten.json・oyanokai.jsonは空配列。
+    available: { manabi:true, ibasho:true, sodan:true, hattatsu:true, districts:true, oyakazoku:true }
   },
   gifu: {
     label: '岐阜県',
     base: 'data/21_gifu/',
     center: [35.391174, 136.723663],
-    available: { manabi:true, ibasho:true, sodan:true, hattatsu:true, districts:true }
+    // 【2026-07-31追加】④は児童館（jidoukan.json、83件、国土数値情報P14等由来。②居場所と兼用）のみ。
+    // kyoten.json・oyanokai.jsonは空配列。
+    available: { manabi:true, ibasho:true, sodan:true, hattatsu:true, districts:true, oyakazoku:true }
   },
   shizuoka: {
     label: '静岡県',
     base: 'data/22_shizuoka/',
     center: [34.976944, 138.383057],
-    available: { manabi:true, ibasho:true, sodan:true, hattatsu:true, districts:true }
+    // 【2026-07-31追加】④は児童館（jidoukan.json、13件、国土数値情報P14等由来。②居場所と兼用）のみ。
+    // kyoten.json・oyanokai.jsonは空配列。
+    available: { manabi:true, ibasho:true, sodan:true, hattatsu:true, districts:true, oyakazoku:true }
   },
   aichi: {
     label: '愛知県',
@@ -639,7 +675,9 @@ const REGIONS = {
     label: '滋賀県',
     base: 'data/25_shiga/',
     center: [35.004513, 135.868561],
-    available: { manabi:true, ibasho:true, sodan:true, hattatsu:true, districts:true }
+    // 【2026-07-31追加】④は児童館（jidoukan.json、32件、国土数値情報P14等由来。②居場所と兼用）のみ。
+    // kyoten.json・oyanokai.jsonは空配列。
+    available: { manabi:true, ibasho:true, sodan:true, hattatsu:true, districts:true, oyakazoku:true }
   },
   kyoto: {
     label: '京都府',
@@ -653,7 +691,9 @@ const REGIONS = {
     label: '大阪府',
     base: 'data/27_osaka/',
     center: [34.686344, 135.520035],
-    available: { manabi:true, ibasho:true, sodan:true, hattatsu:true, districts:true }
+    // 【2026-07-31追加】④は児童館（jidoukan.json、46件、国土数値情報P14等由来。②居場所と兼用）のみ。
+    // kyoten.json・oyanokai.jsonは空配列。
+    available: { manabi:true, ibasho:true, sodan:true, hattatsu:true, districts:true, oyakazoku:true }
   },
   hyogo: {
     label: '兵庫県',
@@ -667,61 +707,81 @@ const REGIONS = {
     label: '奈良県',
     base: 'data/29_nara/',
     center: [34.685272, 135.832855],
-    available: { manabi:true, ibasho:true, sodan:true, hattatsu:true, districts:true }
+    // 【2026-07-31追加】④は児童館（jidoukan.json、36件、国土数値情報P14等由来。②居場所と兼用）のみ。
+    // kyoten.json・oyanokai.jsonは空配列。
+    available: { manabi:true, ibasho:true, sodan:true, hattatsu:true, districts:true, oyakazoku:true }
   },
   wakayama: {
     label: '和歌山県',
     base: 'data/30_wakayama/',
     center: [34.226112, 135.167496],
-    available: { manabi:true, ibasho:true, sodan:true, hattatsu:true, districts:true }
+    // 【2026-07-31追加】④は児童館（jidoukan.json、55件、国土数値情報P14等由来。②居場所と兼用）のみ。
+    // kyoten.json・oyanokai.jsonは空配列。
+    available: { manabi:true, ibasho:true, sodan:true, hattatsu:true, districts:true, oyakazoku:true }
   },
   fukuoka: {
     label: '福岡県',
     base: 'data/40_fukuoka/',
     center: [33.606388, 130.417969],
-    available: { manabi:true, ibasho:true, sodan:true, hattatsu:true, districts:true }
+    // 【2026-07-31追加】④は児童館（jidoukan.json、41件、国土数値情報P14等由来。②居場所と兼用）のみ。
+    // kyoten.json・oyanokai.jsonは空配列。
+    available: { manabi:true, ibasho:true, sodan:true, hattatsu:true, districts:true, oyakazoku:true }
   },
   saga: {
     label: '佐賀県',
     base: 'data/41_saga/',
     center: [33.249352, 130.298798],
-    available: { manabi:true, ibasho:true, sodan:true, hattatsu:true, districts:true }
+    // 【2026-07-31追加】④は児童館（jidoukan.json、17件、国土数値情報P14等由来。②居場所と兼用）のみ。
+    // kyoten.json・oyanokai.jsonは空配列。
+    available: { manabi:true, ibasho:true, sodan:true, hattatsu:true, districts:true, oyakazoku:true }
   },
   nagasaki: {
     label: '長崎県',
     base: 'data/42_nagasaki/',
     center: [32.750038, 129.867249],
-    available: { manabi:true, ibasho:true, sodan:true, hattatsu:true, districts:true }
+    // 【2026-07-31追加】④は児童館（jidoukan.json、36件、国土数値情報P14等由来。②居場所と兼用）のみ。
+    // kyoten.json・oyanokai.jsonは空配列。
+    available: { manabi:true, ibasho:true, sodan:true, hattatsu:true, districts:true, oyakazoku:true }
   },
   kumamoto: {
     label: '熊本県',
     base: 'data/43_kumamoto/',
     center: [32.789799, 130.741577],
-    available: { manabi:true, ibasho:true, sodan:true, hattatsu:true, districts:true }
+    // 【2026-07-31追加】④は児童館（jidoukan.json、29件、国土数値情報P14等由来。②居場所と兼用）のみ。
+    // kyoten.json・oyanokai.jsonは空配列。
+    available: { manabi:true, ibasho:true, sodan:true, hattatsu:true, districts:true, oyakazoku:true }
   },
   oita: {
     label: '大分県',
     base: 'data/44_oita/',
     center: [33.238129, 131.61264],
-    available: { manabi:true, ibasho:true, sodan:true, hattatsu:true, districts:true }
+    // 【2026-07-31追加】④は児童館（jidoukan.json、37件、国土数値情報P14等由来。②居場所と兼用）のみ。
+    // kyoten.json・oyanokai.jsonは空配列。
+    available: { manabi:true, ibasho:true, sodan:true, hattatsu:true, districts:true, oyakazoku:true }
   },
   miyazaki: {
     label: '宮崎県',
     base: 'data/45_miyazaki/',
     center: [31.911034, 131.423889],
-    available: { manabi:true, ibasho:true, sodan:true, hattatsu:true, districts:true }
+    // 【2026-07-31追加】④は児童館（jidoukan.json、57件、国土数値情報P14等由来。②居場所と兼用）のみ。
+    // kyoten.json・oyanokai.jsonは空配列。
+    available: { manabi:true, ibasho:true, sodan:true, hattatsu:true, districts:true, oyakazoku:true }
   },
   kagoshima: {
     label: '鹿児島県',
     base: 'data/46_kagoshima/',
     center: [31.560171, 130.558029],
-    available: { manabi:true, ibasho:true, sodan:true, hattatsu:true, districts:true }
+    // 【2026-07-31追加】④は児童館（jidoukan.json、23件、国土数値情報P14等由来。②居場所と兼用）のみ。
+    // kyoten.json・oyanokai.jsonは空配列。
+    available: { manabi:true, ibasho:true, sodan:true, hattatsu:true, districts:true, oyakazoku:true }
   },
   okinawa: {
     label: '沖縄県',
     base: 'data/47_okinawa/',
     center: [26.212444, 127.680923],
-    available: { manabi:true, ibasho:true, sodan:true, hattatsu:true, districts:true }
+    // 【2026-07-31追加】④は児童館（jidoukan.json、73件、国土数値情報P14等由来。②居場所と兼用）のみ。
+    // kyoten.json・oyanokai.jsonは空配列。
+    available: { manabi:true, ibasho:true, sodan:true, hattatsu:true, districts:true, oyakazoku:true }
   }
   // 例）以降、他県を追加する場合はこのパターンを踏襲する。
 };
