@@ -1,0 +1,25 @@
+cff-version: 1.2.0
+message: "このデータ・ソフトウェアを利用・参照する場合は、以下の情報を引用してください。"
+title: "こども支援資源マップ"
+type: software
+authors:
+  - family-names: "松本"
+    given-names: "尚美"
+    affiliation: "岡山大学"
+    orcid: "https://orcid.org/0000-0002-9980-6092"
+abstract: >-
+  不登校・発達支援等に関する公的資源（教育相談窓口、こどもの居場所、児童発達支援・
+  放課後等デイサービス等）を地図上に可視化する静的ウェブサイト。収録データは国・
+  都道府県・市区町村等の公的一次資料に基づき、松本尚美が出典確認・分類・検証を
+  行った。実装にはAIコーディングアシスタント（Claude Code）を使用した。
+license: CC-BY-NC-ND-4.0
+repository-code: "https://github.com/kodomo-sp-labo/kodomo-map"
+url: "https://kodomo-sp-labo.github.io/kodomo-map/"
+keywords:
+  - 不登校
+  - 発達支援
+  - こどもの居場所
+  - 社会的処方
+  - 子育て支援
+  - オープンデータ
+date-released: 2026-08-18
