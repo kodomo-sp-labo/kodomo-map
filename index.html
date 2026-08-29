@@ -31,9 +31,10 @@ if ('serviceWorker' in navigator) {
     --ink:#22303C; --sub:#5B6B78; --base:#F6F7F6; --panel:#FFFFFF; --line:#E1E6E4;
     --c1:#31547E; --c1b:#B7791F; --c2:#4A7C59; --c3:#8A4B2B; --c4:#B2508C;
     /* --c1t: ①学びの「学びの多様化学校」用。JS側のMANABI_CAT.tayouka.colorと同じ値を保つこと。
-       選定根拠: 実測したCARTOタイル色5種すべてでコントラスト4.04以上、既存の青(--c1)・緑(--c2)との
+       選定根拠: 旧シンプル地図（CARTO）の実測タイル色5種すべてでコントラスト4.04以上、既存の青(--c1)・緑(--c2)との
        識別性が通常視力で最大（ΔE 26.1/21.6）。色覚シミュレーションでの緑との分離は7.7で
-       目標8.0に僅かに届かないため、白2pxリング・ツールチップ・一覧カードの文字表記を併用する。 */
+       目標8.0に僅かに届かないため、白2pxリング・ツールチップ・一覧カードの文字表記を併用する。
+       （2026-08-30 シンプル地図を地理院淡色地図に変更。背景は旧CARTOより明るく、上記コントラストは維持される） */
     --c1t:#C1432B;
     /* --c1p: ①学びの「全寮制高校（独自調査）」用。--c5と同じ値だが、⑤発達タブの
        アイデンティティカラーとは別に管理するための独立した変数。 */
@@ -323,7 +324,7 @@ if ('serviceWorker' in navigator) {
   <strong>④親家族：</strong><span id="footer-src-oyakazoku"></span><br>
   <strong>⑤発達：</strong><span id="footer-src-hattatsu"></span><br>
   <strong>小学校区界：</strong><span id="footer-src-districts"></span>
-  地図：© OpenStreetMap contributors, © CARTO。掲載内容は公表資料に基づきますが、利用にあたっては必ず各施設・関係機関に直接ご確認ください。
+  地図：国土地理院タイル（淡色地図・標準地図・写真）。掲載内容は公表資料に基づきますが、利用にあたっては必ず各施設・関係機関に直接ご確認ください。
 </footer>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js"></script>
@@ -787,14 +788,16 @@ const REGIONS = {
 };
 
 function tileLayerFor(map){
-  const carto = L.tileLayer('https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png',
-    {maxZoom:19, subdomains:'abcd', attribution:'&copy; OpenStreetMap contributors &copy; <a href="https://carto.com/attributions">CARTO</a>'});
+  // 2026-08-30 CARTOがラスタ基図をAPIキー必須化（キー無しは「API KEY REQUIRED」透かし入り配信）
+  // したため、シンプル地図を国土地理院の淡色地図に差し替え（キー不要・出典表示のみで利用可）。
+  const gsiPale = L.tileLayer('https://cyberjapandata.gsi.go.jp/xyz/pale/{z}/{x}/{y}.png',
+    {maxZoom:18, attribution:'<a href="https://maps.gsi.go.jp/development/ichiran.html" target="_blank">国土地理院</a>（淡色地図）'});
   const gsiStd = L.tileLayer('https://cyberjapandata.gsi.go.jp/xyz/std/{z}/{x}/{y}.png',
     {maxZoom:18, attribution:'<a href="https://maps.gsi.go.jp/development/ichiran.html" target="_blank">国土地理院</a>（標準地図）'});
   const gsiPhoto = L.tileLayer('https://cyberjapandata.gsi.go.jp/xyz/seamlessphoto/{z}/{x}/{y}.jpg',
     {maxZoom:18, attribution:'<a href="https://maps.gsi.go.jp/development/ichiran.html" target="_blank">国土地理院</a>（写真）'});
-  carto.addTo(map);
-  const layers = {simple: carto, gsi: gsiStd, photo: gsiPhoto};
+  gsiPale.addTo(map);
+  const layers = {simple: gsiPale, gsi: gsiStd, photo: gsiPhoto};
   let current = 'simple';
   const box = document.createElement('div');
   box.className = 'baselayer-switch';
@@ -815,7 +818,7 @@ function tileLayerFor(map){
   });
   L.DomEvent.disableClickPropagation(box);
   L.DomEvent.disableScrollPropagation(box);
-  return carto;
+  return gsiPale;
 }
 function badgesHtml(f){
   let h = '';
