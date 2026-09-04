@@ -13,6 +13,7 @@ abstract: >-
   都道府県・市区町村等の公的一次資料に基づき、松本尚美が出典確認・分類・検証を
   行った。実装にはAIコーディングアシスタント（Claude Code）を使用した。
 license: CC-BY-NC-ND-4.0
+doi: 10.5281/zenodo.22004201
 repository-code: "https://github.com/kodomo-sp-labo/kodomo-map"
 url: "https://kodomo-sp-labo.github.io/kodomo-map/"
 keywords:
@@ -22,4 +23,4 @@ keywords:
   - 社会的処方
   - 子育て支援
   - オープンデータ
-date-released: 2026-08-18
+date-released: 2026-09-05
