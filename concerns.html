@@ -41,6 +41,8 @@
   .urg-critical .urg,.urg-high .urg{color:var(--warm)}
   .urg-critical{border-left:4px solid var(--warm)}
   .urg-high{border-left:4px solid var(--warm)}
+  .fallback-note{margin-top:28px;padding:14px 16px;background:var(--panel);border:1px solid var(--line);border-radius:10px;font-size:.85rem;color:var(--sub);line-height:1.7}
+  .fallback-note a{font-weight:700}
 
   /* ---- 結果画面 ---- */
   #result{margin-top:24px}
@@ -204,6 +206,15 @@
       });
       html += '</div></section>';
     });
+    const fallbackId = DATA.meta && DATA.meta.fallback_hotline_id;
+    const fh = fallbackId ? findById(DATA.hotlines, fallbackId) : null;
+    if(fh){
+      html += '<section class="fallback-note"><p>当てはまるものがないとき・お子さん本人が自分で相談先を探したいときは<br>'
+        + (fh.url
+          ? '<a href="' + escHtml(fh.url) + '" target="_blank" rel="noopener">' + escHtml(fh.name) + '</a>'
+          : escHtml(fh.name))
+        + '</p></section>';
+    }
     listView.innerHTML = html;
     listView.querySelectorAll('.concern-btn').forEach(function(btn){
       btn.addEventListener('click', function(){ goToConcern(btn.dataset.id); });
@@ -245,9 +256,6 @@
     if(metaBits.length) body += '<div class="meta">' + escHtml(metaBits.join('・')) + '</div>';
     if(h.note) body += '<div class="note">' + escHtml(h.note) + '</div>';
     if(h.url) body += '<div class="note"><a href="' + escHtml(h.url) + '" target="_blank" rel="noopener">' + escHtml(h.name) + 'のサイトを見る</a></div>';
-    if(h.verify_required){
-      body += '<!-- verify_required: true（運営者確認用。この情報は未確認のため要再確認） -->';
-    }
     body += '</div>';
     return body;
   }

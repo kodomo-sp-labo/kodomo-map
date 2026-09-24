@@ -6,12 +6,14 @@
     "primary_audience": "supporter",
     "secondary_audience": "family",
     "generated": "2026-07-27",
+    "fallback_hotline_id": "h_kodomo_soudan_guide",
     "notes": [
       "本ファイルは骨格案です。公開前に hotlines の全項目と registries の格付けを一次情報で検証してください。",
       "verify_required: true の項目は未検証、または変動しやすい項目です。",
       "programs[].availability_jp は 2026年前半時点の概況であり、自治体単位の実施可否は別途 facilities 側の属性で管理します。",
       "concerns[]._needs_review を持つ項目は、画面には表示されない内部管理用のレビュー待ちフラグです。公開前に内容の医学的・専門的妥当性を確認し、確認後はこのフィールドごと削除してください。該当するconcernは固定されないため、件数・idはこの注記に書かず、実データを grep して確認すること。",
-      "concerns[].supporter_sources は支援者モードでのみ画面に表示される出典リストです。公的機関・学会等の一次資料に限り、URLは掲載時点で到達可能であることを確認したものだけを載せてください（2026-07-28に全URLの到達確認を実施）。"
+      "concerns[].supporter_sources は支援者モードでのみ画面に表示される出典リストです。公的機関・学会等の一次資料に限り、URLは掲載時点で到達可能であることを確認したものだけを載せてください（2026-07-28に全URLの到達確認を実施）。",
+      "meta.fallback_hotline_id は、困りごと一覧の末尾に「当てはまるものがないとき」の受け皿として表示する hotlines[] の id。名称・URLは hotlines 側から引く。"
     ],
     "audience_modes": {
       "supporter": "エビデンス・認定・適応/除外・待機情報を展開表示。既定モード。",
@@ -220,6 +222,15 @@
       "url": "https://www.gender.go.jp/policy/no_violence/dv_navi/index.html",
       "note": "発信地から最寄りの都道府県配偶者暴力相談支援センターに自動転送される。通話料は利用者負担。回線種別（一部のIP電話等）によりつながらない場合がある。",
       "verify_required": true
+    },
+    {
+      "id": "h_kodomo_soudan_guide",
+      "name": "こども相談ガイド（こども家庭庁）",
+      "tel": null,
+      "channel": "Web（質問に答えて相談先をさがす）",
+      "note": "こども・若者本人、友だちのことで相談したい人、保護者・家族のいずれでも使える案内サイト。いくつかの質問に答えると、チャット・電話・対面の中から自分に合った相談先が表示されます。",
+      "url": "https://www.bridge.cfa.go.jp/",
+      "verify_required": true
     }
   ],
   "concerns": [
@@ -231,7 +242,8 @@
       "urgency": "low",
       "safety_first": [
         "h_sos24",
-        "h_kodomo_katei_center"
+        "h_kodomo_katei_center",
+        "h_kodomo_soudan_guide"
       ],
       "family_note": "学校に行きたがらない、行けないのは、お子さん自身の困りごとのサインです。不登校は誰にでも起こり得ることで（文部科学省「COCOLOプラン」）、まずはフリースクール等の行き先を急いで決めるのではなく、何につまずいているのか（勉強、友人関係、感覚の敏感さ、家庭の事情など）を、担任の先生やスクールカウンセラー、スクールソーシャルワーカー、教育支援センターの相談員と一緒に整理することから始めてください。学校には来られても自分の教室には入りにくい場合、校内に居場所（スペシャルサポートルーム等）を用意している学校もあります。教育支援センターやフリースクールは、その整理をした先に見えてくる選択肢の一つであり、最初から目指す「正解」ではありません。出席の扱いは学校・教育委員会が判断しますので、保護者が一人で抱える必要はありません。同じ立場の保護者同士で話せる「親の会」も助けになります。",
       "map_layers": [
@@ -294,7 +306,8 @@
       "group": "学びと居場所",
       "urgency": "low",
       "safety_first": [
-        "h_kodomo_katei_center"
+        "h_kodomo_katei_center",
+        "h_kodomo_soudan_guide"
       ],
       "map_layers": [
         {
@@ -358,7 +371,8 @@
       "safety_first": [
         "h_sos24",
         "h_jinken110",
-        "h_childline"
+        "h_childline",
+        "h_kodomo_soudan_guide"
       ],
       "family_note": "お子さんが友だち関係や学校生活のことで心身に変化が出ている場合、「いじめ」という言葉を使わなくても、学校に相談すればその時点で正式な対応（重大事態としての報告・調査）が始まります。学校が最初は深刻ではないと考えていても、保護者や本人からの申し出があれば、その扱いは変わります。まずは何が起きていて、お子さんが何に困っているのか（クラスや部活動での関係、SNS、勉強のつまずき、家庭の事情など）を、担任の先生やスクールカウンセラー、スクールソーシャルワーカーと一緒に整理してください。対応するのは担任一人ではなく、学校に必ず置かれている「いじめ対策組織」というチームです。調査の進め方について、結果を外部に公表しない等、ご家族の意向に配慮しながら進めることができます。ただし、大ごとにしたくないという気持ちがあっても、学校が対応をやめてよいことにはなりません。ご家族の意向は伝えつつ、対応自体は止めないでほしいと伝えてよいところです。学校外に相談したいときは、24時間子供SOSダイヤルや、法務省のこどもの人権110番も使えます。",
       "map_layers": [
@@ -1002,7 +1016,8 @@
       "urgency": "low",
       "safety_first": [
         "h_yorisoi",
-        "h_kodomo_katei_center"
+        "h_kodomo_katei_center",
+        "h_kodomo_soudan_guide"
       ],
       "map_layers": [
         {
@@ -1358,7 +1373,8 @@
         "h_childline",
         "h_oyako_line",
         "h_jiso_soudan",
-        "h_189"
+        "h_189",
+        "h_kodomo_soudan_guide"
       ],
       "map_layers": [
         {
@@ -1538,7 +1554,8 @@
       "group": "発達",
       "urgency": "low",
       "safety_first": [
-        "h_hattatsu_center"
+        "h_hattatsu_center",
+        "h_kodomo_soudan_guide"
       ],
       "map_layers": [
         {
