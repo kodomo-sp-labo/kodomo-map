@@ -268,7 +268,8 @@
     } else if(h.note){
       body += '<div class="note">' + escHtml(h.note) + '</div>';
     }
-    if(h.url) body += '<div class="note"><a href="' + escHtml(h.url) + '" target="_blank" rel="noopener">' + escHtml(h.name) + 'のサイトを見る</a></div>';
+    // url_label: リンク先が窓口そのもののサイトでない場合（国の説明ページ・全国一覧など）に、行き先が分かる文言を指定する。
+    if(h.url) body += '<div class="note"><a href="' + escHtml(h.url) + '" target="_blank" rel="noopener">' + escHtml(h.url_label || (h.name + 'のサイトを見る')) + '</a></div>';
     body += '</div>';
     return body;
   }
