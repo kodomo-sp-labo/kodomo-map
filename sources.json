@@ -95,7 +95,7 @@
       "as_of": "2026年3月末時点",
       "tier": "A",
       "discovery_query": "WAM NET 障害福祉サービス等情報公表システム オープンデータ",
-      "notes": "サービス種別コード63〜67（児童発達支援／医療型児童発達支援／放課後等デイサービス／居宅訪問型児童発達支援／保育所等訪問支援）を抽出。緯度経度はCSVに標準搭載（全国28,528件、欠損0）。一覧ページURLは2026-07-26に実在を再確認。",
+      "notes": "サービス種別コード63〜67（児童発達支援／医療型児童発達支援／放課後等デイサービス／居宅訪問型児童発達支援／保育所等訪問支援）を抽出。緯度経度はCSVに標準搭載（全国28,528件、欠損0）。一覧ページURLは2026-07-26に実在を再確認。2026-09-28、コード70（障害児相談支援、2026年3月末時点・同じ一覧ページ）を追加で抽出（datasets.shogaiji_sodan）。",
       "license": "WAM NET オープンデータ（出典明記を条件に加工・二次加工可）",
       "license_url": "https://www.wam.go.jp/content/wamnet/pcpub/top/sfkopendata/",
       "credit": true,
@@ -2275,6 +2275,22 @@
       "last_checked": "2026-07-24",
       "monitor": false,
       "notes": "岡山県の379件は県資料とも突合済みで pref_pdf / pref_list_src / pref_list_checked を併せ持つ。"
+    },
+    "shogaiji_sodan": {
+      "label": "⑤発達（障害児相談支援）",
+      "files": "data/*/shogaiji_sodan.json",
+      "record_src": {
+        "default": "wamnet"
+      },
+      "fallback_src": "wamnet",
+      "geo_sources": [
+        "wamnet",
+        "gsi_geocode"
+      ],
+      "last_count": 9819,
+      "last_checked": "2026-09-28",
+      "monitor": false,
+      "notes": "WAMNETコード70を メモ等/add_wamnet_shogaiji_sodan.py で変換（9,856行→9,819件）。事業所番号の重複は、県と市の登録が重なるものは市を採用（中核市・指定都市の事業所は市が公表する制度のため）、同じ場所は統合、同じ法人の別の場所（4件）は両方掲載。座標は全件を国土地理院逆ジオコーダで住所の市区町村と照合し、不一致27件のうち15件は住所検索の点から300m以内（境界付近）のためWAMNET座標を維持、12件は住所検索の点に置き換え（prec=town、geo=gsi）。番地の記載がない83件は prec=area。特記事項に「休止中」とある2件は status=休止中 で掲載。指定機関と住所の県が違う2件は住所の県に掲載。詳細は メモ等/作業記録/2026-09-28_⑤に障害児相談支援事業所を追加する検討.md。"
     },
     "kyoten": {
       "label": "④親家族（地域子育て支援拠点）",
