@@ -93,6 +93,10 @@
   .title-family{display:none}
   body.mode-family .title-family{display:inline}
   body.mode-family .title-supporter{display:none}
+  /* 窓口の説明文（note / note_family）の出し分け。renderHotline参照。 */
+  .note-family{display:none}
+  body.mode-family .note-family{display:block}
+  body.mode-family .note-supporter{display:none}
   .badge{display:inline-block;font-size:.66rem;font-weight:700;color:#fff;background:var(--c1);border-radius:3px;padding:1px 6px;margin-right:4px}
 
   /* ---- DV離脱ボタン ---- */
@@ -119,6 +123,8 @@
     /* 印刷直前の画面モードに関わらず、困りごと名は必ずfamilyラベルを出す */
     .title-supporter{ display:none !important; }
     .title-family{ display:inline !important; }
+    .note-supporter{ display:none !important; }
+    .note-family{ display:block !important; }
     /* 画面のボタンは印刷では押せないため隠し、代わりにQRコードとURL文字列を出す */
     .layer-link{ display:none !important; }
     .qr-print{ display:flex !important; flex-direction:column; align-items:flex-start; gap:4px; }
@@ -254,7 +260,14 @@
     if(h.free) metaBits.push('無料');
     if(h.anonymous) metaBits.push('匿名可');
     if(metaBits.length) body += '<div class="meta">' + escHtml(metaBits.join('・')) + '</div>';
-    if(h.note) body += '<div class="note">' + escHtml(h.note) + '</div>';
+    // note は支援者向けの説明（「地図③レイヤと連動」等を含む）。保護者向けの言い方が必要な窓口は
+    // note_family を持ち、画面の表示モードで出し分ける。印刷は保護者向けを出す（@media print）。
+    if(h.note_family){
+      if(h.note) body += '<div class="note note-supporter">' + escHtml(h.note) + '</div>';
+      body += '<div class="note note-family">' + escHtml(h.note_family) + '</div>';
+    } else if(h.note){
+      body += '<div class="note">' + escHtml(h.note) + '</div>';
+    }
     if(h.url) body += '<div class="note"><a href="' + escHtml(h.url) + '" target="_blank" rel="noopener">' + escHtml(h.name) + 'のサイトを見る</a></div>';
     body += '</div>';
     return body;
