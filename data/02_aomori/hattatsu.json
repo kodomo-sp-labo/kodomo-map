@@ -13,7 +13,8 @@
 "lat": 40.5045656,
 "lng": 141.51936756,
 "prec": "address",
-"src": "wamnet"
+"src": "wamnet",
+"facility_id": "0250360054"
 },
 {
 "n": "きゃんばす",
@@ -29,7 +30,8 @@
 "lat": 40.82710486,
 "lng": 140.78397521,
 "prec": "address",
-"src": "wamnet"
+"src": "wamnet",
+"facility_id": "0250161353"
 },
 {
 "n": "サクラサクいしえ",
@@ -44,7 +46,8 @@
 "lat": 40.82643967,
 "lng": 140.69869488,
 "prec": "address",
-"src": "wamnet"
+"src": "wamnet",
+"facility_id": "0250161494"
 },
 {
 "n": "クラスルームなないろ",
@@ -60,7 +63,8 @@
 "lat": 40.80749818,
 "lng": 140.7614224,
 "prec": "address",
-"src": "wamnet"
+"src": "wamnet",
+"facility_id": "0250161403"
 },
 {
 "n": "すくすくハッピーランド",
@@ -75,7 +79,8 @@
 "lat": 40.80433954,
 "lng": 140.73322448,
 "prec": "address",
-"src": "wamnet"
+"src": "wamnet",
+"facility_id": "0250161692"
 },
 {
 "n": "児童発達支援　ぱぷりか",
@@ -90,7 +95,8 @@
 "lat": 40.83383062,
 "lng": 140.70979955,
 "prec": "address",
-"src": "wamnet"
+"src": "wamnet",
+"facility_id": "0250161437"
 },
 {
 "n": "こどもプラス　青森東教室",
@@ -106,7 +112,8 @@
 "lat": 40.82600997,
 "lng": 140.76238578,
 "prec": "address",
-"src": "wamnet"
+"src": "wamnet",
+"facility_id": "0250161387"
 },
 {
 "n": "こどもプラス　青森西教室",
@@ -122,7 +129,8 @@
 "lat": 40.80841931,
 "lng": 140.70536476,
 "prec": "address",
-"src": "wamnet"
+"src": "wamnet",
+"facility_id": "0250161536"
 },
 {
 "n": "放課後等デイサービス　きらら篠田",
@@ -137,7 +145,8 @@
 "lat": 40.82728978,
 "lng": 140.72455462,
 "prec": "address",
-"src": "wamnet"
+"src": "wamnet",
+"facility_id": "0250161361"
 },
 {
 "n": "KidsStudioねこのて",
@@ -153,7 +162,8 @@
 "lat": 40.82637152,
 "lng": 140.78056725,
 "prec": "address",
-"src": "wamnet"
+"src": "wamnet",
+"facility_id": "0250161551"
 },
 {
 "n": "児童発達支援・放課後等デイサービス　アトリエさくら",
@@ -169,7 +179,24 @@
 "lat": 40.80928609,
 "lng": 140.72158606,
 "prec": "address",
-"src": "wamnet"
+"src": "wamnet",
+"facility_id": "0250161510"
+},
+{
+"n": "児童発達支援・放課後等デイサービス　スタジオさくら",
+"a": "青森県青森市浪館平岡120-3",
+"t": "017-753-2190",
+"c": "",
+"cat": [
+"jidou_hattatsu",
+"hokago_day"
+],
+"area": "青森県青森市",
+"lat": 40.80791113,
+"lng": 140.71295604,
+"prec": "address",
+"src": "wamnet",
+"facility_id": "0250161510"
 },
 {
 "n": "サポートハウスミライエ",
@@ -183,7 +210,8 @@
 "lat": 40.82788136,
 "lng": 140.72154641,
 "prec": "address",
-"src": "wamnet"
+"src": "wamnet",
+"facility_id": "0250161569"
 },
 {
 "n": "児童発達支援・放課後等デイサービス　レアリサルあっぷ",
@@ -199,7 +227,8 @@
 "lat": 40.81136971,
 "lng": 140.75168422,
 "prec": "address",
-"src": "wamnet"
+"src": "wamnet",
+"facility_id": "0250161585"
 },
 {
 "n": "児童発達支援・放課後等デイサービスゆい",
@@ -214,7 +243,8 @@
 "lat": 40.82161864,
 "lng": 140.75622821,
 "prec": "address",
-"src": "wamnet"
+"src": "wamnet",
+"facility_id": "0250161684"
 },
 {
 "n": "サポートてらす",
@@ -230,7 +260,8 @@
 "lat": 40.80034265,
 "lng": 140.72813882,
 "prec": "address",
-"src": "wamnet"
+"src": "wamnet",
+"facility_id": "0250161635"
 },
 {
 "n": "サポートてらすＴＯ",
@@ -245,7 +276,8 @@
 "lat": 40.80849451,
 "lng": 140.72246383,
 "prec": "address",
-"src": "wamnet"
+"src": "wamnet",
+"facility_id": "0250161718"
 },
 {
 "n": "サポートてらすＳＵＮ",
@@ -259,7 +291,8 @@
 "lat": 40.81103314,
 "lng": 140.72213596,
 "prec": "address",
-"src": "wamnet"
+"src": "wamnet",
+"facility_id": "0250161783"
 },
 {
 "n": "ここふくプラス",
@@ -274,7 +307,8 @@
 "lat": 40.70649521,
 "lng": 140.56636164,
 "prec": "address",
-"src": "wamnet"
+"src": "wamnet",
+"facility_id": "0250161650"
 },
 {
 "n": "ハッピールームくるみ",
@@ -289,7 +323,8 @@
 "lat": 40.82621234,
 "lng": 140.74276206,
 "prec": "address",
-"src": "wamnet"
+"src": "wamnet",
+"facility_id": "0250161676"
 },
 {
 "n": "こどもサポートみらい",
@@ -304,7 +339,8 @@
 "lat": 40.6390154,
 "lng": 140.59002898,
 "prec": "address",
-"src": "wamnet"
+"src": "wamnet",
+"facility_id": "0250561842"
 },
 {
 "n": "フルーツポンチ",
@@ -319,7 +355,8 @@
 "lat": 40.71342576,
 "lng": 140.58612957,
 "prec": "address",
-"src": "wamnet"
+"src": "wamnet",
+"facility_id": "0250161734"
 },
 {
 "n": "児童発達支援・放課後等デイサービスレアリサルあっぷ２",
@@ -333,7 +370,8 @@
 "lat": 40.79206663,
 "lng": 140.76278349,
 "prec": "address",
-"src": "wamnet"
+"src": "wamnet",
+"facility_id": "0250161759"
 },
 {
 "n": "青森県立さわらび療育福祉センター",
@@ -348,7 +386,8 @@
 "lat": 40.66226476,
 "lng": 140.37920856,
 "prec": "address",
-"src": "wamnet"
+"src": "wamnet",
+"facility_id": "0250260700"
 },
 {
 "n": "弘前大清水学園",
@@ -363,7 +402,8 @@
 "lat": 40.57861595,
 "lng": 140.48985786,
 "prec": "address",
-"src": "wamnet"
+"src": "wamnet",
+"facility_id": "0250220019"
 },
 {
 "n": "独立行政法人国立病院機構青森病院",
@@ -378,7 +418,8 @@
 "lat": 40.71003115,
 "lng": 140.57181405,
 "prec": "address",
-"src": "wamnet"
+"src": "wamnet",
+"facility_id": "0250160025"
 },
 {
 "n": "児童発達支援・放課後等デイサービスななき",
@@ -393,7 +434,8 @@
 "lat": 40.8114113,
 "lng": 140.74834279,
 "prec": "address",
-"src": "wamnet"
+"src": "wamnet",
+"facility_id": "0250161627"
 },
 {
 "n": "藤児童発達支援センターくれよんはうす",
@@ -408,7 +450,8 @@
 "lat": 40.81359755,
 "lng": 140.76432211,
 "prec": "address",
-"src": "wamnet"
+"src": "wamnet",
+"facility_id": "0250120045"
 },
 {
 "n": "児童発達支援センターやまぶき園",
@@ -424,7 +467,8 @@
 "lat": 40.73951699,
 "lng": 140.78194221,
 "prec": "address",
-"src": "wamnet"
+"src": "wamnet",
+"facility_id": "0250120037"
 },
 {
 "n": "キッズサポートあるふぁ",
@@ -438,7 +482,8 @@
 "lat": 40.80967328,
 "lng": 140.77375738,
 "prec": "address",
-"src": "wamnet"
+"src": "wamnet",
+"facility_id": "0250160082"
 },
 {
 "n": "ゆうきっず　ぴあ",
@@ -453,7 +498,8 @@
 "lat": 40.81915504,
 "lng": 140.75747828,
 "prec": "address",
-"src": "wamnet"
+"src": "wamnet",
+"facility_id": "0250160819"
 },
 {
 "n": "もみの木ＭＩＲＡＩ",
@@ -468,7 +514,8 @@
 "lat": 40.82367064,
 "lng": 140.71218037,
 "prec": "address",
-"src": "wamnet"
+"src": "wamnet",
+"facility_id": "0250161106"
 },
 {
 "n": "エジソンキッズ青森東",
@@ -483,7 +530,8 @@
 "lat": 40.82932688,
 "lng": 140.78599435,
 "prec": "address",
-"src": "wamnet"
+"src": "wamnet",
+"facility_id": "0250161445"
 },
 {
 "n": "エジソンキッズ青森西",
@@ -498,7 +546,8 @@
 "lat": 40.83275208,
 "lng": 140.67627727,
 "prec": "address",
-"src": "wamnet"
+"src": "wamnet",
+"facility_id": "0250161114"
 },
 {
 "n": "放課後等デイサービスきらら佃",
@@ -513,7 +562,8 @@
 "lat": 40.82084153,
 "lng": 140.77784832,
 "prec": "address",
-"src": "wamnet"
+"src": "wamnet",
+"facility_id": "0250161163"
 },
 {
 "n": "Eat in by きらら",
@@ -528,7 +578,8 @@
 "lat": 40.80008492,
 "lng": 140.75342863,
 "prec": "address",
-"src": "wamnet"
+"src": "wamnet",
+"facility_id": "0250161429"
 },
 {
 "n": "Eat　in　by　きらら　虹ヶ丘",
@@ -543,7 +594,8 @@
 "lat": 40.81084311,
 "lng": 140.79396651,
 "prec": "address",
-"src": "wamnet"
+"src": "wamnet",
+"facility_id": "0250161502"
 },
 {
 "n": "レスパイトハウスＫＯＫＯ",
@@ -557,7 +609,8 @@
 "lat": 40.8239095,
 "lng": 140.71071932,
 "prec": "address",
-"src": "wamnet"
+"src": "wamnet",
+"facility_id": "0250161452"
 },
 {
 "n": "ビリーブ児童デイサービス青森東",
@@ -572,7 +625,8 @@
 "lat": 40.82623534,
 "lng": 140.7772065,
 "prec": "address",
-"src": "wamnet"
+"src": "wamnet",
+"facility_id": "0250261031"
 },
 {
 "n": "発達支援クラム",
@@ -587,7 +641,8 @@
 "lat": 40.61377874,
 "lng": 140.48521704,
 "prec": "address",
-"src": "wamnet"
+"src": "wamnet",
+"facility_id": "0250261328"
 },
 {
 "n": "向日葵児童発達支援鳥井野事業所",
@@ -601,7 +656,8 @@
 "lat": 40.594734,
 "lng": 140.41071249,
 "prec": "address",
-"src": "wamnet"
+"src": "wamnet",
+"facility_id": "0250261542"
 },
 {
 "n": "多機能型事業所ルアナ御幸町",
@@ -618,7 +674,8 @@
 "lat": 40.59430277,
 "lng": 140.47458561,
 "prec": "address",
-"src": "wamnet"
+"src": "wamnet",
+"facility_id": "0250261575"
 },
 {
 "n": "多機能型事業所　ルアナ大開",
@@ -634,7 +691,8 @@
 "lat": 40.5783092,
 "lng": 140.44511339,
 "prec": "address",
-"src": "wamnet"
+"src": "wamnet",
+"facility_id": "0250261807"
 },
 {
 "n": "児童発達支援室「麒麟児」",
@@ -648,7 +706,8 @@
 "lat": 40.60083341,
 "lng": 140.49495888,
 "prec": "address",
-"src": "wamnet"
+"src": "wamnet",
+"facility_id": "0250261674"
 },
 {
 "n": "One Smile",
@@ -663,7 +722,8 @@
 "lat": 40.60464344,
 "lng": 140.47753195,
 "prec": "address",
-"src": "wamnet"
+"src": "wamnet",
+"facility_id": "0250261799"
 },
 {
 "n": "こどもサポート　めでる",
@@ -677,7 +737,8 @@
 "lat": 40.60196437,
 "lng": 140.50607158,
 "prec": "address",
-"src": "wamnet"
+"src": "wamnet",
+"facility_id": "0250200045"
 },
 {
 "n": "こども発達サポート花花",
@@ -691,7 +752,8 @@
 "lat": 40.58459825,
 "lng": 140.47675281,
 "prec": "address",
-"src": "wamnet"
+"src": "wamnet",
+"facility_id": "0250261955"
 },
 {
 "n": "児童発達支援センターはぁと",
@@ -707,7 +769,8 @@
 "lat": 40.60980014,
 "lng": 140.44128673,
 "prec": "address",
-"src": "wamnet"
+"src": "wamnet",
+"facility_id": "0250220050"
 },
 {
 "n": "児童発達支援センター花りんご",
@@ -723,7 +786,8 @@
 "lat": 40.62671163,
 "lng": 140.5947182,
 "prec": "address",
-"src": "wamnet"
+"src": "wamnet",
+"facility_id": "0250520079"
 },
 {
 "n": "運動学習支援教室ココノバ弘前校",
@@ -738,7 +802,8 @@
 "lat": 40.60677368,
 "lng": 140.4749597,
 "prec": "address",
-"src": "wamnet"
+"src": "wamnet",
+"facility_id": "0250261021"
 },
 {
 "n": "音楽療育支援教室どれみの森",
@@ -753,7 +818,8 @@
 "lat": 40.61976634,
 "lng": 140.46128436,
 "prec": "address",
-"src": "wamnet"
+"src": "wamnet",
+"facility_id": "0250261336"
 },
 {
 "n": "児童発達支援・放課後等デイサービス　三葉",
@@ -768,7 +834,8 @@
 "lat": 40.54859109,
 "lng": 140.46144962,
 "prec": "address",
-"src": "wamnet"
+"src": "wamnet",
+"facility_id": "0250200037"
 },
 {
 "n": "放課後等デイサービスみわん",
@@ -783,7 +850,8 @@
 "lat": 40.61280886,
 "lng": 140.46514306,
 "prec": "address",
-"src": "wamnet"
+"src": "wamnet",
+"facility_id": "0250261922"
 },
 {
 "n": "弘前草右会児童発達支援事業所おひさま",
@@ -797,7 +865,8 @@
 "lat": 40.61949398,
 "lng": 140.45471541,
 "prec": "address",
-"src": "wamnet"
+"src": "wamnet",
+"facility_id": "0250261971"
 },
 {
 "n": "幼児発達支援センター大空",
@@ -812,7 +881,8 @@
 "lat": 40.5803563,
 "lng": 140.44809638,
 "prec": "address",
-"src": "wamnet"
+"src": "wamnet",
+"facility_id": "0250220084"
 },
 {
 "n": "こどもサポートｋｉｎｏｎｅ",
@@ -827,7 +897,8 @@
 "lat": 40.62865408,
 "lng": 140.46188663,
 "prec": "address",
-"src": "wamnet"
+"src": "wamnet",
+"facility_id": "0250261005"
 },
 {
 "n": "あるふぁきっず",
@@ -841,7 +912,8 @@
 "lat": 40.5199359,
 "lng": 141.51979193,
 "prec": "address",
-"src": "wamnet"
+"src": "wamnet",
+"facility_id": "0250360468"
 },
 {
 "n": "子どもの多機能わらゆん",
@@ -856,7 +928,8 @@
 "lat": 40.5059243,
 "lng": 141.55006133,
 "prec": "address",
-"src": "wamnet"
+"src": "wamnet",
+"facility_id": "0250360161"
 },
 {
 "n": "多機能型事業所ミライエ類家",
@@ -871,7 +944,8 @@
 "lat": 40.48986733,
 "lng": 141.51354391,
 "prec": "address",
-"src": "wamnet"
+"src": "wamnet",
+"facility_id": "0250360153"
 },
 {
 "n": "多機能型事業所リハステーションコウノトリ",
@@ -888,7 +962,8 @@
 "lat": 40.50307901,
 "lng": 141.47672223,
 "prec": "address",
-"src": "wamnet"
+"src": "wamnet",
+"facility_id": "0250360070"
 },
 {
 "n": "多機能型事業所リハステーション　コウノトリ２",
@@ -905,7 +980,8 @@
 "lat": 40.50886688,
 "lng": 141.46716465,
 "prec": "address",
-"src": "wamnet"
+"src": "wamnet",
+"facility_id": "0250360344"
 },
 {
 "n": "多機能型事業所リハステーション　コウノトリまほろば園",
@@ -922,7 +998,8 @@
 "lat": 40.50937808,
 "lng": 141.47550544,
 "prec": "address",
-"src": "wamnet"
+"src": "wamnet",
+"facility_id": "0250360419"
 },
 {
 "n": "多機能型事業所リハステーション　コウノトリ城下",
@@ -938,7 +1015,8 @@
 "lat": 40.52165451,
 "lng": 141.49158649,
 "prec": "address",
-"src": "wamnet"
+"src": "wamnet",
+"facility_id": "0250360443"
 },
 {
 "n": "多機能型事業所　はぁぐみ〜ききょうの",
@@ -954,7 +1032,8 @@
 "lat": 40.5626292,
 "lng": 141.45130636,
 "prec": "address",
-"src": "wamnet"
+"src": "wamnet",
+"facility_id": "0250360179"
 },
 {
 "n": "リハケアハウスメデル",
@@ -969,7 +1048,8 @@
 "lat": 40.49404524,
 "lng": 141.55000896,
 "prec": "address",
-"src": "wamnet"
+"src": "wamnet",
+"facility_id": "0250360906"
 },
 {
 "n": "桂堂学園",
@@ -984,7 +1064,8 @@
 "lat": 40.50142726,
 "lng": 141.52913887,
 "prec": "address",
-"src": "wamnet"
+"src": "wamnet",
+"facility_id": "0250320025"
 },
 {
 "n": "こども発達支援センター虹",
@@ -999,7 +1080,8 @@
 "lat": 40.48640321,
 "lng": 141.47141231,
 "prec": "address",
-"src": "wamnet"
+"src": "wamnet",
+"facility_id": "0250320041"
 },
 {
 "n": "多機能型事業所＋１【柏崎】",
@@ -1014,7 +1096,8 @@
 "lat": 40.51345591,
 "lng": 141.50745155,
 "prec": "address",
-"src": "wamnet"
+"src": "wamnet",
+"facility_id": "0250360328"
 },
 {
 "n": "多機能型事業所＋１【諏訪】",
@@ -1029,7 +1112,8 @@
 "lat": 40.51139527,
 "lng": 141.51812568,
 "prec": "address",
-"src": "wamnet"
+"src": "wamnet",
+"facility_id": "0250360401"
 },
 {
 "n": "多機能型事業所＋１",
@@ -1045,7 +1129,8 @@
 "lat": 40.49134491,
 "lng": 141.51205793,
 "prec": "address",
-"src": "wamnet"
+"src": "wamnet",
+"facility_id": "0250360948"
 },
 {
 "n": "すまいるはうすぷち",
@@ -1059,7 +1144,8 @@
 "lat": 40.49948546,
 "lng": 141.50592485,
 "prec": "address",
-"src": "wamnet"
+"src": "wamnet",
+"facility_id": "0250360385"
 },
 {
 "n": "すまいるはうす",
@@ -1074,7 +1160,8 @@
 "lat": 40.50169077,
 "lng": 141.50783562,
 "prec": "address",
-"src": "wamnet"
+"src": "wamnet",
+"facility_id": "0250361243"
 },
 {
 "n": "こどもサポート〜くらら〜",
@@ -1089,7 +1176,8 @@
 "lat": 40.64503955,
 "lng": 140.58920655,
 "prec": "address",
-"src": "wamnet"
+"src": "wamnet",
+"facility_id": "0250561966"
 },
 {
 "n": "児童発達支援Canday",
@@ -1103,7 +1191,8 @@
 "lat": 40.6345995,
 "lng": 140.59627597,
 "prec": "address",
-"src": "wamnet"
+"src": "wamnet",
+"facility_id": "0250561933"
 },
 {
 "n": "児童発達支援センターびーた",
@@ -1119,7 +1208,8 @@
 "lat": 40.81966401,
 "lng": 140.44136394,
 "prec": "address",
-"src": "wamnet"
+"src": "wamnet",
+"facility_id": "0250420114"
 },
 {
 "n": "Nicoriきっず",
@@ -1134,7 +1224,8 @@
 "lat": 40.78835991,
 "lng": 140.46100833,
 "prec": "address",
-"src": "wamnet"
+"src": "wamnet",
+"facility_id": "0250461183"
 },
 {
 "n": "児童デイサービスいとかの杜",
@@ -1149,7 +1240,8 @@
 "lat": 40.81058741,
 "lng": 140.44439463,
 "prec": "address",
-"src": "wamnet"
+"src": "wamnet",
+"facility_id": "0250461639"
 },
 {
 "n": "ラ・シュシュ",
@@ -1164,7 +1256,8 @@
 "lat": 40.79020458,
 "lng": 140.48242049,
 "prec": "address",
-"src": "wamnet"
+"src": "wamnet",
+"facility_id": "0250460342"
 },
 {
 "n": "児童デイサービス八晃園",
@@ -1179,7 +1272,8 @@
 "lat": 40.79382601,
 "lng": 140.46485218,
 "prec": "address",
-"src": "wamnet"
+"src": "wamnet",
+"facility_id": "0250460334"
 },
 {
 "n": "La.Ohana",
@@ -1194,7 +1288,8 @@
 "lat": 40.80775724,
 "lng": 140.44606962,
 "prec": "address",
-"src": "wamnet"
+"src": "wamnet",
+"facility_id": "0250461605"
 },
 {
 "n": "ふぅし",
@@ -1210,7 +1305,8 @@
 "lat": 40.8134926,
 "lng": 140.44405008,
 "prec": "address",
-"src": "wamnet"
+"src": "wamnet",
+"facility_id": "0250461019"
 },
 {
 "n": "こどもの家めいぷる",
@@ -1225,7 +1321,8 @@
 "lat": 40.79879484,
 "lng": 140.46468803,
 "prec": "address",
-"src": "wamnet"
+"src": "wamnet",
+"facility_id": "0250461134"
 },
 {
 "n": "だいじ",
@@ -1241,7 +1338,8 @@
 "lat": 40.61970199,
 "lng": 141.20556301,
 "prec": "address",
-"src": "wamnet"
+"src": "wamnet",
+"facility_id": "0250661444"
 },
 {
 "n": "こども発達支援センター　そだち",
@@ -1256,7 +1354,8 @@
 "lat": 40.62419943,
 "lng": 141.22618281,
 "prec": "address",
-"src": "wamnet"
+"src": "wamnet",
+"facility_id": "0250620135"
 },
 {
 "n": "児童発達支援センターハーモニー",
@@ -1271,7 +1370,8 @@
 "lat": 40.69382195,
 "lng": 141.38480436,
 "prec": "address",
-"src": "wamnet"
+"src": "wamnet",
+"facility_id": "0251561197"
 },
 {
 "n": "児童発達支援・放課後等デイサービス　どんぐりの森",
@@ -1286,7 +1386,8 @@
 "lat": 40.67281305,
 "lng": 141.41040025,
 "prec": "address",
-"src": "wamnet"
+"src": "wamnet",
+"facility_id": "0251561767"
 },
 {
 "n": "ひばり苑デイホスピスセンター",
@@ -1301,7 +1402,8 @@
 "lat": 40.68339804,
 "lng": 141.39186801,
 "prec": "address",
-"src": "wamnet"
+"src": "wamnet",
+"facility_id": "0251560793"
 },
 {
 "n": "児童発達支援のぞみ",
@@ -1316,7 +1418,8 @@
 "lat": 40.66206256,
 "lng": 141.34212874,
 "prec": "address",
-"src": "wamnet"
+"src": "wamnet",
+"facility_id": "0251760989"
 },
 {
 "n": "児童発達支援アルズ",
@@ -1331,7 +1434,8 @@
 "lat": 40.66087933,
 "lng": 141.34178159,
 "prec": "address",
-"src": "wamnet"
+"src": "wamnet",
+"facility_id": "0251761680"
 },
 {
 "n": "堀口発達支援センターひかり",
@@ -1346,7 +1450,8 @@
 "lat": 40.67061026,
 "lng": 141.3912436,
 "prec": "address",
-"src": "wamnet"
+"src": "wamnet",
+"facility_id": "0251561262"
 },
 {
 "n": "大町児童デイサービスセンターひかり",
@@ -1362,7 +1467,8 @@
 "lat": 40.67903943,
 "lng": 141.36159629,
 "prec": "address",
-"src": "wamnet"
+"src": "wamnet",
+"facility_id": "0251560520"
 },
 {
 "n": "緑ヶ丘発達支援センターひかり",
@@ -1377,7 +1483,8 @@
 "lat": 40.66590174,
 "lng": 141.36485476,
 "prec": "address",
-"src": "wamnet"
+"src": "wamnet",
+"facility_id": "0251760872"
 },
 {
 "n": "すたぁずりとる",
@@ -1392,7 +1499,8 @@
 "lat": 41.32643801,
 "lng": 141.21837918,
 "prec": "address",
-"src": "wamnet"
+"src": "wamnet",
+"facility_id": "0251660809"
 },
 {
 "n": "こども発達支援センターりりぃ",
@@ -1408,7 +1516,8 @@
 "lat": 41.28283826,
 "lng": 141.19271407,
 "prec": "address",
-"src": "wamnet"
+"src": "wamnet",
+"facility_id": "0251620100"
 },
 {
 "n": "多機能型事業所　ちゅうりっぷ",
@@ -1423,7 +1532,8 @@
 "lat": 41.24711782,
 "lng": 141.23850178,
 "prec": "address",
-"src": "wamnet"
+"src": "wamnet",
+"facility_id": "0251660759"
 },
 {
 "n": "児童発達支援事業所　こどもの森",
@@ -1437,7 +1547,8 @@
 "lat": 40.96648926,
 "lng": 140.36156537,
 "prec": "address",
-"src": "wamnet"
+"src": "wamnet",
+"facility_id": "0252061817"
 },
 {
 "n": "ステップアップセンターもりた",
@@ -1453,7 +1564,8 @@
 "lat": 40.76579709,
 "lng": 140.31876823,
 "prec": "address",
-"src": "wamnet"
+"src": "wamnet",
+"facility_id": "0252020128"
 },
 {
 "n": "こどもサポートMelody",
@@ -1469,7 +1581,8 @@
 "lat": 40.58236338,
 "lng": 140.56612256,
 "prec": "address",
-"src": "wamnet"
+"src": "wamnet",
+"facility_id": "0252161583"
 },
 {
 "n": "こどもサポートメロディ弘前田園",
@@ -1484,7 +1597,8 @@
 "lat": 40.6036698,
 "lng": 140.50741023,
 "prec": "address",
-"src": "wamnet"
+"src": "wamnet",
+"facility_id": "0250261757"
 },
 {
 "n": "こどもサポートMelody　早稲田",
@@ -1499,7 +1613,8 @@
 "lat": 40.60192288,
 "lng": 140.50959063,
 "prec": "address",
-"src": "wamnet"
+"src": "wamnet",
+"facility_id": "0250261856"
 },
 {
 "n": "こどもサポートMelody　黒石",
@@ -1514,7 +1629,8 @@
 "lat": 40.63389391,
 "lng": 140.59117639,
 "prec": "address",
-"src": "wamnet"
+"src": "wamnet",
+"facility_id": "0250561941"
 },
 {
 "n": "nico",
@@ -1530,7 +1646,8 @@
 "lat": 40.59511099,
 "lng": 140.53674661,
 "prec": "address",
-"src": "wamnet"
+"src": "wamnet",
+"facility_id": "0252120092"
 },
 {
 "n": "児童支援事業所Ｎｅｏ",
@@ -1546,7 +1663,24 @@
 "lat": 40.81247059,
 "lng": 140.78938356,
 "prec": "address",
-"src": "wamnet"
+"src": "wamnet",
+"facility_id": "0250161544"
+},
+{
+"n": "児童支援事業所ハピネス",
+"a": "青森県青森市浜館字見取26番地12",
+"t": "017-718-5785",
+"c": "10",
+"cat": [
+"jidou_hattatsu",
+"hokago_day"
+],
+"area": "青森県青森市",
+"lat": 40.80761562,
+"lng": 140.78936429,
+"prec": "address",
+"src": "wamnet",
+"facility_id": "0250161544"
 },
 {
 "n": "児童支援事業所　すまいりー",
@@ -1561,7 +1695,8 @@
 "lat": 40.91575176,
 "lng": 140.90602727,
 "prec": "address",
-"src": "wamnet"
+"src": "wamnet",
+"facility_id": "0250761871"
 },
 {
 "n": "児童通所支援事業所　アオイソラ",
@@ -1576,7 +1711,8 @@
 "lat": 40.92343041,
 "lng": 141.02198344,
 "prec": "address",
-"src": "wamnet"
+"src": "wamnet",
+"facility_id": "0250761889"
 },
 {
 "n": "児童デイサービス　あおねっと新青森",
@@ -1591,7 +1727,8 @@
 "lat": 40.83195548,
 "lng": 140.68960375,
 "prec": "address",
-"src": "wamnet"
+"src": "wamnet",
+"facility_id": "0250160041"
 },
 {
 "n": "児童デイサービス　あおねっと青森南",
@@ -1606,7 +1743,8 @@
 "lat": 40.78390677,
 "lng": 140.77734924,
 "prec": "address",
-"src": "wamnet"
+"src": "wamnet",
+"facility_id": "0250160769"
 },
 {
 "n": "児童発達支援事業所Koti",
@@ -1621,7 +1759,8 @@
 "lat": 40.73048724,
 "lng": 140.18708752,
 "prec": "address",
-"src": "wamnet"
+"src": "wamnet",
+"facility_id": "0250862000"
 },
 {
 "n": "こども発達支援toiro",
@@ -1637,7 +1776,8 @@
 "lat": 40.65442655,
 "lng": 140.50276342,
 "prec": "address",
-"src": "wamnet"
+"src": "wamnet",
+"facility_id": "0250961919"
 },
 {
 "n": "ひがしどおり児童発達支援事業所TAOTAO",
@@ -1652,7 +1792,8 @@
 "lat": 41.27517033,
 "lng": 141.33194138,
 "prec": "address",
-"src": "wamnet"
+"src": "wamnet",
+"facility_id": "0251461554"
 },
 {
 "n": "toi　toi　toi",
@@ -1666,7 +1807,8 @@
 "lat": 40.80068147,
 "lng": 140.72568341,
 "prec": "address",
-"src": "wamnet"
+"src": "wamnet",
+"facility_id": "0250161486"
 },
 {
 "n": "toi　toi　toi　2nd",
@@ -1681,7 +1823,8 @@
 "lat": 40.8038256,
 "lng": 140.72611381,
 "prec": "address",
-"src": "wamnet"
+"src": "wamnet",
+"facility_id": "0250161601"
 },
 {
 "n": "ミライク学園",
@@ -1697,7 +1840,8 @@
 "lat": 40.75425701,
 "lng": 140.43178456,
 "prec": "address",
-"src": "wamnet"
+"src": "wamnet",
+"facility_id": "0251061743"
 },
 {
 "n": "放課後等デイサービス児童発達支援フルーム",
@@ -1712,7 +1856,8 @@
 "lat": 40.8653686,
 "lng": 141.11054516,
 "prec": "address",
-"src": "wamnet"
+"src": "wamnet",
+"facility_id": "0251161345"
 },
 {
 "n": "城南児童発達支援センター",
@@ -1729,7 +1874,8 @@
 "lat": 40.69128857,
 "lng": 141.15387625,
 "prec": "address",
-"src": "wamnet"
+"src": "wamnet",
+"facility_id": "0251120143"
 },
 {
 "n": "WONDERWALL",
@@ -1745,7 +1891,8 @@
 "lat": 40.7233703,
 "lng": 141.10057351,
 "prec": "address",
-"src": "wamnet"
+"src": "wamnet",
+"facility_id": "0251160016"
 },
 {
 "n": "Root",
@@ -1760,7 +1907,8 @@
 "lat": 40.61119815,
 "lng": 141.33831733,
 "prec": "address",
-"src": "wamnet"
+"src": "wamnet",
+"facility_id": "0251761391"
 },
 {
 "n": "エイト",
@@ -1775,7 +1923,8 @@
 "lat": 40.7755643,
 "lng": 141.23511322,
 "prec": "address",
-"src": "wamnet"
+"src": "wamnet",
+"facility_id": "0251160719"
 },
 {
 "n": "スマイルはぁと",
@@ -1791,7 +1940,8 @@
 "lat": 40.65225309,
 "lng": 141.37078256,
 "prec": "address",
-"src": "wamnet"
+"src": "wamnet",
+"facility_id": "0251761466"
 },
 {
 "n": "スマイルはぁとセカンド",
@@ -1806,7 +1956,8 @@
 "lat": 40.65604993,
 "lng": 141.36906032,
 "prec": "address",
-"src": "wamnet"
+"src": "wamnet",
+"facility_id": "0251700027"
 },
 {
 "n": "学校法人臨研学舎　まなび舎りんけん",
@@ -1821,7 +1972,8 @@
 "lat": 40.53447758,
 "lng": 141.4796459,
 "prec": "address",
-"src": "wamnet"
+"src": "wamnet",
+"facility_id": "0250360112"
 },
 {
 "n": "ココカラ",
@@ -1836,7 +1988,8 @@
 "lat": 40.68802549,
 "lng": 141.39518693,
 "prec": "address",
-"src": "wamnet"
+"src": "wamnet",
+"facility_id": "0251561361"
 },
 {
 "n": "ネオナート",
@@ -1851,7 +2004,8 @@
 "lat": 40.4524883,
 "lng": 141.6208518,
 "prec": "address",
-"src": "wamnet"
+"src": "wamnet",
+"facility_id": "0251260998"
 },
 {
 "n": "ポコアポコ青森",
@@ -1866,7 +2020,8 @@
 "lat": 40.82997544,
 "lng": 140.69796697,
 "prec": "address",
-"src": "wamnet"
+"src": "wamnet",
+"facility_id": "0250161619"
 },
 {
 "n": "ポコアポコ緑ヶ丘",
@@ -1881,7 +2036,8 @@
 "lat": 40.58514223,
 "lng": 140.45990922,
 "prec": "address",
-"src": "wamnet"
+"src": "wamnet",
+"facility_id": "0250261781"
 },
 {
 "n": "ポコアポコ和徳",
@@ -1896,7 +2052,8 @@
 "lat": 40.6077377,
 "lng": 140.48275091,
 "prec": "address",
-"src": "wamnet"
+"src": "wamnet",
+"facility_id": "0250261773"
 },
 {
 "n": "ポコアポコ堅田",
@@ -1911,7 +2068,8 @@
 "lat": 40.6147785,
 "lng": 140.4820699,
 "prec": "address",
-"src": "wamnet"
+"src": "wamnet",
+"facility_id": "0250261823"
 },
 {
 "n": "こどもサポート教室「クラ・ゼミ」青森桂木校",
@@ -1926,7 +2084,8 @@
 "lat": 40.81154189,
 "lng": 140.75055097,
 "prec": "address",
-"src": "wamnet"
+"src": "wamnet",
+"facility_id": "0250161767"
 },
 {
 "n": "こどもサポート教室「クラ・ゼミ」青森篠田校",
@@ -1941,7 +2100,8 @@
 "lat": 40.8294368,
 "lng": 140.7279627,
 "prec": "address",
-"src": "wamnet"
+"src": "wamnet",
+"facility_id": "0250160884"
 },
 {
 "n": "こどもサポート教室「クラ・ゼミ」青森桜川校",
@@ -1956,7 +2116,8 @@
 "lat": 40.81150346,
 "lng": 140.768019,
 "prec": "address",
-"src": "wamnet"
+"src": "wamnet",
+"facility_id": "0250160934"
 },
 {
 "n": "こどもサポート教室「クラ・ゼミ」青森松原校",
@@ -1971,7 +2132,8 @@
 "lat": 40.81729428,
 "lng": 140.76246672,
 "prec": "address",
-"src": "wamnet"
+"src": "wamnet",
+"facility_id": "0250161098"
 },
 {
 "n": "青森県立あすなろ療育福祉センター",
@@ -1986,7 +2148,8 @@
 "lat": 40.82142904,
 "lng": 140.6982868,
 "prec": "address",
-"src": "wamnet"
+"src": "wamnet",
+"facility_id": "0250140019"
 },
 {
 "n": "青森県立はまなす医療療育センター",
@@ -2001,7 +2164,8 @@
 "lat": 40.49119592,
 "lng": 141.56401854,
 "prec": "address",
-"src": "wamnet"
+"src": "wamnet",
+"facility_id": "0250340023"
 },
 {
 "n": "ジョブアカデミー桜川",
@@ -2015,7 +2179,8 @@
 "lat": 40.8088511,
 "lng": 140.77199922,
 "prec": "address",
-"src": "wamnet"
+"src": "wamnet",
+"facility_id": "0250161312"
 },
 {
 "n": "放課後等デイサービスLove＆Smileもあ",
@@ -2029,7 +2194,8 @@
 "lat": 40.50564363,
 "lng": 141.54250943,
 "prec": "address",
-"src": "wamnet"
+"src": "wamnet",
+"facility_id": "0250360146"
 },
 {
 "n": "放課後等デイサービス　Love＆Smile　りやん",
@@ -2043,7 +2209,8 @@
 "lat": 40.50530479,
 "lng": 141.54257055,
 "prec": "address",
-"src": "wamnet"
+"src": "wamnet",
+"facility_id": "0250360427"
 },
 {
 "n": "放課後等デイサービス事業所　BLUE　PLAYS",
@@ -2057,7 +2224,8 @@
 "lat": 40.82786071,
 "lng": 140.79945139,
 "prec": "address",
-"src": "wamnet"
+"src": "wamnet",
+"facility_id": "0250161411"
 },
 {
 "n": "グランマ メリー",
@@ -2071,7 +2239,8 @@
 "lat": 40.80850573,
 "lng": 140.73155222,
 "prec": "address",
-"src": "wamnet"
+"src": "wamnet",
+"facility_id": "0250161460"
 },
 {
 "n": "放課後等デイサービスかがやき",
@@ -2085,7 +2254,8 @@
 "lat": 40.82966367,
 "lng": 140.67933814,
 "prec": "address",
-"src": "wamnet"
+"src": "wamnet",
+"facility_id": "0250161643"
 },
 {
 "n": "放課後デイGranny弘前",
@@ -2099,7 +2269,8 @@
 "lat": 40.58286762,
 "lng": 140.46594515,
 "prec": "address",
-"src": "wamnet"
+"src": "wamnet",
+"facility_id": "0250261526"
 },
 {
 "n": "放課後等デイサービス事業所やまびこクラブ",
@@ -2113,7 +2284,8 @@
 "lat": 40.58401562,
 "lng": 140.4941016,
 "prec": "address",
-"src": "wamnet"
+"src": "wamnet",
+"facility_id": "0250261344"
 },
 {
 "n": "放課後等デイサービス事業所やっほ〜クラブ",
@@ -2127,7 +2299,8 @@
 "lat": 40.57861595,
 "lng": 140.48985786,
 "prec": "address",
-"src": "wamnet"
+"src": "wamnet",
+"facility_id": "0250260106"
 },
 {
 "n": "HOWDAY　SUNマル",
@@ -2141,7 +2314,8 @@
 "lat": 40.81113011,
 "lng": 140.7025648,
 "prec": "address",
-"src": "wamnet"
+"src": "wamnet",
+"facility_id": "0250161775"
 },
 {
 "n": "放課後等デイサービス　まあむ　M′s",
@@ -2155,7 +2329,8 @@
 "lat": 40.80543138,
 "lng": 140.74737905,
 "prec": "address",
-"src": "wamnet"
+"src": "wamnet",
+"facility_id": "0250161395"
 },
 {
 "n": "放課後等デイサービスまあむＭ‘ｓつくだ",
@@ -2169,7 +2344,8 @@
 "lat": 40.81856694,
 "lng": 140.78333951,
 "prec": "address",
-"src": "wamnet"
+"src": "wamnet",
+"facility_id": "0250161577"
 },
 {
 "n": "デイサービスセンターすこやか",
@@ -2183,7 +2359,8 @@
 "lat": 40.80731183,
 "lng": 140.7511593,
 "prec": "address",
-"src": "wamnet"
+"src": "wamnet",
+"facility_id": "0250160090"
 },
 {
 "n": "チャレンジサポートすこやか",
@@ -2198,7 +2375,8 @@
 "lat": 40.81469496,
 "lng": 140.77557097,
 "prec": "address",
-"src": "wamnet"
+"src": "wamnet",
+"facility_id": "0250160843"
 },
 {
 "n": "ゆうきっずぴあ２",
@@ -2212,7 +2390,8 @@
 "lat": 40.82156973,
 "lng": 140.79779905,
 "prec": "address",
-"src": "wamnet"
+"src": "wamnet",
+"facility_id": "0250160959"
 },
 {
 "n": "放課後等デイサービスきらら筒井",
@@ -2226,7 +2405,8 @@
 "lat": 40.80537926,
 "lng": 140.77143543,
 "prec": "address",
-"src": "wamnet"
+"src": "wamnet",
+"facility_id": "0250161122"
 },
 {
 "n": "放課後等デイサービス　まあむ　あおば",
@@ -2240,7 +2420,8 @@
 "lat": 40.80521197,
 "lng": 140.74769292,
 "prec": "address",
-"src": "wamnet"
+"src": "wamnet",
+"facility_id": "0250161346"
 },
 {
 "n": "放課後等デイサービス　まあむ佃",
@@ -2254,7 +2435,8 @@
 "lat": 40.81832809,
 "lng": 140.78322008,
 "prec": "address",
-"src": "wamnet"
+"src": "wamnet",
+"facility_id": "0250161528"
 },
 {
 "n": "放課後等デイサービスまあむおおの",
@@ -2268,7 +2450,8 @@
 "lat": 40.80288684,
 "lng": 140.72818317,
 "prec": "address",
-"src": "wamnet"
+"src": "wamnet",
+"facility_id": "0250161700"
 },
 {
 "n": "放課後等デイサービス　まあむ",
@@ -2282,7 +2465,8 @@
 "lat": 40.82193236,
 "lng": 140.74905913,
 "prec": "address",
-"src": "wamnet"
+"src": "wamnet",
+"facility_id": "0250160033"
 },
 {
 "n": "レスパイトハウスTOMO",
@@ -2296,7 +2480,8 @@
 "lat": 40.82402616,
 "lng": 140.71068876,
 "prec": "address",
-"src": "wamnet"
+"src": "wamnet",
+"facility_id": "0250161379"
 },
 {
 "n": "レスパイトハウスＷＡ",
@@ -2310,7 +2495,8 @@
 "lat": 40.81488593,
 "lng": 140.74958708,
 "prec": "address",
-"src": "wamnet"
+"src": "wamnet",
+"facility_id": "0250160058"
 },
 {
 "n": "ビリーブ児童デイサービス青森ぐんぐん",
@@ -2324,7 +2510,8 @@
 "lat": 40.82623534,
 "lng": 140.7772065,
 "prec": "address",
-"src": "wamnet"
+"src": "wamnet",
+"facility_id": "0250161726"
 },
 {
 "n": "ビリーブ児童デイサービス青森西",
@@ -2338,7 +2525,8 @@
 "lat": 40.84616229,
 "lng": 140.70698841,
 "prec": "address",
-"src": "wamnet"
+"src": "wamnet",
+"facility_id": "0250160074"
 },
 {
 "n": "ふらわぁ",
@@ -2352,7 +2540,8 @@
 "lat": 40.78936003,
 "lng": 140.81263782,
 "prec": "address",
-"src": "wamnet"
+"src": "wamnet",
+"facility_id": "0250160546"
 },
 {
 "n": "社会福祉法人 清養会 デイサービスセンター　ケヤキ",
@@ -2366,7 +2555,8 @@
 "lat": 40.83872391,
 "lng": 140.82072403,
 "prec": "address",
-"src": "wamnet"
+"src": "wamnet",
+"facility_id": "0250160587"
 },
 {
 "n": "放課後等デイサービス事業所みらいの里ミント",
@@ -2380,7 +2570,8 @@
 "lat": 40.7154222,
 "lng": 140.56998634,
 "prec": "address",
-"src": "wamnet"
+"src": "wamnet",
+"facility_id": "0250160595"
 },
 {
 "n": "放課後等デイサービスちゃれんじ",
@@ -2394,7 +2585,8 @@
 "lat": 40.67314872,
 "lng": 140.54672854,
 "prec": "address",
-"src": "wamnet"
+"src": "wamnet",
+"facility_id": "0250961596"
 },
 {
 "n": "わくわくスペースみらいと",
@@ -2408,7 +2600,8 @@
 "lat": 40.59845524,
 "lng": 140.47853233,
 "prec": "address",
-"src": "wamnet"
+"src": "wamnet",
+"facility_id": "0250261732"
 },
 {
 "n": "放課後等デイサービス　エミフル",
@@ -2422,7 +2615,8 @@
 "lat": 40.61556936,
 "lng": 140.4534436,
 "prec": "address",
-"src": "wamnet"
+"src": "wamnet",
+"facility_id": "0250261716"
 },
 {
 "n": "児童デイサービスセンターど・れ・み",
@@ -2436,7 +2630,8 @@
 "lat": 40.60980014,
 "lng": 140.44128673,
 "prec": "address",
-"src": "wamnet"
+"src": "wamnet",
+"facility_id": "0250260155"
 },
 {
 "n": "就職準備教室ココジョブ北園校",
@@ -2450,7 +2645,8 @@
 "lat": 40.58349571,
 "lng": 140.48149987,
 "prec": "address",
-"src": "wamnet"
+"src": "wamnet",
+"facility_id": "0250261229"
 },
 {
 "n": "運動学習支援教室ココノバ黒石校",
@@ -2464,7 +2660,8 @@
 "lat": 40.66628701,
 "lng": 140.59823023,
 "prec": "address",
-"src": "wamnet"
+"src": "wamnet",
+"facility_id": "0250561271"
 },
 {
 "n": "放課後等デイサービスココジョブジュニア",
@@ -2478,7 +2675,8 @@
 "lat": 40.62978444,
 "lng": 140.45867008,
 "prec": "address",
-"src": "wamnet"
+"src": "wamnet",
+"facility_id": "0250261401"
 },
 {
 "n": "ワラハンドクラブ・キキ",
@@ -2492,7 +2690,8 @@
 "lat": 40.62083749,
 "lng": 140.4295177,
 "prec": "address",
-"src": "wamnet"
+"src": "wamnet",
+"facility_id": "0250260601"
 },
 {
 "n": "児童デイサービスすてっぷ・あっぷ",
@@ -2506,7 +2705,8 @@
 "lat": 40.5996779,
 "lng": 140.49317296,
 "prec": "address",
-"src": "wamnet"
+"src": "wamnet",
+"facility_id": "0250261500"
 },
 {
 "n": "児童デイサービスすてっぷ",
@@ -2520,7 +2720,8 @@
 "lat": 40.59638083,
 "lng": 140.48877626,
 "prec": "address",
-"src": "wamnet"
+"src": "wamnet",
+"facility_id": "0250260130"
 },
 {
 "n": "児童デイサービスすてっぷⅡ",
@@ -2534,7 +2735,8 @@
 "lat": 40.60136122,
 "lng": 140.49672816,
 "prec": "address",
-"src": "wamnet"
+"src": "wamnet",
+"facility_id": "0250260742"
 },
 {
 "n": "放課後デイステーションAｒｉｅｓ",
@@ -2548,7 +2750,8 @@
 "lat": 40.60579839,
 "lng": 140.46047163,
 "prec": "address",
-"src": "wamnet"
+"src": "wamnet",
+"facility_id": "0250261294"
 },
 {
 "n": "放課後デイステーションＳｉｒｉｕｓ",
@@ -2562,7 +2765,8 @@
 "lat": 40.64272891,
 "lng": 140.59428123,
 "prec": "address",
-"src": "wamnet"
+"src": "wamnet",
+"facility_id": "0250561479"
 },
 {
 "n": "放課後デイステーションＥａｒｔｈ",
@@ -2576,7 +2780,8 @@
 "lat": 40.59153986,
 "lng": 140.49376507,
 "prec": "address",
-"src": "wamnet"
+"src": "wamnet",
+"facility_id": "0250260668"
 },
 {
 "n": "放課後デイステーションＣｙｇｎｕｓ",
@@ -2590,7 +2795,8 @@
 "lat": 40.61795583,
 "lng": 140.48015865,
 "prec": "address",
-"src": "wamnet"
+"src": "wamnet",
+"facility_id": "0250260775"
 },
 {
 "n": "放課後デイステーションＯｒｉｏｎ",
@@ -2604,7 +2810,8 @@
 "lat": 40.63090137,
 "lng": 140.5477355,
 "prec": "address",
-"src": "wamnet"
+"src": "wamnet",
+"facility_id": "0250960671"
 },
 {
 "n": "児童デイサービスきらり",
@@ -2618,7 +2825,8 @@
 "lat": 40.60916981,
 "lng": 140.44596412,
 "prec": "address",
-"src": "wamnet"
+"src": "wamnet",
+"facility_id": "0250260148"
 },
 {
 "n": "ひかりの岬こどもデイサービスセンター",
@@ -2632,7 +2840,8 @@
 "lat": 40.60765407,
 "lng": 140.47289584,
 "prec": "address",
-"src": "wamnet"
+"src": "wamnet",
+"facility_id": "0250260171"
 },
 {
 "n": "児童デイサービス　やよいのあかり",
@@ -2646,7 +2855,8 @@
 "lat": 40.6376215,
 "lng": 140.4209564,
 "prec": "address",
-"src": "wamnet"
+"src": "wamnet",
+"facility_id": "0250260122"
 },
 {
 "n": "こどもサポートｆｕｔａｂａ",
@@ -2660,7 +2870,8 @@
 "lat": 40.58802083,
 "lng": 140.49548181,
 "prec": "address",
-"src": "wamnet"
+"src": "wamnet",
+"facility_id": "0250261419"
 },
 {
 "n": "放課後等デイサービスあっぷる",
@@ -2674,7 +2885,8 @@
 "lat": 40.6078052,
 "lng": 140.50233557,
 "prec": "address",
-"src": "wamnet"
+"src": "wamnet",
+"facility_id": "0250261070"
 },
 {
 "n": "放課後等デイサービスあるふぁ",
@@ -2688,7 +2900,8 @@
 "lat": 40.51120398,
 "lng": 141.53830694,
 "prec": "address",
-"src": "wamnet"
+"src": "wamnet",
+"facility_id": "0250360039"
 },
 {
 "n": "放課後等デイサービス　パレット",
@@ -2702,7 +2915,8 @@
 "lat": 40.50826771,
 "lng": 141.50826847,
 "prec": "address",
-"src": "wamnet"
+"src": "wamnet",
+"facility_id": "0250360013"
 },
 {
 "n": "放課後等デイサービス　キャンバス",
@@ -2716,7 +2930,8 @@
 "lat": 40.50978161,
 "lng": 141.51925342,
 "prec": "address",
-"src": "wamnet"
+"src": "wamnet",
+"facility_id": "0250360138"
 },
 {
 "n": "無添加　お弁当　二重まる",
@@ -2730,7 +2945,8 @@
 "lat": 40.50843581,
 "lng": 141.43730368,
 "prec": "address",
-"src": "wamnet"
+"src": "wamnet",
+"facility_id": "0250360104"
 },
 {
 "n": "ミライフルキッズデイサービス八戸中居林",
@@ -2744,7 +2960,8 @@
 "lat": 40.49015316,
 "lng": 141.5002509,
 "prec": "address",
-"src": "wamnet"
+"src": "wamnet",
+"facility_id": "0250360369"
 },
 {
 "n": "ミライエ",
@@ -2758,7 +2975,8 @@
 "lat": 40.52898129,
 "lng": 141.48967544,
 "prec": "address",
-"src": "wamnet"
+"src": "wamnet",
+"facility_id": "0250360047"
 },
 {
 "n": "クオレ",
@@ -2772,7 +2990,8 @@
 "lat": 40.51228347,
 "lng": 141.48839832,
 "prec": "address",
-"src": "wamnet"
+"src": "wamnet",
+"facility_id": "0250360393"
 },
 {
 "n": "白山台放課後等デイサービス Cocotte",
@@ -2786,7 +3005,8 @@
 "lat": 40.48538636,
 "lng": 141.46275758,
 "prec": "address",
-"src": "wamnet"
+"src": "wamnet",
+"facility_id": "0250360435"
 },
 {
 "n": "放課後等デイサービス　バディ",
@@ -2800,7 +3020,8 @@
 "lat": 40.52332712,
 "lng": 141.51875312,
 "prec": "address",
-"src": "wamnet"
+"src": "wamnet",
+"facility_id": "0250360476"
 },
 {
 "n": "ｻﾎﾟｰﾄｾﾝﾀｰみらい",
@@ -2814,7 +3035,8 @@
 "lat": 40.51543369,
 "lng": 141.28233415,
 "prec": "address",
-"src": "wamnet"
+"src": "wamnet",
+"facility_id": "0251261152"
 },
 {
 "n": "清岳園いっぽ",
@@ -2828,7 +3050,8 @@
 "lat": 40.4120184,
 "lng": 141.36044006,
 "prec": "address",
-"src": "wamnet"
+"src": "wamnet",
+"facility_id": "0251260568"
 },
 {
 "n": "多機能型通所支援事業所　リアンジュ",
@@ -2842,7 +3065,8 @@
 "lat": 40.51076803,
 "lng": 141.54484788,
 "prec": "address",
-"src": "wamnet"
+"src": "wamnet",
+"facility_id": "0250360187"
 },
 {
 "n": "児童デイサービス　ぱぷりか",
@@ -2856,7 +3080,8 @@
 "lat": 40.50378962,
 "lng": 141.45847125,
 "prec": "address",
-"src": "wamnet"
+"src": "wamnet",
+"facility_id": "0250360096"
 },
 {
 "n": "児童デイサービスノア",
@@ -2870,7 +3095,8 @@
 "lat": 40.48408045,
 "lng": 141.5788922,
 "prec": "address",
-"src": "wamnet"
+"src": "wamnet",
+"facility_id": "0250161049"
 },
 {
 "n": "クロスロード",
@@ -2884,7 +3110,8 @@
 "lat": 40.5088645,
 "lng": 141.48872066,
 "prec": "address",
-"src": "wamnet"
+"src": "wamnet",
+"facility_id": "0250360021"
 },
 {
 "n": "放課後等デイサービスセンターうみねこ塾",
@@ -2898,7 +3125,8 @@
 "lat": 40.46229311,
 "lng": 141.51853598,
 "prec": "address",
-"src": "wamnet"
+"src": "wamnet",
+"facility_id": "0250360062"
 },
 {
 "n": "放課後等デイサービス　ぱずる",
@@ -2912,7 +3140,8 @@
 "lat": 40.49948546,
 "lng": 141.50592485,
 "prec": "address",
-"src": "wamnet"
+"src": "wamnet",
+"facility_id": "0250360088"
 },
 {
 "n": "放課後等デイサービス　ぽけっと",
@@ -2926,7 +3155,8 @@
 "lat": 40.51079219,
 "lng": 141.49825557,
 "prec": "address",
-"src": "wamnet"
+"src": "wamnet",
+"facility_id": "0250360377"
 },
 {
 "n": "サポートセンター虹",
@@ -2940,7 +3170,8 @@
 "lat": 40.50992732,
 "lng": 141.43976729,
 "prec": "address",
-"src": "wamnet"
+"src": "wamnet",
+"facility_id": "0250360898"
 },
 {
 "n": "放課後等デイサービスピュアこだま",
@@ -2954,7 +3185,8 @@
 "lat": 40.47351086,
 "lng": 141.51078364,
 "prec": "address",
-"src": "wamnet"
+"src": "wamnet",
+"facility_id": "0250161056"
 },
 {
 "n": "児童デイサービスわかば",
@@ -2968,7 +3200,8 @@
 "lat": 40.5109619,
 "lng": 141.51344557,
 "prec": "address",
-"src": "wamnet"
+"src": "wamnet",
+"facility_id": "0250360512"
 },
 {
 "n": "児童デイサービス事業所あおば",
@@ -2982,7 +3215,8 @@
 "lat": 40.51052862,
 "lng": 141.51306507,
 "prec": "address",
-"src": "wamnet"
+"src": "wamnet",
+"facility_id": "0250360203"
 },
 {
 "n": "児童デイサービスセンター希望ヶ丘",
@@ -2996,7 +3230,8 @@
 "lat": 40.54410157,
 "lng": 141.48879751,
 "prec": "address",
-"src": "wamnet"
+"src": "wamnet",
+"facility_id": "0250360211"
 },
 {
 "n": "柿の木苑",
@@ -3010,7 +3245,8 @@
 "lat": 40.50815028,
 "lng": 141.46553984,
 "prec": "address",
-"src": "wamnet"
+"src": "wamnet",
+"facility_id": "0250360245"
 },
 {
 "n": "デイセンター「アップル」",
@@ -3024,7 +3260,8 @@
 "lat": 40.46773076,
 "lng": 141.49635766,
 "prec": "address",
-"src": "wamnet"
+"src": "wamnet",
+"facility_id": "0250360252"
 },
 {
 "n": "デイサービスセンターかえで",
@@ -3038,7 +3275,8 @@
 "lat": 40.52269937,
 "lng": 141.51667826,
 "prec": "address",
-"src": "wamnet"
+"src": "wamnet",
+"facility_id": "0250360278"
 },
 {
 "n": "シャイニー妙光園",
@@ -3052,7 +3290,8 @@
 "lat": 40.4863209,
 "lng": 141.53361673,
 "prec": "address",
-"src": "wamnet"
+"src": "wamnet",
+"facility_id": "0250360286"
 },
 {
 "n": "こどもデイサービスセンターSky",
@@ -3067,7 +3306,8 @@
 "lat": 40.64201504,
 "lng": 140.59185647,
 "prec": "address",
-"src": "wamnet"
+"src": "wamnet",
+"facility_id": "0250561487"
 },
 {
 "n": "黒石市児童デイサービスセンター天使の森",
@@ -3081,7 +3321,8 @@
 "lat": 40.64708905,
 "lng": 140.58186542,
 "prec": "address",
-"src": "wamnet"
+"src": "wamnet",
+"facility_id": "0250560315"
 },
 {
 "n": "びーたスキルアップセンター",
@@ -3095,7 +3336,8 @@
 "lat": 40.81059344,
 "lng": 140.46673725,
 "prec": "address",
-"src": "wamnet"
+"src": "wamnet",
+"facility_id": "0250461431"
 },
 {
 "n": "児童サポートスマートブレイン",
@@ -3109,7 +3351,8 @@
 "lat": 40.80782961,
 "lng": 140.45357732,
 "prec": "address",
-"src": "wamnet"
+"src": "wamnet",
+"facility_id": "0250461563"
 },
 {
 "n": "放課後等デイサービス笑楽生",
@@ -3123,7 +3366,8 @@
 "lat": 40.90289446,
 "lng": 140.4570373,
 "prec": "address",
-"src": "wamnet"
+"src": "wamnet",
+"facility_id": "0250460862"
 },
 {
 "n": "放課後等デイサービスぶりんぐあっぷ",
@@ -3137,7 +3381,8 @@
 "lat": 40.61740254,
 "lng": 141.21870326,
 "prec": "address",
-"src": "wamnet"
+"src": "wamnet",
+"facility_id": "0250661378"
 },
 {
 "n": "放課後サポートあいでぃあ",
@@ -3151,7 +3396,8 @@
 "lat": 40.61937515,
 "lng": 141.23488196,
 "prec": "address",
-"src": "wamnet"
+"src": "wamnet",
+"facility_id": "0250661428"
 },
 {
 "n": "RE:fure",
@@ -3165,7 +3411,8 @@
 "lat": 40.62265771,
 "lng": 141.21976689,
 "prec": "address",
-"src": "wamnet"
+"src": "wamnet",
+"facility_id": "0250661519"
 },
 {
 "n": "放課後等デイサービスらびっと",
@@ -3179,7 +3426,8 @@
 "lat": 40.61436099,
 "lng": 141.21411497,
 "prec": "address",
-"src": "wamnet"
+"src": "wamnet",
+"facility_id": "0250661725"
 },
 {
 "n": "放課後等デイサービスせれくと",
@@ -3193,7 +3441,8 @@
 "lat": 40.60448433,
 "lng": 141.22104494,
 "prec": "address",
-"src": "wamnet"
+"src": "wamnet",
+"facility_id": "0250661907"
 },
 {
 "n": "放課後等デイサービスひまわり",
@@ -3207,7 +3456,8 @@
 "lat": 40.60480854,
 "lng": 141.19816143,
 "prec": "address",
-"src": "wamnet"
+"src": "wamnet",
+"facility_id": "0250661980"
 },
 {
 "n": "放課後等デイサービスパレット",
@@ -3221,7 +3471,8 @@
 "lat": 40.6244742,
 "lng": 141.218417,
 "prec": "address",
-"src": "wamnet"
+"src": "wamnet",
+"facility_id": "0250661626"
 },
 {
 "n": "てみる",
@@ -3235,7 +3486,8 @@
 "lat": 40.60961771,
 "lng": 141.23714578,
 "prec": "address",
-"src": "wamnet"
+"src": "wamnet",
+"facility_id": "0250660628"
 },
 {
 "n": "ピアチェーレⅡ",
@@ -3249,7 +3501,8 @@
 "lat": 40.62159339,
 "lng": 141.19864975,
 "prec": "address",
-"src": "wamnet"
+"src": "wamnet",
+"facility_id": "0250661386"
 },
 {
 "n": "ピアチェーレ",
@@ -3263,7 +3516,8 @@
 "lat": 40.61864129,
 "lng": 141.21715896,
 "prec": "address",
-"src": "wamnet"
+"src": "wamnet",
+"facility_id": "0250660917"
 },
 {
 "n": "子どもの自由空間・雑木林",
@@ -3277,7 +3531,8 @@
 "lat": 40.59454018,
 "lng": 141.17859113,
 "prec": "address",
-"src": "wamnet"
+"src": "wamnet",
+"facility_id": "0250660388"
 },
 {
 "n": "発達支援センターコスモス",
@@ -3292,7 +3547,8 @@
 "lat": 40.61626579,
 "lng": 141.19301429,
 "prec": "address",
-"src": "wamnet"
+"src": "wamnet",
+"facility_id": "0250660362"
 },
 {
 "n": "どじょっこ",
@@ -3306,7 +3562,8 @@
 "lat": 40.61541584,
 "lng": 141.19420592,
 "prec": "address",
-"src": "wamnet"
+"src": "wamnet",
+"facility_id": "0250660685"
 },
 {
 "n": "放課後等デイサービスふぁんめいく",
@@ -3320,7 +3577,8 @@
 "lat": 40.68401409,
 "lng": 141.36470668,
 "prec": "address",
-"src": "wamnet"
+"src": "wamnet",
+"facility_id": "0251561536"
 },
 {
 "n": "放課後等デイサービスemO",
@@ -3334,7 +3592,8 @@
 "lat": 41.24732604,
 "lng": 141.23551309,
 "prec": "address",
-"src": "wamnet"
+"src": "wamnet",
+"facility_id": "0251661708"
 },
 {
 "n": "すたぁず",
@@ -3348,7 +3607,8 @@
 "lat": 41.32643523,
 "lng": 141.21838196,
 "prec": "address",
-"src": "wamnet"
+"src": "wamnet",
+"facility_id": "0251661351"
 },
 {
 "n": "放課後等デイサービスキッズすまいる",
@@ -3362,7 +3622,8 @@
 "lat": 41.19797749,
 "lng": 141.28119811,
 "prec": "address",
-"src": "wamnet"
+"src": "wamnet",
+"facility_id": "0251660429"
 },
 {
 "n": "児童デイサービス あおぞら",
@@ -3376,7 +3637,8 @@
 "lat": 41.29407006,
 "lng": 141.17873948,
 "prec": "address",
-"src": "wamnet"
+"src": "wamnet",
+"facility_id": "0251660411"
 },
 {
 "n": "放課後等デイサービスBigスマイル",
@@ -3390,7 +3652,8 @@
 "lat": 40.90461909,
 "lng": 140.44914617,
 "prec": "address",
-"src": "wamnet"
+"src": "wamnet",
+"facility_id": "0250461993"
 },
 {
 "n": "放課後等デイサービスセンターまるべりー",
@@ -3404,7 +3667,8 @@
 "lat": 40.80198229,
 "lng": 140.41492269,
 "prec": "address",
-"src": "wamnet"
+"src": "wamnet",
+"facility_id": "0252061189"
 },
 {
 "n": "放課後等デイサービス事業所　かりんぱに",
@@ -3418,7 +3682,8 @@
 "lat": 40.56440076,
 "lng": 140.55273843,
 "prec": "address",
-"src": "wamnet"
+"src": "wamnet",
+"facility_id": "0252160445"
 },
 {
 "n": "児童デイサービスわんすてっぷ",
@@ -3432,7 +3697,8 @@
 "lat": 40.65633147,
 "lng": 140.48280629,
 "prec": "address",
-"src": "wamnet"
+"src": "wamnet",
+"facility_id": "0250961836"
 },
 {
 "n": "デイサービスセンターかたつむり",
@@ -3446,7 +3712,8 @@
 "lat": 40.66655102,
 "lng": 140.51693118,
 "prec": "address",
-"src": "wamnet"
+"src": "wamnet",
+"facility_id": "0250960457"
 },
 {
 "n": "放課後等デイサービス　児童デイサービスセンター　ピース",
@@ -3460,7 +3727,8 @@
 "lat": 40.71087715,
 "lng": 140.5145544,
 "prec": "address",
-"src": "wamnet"
+"src": "wamnet",
+"facility_id": "0251060463"
 },
 {
 "n": "ミライクスクール",
@@ -3475,7 +3743,8 @@
 "lat": 40.76803234,
 "lng": 140.38857866,
 "prec": "address",
-"src": "wamnet"
+"src": "wamnet",
+"facility_id": "0251061867"
 },
 {
 "n": "Ｋｕｒａ　ｃｒａ",
@@ -3489,7 +3758,8 @@
 "lat": 40.71318612,
 "lng": 141.14705931,
 "prec": "address",
-"src": "wamnet"
+"src": "wamnet",
+"facility_id": "0251100012"
 },
 {
 "n": "テント",
@@ -3503,7 +3773,8 @@
 "lat": 40.65813791,
 "lng": 141.3419539,
 "prec": "address",
-"src": "wamnet"
+"src": "wamnet",
+"facility_id": "0251761896"
 },
 {
 "n": "エイトプラス",
@@ -3517,7 +3788,8 @@
 "lat": 40.77583372,
 "lng": 141.23498266,
 "prec": "address",
-"src": "wamnet"
+"src": "wamnet",
+"facility_id": "0251161063"
 },
 {
 "n": "３９",
@@ -3531,7 +3803,8 @@
 "lat": 40.60883105,
 "lng": 141.45752775,
 "prec": "address",
-"src": "wamnet"
+"src": "wamnet",
+"facility_id": "0251700019"
 },
 {
 "n": "キッズハウス　ピッピ",
@@ -3545,7 +3818,8 @@
 "lat": 40.64709294,
 "lng": 141.39020332,
 "prec": "address",
-"src": "wamnet"
+"src": "wamnet",
+"facility_id": "0251761300"
 },
 {
 "n": "放課後等デイサービスMerrily",
@@ -3559,7 +3833,8 @@
 "lat": 40.37823644,
 "lng": 141.25476729,
 "prec": "address",
-"src": "wamnet"
+"src": "wamnet",
+"facility_id": "0251260535"
 },
 {
 "n": "児童デイサービス「にこチャオ」",
@@ -3573,7 +3848,8 @@
 "lat": 40.36102432,
 "lng": 141.14511579,
 "prec": "address",
-"src": "wamnet"
+"src": "wamnet",
+"facility_id": "0251261285"
 },
 {
 "n": "児童ディサービス「なんぶ」",
@@ -3586,8 +3862,9 @@
 "area": "青森県三戸郡南部町",
 "lat": 40.45614077,
 "lng": 141.38475126,
-"prec": "address",
-"src": "wamnet"
+"prec": "area",
+"src": "wamnet",
+"facility_id": "0251261699"
 },
 {
 "n": "放課後等デイサービス　ココカラ",
@@ -3601,7 +3878,8 @@
 "lat": 40.68313648,
 "lng": 141.36897858,
 "prec": "address",
-"src": "wamnet"
+"src": "wamnet",
+"facility_id": "0251561619"
 },
 {
 "n": "放課後等デイサービス事業所すまいるキッズ",
@@ -3615,7 +3893,8 @@
 "lat": 40.47627008,
 "lng": 141.56425777,
 "prec": "address",
-"src": "wamnet"
+"src": "wamnet",
+"facility_id": "0251260782"
 },
 {
 "n": "バンビーニＡ",
@@ -3629,7 +3908,8 @@
 "lat": 40.477859,
 "lng": 141.579059,
 "prec": "address",
-"src": "wamnet"
+"src": "wamnet",
+"facility_id": "0250360260"
 },
 {
 "n": "サポートステーション　マナびと",
@@ -3643,7 +3923,8 @@
 "lat": 40.44659262,
 "lng": 141.65890295,
 "prec": "address",
-"src": "wamnet"
+"src": "wamnet",
+"facility_id": "0251260642"
 },
 {
 "n": "児童デイサービス・アニマートふきあげ",
@@ -3657,7 +3938,8 @@
 "lat": 40.50463741,
 "lng": 141.49647833,
 "prec": "address",
-"src": "wamnet"
+"src": "wamnet",
+"facility_id": "0250361086"
 },
 {
 "n": "Ｈａｒｍｏｎｙ八戸",
@@ -3671,7 +3953,8 @@
 "lat": 40.51137564,
 "lng": 141.50817383,
 "prec": "address",
-"src": "wamnet"
+"src": "wamnet",
+"facility_id": "0250360724"
 },
 {
 "n": "Ｈａｒｍｏｎｙ白銀",
@@ -3685,7 +3968,8 @@
 "lat": 40.51728336,
 "lng": 141.51535342,
 "prec": "address",
-"src": "wamnet"
+"src": "wamnet",
+"facility_id": "0250360922"
 },
 {
 "n": "サポートプロバイドミライエ",
@@ -3699,7 +3983,8 @@
 "lat": 40.80944876,
 "lng": 140.79061133,
 "prec": "address",
-"src": "wamnet"
+"src": "wamnet",
+"facility_id": "0250161668"
 },
 {
 "n": "保育支援センターみのり",
@@ -3713,6 +3998,7 @@
 "lat": 40.87426232,
 "lng": 140.39480491,
 "prec": "address",
-"src": "wamnet"
+"src": "wamnet",
+"facility_id": "0252061254"
 }
 ]

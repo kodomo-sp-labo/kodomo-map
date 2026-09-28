@@ -287,11 +287,11 @@
       "source_label": "岡山県「保健福祉施設・病院等一覧」児童福祉施設",
       "source": "https://www.pref.okayama.jp/page/785878.html",
       "publisher": "岡山県",
-      "checked": "2026-07-26",
-      "as_of": "令和7年4月1日現在",
+      "checked": "2026-09-28",
+      "as_of": "令和8年4月1日現在",
       "tier": "B",
       "discovery_query": "岡山県 児童福祉施設 一覧 保健福祉施設",
-      "notes": "⑤発達の主データはWAM NET（wamnet）。この県資料は突合による裏付けで、両資料で確認できた施設に pref_pdf / pref_list_src を付与している。児童発達支援センター指定19件・主たる対象障害もこの資料由来。",
+      "notes": "⑤発達の主データはWAM NET（wamnet）。この県資料は突合による裏付けで、両資料で確認できた施設に pref_pdf / pref_list_src を付与している。児童発達支援センター指定19件・主たる対象障害もこの資料由来。2026-09-28に令和8年4月1日現在版（児童福祉施設PDF 420001.pdf）で突き合わせし直した（メモ等/okayama_pref_hattatsu_match.py。旧版に当てて2026-07の379件を全項目再現できることを確認済み）。県資料399行のうち⑤の386件と対応。main_target はリスト（1つの事業所が重症心身障害児以外と重症心身障害児の両方の表に載る場合がある）。",
       "license": "公共データ利用規約（第1.0版）PDL1.0",
       "license_url": "https://www.pref.okayama.jp/page/detail-4318.html",
       "credit": true,
@@ -2266,15 +2266,16 @@
       },
       "fallback_src": "wamnet",
       "geo_sources": [
-        "wamnet"
+        "wamnet",
+        "gsi_geocode"
       ],
       "corroboration": {
         "okayama": "okayama_pref_hattatsu_list"
       },
-      "last_count": 28528,
-      "last_checked": "2026-07-24",
+      "last_count": 28368,
+      "last_checked": "2026-09-28",
       "monitor": false,
-      "notes": "岡山県の379件は県資料とも突合済みで pref_pdf / pref_list_src / pref_list_checked を併せ持つ。"
+      "notes": "2026-09-28に メモ等/rebuild_wamnet_hattatsu.py で作り直し（旧 convert_wamnet_hattatsu.py は事業所番号ごとの先頭1行だけを採用し、同じ番号の別の教室が抜けていた）。同じ番号で名前も場所も違う教室は別レコード（66件、うち9件は別の番号で登録済みのため追加せず）、名前が同じで住所だけ違うものは1件のまま。別の事業所番号で同じ教室（同じ県・同じ住所・同じ名前）が二重に登録されていた215件は1件にまとめ区分を合わせた。住所は番地があり指定機関の区域内の行を優先。座標は全28,825地点を国土地理院逆ジオコーダで住所の市区町村と照合し、合わないものは住所検索の照合結果文字列で確認して、300m以内はWAMNET座標を維持、遠いものは住所検索の点に置換（geo=gsi。市区町村名までしか当たらないものは prec=area）。岡山県の386件は県資料（令和8年4月1日現在）とも突合済みで pref_pdf / pref_list_src / pref_list_checked を併せ持つ。"
     },
     "shogaiji_sodan": {
       "label": "⑤発達（障害児相談支援）",
