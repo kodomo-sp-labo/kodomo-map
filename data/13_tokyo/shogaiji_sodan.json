@@ -5608,7 +5608,7 @@
 "area": "東京都江戸川区",
 "lat": 35.65519563,
 "lng": 139.86487828,
-"prec": "address",
+"prec": "area",
 "src": "wamnet",
 "facility_id": "1372300226"
 },
@@ -8514,20 +8514,6 @@
 "prec": "address",
 "src": "wamnet",
 "facility_id": "1372800399"
-},
-{
-"n": "ポラリス相談室",
-"a": "東京都青梅市新町７−５−５",
-"t": "0428-27-4178",
-"cat": [
-"shogaiji_sodan"
-],
-"area": "東京都青梅市",
-"lat": 35.78383622,
-"lng": 139.31583453,
-"prec": "address",
-"src": "wamnet",
-"facility_id": "1372800217"
 },
 {
 "n": "有限会社アイケアーサービス青梅",
