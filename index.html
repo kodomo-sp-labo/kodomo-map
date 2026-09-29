@@ -50,7 +50,9 @@ if ('serviceWorker' in navigator) {
   *{margin:0;padding:0;box-sizing:border-box}
   body{font-family:'BIZ UDPGothic','Hiragino Sans','Yu Gothic',sans-serif;background:var(--base);color:var(--ink);line-height:1.6}
   header{padding:16px 24px 0;background:var(--panel)}
-  header h1{font-size:1.25rem;font-weight:700;letter-spacing:.02em}
+  header h1{font-size:1.25rem;font-weight:700;letter-spacing:.02em;display:flex;align-items:center;gap:8px}
+  /* 運営主体（こどもウェルビーイングlabo）のマーク。フッターと同じ labo-mark.png。文字の高さに近い大きさにとどめる。 */
+  header h1 .title-mark{flex-shrink:0}
   header p.sub{font-size:.8rem;color:var(--sub);margin:4px 0 10px}
   /* タイトル行の右に配置する。CSSだけで文言・色・アイコンを何度も試したが決め手に
      欠けたため、運営者が用意した専用デザインのバナー画像（吹き出しピン風、640x297）に
@@ -169,7 +171,7 @@ if ('serviceWorker' in navigator) {
 <header>
   <div class="header-top">
     <div>
-      <h1>こども支援資源マップ</h1>
+      <h1><img src="labo-mark.png" alt="" width="34" height="34" class="title-mark">こども支援資源マップ</h1>
       <p class="sub">こども・家族を支える資源を5つの機能で整理（社会的処方フレームワーク試作版）</p>
     </div>
     <a class="concerns-banner" href="concerns.html">
