@@ -1,0 +1,116 @@
+[
+{
+"n": "中央児童相談所",
+"a": "青森県青森市石江字江渡5-1",
+"t": "017-781-9744",
+"cat": "jiso",
+"lat": 40.82444,
+"lng": 140.703583,
+"prec": "address",
+"src": "cfa_jisou_ichiran",
+"checked": "2026-10-03"
+},
+{
+"n": "中南児童相談所",
+"a": "青森県弘前市下銀町14-2",
+"t": "0172-36-7474",
+"cat": "jiso",
+"lat": null,
+"lng": null,
+"prec": null,
+"src": "cfa_jisou_ichiran",
+"checked": "2026-10-03"
+},
+{
+"n": "三八児童相談所",
+"a": "青森県八戸市大字尻内町字鴨田7",
+"t": "0178-27-2271",
+"cat": "jiso",
+"lat": 40.508984,
+"lng": 141.441376,
+"prec": "address",
+"src": "cfa_jisou_ichiran",
+"checked": "2026-10-03"
+},
+{
+"n": "西北児童相談所",
+"a": "青森県五所川原市栄町10",
+"t": "0173-38-1555",
+"cat": "jiso",
+"lat": 40.797756,
+"lng": 140.444946,
+"prec": "town",
+"src": "cfa_jisou_ichiran",
+"checked": "2026-10-03"
+},
+{
+"n": "上北児童相談所",
+"a": "青森県上北郡七戸町字蛇坂55-1",
+"t": "0176-60-8086",
+"cat": "jiso",
+"lat": 40.713058,
+"lng": 141.153839,
+"prec": "address",
+"src": "cfa_jisou_ichiran",
+"checked": "2026-10-03"
+},
+{
+"n": "下北児童相談所",
+"a": "青森県むつ市中央1-1-8",
+"t": "0175-23-5975",
+"cat": "jiso",
+"lat": 41.291092,
+"lng": 141.190979,
+"prec": "address",
+"src": "cfa_jisou_ichiran",
+"checked": "2026-10-03"
+},
+{
+"n": "青森県発達障がい者支援センター「ステップ」",
+"a": "青森県青森市中央三丁目20番30号　県民福祉プラザ3F",
+"t": "017-777-8201",
+"url": "http://www.aoshien.jp/",
+"cat": "hattatsu_center",
+"lat": 40.816509,
+"lng": 140.750412,
+"prec": "address",
+"src": "rehab_ddis_center",
+"checked": "2026-10-03"
+},
+{
+"n": "青森県発達障がい者支援センター「わかば」（津軽地域）",
+"a": "青森県五所川原市若葉3丁目4-10",
+"t": "0173-26-5254",
+"url": "https://aorld.or.jp/wakaba",
+"cat": "hattatsu_center",
+"lat": 40.820572,
+"lng": 140.442245,
+"prec": "address",
+"src": "rehab_ddis_center",
+"checked": "2026-10-03"
+},
+{
+"n": "青森県発達障がい者支援センター「Doors」（ドアーズ）（県南地域）",
+"a": "青森県八戸市類家1丁目1-16",
+"t": "0178-51-6181",
+"url": "https://www.myokoen.jp/doors",
+"cat": "hattatsu_center",
+"lat": 40.509502,
+"lng": 141.498108,
+"prec": "address",
+"src": "rehab_ddis_center",
+"checked": "2026-10-03"
+},
+{
+"n": "青森県小児在宅支援センター",
+"a": null,
+"t": null,
+"url": "https://aomori-kodomo.jp/",
+"cat": "iryocare_center",
+"lat": null,
+"lng": null,
+"prec": null,
+"src": "cfa_iryocare_center",
+"checked": "2026-10-03"
+}
+]

@@ -1,0 +1,49 @@
+[
+{
+"n": "中央児童相談所",
+"a": "山梨県甲府市住吉2-1-17",
+"t": "055-288-1780",
+"cat": "jiso",
+"lat": 35.637745,
+"lng": 138.57045,
+"prec": "address",
+"src": "cfa_jisou_ichiran",
+"checked": "2026-10-03"
+},
+{
+"n": "都留児童相談所",
+"a": "山梨県都留市田原3-5-24",
+"t": "0554-45-7838",
+"cat": "jiso",
+"lat": 35.539898,
+"lng": 138.895081,
+"prec": "address",
+"src": "cfa_jisou_ichiran",
+"checked": "2026-10-03"
+},
+{
+"n": "山梨県立こころの発達総合支援センター",
+"a": "山梨県甲府市住吉２－１－１７　子どものこころサポートプラザ内",
+"t": "055-288-1695",
+"url": "http://www.pref.yamanashi.jp/kokoro-hattatsu/index.html",
+"cat": "hattatsu_center",
+"lat": 35.637745,
+"lng": 138.57045,
+"prec": "address",
+"src": "rehab_ddis_center",
+"checked": "2026-10-03"
+},
+{
+"n": "山梨県医療的ケア児支援センター",
+"a": null,
+"t": null,
+"url": "https://www.icare-yamanashi.jp/",
+"cat": "iryocare_center",
+"lat": null,
+"lng": null,
+"prec": null,
+"src": "cfa_iryocare_center",
+"checked": "2026-10-03",
+"rem": "富士・東部医療的ケア児支援センター"
+}
+]

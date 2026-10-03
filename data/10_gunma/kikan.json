@@ -1,0 +1,82 @@
+[
+{
+"n": "中央児童相談所",
+"a": "群馬県前橋市野中町360-1",
+"t": "027-261-1000",
+"cat": "jiso",
+"lat": 36.377579,
+"lng": 139.110077,
+"prec": "address",
+"src": "cfa_jisou_ichiran",
+"checked": "2026-10-03"
+},
+{
+"n": "北部児童相談所",
+"a": "群馬県渋川市金井394",
+"t": "0279-20-1010",
+"cat": "jiso",
+"lat": 36.511509,
+"lng": 138.977951,
+"prec": "town",
+"src": "cfa_jisou_ichiran",
+"checked": "2026-10-03"
+},
+{
+"n": "西部児童相談所",
+"a": "群馬県富岡市田島343-1",
+"t": "0274-67-5575",
+"cat": "jiso",
+"lat": 36.248341,
+"lng": 138.861115,
+"prec": "address",
+"src": "cfa_jisou_ichiran",
+"checked": "2026-10-03"
+},
+{
+"n": "東部児童相談所",
+"a": "群馬県太田市新田木崎町369-5",
+"t": "0276-57-6111",
+"cat": "jiso",
+"lat": 36.27483,
+"lng": 139.307846,
+"prec": "address",
+"src": "cfa_jisou_ichiran",
+"checked": "2026-10-03"
+},
+{
+"n": "高崎市児童相談所",
+"a": "群馬県高崎市問屋町四丁目4番地1",
+"t": "027-345-5190",
+"cat": "jiso",
+"lat": 36.347328,
+"lng": 139.015701,
+"prec": "town",
+"src": "cfa_jisou_ichiran",
+"checked": "2026-10-03"
+},
+{
+"n": "群馬県発達障害者支援センター",
+"a": "群馬県前橋市新前橋町13-12　群馬県社会福祉総合センター7階",
+"t": "027-254-5380",
+"url": "http://www.pref.gunma.jp/03/p10710001.html",
+"cat": "hattatsu_center",
+"lat": 36.38039,
+"lng": 139.049911,
+"prec": "address",
+"src": "rehab_ddis_center",
+"checked": "2026-10-03"
+},
+{
+"n": "群馬県医療的ケア児等支援センターやっほ",
+"a": null,
+"t": null,
+"url": "https://www.pref.gunma.jp/page/201875.html",
+"cat": "iryocare_center",
+"lat": null,
+"lng": null,
+"prec": null,
+"src": "cfa_iryocare_center",
+"checked": "2026-10-03",
+"rem": "【基幹センター】やっほ、【地域センター】やっほWEST、やっほEAST"
+}
+]

@@ -1,0 +1,173 @@
+[
+{
+"n": "中央児童相談所",
+"a": "千葉県千葉市稲毛区天台6-5-2",
+"t": "043-253-4101",
+"cat": "jiso",
+"lat": 35.641174,
+"lng": 140.116058,
+"prec": "address",
+"src": "cfa_jisou_ichiran",
+"checked": "2026-10-03"
+},
+{
+"n": "市川児童相談所",
+"a": "千葉県市川市東大和田2-8-6",
+"t": "047-370-1077",
+"cat": "jiso",
+"lat": 35.715389,
+"lng": 139.924316,
+"prec": "address",
+"src": "cfa_jisou_ichiran",
+"checked": "2026-10-03"
+},
+{
+"n": "市川児童相談所 船橋支所",
+"a": "千葉県船橋市高瀬町66－18（千葉県消費者センター3階）",
+"t": "047-420-1600",
+"cat": "jiso",
+"lat": 35.676891,
+"lng": 139.997757,
+"prec": "address",
+"src": "cfa_jisou_ichiran",
+"checked": "2026-10-03",
+"rem": "支所等"
+},
+{
+"n": "柏児童相談所",
+"a": "千葉県柏市根戸445-12",
+"t": "04-7131-7175",
+"cat": "jiso",
+"lat": 35.884338,
+"lng": 139.983963,
+"prec": "address",
+"src": "cfa_jisou_ichiran",
+"checked": "2026-10-03"
+},
+{
+"n": "柏児童相談所 末広支所",
+"a": "千葉県柏市末広町11-18",
+"t": "04-7147-5455",
+"cat": "jiso",
+"lat": 35.865093,
+"lng": 139.971832,
+"prec": "address",
+"src": "cfa_jisou_ichiran",
+"checked": "2026-10-03",
+"rem": "支所等"
+},
+{
+"n": "銚子児童相談所",
+"a": "千葉県銚子市台町2183",
+"t": "0479-23-0076",
+"cat": "jiso",
+"lat": 35.722996,
+"lng": 140.823303,
+"prec": "address",
+"src": "cfa_jisou_ichiran",
+"checked": "2026-10-03"
+},
+{
+"n": "東上総児童相談所",
+"a": "千葉県茂原市高師3007-6",
+"t": "0475-27-1733",
+"cat": "jiso",
+"lat": 35.43639,
+"lng": 140.294022,
+"prec": "address",
+"src": "cfa_jisou_ichiran",
+"checked": "2026-10-03"
+},
+{
+"n": "君津児童相談所",
+"a": "千葉県君津市中野4-18-9",
+"t": "0439-55-3100",
+"cat": "jiso",
+"lat": 35.33408,
+"lng": 139.890182,
+"prec": "address",
+"src": "cfa_jisou_ichiran",
+"checked": "2026-10-03"
+},
+{
+"n": "印旛児童相談所",
+"a": "千葉県印西市牧の原6-2-3",
+"t": "0476-94-7500",
+"cat": "jiso",
+"lat": 35.803318,
+"lng": 140.173294,
+"prec": "town",
+"src": "cfa_jisou_ichiran",
+"checked": "2026-10-03"
+},
+{
+"n": "千葉市東部児童相談所",
+"a": "千葉県千葉市美浜区高浜3-2-3",
+"t": "043-277-8820",
+"cat": "jiso",
+"lat": 35.620163,
+"lng": 140.065643,
+"prec": "address",
+"src": "cfa_jisou_ichiran",
+"checked": "2026-10-03"
+},
+{
+"n": "千葉市西部児童相談所",
+"a": "千葉県千葉市美浜区高浜3-3-1 はまのわ3階",
+"t": "043-277-8821",
+"cat": "jiso",
+"lat": 35.621181,
+"lng": 140.066772,
+"prec": "address",
+"src": "cfa_jisou_ichiran",
+"checked": "2026-10-03"
+},
+{
+"n": "千葉県発達障害者支援センター「CAS（きゃす）」",
+"a": "千葉県千葉市中央区中央２丁目９－８ 千葉広小路ビル0601号室",
+"t": "043-227-8557",
+"url": "https://cas-chibaken.net/",
+"cat": "hattatsu_center",
+"lat": 35.610096,
+"lng": 140.124573,
+"prec": "address",
+"src": "rehab_ddis_center",
+"checked": "2026-10-03"
+},
+{
+"n": "千葉県発達障害者支援センター東葛飾分室「CAS我孫子」",
+"a": "千葉県我孫子市本町3-1-2　けやきプラザ4階",
+"t": "04-7165-2515",
+"url": "https://cas-chibaken.net/",
+"cat": "hattatsu_center",
+"lat": 35.872242,
+"lng": 140.012482,
+"prec": "address",
+"src": "rehab_ddis_center",
+"checked": "2026-10-03"
+},
+{
+"n": "千葉市発達障害者支援センター",
+"a": "千葉県千葉市美浜区高浜4丁目8番3号　千葉市療育センター内",
+"t": "043-303-6088",
+"url": "https://chiba-shakyo.jp/development/",
+"cat": "hattatsu_center",
+"lat": 35.624027,
+"lng": 140.070007,
+"prec": "address",
+"src": "rehab_ddis_center",
+"checked": "2026-10-03"
+},
+{
+"n": "千葉県医療的ケア児等支援センターぽらりす",
+"a": null,
+"t": null,
+"url": "https://www.chiba-reha.jp/nursing/ikeajicenter/",
+"cat": "iryocare_center",
+"lat": null,
+"lng": null,
+"prec": null,
+"src": "cfa_iryocare_center",
+"checked": "2026-10-03"
+}
+]

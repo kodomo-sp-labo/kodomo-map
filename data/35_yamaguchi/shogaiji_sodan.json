@@ -12,6 +12,10 @@
 "prec": "address",
 "src": "wamnet",
 "facility_id": "3575300029",
+"url": "https://www.shouseien.net/",
+"h_wd": "08:15-17:00",
+"h_sat": "08:15-17:00",
+"closed": "月８日（日曜・祝日及び一部の土曜）",
 "rem": "営業時間の他、電話や併設事業所との連携により常時連絡が可能な体制"
 },
 {
@@ -26,7 +30,10 @@
 "lng": 131.87550787,
 "prec": "address",
 "src": "wamnet",
-"facility_id": "3575300094"
+"facility_id": "3575300094",
+"h_wd": "09:00-17:00",
+"h_sat": "09:00-15:00",
+"closed": "日・祝日、12月30日〜1月3日"
 },
 {
 "n": "相談支援事業所Ｒｅｉｋａ",
@@ -40,7 +47,9 @@
 "lng": 131.85942629,
 "prec": "address",
 "src": "wamnet",
-"facility_id": "3575300086"
+"facility_id": "3575300086",
+"h_wd": "09:00-18:00",
+"closed": "土曜日・日曜日・祝日"
 },
 {
 "n": "COMPASSサポート下関",
@@ -54,7 +63,8 @@
 "lng": 130.95075138,
 "prec": "address",
 "src": "wamnet",
-"facility_id": "3573100439"
+"facility_id": "3573100439",
+"url": "https://www.compass-mitsuba.com/facility/19704"
 },
 {
 "n": "Linoa 相談支援事業所",
@@ -82,7 +92,9 @@
 "lng": 130.9409899,
 "prec": "address",
 "src": "wamnet",
-"facility_id": "3573100108"
+"facility_id": "3573100108",
+"url": "http://www.nagomi-no-sato.jp",
+"closed": "土、日、祝日"
 },
 {
 "n": "びれっじ",
@@ -97,6 +109,10 @@
 "prec": "address",
 "src": "wamnet",
 "facility_id": "3573100173",
+"url": "http://utsuifukushikai.com/",
+"h_wd": "09:00-18:00",
+"h_sat": "09:00-18:00",
+"closed": "日・祝日",
 "rem": "時間外は携帯電話による対応"
 },
 {
@@ -111,7 +127,9 @@
 "lng": 131.0336002,
 "prec": "address",
 "src": "wamnet",
-"facility_id": "3573100124"
+"facility_id": "3573100124",
+"h_wd": "08:30-17:30",
+"closed": "土日祝日、年末年始"
 },
 {
 "n": "下関市こども発達センター",
@@ -125,7 +143,10 @@
 "lng": 130.92444648,
 "prec": "address",
 "src": "wamnet",
-"facility_id": "3573100157"
+"facility_id": "3573100157",
+"url": "http://www.shimo.jigyodan.jp/",
+"h_wd": "08:30-17:00",
+"closed": "土曜日、日曜日、祝日、12月29日〜1月3日"
 },
 {
 "n": "下関市障害者生活支援センター",
@@ -140,6 +161,9 @@
 "prec": "address",
 "src": "wamnet",
 "facility_id": "3573100090",
+"url": "http://www.shimoshakyo.or.jp",
+"h_wd": "08:15-17:15",
+"closed": "土曜・日曜・国民の祝日及び12月29日から1月3日",
 "rem": "平日の利用可能な時間帯以外は携帯電話での対応となる"
 },
 {
@@ -154,7 +178,8 @@
 "lng": 130.92896231,
 "prec": "address",
 "src": "wamnet",
-"facility_id": "3573100454"
+"facility_id": "3573100454",
+"h_wd": "09:00-18:00"
 },
 {
 "n": "支援センター　一歩社",
@@ -168,7 +193,10 @@
 "lng": 130.92372153,
 "prec": "address",
 "src": "wamnet",
-"facility_id": "3573100132"
+"facility_id": "3573100132",
+"url": "http://www.shigemoto.or.jp",
+"h_wd": "09:00-17:00",
+"closed": "土日、祝日、年末年始12月30日〜1月3日、盆期間8月13日〜15日"
 },
 {
 "n": "支援センターひえだ",
@@ -182,7 +210,10 @@
 "lng": 130.92777043,
 "prec": "address",
 "src": "wamnet",
-"facility_id": "3573100397"
+"facility_id": "3573100397",
+"h_wd": "08:30-17:00",
+"h_sat": "08:30-17:00",
+"closed": "日曜日及び祝日"
 },
 {
 "n": "灯りーど",
@@ -211,6 +242,9 @@
 "prec": "address",
 "src": "wamnet",
 "facility_id": "3573100272",
+"url": "http://www.jinenjo.or.jp",
+"h_wd": "09:00-16:30",
+"closed": "土、日曜、祝祭日、年末年始",
 "rem": "利用者の状況等により対応（要相談）"
 },
 {
@@ -225,7 +259,9 @@
 "lng": 130.92496002,
 "prec": "address",
 "src": "wamnet",
-"facility_id": "3573100496"
+"facility_id": "3573100496",
+"h_wd": "09:00-17:00",
+"closed": "土日、祝祭日、8/13〜15、12/29〜1/3"
 },
 {
 "n": "相談支援事業所　フェニックス",
@@ -239,7 +275,10 @@
 "lng": 130.96196104,
 "prec": "address",
 "src": "wamnet",
-"facility_id": "3573100165"
+"facility_id": "3573100165",
+"url": "http://www.akatsukikai.com",
+"h_wd": "08:30-17:30",
+"closed": "土日祝日　１２月３１日〜１月３日"
 },
 {
 "n": "相談支援事業所きしゃぽっぽ",
@@ -254,6 +293,9 @@
 "prec": "address",
 "src": "wamnet",
 "facility_id": "3573100405",
+"url": "https://sm-ksypp.wixsite.com/my-site",
+"h_wd": "10:00-18:00",
+"closed": "土日祝、年末年始、お盆休み",
 "rem": "毎週木曜日のみ営業時間は13：00から18：00まで"
 },
 {
@@ -269,6 +311,12 @@
 "prec": "area",
 "src": "wamnet",
 "facility_id": "3573100223",
+"url": "https://www.cilshimonosekiraito.com/",
+"h_wd": "00:00-23:59",
+"h_sat": "00:00-23:59",
+"h_sun": "00:00-00:00",
+"h_hol": "00:00-23:59",
+"closed": "土・日・祝",
 "rem": "利用者のニーズに合わせて派遣を行っている。"
 },
 {
@@ -283,7 +331,10 @@
 "lng": 130.94683774,
 "prec": "address",
 "src": "wamnet",
-"facility_id": "3573100462"
+"facility_id": "3573100462",
+"url": "https://www.komugi-shien.com/",
+"h_wd": "09:00-16:00",
+"closed": "土曜、日祝"
 },
 {
 "n": "光あけぼの園相談支援事業所",
@@ -311,7 +362,9 @@
 "lng": 131.97063481,
 "prec": "address",
 "src": "wamnet",
-"facility_id": "3575400035"
+"facility_id": "3575400035",
+"url": "http://www.ayumu2008.jp",
+"closed": "土日・祝祭日"
 },
 {
 "n": "相談支援センター　ひかり苑",
@@ -325,7 +378,10 @@
 "lng": 131.92022782,
 "prec": "address",
 "src": "wamnet",
-"facility_id": "3575400068"
+"facility_id": "3575400068",
+"url": "https://www.hikarien.jp",
+"h_wd": "08:30-17:30",
+"closed": "土・日曜日・祝日"
 },
 {
 "n": "きかん車",
@@ -339,7 +395,9 @@
 "lng": 131.95228736,
 "prec": "address",
 "src": "wamnet",
-"facility_id": "3576300135"
+"facility_id": "3576300135",
+"url": "http://www.fujiwara-hp.jp/",
+"h_wd": "10:00-16:00"
 },
 {
 "n": "五月あけぼの園　相談支援事業所",
@@ -353,7 +411,9 @@
 "lng": 131.83007263,
 "prec": "address",
 "src": "wamnet",
-"facility_id": "3576300176"
+"facility_id": "3576300176",
+"h_wd": "09:00-10:30",
+"closed": "日曜・祝日・隔週土曜"
 },
 {
 "n": "相談支援センター アイリス",
@@ -367,7 +427,10 @@
 "lng": 131.788365,
 "prec": "address",
 "src": "wamnet",
-"facility_id": "3576300218"
+"facility_id": "3576300218",
+"url": "https://poreporeclub.com/",
+"h_wd": "09:00-18:00",
+"closed": "土曜日、日曜日、祝日、盆、年末年始"
 },
 {
 "n": "相談支援センター拓未",
@@ -381,7 +444,10 @@
 "lng": 131.81151806,
 "prec": "address",
 "src": "wamnet",
-"facility_id": "3576300184"
+"facility_id": "3576300184",
+"h_wd": "09:00-17:00",
+"h_hol": "09:00-17:00",
+"closed": "土、日、年末年始（12月29日〜１月3日）法人カレンダーによる"
 },
 {
 "n": "総合相談支援センターぱれっと",
@@ -395,7 +461,10 @@
 "lng": 131.84914075,
 "prec": "address",
 "src": "wamnet",
-"facility_id": "3576300101"
+"facility_id": "3576300101",
+"url": "https://tsudumi.jp",
+"h_wd": "09:00-16:30",
+"closed": "土曜、日曜、祝日、年末年始12/29-1/3"
 },
 {
 "n": "たちばな園相談支援事業所",
@@ -410,6 +479,9 @@
 "prec": "address",
 "src": "wamnet",
 "facility_id": "3575700020",
+"url": "https://jigyodan-yg.jp/tachibana/",
+"h_wd": "08:30-17:15",
+"closed": "土曜・日曜及び祝日　12月29日〜1月3日",
 "rem": "電話などにより24時間常時連絡が可能"
 },
 {
@@ -424,7 +496,10 @@
 "lng": 131.246788,
 "prec": "address",
 "src": "wamnet",
-"facility_id": "3570200240"
+"facility_id": "3570200240",
+"url": "http://ubekurumien.net/",
+"h_wd": "08:30-17:00",
+"closed": "日曜日、第２・４土曜日、国民の祝日、夏季休暇、年末年始休暇"
 },
 {
 "n": "おひさま生活塾 寺子屋ほわりん",
@@ -439,6 +514,9 @@
 "prec": "area",
 "src": "wamnet",
 "facility_id": "3570200406",
+"h_wd": "09:00-17:30",
+"h_sat": "09:00-17:30",
+"closed": "日曜・祝日",
 "rem": "平日月曜及び金曜は午後14:00〜17:30　　年末・年始、お盆は休業,"
 },
 {
@@ -454,6 +532,11 @@
 "prec": "address",
 "src": "wamnet",
 "facility_id": "3570200182",
+"h_wd": "09:00-18:00",
+"h_sat": "09:00-18:00",
+"h_sun": "09:00-18:00",
+"h_hol": "09:00-18:00",
+"closed": "毎月第3日曜日、年末年始は休業とする",
 "rem": "その他の時間に関しては、応相談"
 },
 {
@@ -468,7 +551,10 @@
 "lng": 131.25302294,
 "prec": "address",
 "src": "wamnet",
-"facility_id": "3570200372"
+"facility_id": "3570200372",
+"url": "https://itp.ne.jp/info/354483027177050200/",
+"h_wd": "09:30-17:00",
+"closed": "土日祝日　12月30日〜1月3日"
 },
 {
 "n": "サポートスペース創",
@@ -482,7 +568,11 @@
 "lng": 131.21765026,
 "prec": "address",
 "src": "wamnet",
-"facility_id": "3570200315"
+"facility_id": "3570200315",
+"url": "http://ibuki-yamaguchi.co.jp/",
+"h_wd": "09:00-18:00",
+"h_hol": "09:00-18:00",
+"closed": "土曜日・日曜日及び8/13〜8/15・12/29〜1/3"
 },
 {
 "n": "ニチラク相談支援事業所",
@@ -496,7 +586,10 @@
 "lng": 131.25572043,
 "prec": "address",
 "src": "wamnet",
-"facility_id": "3570200422"
+"facility_id": "3570200422",
+"h_wd": "09:00-18:00",
+"h_hol": "09:00-18:00",
+"closed": "土曜日・日曜日"
 },
 {
 "n": "片倉温泉相談支援事業所",
@@ -510,7 +603,9 @@
 "lng": 131.29922058,
 "prec": "address",
 "src": "wamnet",
-"facility_id": "3570200455"
+"facility_id": "3570200455",
+"h_wd": "08:30-17:30",
+"closed": "土日、祝日　年末年始"
 },
 {
 "n": "生活支援センターふなき",
@@ -524,7 +619,12 @@
 "lng": 131.22640713,
 "prec": "address",
 "src": "wamnet",
-"facility_id": "3570200430"
+"facility_id": "3570200430",
+"url": "http://www.furoukai.jp",
+"h_wd": "08:15-17:15",
+"h_sat": "08:15-17:15",
+"h_sun": "08:15-17:15",
+"h_hol": "08:15-17:15"
 },
 {
 "n": "相談支援バンビ",
@@ -539,6 +639,8 @@
 "prec": "address",
 "src": "wamnet",
 "facility_id": "3570200463",
+"h_wd": "09:00-18:00",
+"closed": "土日、8/13〜8/15、12/29〜1/3",
 "rem": "電話等により、２４時間常時連絡が可能な体制とする。"
 },
 {
@@ -553,7 +655,11 @@
 "lng": 131.29697232,
 "prec": "address",
 "src": "wamnet",
-"facility_id": "3570200174"
+"facility_id": "3570200174",
+"url": "https://www.nanpuso.or.jp/office/piananpu.html",
+"h_wd": "08:30-16:45",
+"h_sat": "08:30-16:45",
+"closed": "第2,4,5土曜日、日曜日、祝日、年末年始"
 },
 {
 "n": "相談支援事業所　高嶺園",
@@ -568,6 +674,9 @@
 "prec": "address",
 "src": "wamnet",
 "facility_id": "3570200141",
+"url": "https://www.kouryoukai.or.jp/",
+"h_wd": "08:30-17:15",
+"closed": "国民の祝日に関する法律で定めた休日、12月31日、1月2日、3日。土曜・日曜日。",
 "rem": "月曜日から金曜日までとする。"
 },
 {
@@ -582,7 +691,9 @@
 "lng": 131.26200593,
 "prec": "address",
 "src": "wamnet",
-"facility_id": "3570200232"
+"facility_id": "3570200232",
+"h_wd": "08:30-17:30",
+"closed": "土・日・祝日"
 },
 {
 "n": "相談支援事業所ぽけっと",
@@ -596,7 +707,9 @@
 "lng": 131.25874032,
 "prec": "address",
 "src": "wamnet",
-"facility_id": "3570200448"
+"facility_id": "3570200448",
+"h_wd": "09:00-18:00",
+"h_sat": "09:00-15:00"
 },
 {
 "n": "相談支援事業所サポートセンターぴっころ",
@@ -611,6 +724,8 @@
 "prec": "address",
 "src": "wamnet",
 "facility_id": "3570200158",
+"h_wd": "08:30-17:30",
+"closed": "土曜日・日曜日・祝祭日",
 "rem": "8月14日から8月16日及び12月31日から1月3日まではお休み致します。"
 },
 {
@@ -625,7 +740,10 @@
 "lng": 131.24566802,
 "prec": "address",
 "src": "wamnet",
-"facility_id": "3570200471"
+"facility_id": "3570200471",
+"url": "https://www.sunrise-sanyo-onoda.com/",
+"h_wd": "09:00-18:00",
+"closed": "土日祝・年末年始"
 },
 {
 "n": "神原苑障害相談支援センター",
@@ -639,7 +757,9 @@
 "lng": 131.26128716,
 "prec": "address",
 "src": "wamnet",
-"facility_id": "3570200125"
+"facility_id": "3570200125",
+"url": "http://www.kamiharaen.com",
+"closed": "土日祝日、8/15、8/16、12/31〜1/3"
 },
 {
 "n": "総合相談支援センターぷりずむ",
@@ -654,6 +774,12 @@
 "prec": "address",
 "src": "wamnet",
 "facility_id": "3570200414",
+"url": "https://www.mubekouei.com",
+"h_wd": "08:30-17:30",
+"h_sat": "08:30-17:30",
+"h_sun": "00:00-00:00",
+"h_hol": "08:30-17:30",
+"closed": "日曜日、１２月３1日〜１月2日",
 "rem": "なし"
 },
 {
@@ -669,6 +795,8 @@
 "prec": "address",
 "src": "wamnet",
 "facility_id": "3570200109",
+"h_wd": "09:00-17:00",
+"closed": "土、日、祝日",
 "rem": "電話等により、２４時間常時連絡が可能な体制としております"
 },
 {
@@ -683,7 +811,13 @@
 "lng": 131.4004429,
 "prec": "address",
 "src": "wamnet",
-"facility_id": "3570100242"
+"facility_id": "3570100242",
+"url": "http://www.seirankai.or.jp",
+"h_wd": "08:30-17:30",
+"h_sat": "08:30-17:30",
+"h_sun": "00:00-00:00",
+"h_hol": "00:00-00:00",
+"closed": "日曜、祝日、お盆、年末年始"
 },
 {
 "n": "ウッド・ムーン",
@@ -697,7 +831,10 @@
 "lng": 131.45519942,
 "prec": "address",
 "src": "wamnet",
-"facility_id": "3570100176"
+"facility_id": "3570100176",
+"url": "http://blog.canpan.info/woodmoon",
+"h_wd": "09:00-18:00",
+"closed": "土・日・祝日・年末年始・お盆"
 },
 {
 "n": "クロスロードケアセンター",
@@ -711,7 +848,10 @@
 "lng": 131.46330711,
 "prec": "address",
 "src": "wamnet",
-"facility_id": "3570100309"
+"facility_id": "3570100309",
+"url": "http://www.crossroad.sakuraweb.com",
+"h_wd": "09:00-18:00",
+"closed": "土日祝日、盆休み、年末年始"
 },
 {
 "n": "地域活動支援センターやまぐち",
@@ -726,6 +866,12 @@
 "prec": "address",
 "src": "wamnet",
 "facility_id": "3570100135",
+"url": "http://www.hakuaikai.orq/s-hakuaikai/",
+"h_wd": "08:00-17:00",
+"h_sat": "00:00-00:00",
+"h_sun": "00:00-00:00",
+"h_hol": "00:00-00:00",
+"closed": "土日祝（不定休）",
 "rem": "特になし"
 },
 {
@@ -740,7 +886,10 @@
 "lng": 131.46414834,
 "prec": "address",
 "src": "wamnet",
-"facility_id": "3570100127"
+"facility_id": "3570100127",
+"url": "http://yoshiki-aijien.com/",
+"h_wd": "08:30-17:00",
+"closed": "土曜，日曜，国民の祝日，8月13日〜15日及び12月29日〜1月3日"
 },
 {
 "n": "済生会山口地域ケアセンター　やまぐち障害者生活支援センター",
@@ -755,6 +904,8 @@
 "prec": "address",
 "src": "wamnet",
 "facility_id": "3570100143",
+"h_wd": "08:30-17:15",
+"closed": "土日・祝日・8/14〜15・12/29〜1/3",
 "rem": "平日時間外及び定休日は電話を携帯電話に転送し必要に応じて対応"
 },
 {
@@ -769,7 +920,10 @@
 "lng": 131.47299086,
 "prec": "address",
 "src": "wamnet",
-"facility_id": "3570100341"
+"facility_id": "3570100341",
+"url": "https://inclu-yamaguchi.com/",
+"h_wd": "09:00-17:00",
+"closed": "土曜日、日曜日、国民の祝日、8月13日〜8月15日、12月29日〜1月3日"
 },
 {
 "n": "相談支援センターポップライフ",
@@ -783,7 +937,9 @@
 "lng": 131.37153511,
 "prec": "address",
 "src": "wamnet",
-"facility_id": "3570100333"
+"facility_id": "3570100333",
+"h_wd": "08:30-17:30",
+"closed": "土日、祝日、12月29日から1月3日"
 },
 {
 "n": "相談支援事業　ぴぽっと",
@@ -811,7 +967,9 @@
 "lng": 131.49450404,
 "prec": "address",
 "src": "wamnet",
-"facility_id": "3570100325"
+"facility_id": "3570100325",
+"h_wd": "09:00-17:00",
+"closed": "土・日・祝"
 },
 {
 "n": "相談支援事業所らんらん",
@@ -839,7 +997,10 @@
 "lng": 131.52648164,
 "prec": "address",
 "src": "wamnet",
-"facility_id": "3570100150"
+"facility_id": "3570100150",
+"url": "http://ynet.gr.jp/narutaki/",
+"h_wd": "08:30-17:30",
+"closed": "土曜、日曜、祝日"
 },
 {
 "n": "プラスワンコンセール小野田店",
@@ -854,6 +1015,8 @@
 "prec": "address",
 "src": "wamnet",
 "facility_id": "3576400109",
+"h_wd": "09:00-17:00",
+"closed": "土曜・日曜・祝日",
 "rem": "上記を定休日と定めていますが、利用者様に応じて対応させて頂きます"
 },
 {
@@ -868,7 +1031,9 @@
 "lng": 131.18195268,
 "prec": "address",
 "src": "wamnet",
-"facility_id": "3576400091"
+"facility_id": "3576400091",
+"h_wd": "08:30-17:30",
+"closed": "土・日・祝日・お盆・年末年始"
 },
 {
 "n": "相談室いこい",
@@ -896,7 +1061,10 @@
 "lng": 131.14259994,
 "prec": "address",
 "src": "wamnet",
-"facility_id": "3576400083"
+"facility_id": "3576400083",
+"url": "http://tsunagi2016.jp",
+"h_wd": "08:30-17:30",
+"closed": "土曜・日曜・祝日・年末年始・お盆"
 },
 {
 "n": "相談支援事業所のぞみ",
@@ -910,7 +1078,10 @@
 "lng": 131.17222597,
 "prec": "address",
 "src": "wamnet",
-"facility_id": "3576400075"
+"facility_id": "3576400075",
+"url": "http://sanyoonoda-jigyodan.com/",
+"h_wd": "08:15-17:15",
+"closed": "８月１４日から８月１６日及び１２月２９日から１月３日"
 },
 {
 "n": "地域生活支援センタートライアングル",
@@ -924,7 +1095,11 @@
 "lng": 132.1739286,
 "prec": "address",
 "src": "wamnet",
-"facility_id": "3575500107"
+"facility_id": "3575500107",
+"url": "http://vitaferiche.or.jp/トライアングル/",
+"h_wd": "09:00-17:00",
+"h_sat": "09:00-17:00",
+"closed": "日月曜日　国民の祝日　盆休(3日)　正月休(3日)"
 },
 {
 "n": "多機能型事業所はっぴーはうす（相談支援事業部門しあわせ）",
@@ -952,7 +1127,9 @@
 "lng": 132.18367779,
 "prec": "address",
 "src": "wamnet",
-"facility_id": "3575500040"
+"facility_id": "3575500040",
+"h_wd": "08:30-17:15",
+"closed": "土曜日・日曜日・国民の祝日・年末年始（12月29日から1月3日）"
 },
 {
 "n": "緑風会障害者生活支援センター",
@@ -967,6 +1144,10 @@
 "prec": "address",
 "src": "wamnet",
 "facility_id": "3575500065",
+"url": "https://ryokufuukai.net/",
+"h_wd": "08:30-17:15",
+"h_hol": "08:30-17:15",
+"closed": "土日",
 "rem": "上記の営業日営業時間の他、電話等により24時間常時連絡が可能な体制とする。"
 },
 {
@@ -981,7 +1162,11 @@
 "lng": 132.18418337,
 "prec": "address",
 "src": "wamnet",
-"facility_id": "3575500172"
+"facility_id": "3575500172",
+"url": "https://www.npo-hagu.jp/profile/",
+"h_wd": "09:30-13:00",
+"h_sat": "09:30-13:00",
+"closed": "日祝、12月30日から1月3日"
 },
 {
 "n": "障害児相談支援事業所かどるあっぷ",
@@ -995,7 +1180,8 @@
 "lng": 132.21191737,
 "prec": "address",
 "src": "wamnet",
-"facility_id": "3575500180"
+"facility_id": "3575500180",
+"closed": "土日祝　年末年始　お盆期間"
 },
 {
 "n": "障害者地域生活支援センターしらかば",
@@ -1009,7 +1195,11 @@
 "lng": 132.21050635,
 "prec": "address",
 "src": "wamnet",
-"facility_id": "3575500081"
+"facility_id": "3575500081",
+"url": "http://shirakabaen.jimdo.com/",
+"h_wd": "08:30-17:00",
+"h_hol": "08:30-17:00",
+"closed": "土日"
 },
 {
 "n": "障害者地域生活支援センタープログレス",
@@ -1023,7 +1213,10 @@
 "lng": 132.07869393,
 "prec": "address",
 "src": "wamnet",
-"facility_id": "3575500073"
+"facility_id": "3575500073",
+"url": "https://miwafukushikai.jp/",
+"h_wd": "08:30-17:15",
+"closed": "土日曜日、国民の休日、12月29日〜１月３日"
 },
 {
 "n": "障害者支援センターリフレ",
@@ -1038,6 +1231,10 @@
 "prec": "address",
 "src": "wamnet",
 "facility_id": "3575500057",
+"url": "https://refre-maeda.jp/shisetsu/center/index.html",
+"h_wd": "08:15-17:15",
+"h_sat": "08:15-17:15",
+"closed": "日曜日、祝日、年末年始",
 "rem": "土曜日は日直者が対応"
 },
 {
@@ -1052,7 +1249,9 @@
 "lng": 132.11758696,
 "prec": "address",
 "src": "wamnet",
-"facility_id": "3575200070"
+"facility_id": "3575200070",
+"h_wd": "08:30-17:30",
+"closed": "土曜、日曜、年末年始"
 },
 {
 "n": "やない地域生活支援センター",
@@ -1066,7 +1265,8 @@
 "lng": 132.12585307,
 "prec": "address",
 "src": "wamnet",
-"facility_id": "3575200039"
+"facility_id": "3575200039",
+"closed": "日曜日、国民の休日、お盆、年末年始"
 },
 {
 "n": "柳井ひまわり園",
@@ -1080,7 +1280,10 @@
 "lng": 132.1176541,
 "prec": "address",
 "src": "wamnet",
-"facility_id": "3575200062"
+"facility_id": "3575200062",
+"url": "http://satsukikai-oshima.com",
+"h_wd": "08:15-17:15",
+"closed": "土、日、祝、年末年始（12月29日〜1月3日）"
 },
 {
 "n": "ながやす介護ステーション",
@@ -1094,7 +1297,8 @@
 "lng": 132.07294352,
 "prec": "address",
 "src": "wamnet",
-"facility_id": "3575900067"
+"facility_id": "3575900067",
+"closed": "土、日、祝"
 },
 {
 "n": "エンジュ（槐）",
@@ -1108,7 +1312,10 @@
 "lng": 132.05847486,
 "prec": "address",
 "src": "wamnet",
-"facility_id": "3575900091"
+"facility_id": "3575900091",
+"url": "http://www.fujiwara-hp.jp/",
+"h_wd": "10:00-16:00",
+"closed": "土、日曜日、祝日"
 },
 {
 "n": "はなさく相談支援事業所",
@@ -1122,7 +1329,9 @@
 "lng": 132.04280365,
 "prec": "address",
 "src": "wamnet",
-"facility_id": "3575900059"
+"facility_id": "3575900059",
+"h_wd": "09:30-18:30",
+"closed": "土日祝"
 },
 {
 "n": "指定障害児相談支援事業所たんぽぽ",
@@ -1137,6 +1346,9 @@
 "prec": "address",
 "src": "wamnet",
 "facility_id": "3575900026",
+"url": "http://www.jounan.or.jp",
+"h_wd": "09:00-17:15",
+"closed": "土・日曜日、国民の休日、年末年始（12月29日〜1月3日）",
 "rem": "電話などにより24時間常時連絡が可能"
 },
 {
@@ -1152,6 +1364,11 @@
 "prec": "address",
 "src": "wamnet",
 "facility_id": "3575900083",
+"h_wd": "09:30-17:30",
+"h_sat": "09:30-09:30",
+"h_sun": "09:30-09:30",
+"h_hol": "09:30-09:30",
+"closed": "土曜日　日曜日　国民の休日 8月14日〜16日と12月29日〜1月3日",
 "rem": "臨機応変に対応。休み8月14日〜16日と12月29日〜1月3日"
 },
 {
@@ -1166,7 +1383,9 @@
 "lng": 132.20377803,
 "prec": "address",
 "src": "wamnet",
-"facility_id": "3575800010"
+"facility_id": "3575800010",
+"h_wd": "09:00-19:00",
+"closed": "土、日、祝日"
 },
 {
 "n": "総合相談支援センターみね",
@@ -1180,7 +1399,10 @@
 "lng": 131.2056781,
 "prec": "address",
 "src": "wamnet",
-"facility_id": "3573400011"
+"facility_id": "3573400011",
+"url": "https://f-doho.com/",
+"h_wd": "08:30-17:30",
+"closed": "国民の休日・１２月２８日から１月３日までは除く"
 },
 {
 "n": "ハローサポートセンター",
@@ -1194,7 +1416,9 @@
 "lng": 131.40468994,
 "prec": "address",
 "src": "wamnet",
-"facility_id": "3570300081"
+"facility_id": "3570300081",
+"h_wd": "09:00-17:00",
+"closed": "土日、祝日"
 },
 {
 "n": "特定非営利活動法人ピアサポートセンター香生の里",
@@ -1223,6 +1447,9 @@
 "prec": "address",
 "src": "wamnet",
 "facility_id": "3570300057",
+"url": "http://www.futaba-hagi.jp/",
+"h_wd": "08:30-17:15",
+"closed": "土日・祝日および12月29日から1月3日",
 "rem": "営業時間外は電話での対応となる"
 },
 {
@@ -1238,6 +1465,12 @@
 "prec": "address",
 "src": "wamnet",
 "facility_id": "3573300039",
+"url": "http://www.nagatoshakyo.jp",
+"h_wd": "08:30-17:15",
+"h_sat": "00:00-00:00",
+"h_sun": "00:00-00:00",
+"h_hol": "00:00-00:00",
+"closed": "土日祝祭日/12/29〜1/3",
 "rem": "土日祝祭日　転送電話にて対応"
 },
 {
@@ -1252,7 +1485,10 @@
 "lng": 131.16955687,
 "prec": "address",
 "src": "wamnet",
-"facility_id": "3573300054"
+"facility_id": "3573300054",
+"url": "https://www.nagatokirari.org/",
+"h_wd": "08:30-17:30",
+"closed": "土曜日・日曜日・祝日・年末年始"
 },
 {
 "n": "福祥苑指定相談支援事業所",
@@ -1267,6 +1503,10 @@
 "prec": "address",
 "src": "wamnet",
 "facility_id": "3573300070",
+"url": "https://www.fukushoukai.or.jp/about",
+"h_wd": "08:30-17:30",
+"h_hol": "08:30-16:30",
+"closed": "土曜日・日曜日　年末年始",
 "rem": "緊急時は、上記時間外に対応可能"
 },
 {
@@ -1282,6 +1522,9 @@
 "prec": "address",
 "src": "wamnet",
 "facility_id": "3573300021",
+"url": "https://eikyukai.jp",
+"h_wd": "08:30-17:15",
+"closed": "土曜、日曜及び祝日、年末年始",
 "rem": "緊急時は電話等により２４時間常時連絡が可能な体制とする。"
 },
 {
@@ -1296,7 +1539,9 @@
 "lng": 131.57926923,
 "prec": "address",
 "src": "wamnet",
-"facility_id": "3575600121"
+"facility_id": "3575600121",
+"h_wd": "08:30-17:30",
+"closed": "土曜日・日曜日・祝祭日・お盆（8/14~15）・年末年始（12/29~1/3）"
 },
 {
 "n": "キートス相談支援事業所",
@@ -1310,7 +1555,9 @@
 "lng": 131.56345908,
 "prec": "address",
 "src": "wamnet",
-"facility_id": "3575600147"
+"facility_id": "3575600147",
+"url": "https://kiitos-22.com",
+"closed": "祝日、8/13〜8/15、12/29〜1/3"
 },
 {
 "n": "クローバーセンター",
@@ -1325,6 +1572,9 @@
 "prec": "address",
 "src": "wamnet",
 "facility_id": "3575600097",
+"url": "http://houraikai.com",
+"h_wd": "09:00-18:00",
+"closed": "土曜日、日曜日、祝日、年末年始",
 "rem": "土曜日、日曜日、祝日、利用可能な時間帯に関しては、考慮する"
 },
 {
@@ -1339,7 +1589,9 @@
 "lng": 131.56946452,
 "prec": "address",
 "src": "wamnet",
-"facility_id": "3575600139"
+"facility_id": "3575600139",
+"url": "https://ebisuya-fukushi.com/",
+"closed": "土日、祝祭日、お盆、年末年始"
 },
 {
 "n": "相談支援センターつむぎ",
@@ -1353,7 +1605,8 @@
 "lng": 131.56538705,
 "prec": "address",
 "src": "wamnet",
-"facility_id": "3575600162"
+"facility_id": "3575600162",
+"closed": "土日祝　盆　年末年始"
 },
 {
 "n": "相談支援事業所華の浦",
@@ -1367,7 +1620,10 @@
 "lng": 131.56355943,
 "prec": "address",
 "src": "wamnet",
-"facility_id": "3575600071"
+"facility_id": "3575600071",
+"url": "https://jigyodan-yg.jp/hananoura/",
+"h_wd": "08:30-17:15",
+"closed": "土・日曜日と国民の祝日に関する法律に規定する休日及び12月29日〜1月3日"
 },
 {
 "n": "社会福祉法人防府市社会福祉事業団ホームヘルパーセンター",
@@ -1381,7 +1637,10 @@
 "lng": 131.57385028,
 "prec": "address",
 "src": "wamnet",
-"facility_id": "3575600063"
+"facility_id": "3575600063",
+"url": "http://www.yhwc.org/",
+"h_wd": "08:15-17:00",
+"closed": "土曜、日曜、祝祭日、年末年始(12月29日から１月３日)"
 },
 {
 "n": "防府市障害者生活支援センター",
@@ -1395,7 +1654,10 @@
 "lng": 131.5666477,
 "prec": "address",
 "src": "wamnet",
-"facility_id": "3575600089"
+"facility_id": "3575600089",
+"url": "http://www.yhwc.org/",
+"h_wd": "08:15-17:00",
+"closed": "土曜、日曜、祝祭日、年末年始(12月29日から１月３日)"
 },
 {
 "n": "阿武町総合相談センター",
@@ -1409,6 +1671,7 @@
 "lng": 131.47549014,
 "prec": "address",
 "src": "wamnet",
-"facility_id": "3570500011"
+"facility_id": "3570500011",
+"h_wd": "08:30-17:15"
 }
 ]

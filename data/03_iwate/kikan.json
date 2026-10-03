@@ -1,0 +1,59 @@
+[
+{
+"n": "福祉総合相談センター",
+"a": "岩手県盛岡市本町通3-19-1",
+"t": "019-629-9600",
+"cat": "jiso",
+"lat": 39.707066,
+"lng": 141.143433,
+"prec": "address",
+"src": "cfa_jisou_ichiran",
+"checked": "2026-10-03"
+},
+{
+"n": "宮古児童相談所",
+"a": "岩手県宮古市和見町9-29",
+"t": "0193-62-4059",
+"cat": "jiso",
+"lat": 39.644783,
+"lng": 141.945206,
+"prec": "address",
+"src": "cfa_jisou_ichiran",
+"checked": "2026-10-03"
+},
+{
+"n": "一関児童相談所",
+"a": "岩手県一関市竹山町5-28",
+"t": "0191-21-0560",
+"cat": "jiso",
+"lat": 38.935326,
+"lng": 141.126266,
+"prec": "address",
+"src": "cfa_jisou_ichiran",
+"checked": "2026-10-03"
+},
+{
+"n": "岩手県発達障がい者支援センター「ウィズ」",
+"a": "岩手県紫波郡矢巾町医大通二丁目1番3号　岩手県立療育センター3階",
+"t": "019-601-3203",
+"url": "http://www.i-ryouiku.com/soudan/with/",
+"cat": "hattatsu_center",
+"lat": 39.618046,
+"lng": 141.162079,
+"prec": "address",
+"src": "rehab_ddis_center",
+"checked": "2026-10-03"
+},
+{
+"n": "岩手県医療的ケア児支援センター",
+"a": null,
+"t": null,
+"url": "https://www.pref.iwate.jp/kurashikankyou/fukushi/shougai/kokoro/1058038/index.html",
+"cat": "iryocare_center",
+"lat": null,
+"lng": null,
+"prec": null,
+"src": "cfa_iryocare_center",
+"checked": "2026-10-03"
+}
+]

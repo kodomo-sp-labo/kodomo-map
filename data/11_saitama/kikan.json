@@ -1,0 +1,161 @@
+[
+{
+"n": "中央児童相談所",
+"a": "埼玉県上尾市上尾村1242-1",
+"t": "048-775-4152",
+"cat": "jiso",
+"lat": 35.983387,
+"lng": 139.597961,
+"prec": "address",
+"src": "cfa_jisou_ichiran",
+"checked": "2026-10-03"
+},
+{
+"n": "南児童相談所",
+"a": "埼玉県川口市芝下1-1-56",
+"t": "048-262-4152",
+"cat": "jiso",
+"lat": 35.834953,
+"lng": 139.70018,
+"prec": "address",
+"src": "cfa_jisou_ichiran",
+"checked": "2026-10-03"
+},
+{
+"n": "朝霞児童相談所",
+"a": "埼玉県朝霞市青葉台1-10-63",
+"t": "048-465-4152",
+"cat": "jiso",
+"lat": 35.790455,
+"lng": 139.5923,
+"prec": "address",
+"src": "cfa_jisou_ichiran",
+"checked": "2026-10-03"
+},
+{
+"n": "川越児童相談所",
+"a": "埼玉県川越市宮元町33-1",
+"t": "049-223-4152",
+"cat": "jiso",
+"lat": 35.931908,
+"lng": 139.483292,
+"prec": "address",
+"src": "cfa_jisou_ichiran",
+"checked": "2026-10-03"
+},
+{
+"n": "所沢児童相談所",
+"a": "埼玉県所沢市並木1-9-2",
+"t": "04-2992-4152",
+"cat": "jiso",
+"lat": 35.800167,
+"lng": 139.473694,
+"prec": "address",
+"src": "cfa_jisou_ichiran",
+"checked": "2026-10-03"
+},
+{
+"n": "熊谷児童相談所",
+"a": "埼玉県熊谷市箱田5-13-1",
+"t": "048-521-4152",
+"cat": "jiso",
+"lat": 36.150463,
+"lng": 139.392441,
+"prec": "address",
+"src": "cfa_jisou_ichiran",
+"checked": "2026-10-03"
+},
+{
+"n": "越谷児童相談所",
+"a": "埼玉県越谷市恩間402-1",
+"t": "048-975-4152",
+"cat": "jiso",
+"lat": 35.924702,
+"lng": 139.769913,
+"prec": "address",
+"src": "cfa_jisou_ichiran",
+"checked": "2026-10-03"
+},
+{
+"n": "草加児童相談所",
+"a": "埼玉県草加市西町425-2",
+"t": "048-920-4152",
+"cat": "jiso",
+"lat": 35.829227,
+"lng": 139.795563,
+"prec": "address",
+"src": "cfa_jisou_ichiran",
+"checked": "2026-10-03"
+},
+{
+"n": "さいたま市 北部児童相談所",
+"a": "埼玉県さいたま市浦和区上木崎4-4-10",
+"t": "048-711-3917",
+"cat": "jiso",
+"lat": 35.886208,
+"lng": 139.643616,
+"prec": "address",
+"src": "cfa_jisou_ichiran",
+"checked": "2026-10-03"
+},
+{
+"n": "さいたま市 南部児童相談所",
+"a": "埼玉県さいたま市浦和区上木崎4-4-10",
+"t": "048-711-2489",
+"cat": "jiso",
+"lat": 35.886208,
+"lng": 139.643616,
+"prec": "address",
+"src": "cfa_jisou_ichiran",
+"checked": "2026-10-03"
+},
+{
+"n": "埼玉県発達障害者支援センター「まほろば」",
+"a": "埼玉県川越市平塚新田東河原201-2",
+"t": "049-239-3553",
+"url": "https://www.dd-mahoroba.com/",
+"cat": "hattatsu_center",
+"lat": 35.955059,
+"lng": 139.462265,
+"prec": "town",
+"src": "rehab_ddis_center",
+"checked": "2026-10-03"
+},
+{
+"n": "埼玉県発達障害総合支援センター",
+"a": "埼玉県さいたま市中央区新都心1-2",
+"t": "048-601-5551",
+"url": "http://www.pref.saitama.lg.jp/soshiki/b0614/index.html",
+"cat": "hattatsu_center",
+"lat": 35.891815,
+"lng": 139.632233,
+"prec": "address",
+"src": "rehab_ddis_center",
+"checked": "2026-10-03"
+},
+{
+"n": "さいたま市発達障害者支援センター",
+"a": "埼玉県さいたま市中央区鈴谷7-5-7　さいたま市障害者総合支援センター内1階",
+"t": "048-859-7422",
+"url": "http://www.city.saitama.jp/002/003/004/003/001/p009014.html",
+"cat": "hattatsu_center",
+"lat": 35.874199,
+"lng": 139.624756,
+"prec": "address",
+"src": "rehab_ddis_center",
+"checked": "2026-10-03"
+},
+{
+"n": "埼玉県医療的ケア児等支援センター",
+"a": null,
+"t": null,
+"url": "https://www.pref.saitama.lg.jp/a0605/library-info/iryotekikeajitoushien.html",
+"cat": "iryocare_center",
+"lat": null,
+"lng": null,
+"prec": null,
+"src": "cfa_iryocare_center",
+"checked": "2026-10-03",
+"rem": "県センター。【地域センター】かけはし、たいよう、ともに、カリヨンの杜"
+}
+]

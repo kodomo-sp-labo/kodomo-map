@@ -1,0 +1,182 @@
+[
+{
+"n": "中央児童・障害者相談センター",
+"a": "愛知県名古屋市中区三の丸2-6-1",
+"t": "052-961-7250",
+"cat": "jiso",
+"lat": 35.179596,
+"lng": 136.901337,
+"prec": "address",
+"src": "cfa_jisou_ichiran",
+"checked": "2026-10-03"
+},
+{
+"n": "海部児童・障害者相談センター",
+"a": "愛知県津島市西柳原町１－14",
+"t": "0567-25-8118",
+"cat": "jiso",
+"lat": 35.177437,
+"lng": 136.73288,
+"prec": "address",
+"src": "cfa_jisou_ichiran",
+"checked": "2026-10-03"
+},
+{
+"n": "知多児童・障害者相談センター",
+"a": "愛知県半田市宮路町1-1",
+"t": "0569-22-3939",
+"cat": "jiso",
+"lat": 34.903481,
+"lng": 136.926071,
+"prec": "address",
+"src": "cfa_jisou_ichiran",
+"checked": "2026-10-03"
+},
+{
+"n": "西三河児童・障害者相談センター",
+"a": "愛知県岡崎市明大寺本町1-4",
+"t": "0564-27-2779",
+"cat": "jiso",
+"lat": 34.954388,
+"lng": 137.164581,
+"prec": "address",
+"src": "cfa_jisou_ichiran",
+"checked": "2026-10-03"
+},
+{
+"n": "豊田加茂児童・障害者相談センター",
+"a": "愛知県豊田市瑞穂町2丁目5-1",
+"t": "0565-33-2211",
+"cat": "jiso",
+"lat": 35.077881,
+"lng": 137.164719,
+"prec": "address",
+"src": "cfa_jisou_ichiran",
+"checked": "2026-10-03"
+},
+{
+"n": "新城設楽児童・障害者相談センター",
+"a": "愛知県新城市字中野6-1",
+"t": "0536-23-7366",
+"cat": "jiso",
+"lat": 34.90107,
+"lng": 137.505707,
+"prec": "address",
+"src": "cfa_jisou_ichiran",
+"checked": "2026-10-03"
+},
+{
+"n": "東三河児童・障害者相談センター",
+"a": "愛知県豊橋市八町通5-4",
+"t": "0532-54-6465",
+"cat": "jiso",
+"lat": 34.767269,
+"lng": 137.398544,
+"prec": "address",
+"src": "cfa_jisou_ichiran",
+"checked": "2026-10-03"
+},
+{
+"n": "一宮児童相談センター",
+"a": "愛知県一宮市昭和1-11-11",
+"t": "0586-45-1558",
+"cat": "jiso",
+"lat": 35.293797,
+"lng": 136.793289,
+"prec": "address",
+"src": "cfa_jisou_ichiran",
+"checked": "2026-10-03"
+},
+{
+"n": "春日井児童相談センター",
+"a": "愛知県春日井市神屋町713-8",
+"t": "0568-88-7501",
+"cat": "jiso",
+"lat": 35.300423,
+"lng": 137.035049,
+"prec": "address",
+"src": "cfa_jisou_ichiran",
+"checked": "2026-10-03"
+},
+{
+"n": "刈谷児童相談センター",
+"a": "愛知県刈谷市神田町1-3-4",
+"t": "0566-22-7111",
+"cat": "jiso",
+"lat": 34.988449,
+"lng": 137.011917,
+"prec": "address",
+"src": "cfa_jisou_ichiran",
+"checked": "2026-10-03"
+},
+{
+"n": "名古屋市 中央児童相談所",
+"a": "愛知県名古屋市昭和区折戸町4-16",
+"t": "052-757-6111",
+"cat": "jiso",
+"lat": 35.155281,
+"lng": 136.945816,
+"prec": "address",
+"src": "cfa_jisou_ichiran",
+"checked": "2026-10-03"
+},
+{
+"n": "名古屋市 西部児童相談所",
+"a": "愛知県名古屋市中川区小城町1-1-20",
+"t": "052-365-3231",
+"cat": "jiso",
+"lat": 35.135551,
+"lng": 136.862106,
+"prec": "address",
+"src": "cfa_jisou_ichiran",
+"checked": "2026-10-03"
+},
+{
+"n": "名古屋市 東部児童相談所",
+"a": "愛知県名古屋市緑区鳴海町字小森４８－５",
+"t": "052-899-4630",
+"cat": "jiso",
+"lat": 35.100315,
+"lng": 136.952225,
+"prec": "address",
+"src": "cfa_jisou_ichiran",
+"checked": "2026-10-03"
+},
+{
+"n": "あいち発達障害者支援センター",
+"a": "愛知県春日井市神屋町713-8　愛知県医療療育総合センター",
+"t": "0568-88-0811(内線8109)",
+"url": "https://www.pref.aichi.jp/site/asca/",
+"cat": "hattatsu_center",
+"lat": 35.300423,
+"lng": 137.035049,
+"prec": "address",
+"src": "rehab_ddis_center",
+"checked": "2026-10-03"
+},
+{
+"n": "名古屋市発達障害者支援センター「りんくす名古屋」",
+"a": "愛知県名古屋市昭和区折戸町4-16　児童福祉センター内",
+"t": "052-757-6140",
+"url": "http://www.city.nagoya.jp/kurashi/category/22-5-2-0-0-0-0-0-0-0.html",
+"cat": "hattatsu_center",
+"lat": 35.155281,
+"lng": 136.945816,
+"prec": "address",
+"src": "rehab_ddis_center",
+"checked": "2026-10-03"
+},
+{
+"n": "あいち医療的ケア児支援センター",
+"a": null,
+"t": null,
+"url": "https://aichi-iryocareji.jp/",
+"cat": "iryocare_center",
+"lat": null,
+"lng": null,
+"prec": null,
+"src": "cfa_iryocare_center",
+"checked": "2026-10-03",
+"rem": "基幹支援センター。【地域支援センター】7か所（圏域別。原典の「支部・地域拠点等」欄を参照）"
+}
+]

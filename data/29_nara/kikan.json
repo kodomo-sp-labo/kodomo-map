@@ -1,0 +1,59 @@
+[
+{
+"n": "中央こども家庭相談センター",
+"a": "奈良県奈良市紀寺町833",
+"t": "0742-26-3788",
+"cat": "jiso",
+"lat": 34.674694,
+"lng": 135.838455,
+"prec": "address",
+"src": "cfa_jisou_ichiran",
+"checked": "2026-10-03"
+},
+{
+"n": "高田こども家庭相談センター",
+"a": "奈良県大和高田市大中17-6",
+"t": "0745-22-6079",
+"cat": "jiso",
+"lat": 34.516048,
+"lng": 135.735733,
+"prec": "address",
+"src": "cfa_jisou_ichiran",
+"checked": "2026-10-03"
+},
+{
+"n": "奈良市子どもセンター",
+"a": "奈良県奈良市柏木町263-2",
+"t": "0742-34-5597",
+"cat": "jiso",
+"lat": 34.667679,
+"lng": 135.796371,
+"prec": "address",
+"src": "cfa_jisou_ichiran",
+"checked": "2026-10-03"
+},
+{
+"n": "奈良県発達障害者支援センター「でぃあー」",
+"a": "奈良県磯城郡田原本町大字多722番地　奈良県障害者総合支援センター内",
+"t": "0744-32-8760",
+"url": "http://deardeer.hozanji-wel.org/",
+"cat": "hattatsu_center",
+"lat": 34.536194,
+"lng": 135.784439,
+"prec": "address",
+"src": "rehab_ddis_center",
+"checked": "2026-10-03"
+},
+{
+"n": "奈良県重症心身障害児者支援センター",
+"a": null,
+"t": null,
+"url": "https://twf.or.jp/center/",
+"cat": "iryocare_center",
+"lat": null,
+"lng": null,
+"prec": null,
+"src": "cfa_iryocare_center",
+"checked": "2026-10-03"
+}
+]

@@ -95,7 +95,7 @@
       "as_of": "2026年3月末時点",
       "tier": "A",
       "discovery_query": "WAM NET 障害福祉サービス等情報公表システム オープンデータ",
-      "notes": "サービス種別コード63〜67（児童発達支援／医療型児童発達支援／放課後等デイサービス／居宅訪問型児童発達支援／保育所等訪問支援）を抽出。緯度経度はCSVに標準搭載（全国28,528件、欠損0）。一覧ページURLは2026-07-26に実在を再確認。2026-09-28、コード70（障害児相談支援、2026年3月末時点・同じ一覧ページ）を追加で抽出（datasets.shogaiji_sodan）。",
+      "notes": "サービス種別コード63〜67（児童発達支援／医療型児童発達支援／放課後等デイサービス／居宅訪問型児童発達支援／保育所等訪問支援）を抽出。緯度経度はCSVに標準搭載（全国28,528件、欠損0）。一覧ページURLは2026-07-26に実在を再確認。2026-09-28、コード70（障害児相談支援、2026年3月末時点・同じ一覧ページ）を追加で抽出（datasets.shogaiji_sodan）。2026-10-03、事業所URL・利用可能な時間帯（平日・土曜・日曜・祝日）・定休日の列も取り込んだ（値がある事業所のみ url / h_wd / h_sat / h_sun / h_hol / closed。事業者の報告値のままで、画面では「00:00-00:00」は表示しない）。",
       "license": "WAM NET オープンデータ（出典明記を条件に加工・二次加工可）",
       "license_url": "https://www.wam.go.jp/content/wamnet/pcpub/top/sfkopendata/",
       "credit": true,
@@ -2213,6 +2213,54 @@
       "terms_checked": "2026-07-29",
       "usage_note": "施設の名称・所在地・電話番号という事実情報の利用（CLAUDE.mdルール17）。",
       "conditions": "地図・図形データや一括提供物CSVの転載ではなく、事実情報の抽出。"
+    },
+    "cfa_jisou_ichiran": {
+      "source_label": "こども家庭庁「児童相談所一覧」",
+      "source": "https://www.cfa.go.jp/policies/jidougyakutai/jisou-ichiran",
+      "publisher": "こども家庭庁",
+      "checked": "2026-10-03",
+      "as_of": "令和8年4月1日現在",
+      "tier": "A",
+      "discovery_query": "こども家庭庁 児童相談所一覧",
+      "notes": "③相談（専門機関）の児童相談所（datasets.kikan、cat=jiso）。1ページに全国の児童相談所（本所244件）と支所・分室等（原典の■、24件）が載る。原典冒頭の「児童相談所数＝243か所」と本所の数が1件合わない（2026-10-03時点。原因未確認）。住所は都道府県名なしで書かれているため見出しの都道府県名を前に付けた。緯度経度は原典になく国土地理院住所検索で付与（gsi_geocode）。取得HTMLは メモ等/kikan_20261003/、生成は メモ等/build_kikan.py。",
+      "license": "公共データ利用規約（第1.0版）PDL1.0",
+      "license_url": "https://www.cfa.go.jp/copyright-policy",
+      "credit": true,
+      "modified_note": true,
+      "terms_checked": "2026-10-03",
+      "conditions": "こども家庭庁コピーライトポリシー（2026-10-03確認）: 権利表記の記載がない限りPDL1.0を適用。出典を記載し、編集・加工して利用する場合は出典とは別に編集・加工を行ったこと及びその主体を記載する。加工した情報を国が作成したかのように公表・利用してはならない。児童相談所一覧のページに別の権利表記はない。"
+    },
+    "rehab_ddis_center": {
+      "source_label": "国立障害者リハビリテーションセンター 発達障害情報・支援センター「発達障害者支援センター・一覧」",
+      "source": "https://www.rehab.go.jp/ddis/action/center/",
+      "publisher": "国立障害者リハビリテーションセンター",
+      "checked": "2026-10-03",
+      "as_of": "令和8年4月現在（同ページの全国一覧PDF）",
+      "tier": "A",
+      "discovery_query": "発達障害情報・支援センター 発達障害者支援センター 一覧",
+      "notes": "③相談（専門機関）の発達障害者支援センター（datasets.kikan、cat=hattatsu_center）。支所等を含む108件。一覧ページのHTMLから名称・住所・電話・各センターのURLを取り、同ページの全国一覧PDFの件数（108）と突合。一覧ページに埋め込まれた地図（Google マイマップ）は使っていない。緯度経度は国土地理院住所検索で付与（gsi_geocode）。",
+      "license": "公共データ利用規約（第1.0版）PDL1.0に準拠（国立障害者リハビリテーションセンター利用規約）",
+      "license_url": "https://www.rehab.go.jp/agree/",
+      "credit": true,
+      "modified_note": true,
+      "terms_checked": "2026-10-03",
+      "conditions": "国リハ「利用規約」（2025年3月6日策定、2026-10-03確認）: 国リハホームページのコンテンツは、別段の定め又は権利表記の記載がない限りPDL1.0に準拠した条件で利用できる。適用外はシンボルマーク・ロゴ等と、YouTube動画の上映。PDL1.0に従い出典記載と、編集・加工した旨及びその主体の記載が必要。一覧ページに別の権利表記はない。一覧ページ内の地図（Google マイマップ埋め込み）は使っていない。各センターのURLは原典に載っているリンク先をそのまま記録。"
+    },
+    "cfa_iryocare_center": {
+      "source_label": "こども家庭庁「各地方自治体で設置している医療的ケア児支援センター一覧（令和8年3月時点）」",
+      "source": "https://www.cfa.go.jp/policies/shougaijishien/care-ji-shien",
+      "publisher": "こども家庭庁",
+      "checked": "2026-10-03",
+      "as_of": "令和8年3月時点",
+      "tier": "A",
+      "discovery_query": "こども家庭庁 医療的ケア児支援センター 一覧",
+      "notes": "③相談（専門機関）の医療的ケア児支援センター（datasets.kikan、cat=iryocare_center）。「医療的ケア児等とその家族に対する支援施策」ページ内のPDF（20260617_policies_shougaijishien_care-ji-shien_21.pdf）。原典は都道府県・名称・ホームページ・支部等の4列で、住所・電話の記載がない。推測で補わず a/t/lat/lng/prec は null（地図には出ず一覧のみ）。1行に2センターが書かれた東京都（区部・多摩）・山口県（東部・西部）は2件に分け、計49件。支部・地域拠点等の列は rem に短く残した。",
+      "license": "公共データ利用規約（第1.0版）PDL1.0",
+      "license_url": "https://www.cfa.go.jp/copyright-policy",
+      "credit": true,
+      "modified_note": true,
+      "terms_checked": "2026-10-03",
+      "conditions": "こども家庭庁コピーライトポリシー（2026-10-03確認）: 権利表記の記載がない限りPDL1.0を適用。出典記載と、編集・加工した旨及びその主体の記載が必要。一覧PDFに別の権利表記はない。"
     }
   },
   "datasets": {
@@ -2367,6 +2415,25 @@
       "last_checked": "2026-07-26",
       "monitor": false,
       "notes": "GeoJSON（FeatureCollection）。出典IDはトップレベルの src に持たせる（GeoJSON仕様上、未知のメンバーは無視されるため描画に影響しない）。全47都道府県・15,177学区・1,592市区町村（全1,898市区町村の83.7%）。収録できなかった市区町村は各ファイルの not_covered、利用条件で除外した自治体は excluded に持たせ、UIの注記をそこから生成する。生成は メモ等/build_districts.py。"
+    },
+    "kikan": {
+      "label": "③相談（専門機関）",
+      "files": "data/*/kikan.json",
+      "record_src": {
+        "by_field": "cat",
+        "map": {
+          "jiso": "cfa_jisou_ichiran",
+          "hattatsu_center": "rehab_ddis_center",
+          "iryocare_center": "cfa_iryocare_center"
+        }
+      },
+      "geo_sources": [
+        "gsi_geocode"
+      ],
+      "last_count": 425,
+      "last_checked": "2026-10-03",
+      "monitor": false,
+      "notes": "メモ等/build_kikan.py で生成（2026-10-03）。児童相談所268件（本所244・支所等24、支所等は rem=支所等）、発達障害者支援センター108件（支所等を含む）、医療的ケア児支援センター49件。全47都道府県に児童相談所・発達障害者支援センター・医療的ケア児支援センターが1件以上ある。座標は国土地理院住所検索で付与し、照合結果文字列（title）が期待する都道府県名・市区町村名・町名を含むときだけ採用（番地・号まで341件 prec=address、町名・丁目まで31件 prec=town）。未解決4件（原典の町名表記が住所検索で当たらない: 弘前市「下銀町」・石巻市「あゆみ野」・横浜市中区「羽依町」・京丹後市「峰山杉谷」）は lat/lng=null。医療的ケア児支援センターは原典に住所・電話がないため49件とも a/t/lat/lng=null（地図には出ず一覧のみ）。フォルダは住所の都道府県（医療的ケア児支援センターは原典の都道府県欄）で決定。詳細は メモ等/作業記録/2026-10-03_A_専門機関3種の全国追加.md。"
     }
   }
 }

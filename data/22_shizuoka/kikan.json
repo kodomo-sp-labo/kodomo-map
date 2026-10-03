@@ -1,0 +1,139 @@
+[
+{
+"n": "中央児童相談所",
+"a": "静岡県藤枝市瀬戸新屋362-1",
+"t": "054-646-3570",
+"cat": "jiso",
+"lat": 34.849361,
+"lng": 138.237793,
+"prec": "address",
+"src": "cfa_jisou_ichiran",
+"checked": "2026-10-03"
+},
+{
+"n": "賀茂児童相談所",
+"a": "静岡県下田市中531-1",
+"t": "0558-24-2038",
+"cat": "jiso",
+"lat": 34.681534,
+"lng": 138.950119,
+"prec": "address",
+"src": "cfa_jisou_ichiran",
+"checked": "2026-10-03"
+},
+{
+"n": "東部児童相談所",
+"a": "静岡県沼津市髙島本町1-3",
+"t": "055-920-2085",
+"cat": "jiso",
+"lat": 35.10817,
+"lng": 138.857834,
+"prec": "address",
+"src": "cfa_jisou_ichiran",
+"checked": "2026-10-03"
+},
+{
+"n": "富士児童相談所",
+"a": "静岡県富士市本市場441-1",
+"t": "0545-65-2141",
+"cat": "jiso",
+"lat": 35.156727,
+"lng": 138.661819,
+"prec": "address",
+"src": "cfa_jisou_ichiran",
+"checked": "2026-10-03"
+},
+{
+"n": "西部児童相談所",
+"a": "静岡県磐田市見付3599-4",
+"t": "0538-37-2810",
+"cat": "jiso",
+"lat": 34.72921,
+"lng": 137.851456,
+"prec": "address",
+"src": "cfa_jisou_ichiran",
+"checked": "2026-10-03"
+},
+{
+"n": "静岡市児童相談所",
+"a": "静岡県静岡市葵区堤町914-417",
+"t": "054-275-2871",
+"cat": "jiso",
+"lat": 34.999935,
+"lng": 138.361191,
+"prec": "address",
+"src": "cfa_jisou_ichiran",
+"checked": "2026-10-03"
+},
+{
+"n": "浜松市児童相談所",
+"a": "静岡県浜松市中央区中央1-12-1",
+"t": "053-457-2703",
+"cat": "jiso",
+"lat": 34.711262,
+"lng": 137.73436,
+"prec": "address",
+"src": "cfa_jisou_ichiran",
+"checked": "2026-10-03"
+},
+{
+"n": "静岡県東部発達障害者支援センター「アスタ」",
+"a": "静岡県沼津市上土町3番地　沼津トラストビル2階",
+"t": "055-957-9090",
+"url": "https://astashizuoka.jp/",
+"cat": "hattatsu_center",
+"lat": 35.097504,
+"lng": 138.858673,
+"prec": "address",
+"src": "rehab_ddis_center",
+"checked": "2026-10-03"
+},
+{
+"n": "静岡県中西部発達障害者支援センター「COCO」",
+"a": "静岡県島田市大川町10-1　エフビル3階",
+"t": "0547-39-3600",
+"url": "https://shizuoka.takenoko.group/",
+"cat": "hattatsu_center",
+"lat": 34.830372,
+"lng": 138.177231,
+"prec": "address",
+"src": "rehab_ddis_center",
+"checked": "2026-10-03"
+},
+{
+"n": "静岡市発達障害者支援センター「きらり」",
+"a": "静岡県静岡市駿河区曲金5-3-30　静岡医療福祉センター4F",
+"t": "054-285-1124",
+"url": "http://www.shssc.jp/",
+"cat": "hattatsu_center",
+"lat": 34.976212,
+"lng": 138.412521,
+"prec": "address",
+"src": "rehab_ddis_center",
+"checked": "2026-10-03"
+},
+{
+"n": "浜松市発達相談支援センター「ルピロ」",
+"a": "静岡県浜松市中央区鍛冶町100-1　ザザシティ浜松中央館5F",
+"t": "053-459-2721",
+"url": "https://www.rupiro.com/",
+"cat": "hattatsu_center",
+"lat": 34.705246,
+"lng": 137.73027,
+"prec": "address",
+"src": "rehab_ddis_center",
+"checked": "2026-10-03"
+},
+{
+"n": "静岡県医療的ケア児等支援センター",
+"a": null,
+"t": null,
+"url": "https://www.pref.shizuoka.jp/kenkofukushi/shogaifukushi/chitekishogai/1040619/1043804.html",
+"cat": "iryocare_center",
+"lat": null,
+"lng": null,
+"prec": null,
+"src": "cfa_iryocare_center",
+"checked": "2026-10-03"
+}
+]

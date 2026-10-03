@@ -1,0 +1,59 @@
+[
+{
+"n": "中央児童相談所",
+"a": "栃木県宇都宮市野沢町4-1",
+"t": "028-665-7830",
+"cat": "jiso",
+"lat": 36.60508,
+"lng": 139.857635,
+"prec": "address",
+"src": "cfa_jisou_ichiran",
+"checked": "2026-10-03"
+},
+{
+"n": "県南児童相談所",
+"a": "栃木県栃木市沼和田町17-22",
+"t": "0282-24-6121",
+"cat": "jiso",
+"lat": 36.369133,
+"lng": 139.733215,
+"prec": "address",
+"src": "cfa_jisou_ichiran",
+"checked": "2026-10-03"
+},
+{
+"n": "県北児童相談所",
+"a": "栃木県那須塩原市南町7-20",
+"t": "0287-36-1058",
+"cat": "jiso",
+"lat": 36.880432,
+"lng": 139.985657,
+"prec": "address",
+"src": "cfa_jisou_ichiran",
+"checked": "2026-10-03"
+},
+{
+"n": "栃木県発達障害者支援センター「ふぉーゆう」",
+"a": "栃木県宇都宮市駒生町3337-1　栃木県障害者総合相談所内",
+"t": "028-623-6111",
+"url": "http://www.pref.tochigi.lg.jp/e65/for-you2018ver.html",
+"cat": "hattatsu_center",
+"lat": 36.584381,
+"lng": 139.844879,
+"prec": "address",
+"src": "rehab_ddis_center",
+"checked": "2026-10-03"
+},
+{
+"n": "栃木県医療的ケア児等支援センターくくるん",
+"a": null,
+"t": null,
+"url": "https://www.kukurun.org/",
+"cat": "iryocare_center",
+"lat": null,
+"lng": null,
+"prec": null,
+"src": "cfa_iryocare_center",
+"checked": "2026-10-03"
+}
+]

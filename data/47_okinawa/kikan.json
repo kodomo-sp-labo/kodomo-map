@@ -1,0 +1,72 @@
+[
+{
+"n": "中央児童相談所",
+"a": "沖縄県那覇市首里石嶺町4-404-2",
+"t": "098-886-2900",
+"cat": "jiso",
+"lat": 26.233328,
+"lng": 127.733284,
+"prec": "address",
+"src": "cfa_jisou_ichiran",
+"checked": "2026-10-03"
+},
+{
+"n": "中央児童相談所 八重山分室",
+"a": "沖縄県石垣市真栄里438-1（八重山福祉事務所内）",
+"t": "0980-88-7801",
+"cat": "jiso",
+"lat": 24.339695,
+"lng": 124.185928,
+"prec": "address",
+"src": "cfa_jisou_ichiran",
+"checked": "2026-10-03",
+"rem": "支所等"
+},
+{
+"n": "中央児童相談所 宮古分室",
+"a": "沖縄県宮古島市平良字西里1125（宮古合同庁舎2階）",
+"t": "0980-75-6505",
+"cat": "jiso",
+"lat": 24.792734,
+"lng": 125.291832,
+"prec": "address",
+"src": "cfa_jisou_ichiran",
+"checked": "2026-10-03",
+"rem": "支所等"
+},
+{
+"n": "コザ児童相談所",
+"a": "沖縄県沖縄市知花6-34-6",
+"t": "098-937-0859",
+"cat": "jiso",
+"lat": 26.365177,
+"lng": 127.819061,
+"prec": "address",
+"src": "cfa_jisou_ichiran",
+"checked": "2026-10-03"
+},
+{
+"n": "沖縄県発達障害者支援センター「がじゅま～る」",
+"a": "沖縄県沖縄市比屋根5-2-17　沖縄中部療育医療センター内",
+"t": "098-982-2113",
+"url": "http://www.okinawa-gajyumaru.jp/",
+"cat": "hattatsu_center",
+"lat": 26.313105,
+"lng": 127.819649,
+"prec": "address",
+"src": "rehab_ddis_center",
+"checked": "2026-10-03"
+},
+{
+"n": "沖縄県医療的ケア児支援センター",
+"a": null,
+"t": null,
+"url": "https://okicare.net/",
+"cat": "iryocare_center",
+"lat": null,
+"lng": null,
+"prec": null,
+"src": "cfa_iryocare_center",
+"checked": "2026-10-03"
+}
+]

@@ -1,0 +1,48 @@
+[
+{
+"n": "福祉相談センター",
+"a": "山形県山形市十日町1-6-6",
+"t": "023-627-1195",
+"cat": "jiso",
+"lat": 38.248558,
+"lng": 140.334106,
+"prec": "address",
+"src": "cfa_jisou_ichiran",
+"checked": "2026-10-03"
+},
+{
+"n": "庄内児童相談所",
+"a": "山形県鶴岡市道形町49-6",
+"t": "0235-22-0790",
+"cat": "jiso",
+"lat": 38.745716,
+"lng": 139.847885,
+"prec": "address",
+"src": "cfa_jisou_ichiran",
+"checked": "2026-10-03"
+},
+{
+"n": "山形県発達障がい者支援センター",
+"a": "山形県上山市河崎3-7-1　山形県立こども医療療育センター内",
+"t": "023-673-3314",
+"url": "http://www.pref.yamagata.jp/ou/kenkofukushi/091007/yddc.html",
+"cat": "hattatsu_center",
+"lat": 38.151691,
+"lng": 140.263992,
+"prec": "address",
+"src": "rehab_ddis_center",
+"checked": "2026-10-03"
+},
+{
+"n": "山形県医療的ケア児等支援センターにこすく",
+"a": null,
+"t": null,
+"url": "https://yamagata-kodomo.center/",
+"cat": "iryocare_center",
+"lat": null,
+"lng": null,
+"prec": null,
+"src": "cfa_iryocare_center",
+"checked": "2026-10-03"
+}
+]

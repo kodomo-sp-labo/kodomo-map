@@ -1,0 +1,59 @@
+[
+{
+"n": "子ども・女性・障害者相談センター",
+"a": "秋田県秋田市手形住吉町3-6",
+"t": "018-827-5200",
+"cat": "jiso",
+"lat": 39.725655,
+"lng": 140.131439,
+"prec": "address",
+"src": "cfa_jisou_ichiran",
+"checked": "2026-10-03"
+},
+{
+"n": "北児童相談所",
+"a": "秋田県大館市十二所字平内新田237-1",
+"t": "0186-52-3956",
+"cat": "jiso",
+"lat": 40.215622,
+"lng": 140.655472,
+"prec": "address",
+"src": "cfa_jisou_ichiran",
+"checked": "2026-10-03"
+},
+{
+"n": "南児童相談所",
+"a": "秋田県横手市旭川1-3-46",
+"t": "0182-32-0500",
+"cat": "jiso",
+"lat": 39.309055,
+"lng": 140.575607,
+"prec": "address",
+"src": "cfa_jisou_ichiran",
+"checked": "2026-10-03"
+},
+{
+"n": "秋田県発達障害者支援センター「ふきのとう秋田」",
+"a": "秋田県秋田市南ケ丘一丁目1番2号　秋田県立医療療育センター内",
+"t": "018-826-8030",
+"url": "http://www.airc.or.jp/fukinotou/f-top.html",
+"cat": "hattatsu_center",
+"lat": 39.689838,
+"lng": 140.1586,
+"prec": "address",
+"src": "rehab_ddis_center",
+"checked": "2026-10-03"
+},
+{
+"n": "秋田県医療的ケア児支援センターコラソン",
+"a": null,
+"t": null,
+"url": "https://www.airc.or.jp/corazon/",
+"cat": "iryocare_center",
+"lat": null,
+"lng": null,
+"prec": null,
+"src": "cfa_iryocare_center",
+"checked": "2026-10-03"
+}
+]

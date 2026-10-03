@@ -1,0 +1,48 @@
+[
+{
+"n": "中央児童相談所",
+"a": "高知県高知市若草町10-5",
+"t": "088-821-6700",
+"cat": "jiso",
+"lat": 33.544769,
+"lng": 133.489044,
+"prec": "address",
+"src": "cfa_jisou_ichiran",
+"checked": "2026-10-03"
+},
+{
+"n": "幡多児童相談所",
+"a": "高知県四万十市渡川1-6-21",
+"t": "0880-37-3159",
+"cat": "jiso",
+"lat": 32.989689,
+"lng": 132.922241,
+"prec": "address",
+"src": "cfa_jisou_ichiran",
+"checked": "2026-10-03"
+},
+{
+"n": "高知県発達障害者支援センター",
+"a": "高知県高知市若草町10-5",
+"t": "088-844-1247",
+"url": "http://www.pref.kochi.lg.jp/soshiki/060302/ryouikuhukusi-hattatsushien-hattatsutop.html",
+"cat": "hattatsu_center",
+"lat": 33.544769,
+"lng": 133.489044,
+"prec": "address",
+"src": "rehab_ddis_center",
+"checked": "2026-10-03"
+},
+{
+"n": "重症心身障害児者・医療的ケア児等支援センターきぼうのわ",
+"a": null,
+"t": null,
+"url": "https://kibounowa.or.jp/",
+"cat": "iryocare_center",
+"lat": null,
+"lng": null,
+"prec": null,
+"src": "cfa_iryocare_center",
+"checked": "2026-10-03"
+}
+]

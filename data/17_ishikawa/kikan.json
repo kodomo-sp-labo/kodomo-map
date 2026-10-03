@@ -1,0 +1,71 @@
+[
+{
+"n": "中央児童相談所",
+"a": "石川県金沢市本多町3-1-10",
+"t": "076-223-9553",
+"cat": "jiso",
+"lat": 36.559399,
+"lng": 136.659378,
+"prec": "address",
+"src": "cfa_jisou_ichiran",
+"checked": "2026-10-03"
+},
+{
+"n": "七尾児童相談所",
+"a": "石川県七尾市古府町そ部8番1",
+"t": "0767-53-0811",
+"cat": "jiso",
+"lat": 37.029453,
+"lng": 136.965851,
+"prec": "town",
+"src": "cfa_jisou_ichiran",
+"checked": "2026-10-03"
+},
+{
+"n": "金沢市児童相談所",
+"a": "石川県金沢市富樫3-10-1",
+"t": "076-243-4158",
+"cat": "jiso",
+"lat": 36.538326,
+"lng": 136.641266,
+"prec": "address",
+"src": "cfa_jisou_ichiran",
+"checked": "2026-10-03"
+},
+{
+"n": "石川県発達障害支援センター",
+"a": "石川県金沢市鞍月東2-6　石川県こころの健康センター内",
+"t": "076-238-5557",
+"url": "https://www.pref.ishikawa.lg.jp/fukusi/kokoro-home/hattatu/top.html",
+"cat": "hattatsu_center",
+"lat": 36.594803,
+"lng": 136.631714,
+"prec": "address",
+"src": "rehab_ddis_center",
+"checked": "2026-10-03"
+},
+{
+"n": "発達障害者支援センター「パース」",
+"a": "石川県金沢市福久東1-56",
+"t": "076-257-5551",
+"url": "http://www.center-path.com/",
+"cat": "hattatsu_center",
+"lat": 36.617325,
+"lng": 136.684586,
+"prec": "address",
+"src": "rehab_ddis_center",
+"checked": "2026-10-03"
+},
+{
+"n": "いしかわ医療的ケア児支援センターこのこの",
+"a": null,
+"t": null,
+"url": "https://iou-konokono.com/",
+"cat": "iryocare_center",
+"lat": null,
+"lng": null,
+"prec": null,
+"src": "cfa_iryocare_center",
+"checked": "2026-10-03"
+}
+]

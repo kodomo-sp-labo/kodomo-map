@@ -1,0 +1,60 @@
+[
+{
+"n": "中央児童相談所",
+"a": "鳥取県鳥取市江津318-1",
+"t": "0857-23-6080",
+"cat": "jiso",
+"lat": 35.523369,
+"lng": 134.214569,
+"prec": "address",
+"src": "cfa_jisou_ichiran",
+"checked": "2026-10-03"
+},
+{
+"n": "米子児童相談所",
+"a": "鳥取県米子市博労町4-50",
+"t": "0859-33-1471",
+"cat": "jiso",
+"lat": 35.435303,
+"lng": 133.341583,
+"prec": "town",
+"src": "cfa_jisou_ichiran",
+"checked": "2026-10-03"
+},
+{
+"n": "倉吉児童相談所",
+"a": "鳥取県倉吉市宮川町2-36",
+"t": "0858-23-1141",
+"cat": "jiso",
+"lat": 35.434814,
+"lng": 133.832016,
+"prec": "address",
+"src": "cfa_jisou_ichiran",
+"checked": "2026-10-03"
+},
+{
+"n": "「エール」発達障がい者支援センター",
+"a": "鳥取県倉吉市みどり町3564-1　鳥取県立皆成学園内",
+"t": "0858-22-7208",
+"url": "http://www.pref.tottori.lg.jp/yell/",
+"cat": "hattatsu_center",
+"lat": 35.419601,
+"lng": 133.822311,
+"prec": "address",
+"src": "rehab_ddis_center",
+"checked": "2026-10-03"
+},
+{
+"n": "鳥取県医療的ケア児等支援センター",
+"a": null,
+"t": null,
+"url": "https://icare.doaikai.jp/",
+"cat": "iryocare_center",
+"lat": null,
+"lng": null,
+"prec": null,
+"src": "cfa_iryocare_center",
+"checked": "2026-10-03",
+"rem": "総合窓口（西部相談窓口）、東部相談窓口、中部相談窓口"
+}
+]

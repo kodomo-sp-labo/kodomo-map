@@ -1,0 +1,70 @@
+[
+{
+"n": "中央児童相談所",
+"a": "鹿児島県鹿児島市桜ヶ丘6-12",
+"t": "099-264-3003",
+"cat": "jiso",
+"lat": 31.549288,
+"lng": 130.523148,
+"prec": "address",
+"src": "cfa_jisou_ichiran",
+"checked": "2026-10-03"
+},
+{
+"n": "北部児童相談所",
+"a": "鹿児島県薩摩郡さつま町虎居704-2",
+"t": "0996-21-3150",
+"cat": "jiso",
+"lat": 31.911564,
+"lng": 130.454956,
+"prec": "address",
+"src": "cfa_jisou_ichiran",
+"checked": "2026-10-03"
+},
+{
+"n": "大隅児童相談所",
+"a": "鹿児島県鹿屋市打馬2-16-6",
+"t": "0994-43-7011",
+"cat": "jiso",
+"lat": 31.397436,
+"lng": 130.854523,
+"prec": "address",
+"src": "cfa_jisou_ichiran",
+"checked": "2026-10-03"
+},
+{
+"n": "大島児童相談所",
+"a": "鹿児島県奄美市名瀬小俣町20-2",
+"t": "0997-53-6070",
+"cat": "jiso",
+"lat": 28.369566,
+"lng": 129.501144,
+"prec": "address",
+"src": "cfa_jisou_ichiran",
+"checked": "2026-10-03"
+},
+{
+"n": "鹿児島県発達障害者支援センター",
+"a": "鹿児島県鹿児島市桜ヶ丘6-12　鹿児島県こども総合療育センター内",
+"t": "099-264-3720",
+"url": "http://www.pref.kagoshima.jp/ae20/kenko-fukushi/syogai-syakai/hattatsu/hattatsucenter.html",
+"cat": "hattatsu_center",
+"lat": 31.549288,
+"lng": 130.523148,
+"prec": "address",
+"src": "rehab_ddis_center",
+"checked": "2026-10-03"
+},
+{
+"n": "鹿児島県医療的ケア児等支援センター",
+"a": null,
+"t": null,
+"url": "https://k-kango.jp/care-child/",
+"cat": "iryocare_center",
+"lat": null,
+"lng": null,
+"prec": null,
+"src": "cfa_iryocare_center",
+"checked": "2026-10-03"
+}
+]

@@ -1,0 +1,60 @@
+[
+{
+"n": "中央児童相談所",
+"a": "大分県大分市荏隈町2丁目3番1号",
+"t": "097-544-2016",
+"cat": "jiso",
+"lat": 33.213104,
+"lng": 131.582443,
+"prec": "address",
+"src": "cfa_jisou_ichiran",
+"checked": "2026-10-03"
+},
+{
+"n": "中央児童相談所 大分支所",
+"a": "大分県大分市城崎町2丁目3番4号",
+"t": "097-579-6650",
+"cat": "jiso",
+"lat": 33.240803,
+"lng": 131.613144,
+"prec": "address",
+"src": "cfa_jisou_ichiran",
+"checked": "2026-10-03",
+"rem": "支所等"
+},
+{
+"n": "中津児童相談所",
+"a": "大分県中津市中央町1-10-22",
+"t": "0979-22-2025",
+"cat": "jiso",
+"lat": 33.592098,
+"lng": 131.192398,
+"prec": "address",
+"src": "cfa_jisou_ichiran",
+"checked": "2026-10-03"
+},
+{
+"n": "大分県発達障がい者支援センター「ECOAL（イコール）」",
+"a": "大分県大分市中戸次5628番地の1",
+"t": "097-578-6952",
+"url": "http://www.ecoal.info/",
+"cat": "hattatsu_center",
+"lat": 33.159328,
+"lng": 131.649948,
+"prec": "address",
+"src": "rehab_ddis_center",
+"checked": "2026-10-03"
+},
+{
+"n": "大分県医療的ケア児支援センターみつわ",
+"a": null,
+"t": null,
+"url": "https://oita-icare-shien.jp/",
+"cat": "iryocare_center",
+"lat": null,
+"lng": null,
+"prec": null,
+"src": "cfa_iryocare_center",
+"checked": "2026-10-03"
+}
+]

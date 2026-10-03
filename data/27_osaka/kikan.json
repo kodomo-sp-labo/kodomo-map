@@ -1,0 +1,183 @@
+[
+{
+"n": "中央子ども家庭センター",
+"a": "大阪府寝屋川市八坂町28-5",
+"t": "072-828-0161",
+"cat": "jiso",
+"lat": 34.766891,
+"lng": 135.621704,
+"prec": "address",
+"src": "cfa_jisou_ichiran",
+"checked": "2026-10-03"
+},
+{
+"n": "箕面子ども家庭センター",
+"a": "大阪府箕面市船場西三丁目8番22号 箕面市役所第二別館3階",
+"t": "072-739-6170",
+"cat": "jiso",
+"lat": 34.818436,
+"lng": 135.488693,
+"prec": "address",
+"src": "cfa_jisou_ichiran",
+"checked": "2026-10-03"
+},
+{
+"n": "吹田子ども家庭センター",
+"a": "大阪府吹田市出口町19-3",
+"t": "06-6389-3526",
+"cat": "jiso",
+"lat": 34.763977,
+"lng": 135.514755,
+"prec": "address",
+"src": "cfa_jisou_ichiran",
+"checked": "2026-10-03"
+},
+{
+"n": "東大阪子ども家庭センター",
+"a": "大阪府東大阪市永和1-7-4",
+"t": "06-6721-1966",
+"cat": "jiso",
+"lat": 34.66293,
+"lng": 135.57338,
+"prec": "address",
+"src": "cfa_jisou_ichiran",
+"checked": "2026-10-03"
+},
+{
+"n": "富田林子ども家庭センター",
+"a": "大阪府富田林市寿町2-6-1 大阪府南河内府民センタービル内",
+"t": "0721-25-1131",
+"cat": "jiso",
+"lat": 34.502125,
+"lng": 135.597076,
+"prec": "address",
+"src": "cfa_jisou_ichiran",
+"checked": "2026-10-03"
+},
+{
+"n": "貝塚子ども家庭センター",
+"a": "大阪府貝塚市畠中一丁目17番2号",
+"t": "072-430-6300",
+"cat": "jiso",
+"lat": 34.437611,
+"lng": 135.358231,
+"prec": "address",
+"src": "cfa_jisou_ichiran",
+"checked": "2026-10-03"
+},
+{
+"n": "大阪市 中央こども相談センター",
+"a": "大阪府大阪市浪速区浪速東1-1-90",
+"t": "06-4301-3100",
+"cat": "jiso",
+"lat": 34.65799,
+"lng": 135.492676,
+"prec": "address",
+"src": "cfa_jisou_ichiran",
+"checked": "2026-10-03"
+},
+{
+"n": "大阪市 中央こども相談センター東部分室",
+"a": "大阪府大阪市中央区森ノ宮中央1-17-5",
+"t": "06-6926-4600",
+"cat": "jiso",
+"lat": 34.680546,
+"lng": 135.532471,
+"prec": "address",
+"src": "cfa_jisou_ichiran",
+"checked": "2026-10-03",
+"rem": "支所等"
+},
+{
+"n": "大阪市 北部こども相談センター",
+"a": "大阪府大阪市東淀川区淡路3-13-36",
+"t": "06-6195-4114",
+"cat": "jiso",
+"lat": 34.738098,
+"lng": 135.514175,
+"prec": "address",
+"src": "cfa_jisou_ichiran",
+"checked": "2026-10-03"
+},
+{
+"n": "大阪市 南部こども相談センター",
+"a": "大阪府大阪市平野区喜連西6-2-55",
+"t": "06-6718-5050",
+"cat": "jiso",
+"lat": 34.609428,
+"lng": 135.547592,
+"prec": "address",
+"src": "cfa_jisou_ichiran",
+"checked": "2026-10-03"
+},
+{
+"n": "堺市こども相談所",
+"a": "大阪府堺市堺区旭ヶ丘中町4-3-1（堺市立健康福祉プラザ３階）",
+"t": "072-245-9197",
+"cat": "jiso",
+"lat": 34.558006,
+"lng": 135.476456,
+"prec": "address",
+"src": "cfa_jisou_ichiran",
+"checked": "2026-10-03"
+},
+{
+"n": "豊中市児童相談所",
+"a": "大阪府豊中市岡上の町2-1-15 豊中市すこやかプラザ2階",
+"t": "06-6868-9230",
+"cat": "jiso",
+"lat": 34.783966,
+"lng": 135.464203,
+"prec": "address",
+"src": "cfa_jisou_ichiran",
+"checked": "2026-10-03"
+},
+{
+"n": "大阪府発達障がい者支援センター「アクトおおさか」",
+"a": "大阪府大阪市中央区内本町1-2-13　谷四ばんらいビル10階A",
+"t": "06-6966-1313",
+"url": "https://act-osaka.org/",
+"cat": "hattatsu_center",
+"lat": 34.683285,
+"lng": 135.516693,
+"prec": "address",
+"src": "rehab_ddis_center",
+"checked": "2026-10-03"
+},
+{
+"n": "大阪市発達障がい者支援センター「エルムおおさか」",
+"a": "大阪府大阪市平野区喜連西6-2-55　大阪市立心身障がい者リハビリテーションセンター2F",
+"t": "06-6797-6931",
+"url": "http://www.elmosaka.org/",
+"cat": "hattatsu_center",
+"lat": 34.609428,
+"lng": 135.547592,
+"prec": "address",
+"src": "rehab_ddis_center",
+"checked": "2026-10-03"
+},
+{
+"n": "堺市発達障害者支援センター「アプリコット堺」",
+"a": "大阪府堺市堺区旭ケ丘中町4丁3番1号　堺市立健康福祉プラザ3階",
+"t": "072-275-8506",
+"url": "http://www.hannan.or.jp/apricotsakai/index.html",
+"cat": "hattatsu_center",
+"lat": 34.558006,
+"lng": 135.476456,
+"prec": "address",
+"src": "rehab_ddis_center",
+"checked": "2026-10-03"
+},
+{
+"n": "大阪府医療的ケア児支援センター",
+"a": null,
+"t": null,
+"url": "https://osaka-iryocareji.com/",
+"cat": "iryocare_center",
+"lat": null,
+"lng": null,
+"prec": null,
+"src": "cfa_iryocare_center",
+"checked": "2026-10-03"
+}
+]

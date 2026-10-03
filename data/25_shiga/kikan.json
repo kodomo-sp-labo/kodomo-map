@@ -1,0 +1,82 @@
+[
+{
+"n": "中央子ども家庭相談センター",
+"a": "滋賀県草津市笠山7-4-45",
+"t": "077-562-1121",
+"cat": "jiso",
+"lat": 34.97506,
+"lng": 135.954437,
+"prec": "address",
+"src": "cfa_jisou_ichiran",
+"checked": "2026-10-03"
+},
+{
+"n": "彦根子ども家庭相談センター",
+"a": "滋賀県彦根市小泉町932-1",
+"t": "0749-24-3741",
+"cat": "jiso",
+"lat": 35.253967,
+"lng": 136.249146,
+"prec": "address",
+"src": "cfa_jisou_ichiran",
+"checked": "2026-10-03"
+},
+{
+"n": "大津・高島子ども家庭相談センター",
+"a": "滋賀県大津市におの浜4－4－5",
+"t": "077-548-7768",
+"cat": "jiso",
+"lat": 35.004063,
+"lng": 135.886475,
+"prec": "address",
+"src": "cfa_jisou_ichiran",
+"checked": "2026-10-03"
+},
+{
+"n": "日野子ども家庭相談センター",
+"a": "滋賀県蒲生郡日野町小御門201-1",
+"t": "0748-36-1201",
+"cat": "jiso",
+"lat": 35.022324,
+"lng": 136.216049,
+"prec": "address",
+"src": "cfa_jisou_ichiran",
+"checked": "2026-10-03"
+},
+{
+"n": "滋賀県発達障害者支援センター「南部センター」",
+"a": "滋賀県草津市笠山八丁目5-130",
+"t": "077-561-2522",
+"url": "https://www.shigahattatsu.com/",
+"cat": "hattatsu_center",
+"lat": 34.973915,
+"lng": 135.957458,
+"prec": "address",
+"src": "rehab_ddis_center",
+"checked": "2026-10-03"
+},
+{
+"n": "滋賀県発達障害者支援センター「北部センター」",
+"a": "滋賀県彦根市日夏町堀溝3703-1",
+"t": "0749-28-7055",
+"url": "https://www.shigahattatsu.com/",
+"cat": "hattatsu_center",
+"lat": 35.238873,
+"lng": 136.212402,
+"prec": "town",
+"src": "rehab_ddis_center",
+"checked": "2026-10-03"
+},
+{
+"n": "滋賀県重症心身障害児者・医療的ケア児等支援センターこあゆ",
+"a": null,
+"t": null,
+"url": "https://www.biwakogakuen.or.jp/publics/index/533/",
+"cat": "iryocare_center",
+"lat": null,
+"lng": null,
+"prec": null,
+"src": "cfa_iryocare_center",
+"checked": "2026-10-03"
+}
+]

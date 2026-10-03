@@ -154,6 +154,15 @@ if ('serviceWorker' in navigator) {
   .sodan-guide ol,.sodan-guide ul{margin:6px 0 4px 1.4em}
   .sodan-guide li{margin:2px 0}
   .sodan-guide .src{font-size:.7rem;color:var(--sub)}
+  /* 区分の説明（各タブの凡例の下）。家族・支援者が「この区分は何か」を確かめるためのもの。 */
+  .cat-help{padding:2px 24px 8px;background:var(--panel);font-size:.74rem;line-height:1.7;border-bottom:1px solid var(--line)}
+  .cat-help summary{cursor:pointer;color:var(--sub);font-weight:700}
+  .cat-help dl{display:grid;grid-template-columns:max-content 1fr;gap:4px 14px;margin:6px 0 2px}
+  .cat-help dt{font-weight:700}
+  .cat-help dd{color:var(--ink)}
+  .cat-help .src{font-size:.68rem;color:var(--sub);margin-top:4px}
+  @media (max-width:600px){ .cat-help dl{grid-template-columns:1fr;gap:0} .cat-help dd{margin-bottom:6px} }
+  .region-bar .muni-select{max-width:14em}
   .status-badge{display:inline-block;font-size:.7rem;font-weight:700;color:#fff;background:#5B6B78;border-radius:4px;padding:0 6px;margin-left:4px}
   .leaflet-control-layers{font-family:'BIZ UDPGothic','Hiragino Sans',sans-serif;font-size:.85rem}
   .fmsg{margin-top:8px;padding:8px 10px;background:#F4F8F4;border-left:3px solid #4A7C59;border-radius:4px;font-size:.78rem;line-height:1.6}
@@ -186,6 +195,9 @@ if ('serviceWorker' in navigator) {
     <select id="region-select">
       <option value="okayama">岡山県</option>
     </select>
+    <!-- 市区町村の選択肢は、読み込んだデータの area（無ければ muni）から作る（静的な一覧は書かない）。 -->
+    <label for="muni-select">市区町村：</label>
+    <select id="muni-select" class="muni-select"><option value="">すべて</option></select>
     <span class="region-cta">全国のデータを順次追加中です。お住まいの地域がまだ表示されない場合や、フリースクール一覧・地域の居場所情報など地域独自の情報をご提供いただける場合は、<a href="mailto:kodomo.sp.lab@gmail.com">kodomo.sp.lab@gmail.com</a> までご連絡ください。社会的処方の普及を目的とした非営利の取り組みのため掲載費用はいただいておりません。</span>
   </div>
   <div class="tabs">
@@ -217,6 +229,22 @@ if ('serviceWorker' in navigator) {
       <input type="checkbox" class="toggle-districts" data-map="manabi"> 小学校区界を表示（<span class="districts-note">準備中</span>）
     </label>
   </div>
+  <!-- 区分の説明。文は制度の一次資料で確認したもの（確認したURLは src 行と作業記録 2026-10-03_B に記載）。
+       dt の data-for は凡例の要素id。凡例で隠れている区分（その地域にデータが無い区分）は説明も隠す（syncCatHelp）。 -->
+  <details class="cat-help">
+    <summary>各区分の説明</summary>
+    <dl>
+      <dt data-for="lg-manabi-tayouka">学びの多様化学校</dt>
+      <dd>不登校のこどもの実態に合わせた特別の教育課程（授業の時間数や内容）を組むことができる学校で、文部科学大臣が指定します。2023年8月に「不登校特例校」から名称が変わりました。</dd>
+      <dt data-for="lg-manabi-public">岡山市児童生徒支援教室</dt>
+      <dd>岡山市教育委員会が設ける、不登校（その傾向を含む）の小中学生のための教室です。学習支援や体験活動を行います。教育委員会などの公的な施設で相談・指導を受けた日は、条件を満たせば校長の判断で在籍校の出席扱いになることがあります。</dd>
+      <dt data-for="lg-manabi-free">民間フリースクール等</dt>
+      <dd>民間が運営する、不登校のこどもの学びや居場所の場です。公的な定義や全国の名簿はなく、ここには自治体などが公表した一覧で確認できたものを載せています。</dd>
+      <dt data-for="lg-manabi-boarding">全寮制高校（独自調査）</dt>
+      <dd>不登校を経験した生徒を主に受け入れていることを学校自身が公表している、全寮制の私立高校です。公的な区分ではなく、当サイトの独自調査です。</dd>
+    </dl>
+    <div class="src">確認した資料：文部科学省「<a href="https://www.mext.go.jp/a_menu/shotou/seitoshidou/1387008.htm" target="_blank" rel="noopener">学びの多様化学校</a>」「<a href="https://www.mext.go.jp/b_menu/activity/detail/2023/20230831.html" target="_blank" rel="noopener">名称の決定</a>」「<a href="https://www.mext.go.jp/a_menu/shotou/seitoshidou/1422155_00004.htm" target="_blank" rel="noopener">不登校児童生徒への支援の在り方について（別記1 出席扱い）</a>」、岡山市「<a href="https://www.city.okayama.jp/kurashi/0000006631.html" target="_blank" rel="noopener">岡山市児童生徒支援教室について</a>」</div>
+  </details>
   <p class="notice" id="notice-manabi" style="display:none"></p>
   <div class="wrap">
     <div class="mapbox" id="map-manabi"></div>
@@ -235,6 +263,16 @@ if ('serviceWorker' in navigator) {
       <input type="checkbox" class="toggle-districts" data-map="ibasho"> 小学校区界を表示（<span class="districts-note">準備中</span>）
     </label>
   </div>
+  <!-- 区分の説明。文は制度の一次資料で確認したもの（確認したURLは src 行と作業記録 2026-10-03_B に記載）。
+       dt の data-for は凡例の要素id。凡例で隠れている区分（その地域にデータが無い区分）は説明も隠す（syncCatHelp）。 -->
+  <details class="cat-help">
+    <summary>各区分の説明</summary>
+    <dl>
+      <dt data-for="lg-ibasho-1">児童館・児童センター</dt>
+      <dd>18歳未満のすべてのこどもが、自由に来て過ごせる児童福祉施設です。遊びや生活の支援、子育ての支援を行います。</dd>
+    </dl>
+    <div class="src">確認した資料：<a href="https://laws.e-gov.go.jp/law/322AC0000000164" target="_blank" rel="noopener">児童福祉法</a>第40条、こども家庭庁「<a href="https://www.cfa.go.jp/assets/contents/node/basic_page/field_ref_resources/8f03ee44-b4a9-4206-a613-e0ecf72b380c/85afc74f/20230401_policies_kosodateshien_jidoukan_03.pdf" target="_blank" rel="noopener">児童館ガイドライン</a>」</div>
+  </details>
   <p class="notice" id="notice-ibasho"></p>
   <div class="wrap">
     <div class="mapbox" id="map-ibasho"></div>
@@ -257,10 +295,30 @@ if ('serviceWorker' in navigator) {
          岡山県を含む全県で0件で、一度も描画されたことがなかった＝仕様書§8弱点19）。 -->
     <span class="dot" style="--dc:var(--c3);display:none" id="lg-sodan-1">所在地が個別に判明した窓口（番地レベル・<span id="lg-sodan-1-n">-</span>）</span>
     <span class="dot" style="--dc:var(--c3)" id="lg-sodan-2">市町村の相談窓口（市町村単位の概算・<span id="lg-sodan-area">-</span>）</span>
+    <!-- 専門機関（kikan.json）。色はKIKAN_CATと同じ値を保つ。件数はupdateSodanLegend()が実データから埋め、0件の種類は出さない。 -->
+    <span class="dot" style="--dc:#1A5FB4;display:none" id="lg-kikan-jiso">児童相談所（<span id="lg-kikan-jiso-n">-</span>）</span>
+    <span class="dot" style="--dc:#2C6E49;display:none" id="lg-kikan-hattatsu_center">発達障害者支援センター（<span id="lg-kikan-hattatsu_center-n">-</span>）</span>
+    <span class="dot" style="--dc:#7B3FA0;display:none" id="lg-kikan-iryocare_center">医療的ケア児支援センター（<span id="lg-kikan-iryocare_center-n">-</span>）</span>
     <label style="margin-left:auto;display:flex;align-items:center;gap:4px;cursor:pointer">
       <input type="checkbox" class="toggle-districts" data-map="sodan"> 小学校区界を表示（<span class="districts-note">準備中</span>）
     </label>
   </div>
+  <!-- 区分の説明。文は制度の一次資料で確認したもの（確認したURLは src 行と作業記録 2026-10-03_B に記載）。
+       dt の data-for は凡例の要素id。凡例で隠れている区分（その地域にデータが無い区分）は説明も隠す（syncCatHelp）。 -->
+  <details class="cat-help">
+    <summary>各区分の説明</summary>
+    <dl>
+      <dt data-for="lg-sodan-2">市町村の相談窓口</dt>
+      <dd>こども家庭庁が都道府県ごとにまとめて公表している、自治体の相談窓口です。こども自身の悩みや、子育ての悩みを相談できます。</dd>
+      <dt data-for="lg-kikan-jiso">児童相談所</dt>
+      <dd>都道府県や政令指定都市（一部の中核市・特別区も）が設ける、こどもの福祉に関する専門の相談機関です。虐待の通告・相談、養育や非行、障害に関する相談に応じます。</dd>
+      <dt data-for="lg-kikan-hattatsu_center">発達障害者支援センター</dt>
+      <dd>発達障害のある人とその家族などからの相談に専門的に応じ、情報提供や助言、発達支援・就労支援を行う機関です（都道府県などが設置・指定）。</dd>
+      <dt data-for="lg-kikan-iryocare_center">医療的ケア児支援センター</dt>
+      <dd>日常的に医療的ケア（たんの吸引など）が必要なこどもとその家族などからの相談に専門的に応じ、情報提供や助言を行う機関です（都道府県が設置・指定）。</dd>
+    </dl>
+    <div class="src">確認した資料：こども家庭庁「<a href="https://www.cfa.go.jp/children-inquiries" target="_blank" rel="noopener">相談窓口</a>」、<a href="https://laws.e-gov.go.jp/law/322AC0000000164" target="_blank" rel="noopener">児童福祉法</a>第12条、<a href="https://laws.e-gov.go.jp/law/416AC1000000167" target="_blank" rel="noopener">発達障害者支援法</a>第14条、<a href="https://laws.e-gov.go.jp/law/503AC0000000081" target="_blank" rel="noopener">医療的ケア児支援法</a>第14条</div>
+  </details>
   <p class="notice" id="notice-sodan">出典：こども家庭庁「相談窓口」。</p>
   <div class="wrap">
     <div class="mapbox" id="map-sodan"></div>
@@ -282,6 +340,20 @@ if ('serviceWorker' in navigator) {
       <input type="checkbox" class="toggle-districts" data-map="oyakazoku"> 小学校区界を表示（<span class="districts-note">準備中</span>）
     </label>
   </div>
+  <!-- 区分の説明。文は制度の一次資料で確認したもの（確認したURLは src 行と作業記録 2026-10-03_B に記載）。
+       dt の data-for は凡例の要素id。凡例で隠れている区分（その地域にデータが無い区分）は説明も隠す（syncCatHelp）。 -->
+  <details class="cat-help">
+    <summary>各区分の説明</summary>
+    <dl>
+      <dt data-for="lg-oya-1">地域子育て支援拠点</dt>
+      <dd>乳幼児とその保護者が気軽に集まって交流したり、子育ての不安や悩みを相談したりできる場です。市町村が実施しています。</dd>
+      <dt data-for="lg-oya-3">児童館</dt>
+      <dd>18歳未満のすべてのこどもが自由に来て過ごせる児童福祉施設で、子育て支援も行います（②居場所と同じ施設です）。</dd>
+      <dt data-for="lg-oya-2">親の会</dt>
+      <dd>同じ立場の保護者が集まる自主的な会です。公的な定義や全国の名簿はなく、確認できたものだけを載せています。</dd>
+    </dl>
+    <div class="src">確認した資料：<a href="https://laws.e-gov.go.jp/law/322AC0000000164" target="_blank" rel="noopener">児童福祉法</a>第6条の3第6項・第40条、こども家庭庁「<a href="https://www.cfa.go.jp/assets/contents/node/basic_page/field_ref_resources/321a8144-83b8-4467-b70e-89aa4a5e6735/d36734ea/20250714_policies_kosodateshien_shien-kyoten_36.pdf" target="_blank" rel="noopener">地域子育て支援拠点事業</a>」「<a href="https://www.cfa.go.jp/assets/contents/node/basic_page/field_ref_resources/8f03ee44-b4a9-4206-a613-e0ecf72b380c/85afc74f/20230401_policies_kosodateshien_jidoukan_03.pdf" target="_blank" rel="noopener">児童館ガイドライン</a>」</div>
+  </details>
   <!-- 件数はupdateOyaLegend()が実データから埋める。マーカーの内訳（拠点単独／児童館兼用）を
        利用者が把握できるようにする。 -->
   <p class="notice" id="notice-oyakazoku"></p>
@@ -308,6 +380,26 @@ if ('serviceWorker' in navigator) {
       <input type="checkbox" class="toggle-districts" data-map="hattatsu"> 小学校区界を表示（<span class="districts-note">準備中</span>）
     </label>
   </div>
+  <!-- 区分の説明。文は制度の一次資料で確認したもの（確認したURLは src 行と作業記録 2026-10-03_B に記載）。
+       dt の data-for は凡例の要素id。凡例で隠れている区分（その地域にデータが無い区分）は説明も隠す（syncCatHelp）。 -->
+  <details class="cat-help">
+    <summary>各区分の説明</summary>
+    <dl>
+      <dt data-for="lg-h-1">児童発達支援</dt>
+      <dd>障害のあるこども（主に小学校に入る前）が通い、日常生活の基本的な動作や知識、集団生活になじむための支援を受けます。</dd>
+      <dt data-for="lg-h-2">医療型児童発達支援</dt>
+      <dd>肢体不自由（手足や体の動きの障害）のあるこどもに、発達支援とあわせて治療を行う区分です。令和6年度の制度改正で児童発達支援に一本化され、経過措置として残っています。</dd>
+      <dt data-for="lg-h-3">放課後等デイサービス</dt>
+      <dd>学校（小・中・高校、特別支援学校など）に通う障害のあるこどもが、放課後や休みの日に通い、生活する力を育てる支援や地域との交流などを受けます。</dd>
+      <dt data-for="lg-h-4">居宅訪問型児童発達支援</dt>
+      <dd>重い障害などのため、通所の支援に出かけることがとても難しいこどもの家を訪ねて行う発達支援です。</dd>
+      <dt data-for="lg-h-5">保育所等訪問支援</dt>
+      <dd>保育所など、こどもが集団で過ごしている施設に専門の職員が出向き、ほかのこどもとの集団生活になじめるよう支援します。</dd>
+      <dt data-for="lg-h-7">障害児相談支援</dt>
+      <dd>児童発達支援などを使うための「障害児支援利用計画案」を家族と一緒につくり、利用が決まった後は計画をつくって、使い方を定期的に見直します。</dd>
+    </dl>
+    <div class="src">確認した資料：<a href="https://laws.e-gov.go.jp/law/322AC0000000164" target="_blank" rel="noopener">児童福祉法</a>第6条の2の2、こども家庭審議会障害児支援部会<a href="https://www.cfa.go.jp/assets/contents/node/basic_page/field_ref_resources/36cf8614-0cc4-4e0b-aa54-308fbae2714a/7aa07e04/20240327_councils_shingikai_shougaiji_shien_36cf8614_02.pdf" target="_blank" rel="noopener">資料（2024年3月）</a>（医療型の一元化と経過措置）</div>
+  </details>
   <p class="notice" id="notice-hattatsu">拡大すると個別施設ピンが表示されます。WAMNET（障害福祉サービス等情報公表システム）オープンデータに基づく住所レベルの位置情報を使用しています。「医療型児童発達支援」は令和6年度制度改正の経過措置区分であり、令和9年3月末をもって新規発生がなくなる見込みです。</p>
   <div class="sodan-guide" id="sodan-guide">
     <strong>障害児相談支援事業所に連絡する前に：</strong>手続きは市町村ごとに違います。まずはお住まいの市町村の窓口へ（<a href="#" class="go-sodan">③相談タブで探す</a>）。
@@ -897,6 +989,8 @@ function showUnavailable(panelId, mapDivId, listId, noticeId){
   // 同じ理由（前の地域のデータが検索ボックス経由で再表示されるのを防ぐ）で、
   // 検索用のcurrent*配列も地域切り替え時にリセットする。
   if(panelId === 'panel-manabi') currentManabiData = [];
+  if(panelId === 'panel-sodan'){ currentSodan = []; currentKikan = []; }
+  if(panelId === 'panel-hattatsu') currentRyoikuData = [];
   if(panelId === 'panel-ibasho'){ currentIbashoJidoukan = []; currentIbashoPlaces = []; }
   if(panelId === 'panel-oyakazoku'){ currentKyoten = []; currentOyanokai = []; }
   // 【2026-07-29追加】②居場所タブがavailable:falseの県（本サイトがこども食堂・児童館データを
@@ -953,6 +1047,30 @@ const SODAN_CALL_NOTE = '新規の受付状況は、事前に電話でご確認�
 // 市町村の窓口の案内。③の窓口（こども家庭庁「相談窓口」）は通所受給者証の担当課そのものとは
 // 限らないため「担当窓口」とは書かず、つないでもらえる最初の相談先として③へ誘導する。
 const SODAN_MUNI_NOTE = '手続きはお住まいの市町村の窓口へ（<a href="#" class="go-sodan">③相談タブで探す</a>）。';
+// 位置精度の注記（⑤のピンと③の専門機関で共通）
+const PREC_LABEL = {address:'（番地レベルの位置）', town:'（町丁目レベルの位置）', area:'（地図位置は市区町村レベルの概算）'};
+// 属性値（href等）に入れる文字列のエスケープ。escHtmlは引用符を扱わないため別に持つ。
+function escAttr(s){
+  return String(s).replace(/[&<>"']/g, function(c){ return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]; });
+}
+// 開所時間（WAMNETの「利用可能な時間帯」をそのまま）。「00:00-00:00」は表示しない：WAMNETでは
+// その曜日を定休日に挙げている事業所でこの値が入っていることが大半で（2026-10-03確認、例: 日曜が
+// 00:00-00:00 の行は、CSV 063で537行中530行、070で324行中308行が定休日に「日」を含む）、そのまま出すと「0時から0時まで開所」と読めてしまうため。定休日は別の行で出す。
+const HOUR_KEYS = [['h_wd','平日'],['h_sat','土'],['h_sun','日'],['h_hol','祝']];
+function hoursText(r){
+  const parts = [];
+  HOUR_KEYS.forEach(function(p){ const v = r[p[0]]; if(v && v !== '00:00-00:00') parts.push(p[1] + ' ' + v); });
+  return parts.join('／');
+}
+// 開所時間・定休日・公式サイト（値があるものだけ）。一覧カードとポップアップで共通。
+function siteInfoHtml(r){
+  const h = hoursText(r);
+  let out = '';
+  if(h) out += '<div class="addr">開所：' + escHtml(h) + '</div>';
+  if(r.closed) out += '<div class="addr">定休日：' + escHtml(r.closed) + '</div>';
+  if(r.url) out += '<div class="addr"><a href="' + escAttr(r.url) + '" target="_blank" rel="noopener" onclick="event.stopPropagation()">公式サイト（外部リンク）</a></div>';
+  return out;
+}
 function isShogaijiSodan(catArr){ return catArr.indexOf('shogaiji_sodan') !== -1; }
 function postalPrefix(r){ return r.p ? '〒'+r.p+' ' : ''; }
 function ryoikuPrimaryCat(catArr){
@@ -1065,6 +1183,7 @@ document.querySelectorAll('.toggle-districts').forEach(function(cb){
 });
 
 let currentRyoikuData = [];
+const prefBounds = {}; // 都道府県全体の表示範囲（市区町村の絞り込みを解除したときに戻す）
 const lastBounds = {}; // 各タブの正しい表示範囲を記録し、タブを開いた瞬間に再適用する（非表示中のfitBounds崩れ対策）
 // 都道府県を切り替えて新データを読み込んだ時だけtrueにする。activateTab()はこれがtrueの
 // 時だけfitBoundsを再適用して消費（false）し、それ以外はユーザーの手動パン・ズームを
@@ -1108,11 +1227,21 @@ function renderManabi(source){
     m.on('mouseout',  function(){ m.setStyle({radius:9,  weight:2}); });
     f._marker = m; markers.push(m);
   });
-  if(markers.length){ const b = L.featureGroup(markers).getBounds().pad(0.15); lastBounds.manabi = b; boundsDirty.manabi = true; mapManabi.fitBounds(b, {maxZoom:FIT_MAX_ZOOM}); }
-  else { const b = L.latLng(currentRegionCenter).toBounds(80000); lastBounds.manabi = b; boundsDirty.manabi = true; mapManabi.fitBounds(b, {maxZoom:FIT_MAX_ZOOM}); }
+  if(markers.length){ const b = L.featureGroup(markers).getBounds().pad(0.15); lastBounds.manabi = prefBounds.manabi = b; boundsDirty.manabi = true; mapManabi.fitBounds(b, {maxZoom:FIT_MAX_ZOOM}); }
+  else { const b = L.latLng(currentRegionCenter).toBounds(80000); lastBounds.manabi = prefBounds.manabi = b; boundsDirty.manabi = true; mapManabi.fitBounds(b, {maxZoom:FIT_MAX_ZOOM}); }
 
+  renderManabiList();
+}
+function renderManabiList(){
+  const listEl = document.getElementById('list-manabi');
+  if(!listEl) return;
+  listEl.innerHTML = '';
   const groups = {};
-  currentManabiData.forEach(function(f){ (groups[f.area]=groups[f.area]||[]).push(f); });
+  currentManabiData.filter(inMuni).forEach(function(f){ (groups[f.area]=groups[f.area]||[]).push(f); });
+  if(currentMuni && !Object.keys(groups).length){
+    listEl.innerHTML = '<p class="notice" style="padding:8px 0">この市区町村に該当する施設はありません。</p>';
+    return;
+  }
   Object.keys(groups).forEach(function(area){
     const h=document.createElement('div'); h.className='area-head'; h.textContent=area; listEl.appendChild(h);
     groups[area].forEach(function(f){
@@ -1153,8 +1282,8 @@ function renderIbasho(jidoukan, ibasho, key){
   }
   ibashoCluster.addLayers(markers);
   if(!mapIbasho.hasLayer(ibashoCluster)) mapIbasho.addLayer(ibashoCluster);
-  if(markers.length){ const b = L.featureGroup(markers).getBounds().pad(0.1); lastBounds.ibasho = b; boundsDirty.ibasho = true; mapIbasho.fitBounds(b, {maxZoom:FIT_MAX_ZOOM}); }
-  else { const b = L.latLng(currentRegionCenter).toBounds(80000); lastBounds.ibasho = b; boundsDirty.ibasho = true; mapIbasho.fitBounds(b, {maxZoom:FIT_MAX_ZOOM}); }
+  if(markers.length){ const b = L.featureGroup(markers).getBounds().pad(0.1); lastBounds.ibasho = prefBounds.ibasho = b; boundsDirty.ibasho = true; mapIbasho.fitBounds(b, {maxZoom:FIT_MAX_ZOOM}); }
+  else { const b = L.latLng(currentRegionCenter).toBounds(80000); lastBounds.ibasho = prefBounds.ibasho = b; boundsDirty.ibasho = true; mapIbasho.fitBounds(b, {maxZoom:FIT_MAX_ZOOM}); }
   renderIbashoList('');
   updateIbashoLegend(key);
 }
@@ -1163,7 +1292,7 @@ function renderIbashoList(query){
   if(!body) return;
   body.innerHTML = '';
   const q = (query||'').trim();
-  const jHtml = currentIbashoJidoukan.filter(function(f){return !q || f.n.indexOf(q)!==-1 || f.a.indexOf(q)!==-1;})
+  const jHtml = currentIbashoJidoukan.filter(inMuni).filter(function(f){return !q || f.n.indexOf(q)!==-1 || f.a.indexOf(q)!==-1;})
     .map(function(f){
       // status:"suspended" は削除せず保持し、休止中であることを明示する（地図側のグレー表示は
       // ②④の全国展開時にまとめて対応予定。まずはデータと一覧表示で正しく持たせる）。
@@ -1173,15 +1302,34 @@ function renderIbashoList(query){
       const yonyou = (f.facility_type==='jidouyuen') ? '' : '<span class="badge" style="background:#B2508C">④兼用</span>';
       return '<div class="card no-pin"><div class="cat">'+cat+'</div><h2>'+f.n+'</h2><div class="addr">'+f.a+'</div>'+(f.t?'<div class="tel">'+f.t+'</div>':'')+'<div class="badges">'+susp+yonyou+'</div></div>'; }).join('');
   const iHtml = IBASHO_MAP_ENABLED
-    ? currentIbashoPlaces.filter(function(f){return !q || f.n.indexOf(q)!==-1 || f.gakku.indexOf(q)!==-1 || f.a.indexOf(q)!==-1;})
+    ? currentIbashoPlaces.filter(inMuni).filter(function(f){return !q || f.n.indexOf(q)!==-1 || f.gakku.indexOf(q)!==-1 || f.a.indexOf(q)!==-1;})
         .map(function(f){ return '<div class="card no-pin"><div class="cat">こども食堂・プレーパーク等</div><h2>'+f.n+'</h2><div class="addr">学区：'+f.gakku+'　'+f.a+'</div>'+(f.t?'<div class="tel">'+f.t+'</div>':'')+'</div>'; }).join('')
     : '<div class="card no-pin"><div class="addr">こども食堂・プレーパーク等は現在表示を停止しています。<a href="https://kodomoshokudo.gaccom.jp/map" target="_blank" rel="noopener">ガッコム・むすびえ こども食堂マップ</a>をご覧ください。</div></div>';
   body.innerHTML = '<div class="area-head">児童館・児童センター</div>'+jHtml+'<div class="area-head">こども食堂・プレーパーク等</div>'+iHtml;
 }
 
 /* ============ ③相談 ============ */
-function renderSodan(sodanData){
+/* 専門機関（data/<県>/kikan.json。都道府県・政令市などが設置）。色は凡例（lg-kikan-*）と同じ値を保つ。
+   市町村窓口のエリアマーカー（茶色・件数入りの大きな円）と見分けられるよう、白縁の小さな丸で3色に分ける。 */
+const KIKAN_CAT = {
+  jiso:            {label:'児童相談所',             color:'#1A5FB4'},
+  hattatsu_center: {label:'発達障害者支援センター', color:'#2C6E49'},
+  iryocare_center: {label:'医療的ケア児支援センター', color:'#7B3FA0'}
+};
+const KIKAN_ORDER = ['jiso','hattatsu_center','iryocare_center'];
+let currentKikan = [];
+function kikanBodyHtml(k){
+  const noCoord = (k.lat == null || k.lng == null);
+  // 住所・電話は原典に無い機関がある（医療的ケア児支援センターは名称・URL・説明だけの県が多い）ため、値があるときだけ出す。
+  return KIKAN_CAT[k.cat].label + (k.a ? '<br>' + escHtml(k.a) : '') + (k.t ? '<br>' + escHtml(k.t) : '')
+    + (k.rem ? '<br>' + escHtml(k.rem) : '')
+    + (k.url ? '<br><a href="' + escAttr(k.url) + '" target="_blank" rel="noopener" onclick="event.stopPropagation()">公式サイト（外部リンク）</a>' : '')
+    + (noCoord ? '<br><span class="kw-pending">地図位置を確認できないため、地図には表示していません</span>'
+               : (PREC_LABEL[k.prec] ? '<br><span class="kw-pending">' + PREC_LABEL[k.prec] + '</span>' : ''));
+}
+function renderSodan(sodanData, kikanData){
   currentSodan = sodanData;
+  currentKikan = (kikanData || []).filter(function(k){ return KIKAN_CAT[k.cat]; });
   mapSodan.eachLayer(function(l){ if(l instanceof L.CircleMarker || l instanceof L.Marker) mapSodan.removeLayer(l); });
   const markers = [];
   sodanData.forEach(function(area){
@@ -1204,8 +1352,21 @@ function renderSodan(sodanData){
     m.bindPopup('<div class="popup-name">'+area.area+'</div><div class="popup-body">'+winList+'</div>');
     markers.push(m);
   });
-  if(markers.length){ const b = L.featureGroup(markers).getBounds().pad(0.1); lastBounds.sodan = b; boundsDirty.sodan = true; mapSodan.fitBounds(b, {maxZoom:FIT_MAX_ZOOM}); }
-  else { const b = L.latLng(currentRegionCenter).toBounds(80000); lastBounds.sodan = b; boundsDirty.sodan = true; mapSodan.fitBounds(b, {maxZoom:FIT_MAX_ZOOM}); }
+  currentKikan.forEach(function(k){
+    if(k.lat == null || k.lng == null) return;  // 位置が確認できないものは一覧のみ
+    const c = KIKAN_CAT[k.cat];
+    // 市町村窓口のエリアマーカー（markerPane）の下に隠れないよう、専用の上の層に描く
+    if(!mapSodan.getPane('kikanPane')){ mapSodan.createPane('kikanPane'); mapSodan.getPane('kikanPane').style.zIndex = 650; }
+    const km = L.circleMarker([k.lat, k.lng], {radius:9, color:'#fff', weight:2, fillColor:c.color, fillOpacity:.95, pane:'kikanPane'}).addTo(mapSodan);
+    km.bindTooltip('<strong>'+escHtml(k.n)+'</strong><br>'+c.label+(PREC_LABEL[k.prec]||'')+(k.a?'<br>'+escHtml(k.a):''), {direction:'top', offset:[0,-10], opacity:.95, className:'facility-tip'});
+    km.bindPopup('<div class="popup-name">'+escHtml(k.n)+'</div><div class="popup-body">'+kikanBodyHtml(k)+'</div>');
+    km.on('mouseover', function(){ km.setStyle({radius:12, weight:3}); });
+    km.on('mouseout',  function(){ km.setStyle({radius:9,  weight:2}); });
+    k._marker = km;
+    markers.push(km);
+  });
+  if(markers.length){ const b = L.featureGroup(markers).getBounds().pad(0.1); lastBounds.sodan = prefBounds.sodan = b; boundsDirty.sodan = true; mapSodan.fitBounds(b, {maxZoom:FIT_MAX_ZOOM}); }
+  else { const b = L.latLng(currentRegionCenter).toBounds(80000); lastBounds.sodan = prefBounds.sodan = b; boundsDirty.sodan = true; mapSodan.fitBounds(b, {maxZoom:FIT_MAX_ZOOM}); }
   renderSodanList('');
 }
 function renderSodanList(query){
@@ -1214,7 +1375,28 @@ function renderSodanList(query){
   body.innerHTML = '';
   const q = (query||'').trim();
   let html = '';
+  // 専門機関は県全域の相談先なので、市区町村の絞り込みに関わらず常に出す（検索ボックスでは絞る）
+  const kk = currentKikan.filter(function(k){ return !q || k.n.indexOf(q)!==-1 || (k.a||'').indexOf(q)!==-1; });
+  if(kk.length){
+    html += '<div class="area-head">専門機関（都道府県・政令市などが設置）</div>';
+    if(currentMuni) html += '<p class="notice" style="padding:0 4px 6px">（県全域の相談先。市区町村の絞り込みに関わらず表示）</p>';
+    KIKAN_ORDER.forEach(function(cat){
+      kk.filter(function(k){ return k.cat === cat; }).forEach(function(k){
+        const i = currentKikan.indexOf(k);
+        const noCoord = (k.lat == null || k.lng == null);
+        html += '<div class="card'+(noCoord?' no-pin':'')+'" data-ki="'+i+'"><div class="cat">'+KIKAN_CAT[cat].label+'</div><h2>'+escHtml(k.n)+'</h2>'
+          + (k.a?'<div class="addr">'+escHtml(k.a)+'</div>':'')+(k.t?'<div class="tel">'+escHtml(k.t)+'</div>':'')
+          + (k.rem?'<div class="addr">'+escHtml(k.rem)+'</div>':'')
+          + (k.url?'<div class="addr"><a href="'+escAttr(k.url)+'" target="_blank" rel="noopener" onclick="event.stopPropagation()">公式サイト（外部リンク）</a></div>':'')
+          + (noCoord?'<div><span class="kw-pending">地図位置を確認できないため、地図には表示していません</span></div>'
+                    :(k.prec==='area'?'<div><span class="kw-pending">地図位置：市区町村概算</span></div>':''))
+          + '</div>';
+      });
+    });
+  }
   currentSodan.forEach(function(area){
+    // area が都道府県そのもの（例「沖縄県」）の窓口は県全域の相談先なので、絞り込み中も出す
+    if(!inMuni(area) && stripPref(area.area).trim() !== '') return;
     const windows = area.windows.filter(function(w){ return !q || area.area.indexOf(q)!==-1 || w.n.indexOf(q)!==-1; });
     if(windows.length === 0) return;
     html += '<div class="area-head">'+area.area+'（'+windows.length+'件）</div>';
@@ -1224,6 +1406,11 @@ function renderSodanList(query){
     });
   });
   body.innerHTML = html || '<p class="notice" style="padding:8px 0">該当する窓口がありません。</p>';
+  body.querySelectorAll('.card[data-ki]').forEach(function(el){
+    const k = currentKikan[+el.getAttribute('data-ki')];
+    if(!k || !k._marker) return;
+    el.addEventListener('click', function(){ mapSodan.setView([k.lat, k.lng], 14); k._marker.openPopup(); });
+  });
 }
 
 /* ============ ④親家族 ============ */
@@ -1256,8 +1443,8 @@ function renderOyakazoku(kyoten, jidoukan, oyanokai){
   });
   oyaCluster.addLayers(markers);
   if(!mapOya.hasLayer(oyaCluster)) mapOya.addLayer(oyaCluster);
-  if(markers.length){ const b = L.featureGroup(markers).getBounds().pad(0.1); lastBounds.oyakazoku = b; boundsDirty.oyakazoku = true; mapOya.fitBounds(b, {maxZoom:FIT_MAX_ZOOM}); }
-  else { const b = L.latLng(currentRegionCenter).toBounds(80000); lastBounds.oyakazoku = b; boundsDirty.oyakazoku = true; mapOya.fitBounds(b, {maxZoom:FIT_MAX_ZOOM}); }
+  if(markers.length){ const b = L.featureGroup(markers).getBounds().pad(0.1); lastBounds.oyakazoku = prefBounds.oyakazoku = b; boundsDirty.oyakazoku = true; mapOya.fitBounds(b, {maxZoom:FIT_MAX_ZOOM}); }
+  else { const b = L.latLng(currentRegionCenter).toBounds(80000); lastBounds.oyakazoku = prefBounds.oyakazoku = b; boundsDirty.oyakazoku = true; mapOya.fitBounds(b, {maxZoom:FIT_MAX_ZOOM}); }
   renderOyaList('');
   updateOyaLegend();
 }
@@ -1266,18 +1453,19 @@ function renderOyaList(query){
   if(!body) return;
   const q = (query||'').trim();
   let html = '<div class="area-head">地域子育て支援拠点</div>';
-  html += currentKyoten.filter(function(f){return !q||f.n.indexOf(q)!==-1||f.a.indexOf(q)!==-1;})
+  html += currentKyoten.filter(inMuni).filter(function(f){return !q||f.n.indexOf(q)!==-1||f.a.indexOf(q)!==-1;})
     .map(function(f){return '<div class="card no-pin"><div class="cat">地域子育て支援拠点</div><h2>'+f.n+'</h2><div class="addr">'+f.a+'</div></div>';}).join('');
   html += '<div class="area-head">児童館（②と兼用）</div>';
   html += currentIbashoJidoukan
     .filter(function(f){ return !f.tags || f.tags.indexOf('④')!==-1; })   // 児童遊園は④の対象外
+    .filter(inMuni)
     .filter(function(f){return !q||f.n.indexOf(q)!==-1||f.a.indexOf(q)!==-1;})
     .map(function(f){
       const susp = f.status==='suspended'
         ? '<div class="badges"><span class="badge" style="background:#8A8A8A">休止中'+(f.status_checked?'（'+f.status_checked+'確認）':'')+'</span></div>' : '';
       return '<div class="card no-pin"><div class="cat">児童館</div><h2>'+f.n+'</h2><div class="addr">'+f.a+'</div>'+(f.t?'<div class="tel">'+f.t+'</div>':'')+susp+'</div>';}).join('');
   html += '<div class="area-head">親の会</div>';
-  html += currentOyanokai.filter(function(f){return !q||f.n.indexOf(q)!==-1;})
+  html += currentOyanokai.filter(inMuni).filter(function(f){return !q||f.n.indexOf(q)!==-1;})
     .map(function(f){return '<div class="card no-pin"><div class="cat">親の会</div><h2>'+f.n+'</h2><div class="addr">'+f.a+'</div>'+(f.t?'<div class="tel">'+f.t+'</div>':'')+'<div class="addr">'+f.note+'</div></div>';}).join('');
   body.innerHTML = html;
 }
@@ -1298,8 +1486,7 @@ function renderRyoikuMap(activeCats){
     const primary = ryoikuPrimaryCat(matchedCats);
     const color = RYOIKU_CAT[primary].color;
     const m = L.circleMarker([r.lat, r.lng], {radius:8, color:'#fff', weight:2, fillColor:color, fillOpacity:.95, ryoCat:primary});
-    const precLabel = {address:'（番地レベルの位置）', town:'（町丁目レベルの位置）', area:'（地図位置は市区町村レベルの概算）'};
-    const precNote = precLabel[r.prec] || '';
+    const precNote = PREC_LABEL[r.prec] || '';
     const labels = ryoikuLabels(catArr);
     const pdfLine = r.pref_pdf ? '<br><a href="'+r.pref_pdf+'" target="_blank" rel="noopener">県公表資料でも確認済み</a>' : '';
     const statusBadge = r.status ? '<span class="status-badge">'+r.status+'（事業所の記載による）</span>' : '';
@@ -1311,7 +1498,7 @@ function renderRyoikuMap(activeCats){
     const extra = (dLine || cLine) ? '<br>'+dLine+cLine : '';
     const remLine = r.rem ? '<br>事業所の記載：'+r.rem : '';
     const callLine = isShogaijiSodan(catArr) ? '<br><strong>'+SODAN_CALL_NOTE+'</strong><br>'+SODAN_MUNI_NOTE : '';
-    m.bindPopup('<div class="popup-name">'+r.n+statusBadge+'</div><div class="popup-body">'+labels+'<br>'+postalPrefix(r)+r.a+'<br>'+r.t+disLine+extra+remLine+callLine+pdfLine+'</div>');
+    m.bindPopup('<div class="popup-name">'+r.n+statusBadge+'</div><div class="popup-body">'+labels+'<br>'+postalPrefix(r)+r.a+'<br>'+r.t+disLine+extra+siteInfoHtml(r)+remLine+callLine+pdfLine+'</div>');
     m.on('mouseover', function(){ m.setStyle({radius:12, weight:3}); });
     m.on('mouseout',  function(){ m.setStyle({radius:8,  weight:2}); });
     markers.push(m);
@@ -1334,7 +1521,7 @@ function facilityCardHtml(r){
   const remLine = r.rem ? '<div class="addr">事業所の記載：'+r.rem+'</div>' : '';
   const callLine = isShogaijiSodan(catArr) ? '<div class="addr"><strong>'+SODAN_CALL_NOTE+'</strong><br>'+SODAN_MUNI_NOTE+'</div>' : '';
   return '<div class="card no-pin"><div class="cat">'+ryoikuLabels(catArr)+'</div><h2>'+r.n+statusBadge+'</h2><div class="addr">'+postalPrefix(r)+r.a+'</div><div class="tel">'+r.t+'</div>'+dis+
-    infoLine+remLine+callLine+pdfNote+'<div>'+precTag+'</div></div>';
+    infoLine+siteInfoHtml(r)+remLine+callLine+pdfNote+'<div>'+precTag+'</div></div>';
 }
 function renderRyoikuList(query, areaFilter){
   const body = document.getElementById('ryoiku-list-body'); if(!body) return;
@@ -1344,6 +1531,7 @@ function renderRyoikuList(query, areaFilter){
     const catArr = Array.isArray(r.cat) ? r.cat : [r.cat];
     if(!catArr.some(function(c){ return cats.indexOf(c) !== -1; })) return;
     if(areaFilter && r.area !== areaFilter) return;
+    if(!inMuni(r)) return;
     if(q && r.n.indexOf(q)===-1 && r.area.indexOf(q)===-1 && r.a.indexOf(q)===-1) return;
     (groups[r.area] = groups[r.area] || []).push(r);
   });
@@ -1365,10 +1553,10 @@ function renderHattatsu(data){
   const withCoords = data.filter(function(r){ return r.lat!=null && r.lng!=null; });
   if(withCoords.length){
     const b = L.latLngBounds(withCoords.map(function(r){ return [r.lat, r.lng]; })).pad(0.1);
-    lastBounds.hattatsu = b; boundsDirty.hattatsu = true; mapHattatsu.fitBounds(b, {maxZoom:FIT_MAX_ZOOM});
+    lastBounds.hattatsu = prefBounds.hattatsu = b; boundsDirty.hattatsu = true; mapHattatsu.fitBounds(b, {maxZoom:FIT_MAX_ZOOM});
   } else {
     const b = L.latLng(currentRegionCenter).toBounds(80000);
-    lastBounds.hattatsu = b; boundsDirty.hattatsu = true; mapHattatsu.fitBounds(b, {maxZoom:FIT_MAX_ZOOM});
+    lastBounds.hattatsu = prefBounds.hattatsu = b; boundsDirty.hattatsu = true; mapHattatsu.fitBounds(b, {maxZoom:FIT_MAX_ZOOM});
   }
 }
 document.getElementById('ryoiku-search').addEventListener('input', function(e){ renderRyoikuList(e.target.value, null); });
@@ -1409,6 +1597,9 @@ function loadRegion(key){
   Object.keys(currentSrcIds).forEach(function(k){ currentSrcIds[k] = []; srcLoaded[k] = false; });
   renderFooterSources(region);
 
+  // 市区町村の絞り込みは都道府県を切り替えたら「すべて」に戻す（URLから指定された初回だけは pendingMuni で持ち越す）
+  resetMuni();
+
   Object.keys(ALL_MAPS).forEach(function(k){ ALL_MAPS[k].removeLayer(ibashoCluster); ALL_MAPS[k].removeLayer(oyaCluster); ALL_MAPS[k].removeLayer(ryoikuCluster); });
   // 前の地域で出した案内（準備中・読み込み失敗・0件）を必ず消してから読み込む。
   // available:trueの地域に切り替えた時に案内が残らないのは、この一括リセットが担保する。
@@ -1425,6 +1616,7 @@ function loadRegion(key){
       currentSrcIds.manabi = collectSrcIds(data);
       srcLoaded.manabi = true;
       renderFooterSources(region);
+      onTabDataLoaded('manabi');
     }).catch(function(err){ if(seq === loadSeq) showFetchError('map-manabi', err); });
   } else { showUnavailable('panel-manabi','map-manabi','list-manabi','notice-manabi'); }
 
@@ -1438,20 +1630,27 @@ function loadRegion(key){
         currentSrcIds.ibasho = IBASHO_MAP_ENABLED ? collectSrcIds(r[0], r[1]) : collectSrcIds(r[0]);
         srcLoaded.ibasho = true;
         renderFooterSources(region);
+        onTabDataLoaded('ibasho');
       })
       .catch(function(err){ if(seq === loadSeq) showFetchError('map-ibasho', err); });
   } else { showUnavailable('panel-ibasho','map-ibasho','ibasho-list-body','notice-ibasho'); }
 
   // ③相談
   if(avail.sodan){
-    fetchJson(region.base + 'sodan.json').then(function(data){
+    // 専門機関（kikan.json）は別担当が県ごとに置く。まだ無い県でも市町村窓口の表示は止めない（読めなければ0件扱い）。
+    Promise.all([
+      fetchJson(region.base + 'sodan.json'),
+      fetchJson(region.base + 'kikan.json').catch(function(){ return []; })
+    ]).then(function(res){
       if(seq !== loadSeq) return;
-      renderSodan(data);
-      updateSodanLegend(region, data);
-      updateSodanNotice(region, data);
-      currentSrcIds.sodan = collectSrcIds(data);
+      const data = res[0], kikan = Array.isArray(res[1]) ? res[1] : [];
+      renderSodan(data, kikan);
+      updateSodanLegend(region, data, kikan);
+      updateSodanNotice(region, data, kikan);
+      currentSrcIds.sodan = collectSrcIds(data, kikan);
       srcLoaded.sodan = true;
       renderFooterSources(region);
+      onTabDataLoaded('sodan');
     }).catch(function(err){ if(seq === loadSeq) showFetchError('map-sodan', err); });
   } else { showUnavailable('panel-sodan','map-sodan','sodan-list-body'); }
 
@@ -1464,6 +1663,7 @@ function loadRegion(key){
         currentSrcIds.oyakazoku = collectSrcIds(r[0], r[1], r[2]);
         srcLoaded.oyakazoku = true;
         renderFooterSources(region);
+        onTabDataLoaded('oyakazoku');
       })
       .catch(function(err){ if(seq === loadSeq) showFetchError('map-oyakazoku', err); });
   } else { showUnavailable('panel-oyakazoku','map-oyakazoku','oya-list-body','notice-oyakazoku'); }
@@ -1485,6 +1685,7 @@ function loadRegion(key){
       srcLoaded.hattatsu = true;
       if(data.some(function(r){ return r.pref_list_src; })) currentSrcIds.hattatsu.push('okayama_pref_hattatsu_list');
       renderFooterSources(region);
+      onTabDataLoaded('hattatsu');
     }).catch(function(err){ if(seq === loadSeq) showFetchError('map-hattatsu', err); });
   } else { showUnavailable('panel-hattatsu','map-hattatsu','ryoiku-list-body'); }
 
@@ -1675,7 +1876,13 @@ function countSodanOverrides(data){
      凡例だけが説明している状態になる）。データが入れば自動的に件数つきで表示される。
    ・エリア数の枕詞は region.label から作る（「県内」固定だと北海道・東京都・大阪府で
      不自然になる。「北海道内」「東京都内」「大阪府内」はいずれも自然な表現）。 */
-function updateSodanLegend(region, data){
+function updateSodanLegend(region, data, kikan){
+  KIKAN_ORDER.forEach(function(cat){
+    const n = (kikan || []).filter(function(k){ return k.cat === cat; }).length;
+    const el = document.getElementById('lg-kikan-' + cat);
+    if(el) el.style.display = n ? '' : 'none';
+    setText('lg-kikan-' + cat + '-n', n + '件');
+  });
   const ov = countSodanOverrides(data);
   const el1 = document.getElementById('lg-sodan-1');
   if(el1) el1.style.display = ov ? '' : 'none';
@@ -1683,8 +1890,19 @@ function updateSodanLegend(region, data){
   setText('lg-sodan-area', region.label + '内' + data.length + 'エリア');
 }
 
-function updateSodanNotice(region, data){
+function updateSodanNotice(region, data, kikan){
   const areaCount = data.length;
+  kikan = (kikan || []).filter(function(k){ return KIKAN_CAT[k.cat]; });
+  let kikanText = '';
+  if(kikan.length){
+    const parts = KIKAN_ORDER.map(function(cat){
+      const n = kikan.filter(function(k){ return k.cat === cat; }).length;
+      return n ? KIKAN_CAT[cat].label + n + '件' : '';
+    }).filter(Boolean);
+    const noCoord = kikan.filter(function(k){ return k.lat == null || k.lng == null; }).length;
+    kikanText = '専門機関（' + parts.join('・') + '）を個別のピンと一覧で表示しています'
+      + (noCoord ? '（うち' + noCoord + '件は地図位置を確認できないため一覧のみ）' : '') + '。';
+  }
   const windowCount = data.reduce(function(sum, a){ return sum + a.windows.length; }, 0);
   const el = document.getElementById('notice-sodan');
   if(el){
@@ -1694,10 +1912,13 @@ function updateSodanNotice(region, data){
           ? '庁舎とは別施設にあり所在地が個別に判明した窓口は、正確な位置に個別ピンで表示しています。'
           : '')
       + '原典に住所記載がないため未確認の窓口も多数あります。'
+      + kikanText
       + '児童発達支援・放課後等デイサービスなどの利用に向けた相談先（障害児相談支援事業所）は、⑤発達タブに掲載しています。';
   }
 }
 
+// 出典台帳（時点の表示に使う）が後から読み終わったときに注記を作り直すため、直近の引数を持っておく。
+let lastHattatsuNoticeArgs = null;
 function updateHattatsuNotice(region, key, data, sodanData){
   const el = document.getElementById('notice-hattatsu');
   if(!el) return;
@@ -1712,6 +1933,14 @@ function updateHattatsuNotice(region, key, data, sodanData){
       + 'リンクがあります（県資料の時点はページ下部の出典に記載）。';
   }
   if(noCoord) text += '障害児相談支援のうち' + noCoord + '件は地図位置を確認できないため、一覧にだけ表示しています。';
+  // 開所時間・定休日・公式サイトの時点は sources.json（wamnet.as_of）から取る（固定の日付を書かない＝ルール13）。
+  const all = data.concat(sodanData);
+  if(all.some(function(r){ return r.url || r.closed || hoursText(r); })){
+    const w = LEDGER && LEDGER.sources && LEDGER.sources.wamnet;
+    text += '開所時間・定休日・公式サイトはWAMNETに事業者が報告した内容' + (w && w.as_of ? '（' + w.as_of + '）' : '')
+      + 'によるもので、変わっていることがあります。';
+  }
+  lastHattatsuNoticeArgs = [region, key, data, sodanData];
   text += '「医療型児童発達支援」は令和6年度制度改正の経過措置区分であり、令和9年3月末をもって新規発生がなくなる見込みです。';
   el.textContent = text;
 }
@@ -1735,7 +1964,7 @@ const FALLBACK_DATASET = {manabi:'manabi', sodan:'sodan', hattatsu:'hattatsu'};
    2026-07-26まで④拠点で使っているのに小学校区界のフッターに表示していた
    （小学校区界のポリゴンはA27そのもので、ジオコーディングしていない）。 */
 const TAB_DATASETS = {
-  manabi: ['manabi'], ibasho: ['ibasho','jidoukan'], sodan: ['sodan'],
+  manabi: ['manabi'], ibasho: ['ibasho','jidoukan'], sodan: ['sodan','kikan'],
   oyakazoku: ['kyoten','jidoukan','oyanokai'], hattatsu: ['hattatsu','shogaiji_sodan'], districts: ['districts']
 };
 function geoSourceIds(tab){
@@ -1943,7 +2172,139 @@ sortedRegionKeys.forEach(function(key){
   }
   regionSelect.appendChild(opt);  // 既存ノードなら移動、新規なら末尾追加。
 });
-regionSelect.addEventListener('change', function(e){ loadRegion(e.target.value); syncURLState(); });
+regionSelect.addEventListener('change', function(e){ pendingMuni = ''; loadRegion(e.target.value); syncURLState(); });
+
+/* ============ 区分の説明（details.cat-help） ============
+   説明文はHTMLの dl に1か所だけ書き、凡例の丸の title にも同じ文を付ける。
+   凡例で隠れている区分（その地域にデータが無い）は、開いたときに説明も隠す。 */
+function syncCatHelp(){
+  document.querySelectorAll('.cat-help dt[data-for]').forEach(function(dt){
+    const lg = document.getElementById(dt.getAttribute('data-for'));
+    const dd = dt.nextElementSibling;
+    const show = !!lg && lg.style.display !== 'none';
+    dt.style.display = show ? '' : 'none';
+    if(dd) dd.style.display = show ? '' : 'none';
+  });
+}
+document.querySelectorAll('.cat-help dt[data-for]').forEach(function(dt){
+  const lg = document.getElementById(dt.getAttribute('data-for'));
+  const dd = dt.nextElementSibling;
+  if(lg && dd) lg.title = dd.textContent;
+});
+document.querySelectorAll('.cat-help').forEach(function(d){ d.addEventListener('toggle', function(){ if(d.open) syncCatHelp(); }); });
+
+/* ============ 市区町村の絞り込み ============
+   選択肢は、読み込んだデータの area（無ければ muni）から機械的に作る（静的な一覧は書かない）。
+   都道府県名の接頭辞と郡名（「和気郡和気町」→「和気町」）を外して同じ市区町村を1つにまとめる
+   （データセットによって郡名の有無が違うため）。指定都市の区はそのまま。
+   選ぶと全タブの一覧がその市区町村の件だけになり、地図はその範囲に寄せる（ピン自体は減らさない）。
+   市を選ぶとその市の区の件も、区を選ぶと市全体の件（例: 市単位の相談窓口）も含める。
+   area・muni を持たないデータ（児童館の一部・親の会・専門機関）は住所の書き出しで判定する。 */
+const muniSelect = document.getElementById('muni-select');
+let currentMuni = '';
+let pendingMuni = '';   // URLで指定され、選択肢がまだ揃っていない市区町村
+const MUNI_TAB_ORDER = ['sodan','manabi','ibasho','oyakazoku','hattatsu'];  // 選択肢の並び（出現順）
+function regionLabel(){ const r = REGIONS[regionSelect.value]; return r ? r.label : ''; }
+function stripPref(s){
+  s = String(s || '').replace(/^[\s　]+/, '');
+  const label = regionLabel();
+  return (label && s.indexOf(label) === 0) ? s.slice(label.length) : s;
+}
+function muniKey(raw){
+  let s = stripPref(raw).trim();
+  const g = s.match(/^.+?郡(.+[町村])$/);
+  if(g) s = g[1];
+  return /[市区町村]$/.test(s) ? s : '';
+}
+function sameMuni(k, sel){
+  if(k === sel) return true;
+  if(k.indexOf(sel) === 0 && /市$/.test(sel) && /区$/.test(k)) return true;   // 市を選ぶと区の件も
+  if(sel.indexOf(k) === 0 && /市$/.test(k) && /区$/.test(sel)) return true;   // 区を選ぶと市全体の件も
+  return false;
+}
+function escRe(s){ return s.replace(/[.*+?^${}()|[\]\\]/g, '\\$&'); }
+function inMuni(r){
+  if(!currentMuni) return true;
+  const raw = r.area || r.muni;
+  if(raw){ const k = muniKey(raw); return !!k && sameMuni(k, currentMuni); }
+  const a = stripPref(r.a || r.addr || '');
+  return new RegExp('^(?:[^市区町村]{1,5}郡)?' + escRe(currentMuni)).test(a);
+}
+function muniRecords(tab){
+  if(tab === 'manabi') return currentManabiData;
+  if(tab === 'ibasho') return IBASHO_MAP_ENABLED ? currentIbashoJidoukan.concat(currentIbashoPlaces) : currentIbashoJidoukan;
+  // ③は市町村の窓口だけ（専門機関・県単位の窓口は県全域の資源のため、選択肢・表示範囲の計算に入れない）
+  if(tab === 'sodan') return currentSodan;
+  if(tab === 'oyakazoku') return currentKyoten.concat(currentIbashoJidoukan.filter(function(f){ return !f.tags || f.tags.indexOf('④')!==-1; }), currentOyanokai);
+  if(tab === 'hattatsu') return currentRyoikuData;
+  return [];
+}
+function refreshMuniOptions(){
+  const keys = [];
+  MUNI_TAB_ORDER.forEach(function(tab){
+    muniRecords(tab).forEach(function(r){
+      const k = muniKey(r.area || r.muni);
+      if(k && keys.indexOf(k) === -1) keys.push(k);
+    });
+  });
+  // 指定都市の区は、市の選択肢があればその直後に並べる（それ以外は出現順のまま）
+  const anchor = keys.map(function(k, i){
+    const m = k.match(/^(.+?市).+区$/);
+    const j = m ? keys.indexOf(m[1]) : -1;
+    return j >= 0 ? j : i;
+  });
+  const order = keys.map(function(k, i){ return i; }).sort(function(a, b){ return (anchor[a] - anchor[b]) || (a - b); });
+  const want = currentMuni || pendingMuni;
+  muniSelect.innerHTML = '<option value="">すべて</option>';
+  order.forEach(function(i){
+    const o = document.createElement('option');
+    o.value = keys[i]; o.textContent = keys[i];
+    muniSelect.appendChild(o);
+  });
+  if(want && keys.indexOf(want) !== -1){
+    muniSelect.value = want;
+    if(!currentMuni){ pendingMuni = ''; applyMuni(want); }
+  } else {
+    muniSelect.value = currentMuni && keys.indexOf(currentMuni) !== -1 ? currentMuni : '';
+  }
+}
+function fitMuniBounds(tab){
+  let b = prefBounds[tab];
+  if(currentMuni){
+    const pts = muniRecords(tab).filter(function(r){ return r.lat != null && r.lng != null && inMuni(r); })
+      .map(function(r){ return [r.lat, r.lng]; });
+    if(pts.length) b = L.latLngBounds(pts).pad(0.15);
+  }
+  if(!b) return;
+  lastBounds[tab] = b;
+  const active = document.querySelector('.tab-btn.active');
+  if(active && active.dataset.tab === tab){ ALL_MAPS[tab].fitBounds(b, {maxZoom:FIT_MAX_ZOOM}); boundsDirty[tab] = false; }
+  else { boundsDirty[tab] = true; }
+}
+function rerenderLists(){
+  renderManabiList();
+  renderIbashoList(document.getElementById('ibasho-search').value);
+  renderSodanList(document.getElementById('sodan-search').value);
+  renderOyaList(document.getElementById('oya-search').value);
+  renderRyoikuList(document.getElementById('ryoiku-search').value, null);
+}
+function applyMuni(m){
+  currentMuni = m || '';
+  if(muniSelect.value !== currentMuni) muniSelect.value = currentMuni;
+  rerenderLists();
+  MUNI_TAB_ORDER.forEach(fitMuniBounds);
+}
+function resetMuni(){
+  currentMuni = '';
+  muniSelect.innerHTML = '<option value="">すべて</option>';
+}
+// タブのデータを読み終えたとき：選択肢を作り直し、絞り込み中ならそのタブの表示範囲を寄せる
+function onTabDataLoaded(tab){
+  refreshMuniOptions();
+  syncCatHelp();
+  if(currentMuni) fitMuniBounds(tab);
+}
+muniSelect.addEventListener('change', function(e){ pendingMuni = ''; applyMuni(e.target.value); syncURLState(); });
 
 /* ============ タブ切り替え ============ */
 function activateTab(name){
@@ -1989,6 +2350,8 @@ function parseStateFromURL(){
       if(LAYER_NUM_TO_TAB[nums[i]]){ out.tab = LAYER_NUM_TO_TAB[nums[i]]; break; }
     }
   }
+  const muniParam = params.get('muni');
+  if(muniParam) out.muni = muniParam;
   const prefParam = params.get('pref');
   if(prefParam && PREF_CODE_TO_KEY[parseInt(prefParam, 10)]){
     out.regionKey = PREF_CODE_TO_KEY[parseInt(prefParam, 10)];
@@ -2005,6 +2368,8 @@ function syncURLState(){
   if(tab && TAB_TO_LAYER_NUM[tab]) params.set('layers', TAB_TO_LAYER_NUM[tab]);
   const code = regionPrefCode(regionSelect.value);
   params.set('pref', (code < 10 ? '0' : '') + code);
+  const muni = currentMuni || pendingMuni;
+  if(muni) params.set('muni', muni);
   history.replaceState(null, '', location.pathname + '?' + params.toString());
 }
 
@@ -2017,8 +2382,12 @@ if(initialTab) activateTab(initialTab);
 /* ============ 初期ロード ============ */
 // 出典台帳を先に読む。地図データの読み込みは台帳を待たずに始めてよいが、
 // フッターの出典は台帳が無いと組み立てられないため、読み終わったら再描画する。
-loadLedger().then(function(){ renderFooterSources(REGIONS[regionSelect.value]); });
+loadLedger().then(function(){
+  renderFooterSources(REGIONS[regionSelect.value]);
+  if(lastHattatsuNoticeArgs) updateHattatsuNotice.apply(null, lastHattatsuNoticeArgs);
+});
 regionSelect.value = initialRegionKey;
+pendingMuni = initialURLState.muni || '';
 loadRegion(initialRegionKey);
 syncURLState();
 </script>

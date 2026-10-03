@@ -1,0 +1,48 @@
+[
+{
+"n": "長崎こども・女性・障害者支援センター",
+"a": "長崎県長崎市橋口町10-22",
+"t": "095-844-6166",
+"cat": "jiso",
+"lat": 32.777771,
+"lng": 129.865692,
+"prec": "address",
+"src": "cfa_jisou_ichiran",
+"checked": "2026-10-03"
+},
+{
+"n": "佐世保こども・女性・障害者支援センター",
+"a": "長崎県佐世保市万徳町10-3",
+"t": "0956-24-5080",
+"cat": "jiso",
+"lat": 33.185253,
+"lng": 129.715164,
+"prec": "address",
+"src": "cfa_jisou_ichiran",
+"checked": "2026-10-03"
+},
+{
+"n": "長崎県発達障害者支援センター「しおさい(潮彩)」",
+"a": "長崎県諫早市永昌東町24-3　長崎県こども医療福祉センター内 2階",
+"t": "0957-22-1802",
+"url": "https://www.pref.nagasaki.jp/organization/fukushihokenbu/hattatsu_c/",
+"cat": "hattatsu_center",
+"lat": 32.856361,
+"lng": 130.042252,
+"prec": "address",
+"src": "rehab_ddis_center",
+"checked": "2026-10-03"
+},
+{
+"n": "長崎県医療的ケア児支援センターつなぐ",
+"a": null,
+"t": null,
+"url": "https://tsunagu-ikeanagasaki.jp/",
+"cat": "iryocare_center",
+"lat": null,
+"lng": null,
+"prec": null,
+"src": "cfa_iryocare_center",
+"checked": "2026-10-03"
+}
+]

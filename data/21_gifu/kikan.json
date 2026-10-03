@@ -1,0 +1,81 @@
+[
+{
+"n": "中央子ども相談センター",
+"a": "岐阜県岐阜市鷺山向井2563-79",
+"t": "058-201-2111",
+"cat": "jiso",
+"lat": 35.441525,
+"lng": 136.756927,
+"prec": "address",
+"src": "cfa_jisou_ichiran",
+"checked": "2026-10-03"
+},
+{
+"n": "西濃子ども相談センター",
+"a": "岐阜県大垣市禾森町5-1458-10",
+"t": "0584-78-4838",
+"cat": "jiso",
+"lat": 35.349548,
+"lng": 136.619736,
+"prec": "address",
+"src": "cfa_jisou_ichiran",
+"checked": "2026-10-03"
+},
+{
+"n": "中濃子ども相談センター",
+"a": "岐阜県美濃加茂市古井町下古井2610-1",
+"t": "0574-25-3111",
+"cat": "jiso",
+"lat": 35.439152,
+"lng": 137.02446,
+"prec": "address",
+"src": "cfa_jisou_ichiran",
+"checked": "2026-10-03"
+},
+{
+"n": "東濃子ども相談センター",
+"a": "岐阜県多治見市上野町5-68-1",
+"t": "0572-23-1111",
+"cat": "jiso",
+"lat": 35.344013,
+"lng": 137.12674,
+"prec": "address",
+"src": "cfa_jisou_ichiran",
+"checked": "2026-10-03"
+},
+{
+"n": "飛騨子ども相談センター",
+"a": "岐阜県高山市千島町35-2",
+"t": "0577-32-0594",
+"cat": "jiso",
+"lat": 36.129902,
+"lng": 137.253815,
+"prec": "address",
+"src": "cfa_jisou_ichiran",
+"checked": "2026-10-03"
+},
+{
+"n": "岐阜県発達障害者支援センター「のぞみ」",
+"a": "岐阜県岐阜市鷺山向井2563-18　岐阜県障がい者総合相談センター2階",
+"t": "058-233-5116",
+"url": "https://www.pref.gifu.lg.jp/page/20822.html",
+"cat": "hattatsu_center",
+"lat": 35.441525,
+"lng": 136.756927,
+"prec": "address",
+"src": "rehab_ddis_center",
+"checked": "2026-10-03"
+},
+{
+"n": "医療的ケア児支援センター・重症心身障がい在宅支援センターみらい",
+"a": null,
+"t": null,
+"url": "https://zaitaku-mirai.jp/",
+"cat": "iryocare_center",
+"lat": null,
+"lng": null,
+"prec": null,
+"src": "cfa_iryocare_center",
+"checked": "2026-10-03"
+}
+]

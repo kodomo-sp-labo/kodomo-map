@@ -1,0 +1,72 @@
+[
+{
+"n": "中央児童相談所",
+"a": "佐賀県佐賀市天祐1-8-5",
+"t": "0952-26-1212",
+"cat": "jiso",
+"lat": 33.257694,
+"lng": 130.283127,
+"prec": "address",
+"src": "cfa_jisou_ichiran",
+"checked": "2026-10-03"
+},
+{
+"n": "北部児童相談所",
+"a": "佐賀県唐津市大名小路3-1",
+"t": "0955-73-1141",
+"cat": "jiso",
+"lat": 33.451385,
+"lng": 129.972519,
+"prec": "address",
+"src": "cfa_jisou_ichiran",
+"checked": "2026-10-03"
+},
+{
+"n": "佐賀県東部発達障害者支援センター「結」",
+"a": "佐賀県鳥栖市江島町字西谷3300-1",
+"t": "0942-81-5728",
+"url": "http://www.kumin.ne.jp/shienyui/",
+"cat": "hattatsu_center",
+"lat": 33.348511,
+"lng": 130.478165,
+"prec": "town",
+"src": "rehab_ddis_center",
+"checked": "2026-10-03"
+},
+{
+"n": "佐賀県西部発達障害者支援センター「蒼空」～SORA～",
+"a": "佐賀県多久市北多久町大字小侍40-2　多久市児童センターあじさい内",
+"t": "0952-37-1251",
+"url": "http://www.shien-sora.com/",
+"cat": "hattatsu_center",
+"lat": 33.303703,
+"lng": 130.095306,
+"prec": "town",
+"src": "rehab_ddis_center",
+"checked": "2026-10-03"
+},
+{
+"n": "佐賀県発達障害者就労支援センター「SKY」",
+"a": "佐賀県佐賀市駅前中央1丁目7-131",
+"t": "0952-20-2971",
+"url": "https://www.shien-sky.com/index.html",
+"cat": "hattatsu_center",
+"lat": 33.261879,
+"lng": 130.296753,
+"prec": "address",
+"src": "rehab_ddis_center",
+"checked": "2026-10-03"
+},
+{
+"n": "佐賀県医療的ケア児支援センター",
+"a": null,
+"t": null,
+"url": "https://sagaikeacenter.com/",
+"cat": "iryocare_center",
+"lat": null,
+"lng": null,
+"prec": null,
+"src": "cfa_iryocare_center",
+"checked": "2026-10-03"
+}
+]

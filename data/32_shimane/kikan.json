@@ -1,0 +1,94 @@
+[
+{
+"n": "中央児童相談所",
+"a": "島根県松江市西川津町3090-1",
+"t": "0852-21-3168",
+"cat": "jiso",
+"lat": 35.483299,
+"lng": 133.076996,
+"prec": "address",
+"src": "cfa_jisou_ichiran",
+"checked": "2026-10-03"
+},
+{
+"n": "中央児童相談所 隠岐相談室",
+"a": "島根県隠岐郡隠岐の島町港町塩口24",
+"t": "08512-2-9706",
+"cat": "jiso",
+"lat": 36.202579,
+"lng": 133.327713,
+"prec": "address",
+"src": "cfa_jisou_ichiran",
+"checked": "2026-10-03",
+"rem": "支所等"
+},
+{
+"n": "出雲児童相談所",
+"a": "島根県出雲市小山町70",
+"t": "0853-21-0007",
+"cat": "jiso",
+"lat": 35.370571,
+"lng": 132.747192,
+"prec": "address",
+"src": "cfa_jisou_ichiran",
+"checked": "2026-10-03"
+},
+{
+"n": "浜田児童相談所",
+"a": "島根県浜田市上府町イ2591",
+"t": "0855-28-3560",
+"cat": "jiso",
+"lat": 34.925529,
+"lng": 132.126022,
+"prec": "town",
+"src": "cfa_jisou_ichiran",
+"checked": "2026-10-03"
+},
+{
+"n": "益田児童相談所",
+"a": "島根県益田市高津4-7-47",
+"t": "0856-22-0083",
+"cat": "jiso",
+"lat": 34.686874,
+"lng": 131.809036,
+"prec": "address",
+"src": "cfa_jisou_ichiran",
+"checked": "2026-10-03"
+},
+{
+"n": "島根県東部発達障害者支援センター「ウィッシュ」",
+"a": "島根県出雲市神西沖町2534-2",
+"t": "050-3387-8699",
+"url": "http://sazanami-g.jp/wish/index.html",
+"cat": "hattatsu_center",
+"lat": 35.341354,
+"lng": 132.682297,
+"prec": "address",
+"src": "rehab_ddis_center",
+"checked": "2026-10-03"
+},
+{
+"n": "島根県西部発達障害者支援センター「ウィンド」",
+"a": "島根県浜田市上府町イ2589　「こくぶ学園」内",
+"t": "0855-28-0208",
+"url": "http://www.iwami-wind.org/index.php",
+"cat": "hattatsu_center",
+"lat": 34.925529,
+"lng": 132.126022,
+"prec": "town",
+"src": "rehab_ddis_center",
+"checked": "2026-10-03"
+},
+{
+"n": "島根県医療的ケア児支援センターどんぐり",
+"a": null,
+"t": null,
+"url": "https://icare-shimane.jp/",
+"cat": "iryocare_center",
+"lat": null,
+"lng": null,
+"prec": null,
+"src": "cfa_iryocare_center",
+"checked": "2026-10-03"
+}
+]

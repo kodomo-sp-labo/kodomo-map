@@ -1,0 +1,106 @@
+[
+{
+"n": "中央児童相談所",
+"a": "福島県福島市森合町10-9",
+"t": "024-534-5101",
+"cat": "jiso",
+"lat": 37.76379,
+"lng": 140.462982,
+"prec": "address",
+"src": "cfa_jisou_ichiran",
+"checked": "2026-10-03"
+},
+{
+"n": "県中児童相談所",
+"a": "福島県郡山市富田町字町田３",
+"t": "024-935-0611",
+"cat": "jiso",
+"lat": 37.41584,
+"lng": 140.371307,
+"prec": "town",
+"src": "cfa_jisou_ichiran",
+"checked": "2026-10-03"
+},
+{
+"n": "県中児童相談所 白河相談室",
+"a": "福島県白河市字郭内127",
+"t": "0248-22-5648",
+"cat": "jiso",
+"lat": 37.130772,
+"lng": 140.216858,
+"prec": "address",
+"src": "cfa_jisou_ichiran",
+"checked": "2026-10-03",
+"rem": "支所等"
+},
+{
+"n": "会津児童相談所",
+"a": "福島県会津若松市一箕町大字八幡字門田1-3",
+"t": "0242-23-1400",
+"cat": "jiso",
+"lat": 37.507046,
+"lng": 139.945541,
+"prec": "address",
+"src": "cfa_jisou_ichiran",
+"checked": "2026-10-03"
+},
+{
+"n": "会津児童相談所 南会津相談室",
+"a": "福島県南会津町田島字天道沢甲2542-2",
+"t": "0241-63-0309",
+"cat": "jiso",
+"lat": 37.200878,
+"lng": 139.781494,
+"prec": "address",
+"src": "cfa_jisou_ichiran",
+"checked": "2026-10-03",
+"rem": "支所等"
+},
+{
+"n": "浜児童相談所",
+"a": "福島県いわき市自由が丘38-15",
+"t": "0246-28-3346",
+"cat": "jiso",
+"lat": 37.02776,
+"lng": 140.893127,
+"prec": "address",
+"src": "cfa_jisou_ichiran",
+"checked": "2026-10-03"
+},
+{
+"n": "浜児童相談所 南相馬相談室",
+"a": "福島県南相馬市原町区錦町1-30",
+"t": "0244-26-1135",
+"cat": "jiso",
+"lat": 37.639957,
+"lng": 140.973007,
+"prec": "address",
+"src": "cfa_jisou_ichiran",
+"checked": "2026-10-03",
+"rem": "支所等"
+},
+{
+"n": "福島県発達障がい者支援センター",
+"a": "福島県郡山市富田町字上ノ台4-1　福島県総合療育センター南棟２階",
+"t": "024-951-0352",
+"url": "http://www.pref.fukushima.lg.jp/site/hattatsu/",
+"cat": "hattatsu_center",
+"lat": 37.429173,
+"lng": 140.345642,
+"prec": "address",
+"src": "rehab_ddis_center",
+"checked": "2026-10-03"
+},
+{
+"n": "福島県医療的ケア児支援センター",
+"a": null,
+"t": null,
+"url": "https://www.pref.fukushima.lg.jp/sec/21810a/iryoutekikeasiensenta.html",
+"cat": "iryocare_center",
+"lat": null,
+"lng": null,
+"prec": null,
+"src": "cfa_iryocare_center",
+"checked": "2026-10-03"
+}
+]

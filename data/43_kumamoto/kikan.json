@@ -1,0 +1,83 @@
+[
+{
+"n": "中央児童相談所",
+"a": "熊本県熊本市東区長嶺南2-3-3",
+"t": "096-381-4451",
+"cat": "jiso",
+"lat": 32.807823,
+"lng": 130.765839,
+"prec": "address",
+"src": "cfa_jisou_ichiran",
+"checked": "2026-10-03"
+},
+{
+"n": "八代児童相談所",
+"a": "熊本県八代市西片町1660",
+"t": "0965-32-4426",
+"cat": "jiso",
+"lat": 32.511898,
+"lng": 130.634644,
+"prec": "address",
+"src": "cfa_jisou_ichiran",
+"checked": "2026-10-03"
+},
+{
+"n": "熊本市児童相談所",
+"a": "熊本県熊本市中央区大江5-1-50",
+"t": "096-366-8181",
+"cat": "jiso",
+"lat": 32.798626,
+"lng": 130.719086,
+"prec": "address",
+"src": "cfa_jisou_ichiran",
+"checked": "2026-10-03"
+},
+{
+"n": "熊本県北部発達障がい者支援センター「わっふる」",
+"a": "熊本県菊池郡大津町室213-6　さくらビル2F",
+"t": "096-293-8189",
+"url": "https://sanki.or.jp/office/waffle/",
+"cat": "hattatsu_center",
+"lat": 32.876705,
+"lng": 130.864807,
+"prec": "address",
+"src": "rehab_ddis_center",
+"checked": "2026-10-03"
+},
+{
+"n": "熊本県南部発達障がい者支援センター「わるつ」",
+"a": "熊本県八代市西片町1660　熊本県八代総合庁舎2階",
+"t": "0965-62-8839",
+"url": "http://www.hikawagakuen.com/waroots/",
+"cat": "hattatsu_center",
+"lat": 32.511898,
+"lng": 130.634644,
+"prec": "address",
+"src": "rehab_ddis_center",
+"checked": "2026-10-03"
+},
+{
+"n": "熊本市発達障がい者支援センター「みなわ」",
+"a": "熊本県熊本市中央区大江5-1-1　ウェルパルくまもと2F",
+"t": "096-366-1919",
+"url": "http://www.kumamoto-minawa.com/",
+"cat": "hattatsu_center",
+"lat": 32.798992,
+"lng": 130.718765,
+"prec": "address",
+"src": "rehab_ddis_center",
+"checked": "2026-10-03"
+},
+{
+"n": "熊本県医療的ケア児支援センター",
+"a": null,
+"t": null,
+"url": "https://kumamoto-children.net/",
+"cat": "iryocare_center",
+"lat": null,
+"lng": null,
+"prec": null,
+"src": "cfa_iryocare_center",
+"checked": "2026-10-03"
+}
+]

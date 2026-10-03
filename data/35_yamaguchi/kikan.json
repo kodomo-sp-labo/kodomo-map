@@ -1,0 +1,104 @@
+[
+{
+"n": "中央児童相談所",
+"a": "山口県山口市吉敷下東4-17-1",
+"t": "083-902-2189",
+"cat": "jiso",
+"lat": 34.162388,
+"lng": 131.444366,
+"prec": "address",
+"src": "cfa_jisou_ichiran",
+"checked": "2026-10-03"
+},
+{
+"n": "岩国児童相談所",
+"a": "山口県岩国市三笠町1-1-1",
+"t": "0827-29-1513",
+"cat": "jiso",
+"lat": 34.168304,
+"lng": 132.224548,
+"prec": "address",
+"src": "cfa_jisou_ichiran",
+"checked": "2026-10-03"
+},
+{
+"n": "周南児童相談所",
+"a": "山口県周南市慶万町2-13",
+"t": "0834-21-0554",
+"cat": "jiso",
+"lat": 34.050755,
+"lng": 131.8134,
+"prec": "address",
+"src": "cfa_jisou_ichiran",
+"checked": "2026-10-03"
+},
+{
+"n": "宇部児童相談所",
+"a": "山口県宇部市琴芝町1-1-50",
+"t": "0836-39-7514",
+"cat": "jiso",
+"lat": 33.955276,
+"lng": 131.250763,
+"prec": "address",
+"src": "cfa_jisou_ichiran",
+"checked": "2026-10-03"
+},
+{
+"n": "下関児童相談所",
+"a": "山口県下関市貴船町3-2-2",
+"t": "083-223-3191",
+"cat": "jiso",
+"lat": 33.967354,
+"lng": 130.942505,
+"prec": "address",
+"src": "cfa_jisou_ichiran",
+"checked": "2026-10-03"
+},
+{
+"n": "萩児童相談所",
+"a": "山口県萩市江向531-1",
+"t": "0838-22-1150",
+"cat": "jiso",
+"lat": 34.408474,
+"lng": 131.396027,
+"prec": "address",
+"src": "cfa_jisou_ichiran",
+"checked": "2026-10-03"
+},
+{
+"n": "山口県発達障害者支援センター「まっぷ」",
+"a": "山口県山口市吉敷下東4-17-1（山口県福祉総合相談支援センター内）",
+"t": "083-902-2680",
+"url": "https://hirakinosato.com/map/",
+"cat": "hattatsu_center",
+"lat": 34.162388,
+"lng": 131.444366,
+"prec": "address",
+"src": "rehab_ddis_center",
+"checked": "2026-10-03"
+},
+{
+"n": "山口県東部医療的ケア児支援センター",
+"a": null,
+"t": null,
+"url": "https://www.pref.yamaguchi.lg.jp/soshiki/50/144346.html",
+"cat": "iryocare_center",
+"lat": null,
+"lng": null,
+"prec": null,
+"src": "cfa_iryocare_center",
+"checked": "2026-10-03"
+},
+{
+"n": "山口県西部医療的ケア児支援センター",
+"a": null,
+"t": null,
+"url": "https://www.pref.yamaguchi.lg.jp/soshiki/50/144346.html",
+"cat": "iryocare_center",
+"lat": null,
+"lng": null,
+"prec": null,
+"src": "cfa_iryocare_center",
+"checked": "2026-10-03"
+}
+]

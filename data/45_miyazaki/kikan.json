@@ -1,0 +1,83 @@
+[
+{
+"n": "中央児童相談所",
+"a": "宮崎県宮崎市霧島1-1-2",
+"t": "0985-26-1551",
+"cat": "jiso",
+"lat": 31.926603,
+"lng": 131.414902,
+"prec": "address",
+"src": "cfa_jisou_ichiran",
+"checked": "2026-10-03"
+},
+{
+"n": "都城児童相談所",
+"a": "宮崎県都城市年見町14-1-1",
+"t": "0986-22-4294",
+"cat": "jiso",
+"lat": 31.735146,
+"lng": 131.086075,
+"prec": "address",
+"src": "cfa_jisou_ichiran",
+"checked": "2026-10-03"
+},
+{
+"n": "延岡児童相談所",
+"a": "宮崎県延岡市大貫町1-2845",
+"t": "0982-35-1700",
+"cat": "jiso",
+"lat": 32.57972,
+"lng": 131.655731,
+"prec": "address",
+"src": "cfa_jisou_ichiran",
+"checked": "2026-10-03"
+},
+{
+"n": "宮崎県中央発達障害者支援センター",
+"a": "宮崎県宮崎市清武町木原4257-7　ひまわり学園内",
+"t": "0985-85-7660",
+"url": "https://www.m-sj.or.jp/shiencenter/",
+"cat": "hattatsu_center",
+"lat": 31.835215,
+"lng": 131.398499,
+"prec": "address",
+"src": "rehab_ddis_center",
+"checked": "2026-10-03"
+},
+{
+"n": "宮崎県延岡発達障害者支援センター",
+"a": "宮崎県延岡市櫛津町3427－4　ひかり学園内",
+"t": "0982-23-8560",
+"url": "https://www.m-sj.or.jp/shiencenter/",
+"cat": "hattatsu_center",
+"lat": 32.505154,
+"lng": 131.677353,
+"prec": "address",
+"src": "rehab_ddis_center",
+"checked": "2026-10-03"
+},
+{
+"n": "宮崎県都城発達障害者支援センター",
+"a": "宮崎県都城市都原町7171　高千穂学園内",
+"t": "0986-22-2633",
+"url": "https://www.m-sj.or.jp/shiencenter/",
+"cat": "hattatsu_center",
+"lat": 31.73868,
+"lng": 131.047577,
+"prec": "address",
+"src": "rehab_ddis_center",
+"checked": "2026-10-03"
+},
+{
+"n": "宮崎県医療的ケア児支援センター",
+"a": null,
+"t": null,
+"url": "https://www.pref.miyazaki.lg.jp/shogaifukushi/kurashi/shogaisha/20220626092642.html",
+"cat": "iryocare_center",
+"lat": null,
+"lng": null,
+"prec": null,
+"src": "cfa_iryocare_center",
+"checked": "2026-10-03"
+}
+]

@@ -1,0 +1,104 @@
+[
+{
+"n": "中央児童相談所",
+"a": "新潟県新潟市江南区亀田向陽4-2-1",
+"t": "025-381-1111",
+"cat": "jiso",
+"lat": 37.880371,
+"lng": 139.11142,
+"prec": "address",
+"src": "cfa_jisou_ichiran",
+"checked": "2026-10-03"
+},
+{
+"n": "長岡児童相談所",
+"a": "新潟県長岡市沖田1-237",
+"t": "0258-35-8500",
+"cat": "jiso",
+"lat": 37.444931,
+"lng": 138.864304,
+"prec": "address",
+"src": "cfa_jisou_ichiran",
+"checked": "2026-10-03"
+},
+{
+"n": "上越児童相談所",
+"a": "新潟県上越市春日山町3-4-17",
+"t": "025-524-3355",
+"cat": "jiso",
+"lat": 37.145035,
+"lng": 138.233856,
+"prec": "address",
+"src": "cfa_jisou_ichiran",
+"checked": "2026-10-03"
+},
+{
+"n": "新発田児童相談所",
+"a": "新潟県新発田市豊町3-3-2",
+"t": "0254-26-9131",
+"cat": "jiso",
+"lat": 37.938526,
+"lng": 139.340851,
+"prec": "address",
+"src": "cfa_jisou_ichiran",
+"checked": "2026-10-03"
+},
+{
+"n": "南魚沼児童相談所",
+"a": "新潟県南魚沼市六日町620-2",
+"t": "025-770-2400",
+"cat": "jiso",
+"lat": 37.05772,
+"lng": 138.868668,
+"prec": "address",
+"src": "cfa_jisou_ichiran",
+"checked": "2026-10-03"
+},
+{
+"n": "新潟市児童相談所",
+"a": "新潟県新潟市中央区川岸町1-57-1",
+"t": "025-230-7777",
+"cat": "jiso",
+"lat": 37.911022,
+"lng": 139.036224,
+"prec": "address",
+"src": "cfa_jisou_ichiran",
+"checked": "2026-10-03"
+},
+{
+"n": "新潟県発達障がい者支援センター「RISE（ライズ）」",
+"a": "新潟県新潟市中央区水道町1-5932　新潟県はまぐみ小児療育センター2F",
+"t": "025-266-7033",
+"url": "http://www.niigata-rise.net/",
+"cat": "hattatsu_center",
+"lat": 37.920223,
+"lng": 139.027664,
+"prec": "address",
+"src": "rehab_ddis_center",
+"checked": "2026-10-03"
+},
+{
+"n": "新潟市発達障がい支援センター「JOIN（ジョイン）」",
+"a": "新潟県新潟市中央区水道町1-5932-621",
+"t": "025-234-5340",
+"url": "http://join-hattatsu.sakura.ne.jp/",
+"cat": "hattatsu_center",
+"lat": 37.920223,
+"lng": 139.027664,
+"prec": "address",
+"src": "rehab_ddis_center",
+"checked": "2026-10-03"
+},
+{
+"n": "新潟県医療的ケア児支援センターゆい・にじいろ",
+"a": null,
+"t": null,
+"url": "https://www.pref.niigata.lg.jp/sec/shougaifukushi/ikea2022330.html",
+"cat": "iryocare_center",
+"lat": null,
+"lng": null,
+"prec": null,
+"src": "cfa_iryocare_center",
+"checked": "2026-10-03"
+}
+]

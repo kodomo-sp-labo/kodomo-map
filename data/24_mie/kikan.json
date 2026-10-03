@@ -1,0 +1,105 @@
+[
+{
+"n": "北勢児童相談所",
+"a": "三重県四日市市大字泊村977-1",
+"t": "059-347-2030",
+"cat": "jiso",
+"lat": 34.940582,
+"lng": 136.587234,
+"prec": "town",
+"src": "cfa_jisou_ichiran",
+"checked": "2026-10-03"
+},
+{
+"n": "鈴鹿児童相談所",
+"a": "三重県鈴鹿市西条5-117",
+"t": "059-382-9794",
+"cat": "jiso",
+"lat": 34.87825,
+"lng": 136.569611,
+"prec": "address",
+"src": "cfa_jisou_ichiran",
+"checked": "2026-10-03"
+},
+{
+"n": "中央児童相談所",
+"a": "三重県津市一身田大古曽694-1",
+"t": "059-231-5666",
+"cat": "jiso",
+"lat": 34.757298,
+"lng": 136.497009,
+"prec": "address",
+"src": "cfa_jisou_ichiran",
+"checked": "2026-10-03"
+},
+{
+"n": "南勢志摩児童相談所",
+"a": "三重県伊勢市勢田町628-2",
+"t": "0596-27-5143",
+"cat": "jiso",
+"lat": 34.479557,
+"lng": 136.712097,
+"prec": "address",
+"src": "cfa_jisou_ichiran",
+"checked": "2026-10-03"
+},
+{
+"n": "伊賀児童相談所",
+"a": "三重県伊賀市四十九町2802",
+"t": "0595-24-8060",
+"cat": "jiso",
+"lat": 34.750172,
+"lng": 136.144135,
+"prec": "address",
+"src": "cfa_jisou_ichiran",
+"checked": "2026-10-03"
+},
+{
+"n": "紀州児童相談所",
+"a": "三重県尾鷲市坂場西町1-1",
+"t": "0597-23-3435",
+"cat": "jiso",
+"lat": 34.080296,
+"lng": 136.190811,
+"prec": "address",
+"src": "cfa_jisou_ichiran",
+"checked": "2026-10-03"
+},
+{
+"n": "三重県自閉症・発達障害支援センター「あさけ」",
+"a": "三重県三重郡菰野町杉谷1573",
+"t": "059-394-3412",
+"url": "http://asakegakuen.com/introduction.html#p_7_2",
+"cat": "hattatsu_center",
+"lat": 35.058857,
+"lng": 136.496902,
+"prec": "town",
+"src": "rehab_ddis_center",
+"checked": "2026-10-03"
+},
+{
+"n": "三重県自閉症・発達障害支援センター「れんげ」",
+"a": "三重県度会郡大紀町滝原1195-1",
+"t": "0598-86-3911",
+"url": "https://www.ma.mctv.ne.jp/~rensan/senter2.htm",
+"cat": "hattatsu_center",
+"lat": 34.367638,
+"lng": 136.430618,
+"prec": "town",
+"src": "rehab_ddis_center",
+"checked": "2026-10-03"
+},
+{
+"n": "三重県医療的ケア児・者相談支援センター",
+"a": null,
+"t": null,
+"url": "https://www.pref.mie.lg.jp/SHOHO/HP/m0331100110.htm",
+"cat": "iryocare_center",
+"lat": null,
+"lng": null,
+"prec": null,
+"src": "cfa_iryocare_center",
+"checked": "2026-10-03",
+"rem": "本部。【支部】4か所（圏域別。原典の「支部・地域拠点等」欄を参照）"
+}
+]

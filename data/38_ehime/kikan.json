@@ -1,0 +1,59 @@
+[
+{
+"n": "福祉総合支援センター",
+"a": "愛媛県松山市本町7-2",
+"t": "089-922-5040",
+"cat": "jiso",
+"lat": 33.854782,
+"lng": 132.75853,
+"prec": "address",
+"src": "cfa_jisou_ichiran",
+"checked": "2026-10-03"
+},
+{
+"n": "東予子ども・女性支援センター",
+"a": "愛媛県新居浜市星原町14-38",
+"t": "0897-43-3000",
+"cat": "jiso",
+"lat": 33.936844,
+"lng": 133.304031,
+"prec": "address",
+"src": "cfa_jisou_ichiran",
+"checked": "2026-10-03"
+},
+{
+"n": "南予子ども・女性支援センター",
+"a": "愛媛県宇和島市丸之内3-1-19",
+"t": "0895-22-1245",
+"cat": "jiso",
+"lat": 33.217617,
+"lng": 132.563782,
+"prec": "address",
+"src": "cfa_jisou_ichiran",
+"checked": "2026-10-03"
+},
+{
+"n": "愛媛県発達障害者支援センター「あい・ゆう」",
+"a": "愛媛県東温市田窪2135　愛媛県立子ども療育センター1F",
+"t": "089-955-5532",
+"url": "http://www.pref.ehime.jp/h20123/kodomo-ryoiku/aiyu/index.html",
+"cat": "hattatsu_center",
+"lat": 33.794498,
+"lng": 132.869629,
+"prec": "address",
+"src": "rehab_ddis_center",
+"checked": "2026-10-03"
+},
+{
+"n": "愛媛県医療的ケア児支援センター",
+"a": null,
+"t": null,
+"url": "https://www.pref.ehime.jp/page/2185.html",
+"cat": "iryocare_center",
+"lat": null,
+"lng": null,
+"prec": null,
+"src": "cfa_iryocare_center",
+"checked": "2026-10-03"
+}
+]

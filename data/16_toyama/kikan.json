@@ -1,0 +1,60 @@
+[
+{
+"n": "富山児童相談所",
+"a": "富山県富山市東石金町4-52",
+"t": "076-423-4000",
+"cat": "jiso",
+"lat": 36.684917,
+"lng": 137.240433,
+"prec": "address",
+"src": "cfa_jisou_ichiran",
+"checked": "2026-10-03"
+},
+{
+"n": "富山児童相談所こども相談センター",
+"a": "富山県富山市新富町1-2-3 富山ステーションフロント CiC 5階",
+"t": "076-481-7401",
+"cat": "jiso",
+"lat": 36.700111,
+"lng": 137.212601,
+"prec": "address",
+"src": "cfa_jisou_ichiran",
+"checked": "2026-10-03",
+"rem": "支所等"
+},
+{
+"n": "高岡児童相談所",
+"a": "富山県高岡市赤祖父172-1",
+"t": "0766-21-2124",
+"cat": "jiso",
+"lat": 36.731426,
+"lng": 137.021347,
+"prec": "town",
+"src": "cfa_jisou_ichiran",
+"checked": "2026-10-03"
+},
+{
+"n": "富山県発達障害者支援センター「ほっぷ」",
+"a": "富山県富山市下飯野36番地",
+"t": "076-438-8415",
+"url": "https://www.toyama-reha-hop.jp/",
+"cat": "hattatsu_center",
+"lat": 36.744026,
+"lng": 137.267502,
+"prec": "address",
+"src": "rehab_ddis_center",
+"checked": "2026-10-03"
+},
+{
+"n": "富山県医療的ケア児等支援センターりあん",
+"a": null,
+"t": null,
+"url": "https://www.toyama-reha.or.jp/care_suisin",
+"cat": "iryocare_center",
+"lat": null,
+"lng": null,
+"prec": null,
+"src": "cfa_iryocare_center",
+"checked": "2026-10-03"
+}
+]

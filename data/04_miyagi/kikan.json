@@ -1,0 +1,118 @@
+[
+{
+"n": "中央児童相談所",
+"a": "宮城県名取市美田園2-1-4",
+"t": "022-784-3583",
+"cat": "jiso",
+"lat": 38.16032,
+"lng": 140.918747,
+"prec": "address",
+"src": "cfa_jisou_ichiran",
+"checked": "2026-10-03"
+},
+{
+"n": "中央児童相談所 黒川支所",
+"a": "宮城県富谷市ひより台2-42-2",
+"t": "022-341-6985",
+"cat": "jiso",
+"lat": 38.402424,
+"lng": 140.887817,
+"prec": "address",
+"src": "cfa_jisou_ichiran",
+"checked": "2026-10-03",
+"rem": "支所等"
+},
+{
+"n": "北部児童相談所",
+"a": "宮城県大崎市古川駅南2-4-3",
+"t": "0229-22-0030",
+"cat": "jiso",
+"lat": 38.567783,
+"lng": 140.968506,
+"prec": "address",
+"src": "cfa_jisou_ichiran",
+"checked": "2026-10-03"
+},
+{
+"n": "東部児童相談所",
+"a": "宮城県石巻市あゆみ野5-7",
+"t": "0225-95-1121",
+"cat": "jiso",
+"lat": null,
+"lng": null,
+"prec": null,
+"src": "cfa_jisou_ichiran",
+"checked": "2026-10-03"
+},
+{
+"n": "東部児童相談所 気仙沼支所",
+"a": "宮城県気仙沼市東新城3-3-3",
+"t": "0226-21-1020",
+"cat": "jiso",
+"lat": 38.903416,
+"lng": 141.554047,
+"prec": "address",
+"src": "cfa_jisou_ichiran",
+"checked": "2026-10-03",
+"rem": "支所等"
+},
+{
+"n": "仙台市児童相談所",
+"a": "宮城県仙台市青葉区東照宮1-18-1",
+"t": "022-219-5111",
+"cat": "jiso",
+"lat": 38.281261,
+"lng": 140.883057,
+"prec": "address",
+"src": "cfa_jisou_ichiran",
+"checked": "2026-10-03"
+},
+{
+"n": "宮城県発達障害者支援センター",
+"a": "宮城県名取市美田園二丁目1番地の4",
+"t": "022-748-5660",
+"url": "https://www.pref.miyagi.jp/soshiki/kodomo_s/",
+"cat": "hattatsu_center",
+"lat": 38.16032,
+"lng": 140.918747,
+"prec": "address",
+"src": "rehab_ddis_center",
+"checked": "2026-10-03"
+},
+{
+"n": "仙台市北部発達相談支援センター「北部アーチル」",
+"a": "宮城県仙台市泉区泉中央2-24-1",
+"t": "022-375-0110",
+"url": "http://www.city.sendai.jp/kenkou/hattatsu/gaiyou/index.html",
+"cat": "hattatsu_center",
+"lat": 38.327503,
+"lng": 140.878616,
+"prec": "address",
+"src": "rehab_ddis_center",
+"checked": "2026-10-03"
+},
+{
+"n": "仙台市南部発達相談支援センター「南部アーチル」",
+"a": "宮城県仙台市太白区長町南3-1-30",
+"t": "022-247-3801",
+"url": "http://www.city.sendai.jp/kenkou/hattatsu/gaiyou/index.html",
+"cat": "hattatsu_center",
+"lat": 38.223778,
+"lng": 140.87561,
+"prec": "address",
+"src": "rehab_ddis_center",
+"checked": "2026-10-03"
+},
+{
+"n": "宮城県医療的ケア児等相談支援センターちるふぁ",
+"a": null,
+"t": null,
+"url": "https://miyagichilfa.org/",
+"cat": "iryocare_center",
+"lat": null,
+"lng": null,
+"prec": null,
+"src": "cfa_iryocare_center",
+"checked": "2026-10-03"
+}
+]

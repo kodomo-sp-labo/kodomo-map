@@ -13,7 +13,11 @@
 "lng": 140.14297114,
 "prec": "address",
 "src": "wamnet",
-"facility_id": "0550160071"
+"facility_id": "0550160071",
+"url": "http://www.mikke-7s.co.jp",
+"h_wd": "09:00-18:00",
+"h_hol": "09:00-18:00",
+"closed": "５月５日、８月１２日から８月１５日まで、１２月２８日から１月３日"
 },
 {
 "n": "多機能型ケアベースにのに",
@@ -29,7 +33,12 @@
 "lng": 140.12018891,
 "prec": "address",
 "src": "wamnet",
-"facility_id": "0550111181"
+"facility_id": "0550111181",
+"url": "https://nicotto-akita.sakuraweb.com/",
+"h_wd": "09:00-17:00",
+"h_sat": "09:00-17:00",
+"h_hol": "09:00-17:00",
+"closed": "日曜日及び年末年始"
 },
 {
 "n": "自閉症スペクトラム特化多機能型事業所Kokua",
@@ -45,7 +54,10 @@
 "lng": 140.12147032,
 "prec": "address",
 "src": "wamnet",
-"facility_id": "0550160261"
+"facility_id": "0550160261",
+"url": "https://ohana-japan.co.jp",
+"h_wd": "09:00-18:00",
+"closed": "土日祝日"
 },
 {
 "n": "児童発達支援・放課後等デイサービス じゃんぷ",
@@ -61,7 +73,11 @@
 "lng": 140.15242319,
 "prec": "address",
 "src": "wamnet",
-"facility_id": "0550160063"
+"facility_id": "0550160063",
+"url": "http://www.tsunaguwa.co.jp",
+"h_wd": "09:30-17:00",
+"h_hol": "09:30-14:30",
+"closed": "土日、5月5日、8月12日〜8月15日、12月28日〜1月3日"
 },
 {
 "n": "運動学習支援教室ふれんず山王教室",
@@ -109,7 +125,11 @@
 "lng": 140.13481709,
 "prec": "address",
 "src": "wamnet",
-"facility_id": "0550160246"
+"facility_id": "0550160246",
+"url": "https://nijiiro-kids-akita.com/",
+"h_wd": "09:30-17:30",
+"h_sat": "09:00-17:00",
+"closed": "日曜日、月曜日、祝日"
 },
 {
 "n": "児童発達支援とっとこ・放課後デイサービス（第３みなとっ子）",
@@ -141,7 +161,11 @@
 "lng": 140.13403946,
 "prec": "address",
 "src": "wamnet",
-"facility_id": "0550160287"
+"facility_id": "0550160287",
+"h_wd": "10:00-19:00",
+"h_sat": "10:00-19:00",
+"h_hol": "10:00-19:00",
+"closed": "日曜日・月曜日"
 },
 {
 "n": "療育支援エフ　秋田泉教室",
@@ -157,7 +181,11 @@
 "lng": 140.11324861,
 "prec": "address",
 "src": "wamnet",
-"facility_id": "0550160329"
+"facility_id": "0550160329",
+"url": "https://ryoikushien-f-akita.jp/",
+"h_wd": "10:30-18:30",
+"h_sat": "09:30-17:30",
+"closed": "日曜、祝日、お盆（社内規定）、年末年始（12/30〜1/3）"
 },
 {
 "n": "児童発達支援・放課後等デイサービス　ヒトツナ秋田教室",
@@ -173,7 +201,11 @@
 "lng": 140.10491748,
 "prec": "address",
 "src": "wamnet",
-"facility_id": "0550160378"
+"facility_id": "0550160378",
+"url": "https://akita.hattatsu-hitotsuna.com/",
+"h_wd": "10:00-13:00",
+"h_sat": "10:00-13:00",
+"closed": "日曜日・祝日・8/13〜15・12/29〜1/3"
 },
 {
 "n": "児童発達支援・放課後等デイサービス事業所のびのび",
@@ -189,7 +221,11 @@
 "lng": 140.05447993,
 "prec": "address",
 "src": "wamnet",
-"facility_id": "0550500011"
+"facility_id": "0550500011",
+"url": "http://www.fukinoto.or.jp/yurihonjo",
+"h_wd": "09:30-12:00",
+"h_sat": "09:00-12:00",
+"closed": "日、祝日、12月29日〜31日、1月2日〜3日"
 },
 {
 "n": "amity",
@@ -205,7 +241,11 @@
 "lng": 140.12080334,
 "prec": "address",
 "src": "wamnet",
-"facility_id": "0550160105"
+"facility_id": "0550160105",
+"url": "https://www.ailu-ark.jp/",
+"h_wd": "10:00-18:00",
+"h_sat": "10:00-18:00",
+"closed": "日曜、祝日等"
 },
 {
 "n": "児童発達支援らじわん",
@@ -220,7 +260,11 @@
 "lng": 140.11295979,
 "prec": "address",
 "src": "wamnet",
-"facility_id": "0550160220"
+"facility_id": "0550160220",
+"url": "http://www.rehapot.com",
+"h_wd": "09:00-15:00",
+"h_hol": "09:00-15:00",
+"closed": "土・日・8/13・12/30〜1/3"
 },
 {
 "n": "発達支援ＢＯＸ　らじあぼ",
@@ -236,7 +280,11 @@
 "lng": 140.13321701,
 "prec": "address",
 "src": "wamnet",
-"facility_id": "0550111082"
+"facility_id": "0550111082",
+"url": "http://www.rehapot.com",
+"h_wd": "09:00-17:00",
+"h_hol": "09:00-17:00",
+"closed": "土日・8/13・12/30〜1/3"
 },
 {
 "n": "子ども発達支援センター　オリブ園",
@@ -252,7 +300,11 @@
 "lng": 140.08450402,
 "prec": "address",
 "src": "wamnet",
-"facility_id": "0550110357"
+"facility_id": "0550110357",
+"url": "http://www.olive.kodomo-sekai.jp",
+"h_wd": "08:40-18:40",
+"h_sat": "08:40-14:40",
+"closed": "日曜日 土曜日月2回 祭日 創立記念日(6月10日) 12月29日~1月3日"
 },
 {
 "n": "あきた児童デイサービスセンター",
@@ -268,7 +320,12 @@
 "lng": 140.1124502,
 "prec": "address",
 "src": "wamnet",
-"facility_id": "0550110688"
+"facility_id": "0550110688",
+"url": "http://akitajidou.net",
+"h_wd": "08:30-17:30",
+"h_sat": "08:30-17:30",
+"h_hol": "08:30-17:30",
+"closed": "日曜日、８月１３日、１２月２９日〜１月３日"
 },
 {
 "n": "児童発達支援・放課後等デイサービスらーそ",
@@ -285,7 +342,10 @@
 "lng": 140.10080712,
 "prec": "address",
 "src": "wamnet",
-"facility_id": "0550111165"
+"facility_id": "0550111165",
+"url": "https://la-so.jp.net",
+"h_wd": "09:00-13:00",
+"closed": "土日祝日"
 },
 {
 "n": "秋田県立医療療育センター",
@@ -301,7 +361,10 @@
 "lng": 140.15990166,
 "prec": "address",
 "src": "wamnet",
-"facility_id": "0550110373"
+"facility_id": "0550110373",
+"url": "http://www.airc.or.jp/",
+"h_wd": "09:00-15:00",
+"closed": "土日祝日、12月29日から1月3日まで。"
 },
 {
 "n": "能代地域生活支援センター",
@@ -317,7 +380,10 @@
 "lng": 140.0266235,
 "prec": "address",
 "src": "wamnet",
-"facility_id": "0550210017"
+"facility_id": "0550210017",
+"url": "http://www.noshirofukushikai.com",
+"h_wd": "08:30-17:30",
+"closed": "土曜日、日曜日、祝日、年末年始"
 },
 {
 "n": "放課後等デイサービス　キッズスポーツ",
@@ -334,7 +400,11 @@
 "lng": 140.5493902,
 "prec": "address",
 "src": "wamnet",
-"facility_id": "0550300081"
+"facility_id": "0550300081",
+"url": "http://www.flh1.net",
+"h_wd": "10:30-12:00",
+"h_hol": "10:30-12:00",
+"closed": "土・日曜日"
 },
 {
 "n": "やさしい森のポロ",
@@ -349,7 +419,8 @@
 "lng": 140.56831758,
 "prec": "address",
 "src": "wamnet",
-"facility_id": "0550700132"
+"facility_id": "0550700132",
+"url": "https://www.abejibika.com/poro"
 },
 {
 "n": "児童発達支援・放課後等デイサービス支援事業所　ブリエ十文字",
@@ -365,7 +436,11 @@
 "lng": 140.52761086,
 "prec": "address",
 "src": "wamnet",
-"facility_id": "0550300057"
+"facility_id": "0550300057",
+"url": "http://www.avec-toi-jumonji.net/",
+"h_wd": "09:00-16:00",
+"h_sat": "09:00-16:00",
+"closed": "日曜日・祝祭日及び年末年始　（12月31日〜1月3日）"
 },
 {
 "n": "モモの家",
@@ -380,7 +455,10 @@
 "lng": 140.5636574,
 "prec": "address",
 "src": "wamnet",
-"facility_id": "0550310163"
+"facility_id": "0550310163",
+"url": "http://family-care-service.com",
+"h_wd": "09:00-16:00",
+"closed": "12月29日から翌年1月3日までと、土曜日及び日曜日、国民の祝日"
 },
 {
 "n": "多機能型事業所　のっぽ",
@@ -396,7 +474,11 @@
 "lng": 140.57234812,
 "prec": "address",
 "src": "wamnet",
-"facility_id": "0550400113"
+"facility_id": "0550400113",
+"h_wd": "09:30-16:30",
+"h_sat": "10:00-16:00",
+"h_hol": "10:00-16:00",
+"closed": "不定休"
 },
 {
 "n": "児童発達支援・放課後等デイサービスふぁみーゆ",
@@ -412,7 +494,8 @@
 "lng": 140.57089455,
 "prec": "address",
 "src": "wamnet",
-"facility_id": "0550400121"
+"facility_id": "0550400121",
+"h_wd": "09:30-17:30"
 },
 {
 "n": "大館市児童発達支援センターひまわり",
@@ -428,7 +511,10 @@
 "lng": 140.55503903,
 "prec": "address",
 "src": "wamnet",
-"facility_id": "0550410690"
+"facility_id": "0550410690",
+"url": "https://www.city.odate.lg.jp/kosodate/guide/birth/ikuji",
+"h_wd": "09:00-14:00",
+"closed": "土日及び国民の祝日、12月29日〜1月3日"
 },
 {
 "n": "クローバー田町",
@@ -476,7 +562,11 @@
 "lng": 140.78886163,
 "prec": "address",
 "src": "wamnet",
-"facility_id": "0550910418"
+"facility_id": "0550910418",
+"url": "http://a-hanawafukushikai.jp/",
+"h_wd": "09:00-14:00",
+"h_hol": "09:00-14:00",
+"closed": "日曜日。"
 },
 {
 "n": "smile＋WAKABA",
@@ -493,7 +583,10 @@
 "lng": 140.82867425,
 "prec": "address",
 "src": "wamnet",
-"facility_id": "0550900039"
+"facility_id": "0550900039",
+"url": "https://www.aiseikai.or.jp/",
+"h_wd": "09:00-14:30",
+"closed": "土曜・日曜・祝日・学校長期休暇(8/13.14.15　12/29を除く　)"
 },
 {
 "n": "はなえみ幼稚舎　あみこ",
@@ -510,7 +603,11 @@
 "lng": 140.05137791,
 "prec": "address",
 "src": "wamnet",
-"facility_id": "0550500102"
+"facility_id": "0550500102",
+"url": "https://www.akitahanaemi.com",
+"h_wd": "07:00-19:00",
+"h_sat": "07:00-19:00",
+"closed": "日曜日、祝日"
 },
 {
 "n": "はなえみ学舎みなみ",
@@ -527,7 +624,10 @@
 "lng": 140.04342394,
 "prec": "address",
 "src": "wamnet",
-"facility_id": "0550500136"
+"facility_id": "0550500136",
+"h_wd": "09:00-18:00",
+"h_sat": "08:00-16:45",
+"closed": "日曜日・祝日・１２月３０日〜１月４日・８月１３日〜１５日"
 },
 {
 "n": "サポートベースブルーミー",
@@ -543,7 +643,8 @@
 "lng": 140.02948783,
 "prec": "address",
 "src": "wamnet",
-"facility_id": "0550500144"
+"facility_id": "0550500144",
+"url": "https://honjo-kyujyukai.net/"
 },
 {
 "n": "チャイルドステーション　ゆうゆう",
@@ -560,7 +661,10 @@
 "lng": 140.0805301,
 "prec": "address",
 "src": "wamnet",
-"facility_id": "0551000037"
+"facility_id": "0551000037",
+"url": "https://childstationyuyu.sakura.ne.jp/",
+"h_wd": "10:00-13:20",
+"closed": "日曜日、祝日"
 },
 {
 "n": "チャイルドステーションつうゆう",
@@ -576,7 +680,10 @@
 "lng": 140.04057411,
 "prec": "address",
 "src": "wamnet",
-"facility_id": "0551000078"
+"facility_id": "0551000078",
+"url": "https://kyoikukaikan.mokuren.ne.jp/index.html",
+"h_wd": "09:30-17:30",
+"closed": "土曜日、日曜日、祝日、年末年始（12/28〜1/3）"
 },
 {
 "n": "こどもかがやきセンターかのん",
@@ -593,7 +700,10 @@
 "lng": 140.48254544,
 "prec": "address",
 "src": "wamnet",
-"facility_id": "0550800015"
+"facility_id": "0550800015",
+"url": "https://www.suikoukai.or.jp",
+"h_wd": "09:00-17:00",
+"closed": "土曜(第2以外)、日曜、祝日、12月29日〜1月3日"
 },
 {
 "n": "みらいずジュニア花館",
@@ -609,7 +719,11 @@
 "lng": 140.4689643,
 "prec": "address",
 "src": "wamnet",
-"facility_id": "0550800049"
+"facility_id": "0550800049",
+"url": "https://main.a-miraizu.co.jp/",
+"h_wd": "10:30-12:30",
+"h_sat": "10:30-12:30",
+"closed": "日曜日、祝日、8月最終土曜日、12月30日〜1月3日"
 },
 {
 "n": "みらいずジュニア大曲",
@@ -625,7 +739,11 @@
 "lng": 140.47310056,
 "prec": "address",
 "src": "wamnet",
-"facility_id": "0550800098"
+"facility_id": "0550800098",
+"url": "http://main.a-miraizu.co.jp/",
+"h_wd": "10:30-12:30",
+"h_sat": "10:30-12:30",
+"closed": "日曜日、祝日、8月最終土曜日、12月30日〜1月3日"
 },
 {
 "n": "みらいずジュニア横手",
@@ -641,7 +759,11 @@
 "lng": 140.56024828,
 "prec": "address",
 "src": "wamnet",
-"facility_id": "0550300099"
+"facility_id": "0550300099",
+"url": "https://main.a-miraizu.co.jp/",
+"h_wd": "10:30-12:30",
+"h_sat": "10:30-12:30",
+"closed": "日曜日・祝日、8月最終土曜日、12月30日〜1月3日"
 },
 {
 "n": "みらいずカレッジ",
@@ -657,7 +779,10 @@
 "lng": 140.48048536,
 "prec": "address",
 "src": "wamnet",
-"facility_id": "0550800106"
+"facility_id": "0550800106",
+"h_wd": "14:00-18:00",
+"h_sat": "09:30-16:00",
+"closed": "日・祝日休み　　12月30〜1月3日"
 },
 {
 "n": "みらいずジュニア美郷",
@@ -673,7 +798,9 @@
 "lng": 140.54186607,
 "prec": "address",
 "src": "wamnet",
-"facility_id": "0552600025"
+"facility_id": "0552600025",
+"url": "https://main.a-miraizu.co.jp/",
+"closed": "日曜日・祝日　12月30日〜１月３日"
 },
 {
 "n": "みらいずカレッジ横手",
@@ -689,7 +816,8 @@
 "lng": 140.55042247,
 "prec": "address",
 "src": "wamnet",
-"facility_id": "0550300156"
+"facility_id": "0550300156",
+"closed": "土・日・祝日 12月30日〜1月3日"
 },
 {
 "n": "みらいずリズム大曲",
@@ -705,7 +833,10 @@
 "lng": 140.46751226,
 "prec": "address",
 "src": "wamnet",
-"facility_id": "0550800163"
+"facility_id": "0550800163",
+"h_wd": "14:00-17:30",
+"h_sat": "09:30-16:00",
+"closed": "日曜日・祝日、8月最終土曜日、12月30日〜1月3日"
 },
 {
 "n": "もろびこども園",
@@ -722,7 +853,9 @@
 "lng": 140.38396318,
 "prec": "address",
 "src": "wamnet",
-"facility_id": "0551100027"
+"facility_id": "0551100027",
+"h_wd": "08:30-17:30",
+"closed": "日曜日、祝日、12月29日から1月3日"
 },
 {
 "n": "児童発達支援・放課後等デイサービス　ぱれっと",
@@ -738,7 +871,10 @@
 "lng": 139.95792909,
 "prec": "address",
 "src": "wamnet",
-"facility_id": "0551300049"
+"facility_id": "0551300049",
+"url": "https://palette-nikaho.studio.site/",
+"h_wd": "13:30-17:30",
+"closed": "土・日曜日、祝祭日、年末年始(12/29〜1/3）"
 },
 {
 "n": "児童発達支援・放課後等デイサービス　すてっぷ",
@@ -754,7 +890,11 @@
 "lng": 140.55378855,
 "prec": "address",
 "src": "wamnet",
-"facility_id": "0551200041"
+"facility_id": "0551200041",
+"h_wd": "10:00-17:00",
+"h_sat": "10:00-17:00",
+"h_hol": "10:00-17:00",
+"closed": "土曜日、日曜日、祝日"
 },
 {
 "n": "クローバーの森",
@@ -770,7 +910,8 @@
 "lng": 139.99251004,
 "prec": "address",
 "src": "wamnet",
-"facility_id": "0552200024"
+"facility_id": "0552200024",
+"h_wd": "09:00-17:30"
 },
 {
 "n": "こどもサポート教室「クラ・ゼミ」大曲校",
@@ -786,7 +927,12 @@
 "lng": 140.4793139,
 "prec": "address",
 "src": "wamnet",
-"facility_id": "0550800114"
+"facility_id": "0550800114",
+"url": "https://kirari-kodomo.com/",
+"h_wd": "10:00-19:00",
+"h_sat": "09:00-18:00",
+"h_hol": "10:00-19:00",
+"closed": "毎週日曜日・ゴールデンウイーク、お盆、年末年始"
 },
 {
 "n": "こどもサポート教室「クラ・ゼミ」秋田駅東校",
@@ -802,7 +948,12 @@
 "lng": 140.13450861,
 "prec": "address",
 "src": "wamnet",
-"facility_id": "0550111215"
+"facility_id": "0550111215",
+"url": "https://kirari-kodomo.com/",
+"h_wd": "10:00-19:00",
+"h_sat": "10:00-19:00",
+"h_hol": "10:00-19:00",
+"closed": "日曜・年末年始・お盆・ＧＷ（年間スケジュール表に定める）"
 },
 {
 "n": "こどもサポート教室「クラ・ゼミ」秋田大町校",
@@ -818,7 +969,12 @@
 "lng": 140.11534345,
 "prec": "address",
 "src": "wamnet",
-"facility_id": "0550160022"
+"facility_id": "0550160022",
+"url": "https://kirari-kodomo.com/around/around-220/",
+"h_wd": "10:00-19:00",
+"h_sat": "10:00-19:00",
+"h_hol": "10:00-19:00",
+"closed": "毎週日曜日・ゴールデンウイーク、お盆、年末年始"
 },
 {
 "n": "アーク",
@@ -833,7 +989,9 @@
 "lng": 140.12144495,
 "prec": "address",
 "src": "wamnet",
-"facility_id": "0550160048"
+"facility_id": "0550160048",
+"h_wd": "10:00-16:00",
+"closed": "土曜、日曜"
 },
 {
 "n": "就労準備型放課後等デイサービス　ふれんずの樹",
@@ -863,7 +1021,11 @@
 "lng": 140.11910571,
 "prec": "address",
 "src": "wamnet",
-"facility_id": "0550160204"
+"facility_id": "0550160204",
+"h_wd": "13:30-17:30",
+"h_sat": "09:00-17:00",
+"h_hol": "09:00-17:00",
+"closed": "日曜日"
 },
 {
 "n": "放課後等デイサービス　Second Raum",
@@ -878,7 +1040,10 @@
 "lng": 140.13356289,
 "prec": "address",
 "src": "wamnet",
-"facility_id": "0550160196"
+"facility_id": "0550160196",
+"url": "https://blog.goo.ne.jp/akitatasukeai",
+"h_wd": "10:00-17:00",
+"closed": "土日祝日"
 },
 {
 "n": "放課後等デイサービスえるぶ",
@@ -893,7 +1058,10 @@
 "lng": 140.10228541,
 "prec": "address",
 "src": "wamnet",
-"facility_id": "0550160295"
+"facility_id": "0550160295",
+"url": "https://blog.goo.ne.jp/akitatasukeai",
+"h_wd": "10:00-17:00",
+"closed": "土日祝日"
 },
 {
 "n": "放課後等デイサービスぱすてる",
@@ -908,7 +1076,12 @@
 "lng": 140.0815532,
 "prec": "address",
 "src": "wamnet",
-"facility_id": "0550160253"
+"facility_id": "0550160253",
+"url": "https://pastelg2023.wixsite.com/pastel",
+"h_wd": "13:00-18:00",
+"h_sat": "09:00-17:00",
+"h_hol": "09:00-17:00",
+"closed": "日曜日、お盆8/13〜15、年末年始12/30〜1/3"
 },
 {
 "n": "就労準備型　放課後等デイサービス　じぶんいろ",
@@ -923,7 +1096,11 @@
 "lng": 140.09821127,
 "prec": "address",
 "src": "wamnet",
-"facility_id": "0550160311"
+"facility_id": "0550160311",
+"url": "https://yotubatomiyabi.net/",
+"h_wd": "14:00-18:00",
+"h_sat": "10:00-16:00",
+"closed": "日曜日、祝日"
 },
 {
 "n": "ホアロハ・ディスカバリーラボ　イースト",
@@ -938,7 +1115,11 @@
 "lng": 140.14414319,
 "prec": "address",
 "src": "wamnet",
-"facility_id": "0550160337"
+"facility_id": "0550160337",
+"url": "https://www.hoalohadiscoverylab.com/",
+"h_wd": "09:30-17:30",
+"h_hol": "09:30-16:30",
+"closed": "土・日・８月１３日・１２月３０日〜１月３日"
 },
 {
 "n": "放課後等デイサービス事業所　ぐんぐん",
@@ -953,7 +1134,10 @@
 "lng": 140.05755767,
 "prec": "address",
 "src": "wamnet",
-"facility_id": "0550500045"
+"facility_id": "0550500045",
+"url": "http://www.fukinoto.or.jp/yurihonjo",
+"h_wd": "13:30-17:15",
+"closed": "土、日、祝日、12月29日〜31日、1月２日〜3日"
 },
 {
 "n": "放課後等デイサービス事業所　さくらっこ",
@@ -968,7 +1152,10 @@
 "lng": 140.54956839,
 "prec": "address",
 "src": "wamnet",
-"facility_id": "0550300024"
+"facility_id": "0550300024",
+"url": "http://www.fukinoto.or.jp/azakura",
+"h_wd": "13:00-18:00",
+"closed": "土、日、祝日、12月29日〜31日、1月2日〜3日"
 },
 {
 "n": "湯沢雄勝広域市町村圏組合やまばと園放課後等デイサービス事業所",
@@ -983,7 +1170,10 @@
 "lng": 140.56049438,
 "prec": "address",
 "src": "wamnet",
-"facility_id": "0550710388"
+"facility_id": "0550710388",
+"url": "http://www.fukinoto.or.jp/yamabato",
+"h_wd": "08:30-17:15",
+"closed": "土、日、祝日、8月13日〜8月15日、12月29日〜31日、1月2日〜3日"
 },
 {
 "n": "児童デイサービス　ルピナス潟上",
@@ -998,7 +1188,11 @@
 "lng": 140.02703168,
 "prec": "address",
 "src": "wamnet",
-"facility_id": "0551000045"
+"facility_id": "0551000045",
+"h_wd": "13:30-17:30",
+"h_sat": "09:30-16:30",
+"h_hol": "09:30-16:30",
+"closed": "日曜日・8/13・12/31〜1/3"
 },
 {
 "n": "はなびら",
@@ -1013,7 +1207,12 @@
 "lng": 140.49895268,
 "prec": "address",
 "src": "wamnet",
-"facility_id": "0550800148"
+"facility_id": "0550800148",
+"url": "https://akitajidou.net/",
+"h_wd": "08:30-17:30",
+"h_sat": "08:30-17:30",
+"h_hol": "08:30-17:30",
+"closed": "日曜日、8/13、8月最終土曜日、12/30〜1/3"
 },
 {
 "n": "あきた児童デイサービス大曲店",
@@ -1028,7 +1227,12 @@
 "lng": 140.4623107,
 "prec": "address",
 "src": "wamnet",
-"facility_id": "0550800031"
+"facility_id": "0550800031",
+"url": "http://akitajidou.net",
+"h_wd": "08:30-17:30",
+"h_sat": "08:30-17:30",
+"h_hol": "08:30-17:30",
+"closed": "日曜日、8月13日、8月最終土曜日、12月30日〜1月3日"
 },
 {
 "n": "秋田聖徳会多機能型支援センター第二聖和",
@@ -1043,7 +1247,12 @@
 "lng": 140.09223026,
 "prec": "address",
 "src": "wamnet",
-"facility_id": "0550111223"
+"facility_id": "0550111223",
+"url": "http://www.akita-shoutokukai.jp/",
+"h_wd": "09:00-17:00",
+"h_sat": "09:00-17:00",
+"h_hol": "09:00-17:00",
+"closed": "日曜、年末年始（１２月３０日〜１月３日）"
 },
 {
 "n": "放課後等デイサービスらじぴあ",
@@ -1058,7 +1267,11 @@
 "lng": 140.12930817,
 "prec": "address",
 "src": "wamnet",
-"facility_id": "0550160055"
+"facility_id": "0550160055",
+"url": "http://www.rehapot.com",
+"h_wd": "09:30-17:30",
+"h_hol": "09:30-17:30",
+"closed": "土・日・8/13、年末年始（12/30〜1/3）"
 },
 {
 "n": "放課後等デイサービスインクル",
@@ -1073,7 +1286,11 @@
 "lng": 140.08453736,
 "prec": "address",
 "src": "wamnet",
-"facility_id": "0550110605"
+"facility_id": "0550110605",
+"url": "http://www.kodomo.sekai.jp",
+"h_wd": "08:40-18:40",
+"h_sat": "08:40-14:40",
+"closed": "日曜日 土曜日月2回 ８月１３日〜８月１５日 12月29日~1月3日"
 },
 {
 "n": "放課後等デイサービス　インクル２",
@@ -1088,7 +1305,11 @@
 "lng": 140.08452634,
 "prec": "address",
 "src": "wamnet",
-"facility_id": "0550111066"
+"facility_id": "0550111066",
+"url": "http://www.olive.kodomo-sekai.jp",
+"h_wd": "08:40-18:40",
+"h_sat": "08:40-12:40",
+"closed": "日曜日 土曜日月2回 ８月１３日〜８月１５日 12月29日~1月3日"
 },
 {
 "n": "あきた児童デイサービス２号店",
@@ -1103,7 +1324,12 @@
 "lng": 140.11248702,
 "prec": "address",
 "src": "wamnet",
-"facility_id": "0550110704"
+"facility_id": "0550110704",
+"url": "http://akitajidou.net",
+"h_wd": "08:30-17:30",
+"h_sat": "08:30-17:30",
+"h_hol": "08:30-17:30",
+"closed": "日曜日、8月13日、12月29日〜1月3日"
 },
 {
 "n": "あきた児童デイサービス３号店",
@@ -1118,7 +1344,12 @@
 "lng": 140.13530284,
 "prec": "address",
 "src": "wamnet",
-"facility_id": "0550110993"
+"facility_id": "0550110993",
+"url": "http://akitajidou.net",
+"h_wd": "08:30-17:30",
+"h_sat": "08:30-17:30",
+"h_hol": "08:30-17:30",
+"closed": "日曜日、８月１３日、１２月２９日〜１月３日"
 },
 {
 "n": "児童デイサービス若竹",
@@ -1133,7 +1364,11 @@
 "lng": 140.15364528,
 "prec": "address",
 "src": "wamnet",
-"facility_id": "0550110332"
+"facility_id": "0550110332",
+"url": "https://www.akitaken-kouseikyoukai.jp/",
+"h_wd": "13:30-17:30",
+"h_sat": "08:30-16:30",
+"closed": "土曜日（第1･3のみ営業）･日曜日・祝日"
 },
 {
 "n": "児童デイサービスたけのこ",
@@ -1148,7 +1383,11 @@
 "lng": 140.07731614,
 "prec": "address",
 "src": "wamnet",
-"facility_id": "0550110746"
+"facility_id": "0550110746",
+"url": "http://www.akitaken-kouseikyoukai.jp/",
+"h_wd": "13:30-17:30",
+"h_sat": "08:30-16:30",
+"closed": "土曜日（第2･4のみ営業）･日曜日・祝日"
 },
 {
 "n": "児童デイサービスばんぶう",
@@ -1163,7 +1402,10 @@
 "lng": 140.0741455,
 "prec": "address",
 "src": "wamnet",
-"facility_id": "0550110886"
+"facility_id": "0550110886",
+"url": "https://www.akitaken-kouseikyoukai.jp/",
+"h_wd": "13:30-17:30",
+"closed": "土日・祝日"
 },
 {
 "n": "児童デイサービス　ルピナス",
@@ -1178,7 +1420,12 @@
 "lng": 140.12458395,
 "prec": "address",
 "src": "wamnet",
-"facility_id": "0550110928"
+"facility_id": "0550110928",
+"url": "http://www.lupinus-child.jp",
+"h_wd": "13:30-17:30",
+"h_sat": "09:30-16:30",
+"h_hol": "09:30-16:30",
+"closed": "日曜日"
 },
 {
 "n": "児童デイサービス　ルピナス浜田",
@@ -1193,7 +1440,10 @@
 "lng": 140.07023353,
 "prec": "address",
 "src": "wamnet",
-"facility_id": "0550111041"
+"facility_id": "0550111041",
+"url": "http://www.lupinus-child.jp",
+"h_wd": "13:00-17:30",
+"closed": "土曜日・日曜日・祝日"
 },
 {
 "n": "竹生寮放課後等デイサービス事業所",
@@ -1208,7 +1458,10 @@
 "lng": 140.16287153,
 "prec": "address",
 "src": "wamnet",
-"facility_id": "0550111009"
+"facility_id": "0550111009",
+"url": "https://akita-ikumeikai.com/",
+"h_wd": "12:30-17:30",
+"closed": "土曜日、日曜日、祝祭日、年末年始(12月29日から1月1日)"
 },
 {
 "n": "セカンドハウス　そう",
@@ -1223,7 +1476,10 @@
 "lng": 140.07766657,
 "prec": "address",
 "src": "wamnet",
-"facility_id": "0550160238"
+"facility_id": "0550160238",
+"h_wd": "10:30-17:30",
+"h_sat": "10:00-17:00",
+"closed": "日曜日、祝祭日、８月１３日〜８月１５日、１２月２９日〜１月３日"
 },
 {
 "n": "サポートスペース　そう",
@@ -1238,7 +1494,11 @@
 "lng": 140.10033537,
 "prec": "address",
 "src": "wamnet",
-"facility_id": "0550111017"
+"facility_id": "0550111017",
+"url": "https://hoopsii.com/",
+"h_wd": "10:00-17:30",
+"h_sat": "09:30-17:00",
+"closed": "日曜日、祝祭日、８月１３日〜８月１５日、１２月２９日〜１月３日"
 },
 {
 "n": "あおぞらキッズ放課後等デイサービス八橋",
@@ -1253,7 +1513,12 @@
 "lng": 140.10342173,
 "prec": "address",
 "src": "wamnet",
-"facility_id": "0550160089"
+"facility_id": "0550160089",
+"url": "https://aozoragroup.jp",
+"h_wd": "13:00-18:00",
+"h_sat": "08:30-18:00",
+"h_hol": "08:30-18:00",
+"closed": "お盆、正月"
 },
 {
 "n": "あおぞらキッズ放課後等デイサービス手形",
@@ -1268,7 +1533,11 @@
 "lng": 140.13383072,
 "prec": "address",
 "src": "wamnet",
-"facility_id": "0550160212"
+"facility_id": "0550160212",
+"h_wd": "13:00-17:30",
+"h_sat": "09:00-17:30",
+"h_hol": "09:00-17:30",
+"closed": "日曜日"
 },
 {
 "n": "あおぞらキッズ放課後等デイサービス",
@@ -1283,7 +1552,12 @@
 "lng": 140.1441853,
 "prec": "address",
 "src": "wamnet",
-"facility_id": "0550111025"
+"facility_id": "0550111025",
+"url": "https://aozoragroup.jp/company/",
+"h_wd": "13:00-17:30",
+"h_sat": "09:00-17:30",
+"h_hol": "09:00-17:30",
+"closed": "お盆、正月"
 },
 {
 "n": "放課後等デイサービス　ネクストハピネス",
@@ -1298,7 +1572,9 @@
 "lng": 140.09532244,
 "prec": "address",
 "src": "wamnet",
-"facility_id": "0550160030"
+"facility_id": "0550160030",
+"h_wd": "09:00-13:00",
+"closed": "日曜・祝日・お盆・正月"
 },
 {
 "n": "放課後等デイサービス　ハピネス",
@@ -1313,7 +1589,11 @@
 "lng": 140.1035694,
 "prec": "address",
 "src": "wamnet",
-"facility_id": "0550111058"
+"facility_id": "0550111058",
+"url": "http://sahopiya.tendon.bz",
+"h_wd": "13:00-17:00",
+"h_sat": "08:30-16:30",
+"closed": "祝日・日曜日"
 },
 {
 "n": "児童デイサービス　七彩　ぷらす",
@@ -1328,7 +1608,12 @@
 "lng": 140.05711243,
 "prec": "address",
 "src": "wamnet",
-"facility_id": "0550111231"
+"facility_id": "0550111231",
+"url": "https://nanairo-harmony.com",
+"h_wd": "13:30-18:30",
+"h_sat": "08:30-17:30",
+"h_hol": "08:30-17:30",
+"closed": "日曜日、８月13日、12月31日〜1月3日"
 },
 {
 "n": "児童デイサービス　七彩",
@@ -1343,7 +1628,12 @@
 "lng": 140.06744447,
 "prec": "address",
 "src": "wamnet",
-"facility_id": "0550111124"
+"facility_id": "0550111124",
+"url": "https://nanairo-harmony.com",
+"h_wd": "13:30-18:30",
+"h_sat": "08:30-17:30",
+"h_hol": "08:30-17:30",
+"closed": "日曜日、８月13日、12月31日〜1月3日"
 },
 {
 "n": "放課後デイサービス太陽",
@@ -1358,7 +1648,10 @@
 "lng": 140.10463577,
 "prec": "address",
 "src": "wamnet",
-"facility_id": "0550111132"
+"facility_id": "0550111132",
+"h_wd": "13:30-17:30",
+"h_sat": "08:30-17:30",
+"closed": "日曜日、祝日"
 },
 {
 "n": "放課後等デイサービス事業所　ここはれ〜心晴〜",
@@ -1373,7 +1666,9 @@
 "lng": 140.0266235,
 "prec": "address",
 "src": "wamnet",
-"facility_id": "0550200075"
+"facility_id": "0550200075",
+"h_wd": "09:00-18:00",
+"closed": "土曜日、日曜日、祝日、祭日"
 },
 {
 "n": "サンすまいる・しののめ",
@@ -1388,7 +1683,10 @@
 "lng": 140.05789214,
 "prec": "address",
 "src": "wamnet",
-"facility_id": "0550200083"
+"facility_id": "0550200083",
+"url": "http://www.noshirofukushikai.com",
+"h_wd": "09:30-18:00",
+"closed": "土曜日、日曜日、祝日、年末年始"
 },
 {
 "n": "指定障害福祉サービス事業所　ねむの木苑",
@@ -1403,7 +1701,11 @@
 "lng": 140.01834006,
 "prec": "address",
 "src": "wamnet",
-"facility_id": "0550210025"
+"facility_id": "0550210025",
+"url": "http://www.noshirofukushikai.com",
+"h_wd": "09:30-18:00",
+"h_sat": "10:00-17:00",
+"closed": "土曜日、日曜日、祝日、年末年始"
 },
 {
 "n": "尚生こども園",
@@ -1418,7 +1720,10 @@
 "lng": 140.01512844,
 "prec": "address",
 "src": "wamnet",
-"facility_id": "0550200042"
+"facility_id": "0550200042",
+"url": "https://syouki39.co.jp",
+"h_wd": "12:00-18:00",
+"closed": "土曜、日曜、祝日、８月13日、８月14日、12月29日から１月3日"
 },
 {
 "n": "放課後等デイサービスキッズスポーツFine!",
@@ -1434,7 +1739,11 @@
 "lng": 140.5666479,
 "prec": "address",
 "src": "wamnet",
-"facility_id": "0550300107"
+"facility_id": "0550300107",
+"url": "http://www.flh1.net/",
+"h_wd": "14:30-19:00",
+"h_hol": "09:00-17:00",
+"closed": "土曜日、日曜日"
 },
 {
 "n": "放課後等デイサービス「kibidango3」",
@@ -1449,7 +1758,8 @@
 "lng": 140.49186628,
 "prec": "address",
 "src": "wamnet",
-"facility_id": "0550700108"
+"facility_id": "0550700108",
+"url": "https://kazushiba0207.wixsite.com/-kibidango3"
 },
 {
 "n": "nicoすてっぷ",
@@ -1464,7 +1774,11 @@
 "lng": 140.0730484,
 "prec": "address",
 "src": "wamnet",
-"facility_id": "0550160147"
+"facility_id": "0550160147",
+"url": "https://nico-step.com/",
+"h_wd": "10:00-17:30",
+"h_sat": "10:00-16:00",
+"closed": "日、祝祭日、8月13〜15、12月29〜1月3日,第１・第３・第５土曜日"
 },
 {
 "n": "放課後デイGranny秋田",
@@ -1479,7 +1793,11 @@
 "lng": 140.12319991,
 "prec": "address",
 "src": "wamnet",
-"facility_id": "0550160188"
+"facility_id": "0550160188",
+"h_wd": "14:00-17:00",
+"h_sat": "10:00-16:00",
+"h_hol": "10:00-16:00",
+"closed": "日曜日、年末年始"
 },
 {
 "n": "イオ平鹿",
@@ -1494,7 +1812,11 @@
 "lng": 140.48836076,
 "prec": "address",
 "src": "wamnet",
-"facility_id": "0550300123"
+"facility_id": "0550300123",
+"url": "https://shining-one-stars.com/",
+"h_wd": "14:30-17:30",
+"h_hol": "10:00-17:00",
+"closed": "土・日曜日、12/30〜1/3"
 },
 {
 "n": "イオ平和",
@@ -1509,7 +1831,11 @@
 "lng": 140.57432482,
 "prec": "address",
 "src": "wamnet",
-"facility_id": "0550300032"
+"facility_id": "0550300032",
+"url": "https://shining-one-stars.com/",
+"h_wd": "14:30-17:30",
+"h_hol": "10:00-17:00",
+"closed": "土曜、日曜、12月29日から1月3日まで"
 },
 {
 "n": "わんぱく広場",
@@ -1524,7 +1850,12 @@
 "lng": 140.54841129,
 "prec": "address",
 "src": "wamnet",
-"facility_id": "0550400055"
+"facility_id": "0550400055",
+"url": "http://www.hoteyagakuen.com/",
+"h_wd": "09:30-17:30",
+"h_sat": "09:30-17:30",
+"h_hol": "09:30-17:30",
+"closed": "日曜日、8月13日〜8月15日、12月30日〜1月3日"
 },
 {
 "n": "放課後等デイサービス　くらLabo",
@@ -1539,7 +1870,10 @@
 "lng": 140.56195459,
 "prec": "address",
 "src": "wamnet",
-"facility_id": "0550400105"
+"facility_id": "0550400105",
+"h_wd": "14:00-17:00",
+"h_sat": "10:00-15:00",
+"h_hol": "10:00-15:00"
 },
 {
 "n": "なかよしとっと",
@@ -1554,7 +1888,10 @@
 "lng": 140.58199947,
 "prec": "address",
 "src": "wamnet",
-"facility_id": "0550410849"
+"facility_id": "0550410849",
+"h_wd": "13:30-17:00",
+"h_sat": "08:30-17:00",
+"closed": "日曜日、祝祭日　8/13〜8/16  12/29〜1/3"
 },
 {
 "n": "放課後等デイサービス　一心堂　２号店",
@@ -1569,7 +1906,11 @@
 "lng": 140.57532556,
 "prec": "address",
 "src": "wamnet",
-"facility_id": "0550400048"
+"facility_id": "0550400048",
+"h_wd": "13:00-18:00",
+"h_sat": "09:00-18:00",
+"h_hol": "09:00-18:00",
+"closed": "①日曜日　②夏季：８月13日〜８月16日　③冬季：12月30日〜1月3日"
 },
 {
 "n": "放課後等デイサービス一心堂３号店",
@@ -1584,7 +1925,11 @@
 "lng": 140.5642848,
 "prec": "address",
 "src": "wamnet",
-"facility_id": "0550400097"
+"facility_id": "0550400097",
+"h_wd": "13:00-18:30",
+"h_sat": "09:00-18:00",
+"h_hol": "09:00-18:00",
+"closed": "①日曜日　②夏季：８月13日〜８月16日　③冬季：12月30日〜1月3日"
 },
 {
 "n": "放課後等デイサービス　一心堂",
@@ -1599,7 +1944,12 @@
 "lng": 140.5750367,
 "prec": "address",
 "src": "wamnet",
-"facility_id": "0550400022"
+"facility_id": "0550400022",
+"url": "http://www.isshin-do.com/nurs/index.html",
+"h_wd": "09:30-18:00",
+"h_sat": "09:00-18:00",
+"h_hol": "09:00-18:00",
+"closed": "①日曜日　②夏季：８月13日〜８月16日　③冬季：12月30日〜1月3日"
 },
 {
 "n": "ビスコーサ",
@@ -1614,7 +1964,11 @@
 "lng": 140.46639436,
 "prec": "address",
 "src": "wamnet",
-"facility_id": "0550700058"
+"facility_id": "0550700058",
+"url": "https://being-aoihana.org/",
+"h_wd": "09:30-17:30",
+"h_sat": "09:30-17:30",
+"closed": "土,日,祭日,8月13,14,15日,12月29,30,31日,1月1,2,3日"
 },
 {
 "n": "通所支援事業所　なないろ",
@@ -1629,7 +1983,13 @@
 "lng": 140.48897736,
 "prec": "address",
 "src": "wamnet",
-"facility_id": "0550700082"
+"facility_id": "0550700082",
+"url": "https://www.yushakyo.or.jp",
+"h_wd": "07:30-18:30",
+"h_sat": "00:00-00:00",
+"h_sun": "00:00-00:00",
+"h_hol": "00:00-00:00",
+"closed": "土、日、祝祭日、12月29日〜1月3日"
 },
 {
 "n": "放課後等デイサービス　さくらんぼ",
@@ -1674,7 +2034,8 @@
 "lng": 140.48078906,
 "prec": "address",
 "src": "wamnet",
-"facility_id": "0550700066"
+"facility_id": "0550700066",
+"url": "https://ogachi-nagomi.net/"
 },
 {
 "n": "多機能型事業所　かざぐるま",
@@ -1689,7 +2050,11 @@
 "lng": 140.48081128,
 "prec": "address",
 "src": "wamnet",
-"facility_id": "0550700017"
+"facility_id": "0550700017",
+"url": "http://www.ogachi-nagomi.net/",
+"h_wd": "08:30-18:00",
+"h_sat": "08:30-18:00",
+"closed": "国民の祝日に関する法律に規定する休日、1月2日〜3日、12月29日〜31日"
 },
 {
 "n": "放課後等デイサービスぱすてる",
@@ -1704,7 +2069,13 @@
 "lng": 140.55988829,
 "prec": "address",
 "src": "wamnet",
-"facility_id": "0550400089"
+"facility_id": "0550400089",
+"url": "http://a-hanawafukushikai.jp/",
+"h_wd": "19:00-18:00",
+"h_sat": "09:00-16:00",
+"h_sun": "09:00-16:00",
+"h_hol": "09:00-16:00",
+"closed": "土日祝日"
 },
 {
 "n": "はなえみ学舎",
@@ -1719,7 +2090,11 @@
 "lng": 140.05334978,
 "prec": "address",
 "src": "wamnet",
-"facility_id": "0550500052"
+"facility_id": "0550500052",
+"url": "https://akitahanaemi.wixsite.com/mysite",
+"h_wd": "07:00-19:00",
+"h_sat": "07:00-19:00",
+"closed": "日曜日、祝日"
 },
 {
 "n": "はなえみ学舎さくらキャンパス",
@@ -1734,7 +2109,8 @@
 "lng": 140.05316371,
 "prec": "address",
 "src": "wamnet",
-"facility_id": "0550500078"
+"facility_id": "0550500078",
+"url": "https://akitahanaemi.wixsite.com/mysite"
 },
 {
 "n": "はなえみ学舎　みくらまちキャンパス",
@@ -1749,7 +2125,10 @@
 "lng": 140.0517698,
 "prec": "address",
 "src": "wamnet",
-"facility_id": "0550500086"
+"facility_id": "0550500086",
+"h_wd": "10:00-18:45",
+"h_sat": "08:30-16:45",
+"closed": "日曜、祝日"
 },
 {
 "n": "まじっくハウス",
@@ -1764,7 +2143,11 @@
 "lng": 140.0372381,
 "prec": "address",
 "src": "wamnet",
-"facility_id": "0551000011"
+"facility_id": "0551000011",
+"h_wd": "13:30-17:30",
+"h_sat": "10:00-17:00",
+"h_hol": "10:00-17:00",
+"closed": "日曜日・お盆・年末年始・ＧＷ"
 },
 {
 "n": "放課後等デイサービス　ふぁみりぃ",
@@ -1779,7 +2162,11 @@
 "lng": 140.50134793,
 "prec": "address",
 "src": "wamnet",
-"facility_id": "0550800023"
+"facility_id": "0550800023",
+"url": "http://www.family-g.jp/index.html",
+"h_wd": "09:00-17:30",
+"h_sat": "09:00-17:30",
+"closed": "日曜日、祝日、８月13日，8月第最終土曜日、12月29日〜1月3日"
 },
 {
 "n": "北秋田市障がい児・者地域生活支援拠点「あいライン」指定放課後等デイサービス事業所",
@@ -1794,7 +2181,10 @@
 "lng": 140.32807857,
 "prec": "address",
 "src": "wamnet",
-"facility_id": "0551100043"
+"facility_id": "0551100043",
+"url": "https://aki-minsei.jp/",
+"h_wd": "13:30-15:30",
+"closed": "土日、祝日"
 },
 {
 "n": "放課後デイたんぽぽ",
@@ -1809,7 +2199,11 @@
 "lng": 140.56524353,
 "prec": "address",
 "src": "wamnet",
-"facility_id": "0551200017"
+"facility_id": "0551200017",
+"h_wd": "09:00-17:00",
+"h_sat": "09:00-17:00",
+"h_hol": "09:00-17:00",
+"closed": "日曜日　他（臨時休業日あり）"
 },
 {
 "n": "放課後等デイサービス事業所　あるく",
@@ -1824,7 +2218,12 @@
 "lng": 140.56699591,
 "prec": "address",
 "src": "wamnet",
-"facility_id": "0550800056"
+"facility_id": "0550800056",
+"url": "http://alk-sakura.co.jp/aruku-top.html",
+"h_wd": "12:00-17:30",
+"h_sat": "09:00-17:00",
+"h_hol": "09:00-17:00",
+"closed": "日曜日　8/13〜16　12/28〜1/3 他（臨時休業日あり）"
 },
 {
 "n": "さわやか愛の家　さくら館",
@@ -1839,7 +2238,12 @@
 "lng": 140.16735489,
 "prec": "address",
 "src": "wamnet",
-"facility_id": "0550111173"
+"facility_id": "0550111173",
+"url": "https://sawayakaclub.jp/ainoie-sakura",
+"h_wd": "14:30-17:30",
+"h_sat": "10:30-15:30",
+"h_hol": "10:30-15:30",
+"closed": "日曜日,年末年始（12/31〜1/3）、お盆（8/13〜15）、GW"
 },
 {
 "n": "保育所等訪問支援事業所　あいせん",
@@ -1854,6 +2258,7 @@
 "lng": 140.57084077,
 "prec": "address",
 "src": "wamnet",
-"facility_id": "0551200033"
+"facility_id": "0551200033",
+"url": "http://akitaaisen.com"
 }
 ]

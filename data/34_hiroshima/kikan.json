@@ -1,0 +1,106 @@
+[
+{
+"n": "西部こども家庭センター",
+"a": "広島県広島市南区宇品東4-1-26",
+"t": "082-254-0381",
+"cat": "jiso",
+"lat": 34.365421,
+"lng": 132.474945,
+"prec": "address",
+"src": "cfa_jisou_ichiran",
+"checked": "2026-10-03"
+},
+{
+"n": "西部こども家庭センター東広島支所",
+"a": "広島県東広島市八本松町米満198-1",
+"t": "082-426-5650",
+"cat": "jiso",
+"lat": 34.447998,
+"lng": 132.721222,
+"prec": "address",
+"src": "cfa_jisou_ichiran",
+"checked": "2026-10-03",
+"rem": "支所等"
+},
+{
+"n": "東部こども家庭センター",
+"a": "広島県福山市瀬戸町山北291-1",
+"t": "084-951-2340",
+"cat": "jiso",
+"lat": 34.475124,
+"lng": 133.316589,
+"prec": "address",
+"src": "cfa_jisou_ichiran",
+"checked": "2026-10-03"
+},
+{
+"n": "東部こども家庭センター三原支所",
+"a": "広島県三原市円一町2-4-1",
+"t": "0848-36-6711",
+"cat": "jiso",
+"lat": 34.39381,
+"lng": 133.078049,
+"prec": "address",
+"src": "cfa_jisou_ichiran",
+"checked": "2026-10-03",
+"rem": "支所等"
+},
+{
+"n": "北部こども家庭センター",
+"a": "広島県三次市十日市東4-6-1",
+"t": "0824-63-5181",
+"cat": "jiso",
+"lat": 34.804695,
+"lng": 132.85881,
+"prec": "address",
+"src": "cfa_jisou_ichiran",
+"checked": "2026-10-03"
+},
+{
+"n": "広島市児童相談所",
+"a": "広島県広島市東区光町2-15-55",
+"t": "082-263-0694",
+"cat": "jiso",
+"lat": 34.401085,
+"lng": 132.48262,
+"prec": "address",
+"src": "cfa_jisou_ichiran",
+"checked": "2026-10-03"
+},
+{
+"n": "広島県発達障害者支援センター",
+"a": "広島県東広島市西条町西条414-31　サポートオフィスQUEST 2階",
+"t": "082-490-3455",
+"url": "http://www.f-tutuji.or.jp/h-scdd/",
+"cat": "hattatsu_center",
+"lat": 34.43124,
+"lng": 132.741531,
+"prec": "address",
+"src": "rehab_ddis_center",
+"checked": "2026-10-03"
+},
+{
+"n": "広島市発達障害者支援センター",
+"a": "広島県広島市東区光町2-15-55　広島市こども療育センター内",
+"t": "082-568-7328",
+"url": "http://www.hsfj.city.hiroshima.jp/hattatu/newpage2.html",
+"cat": "hattatsu_center",
+"lat": 34.401085,
+"lng": 132.48262,
+"prec": "address",
+"src": "rehab_ddis_center",
+"checked": "2026-10-03"
+},
+{
+"n": "広島県医療的ケア児支援センター",
+"a": null,
+"t": null,
+"url": "https://www.hiroshima-icare.jp/",
+"cat": "iryocare_center",
+"lat": null,
+"lng": null,
+"prec": null,
+"src": "cfa_iryocare_center",
+"checked": "2026-10-03"
+}
+]

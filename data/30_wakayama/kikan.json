@@ -1,0 +1,60 @@
+[
+{
+"n": "中央児童相談所",
+"a": "和歌山県和歌山市毛見1437-218",
+"t": "073-445-5312",
+"cat": "jiso",
+"lat": 34.157661,
+"lng": 135.186874,
+"prec": "address",
+"src": "cfa_jisou_ichiran",
+"checked": "2026-10-03"
+},
+{
+"n": "紀南児童相談所",
+"a": "和歌山県田辺市新庄町3353-9",
+"t": "0739-22-1588",
+"cat": "jiso",
+"lat": 33.695114,
+"lng": 135.390839,
+"prec": "address",
+"src": "cfa_jisou_ichiran",
+"checked": "2026-10-03"
+},
+{
+"n": "紀南児童相談所 新宮分室",
+"a": "和歌山県新宮市緑ヶ丘2-4-8",
+"t": "0735-21-9634",
+"cat": "jiso",
+"lat": 33.71912,
+"lng": 135.989044,
+"prec": "address",
+"src": "cfa_jisou_ichiran",
+"checked": "2026-10-03",
+"rem": "支所等"
+},
+{
+"n": "和歌山県発達障害者支援センター「ポラリス」",
+"a": "和歌山県和歌山市葵町3番25号",
+"t": "073-413-3200",
+"url": "http://aitoku.or.jp/polaris/",
+"cat": "hattatsu_center",
+"lat": 34.213993,
+"lng": 135.161896,
+"prec": "address",
+"src": "rehab_ddis_center",
+"checked": "2026-10-03"
+},
+{
+"n": "和歌山県医療的ケア児等支援センター",
+"a": null,
+"t": null,
+"url": "https://www.pref.wakayama.lg.jp/prefg/040400/d00213068.html",
+"cat": "iryocare_center",
+"lat": null,
+"lng": null,
+"prec": null,
+"src": "cfa_iryocare_center",
+"checked": "2026-10-03"
+}
+]

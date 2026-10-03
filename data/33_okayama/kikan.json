@@ -1,0 +1,130 @@
+[
+{
+"n": "中央児童相談所",
+"a": "岡山県岡山市北区南方2-13-1",
+"t": "086-235-4152",
+"cat": "jiso",
+"lat": 34.673317,
+"lng": 133.922684,
+"prec": "address",
+"src": "cfa_jisou_ichiran",
+"checked": "2026-10-03"
+},
+{
+"n": "倉敷児童相談所",
+"a": "岡山県倉敷市美和1-14-31",
+"t": "086-421-0991",
+"cat": "jiso",
+"lat": 34.601528,
+"lng": 133.777267,
+"prec": "address",
+"src": "cfa_jisou_ichiran",
+"checked": "2026-10-03"
+},
+{
+"n": "倉敷児童相談所 井笠相談室",
+"a": "岡山県笠岡市六番町2-5",
+"t": "0865-69-1680",
+"cat": "jiso",
+"lat": 34.496387,
+"lng": 133.514572,
+"prec": "address",
+"src": "cfa_jisou_ichiran",
+"checked": "2026-10-03",
+"rem": "支所等"
+},
+{
+"n": "倉敷児童相談所 高梁分室",
+"a": "岡山県高梁市落合町近似286-1",
+"t": "0866-21-2833",
+"cat": "jiso",
+"lat": 34.790146,
+"lng": 133.610031,
+"prec": "address",
+"src": "cfa_jisou_ichiran",
+"checked": "2026-10-03",
+"rem": "支所等"
+},
+{
+"n": "倉敷児童相談所 高梁分室新見相談室",
+"a": "岡山県新見市高尾2400",
+"t": "0867-72-2974",
+"cat": "jiso",
+"lat": 34.990585,
+"lng": 133.453415,
+"prec": "address",
+"src": "cfa_jisou_ichiran",
+"checked": "2026-10-03",
+"rem": "支所等"
+},
+{
+"n": "津山児童相談所",
+"a": "岡山県津山市山北288-1",
+"t": "0868-23-5131",
+"cat": "jiso",
+"lat": 35.072243,
+"lng": 134.002121,
+"prec": "address",
+"src": "cfa_jisou_ichiran",
+"checked": "2026-10-03"
+},
+{
+"n": "岡山市こども総合相談所",
+"a": "岡山県岡山市北区鹿田町1-1-1",
+"t": "086-803-2525",
+"cat": "jiso",
+"lat": 34.654869,
+"lng": 133.918747,
+"prec": "address",
+"src": "cfa_jisou_ichiran",
+"checked": "2026-10-03"
+},
+{
+"n": "おかやま発達障害者支援センター（本所）",
+"a": "岡山県岡山市北区祇園866",
+"t": "086-275-9277",
+"url": "http://asdshien.jp/index.html",
+"cat": "hattatsu_center",
+"lat": 34.708469,
+"lng": 133.95816,
+"prec": "address",
+"src": "rehab_ddis_center",
+"checked": "2026-10-03"
+},
+{
+"n": "おかやま発達障害者支援センター（県北支所）",
+"a": "岡山県津山市山下53　美作県民局第1庁舎内",
+"t": "0868-22-1717",
+"url": "http://asdshien.jp/index.html",
+"cat": "hattatsu_center",
+"lat": 35.062218,
+"lng": 134.002243,
+"prec": "address",
+"src": "rehab_ddis_center",
+"checked": "2026-10-03"
+},
+{
+"n": "岡山市発達障害者支援センター",
+"a": "岡山県岡山市北区春日町5-6　岡山市勤労者福祉センター1階",
+"t": "086-236-0051",
+"url": "https://www.city.okayama.jp/0000004553.html",
+"cat": "hattatsu_center",
+"lat": 34.654224,
+"lng": 133.922043,
+"prec": "address",
+"src": "rehab_ddis_center",
+"checked": "2026-10-03"
+},
+{
+"n": "岡山県医療的ケア児支援センター",
+"a": null,
+"t": null,
+"url": "https://www.okayama-icare.com/",
+"cat": "iryocare_center",
+"lat": null,
+"lng": null,
+"prec": null,
+"src": "cfa_iryocare_center",
+"checked": "2026-10-03"
+}
+]

@@ -1,0 +1,81 @@
+[
+{
+"n": "中央児童相談所",
+"a": "長野県長野市大字南長野妻科282-7",
+"t": "026-238-8010",
+"cat": "jiso",
+"lat": 36.654228,
+"lng": 138.179626,
+"prec": "address",
+"src": "cfa_jisou_ichiran",
+"checked": "2026-10-03"
+},
+{
+"n": "松本児童相談所",
+"a": "長野県松本市波田9986",
+"t": "0263-91-3370",
+"cat": "jiso",
+"lat": 36.155022,
+"lng": 137.796631,
+"prec": "town",
+"src": "cfa_jisou_ichiran",
+"checked": "2026-10-03"
+},
+{
+"n": "飯田児童相談所",
+"a": "長野県飯田市大瀬木1107-54",
+"t": "0265-25-8300",
+"cat": "jiso",
+"lat": 35.499332,
+"lng": 137.791214,
+"prec": "address",
+"src": "cfa_jisou_ichiran",
+"checked": "2026-10-03"
+},
+{
+"n": "諏訪児童相談所",
+"a": "長野県諏訪市湖南3248-3",
+"t": "0266-52-0056",
+"cat": "jiso",
+"lat": 36.004917,
+"lng": 138.109039,
+"prec": "address",
+"src": "cfa_jisou_ichiran",
+"checked": "2026-10-03"
+},
+{
+"n": "佐久児童相談所",
+"a": "長野県佐久市岩村田3152-1",
+"t": "0267-67-3437",
+"cat": "jiso",
+"lat": 36.268814,
+"lng": 138.478714,
+"prec": "address",
+"src": "cfa_jisou_ichiran",
+"checked": "2026-10-03"
+},
+{
+"n": "長野県発達障がい情報・支援センター「といろ」",
+"a": "長野県松本市旭2-11-30　長野県松本旭町庁舎",
+"t": "0263-37-2725",
+"url": "https://naganoken-hattatsu.info/",
+"cat": "hattatsu_center",
+"lat": 36.248146,
+"lng": 137.978806,
+"prec": "address",
+"src": "rehab_ddis_center",
+"checked": "2026-10-03"
+},
+{
+"n": "長野県医療的ケア児等支援センターいきあう",
+"a": null,
+"t": null,
+"url": "https://carechildnagano.com/",
+"cat": "iryocare_center",
+"lat": null,
+"lng": null,
+"prec": null,
+"src": "cfa_iryocare_center",
+"checked": "2026-10-03"
+}
+]

@@ -1,0 +1,93 @@
+[
+{
+"n": "中央児童相談所",
+"a": "茨城県水戸市水府町864-16",
+"t": "029-221-4150",
+"cat": "jiso",
+"lat": 36.38007,
+"lng": 140.483414,
+"prec": "address",
+"src": "cfa_jisou_ichiran",
+"checked": "2026-10-03"
+},
+{
+"n": "日立児童相談所",
+"a": "茨城県日立市弁天町3-4-7",
+"t": "0294-22-0294",
+"cat": "jiso",
+"lat": 36.587189,
+"lng": 140.65062,
+"prec": "address",
+"src": "cfa_jisou_ichiran",
+"checked": "2026-10-03"
+},
+{
+"n": "鉾田児童相談所",
+"a": "茨城県鉾田市鉾田1367-3",
+"t": "0291-33-4119",
+"cat": "jiso",
+"lat": 36.159538,
+"lng": 140.516907,
+"prec": "address",
+"src": "cfa_jisou_ichiran",
+"checked": "2026-10-03"
+},
+{
+"n": "土浦児童相談所",
+"a": "茨城県土浦市下高津3-14-5",
+"t": "029-821-4595",
+"cat": "jiso",
+"lat": 36.073853,
+"lng": 140.188202,
+"prec": "address",
+"src": "cfa_jisou_ichiran",
+"checked": "2026-10-03"
+},
+{
+"n": "筑西児童相談所",
+"a": "茨城県筑西市二木成615",
+"t": "0296-24-1614",
+"cat": "jiso",
+"lat": 36.290054,
+"lng": 139.97522,
+"prec": "address",
+"src": "cfa_jisou_ichiran",
+"checked": "2026-10-03"
+},
+{
+"n": "茨城県発達障害者支援センター「あい」",
+"a": "茨城県東茨城郡茨城町小堤285番地5　社会福祉法人 梅の里内",
+"t": "029-219-1222",
+"url": "https://ai.umenosato-ainoie.org/",
+"cat": "hattatsu_center",
+"lat": 36.281422,
+"lng": 140.422531,
+"prec": "town",
+"src": "rehab_ddis_center",
+"checked": "2026-10-03"
+},
+{
+"n": "茨城県発達障害者支援センター「COLORSつくば」",
+"a": "茨城県つくば市高崎802-1　社会福祉法人同仁会 つくば同仁会子どもセンター内",
+"t": "029-875-3485",
+"url": "https://colors-tsukuba.org/#contents",
+"cat": "hattatsu_center",
+"lat": 36.001961,
+"lng": 140.118149,
+"prec": "address",
+"src": "rehab_ddis_center",
+"checked": "2026-10-03"
+},
+{
+"n": "茨城県医療的ケア児支援センターみちしるべ",
+"a": null,
+"t": null,
+"url": "https://www.careji-michishirube.org/",
+"cat": "iryocare_center",
+"lat": null,
+"lng": null,
+"prec": null,
+"src": "cfa_iryocare_center",
+"checked": "2026-10-03"
+}
+]

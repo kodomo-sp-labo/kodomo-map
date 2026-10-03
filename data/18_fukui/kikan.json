@@ -1,0 +1,73 @@
+[
+{
+"n": "児童・女性相談所",
+"a": "福井県福井市木田3-701",
+"t": "0776-35-1581",
+"cat": "jiso",
+"lat": 36.043877,
+"lng": 136.222198,
+"prec": "address",
+"src": "cfa_jisou_ichiran",
+"checked": "2026-10-03"
+},
+{
+"n": "敦賀児童相談所",
+"a": "福井県敦賀市角鹿町1-32",
+"t": "0770-22-0858",
+"cat": "jiso",
+"lat": 35.655369,
+"lng": 136.077438,
+"prec": "address",
+"src": "cfa_jisou_ichiran",
+"checked": "2026-10-03"
+},
+{
+"n": "福井県発達障害児者支援センター「スクラム福井」嶺南窓口（敦賀市）",
+"a": "福井県敦賀市櫛川41号2番地の3",
+"t": "0770-21-2346",
+"url": "https://kjinkai.jp/facility/scrum-fukui/",
+"cat": "hattatsu_center",
+"lat": 35.655437,
+"lng": 136.04393,
+"prec": "address",
+"src": "rehab_ddis_center",
+"checked": "2026-10-03"
+},
+{
+"n": "福井県発達障害児者支援センター「スクラム福井」（福​井市）",
+"a": "福井県福井市光陽2-3-36　福井県総合福祉相談所内",
+"t": "0776-22-0370",
+"url": "https://kjinkai.jp/facility/scrum-fukui/",
+"cat": "hattatsu_center",
+"lat": 36.068081,
+"lng": 136.198563,
+"prec": "address",
+"src": "rehab_ddis_center",
+"checked": "2026-10-03"
+},
+{
+"n": "福井県発達障害児者支援センター「スクラム福井」奥越窓口（勝山市）",
+"a": "福井県勝山市荒土町松田8号31番地（社会福祉法人 大日園内）",
+"t": "0779-89-3210",
+"url": "https://kjinkai.jp/facility/scrum-fukui/",
+"cat": "hattatsu_center",
+"lat": 36.080124,
+"lng": 136.475586,
+"prec": "address",
+"src": "rehab_ddis_center",
+"checked": "2026-10-03"
+},
+{
+"n": "福井県医療的ケア児者支援センター",
+"a": null,
+"t": null,
+"url": "https://fukuiicare.wixsite.com/icarecenter",
+"cat": "iryocare_center",
+"lat": null,
+"lng": null,
+"prec": null,
+"src": "cfa_iryocare_center",
+"checked": "2026-10-03",
+"rem": "【嶺南相談拠点】二州相談拠点、若狭相談拠点"
+}
+]

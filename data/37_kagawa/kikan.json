@@ -1,0 +1,48 @@
+[
+{
+"n": "子ども女性相談センター",
+"a": "香川県高松市西宝町2丁目6-32",
+"t": "087-862-8861",
+"cat": "jiso",
+"lat": 34.34082,
+"lng": 134.029663,
+"prec": "address",
+"src": "cfa_jisou_ichiran",
+"checked": "2026-10-03"
+},
+{
+"n": "西部子ども相談センター",
+"a": "香川県丸亀市土器町東8丁目526",
+"t": "0877-24-3173",
+"cat": "jiso",
+"lat": 34.300987,
+"lng": 133.805099,
+"prec": "address",
+"src": "cfa_jisou_ichiran",
+"checked": "2026-10-03"
+},
+{
+"n": "香川県発達障害者支援センター「アルプスかがわ」",
+"a": "香川県高松市田村町1114　かがわ総合リハビリテーションセンター内",
+"t": "087-866-6001",
+"url": "http://www.kagawa-reha.net/alps.html",
+"cat": "hattatsu_center",
+"lat": 34.30674,
+"lng": 134.030365,
+"prec": "address",
+"src": "rehab_ddis_center",
+"checked": "2026-10-03"
+},
+{
+"n": "香川県医療的ケア児等支援センターソダテル",
+"a": null,
+"t": null,
+"url": "https://raiseup.or.jp/",
+"cat": "iryocare_center",
+"lat": null,
+"lng": null,
+"prec": null,
+"src": "cfa_iryocare_center",
+"checked": "2026-10-03"
+}
+]
