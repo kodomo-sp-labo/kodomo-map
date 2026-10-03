@@ -43,6 +43,7 @@ kodomo-concerns.json       困りごと→資源の対応データ
 parent_guide_*.html        保護者向けガイド（不登校・発達）
 data/<都道府県コード>_<ローマ字>/   都道府県別データ（例: data/33_okayama/）
   manabi.json              ①学び・出席扱い系
+  kyoiku_shien.json        ①学び・出席扱い系（都道府県が公表する教育支援センター等の一覧。収録は一部の県）
   ibasho.json              ②居場所（子ども食堂・プレーパーク等）
   jidoukan.json            ②居場所／④親家族（児童館・児童遊園）
   sodan.json               ③相談・伴走系（市区町村の相談窓口）

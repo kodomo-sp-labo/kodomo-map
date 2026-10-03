@@ -223,6 +223,7 @@ if ('serviceWorker' in navigator) {
     <span class="dot" style="--dc:var(--c1)" id="lg-manabi-public">岡山市児童生徒支援教室</span>
     <span class="dot" style="--dc:var(--c2)" id="lg-manabi-free">民間フリースクール等</span>
     <span class="dot" style="--dc:var(--c1p)" id="lg-manabi-boarding">全寮制高校（不登校生対象・独自調査）</span>
+    <span class="dot" style="--dc:#B7791F;display:none" id="lg-manabi-kyoiku">教育支援センター等（県の一覧に掲載）</span>
     <span class="badge b-pref" id="lg-manabi-badge-pref">県HP掲載</span>
     <span class="badge b-council" id="lg-manabi-badge-council">岡山フリースクール協議会加盟</span>
     <label style="margin-left:auto;display:flex;align-items:center;gap:4px;cursor:pointer">
@@ -238,6 +239,8 @@ if ('serviceWorker' in navigator) {
       <dd>不登校のこどもの実態に合わせた特別の教育課程（授業の時間数や内容）を組むことができる学校で、文部科学大臣が指定します。2023年8月に「不登校特例校」から名称が変わりました。</dd>
       <dt data-for="lg-manabi-public">岡山市児童生徒支援教室</dt>
       <dd>岡山市教育委員会が設ける、不登校（その傾向を含む）の小中学生のための教室です。学習支援や体験活動を行います。教育委員会などの公的な施設で相談・指導を受けた日は、条件を満たせば校長の判断で在籍校の出席扱いになることがあります。</dd>
+      <dt data-for="lg-manabi-kyoiku">教育支援センター等</dt>
+      <dd>市町村や県の教育委員会が設ける、不登校のこどもの学習や相談、居場所の場です。県の一覧には、相談だけの教育相談室、学校の中の別室（校内教育支援センター）、オンラインの教室なども含まれます。教育委員会などの公的な施設で相談・指導を受けた日は、条件を満たせば校長の判断で在籍校の出席扱いになることがあります。</dd>
       <dt data-for="lg-manabi-free">民間フリースクール等</dt>
       <dd>民間が運営する、不登校のこどもの学びや居場所の場です。公的な定義や全国の名簿はなく、ここには自治体などが公表した一覧で確認できたものを載せています。</dd>
       <dt data-for="lg-manabi-boarding">全寮制高校（独自調査）</dt>
@@ -988,7 +991,7 @@ function showUnavailable(panelId, mapDivId, listId, noticeId){
   }
   // 同じ理由（前の地域のデータが検索ボックス経由で再表示されるのを防ぐ）で、
   // 検索用のcurrent*配列も地域切り替え時にリセットする。
-  if(panelId === 'panel-manabi') currentManabiData = [];
+  if(panelId === 'panel-manabi'){ currentManabiData = []; currentKyoiku = []; }
   if(panelId === 'panel-sodan'){ currentSodan = []; currentKikan = []; }
   if(panelId === 'panel-hattatsu') currentRyoikuData = [];
   if(panelId === 'panel-ibasho'){ currentIbashoJidoukan = []; currentIbashoPlaces = []; }
@@ -1201,6 +1204,7 @@ let currentRegionCenter = [34.661739, 133.935028];  // loadRegion()でregion.cen
    「自分が呼ばれた時点の世代がまだ最新か」を確認してから状態を書き換える。 */
 let loadSeq = 0;
 let currentManabiData = [];
+let currentKyoiku = [];   // ①の教育支援センター等（kyoiku_shien.json。無い県は空）
 let currentIbashoJidoukan = [];
 let currentIbashoPlaces = [];
 let currentKyoten = [];
@@ -1208,7 +1212,25 @@ let currentOyanokai = [];
 let currentSodan = [];
 
 /* ============ ①学び ============ */
-function renderManabi(source){
+/* ①の教育支援センター等（data/<県>/kyoiku_shien.json）。kindは表示名だけ（色は1色）。 */
+const KYOIKU_KIND = {center:'教育支援センター', soudan:'教育相談室', kounai:'校内教育支援センター', online:'オンライン', ibasho:'居場所'};
+const KYOIKU_COLOR = '#B7791F';   // 凡例 lg-manabi-kyoiku と同じ値を保つ
+function kyoikuKindHtml(r){ return (r.kind && KYOIKU_KIND[r.kind]) ? '<span class="kw-pending">' + escHtml(KYOIKU_KIND[r.kind]) + '</span>' : ''; }
+// 住所・電話・対象・設置自治体・備考・公式ページ・位置精度（値があるものだけ。ピンとカード共通）
+function kyoikuBodyHtml(r){
+  let out = '';
+  if(r.a) out += '<div class="addr">' + escHtml(r.a) + '</div>';
+  if(r.t) out += '<div class="tel">' + escHtml(r.t) + '</div>';
+  if(r.target) out += '<div class="addr">対象：' + escHtml(r.target) + '</div>';
+  if(r.muni) out += '<div class="addr">設置：' + escHtml(r.muni) + '</div>';
+  if(r.rem) out += '<div class="addr">' + escHtml(r.rem) + '</div>';
+  if(r.url) out += '<div class="addr"><a href="' + escAttr(r.url) + '" target="_blank" rel="noopener" onclick="event.stopPropagation()">公式ページ（外部リンク）</a></div>';
+  if(r.lat == null || r.lng == null) out += '<div class="addr"><span class="kw-pending">地図には表示していません（位置情報なし）</span></div>';
+  else if(PREC_LABEL[r.prec]) out += '<div class="addr"><span class="kw-pending">' + PREC_LABEL[r.prec] + '</span></div>';
+  return out;
+}
+function renderManabi(source, kyoiku){
+  currentKyoiku = Array.isArray(kyoiku) ? kyoiku : [];
   currentManabiData = source.filter(function(f){ return f.category !== 'consult'; });
   mapManabi.eachLayer(function(l){ if(l instanceof L.CircleMarker) mapManabi.removeLayer(l); });
   const listEl = document.getElementById('list-manabi');
@@ -1227,6 +1249,16 @@ function renderManabi(source){
     m.on('mouseout',  function(){ m.setStyle({radius:9,  weight:2}); });
     f._marker = m; markers.push(m);
   });
+  currentKyoiku.filter(function(r){ return r.lat != null && r.lng != null; }).forEach(function(r){
+    const kn = (r.kind && KYOIKU_KIND[r.kind]) ? '（' + KYOIKU_KIND[r.kind] + '）' : '';
+    const m = L.circleMarker([r.lat,r.lng],{radius:8,color:'#fff',weight:2,fillColor:KYOIKU_COLOR,fillOpacity:.95}).addTo(mapManabi);
+    m.bindTooltip('<strong>'+escHtml(r.n)+'</strong><br>教育支援センター等'+escHtml(kn)+(r.a ? '<br>'+escHtml(r.a) : ''),
+      {direction:'top', offset:[0,-10], opacity:.95, className:'facility-tip'});
+    m.bindPopup('<div class="popup-name">'+escHtml(r.n)+'</div><div class="popup-body">教育支援センター等'+escHtml(kn)+kyoikuBodyHtml(r)+'</div>');
+    m.on('mouseover', function(){ m.setStyle({radius:12, weight:3}); });
+    m.on('mouseout',  function(){ m.setStyle({radius:8,  weight:2}); });
+    r._marker = m; markers.push(m);
+  });
   if(markers.length){ const b = L.featureGroup(markers).getBounds().pad(0.15); lastBounds.manabi = prefBounds.manabi = b; boundsDirty.manabi = true; mapManabi.fitBounds(b, {maxZoom:FIT_MAX_ZOOM}); }
   else { const b = L.latLng(currentRegionCenter).toBounds(80000); lastBounds.manabi = prefBounds.manabi = b; boundsDirty.manabi = true; mapManabi.fitBounds(b, {maxZoom:FIT_MAX_ZOOM}); }
 
@@ -1238,7 +1270,8 @@ function renderManabiList(){
   listEl.innerHTML = '';
   const groups = {};
   currentManabiData.filter(inMuni).forEach(function(f){ (groups[f.area]=groups[f.area]||[]).push(f); });
-  if(currentMuni && !Object.keys(groups).length){
+  const kyList = currentKyoiku.filter(inMuni);
+  if(currentMuni && !Object.keys(groups).length && !kyList.length){
     listEl.innerHTML = '<p class="notice" style="padding:8px 0">この市区町村に該当する施設はありません。</p>';
     return;
   }
@@ -1256,6 +1289,15 @@ function renderManabiList(){
       listEl.appendChild(div);
     });
   });
+  if(kyList.length){
+    const h=document.createElement('div'); h.className='area-head'; h.textContent='教育支援センター等（県の一覧に掲載）'; listEl.appendChild(h);
+    kyList.forEach(function(r){
+      const div=document.createElement('div'); div.className='card'+(r._marker ? '' : ' no-pin');
+      div.innerHTML = '<div class="cat">教育支援センター等'+(kyoikuKindHtml(r) ? '　'+kyoikuKindHtml(r) : '')+'</div><h2>'+escHtml(r.n)+'</h2>'+kyoikuBodyHtml(r);
+      if(r._marker){ div.addEventListener('click', function(){ mapManabi.setView([r.lat,r.lng],14); r._marker.openPopup(); }); }
+      listEl.appendChild(div);
+    });
+  }
 }
 
 /* ============ ②居場所 ============ */
@@ -1609,11 +1651,13 @@ function loadRegion(key){
 
   // ①学び
   if(avail.manabi){
-    fetchJson(region.base + 'manabi.json').then(function(data){
+    // kyoiku_shien.json は無い県もある（無ければ0件扱い）
+    Promise.all([fetchJson(region.base + 'manabi.json'), fetchJson(region.base + 'kyoiku_shien.json').catch(function(){ return []; })]).then(function(res){
       if(seq !== loadSeq) return;  // 別の地域へ切り替え済みなら、この古い応答は無視する
-      renderManabi(data);
-      updateManabiNotice(key, data);
-      currentSrcIds.manabi = collectSrcIds(data);
+      const data = res[0], kyoiku = Array.isArray(res[1]) ? res[1] : [];
+      renderManabi(data, kyoiku);
+      updateManabiNotice(key, data, kyoiku);
+      currentSrcIds.manabi = collectSrcIds(data, kyoiku);
       srcLoaded.manabi = true;
       renderFooterSources(region);
       onTabDataLoaded('manabi');
@@ -1833,15 +1877,23 @@ function updateManabiLegend(key){
     });
   const freeEl = document.getElementById('lg-manabi-free');
   if(freeEl) freeEl.style.display = 'none';  // データ確定まで一旦隠す
+  const kyEl = document.getElementById('lg-manabi-kyoiku');
+  if(kyEl) kyEl.style.display = 'none';
 }
 
-function updateManabiNotice(key, data){
+function updateManabiNotice(key, data, kyoiku){
+  kyoiku = kyoiku || [];
   const hasFreeschool = data.some(function(f){ return f.category === 'freeschool'; });
   const hasBoarding = data.some(function(f){ return f.category === 'boarding_hs'; });
   const freeEl = document.getElementById('lg-manabi-free');
   if(freeEl) freeEl.style.display = hasFreeschool ? '' : 'none';
   const boardingEl = document.getElementById('lg-manabi-boarding');
   if(boardingEl) boardingEl.style.display = hasBoarding ? '' : 'none';
+  const kyEl = document.getElementById('lg-manabi-kyoiku');
+  if(kyEl){
+    kyEl.style.display = kyoiku.length ? '' : 'none';
+    kyEl.textContent = '教育支援センター等（県の一覧に掲載・' + kyoiku.length + '件）';
+  }
   const noticeEl = document.getElementById('notice-manabi');
   if(noticeEl){
     noticeEl.style.display = '';
@@ -1850,11 +1902,18 @@ function updateManabiNotice(key, data){
     } else if(hasFreeschool){
       noticeEl.textContent = '文部科学省「学びの多様化学校の設置者一覧」に加え、都道府県教育委員会等が公表する民間フリースクール等の一覧を収録しています。';
     } else {
-      noticeEl.textContent = '文部科学省「学びの多様化学校の設置者一覧」に掲載されている学校のみを収録しています（民間フリースクール等・自治体独自の支援教室は今後の調査対象です）。';
+      // 教育支援センター等を収録した県では「自治体独自の支援教室は今後の調査対象」と書かない（事実と矛盾するため）
+      noticeEl.textContent = kyoiku.length
+        ? '文部科学省「学びの多様化学校の設置者一覧」を収録しています（民間フリースクール等は今後の調査対象です）。'
+        : '文部科学省「学びの多様化学校の設置者一覧」に掲載されている学校のみを収録しています（民間フリースクール等・自治体独自の支援教室は今後の調査対象です）。';
+    }
+    if(kyoiku.length){
+      noticeEl.textContent += '　教育支援センター等' + kyoiku.length + '件（県の一覧に掲載されたもの）を併せて表示しています。一覧に載っていない市町村にもセンターがある場合があります。県によって一覧に載せている施設の範囲が違います（ページ下部の出典参照）。';
     }
   }
   if(manabiEmptyNote){
-    if(data.length === 0){
+    // 教育支援センター等のピンがある県では、地図の上に「学校は現在ありません」を重ねない
+    if(data.length === 0 && !kyoiku.length){
       manabiEmptyNote.textContent = '文部科学省が指定する学びの多様化学校は現在ありません（フリースクール等の民間情報は今後の調査対象です）。';
       manabiEmptyNote.style.display = '';
     } else {
@@ -1964,7 +2023,7 @@ const FALLBACK_DATASET = {manabi:'manabi', sodan:'sodan', hattatsu:'hattatsu'};
    2026-07-26まで④拠点で使っているのに小学校区界のフッターに表示していた
    （小学校区界のポリゴンはA27そのもので、ジオコーディングしていない）。 */
 const TAB_DATASETS = {
-  manabi: ['manabi'], ibasho: ['ibasho','jidoukan'], sodan: ['sodan','kikan'],
+  manabi: ['manabi','kyoiku_shien'], ibasho: ['ibasho','jidoukan'], sodan: ['sodan','kikan'],
   oyakazoku: ['kyoten','jidoukan','oyanokai'], hattatsu: ['hattatsu','shogaiji_sodan'], districts: ['districts']
 };
 function geoSourceIds(tab){
@@ -2231,7 +2290,7 @@ function inMuni(r){
   return new RegExp('^(?:[^市区町村]{1,5}郡)?' + escRe(currentMuni)).test(a);
 }
 function muniRecords(tab){
-  if(tab === 'manabi') return currentManabiData;
+  if(tab === 'manabi') return currentManabiData.concat(currentKyoiku);
   if(tab === 'ibasho') return IBASHO_MAP_ENABLED ? currentIbashoJidoukan.concat(currentIbashoPlaces) : currentIbashoJidoukan;
   // ③は市町村の窓口だけ（専門機関・県単位の窓口は県全域の資源のため、選択肢・表示範囲の計算に入れない）
   if(tab === 'sodan') return currentSodan;
