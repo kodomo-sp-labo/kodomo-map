@@ -223,7 +223,7 @@ if ('serviceWorker' in navigator) {
     <span class="dot" style="--dc:var(--c1)" id="lg-manabi-public">岡山市児童生徒支援教室</span>
     <span class="dot" style="--dc:var(--c2)" id="lg-manabi-free">民間フリースクール等</span>
     <span class="dot" style="--dc:var(--c1p)" id="lg-manabi-boarding">全寮制高校（不登校生対象・独自調査）</span>
-    <span class="dot" style="--dc:#B7791F;display:none" id="lg-manabi-kyoiku">教育支援センター等（県の一覧に掲載）</span>
+    <span class="dot" style="--dc:#B7791F;display:none" id="lg-manabi-kyoiku">教育支援センター等（自治体の資料に掲載）</span>
     <span class="badge b-pref" id="lg-manabi-badge-pref">県HP掲載</span>
     <span class="badge b-council" id="lg-manabi-badge-council">岡山フリースクール協議会加盟</span>
     <label style="margin-left:auto;display:flex;align-items:center;gap:4px;cursor:pointer">
@@ -240,7 +240,7 @@ if ('serviceWorker' in navigator) {
       <dt data-for="lg-manabi-public">岡山市児童生徒支援教室</dt>
       <dd>岡山市教育委員会が設ける、不登校（その傾向を含む）の小中学生のための教室です。学習支援や体験活動を行います。教育委員会などの公的な施設で相談・指導を受けた日は、条件を満たせば校長の判断で在籍校の出席扱いになることがあります。</dd>
       <dt data-for="lg-manabi-kyoiku">教育支援センター等</dt>
-      <dd>市町村や県の教育委員会が設ける、不登校のこどもの学習や相談、居場所の場です。県の一覧には、相談だけの教育相談室、学校の中の別室（校内教育支援センター）、オンラインの教室なども含まれます。教育委員会などの公的な施設で相談・指導を受けた日は、条件を満たせば校長の判断で在籍校の出席扱いになることがあります。</dd>
+      <dd>市町村や県の教育委員会が設ける、不登校のこどもの学習や相談、居場所の場です。自治体の資料には、相談だけの教育相談室、学校の中の別室（校内教育支援センター）、オンラインの教室も含まれ、県によっては子ども家庭支援センターや保健所などの相談窓口も載っています。教育委員会などの公的な施設で相談・指導を受けた日は、条件を満たせば校長の判断で在籍校の出席扱いになることがあります。</dd>
       <dt data-for="lg-manabi-free">民間フリースクール等</dt>
       <dd>民間が運営する、不登校のこどもの学びや居場所の場です。公的な定義や全国の名簿はなく、ここには自治体などが公表した一覧で確認できたものを載せています。</dd>
       <dt data-for="lg-manabi-boarding">全寮制高校（独自調査）</dt>
@@ -1290,7 +1290,7 @@ function renderManabiList(){
     });
   });
   if(kyList.length){
-    const h=document.createElement('div'); h.className='area-head'; h.textContent='教育支援センター等（県の一覧に掲載）'; listEl.appendChild(h);
+    const h=document.createElement('div'); h.className='area-head'; h.textContent='教育支援センター等（自治体の資料に掲載）'; listEl.appendChild(h);
     kyList.forEach(function(r){
       const div=document.createElement('div'); div.className='card'+(r._marker ? '' : ' no-pin');
       div.innerHTML = '<div class="cat">教育支援センター等'+(kyoikuKindHtml(r) ? '　'+kyoikuKindHtml(r) : '')+'</div><h2>'+escHtml(r.n)+'</h2>'+kyoikuBodyHtml(r);
@@ -1892,7 +1892,7 @@ function updateManabiNotice(key, data, kyoiku){
   const kyEl = document.getElementById('lg-manabi-kyoiku');
   if(kyEl){
     kyEl.style.display = kyoiku.length ? '' : 'none';
-    kyEl.textContent = '教育支援センター等（県の一覧に掲載・' + kyoiku.length + '件）';
+    kyEl.textContent = '教育支援センター等（自治体の資料に掲載・' + kyoiku.length + '件）';
   }
   const noticeEl = document.getElementById('notice-manabi');
   if(noticeEl){
@@ -1908,7 +1908,7 @@ function updateManabiNotice(key, data, kyoiku){
         : '文部科学省「学びの多様化学校の設置者一覧」に掲載されている学校のみを収録しています（民間フリースクール等・自治体独自の支援教室は今後の調査対象です）。';
     }
     if(kyoiku.length){
-      noticeEl.textContent += '　教育支援センター等' + kyoiku.length + '件（県の一覧に掲載されたもの）を併せて表示しています。一覧に載っていない市町村にもセンターがある場合があります。県によって一覧に載せている施設の範囲が違います（ページ下部の出典参照）。';
+      noticeEl.textContent += '　教育支援センター等' + kyoiku.length + '件（県や市町村の資料に掲載されたもの）を併せて表示しています。資料に載っていない市町村にもセンターがある場合があります。県によって載せている施設の範囲が違います（ページ下部の出典参照）。';
     }
   }
   if(manabiEmptyNote){
