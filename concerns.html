@@ -61,6 +61,9 @@
   .hotline .meta{font-size:.78rem;color:var(--sub);margin-top:2px}
   .hotline .note{font-size:.82rem;margin-top:6px;line-height:1.6}
   .family-note{background:#EFF4EE;border-radius:8px;padding:8px 12px;font-size:.82rem;margin-top:8px}
+  .family-note p{margin:6px 0}
+  .fn-steps{margin:6px 0;padding-left:1.4em}
+  .fn-steps li{margin:6px 0;line-height:1.7}
   /* concern単位の出典（supporter_sources）。親要素が .block.supporter-only のため、
      家族モードでの非表示（body.mode-family .supporter-only）と印刷時の非表示
      （at-media print の .supporter-only）は既存ルールでそのまま効く。 */
@@ -159,7 +162,9 @@
 (function(){
   'use strict';
   let DATA = null;
-  let mode = 'supporter'; // 'supporter' | 'family'（localStorageには保存しない）
+  // 'supporter' | 'family'（localStorageには保存しない）。URLの ?mode=family|supporter があればそれで開始。無ければ支援者向け。
+  const _m0 = new URLSearchParams(location.search).get('mode');
+  let mode = (_m0 === 'family' || _m0 === 'supporter') ? _m0 : 'supporter';
 
   const listView = document.getElementById('list-view');
   const resultView = document.getElementById('result-view');
@@ -171,7 +176,14 @@
     });
   }
 
-  function setMode(m){
+  function syncModeToUrl(){
+    // 共有・再読込でモードが保たれるよう、URLのmodeを更新（履歴は増やさない）
+    const params = new URLSearchParams(location.search);
+    params.set('mode', mode);
+    history.replaceState(history.state, '', location.pathname + '?' + params.toString());
+  }
+
+  function setMode(m, fromUser){
     mode = m;
     document.body.classList.toggle('mode-family', m === 'family');
     document.getElementById('mode-supporter').classList.toggle('active', m === 'supporter');
@@ -179,10 +191,11 @@
     document.getElementById('mode-family').classList.toggle('active', m === 'family');
     document.getElementById('mode-family').setAttribute('aria-pressed', m === 'family');
     document.getElementById('privacy-note').textContent = DATA ? DATA.meta.audience_modes[m] : '';
+    if(fromUser) syncModeToUrl();
     render();
   }
-  document.getElementById('mode-supporter').addEventListener('click', function(){ setMode('supporter'); });
-  document.getElementById('mode-family').addEventListener('click', function(){ setMode('family'); });
+  document.getElementById('mode-supporter').addEventListener('click', function(){ setMode('supporter', true); });
+  document.getElementById('mode-family').addEventListener('click', function(){ setMode('family', true); });
 
   function conceptLabel(c){ return mode === 'family' ? c.label_family : c.label_supporter; }
 
@@ -235,9 +248,28 @@
     window.scrollTo(0,0);
   }
   function goToList(){
-    history.pushState({}, '', location.pathname);
+    const params = new URLSearchParams(location.search);
+    params.delete('id');
+    const qs = params.toString();
+    history.pushState({}, '', location.pathname + (qs ? '?' + qs : ''));
     render();
     window.scrollTo(0,0);
+  }
+
+  /* family_note は文字列、または {lead, steps:[{title,text}], tail} */
+  function renderFamilyNote(n){
+    if(typeof n === 'string') return escHtml(n);
+    let h = '';
+    if(n.lead) h += '<p class="fn-lead">' + escHtml(n.lead) + '</p>';
+    if(n.steps && n.steps.length){
+      h += '<ol class="fn-steps">';
+      n.steps.forEach(function(s){
+        h += '<li><strong>' + escHtml(s.title) + '</strong><br>' + escHtml(s.text) + '</li>';
+      });
+      h += '</ol>';
+    }
+    if(n.tail) h += '<p class="fn-tail">' + escHtml(n.tail) + '</p>';
+    return h;
   }
 
   /* ============ 結果画面 ============ */
@@ -385,7 +417,7 @@
       + '</h2>';
     (c.safety_first || []).forEach(function(hid){ html += renderHotline(hid); });
     if(mode === 'family' && c.family_note){
-      html += '<div class="family-note">' + escHtml(c.family_note) + '</div>';
+      html += '<div class="family-note">' + renderFamilyNote(c.family_note) + '</div>';
     }
     html += '</section>';
 
@@ -469,8 +501,7 @@
     return r.json();
   }).then(function(json){
     DATA = json;
-    document.getElementById('privacy-note').textContent = DATA.meta.audience_modes.supporter;
-    render();
+    setMode(mode);
   }).catch(function(){
     listView.innerHTML = '<p>データの読み込みに失敗しました。時間をおいて再度お試しください。</p>';
   });

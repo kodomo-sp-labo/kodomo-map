@@ -213,7 +213,7 @@ if ('serviceWorker' in navigator) {
 
 <!-- ============ ①学び ============ -->
 <div class="tab-panel active" id="panel-manabi">
-  <p class="first-step"><strong>はじめての方へ：</strong>学校に行きづらいときは、まずかかりつけの小児科や、市区町村の教育相談の窓口に話してみてください。くわしくは<a href="parent_guide_futoko.html">学校に行きづらいと感じたら</a>へ。</p>
+  <p class="first-step"><strong>はじめての方へ：</strong>学校に行きづらいときは、まず担任の先生やスクールカウンセラーに相談し、何につまずいているのかを一緒に整理するところから始めてみてください。くわしくは「困りごとから探す」の<a href="concerns.html?id=c_school_refusal&amp;mode=family">学校に行けない／行きたがらない</a>へ。</p>
   <div class="legend">
     <!-- 「岡山市児童生徒支援教室」「協議会加盟」バッジは岡山県固有の制度・データ。
          「民間フリースクール等」は東京都・北海道等でも収録済みのため実データで出し分ける。
@@ -260,7 +260,7 @@ if ('serviceWorker' in navigator) {
 
 <!-- ============ ②居場所 ============ -->
 <div class="tab-panel" id="panel-ibasho">
-  <p class="first-step"><strong>はじめての方へ：</strong>児童館・児童センターは、18歳未満のこどもなら自由に来て過ごせます。利用の前に、各施設へご確認ください。何を探せばよいか迷うときは<a href="concerns.html">困りごとから探す</a>へ。</p>
+  <p class="first-step"><strong>はじめての方へ：</strong>児童館・児童センターは、18歳未満のこどもなら自由に来て過ごせます。利用の前に、各施設へご確認ください。何を探せばよいか迷うときは<a href="concerns.html?mode=family">困りごとから探す</a>へ。</p>
   <div class="legend">
     <!-- 件数は実データから算出してJSが埋める（updateIbashoLegend/updateOyaLegend）。
          静的に書くと実データと乖離する（例: ④が「58件」のまま実際は39件だった）。 -->
@@ -292,7 +292,7 @@ if ('serviceWorker' in navigator) {
 
 <!-- ============ ③相談 ============ -->
 <div class="tab-panel" id="panel-sodan">
-  <p class="first-step"><strong>はじめての方へ：</strong>どこに相談すればよいか迷うときは、まずお住まいの市区町村の相談窓口へ。こども自身の悩みも、子育ての悩みも相談できます。学校のことは<a href="parent_guide_futoko.html">学校に行きづらいと感じたら</a>、発達のことは<a href="parent_guide_hattatsu.html">お子さんの発達が気になったら</a>をご覧ください。</p>
+  <p class="first-step"><strong>はじめての方へ：</strong>どこに相談すればよいか迷うときは、まずお住まいの市区町村の相談窓口へ。こども自身の悩みも、子育ての悩みも相談できます。学校のことは<a href="concerns.html?id=c_school_refusal&amp;mode=family">学校に行けない／行きたがらない</a>、発達のことは<a href="concerns.html?id=c_dev_concern&amp;mode=family">ことばや発達がゆっくりで心配</a>をご覧ください。</p>
   <div class="legend">
     <!-- この2つはマーカー色が同じ#8A4B2B（--c3）で、実際には色ではなく形で区別している
          （個別ピン=単独の丸ピン／市町村窓口=件数入りの可変サイズ円）。実態と乖離させない
@@ -339,7 +339,7 @@ if ('serviceWorker' in navigator) {
 
 <!-- ============ ④親家族 ============ -->
 <div class="tab-panel" id="panel-oyakazoku">
-  <p class="first-step"><strong>はじめての方へ：</strong>子育ての不安や悩みは、地域子育て支援拠点や児童館（ともに子育て支援を行っています）で相談できます。同じ立場の保護者と話したいときは、親の会も探せます。どこに相談すればよいか迷うときは<a href="concerns.html">困りごとから探す</a>か、<a href="#" class="go-tab" data-tab="sodan">③相談タブ</a>へ。</p>
+  <p class="first-step"><strong>はじめての方へ：</strong>子育ての不安や悩みは、地域子育て支援拠点や児童館（ともに子育て支援を行っています）で相談できます。同じ立場の保護者と話したいときは、親の会も探せます。どこに相談すればよいか迷うときは<a href="concerns.html?mode=family">困りごとから探す</a>か、<a href="#" class="go-tab" data-tab="sodan">③相談タブ</a>へ。</p>
   <div class="legend">
     <span class="dot" style="--dc:var(--c4)" id="lg-oya-1">地域子育て支援拠点（<span id="lg-oya-1-n">-</span>）</span>
     <span class="dot" style="--dc:var(--c1b)" id="lg-oya-3">児童館（②居場所と兼用・<span id="lg-oya-3-n">-</span>）</span>
@@ -377,7 +377,7 @@ if ('serviceWorker' in navigator) {
 
 <!-- ============ ⑤発達 ============ -->
 <div class="tab-panel" id="panel-hattatsu">
-  <p class="first-step"><strong>はじめての方へ：</strong>事業所を利用するには、まずお住まいの市区町村の窓口で手続き（受給者証）が必要です。どこから始めるかは<a href="parent_guide_hattatsu.html">お子さんの発達が気になったら</a>をご覧ください（窓口は<a href="#" class="go-tab" data-tab="sodan">③相談タブ</a>で探せます）。</p>
+  <p class="first-step"><strong>はじめての方へ：</strong>事業所を利用するには、まずお住まいの市区町村の窓口で手続き（受給者証）が必要です。お子さんの発達が気になるときの始め方は、<a href="concerns.html?id=c_dev_concern&amp;mode=family">ことばや発達がゆっくりで心配</a>をご覧ください（窓口は<a href="#" class="go-tab" data-tab="sodan">③相談タブ</a>で探せます）。</p>
   <div class="legend">
     <span class="dot" style="--dc:var(--c5jidou)" id="lg-h-1">児童発達支援（単独）</span>
     <span class="dot" style="--dc:var(--c5both)" id="lg-h-6">児童発達支援＋放課後等デイ併設</span>

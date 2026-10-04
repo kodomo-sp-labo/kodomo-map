@@ -40,7 +40,7 @@
 index.html                 地図本体（単一ページアプリケーション）
 concerns.html              困りごとから資源を探すページ
 kodomo-concerns.json       困りごと→資源の対応データ
-parent_guide_*.html        保護者向けガイド（不登校・発達）
+parent_guide_*.html        旧・保護者向けガイド（廃止。concerns.html?...&mode=family へ転送するだけのページ）
 data/<都道府県コード>_<ローマ字>/   都道府県別データ（例: data/33_okayama/）
   manabi.json              ①学び・出席扱い系
   kyoiku_shien.json        ①学び・出席扱い系（都道府県が公表する教育支援センター等の一覧。収録は一部の県）
