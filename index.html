@@ -146,6 +146,8 @@ if ('serviceWorker' in navigator) {
   .facility-tip{font-family:'BIZ UDPGothic','Hiragino Sans',sans-serif;font-size:.75rem;line-height:1.5;border:1px solid var(--line);box-shadow:0 2px 6px rgba(0,0,0,.12)}
   .area-marker{border-radius:50%;display:flex;align-items:center;justify-content:center;color:#fff;font-weight:700;box-shadow:0 1px 4px rgba(0,0,0,.35);font-family:'BIZ UDPGothic',sans-serif}
   .notice{font-size:.72rem;color:var(--sub);padding:8px 24px 0;background:var(--panel)}
+  .first-step{font-size:.78rem;line-height:1.7;color:var(--ink);padding:8px 24px 2px;background:var(--panel)}
+  .first-step a{text-decoration:underline}
   /* ⑤障害児相談支援の案内。相談支援事業所は受付を止めていることがあり、手続きも市町村で違うため、
      家族が空振りして行き詰まらないよう、地図の手前に「まず市町村の窓口へ」を常に見える形で置く。 */
   .sodan-guide{margin:8px 24px 0;padding:10px 14px;border-left:4px solid var(--c5sodan);background:#FBF3F8;
@@ -211,6 +213,7 @@ if ('serviceWorker' in navigator) {
 
 <!-- ============ ①学び ============ -->
 <div class="tab-panel active" id="panel-manabi">
+  <p class="first-step"><strong>はじめての方へ：</strong>学校に行きづらいときは、まずかかりつけの小児科や、市区町村の教育相談の窓口に話してみてください。くわしくは<a href="parent_guide_futoko.html">学校に行きづらいと感じたら</a>へ。</p>
   <div class="legend">
     <!-- 「岡山市児童生徒支援教室」「協議会加盟」バッジは岡山県固有の制度・データ。
          「民間フリースクール等」は東京都・北海道等でも収録済みのため実データで出し分ける。
@@ -257,6 +260,7 @@ if ('serviceWorker' in navigator) {
 
 <!-- ============ ②居場所 ============ -->
 <div class="tab-panel" id="panel-ibasho">
+  <p class="first-step"><strong>はじめての方へ：</strong>児童館・児童センターは、18歳未満のこどもなら自由に来て過ごせます。利用の前に、各施設へご確認ください。何を探せばよいか迷うときは<a href="concerns.html">困りごとから探す</a>へ。</p>
   <div class="legend">
     <!-- 件数は実データから算出してJSが埋める（updateIbashoLegend/updateOyaLegend）。
          静的に書くと実データと乖離する（例: ④が「58件」のまま実際は39件だった）。 -->
@@ -288,6 +292,7 @@ if ('serviceWorker' in navigator) {
 
 <!-- ============ ③相談 ============ -->
 <div class="tab-panel" id="panel-sodan">
+  <p class="first-step"><strong>はじめての方へ：</strong>どこに相談すればよいか迷うときは、まずお住まいの市区町村の相談窓口へ。こども自身の悩みも、子育ての悩みも相談できます。学校のことは<a href="parent_guide_futoko.html">学校に行きづらいと感じたら</a>、発達のことは<a href="parent_guide_hattatsu.html">お子さんの発達が気になったら</a>をご覧ください。</p>
   <div class="legend">
     <!-- この2つはマーカー色が同じ#8A4B2B（--c3）で、実際には色ではなく形で区別している
          （個別ピン=単独の丸ピン／市町村窓口=件数入りの可変サイズ円）。実態と乖離させない
@@ -297,7 +302,7 @@ if ('serviceWorker' in navigator) {
          後も他県で「岡山市」と表示され続けていた。しかも該当マーカー（windows[].override）は
          岡山県を含む全県で0件で、一度も描画されたことがなかった＝仕様書§8弱点19）。 -->
     <span class="dot" style="--dc:var(--c3);display:none" id="lg-sodan-1">所在地が個別に判明した窓口（番地レベル・<span id="lg-sodan-1-n">-</span>）</span>
-    <span class="dot" style="--dc:var(--c3)" id="lg-sodan-2">市町村の相談窓口（市町村単位の概算・<span id="lg-sodan-area">-</span>）</span>
+    <span class="dot" style="--dc:var(--c3)" id="lg-sodan-2">市区町村の相談窓口（市区町村単位の概算・<span id="lg-sodan-area">-</span>）</span>
     <!-- 専門機関（kikan.json）。色はKIKAN_CATと同じ値を保つ。件数はupdateSodanLegend()が実データから埋め、0件の種類は出さない。 -->
     <span class="dot" style="--dc:#1A5FB4;display:none" id="lg-kikan-jiso">児童相談所（<span id="lg-kikan-jiso-n">-</span>）</span>
     <span class="dot" style="--dc:#2C6E49;display:none" id="lg-kikan-hattatsu_center">発達障害者支援センター（<span id="lg-kikan-hattatsu_center-n">-</span>）</span>
@@ -311,7 +316,7 @@ if ('serviceWorker' in navigator) {
   <details class="cat-help">
     <summary>各区分の説明</summary>
     <dl>
-      <dt data-for="lg-sodan-2">市町村の相談窓口</dt>
+      <dt data-for="lg-sodan-2">市区町村の相談窓口</dt>
       <dd>こども家庭庁が都道府県ごとにまとめて公表している、自治体の相談窓口です。こども自身の悩みや、子育ての悩みを相談できます。</dd>
       <dt data-for="lg-kikan-jiso">児童相談所</dt>
       <dd>都道府県や政令指定都市（一部の中核市・特別区も）が設ける、こどもの福祉に関する専門の相談機関です。虐待の通告・相談、養育や非行、障害に関する相談に応じます。</dd>
@@ -326,7 +331,7 @@ if ('serviceWorker' in navigator) {
   <div class="wrap">
     <div class="mapbox" id="map-sodan"></div>
     <aside id="list-sodan">
-      <input type="text" class="searchbox" id="sodan-search" placeholder="市町村名・窓口名で検索">
+      <input type="text" class="searchbox" id="sodan-search" placeholder="市区町村名・窓口名で検索">
       <div id="sodan-list-body"></div>
     </aside>
   </div>
@@ -334,6 +339,7 @@ if ('serviceWorker' in navigator) {
 
 <!-- ============ ④親家族 ============ -->
 <div class="tab-panel" id="panel-oyakazoku">
+  <p class="first-step"><strong>はじめての方へ：</strong>子育ての不安や悩みは、地域子育て支援拠点や児童館（ともに子育て支援を行っています）で相談できます。同じ立場の保護者と話したいときは、親の会も探せます。どこに相談すればよいか迷うときは<a href="concerns.html">困りごとから探す</a>か、<a href="#" class="go-tab" data-tab="sodan">③相談タブ</a>へ。</p>
   <div class="legend">
     <span class="dot" style="--dc:var(--c4)" id="lg-oya-1">地域子育て支援拠点（<span id="lg-oya-1-n">-</span>）</span>
     <span class="dot" style="--dc:var(--c1b)" id="lg-oya-3">児童館（②居場所と兼用・<span id="lg-oya-3-n">-</span>）</span>
@@ -371,6 +377,7 @@ if ('serviceWorker' in navigator) {
 
 <!-- ============ ⑤発達 ============ -->
 <div class="tab-panel" id="panel-hattatsu">
+  <p class="first-step"><strong>はじめての方へ：</strong>事業所を利用するには、まずお住まいの市区町村の窓口で手続き（受給者証）が必要です。どこから始めるかは<a href="parent_guide_hattatsu.html">お子さんの発達が気になったら</a>をご覧ください（窓口は<a href="#" class="go-tab" data-tab="sodan">③相談タブ</a>で探せます）。</p>
   <div class="legend">
     <span class="dot" style="--dc:var(--c5jidou)" id="lg-h-1">児童発達支援（単独）</span>
     <span class="dot" style="--dc:var(--c5both)" id="lg-h-6">児童発達支援＋放課後等デイ併設</span>
@@ -405,18 +412,18 @@ if ('serviceWorker' in navigator) {
   </details>
   <p class="notice" id="notice-hattatsu">拡大すると個別施設ピンが表示されます。WAMNET（障害福祉サービス等情報公表システム）オープンデータに基づく住所レベルの位置情報を使用しています。「医療型児童発達支援」は令和6年度制度改正の経過措置区分であり、令和9年3月末をもって新規発生がなくなる見込みです。</p>
   <div class="sodan-guide" id="sodan-guide">
-    <strong>障害児相談支援事業所に連絡する前に：</strong>手続きは市町村ごとに違います。まずはお住まいの市町村の窓口へ（<a href="#" class="go-sodan">③相談タブで探す</a>）。
+    <strong>障害児相談支援事業所に連絡する前に：</strong>手続きは市区町村ごとに違います。まずはお住まいの市区町村の窓口へ（<a href="#" class="go-sodan">③相談タブで探す</a>）。
     <details>
       <summary>くわしく</summary>
       <ol>
-        <li>市町村の窓口で相談し、通所受給者証を申請します（障害者手帳や診断名は必須ではありません）。</li>
+        <li>市区町村の窓口で相談し、通所受給者証を申請します（障害者手帳や診断名は必須ではありません）。</li>
         <li>障害児相談支援事業所と一緒に利用計画案をつくります（家族が自分で書く「セルフプラン」もできる場合があります）。</li>
         <li>受給者証が届いたら、利用する事業所と契約します。</li>
       </ol>
       <ul>
-        <li>順番や必要な書類は市町村で違います。違う説明を受けても、ご家族の間違いではありません。</li>
+        <li>順番や必要な書類は市区町村で違います。違う説明を受けても、ご家族の間違いではありません。</li>
         <li>事業所は新しい受付を止めていることがあります。先に電話で確かめてください。</li>
-        <li>受付できる事業所が見つからないときも、市町村の窓口に相談してください。</li>
+        <li>受付できる事業所が見つからないときも、市区町村の窓口に相談してください。</li>
       </ul>
       <div class="src">制度の説明の出典：こども家庭庁「<a href="https://www.cfa.go.jp/policies/shougaijishien/shisaku/jimushori_yoryo" target="_blank" rel="noopener">障害児通所給付費に係る通所給付決定事務等について</a>」</div>
     </details>
@@ -1049,7 +1056,7 @@ const RYOIKU_CAT_ORDER = ["jidou_hattatsu","hokago_day","iryo_jidou_hattatsu","h
 const SODAN_CALL_NOTE = '新規の受付状況は、事前に電話でご確認ください。';
 // 市町村の窓口の案内。③の窓口（こども家庭庁「相談窓口」）は通所受給者証の担当課そのものとは
 // 限らないため「担当窓口」とは書かず、つないでもらえる最初の相談先として③へ誘導する。
-const SODAN_MUNI_NOTE = '手続きはお住まいの市町村の窓口へ（<a href="#" class="go-sodan">③相談タブで探す</a>）。';
+const SODAN_MUNI_NOTE = '手続きはお住まいの市区町村の窓口へ（<a href="#" class="go-sodan">③相談タブで探す</a>）。';
 // 位置精度の注記（⑤のピンと③の専門機関で共通）
 const PREC_LABEL = {address:'（番地レベルの位置）', town:'（町丁目レベルの位置）', area:'（地図位置は市区町村レベルの概算）'};
 // 属性値（href等）に入れる文字列のエスケープ。escHtmlは引用符を扱わないため別に持つ。
@@ -1652,10 +1659,10 @@ function updateSodanGuideVisibility(){
 }
 // 「③相談タブで探す」リンク（案内の帯・ピン・一覧カード共通。ポップアップは後から生成されるため委譲で拾う）。
 document.addEventListener('click', function(e){
-  const a = e.target.closest && e.target.closest('.go-sodan');
+  const a = e.target.closest && e.target.closest('.go-sodan, .go-tab');
   if(!a) return;
   e.preventDefault();
-  activateTab('sodan');
+  activateTab(a.getAttribute('data-tab') || 'sodan');
   syncURLState();
   const tabs = document.querySelector('.tabs');
   if(tabs) tabs.scrollIntoView({behavior:'smooth', block:'start'});
