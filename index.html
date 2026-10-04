@@ -1075,6 +1075,46 @@ function siteInfoHtml(r){
   return out;
 }
 function isShogaijiSodan(catArr){ return catArr.indexOf('shogaiji_sodan') !== -1; }
+// 医療的ケアの受入体制（WAM NET事業所詳細の自己申告。岡山県のみ。メモ等/merge_wamnet_detail.py）。
+// 「あり」の項目だけを持つ（iryo = {区分: [項目…]}）。「なし」・取得できなかったものは出さない。
+// 事業所のサービス区分（児発・放デイなど）のうち、全部に同じ項目があれば1行、違えば区分ごとに出す。
+const IRYO_SVC_CATS = ['jidou_hattatsu','iryo_jidou_hattatsu','hokago_day','homon_jidou_hattatsu'];
+function iryoHtml(r){
+  if(!r.iryo) return '';
+  const keys = Object.keys(r.iryo).filter(function(c){ return r.iryo[c] && r.iryo[c].length; });
+  if(!keys.length) return '';
+  const catArr = Array.isArray(r.cat) ? r.cat : [r.cat];
+  const svc = catArr.filter(function(c){ return IRYO_SVC_CATS.indexOf(c) !== -1; });
+  const same = keys.length === svc.length && keys.every(function(c){ return r.iryo[c].join('、') === r.iryo[keys[0]].join('、'); });
+  let body;
+  if(same){ body = escHtml(r.iryo[keys[0]].join('、')); }
+  else {
+    body = keys.map(function(c){ return escHtml((RYOIKU_CAT[c] ? RYOIKU_CAT[c].label : c) + '：' + r.iryo[c].join('、')); }).join('／');
+  }
+  let pub = '';
+  const m = /^(\d{4})-(\d{2})-(\d{2})$/.exec(r.iryo_pub || '');
+  if(m) pub = '（公表年月日 ' + m[1] + '年' + parseInt(m[2],10) + '月' + parseInt(m[3],10) + '日）';
+  return '<div class="addr">医療的ケア（事業所の報告）：' + body + '</div>'
+    + '<div class="addr" style="font-size:.7rem">※利用前に事業所にご確認ください' + escHtml(pub) + '</div>';
+}
+// 主に重症心身障害児が通う事業所（県の資料の main_target による）。WAM NETの事業所等類型は使わない。
+// 出典名・時点・リンクは台帳（sources.json の datasets.hattatsu.field_sources.main_target が指す出典）から取る。
+// 台帳を読めていない場合は出典名を出さず、従来の短い表記にする（ルール13: 資料名を静的に書かない）。
+function severeSourceText(){
+  const ds = LEDGER && LEDGER.datasets && LEDGER.datasets.hattatsu;
+  const id = ds && ds.field_sources && ds.field_sources.main_target;
+  const s = id && LEDGER.sources && LEDGER.sources[id];
+  if(!s || !s.source_label) return '県の資料による';
+  const name = s.source ? '<a href="'+escAttr(s.source)+'" target="_blank" rel="noopener">'+escHtml(s.source_label)+'</a>' : escHtml(s.source_label);
+  return '出典：' + name + (s.as_of ? '、' + escHtml(s.as_of) : '');
+}
+function severeHtml(r){
+  const mt = Array.isArray(r.main_target) ? r.main_target : [];
+  if(mt.indexOf('severe') === -1) return '';
+  return mt.length > 1
+    ? '<div class="addr">重症心身障害児が主に通う区分もある事業所（'+severeSourceText()+'）</div>'
+    : '<div class="addr">主に重症心身障害児が通う事業所（'+severeSourceText()+'）</div>';
+}
 function postalPrefix(r){ return r.p ? '〒'+r.p+' ' : ''; }
 function ryoikuPrimaryCat(catArr){
   if(catArr.indexOf("jidou_hattatsu") !== -1 && catArr.indexOf("hokago_day") !== -1) return "jidou_hokago_both";
@@ -1540,7 +1580,7 @@ function renderRyoikuMap(activeCats){
     const extra = (dLine || cLine) ? '<br>'+dLine+cLine : '';
     const remLine = r.rem ? '<br>事業所の記載：'+r.rem : '';
     const callLine = isShogaijiSodan(catArr) ? '<br><strong>'+SODAN_CALL_NOTE+'</strong><br>'+SODAN_MUNI_NOTE : '';
-    m.bindPopup('<div class="popup-name">'+r.n+statusBadge+'</div><div class="popup-body">'+labels+'<br>'+postalPrefix(r)+r.a+'<br>'+r.t+disLine+extra+siteInfoHtml(r)+remLine+callLine+pdfLine+'</div>');
+    m.bindPopup('<div class="popup-name">'+r.n+statusBadge+'</div><div class="popup-body">'+labels+'<br>'+postalPrefix(r)+r.a+'<br>'+r.t+disLine+extra+severeHtml(r)+iryoHtml(r)+siteInfoHtml(r)+remLine+callLine+pdfLine+'</div>');
     m.on('mouseover', function(){ m.setStyle({radius:12, weight:3}); });
     m.on('mouseout',  function(){ m.setStyle({radius:8,  weight:2}); });
     markers.push(m);
@@ -1563,7 +1603,7 @@ function facilityCardHtml(r){
   const remLine = r.rem ? '<div class="addr">事業所の記載：'+r.rem+'</div>' : '';
   const callLine = isShogaijiSodan(catArr) ? '<div class="addr"><strong>'+SODAN_CALL_NOTE+'</strong><br>'+SODAN_MUNI_NOTE+'</div>' : '';
   return '<div class="card no-pin"><div class="cat">'+ryoikuLabels(catArr)+'</div><h2>'+r.n+statusBadge+'</h2><div class="addr">'+postalPrefix(r)+r.a+'</div><div class="tel">'+r.t+'</div>'+dis+
-    infoLine+siteInfoHtml(r)+remLine+callLine+pdfNote+'<div>'+precTag+'</div></div>';
+    infoLine+severeHtml(r)+iryoHtml(r)+siteInfoHtml(r)+remLine+callLine+pdfNote+'<div>'+precTag+'</div></div>';
 }
 function renderRyoikuList(query, areaFilter){
   const body = document.getElementById('ryoiku-list-body'); if(!body) return;
@@ -1720,6 +1760,9 @@ function loadRegion(key){
       fetchJson(region.base + 'hattatsu.json'),
       fetchJson(region.base + 'shogaiji_sodan.json').catch(function(){ return []; })
     ]).then(function(res){
+      // カードの出典表示（severeHtml）は台帳を使うため、台帳の読み込みを待ってから描画する（失敗しても進む）。
+      return LEDGER_READY.then(function(){ return res; });
+    }).then(function(res){
       if(seq !== loadSeq) return;
       const data = res[0].concat(res[1]);
       renderHattatsu(data);
@@ -1728,6 +1771,10 @@ function loadRegion(key){
       currentSrcIds.hattatsu = collectSrcIds(data);
       srcLoaded.hattatsu = true;
       if(data.some(function(r){ return r.pref_list_src; })) currentSrcIds.hattatsu.push('okayama_pref_hattatsu_list');
+      // 特定のフィールド（iryo等）を持つレコードがあるか。台帳が読み終わってから出典を足すため、フィールド名だけ控える
+      // （台帳 datasets.hattatsu.field_sources。renderFooterSourcesで使う）。
+      currentFieldsPresent.hattatsu = {};
+      data.forEach(function(r){ Object.keys(r).forEach(function(f){ currentFieldsPresent.hattatsu[f] = true; }); });
       renderFooterSources(region);
       onTabDataLoaded('hattatsu');
     }).catch(function(err){ if(seq === loadSeq) showFetchError('map-hattatsu', err); });
@@ -2010,9 +2057,11 @@ function updateHattatsuNotice(region, key, data, sodanData){
    ここでは、実際に読み込んだデータのレコードが持つ出典ID（src）を集め、
    sources.json から出典名を逆引きして表示する。県を追加しても自動的に正しくなる。 */
 let LEDGER = null;
+let LEDGER_READY = Promise.resolve();
 const currentSrcIds = {manabi:[], ibasho:[], sodan:[], oyakazoku:[], hattatsu:[], districts:[]};
 // データを読み終えたかどうか。「まだ読み込み中」と「読み終えたが0件」を区別するために持つ
 // （0件の県でも出典は存在する。例: 学びの多様化学校が1校もない県も、その事実の出典は文科省一覧）。
+const currentFieldsPresent = {hattatsu:{}};
 const srcLoaded = {manabi:false, ibasho:false, sodan:false, oyakazoku:false, hattatsu:false, districts:false};
 // タブ -> 0件だったときに使う台帳側のデータセット名
 const FALLBACK_DATASET = {manabi:'manabi', sodan:'sodan', hattatsu:'hattatsu'};
@@ -2137,7 +2186,15 @@ function renderFooterSources(region){
     const tab = pair[0], elId = pair[1];
     if(!avail[tab]){ setFooter(elId, unavailable); return; }
     if(!srcLoaded[tab] || !LEDGER){ setFooter(elId, pending); return; }
-    const ids = (currentSrcIds[tab] && currentSrcIds[tab].length) ? currentSrcIds[tab] : fallbackIds(tab);
+    const ids = ((currentSrcIds[tab] && currentSrcIds[tab].length) ? currentSrcIds[tab] : fallbackIds(tab)).slice();
+    // データセット定義の field_sources: そのフィールドを持つレコードが実際にあるときだけ、フィールドの出典も出す（ルール19）。
+    (TAB_DATASETS[tab] || []).forEach(function(name){
+      const ds = LEDGER.datasets && LEDGER.datasets[name];
+      const fs = ds && ds.field_sources || {};
+      Object.keys(fs).forEach(function(f){
+        if(currentFieldsPresent[tab] && currentFieldsPresent[tab][f] && ids.indexOf(fs[f]) === -1) ids.push(fs[f]);
+      });
+    });
     const html = footerHtmlFor(tab, ids);
     const el = document.getElementById(elId);
     if(!el) return;
@@ -2441,7 +2498,8 @@ if(initialTab) activateTab(initialTab);
 /* ============ 初期ロード ============ */
 // 出典台帳を先に読む。地図データの読み込みは台帳を待たずに始めてよいが、
 // フッターの出典は台帳が無いと組み立てられないため、読み終わったら再描画する。
-loadLedger().then(function(){
+LEDGER_READY = loadLedger();
+LEDGER_READY.then(function(){
   renderFooterSources(REGIONS[regionSelect.value]);
   if(lastHattatsuNoticeArgs) updateHattatsuNotice.apply(null, lastHattatsuNoticeArgs);
 });
