@@ -1104,23 +1104,21 @@ function iryoHtml(r){
   return '<div class="addr">医療的ケア（事業所の報告）：' + body + '</div>'
     + '<div class="addr" style="font-size:.7rem">※利用前に事業所にご確認ください' + escHtml(pub) + '</div>';
 }
-// 主に重症心身障害児が通う事業所（県の資料の main_target による）。WAM NETの事業所等類型は使わない。
-// 出典名・時点・リンクは台帳（sources.json の datasets.hattatsu.field_sources.main_target が指す出典）から取る。
-// 台帳を読めていない場合は出典名を出さず、従来の短い表記にする（ルール13: 資料名を静的に書かない）。
-function severeSourceText(){
-  const ds = LEDGER && LEDGER.datasets && LEDGER.datasets.hattatsu;
-  const id = ds && ds.field_sources && ds.field_sources.main_target;
-  const s = id && LEDGER.sources && LEDGER.sources[id];
-  if(!s || !s.source_label) return '県の資料による';
+// 重症心身障害児の受け入れあり（hattatsu.json の sev / sev_src。2026-10-06、「主として」ではなく受け入れの有無で表示する運営者の決定）。
+// 出典名・時点・リンクは台帳（sources.json の sources[sev_src]）から実行時に取る（ルール13: 資料名を静的に書かない）。
+// 台帳を読めていない場合は出典名を出さず、短い表記にする。
+function severeSourceText(srcId){
+  const s = srcId && LEDGER && LEDGER.sources && LEDGER.sources[srcId];
+  if(!s || !s.source_label) return '自治体の資料による';
   const name = s.source ? '<a href="'+escAttr(s.source)+'" target="_blank" rel="noopener">'+escHtml(s.source_label)+'</a>' : escHtml(s.source_label);
   return '出典：' + name + (s.as_of ? '、' + escHtml(s.as_of) : '');
 }
+// r.sev=true。r.sev_src が自治体・県の資料の出典IDならその資料名・時点・リンクを台帳から出し、
+// 'wamnet_detail' なら事業所自身の報告（WAM NETの事業所等類型）であることを書く（メモ等/merge_wamnet_detail.py）。岡山も同じ経路。
 function severeHtml(r){
-  const mt = Array.isArray(r.main_target) ? r.main_target : [];
-  if(mt.indexOf('severe') === -1) return '';
-  return mt.length > 1
-    ? '<div class="addr">重症心身障害児が主に通う区分もある事業所（'+severeSourceText()+'）</div>'
-    : '<div class="addr">主に重症心身障害児が通う事業所（'+severeSourceText()+'）</div>';
+  if(!r.sev) return '';
+  if(r.sev_src === 'wamnet_detail') return '<div class="addr">重症心身障害児の受け入れあり（事業所の報告）</div>';
+  return '<div class="addr">重症心身障害児の受け入れあり（'+severeSourceText(r.sev_src)+'）</div>';
 }
 function postalPrefix(r){ return r.p ? '〒'+r.p+' ' : ''; }
 function ryoikuPrimaryCat(catArr){
@@ -1781,7 +1779,11 @@ function loadRegion(key){
       // 特定のフィールド（iryo等）を持つレコードがあるか。台帳が読み終わってから出典を足すため、フィールド名だけ控える
       // （台帳 datasets.hattatsu.field_sources。renderFooterSourcesで使う）。
       currentFieldsPresent.hattatsu = {};
-      data.forEach(function(r){ Object.keys(r).forEach(function(f){ currentFieldsPresent.hattatsu[f] = true; }); });
+      currentFieldValues.hattatsu = {};
+      data.forEach(function(r){ Object.keys(r).forEach(function(f){
+        currentFieldsPresent.hattatsu[f] = true;
+        if(typeof r[f] === 'string' && /_src$/.test(f)){ (currentFieldValues.hattatsu[f] = currentFieldValues.hattatsu[f] || {})[r[f]] = true; }
+      }); });
       renderFooterSources(region);
       onTabDataLoaded('hattatsu');
     }).catch(function(err){ if(seq === loadSeq) showFetchError('map-hattatsu', err); });
@@ -2069,6 +2071,7 @@ const currentSrcIds = {manabi:[], ibasho:[], sodan:[], oyakazoku:[], hattatsu:[]
 // データを読み終えたかどうか。「まだ読み込み中」と「読み終えたが0件」を区別するために持つ
 // （0件の県でも出典は存在する。例: 学びの多様化学校が1校もない県も、その事実の出典は文科省一覧）。
 const currentFieldsPresent = {hattatsu:{}};
+const currentFieldValues = {hattatsu:{}};  // 文字列フィールドの値の集合（field_sources が '@value' のとき、値＝出典IDとして使う）
 const srcLoaded = {manabi:false, ibasho:false, sodan:false, oyakazoku:false, hattatsu:false, districts:false};
 // タブ -> 0件だったときに使う台帳側のデータセット名
 const FALLBACK_DATASET = {manabi:'manabi', sodan:'sodan', hattatsu:'hattatsu'};
@@ -2199,7 +2202,12 @@ function renderFooterSources(region){
       const ds = LEDGER.datasets && LEDGER.datasets[name];
       const fs = ds && ds.field_sources || {};
       Object.keys(fs).forEach(function(f){
-        if(currentFieldsPresent[tab] && currentFieldsPresent[tab][f] && ids.indexOf(fs[f]) === -1) ids.push(fs[f]);
+        if(!(currentFieldsPresent[tab] && currentFieldsPresent[tab][f])) return;
+        // '@value': フィールドの値そのものが出典ID（例: sev_src。資料ごとに違うので、実際にあるものだけ出す）
+        const want = fs[f] === '@value'
+          ? Object.keys((currentFieldValues[tab] && currentFieldValues[tab][f]) || {}).filter(function(v){ return LEDGER.sources && LEDGER.sources[v]; }).sort()
+          : [fs[f]];
+        want.forEach(function(id){ if(ids.indexOf(id) === -1) ids.push(id); });
       });
     });
     const html = footerHtmlFor(tab, ids);
