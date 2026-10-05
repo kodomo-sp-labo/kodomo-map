@@ -377,7 +377,7 @@ if ('serviceWorker' in navigator) {
 
 <!-- ============ ⑤発達 ============ -->
 <div class="tab-panel" id="panel-hattatsu">
-  <p class="first-step"><strong>はじめての方へ：</strong>事業所を利用するには、まずお住まいの市区町村の窓口で手続き（受給者証）が必要です。お子さんの発達が気になるときの始め方は、<a href="concerns.html?id=c_dev_concern&amp;mode=family">ことばや発達がゆっくりで心配</a>をご覧ください（窓口は<a href="#" class="go-tab" data-tab="sodan">③相談タブ</a>で探せます）。</p>
+  <p class="first-step"><strong>はじめての方へ：</strong>事業所を利用するには、まずお住まいの市区町村の窓口で手続き（受給者証）が必要です。どの事業所も新しい受付を止めていることがあるので、利用の前に電話でご確認ください。お子さんの発達が気になるときの始め方は、<a href="concerns.html?id=c_dev_concern&amp;mode=family">ことばや発達がゆっくりで心配</a>をご覧ください（窓口は<a href="#" class="go-tab" data-tab="sodan">③相談タブ</a>で探せます）。</p>
   <div class="legend">
     <span class="dot" style="--dc:var(--c5jidou)" id="lg-h-1">児童発達支援（単独）</span>
     <span class="dot" style="--dc:var(--c5both)" id="lg-h-6">児童発達支援＋放課後等デイ併設</span>
@@ -413,7 +413,7 @@ if ('serviceWorker' in navigator) {
   <p class="notice" id="notice-hattatsu">拡大すると個別施設ピンが表示されます。WAMNET（障害福祉サービス等情報公表システム）オープンデータに基づく住所レベルの位置情報を使用しています。「医療型児童発達支援」は令和6年度制度改正の経過措置区分であり、令和9年3月末をもって新規発生がなくなる見込みです。</p>
   <p class="notice" id="link-hattatsu-pref" hidden></p>
   <div class="sodan-guide" id="sodan-guide">
-    <strong>障害児相談支援事業所に連絡する前に：</strong>手続きは市区町村ごとに違います。まずはお住まいの市区町村の窓口へ（<a href="#" class="go-sodan">③相談タブで探す</a>）。
+    <strong>事業所に連絡する前に（利用までの流れ）：</strong>手続きは市区町村ごとに違います。まずはお住まいの市区町村の窓口へ（<a href="#" class="go-sodan">③相談タブで探す</a>）。
     <details>
       <summary>くわしく</summary>
       <ol>
@@ -1053,11 +1053,6 @@ const RYOIKU_CAT = {
 };
 // cat配列から代表カテゴリ（クラスタ色・マーカー色用）を選ぶ優先順位
 const RYOIKU_CAT_ORDER = ["jidou_hattatsu","hokago_day","iryo_jidou_hattatsu","homon_jidou_hattatsu","hoikusho_homon","shogaiji_sodan"];
-// 障害児相談支援の案内（ピン・一覧カード共通）。受付状況はWAMNETに無いため、必ず電話確認を促す。
-const SODAN_CALL_NOTE = '新規の受付状況は、事前に電話でご確認ください。';
-// 市町村の窓口の案内。③の窓口（こども家庭庁「相談窓口」）は通所受給者証の担当課そのものとは
-// 限らないため「担当窓口」とは書かず、つないでもらえる最初の相談先として③へ誘導する。
-const SODAN_MUNI_NOTE = '手続きはお住まいの市区町村の窓口へ（<a href="#" class="go-sodan">③相談タブで探す</a>）。';
 // 位置精度の注記（⑤のピンと③の専門機関で共通）
 const PREC_LABEL = {address:'（番地レベルの位置）', town:'（町丁目レベルの位置）', area:'（地図位置は市区町村レベルの概算）'};
 // 属性値（href等）に入れる文字列のエスケープ。escHtmlは引用符を扱わないため別に持つ。
@@ -1591,8 +1586,7 @@ function renderRyoikuMap(activeCats){
     const cLine = r.c ? '定員：'+r.c : '';
     const extra = (dLine || cLine) ? '<br>'+dLine+cLine : '';
     const remLine = r.rem ? '<br>事業所の記載：'+r.rem : '';
-    const callLine = isShogaijiSodan(catArr) ? '<br><strong>'+SODAN_CALL_NOTE+'</strong><br>'+SODAN_MUNI_NOTE : '';
-    m.bindPopup('<div class="popup-name">'+r.n+statusBadge+'</div><div class="popup-body">'+labels+'<br>'+postalPrefix(r)+r.a+'<br>'+r.t+disLine+extra+severeHtml(r)+ikeaHtml(r)+iryoHtml(r)+siteInfoHtml(r)+remLine+callLine+pdfLine+'</div>');
+    m.bindPopup('<div class="popup-name">'+r.n+statusBadge+'</div><div class="popup-body">'+labels+'<br>'+postalPrefix(r)+r.a+'<br>'+r.t+disLine+extra+severeHtml(r)+ikeaHtml(r)+iryoHtml(r)+siteInfoHtml(r)+remLine+pdfLine+'</div>');
     m.on('mouseover', function(){ m.setStyle({radius:12, weight:3}); });
     m.on('mouseout',  function(){ m.setStyle({radius:8,  weight:2}); });
     markers.push(m);
@@ -1613,9 +1607,8 @@ function facilityCardHtml(r){
   const pdfNote = r.pref_pdf ? '<div class="addr"><a href="'+r.pref_pdf+'" target="_blank" rel="noopener">県公表資料でも確認済み</a></div>' : '';
   const statusBadge = r.status ? '<span class="status-badge">'+r.status+'（事業所の記載による）</span>' : '';
   const remLine = r.rem ? '<div class="addr">事業所の記載：'+r.rem+'</div>' : '';
-  const callLine = isShogaijiSodan(catArr) ? '<div class="addr"><strong>'+SODAN_CALL_NOTE+'</strong><br>'+SODAN_MUNI_NOTE+'</div>' : '';
   return '<div class="card no-pin"><div class="cat">'+ryoikuLabels(catArr)+'</div><h2>'+r.n+statusBadge+'</h2><div class="addr">'+postalPrefix(r)+r.a+'</div><div class="tel">'+r.t+'</div>'+dis+
-    infoLine+severeHtml(r)+ikeaHtml(r)+iryoHtml(r)+siteInfoHtml(r)+remLine+callLine+pdfNote+'<div>'+precTag+'</div></div>';
+    infoLine+severeHtml(r)+ikeaHtml(r)+iryoHtml(r)+siteInfoHtml(r)+remLine+pdfNote+'<div>'+precTag+'</div></div>';
 }
 function renderRyoikuList(query, areaFilter){
   const body = document.getElementById('ryoiku-list-body'); if(!body) return;
@@ -1657,10 +1650,10 @@ document.getElementById('ryoiku-search').addEventListener('input', function(e){ 
 document.querySelectorAll('.ryoiku-filter').forEach(function(el){
   el.addEventListener('change', function(){ renderRyoikuMap(activeCategories()); renderRyoikuList(document.getElementById('ryoiku-search').value, null); updateSodanGuideVisibility(); });
 });
-// 障害児相談支援のチェックを外している間は案内の帯を隠す（通所支援だけを探している人の邪魔をしない）。
+// 利用までの流れの案内は⑤全体に当てはまるため、区分の絞り込みにかかわらず常に出す（2026-10-06）。
 function updateSodanGuideVisibility(){
   const g = document.getElementById('sodan-guide');
-  if(g) g.style.display = activeCategories().indexOf('shogaiji_sodan') !== -1 ? '' : 'none';
+  if(g) g.style.display = '';
 }
 // 「③相談タブで探す」リンク（案内の帯・ピン・一覧カード共通。ポップアップは後から生成されるため委譲で拾う）。
 document.addEventListener('click', function(e){
