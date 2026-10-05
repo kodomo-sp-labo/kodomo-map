@@ -594,7 +594,10 @@
 "prec": "address",
 "src": "wamnet",
 "facility_id": "1650100033",
-"h_wd": "08:30-17:15"
+"h_wd": "08:30-17:15",
+"ikea_src": [
+"ikea_16_toyama_city"
+]
 },
 {
 "n": "愛の家キッズ",
@@ -971,7 +974,10 @@
 },
 "iryo_pub": "2026-07-03",
 "sev": true,
-"sev_src": "wamnet_detail"
+"sev_src": "wamnet_detail",
+"ikea_src": [
+"ikea_16_toyama_city"
+]
 },
 {
 "n": "ありがとうの家",
@@ -2843,7 +2849,10 @@
 },
 "iryo_pub": "2026-07-03",
 "sev": true,
-"sev_src": "wamnet_detail"
+"sev_src": "wamnet_detail",
+"ikea_src": [
+"ikea_16_toyama_city"
+]
 },
 {
 "n": "つくしの家　婦中",
@@ -2875,7 +2884,10 @@
 },
 "iryo_pub": "2026-07-03",
 "sev": true,
-"sev_src": "wamnet_detail"
+"sev_src": "wamnet_detail",
+"ikea_src": [
+"ikea_16_toyama_city"
+]
 },
 {
 "n": "ウェルカムハウスつくし",

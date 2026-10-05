@@ -17,7 +17,10 @@
 "h_wd": "10:00-18:00",
 "h_sat": "10:00-18:00",
 "h_sun": "10:00-18:00",
-"closed": "月曜日　火曜日"
+"closed": "月曜日　火曜日",
+"ikea_src": [
+"ikea_44_oita_city"
+]
 },
 {
 "n": "こどもサポート教室「きらり」大分中津校",
@@ -373,7 +376,10 @@
 "服薬管理"
 ]
 },
-"iryo_pub": "2026-08-05"
+"iryo_pub": "2026-08-05",
+"ikea_src": [
+"ikea_44_oita_city_detail"
+]
 },
 {
 "n": "児童発達支援事業所　ツナグ",
@@ -465,7 +471,11 @@
 },
 "iryo_pub": "2026-06-11",
 "sev": true,
-"sev_src": "jushin_44_oita_city_detail"
+"sev_src": "jushin_44_oita_city_detail",
+"ikea_src": [
+"ikea_44_oita_city",
+"ikea_44_oita_city_detail"
+]
 },
 {
 "n": "BIセンター",
@@ -634,7 +644,11 @@
 },
 "iryo_pub": "2026-06-05",
 "sev": true,
-"sev_src": "jushin_44_oita_city_detail"
+"sev_src": "jushin_44_oita_city_detail",
+"ikea_src": [
+"ikea_44_oita_city",
+"ikea_44_oita_city_detail"
+]
 },
 {
 "n": "こどもデイサービス　ことり　上野の森教室",
@@ -670,7 +684,10 @@
 },
 "iryo_pub": "2026-06-05",
 "sev": true,
-"sev_src": "jushin_44_oita_city_detail"
+"sev_src": "jushin_44_oita_city_detail",
+"ikea_src": [
+"ikea_44_oita_city_detail"
+]
 },
 {
 "n": "こどもデイサービスことり　中島教室",
@@ -716,7 +733,10 @@
 },
 "iryo_pub": "2026-06-05",
 "sev": true,
-"sev_src": "jushin_44_oita_city_detail"
+"sev_src": "jushin_44_oita_city_detail",
+"ikea_src": [
+"ikea_44_oita_city_detail"
+]
 },
 {
 "n": "児童発達支援事業所ここカラー",
@@ -773,7 +793,10 @@
 "服薬管理"
 ]
 },
-"iryo_pub": "2026-05-27"
+"iryo_pub": "2026-05-27",
+"ikea_src": [
+"ikea_44_oita_city"
+]
 },
 {
 "n": "ＡＳＷＩＴＨ（アスウィズ）２",
@@ -1797,7 +1820,10 @@
 "パルスオキシメーター"
 ]
 },
-"iryo_pub": "2026-07-02"
+"iryo_pub": "2026-07-02",
+"ikea_src": [
+"ikea_44_oita_city"
+]
 },
 {
 "n": "すくすくクラブ",
@@ -1941,7 +1967,11 @@
 },
 "iryo_pub": "2026-06-23",
 "sev": true,
-"sev_src": "jushin_44_oita_city_detail"
+"sev_src": "jushin_44_oita_city_detail",
+"ikea_src": [
+"ikea_44_oita_city",
+"ikea_44_oita_city_detail"
+]
 },
 {
 "n": "こども発達支援教室すもも",
@@ -2009,7 +2039,10 @@
 "吸引"
 ]
 },
-"iryo_pub": "2026-08-06"
+"iryo_pub": "2026-08-06",
+"ikea_src": [
+"ikea_44_oita_city"
+]
 },
 {
 "n": "医療生協　子育て・療育支援センター「きらり」",
@@ -2062,7 +2095,10 @@
 },
 "iryo_pub": "2026-08-05",
 "sev": true,
-"sev_src": "jushin_44_oita_city_detail"
+"sev_src": "jushin_44_oita_city_detail",
+"ikea_src": [
+"ikea_44_oita_city"
+]
 },
 {
 "n": "こどもデイサービスまーち♪",
@@ -2155,7 +2191,11 @@
 },
 "iryo_pub": "2026-08-05",
 "sev": true,
-"sev_src": "jushin_44_oita_city_detail"
+"sev_src": "jushin_44_oita_city_detail",
+"ikea_src": [
+"ikea_44_oita_city",
+"ikea_44_oita_city_detail"
+]
 },
 {
 "n": "こどもデイサービス　すてっぷ",
@@ -2202,7 +2242,10 @@
 },
 "iryo_pub": "2026-06-11",
 "sev": true,
-"sev_src": "wamnet_detail"
+"sev_src": "wamnet_detail",
+"ikea_src": [
+"ikea_44_oita_city"
+]
 },
 {
 "n": "児童発達支援事業所　みなと",
@@ -2259,7 +2302,11 @@
 },
 "iryo_pub": "2026-07-03",
 "sev": true,
-"sev_src": "jushin_44_oita_city_detail"
+"sev_src": "jushin_44_oita_city_detail",
+"ikea_src": [
+"ikea_44_oita_city",
+"ikea_44_oita_city_detail"
+]
 },
 {
 "n": "児童デイサービスえがお第２",
@@ -2418,7 +2465,10 @@
 "url": "http://www.oita-kic.co.jp/",
 "h_wd": "09:30-16:30",
 "h_sat": "09:30-13:00",
-"closed": "日曜日・祝日"
+"closed": "日曜日・祝日",
+"ikea_src": [
+"ikea_44_oita_city"
+]
 },
 {
 "n": "多機能型事業所れいあっぷ",
@@ -4418,7 +4468,10 @@
 "服薬管理"
 ]
 },
-"iryo_pub": "2026-09-25"
+"iryo_pub": "2026-09-25",
+"ikea_src": [
+"ikea_44_oita_city"
+]
 },
 {
 "n": "放課後等デイサービス　夢の実",
@@ -4443,7 +4496,10 @@
 "服薬管理"
 ]
 },
-"iryo_pub": "2026-09-25"
+"iryo_pub": "2026-09-25",
+"ikea_src": [
+"ikea_44_oita_city"
+]
 },
 {
 "n": "放課後等デイサービス　夢の葉",
@@ -4468,7 +4524,10 @@
 "服薬管理"
 ]
 },
-"iryo_pub": "2026-09-25"
+"iryo_pub": "2026-09-25",
+"ikea_src": [
+"ikea_44_oita_city"
+]
 },
 {
 "n": "放課後等デイサービス　夢のとびら",
@@ -4666,7 +4725,11 @@
 "服薬管理"
 ]
 },
-"iryo_pub": "2026-07-02"
+"iryo_pub": "2026-07-02",
+"ikea_src": [
+"ikea_44_oita_city",
+"ikea_44_oita_city_detail"
+]
 },
 {
 "n": "放課後等デイサービスれがって",
@@ -5439,7 +5502,10 @@
 },
 "iryo_pub": "2026-07-01",
 "sev": true,
-"sev_src": "jushin_44_oita_city_detail"
+"sev_src": "jushin_44_oita_city_detail",
+"ikea_src": [
+"ikea_44_oita_city_detail"
+]
 },
 {
 "n": "こどもデイサービス　ドリームノア萩原",
@@ -5485,7 +5551,11 @@
 "服薬管理"
 ]
 },
-"iryo_pub": "2026-08-06"
+"iryo_pub": "2026-08-06",
+"ikea_src": [
+"ikea_44_oita_city",
+"ikea_44_oita_city_detail"
+]
 },
 {
 "n": "大分こども発達支援センター　放課後等デイサービス　にじのいろ",
@@ -5652,7 +5722,10 @@
 "h_wd": "13:00-17:30",
 "closed": "土曜日、日曜日、祝日、年末年始",
 "sev": true,
-"sev_src": "jushin_44_oita_city_detail"
+"sev_src": "jushin_44_oita_city_detail",
+"ikea_src": [
+"ikea_44_oita_city"
+]
 },
 {
 "n": "こどもデイサービス　青い鳥",
@@ -5792,7 +5865,10 @@
 "パルスオキシメーター"
 ]
 },
-"iryo_pub": "2026-06-16"
+"iryo_pub": "2026-06-16",
+"ikea_src": [
+"ikea_44_oita_city"
+]
 },
 {
 "n": "放課後等デイサービス　MyWayきずな",
@@ -5918,7 +5994,10 @@
 "服薬管理"
 ]
 },
-"iryo_pub": "2026-06-23"
+"iryo_pub": "2026-06-23",
+"ikea_src": [
+"ikea_44_oita_city"
+]
 },
 {
 "n": "放課後デイサービスConte",
@@ -6119,7 +6198,10 @@
 },
 "iryo_pub": "2026-06-05",
 "sev": true,
-"sev_src": "jushin_44_oita_city_detail"
+"sev_src": "jushin_44_oita_city_detail",
+"ikea_src": [
+"ikea_44_oita_city_detail"
+]
 },
 {
 "n": "放課後等デイサービス　ＡＤＶＡＮＣＥ",

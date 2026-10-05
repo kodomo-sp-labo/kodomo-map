@@ -615,7 +615,10 @@
 },
 "iryo_pub": "2026-08-25",
 "sev": true,
-"sev_src": "jushin_01_hokkaido"
+"sev_src": "jushin_01_hokkaido",
+"ikea_src": [
+"ikea_01_sapporo"
+]
 },
 {
 "n": "児童発達支援・放課後等デイサービス　もりぴた",
@@ -735,7 +738,10 @@
 "facility_id": "0150204576",
 "url": "https://wagao-sapporo.com/",
 "sev": true,
-"sev_src": "jushin_01_hokkaido"
+"sev_src": "jushin_01_hokkaido",
+"ikea_src": [
+"ikea_01_sapporo"
+]
 },
 {
 "n": "unico中島公園",
@@ -1572,7 +1578,10 @@
 },
 "iryo_pub": "2026-08-28",
 "sev": true,
-"sev_src": "jushin_01_hokkaido"
+"sev_src": "jushin_01_hokkaido",
+"ikea_src": [
+"ikea_01_sapporo"
+]
 },
 {
 "n": "札幌市はるにれ学園",
@@ -1590,7 +1599,10 @@
 "src": "wamnet",
 "facility_id": "0150101517",
 "h_wd": "09:00-15:00",
-"closed": "土、日、祝日"
+"closed": "土、日、祝日",
+"ikea_src": [
+"ikea_01_sapporo"
+]
 },
 {
 "n": "札幌市かしわ学園",
@@ -1609,7 +1621,10 @@
 "facility_id": "0150501492",
 "url": "https://www.city.sapporo.jp/kenko/iryo/chikutaku/chikutaku_4en_kasiwa.html",
 "h_wd": "09:00-15:00",
-"closed": "土曜日　日曜日　祝日"
+"closed": "土曜日　日曜日　祝日",
+"ikea_src": [
+"ikea_01_sapporo"
+]
 },
 {
 "n": "に・こ・ぱ",
@@ -2911,7 +2926,10 @@
 "prec": "address",
 "src": "wamnet",
 "facility_id": "0150600773",
-"url": "http://youbo-jin.com"
+"url": "http://youbo-jin.com",
+"ikea_src": [
+"ikea_01_sapporo"
+]
 },
 {
 "n": "児童発達支援・放課後デイサービス　こっこ川沿",
@@ -3007,7 +3025,10 @@
 },
 "iryo_pub": "2026-09-26",
 "sev": true,
-"sev_src": "jushin_01_hokkaido"
+"sev_src": "jushin_01_hokkaido",
+"ikea_src": [
+"ikea_01_sapporo"
+]
 },
 {
 "n": "障がい児保育園モアナ",
@@ -3059,7 +3080,10 @@
 },
 "iryo_pub": "2026-09-26",
 "sev": true,
-"sev_src": "jushin_01_hokkaido"
+"sev_src": "jushin_01_hokkaido",
+"ikea_src": [
+"ikea_01_sapporo"
+]
 },
 {
 "n": "重症児デイサービスラナキッズ",
@@ -3110,7 +3134,10 @@
 },
 "iryo_pub": "2026-09-15",
 "sev": true,
-"sev_src": "jushin_01_hokkaido"
+"sev_src": "jushin_01_hokkaido",
+"ikea_src": [
+"ikea_01_sapporo"
+]
 },
 {
 "n": "重症児デイサービス　ソルキッズ",
@@ -3176,7 +3203,10 @@
 },
 "iryo_pub": "2026-09-26",
 "sev": true,
-"sev_src": "jushin_01_hokkaido"
+"sev_src": "jushin_01_hokkaido",
+"ikea_src": [
+"ikea_01_sapporo"
+]
 },
 {
 "n": "チャイルドサポート清田",
@@ -3731,7 +3761,10 @@
 "h_wd": "10:00-17:00",
 "h_sat": "10:00-16:00",
 "h_sun": "10:00-16:00",
-"h_hol": "10:00-16:00"
+"h_hol": "10:00-16:00",
+"ikea_src": [
+"ikea_01_sapporo"
+]
 },
 {
 "n": "にじっこらんど",
@@ -6506,7 +6539,10 @@
 },
 "iryo_pub": "2026-08-04",
 "sev": true,
-"sev_src": "jushin_01_hokkaido"
+"sev_src": "jushin_01_hokkaido",
+"ikea_src": [
+"ikea_01_sapporo"
+]
 },
 {
 "n": "むぎのこ児童発達支援センター",
@@ -6533,7 +6569,10 @@
 "服薬管理"
 ]
 },
-"iryo_pub": "2026-08-01"
+"iryo_pub": "2026-08-01",
+"ikea_src": [
+"ikea_01_sapporo"
+]
 },
 {
 "n": "プレイ",
@@ -7497,7 +7536,10 @@
 },
 "iryo_pub": "2026-05-14",
 "sev": true,
-"sev_src": "jushin_01_hokkaido"
+"sev_src": "jushin_01_hokkaido",
+"ikea_src": [
+"ikea_01_sapporo"
+]
 },
 {
 "n": "児童発達支援・放課後等ディサービス　こども館　あいいろ",
@@ -10091,7 +10133,10 @@
 "src": "wamnet",
 "facility_id": "0150600427",
 "sev": true,
-"sev_src": "jushin_01_hokkaido"
+"sev_src": "jushin_01_hokkaido",
+"ikea_src": [
+"ikea_01_sapporo"
+]
 },
 {
 "n": "すた〜と",
@@ -11186,7 +11231,10 @@
 "服薬管理"
 ]
 },
-"iryo_pub": "2026-03-27"
+"iryo_pub": "2026-03-27",
+"ikea_src": [
+"ikea_01_sapporo"
+]
 },
 {
 "n": "児童発達支援・放課後等デイサービス「サポ・ゼミ」",
@@ -12176,7 +12224,10 @@
 },
 "iryo_pub": "2026-04-29",
 "sev": true,
-"sev_src": "jushin_01_hokkaido"
+"sev_src": "jushin_01_hokkaido",
+"ikea_src": [
+"ikea_01_sapporo"
+]
 },
 {
 "n": "愛ちゃんの家",
@@ -12277,7 +12328,10 @@
 },
 "iryo_pub": "2026-07-18",
 "sev": true,
-"sev_src": "jushin_01_hokkaido"
+"sev_src": "jushin_01_hokkaido",
+"ikea_src": [
+"ikea_01_sapporo"
+]
 },
 {
 "n": "愛ちゃん家",
@@ -12646,7 +12700,10 @@
 "服薬管理"
 ]
 },
-"iryo_pub": "2026-09-01"
+"iryo_pub": "2026-09-01",
+"ikea_src": [
+"ikea_01_sapporo"
+]
 },
 {
 "n": "児童デイサービス　にここ",
@@ -13000,7 +13057,10 @@
 "服薬管理"
 ]
 },
-"iryo_pub": "2026-08-05"
+"iryo_pub": "2026-08-05",
+"ikea_src": [
+"ikea_01_sapporo"
+]
 },
 {
 "n": "楡の会　プレイルームにれのかい",
@@ -13787,7 +13847,10 @@
 "服薬管理"
 ]
 },
-"iryo_pub": "2026-08-01"
+"iryo_pub": "2026-08-01",
+"ikea_src": [
+"ikea_01_sapporo"
+]
 },
 {
 "n": "ヴェルデ明日風",
@@ -14304,7 +14367,10 @@
 },
 "iryo_pub": "2026-08-01",
 "sev": true,
-"sev_src": "jushin_01_hokkaido"
+"sev_src": "jushin_01_hokkaido",
+"ikea_src": [
+"ikea_01_sapporo"
+]
 },
 {
 "n": "児童福祉サービス　あいむ",
@@ -14481,7 +14547,10 @@
 "url": "https://www.nico-children.com/",
 "h_wd": "09:00-17:00",
 "h_sat": "09:00-17:00",
-"closed": "日・祝・夏季休業（8/12〜8/16）・年末年始（12/29〜1/3）"
+"closed": "日・祝・夏季休業（8/12〜8/16）・年末年始（12/29〜1/3）",
+"ikea_src": [
+"ikea_01_sapporo"
+]
 },
 {
 "n": "児童発達支援・放課後等デイサービス　にこ",
@@ -25512,7 +25581,10 @@
 "服薬管理"
 ]
 },
-"iryo_pub": "2026-06-25"
+"iryo_pub": "2026-06-25",
+"ikea_src": [
+"ikea_01_sapporo"
+]
 },
 {
 "n": "こもれび園",
@@ -27406,7 +27478,10 @@
 },
 "iryo_pub": "2026-08-05",
 "sev": true,
-"sev_src": "jushin_01_hokkaido"
+"sev_src": "jushin_01_hokkaido",
+"ikea_src": [
+"ikea_01_sapporo"
+]
 },
 {
 "n": "ひばりん",

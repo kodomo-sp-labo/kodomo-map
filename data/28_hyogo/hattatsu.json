@@ -7895,7 +7895,10 @@
 },
 "iryo_pub": "2026-04-18",
 "sev": true,
-"sev_src": "wamnet_detail"
+"sev_src": "wamnet_detail",
+"ikea_src": [
+"ikea_28_amagasaki_city"
+]
 },
 {
 "n": "ｃｏ・ｃｏ・ａｉ",
@@ -7960,7 +7963,10 @@
 "人工呼吸器の管理"
 ]
 },
-"iryo_pub": "2026-08-05"
+"iryo_pub": "2026-08-05",
+"ikea_src": [
+"ikea_28_amagasaki_city"
+]
 },
 {
 "n": "尼崎市立あこや学園",
@@ -7985,7 +7991,10 @@
 "パルスオキシメーター"
 ]
 },
-"iryo_pub": "2026-08-05"
+"iryo_pub": "2026-08-05",
+"ikea_src": [
+"ikea_28_amagasaki_city"
+]
 },
 {
 "n": "りとるみかん",
@@ -22720,7 +22729,10 @@
 "src": "wamnet",
 "facility_id": "2853003040",
 "h_wd": "14:00-18:00",
-"closed": "土・日・祝"
+"closed": "土・日・祝",
+"ikea_src": [
+"ikea_28_amagasaki_city"
+]
 },
 {
 "n": "虹となかまつくる館",
@@ -22913,7 +22925,10 @@
 },
 "iryo_pub": "2026-05-29",
 "sev": true,
-"sev_src": "wamnet_detail"
+"sev_src": "wamnet_detail",
+"ikea_src": [
+"ikea_28_amagasaki_city"
+]
 },
 {
 "n": "児童デイサービスみかん杭瀬",
@@ -22989,7 +23004,10 @@
 "h_wd": "14:30-17:30",
 "h_sat": "10:00-16:00",
 "h_hol": "10:00-16:00",
-"closed": "日曜日、8/13〜8/15、12/31〜1/3"
+"closed": "日曜日、8/13〜8/15、12/31〜1/3",
+"ikea_src": [
+"ikea_28_amagasaki_city"
+]
 },
 {
 "n": "就労就学支援型みかん",
@@ -23036,7 +23054,10 @@
 },
 "iryo_pub": "2026-05-29",
 "sev": true,
-"sev_src": "wamnet_detail"
+"sev_src": "wamnet_detail",
+"ikea_src": [
+"ikea_28_amagasaki_city"
+]
 },
 {
 "n": "児童デイサービスみかん大西",
@@ -23677,7 +23698,10 @@
 "h_sat": "11:00-17:00",
 "closed": "国民の祝日、12/29〜1/3",
 "sev": true,
-"sev_src": "wamnet_detail"
+"sev_src": "wamnet_detail",
+"ikea_src": [
+"ikea_28_amagasaki_city"
+]
 },
 {
 "n": "児童デイサービス・アニマートあまがさき",

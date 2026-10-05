@@ -443,7 +443,10 @@
 },
 "iryo_pub": "2026-07-11",
 "sev": true,
-"sev_src": "jushin_11_koshigaya"
+"sev_src": "jushin_11_koshigaya",
+"ikea_src": [
+"ikea_11_saitama_pref"
+]
 },
 {
 "n": "エブリン・ベア",
@@ -1039,7 +1042,10 @@
 "服薬管理"
 ]
 },
-"iryo_pub": "2026-03-31"
+"iryo_pub": "2026-03-31",
+"ikea_src": [
+"ikea_11_saitama_pref"
+]
 },
 {
 "n": "たんぽぽ療育教室",
@@ -1133,7 +1139,10 @@
 },
 "iryo_pub": "2026-03-26",
 "sev": true,
-"sev_src": "jushin_11_saitama_city"
+"sev_src": "jushin_11_saitama_city",
+"ikea_src": [
+"ikea_11_saitama_pref"
+]
 },
 {
 "n": "スマイルスタディ",
@@ -1581,7 +1590,10 @@
 "服薬管理"
 ]
 },
-"iryo_pub": "2026-08-01"
+"iryo_pub": "2026-08-01",
+"ikea_src": [
+"ikea_11_saitama_pref"
+]
 },
 {
 "n": "さいたま市療育センターさくら草すみれ",
@@ -1599,7 +1611,10 @@
 "src": "wamnet",
 "facility_id": "1156502450",
 "h_wd": "08:30-17:15",
-"closed": "土曜日　日曜日　祝日　年末年始"
+"closed": "土曜日　日曜日　祝日　年末年始",
+"ikea_src": [
+"ikea_11_saitama_pref"
+]
 },
 {
 "n": "さいたま市総合療育センターひまわり学園",
@@ -1637,7 +1652,10 @@
 "パルスオキシメーター"
 ]
 },
-"iryo_pub": "2026-06-17"
+"iryo_pub": "2026-06-17",
+"ikea_src": [
+"ikea_11_saitama_pref"
+]
 },
 {
 "n": "はばたき＆らんどおん",
@@ -2241,7 +2259,10 @@
 "lng": 139.63865772,
 "prec": "address",
 "src": "wamnet",
-"facility_id": "1156516054"
+"facility_id": "1156516054",
+"ikea_src": [
+"ikea_11_saitama_pref"
+]
 },
 {
 "n": "こぱんはうすさくら　川口戸塚教室",
@@ -3183,7 +3204,10 @@
 "facility_id": "1151600051",
 "url": "https://sites.google.com/view/agehasonas/",
 "h_wd": "14:00-18:00",
-"closed": "土日、祝日、お盆、年末年始"
+"closed": "土日、祝日、お盆、年末年始",
+"ikea_src": [
+"ikea_11_saitama_pref"
+]
 },
 {
 "n": "デイジー",
@@ -3637,7 +3661,10 @@
 "h_wd": "09:30-17:30",
 "h_sat": "09:30-17:30",
 "h_sun": "09:30-17:30",
-"closed": "月・木・祝"
+"closed": "月・木・祝",
+"ikea_src": [
+"ikea_11_saitama_pref"
+]
 },
 {
 "n": "児童発達支援・放課後等デイサービスのびのび広場エミタス笠幡教室",
@@ -4184,7 +4211,10 @@
 "服薬管理"
 ]
 },
-"iryo_pub": "2026-06-27"
+"iryo_pub": "2026-06-27",
+"ikea_src": [
+"ikea_11_saitama_pref"
+]
 },
 {
 "n": "noone（ノーネ）",
@@ -4271,7 +4301,10 @@
 "服薬管理"
 ]
 },
-"iryo_pub": "2026-06-02"
+"iryo_pub": "2026-06-02",
+"ikea_src": [
+"ikea_11_saitama_pref"
+]
 },
 {
 "n": "すり〜る",
@@ -4293,7 +4326,10 @@
 "h_sat": "10:00-16:00",
 "closed": "日祝、年末年始、お盆",
 "sev": true,
-"sev_src": "jushin_11_saitama_pref"
+"sev_src": "jushin_11_saitama_pref",
+"ikea_src": [
+"ikea_11_saitama_pref"
+]
 },
 {
 "n": "しん",
@@ -4690,7 +4726,10 @@
 "パルスオキシメーター"
 ]
 },
-"iryo_pub": "2026-08-14"
+"iryo_pub": "2026-08-14",
+"ikea_src": [
+"ikea_11_saitama_pref"
+]
 },
 {
 "n": "エルベテーク川口教室",
@@ -5161,7 +5200,10 @@
 "服薬管理"
 ]
 },
-"iryo_pub": "2026-07-30"
+"iryo_pub": "2026-07-30",
+"ikea_src": [
+"ikea_11_saitama_pref"
+]
 },
 {
 "n": "児童発達支援事業所　ひかり園",
@@ -5198,7 +5240,10 @@
 },
 "iryo_pub": "2026-08-08",
 "sev": true,
-"sev_src": "jushin_11_kawaguchi"
+"sev_src": "jushin_11_kawaguchi",
+"ikea_src": [
+"ikea_11_saitama_pref"
+]
 },
 {
 "n": "児童発達支援センターたびだち学園",
@@ -5767,7 +5812,10 @@
 },
 "iryo_pub": "2026-06-02",
 "sev": true,
-"sev_src": "jushin_11_saitama_pref"
+"sev_src": "jushin_11_saitama_pref",
+"ikea_src": [
+"ikea_11_saitama_pref"
+]
 },
 {
 "n": "所沢市こども支援センター（発達支援）",
@@ -5991,7 +6039,10 @@
 },
 "iryo_pub": "2026-07-04",
 "sev": true,
-"sev_src": "jushin_11_saitama_pref"
+"sev_src": "jushin_11_saitama_pref",
+"ikea_src": [
+"ikea_11_saitama_pref"
+]
 },
 {
 "n": "飯能市立つぼみ園",
@@ -6983,7 +7034,10 @@
 },
 "iryo_pub": "2026-08-19",
 "sev": true,
-"sev_src": "jushin_11_saitama_pref"
+"sev_src": "jushin_11_saitama_pref",
+"ikea_src": [
+"ikea_11_saitama_pref"
+]
 },
 {
 "n": "狭山市立青い実学園",
@@ -7017,7 +7071,10 @@
 "服薬管理"
 ]
 },
-"iryo_pub": "2026-03-31"
+"iryo_pub": "2026-03-31",
+"ikea_src": [
+"ikea_11_saitama_pref"
+]
 },
 {
 "n": "放課後等デイサービス　ウィズ・ユー埼玉熊谷",
@@ -7200,7 +7257,10 @@
 "url": "https://jyushin-ichigo.jimdofree.com/",
 "h_wd": "10:00-16:00",
 "sev": true,
-"sev_src": "jushin_11_saitama_pref"
+"sev_src": "jushin_11_saitama_pref",
+"ikea_src": [
+"ikea_11_saitama_pref"
+]
 },
 {
 "n": "イストワール鴻巣小松教室",
@@ -7672,7 +7732,10 @@
 },
 "iryo_pub": "2026-03-24",
 "sev": true,
-"sev_src": "jushin_11_saitama_pref"
+"sev_src": "jushin_11_saitama_pref",
+"ikea_src": [
+"ikea_11_saitama_pref"
+]
 },
 {
 "n": "ひこうき雲　伊奈",
@@ -7723,7 +7786,10 @@
 },
 "iryo_pub": "2026-03-24",
 "sev": true,
-"sev_src": "jushin_11_saitama_pref"
+"sev_src": "jushin_11_saitama_pref",
+"ikea_src": [
+"ikea_11_saitama_pref"
+]
 },
 {
 "n": "重症心身障がい児支援施設　ひこうき雲",
@@ -7774,7 +7840,10 @@
 },
 "iryo_pub": "2026-03-24",
 "sev": true,
-"sev_src": "jushin_11_saitama_pref"
+"sev_src": "jushin_11_saitama_pref",
+"ikea_src": [
+"ikea_11_saitama_pref"
+]
 },
 {
 "n": "ひこうき雲坂戸",
@@ -7895,7 +7964,10 @@
 },
 "iryo_pub": "2026-03-20",
 "sev": true,
-"sev_src": "jushin_11_saitama_city"
+"sev_src": "jushin_11_saitama_city",
+"ikea_src": [
+"ikea_11_saitama_pref"
+]
 },
 {
 "n": "こぱんはうすさくら北上尾教室",
@@ -8027,7 +8099,10 @@
 "服薬管理"
 ]
 },
-"iryo_pub": "2026-07-01"
+"iryo_pub": "2026-07-01",
+"ikea_src": [
+"ikea_11_saitama_pref"
+]
 },
 {
 "n": "アッコルト",
@@ -8501,7 +8576,10 @@
 },
 "iryo_pub": "2026-08-05",
 "sev": true,
-"sev_src": "jushin_11_saitama_pref"
+"sev_src": "jushin_11_saitama_pref",
+"ikea_src": [
+"ikea_11_saitama_pref"
+]
 },
 {
 "n": "ＫＩＤＳＢＡＳＥ　さんかく",
@@ -8838,7 +8916,10 @@
 "lng": 139.7884641,
 "prec": "address",
 "src": "wamnet",
-"facility_id": "1150801346"
+"facility_id": "1150801346",
+"ikea_src": [
+"ikea_11_saitama_pref"
+]
 },
 {
 "n": "ルーモス",
@@ -8949,7 +9030,10 @@
 "服薬管理"
 ]
 },
-"iryo_pub": "2025-04-01"
+"iryo_pub": "2025-04-01",
+"ikea_src": [
+"ikea_11_saitama_pref"
+]
 },
 {
 "n": "ピノピノランド吉川",
@@ -9037,7 +9121,10 @@
 },
 "iryo_pub": "2026-09-16",
 "sev": true,
-"sev_src": "jushin_11_koshigaya"
+"sev_src": "jushin_11_koshigaya",
+"ikea_src": [
+"ikea_11_saitama_pref"
+]
 },
 {
 "n": "重症児者デイサービスえん",
@@ -9077,7 +9164,10 @@
 },
 "iryo_pub": "2026-08-01",
 "sev": true,
-"sev_src": "jushin_11_koshigaya"
+"sev_src": "jushin_11_koshigaya",
+"ikea_src": [
+"ikea_11_saitama_pref"
+]
 },
 {
 "n": "Ｋｉｄｓ合",
@@ -9151,7 +9241,10 @@
 },
 "iryo_pub": "2026-08-01",
 "sev": true,
-"sev_src": "jushin_11_koshigaya"
+"sev_src": "jushin_11_koshigaya",
+"ikea_src": [
+"ikea_11_saitama_pref"
+]
 },
 {
 "n": "児童デイサービスみつば",
@@ -9311,7 +9404,10 @@
 "服薬管理"
 ]
 },
-"iryo_pub": "2026-06-23"
+"iryo_pub": "2026-06-23",
+"ikea_src": [
+"ikea_11_saitama_pref"
+]
 },
 {
 "n": "ふくおーれ",
@@ -9417,7 +9513,10 @@
 "服薬管理"
 ]
 },
-"iryo_pub": "2026-07-03"
+"iryo_pub": "2026-07-03",
+"ikea_src": [
+"ikea_11_saitama_pref"
+]
 },
 {
 "n": "療育園そらいろ",
@@ -9468,7 +9567,10 @@
 },
 "iryo_pub": "2026-08-29",
 "sev": true,
-"sev_src": "jushin_11_koshigaya"
+"sev_src": "jushin_11_koshigaya",
+"ikea_src": [
+"ikea_11_saitama_pref"
+]
 },
 {
 "n": "こぱんはうすさくら蒲生茜町教室",
@@ -9679,7 +9781,10 @@
 "src": "wamnet",
 "facility_id": "1151900295",
 "sev": true,
-"sev_src": "jushin_11_saitama_pref"
+"sev_src": "jushin_11_saitama_pref",
+"ikea_src": [
+"ikea_11_saitama_pref"
+]
 },
 {
 "n": "多機能型事業所　トレジャージム",
@@ -9862,7 +9967,10 @@
 "服薬管理"
 ]
 },
-"iryo_pub": "2026-06-27"
+"iryo_pub": "2026-06-27",
+"ikea_src": [
+"ikea_11_saitama_pref"
+]
 },
 {
 "n": "こぱんはうすさくら高坂駅前教室",
@@ -10231,7 +10339,10 @@
 "服薬管理"
 ]
 },
-"iryo_pub": "2026-01-17"
+"iryo_pub": "2026-01-17",
+"ikea_src": [
+"ikea_11_saitama_pref"
+]
 },
 {
 "n": "元気キッズPSC　STATION４",
@@ -10360,7 +10471,10 @@
 "服薬管理"
 ]
 },
-"iryo_pub": "2026-06-02"
+"iryo_pub": "2026-06-02",
+"ikea_src": [
+"ikea_11_saitama_pref"
+]
 },
 {
 "n": "放課後等デイサービスウィズ・ユー朝霞本町",
@@ -10702,7 +10816,10 @@
 "導尿"
 ]
 },
-"iryo_pub": "2026-06-12"
+"iryo_pub": "2026-06-12",
+"ikea_src": [
+"ikea_11_saitama_pref"
+]
 },
 {
 "n": "桶川市子ども発達相談支援センター",
@@ -10886,7 +11003,10 @@
 "lng": 139.60544439,
 "prec": "address",
 "src": "wamnet",
-"facility_id": "1151300058"
+"facility_id": "1151300058",
+"ikea_src": [
+"ikea_11_saitama_pref"
+]
 },
 {
 "n": "児童発達支援センター　こころ園",
@@ -10902,7 +11022,10 @@
 "lng": 139.68763354,
 "prec": "address",
 "src": "wamnet",
-"facility_id": "1150500054"
+"facility_id": "1150500054",
+"ikea_src": [
+"ikea_11_saitama_pref"
+]
 },
 {
 "n": "多機能型児童通所施設　おおとり園",
@@ -10935,7 +11058,10 @@
 "lng": 139.69701039,
 "prec": "address",
 "src": "wamnet",
-"facility_id": "1150900577"
+"facility_id": "1150900577",
+"ikea_src": [
+"ikea_11_saitama_pref"
+]
 },
 {
 "n": "シュシュ",
@@ -11115,7 +11241,10 @@
 },
 "iryo_pub": "2026-03-24",
 "sev": true,
-"sev_src": "jushin_11_saitama_pref"
+"sev_src": "jushin_11_saitama_pref",
+"ikea_src": [
+"ikea_11_saitama_pref"
+]
 },
 {
 "n": "ｃｏｓｍｏｓ八潮",
@@ -11542,7 +11671,10 @@
 },
 "iryo_pub": "2026-03-31",
 "sev": true,
-"sev_src": "jushin_11_saitama_pref"
+"sev_src": "jushin_11_saitama_pref",
+"ikea_src": [
+"ikea_11_saitama_pref"
+]
 },
 {
 "n": "アルク純誠会みさと",
@@ -11578,7 +11710,10 @@
 "服薬管理"
 ]
 },
-"iryo_pub": "2026-03-31"
+"iryo_pub": "2026-03-31",
+"ikea_src": [
+"ikea_11_saitama_pref"
+]
 },
 {
 "n": "三郷市児童発達支援センターしいのみ学園",
@@ -11595,7 +11730,10 @@
 "src": "wamnet",
 "facility_id": "1151200191",
 "h_wd": "10:00-13:30",
-"closed": "土日祝日"
+"closed": "土日祝日",
+"ikea_src": [
+"ikea_11_saitama_pref"
+]
 },
 {
 "n": "三郷市児童発達支援センター子ども発達支援センター",
@@ -12472,7 +12610,10 @@
 "prec": "address",
 "src": "wamnet",
 "facility_id": "1156400135",
-"closed": "土日祝祭日、12月28日〜1月3日"
+"closed": "土日祝祭日、12月28日〜1月3日",
+"ikea_src": [
+"ikea_11_saitama_pref"
+]
 },
 {
 "n": "放課後等デイサービスウィズ・ユー吉川美南",
@@ -12690,7 +12831,10 @@
 },
 "iryo_pub": "2026-03-31",
 "sev": true,
-"sev_src": "jushin_11_saitama_pref"
+"sev_src": "jushin_11_saitama_pref",
+"ikea_src": [
+"ikea_11_saitama_pref"
+]
 },
 {
 "n": "あいらんど　らいふ",
@@ -16921,7 +17065,10 @@
 "服薬管理"
 ]
 },
-"iryo_pub": "2026-07-03"
+"iryo_pub": "2026-07-03",
+"ikea_src": [
+"ikea_11_saitama_pref"
+]
 },
 {
 "n": "児童発達支援・放課後等デイサービス　LUMO　西川口校",
@@ -16973,7 +17120,10 @@
 "url": "https://www.puedo.jp/",
 "h_wd": "10:00-18:00",
 "h_sat": "10:00-18:00",
-"closed": "日・月・祝日、8月13日〜8月15日、12月30日から1月3日まで"
+"closed": "日・月・祝日、8月13日〜8月15日、12月30日から1月3日まで",
+"ikea_src": [
+"ikea_11_saitama_pref"
+]
 },
 {
 "n": "発達支援つむぎ　桶川ルーム",
@@ -17412,7 +17562,10 @@
 "h_wd": "10:00-17:00",
 "h_sat": "10:00-17:00",
 "h_hol": "10:00-17:00",
-"closed": "日曜日・月曜日"
+"closed": "日曜日・月曜日",
+"ikea_src": [
+"ikea_11_saitama_pref"
+]
 },
 {
 "n": "てらぴぁぽけっと　西川口五丁目教室",
@@ -17428,7 +17581,10 @@
 "prec": "address",
 "src": "wamnet",
 "facility_id": "1150201562",
-"url": "https://terapiapocket.com/"
+"url": "https://terapiapocket.com/",
+"ikea_src": [
+"ikea_11_saitama_pref"
+]
 },
 {
 "n": "Ｏｈａｎａこどもルーム",
@@ -17548,7 +17704,10 @@
 },
 "iryo_pub": "2026-08-01",
 "sev": true,
-"sev_src": "jushin_11_kawaguchi"
+"sev_src": "jushin_11_kawaguchi",
+"ikea_src": [
+"ikea_11_saitama_pref"
+]
 },
 {
 "n": "すてっぷ蒲生教室",
@@ -18796,7 +18955,10 @@
 "h_sat": "10:00-18:00",
 "h_sun": "10:00-18:00",
 "h_hol": "10:00-18:00",
-"closed": "営業日はコペルプラス教室の年間スケジュール表に準ずることとする。"
+"closed": "営業日はコペルプラス教室の年間スケジュール表に準ずることとする。",
+"ikea_src": [
+"ikea_11_saitama_pref"
+]
 },
 {
 "n": "ココノハーツふじみ野教室",
@@ -19612,7 +19774,10 @@
 "服薬管理"
 ]
 },
-"iryo_pub": "2026-06-17"
+"iryo_pub": "2026-06-17",
+"ikea_src": [
+"ikea_11_saitama_pref"
+]
 },
 {
 "n": "Ｃｅｌｅｓｔｅ",
@@ -20265,7 +20430,10 @@
 },
 "iryo_pub": "2026-07-03",
 "sev": true,
-"sev_src": "jushin_11_saitama_city"
+"sev_src": "jushin_11_saitama_city",
+"ikea_src": [
+"ikea_11_saitama_pref"
+]
 },
 {
 "n": "アフタースクール　わんぱく",
@@ -21806,7 +21974,10 @@
 "導尿"
 ]
 },
-"iryo_pub": "2026-03-31"
+"iryo_pub": "2026-03-31",
+"ikea_src": [
+"ikea_11_saitama_pref"
+]
 },
 {
 "n": "放課後等デイサービスいちご",
@@ -22331,7 +22502,10 @@
 },
 "iryo_pub": "2026-01-30",
 "sev": true,
-"sev_src": "jushin_11_saitama_pref"
+"sev_src": "jushin_11_saitama_pref",
+"ikea_src": [
+"ikea_11_saitama_pref"
+]
 },
 {
 "n": "ひなたぼっこハウス・新所沢",
@@ -22641,7 +22815,10 @@
 "url": "https://hanamizukikai.jimdofree.com/",
 "closed": "土、日、祝",
 "sev": true,
-"sev_src": "wamnet_detail"
+"sev_src": "wamnet_detail",
+"ikea_src": [
+"ikea_11_saitama_pref"
+]
 },
 {
 "n": "放課後等イサービスちゃんす",
@@ -24457,7 +24634,10 @@
 },
 "iryo_pub": "2026-01-22",
 "sev": true,
-"sev_src": "jushin_11_saitama_pref"
+"sev_src": "jushin_11_saitama_pref",
+"ikea_src": [
+"ikea_11_saitama_pref"
+]
 },
 {
 "n": "サンFC草加",
@@ -25006,7 +25186,10 @@
 },
 "iryo_pub": "2026-05-26",
 "sev": true,
-"sev_src": "jushin_11_saitama_pref"
+"sev_src": "jushin_11_saitama_pref",
+"ikea_src": [
+"ikea_11_saitama_pref"
+]
 },
 {
 "n": "放課後等デイサービスほーぷふる",
@@ -25782,7 +25965,10 @@
 },
 "iryo_pub": "2026-05-12",
 "sev": true,
-"sev_src": "jushin_11_saitama_pref"
+"sev_src": "jushin_11_saitama_pref",
+"ikea_src": [
+"ikea_11_saitama_pref"
+]
 },
 {
 "n": "放課後デイサービス　あかねクラブ芝西",
@@ -26621,7 +26807,10 @@
 "facility_id": "1155100033",
 "url": "https://pokapoka2013taiyo.wixsite.com/pokapoka",
 "h_wd": "10:00-17:30",
-"closed": "土曜、日曜、国民の祝日、12/29〜1/3"
+"closed": "土曜、日曜、国民の祝日、12/29〜1/3",
+"ikea_src": [
+"ikea_11_saitama_pref"
+]
 },
 {
 "n": "放課後等デイサービスどんぐり",
@@ -28798,7 +28987,10 @@
 },
 "iryo_pub": "2026-05-20",
 "sev": true,
-"sev_src": "jushin_11_saitama_city"
+"sev_src": "jushin_11_saitama_city",
+"ikea_src": [
+"ikea_11_saitama_pref"
+]
 },
 {
 "n": "ティーンズ川越",
@@ -28891,7 +29083,10 @@
 },
 "iryo_pub": "2026-03-31",
 "sev": true,
-"sev_src": "jushin_11_saitama_pref"
+"sev_src": "jushin_11_saitama_pref",
+"ikea_src": [
+"ikea_11_saitama_pref"
+]
 },
 {
 "n": "放課後等デイサービスmirai",
@@ -29305,7 +29500,10 @@
 },
 "iryo_pub": "2026-04-03",
 "sev": true,
-"sev_src": "jushin_11_saitama_city"
+"sev_src": "jushin_11_saitama_city",
+"ikea_src": [
+"ikea_11_saitama_pref"
+]
 },
 {
 "n": "放課後デイあおい杜東浦和",
@@ -29322,7 +29520,10 @@
 "src": "wamnet",
 "facility_id": "1156517243",
 "sev": true,
-"sev_src": "jushin_11_saitama_city"
+"sev_src": "jushin_11_saitama_city",
+"ikea_src": [
+"ikea_11_saitama_pref"
+]
 },
 {
 "n": "東京家政大学かせい森の放課後等デイサービス「つくし」",
@@ -29990,7 +30191,10 @@
 "吸引"
 ]
 },
-"iryo_pub": "2026-03-31"
+"iryo_pub": "2026-03-31",
+"ikea_src": [
+"ikea_11_saitama_pref"
+]
 },
 {
 "n": "よつみキャンパス",

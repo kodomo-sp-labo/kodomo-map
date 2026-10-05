@@ -84,7 +84,11 @@
 "服薬管理"
 ]
 },
-"iryo_pub": "2026-09-02"
+"iryo_pub": "2026-09-02",
+"ikea_src": [
+"ikea_02_aomori_city",
+"ikea_02_aomori_pref"
+]
 },
 {
 "n": "クラスルームなないろ",
@@ -236,7 +240,11 @@
 "facility_id": "0250161510",
 "url": "https://atoriesakura.com/",
 "h_wd": "09:00-18:00",
-"closed": "土日、祝、８月１３日〜１５日、１２月３０日〜１月３日"
+"closed": "土日、祝、８月１３日〜１５日、１２月３０日〜１月３日",
+"ikea_src": [
+"ikea_02_aomori_city",
+"ikea_02_aomori_pref"
+]
 },
 {
 "n": "児童発達支援・放課後等デイサービス　スタジオさくら",
@@ -498,7 +506,10 @@
 "服薬管理"
 ]
 },
-"iryo_pub": "2026-06-03"
+"iryo_pub": "2026-06-03",
+"ikea_src": [
+"ikea_02_aomori_pref"
+]
 },
 {
 "n": "弘前大清水学園",
@@ -529,7 +540,10 @@
 "服薬管理"
 ]
 },
-"iryo_pub": "2026-08-14"
+"iryo_pub": "2026-08-14",
+"ikea_src": [
+"ikea_02_aomori_pref"
+]
 },
 {
 "n": "独立行政法人国立病院機構青森病院",
@@ -576,7 +590,10 @@
 },
 "iryo_pub": "2026-08-14",
 "sev": true,
-"sev_src": "wamnet_detail"
+"sev_src": "wamnet_detail",
+"ikea_src": [
+"ikea_02_aomori_pref"
+]
 },
 {
 "n": "児童発達支援・放課後等デイサービスななき",
@@ -610,7 +627,10 @@
 "服薬管理"
 ]
 },
-"iryo_pub": "2026-05-22"
+"iryo_pub": "2026-05-22",
+"ikea_src": [
+"ikea_02_aomori_city"
+]
 },
 {
 "n": "藤児童発達支援センターくれよんはうす",
@@ -937,7 +957,10 @@
 "服薬管理"
 ]
 },
-"iryo_pub": "2026-10-01"
+"iryo_pub": "2026-10-01",
+"ikea_src": [
+"ikea_02_aomori_pref"
+]
 },
 {
 "n": "多機能型事業所　ルアナ大開",
@@ -992,7 +1015,10 @@
 "服薬管理"
 ]
 },
-"iryo_pub": "2025-08-29"
+"iryo_pub": "2025-08-29",
+"ikea_src": [
+"ikea_02_aomori_pref"
+]
 },
 {
 "n": "One Smile",
@@ -1077,7 +1103,10 @@
 "パルスオキシメーター"
 ]
 },
-"iryo_pub": "2026-06-03"
+"iryo_pub": "2026-06-03",
+"ikea_src": [
+"ikea_02_aomori_pref"
+]
 },
 {
 "n": "児童発達支援センター花りんご",
@@ -1318,7 +1347,10 @@
 },
 "iryo_pub": "2026-08-14",
 "sev": true,
-"sev_src": "wamnet_detail"
+"sev_src": "wamnet_detail",
+"ikea_src": [
+"ikea_02_aomori_pref"
+]
 },
 {
 "n": "多機能型事業所ミライエ類家",
@@ -1360,7 +1392,10 @@
 "url": "https://www.rehastation-kounotori.com",
 "h_wd": "10:00-15:00",
 "h_sat": "09:30-15:00",
-"closed": "日曜、祝祭日、お盆、年末年始"
+"closed": "日曜、祝祭日、お盆、年末年始",
+"ikea_src": [
+"ikea_02_aomori_pref"
+]
 },
 {
 "n": "多機能型事業所リハステーション　コウノトリ２",
@@ -1489,7 +1524,10 @@
 },
 "iryo_pub": "2026-09-11",
 "sev": true,
-"sev_src": "wamnet_detail"
+"sev_src": "wamnet_detail",
+"ikea_src": [
+"ikea_02_aomori_pref"
+]
 },
 {
 "n": "桂堂学園",
@@ -1775,7 +1813,10 @@
 "服薬管理"
 ]
 },
-"iryo_pub": "2026-08-14"
+"iryo_pub": "2026-08-14",
+"ikea_src": [
+"ikea_02_aomori_pref"
+]
 },
 {
 "n": "児童デイサービス八晃園",
@@ -1914,7 +1955,10 @@
 "服薬管理"
 ]
 },
-"iryo_pub": "2025-07-29"
+"iryo_pub": "2025-07-29",
+"ikea_src": [
+"ikea_02_aomori_pref"
+]
 },
 {
 "n": "児童発達支援センターハーモニー",
@@ -1960,7 +2004,10 @@
 "src": "wamnet",
 "facility_id": "0251561767",
 "h_wd": "09:00-18:00",
-"closed": "土・日・祝日"
+"closed": "土・日・祝日",
+"ikea_src": [
+"ikea_02_aomori_pref"
+]
 },
 {
 "n": "ひばり苑デイホスピスセンター",
@@ -2128,7 +2175,10 @@
 "服薬管理"
 ]
 },
-"iryo_pub": "2026-03-25"
+"iryo_pub": "2026-03-25",
+"ikea_src": [
+"ikea_02_aomori_pref"
+]
 },
 {
 "n": "すたぁずりとる",
@@ -2187,7 +2237,10 @@
 "服薬管理"
 ]
 },
-"iryo_pub": "2026-10-01"
+"iryo_pub": "2026-10-01",
+"ikea_src": [
+"ikea_02_aomori_pref"
+]
 },
 {
 "n": "多機能型事業所　ちゅうりっぷ",
@@ -2213,7 +2266,10 @@
 "服薬管理"
 ]
 },
-"iryo_pub": "2026-10-01"
+"iryo_pub": "2026-10-01",
+"ikea_src": [
+"ikea_02_aomori_pref"
+]
 },
 {
 "n": "児童発達支援事業所　こどもの森",
@@ -2270,7 +2326,10 @@
 "url": "https://mutsumikai-aomori.jp/",
 "h_wd": "09:00-18:00",
 "h_sat": "09:00-17:00",
-"closed": "日曜日、祝日"
+"closed": "日曜日、祝日",
+"ikea_src": [
+"ikea_02_aomori_pref"
+]
 },
 {
 "n": "こどもサポートメロディ弘前田園",
@@ -2286,7 +2345,10 @@
 "lng": 140.50741023,
 "prec": "address",
 "src": "wamnet",
-"facility_id": "0250261757"
+"facility_id": "0250261757",
+"ikea_src": [
+"ikea_02_aomori_pref"
+]
 },
 {
 "n": "こどもサポートMelody　早稲田",
@@ -2302,7 +2364,10 @@
 "lng": 140.50959063,
 "prec": "address",
 "src": "wamnet",
-"facility_id": "0250261856"
+"facility_id": "0250261856",
+"ikea_src": [
+"ikea_02_aomori_pref"
+]
 },
 {
 "n": "こどもサポートMelody　黒石",
@@ -2318,7 +2383,10 @@
 "lng": 140.59117639,
 "prec": "address",
 "src": "wamnet",
-"facility_id": "0250561941"
+"facility_id": "0250561941",
+"ikea_src": [
+"ikea_02_aomori_pref"
+]
 },
 {
 "n": "nico",
@@ -2338,7 +2406,10 @@
 "facility_id": "0252120092",
 "url": "https://hohoemi-aomori.com/",
 "h_wd": "09:00-15:00",
-"closed": "土曜日・日曜日"
+"closed": "土曜日・日曜日",
+"ikea_src": [
+"ikea_02_aomori_pref"
+]
 },
 {
 "n": "児童支援事業所Ｎｅｏ",
@@ -2441,7 +2512,10 @@
 "経管栄養（胃ろうを含む）"
 ]
 },
-"iryo_pub": "2026-06-16"
+"iryo_pub": "2026-06-16",
+"ikea_src": [
+"ikea_02_aomori_pref"
+]
 },
 {
 "n": "児童デイサービス　あおねっと青森南",
@@ -2594,7 +2668,10 @@
 "url": "http://froom-noheji.com",
 "h_wd": "09:30-17:30",
 "h_sat": "09:30-17:30",
-"closed": "日曜日　祝日"
+"closed": "日曜日　祝日",
+"ikea_src": [
+"ikea_02_aomori_pref"
+]
 },
 {
 "n": "城南児童発達支援センター",
@@ -2692,7 +2769,10 @@
 "服薬管理"
 ]
 },
-"iryo_pub": "2026-06-03"
+"iryo_pub": "2026-06-03",
+"ikea_src": [
+"ikea_02_aomori_pref"
+]
 },
 {
 "n": "Root",
@@ -2760,7 +2840,10 @@
 "h_wd": "09:00-15:00",
 "h_sat": "09:00-15:00",
 "h_hol": "09:00-15:00",
-"closed": "日曜日・8/13〜８/16・１2/31〜1/3"
+"closed": "日曜日・8/13〜８/16・１2/31〜1/3",
+"ikea_src": [
+"ikea_02_aomori_pref"
+]
 },
 {
 "n": "スマイルはぁとセカンド",
@@ -2780,7 +2863,10 @@
 "h_wd": "09:00-15:00",
 "h_sat": "09:00-15:00",
 "h_hol": "09:00-15:00",
-"closed": "日曜日・８月１３日〜１５日・１２月３１日〜１月３日"
+"closed": "日曜日・８月１３日〜１５日・１２月３１日〜１月３日",
+"ikea_src": [
+"ikea_02_aomori_pref"
+]
 },
 {
 "n": "学校法人臨研学舎　まなび舎りんけん",
@@ -3011,7 +3097,11 @@
 "facility_id": "0250140019",
 "url": "http://www.pref.aomori.lg.jp/welfare/welfare/asunaro_top.html",
 "h_wd": "08:45-14:30",
-"closed": "土、日、祝日、１２月２９日から１月３日まで"
+"closed": "土、日、祝日、１２月２９日から１月３日まで",
+"ikea_src": [
+"ikea_02_aomori_city",
+"ikea_02_aomori_pref"
+]
 },
 {
 "n": "青森県立はまなす医療療育センター",
@@ -3043,7 +3133,10 @@
 "服薬管理"
 ]
 },
-"iryo_pub": "2026-08-14"
+"iryo_pub": "2026-08-14",
+"ikea_src": [
+"ikea_02_aomori_pref"
+]
 },
 {
 "n": "ジョブアカデミー桜川",
@@ -3185,7 +3278,10 @@
 },
 "iryo_pub": "2025-08-01",
 "sev": true,
-"sev_src": "wamnet_detail"
+"sev_src": "wamnet_detail",
+"ikea_src": [
+"ikea_02_aomori_pref"
+]
 },
 {
 "n": "放課後等デイサービス事業所やまびこクラブ",
@@ -3324,7 +3420,10 @@
 "facility_id": "0250160843",
 "url": "http://www.life-support-aoba.jp/",
 "h_wd": "09:00-17:00",
-"closed": "土・日・祝日・12/29~1/3"
+"closed": "土・日・祝日・12/29~1/3",
+"ikea_src": [
+"ikea_02_aomori_pref"
+]
 },
 {
 "n": "ゆうきっずぴあ２",
@@ -3668,7 +3767,10 @@
 },
 "iryo_pub": "2026-06-03",
 "sev": true,
-"sev_src": "wamnet_detail"
+"sev_src": "wamnet_detail",
+"ikea_src": [
+"ikea_02_aomori_pref"
+]
 },
 {
 "n": "就職準備教室ココジョブ北園校",
@@ -3881,7 +3983,10 @@
 "服薬管理"
 ]
 },
-"iryo_pub": "2026-08-14"
+"iryo_pub": "2026-08-14",
+"ikea_src": [
+"ikea_02_aomori_pref"
+]
 },
 {
 "n": "放課後デイステーションＣｙｇｎｕｓ",
@@ -3993,7 +4098,10 @@
 },
 "iryo_pub": "2026-06-03",
 "sev": true,
-"sev_src": "wamnet_detail"
+"sev_src": "wamnet_detail",
+"ikea_src": [
+"ikea_02_aomori_pref"
+]
 },
 {
 "n": "こどもサポートｆｕｔａｂａ",
@@ -4175,7 +4283,10 @@
 "服薬管理"
 ]
 },
-"iryo_pub": "2025-09-02"
+"iryo_pub": "2025-09-02",
+"ikea_src": [
+"ikea_02_aomori_pref"
+]
 },
 {
 "n": "白山台放課後等デイサービス Cocotte",
@@ -4287,7 +4398,10 @@
 "服薬管理"
 ]
 },
-"iryo_pub": "2026-07-02"
+"iryo_pub": "2026-07-02",
+"ikea_src": [
+"ikea_02_aomori_pref"
+]
 },
 {
 "n": "児童デイサービス　ぱぷりか",
@@ -4497,7 +4611,10 @@
 "服薬管理"
 ]
 },
-"iryo_pub": "2026-07-02"
+"iryo_pub": "2026-07-02",
+"ikea_src": [
+"ikea_02_aomori_pref"
+]
 },
 {
 "n": "柿の木苑",
@@ -4862,7 +4979,10 @@
 "服薬管理"
 ]
 },
-"iryo_pub": "2025-07-29"
+"iryo_pub": "2025-07-29",
+"ikea_src": [
+"ikea_02_aomori_pref"
+]
 },
 {
 "n": "子どもの自由空間・雑木林",
@@ -4995,7 +5115,10 @@
 "服薬管理"
 ]
 },
-"iryo_pub": "2026-03-31"
+"iryo_pub": "2026-03-31",
+"ikea_src": [
+"ikea_02_aomori_pref"
+]
 },
 {
 "n": "すたぁず",
@@ -5136,7 +5259,10 @@
 "h_wd": "09:00-17:00",
 "h_sat": "09:00-17:00",
 "h_hol": "09:00-17:00",
-"closed": "日曜日・年末年始"
+"closed": "日曜日・年末年始",
+"ikea_src": [
+"ikea_02_aomori_pref"
+]
 },
 {
 "n": "デイサービスセンターかたつむり",
@@ -5400,7 +5526,10 @@
 },
 "iryo_pub": "2025-07-10",
 "sev": true,
-"sev_src": "wamnet_detail"
+"sev_src": "wamnet_detail",
+"ikea_src": [
+"ikea_02_aomori_pref"
+]
 },
 {
 "n": "バンビーニＡ",

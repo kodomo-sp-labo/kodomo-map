@@ -509,7 +509,10 @@
 "lng": 137.06178607,
 "prec": "address",
 "src": "wamnet",
-"facility_id": "2353400738"
+"facility_id": "2353400738",
+"ikea_src": [
+"ikea_23_toyota"
+]
 },
 {
 "n": "てらぴぁぽけっと  とよた教室",
@@ -546,7 +549,10 @@
 "lng": 137.16115797,
 "prec": "address",
 "src": "wamnet",
-"facility_id": "2353400878"
+"facility_id": "2353400878",
+"ikea_src": [
+"ikea_23_toyota"
+]
 },
 {
 "n": "てらぴぁぽけっと　みかわとよた教室",
@@ -2559,7 +2565,10 @@
 "服薬管理"
 ]
 },
-"iryo_pub": "2026-07-18"
+"iryo_pub": "2026-07-18",
+"ikea_src": [
+"ikea_23_nagoya_egao"
+]
 },
 {
 "n": "パステル",
@@ -3090,7 +3099,10 @@
 },
 "iryo_pub": "2026-04-03",
 "sev": true,
-"sev_src": "jushin_23_nagoya"
+"sev_src": "jushin_23_nagoya",
+"ikea_src": [
+"ikea_23_nagoya_egao"
+]
 },
 {
 "n": "重症心身障がい児デイサービス　くぅちゃん",
@@ -3523,7 +3535,10 @@
 },
 "iryo_pub": "2026-07-29",
 "sev": true,
-"sev_src": "jushin_23_nagoya"
+"sev_src": "jushin_23_nagoya",
+"ikea_src": [
+"ikea_23_nagoya_egao"
+]
 },
 {
 "n": "多機能型事業所　重症児デイサービス実さき",
@@ -3948,7 +3963,10 @@
 "facility_id": "2350200321",
 "url": "http://www.myyume.jp/",
 "sev": true,
-"sev_src": "jushin_23_nagoya"
+"sev_src": "jushin_23_nagoya",
+"ikea_src": [
+"ikea_23_nagoya_egao"
+]
 },
 {
 "n": "重症児デイサービスmerry",
@@ -4419,7 +4437,10 @@
 },
 "iryo_pub": "2026-04-03",
 "sev": true,
-"sev_src": "jushin_23_nagoya"
+"sev_src": "jushin_23_nagoya",
+"ikea_src": [
+"ikea_23_nagoya_egao"
+]
 },
 {
 "n": "キッズ・パレット",
@@ -4482,7 +4503,10 @@
 "在宅酸素療法"
 ]
 },
-"iryo_pub": "2026-08-21"
+"iryo_pub": "2026-08-21",
+"ikea_src": [
+"ikea_23_nagoya_egao"
+]
 },
 {
 "n": "子育て応援ひまわりサポートPlus",
@@ -5527,7 +5551,10 @@
 },
 "iryo_pub": "2026-07-01",
 "sev": true,
-"sev_src": "wamnet_detail"
+"sev_src": "wamnet_detail",
+"ikea_src": [
+"ikea_23_aichi_center"
+]
 },
 {
 "n": "アフタースクールＰＦＳ",
@@ -5858,7 +5885,10 @@
 "lng": 136.86075561,
 "prec": "address",
 "src": "wamnet",
-"facility_id": "2351300104"
+"facility_id": "2351300104",
+"ikea_src": [
+"ikea_23_nagoya_egao"
+]
 },
 {
 "n": "こども発達支援　リ・ハビリ初音",
@@ -5887,7 +5917,10 @@
 "気管切開部の管理（ガーゼ交換等）"
 ]
 },
-"iryo_pub": "2026-03-27"
+"iryo_pub": "2026-03-27",
+"ikea_src": [
+"ikea_23_aichi_center"
+]
 },
 {
 "n": "Ｙくまーず未来　三河安城",
@@ -6670,7 +6703,10 @@
 },
 "iryo_pub": "2026-05-21",
 "sev": true,
-"sev_src": "jushin_23_nagoya"
+"sev_src": "jushin_23_nagoya",
+"ikea_src": [
+"ikea_23_nagoya_egao"
+]
 },
 {
 "n": "えま２nd",
@@ -7014,7 +7050,10 @@
 },
 "iryo_pub": "2026-03-31",
 "sev": true,
-"sev_src": "jushin_23_nagoya"
+"sev_src": "jushin_23_nagoya",
+"ikea_src": [
+"ikea_23_nagoya_egao"
+]
 },
 {
 "n": "Hutte　Kinder",
@@ -7067,7 +7106,10 @@
 },
 "iryo_pub": "2026-05-21",
 "sev": true,
-"sev_src": "jushin_23_nagoya"
+"sev_src": "jushin_23_nagoya",
+"ikea_src": [
+"ikea_23_nagoya_egao"
+]
 },
 {
 "n": "ジュニアスクール虹の橋フレンズ港教室",
@@ -7239,7 +7281,10 @@
 },
 "iryo_pub": "2025-07-29",
 "sev": true,
-"sev_src": "jushin_23_nagoya"
+"sev_src": "jushin_23_nagoya",
+"ikea_src": [
+"ikea_23_nagoya_egao"
+]
 },
 {
 "n": "Ｓ.Ｉ.Ｃ.ＫＩＤＳ東海校",
@@ -7334,7 +7379,10 @@
 },
 "iryo_pub": "2026-04-01",
 "sev": true,
-"sev_src": "jushin_23_nagoya"
+"sev_src": "jushin_23_nagoya",
+"ikea_src": [
+"ikea_23_nagoya_egao"
+]
 },
 {
 "n": "児童デイサービスたいがーまん",
@@ -7493,7 +7541,10 @@
 },
 "iryo_pub": "2026-07-18",
 "sev": true,
-"sev_src": "jushin_23_nagoya"
+"sev_src": "jushin_23_nagoya",
+"ikea_src": [
+"ikea_23_nagoya_egao"
+]
 },
 {
 "n": "Ｉｒｉｅ",
@@ -7726,7 +7777,10 @@
 },
 "iryo_pub": "2026-07-22",
 "sev": true,
-"sev_src": "jushin_23_nagoya"
+"sev_src": "jushin_23_nagoya",
+"ikea_src": [
+"ikea_23_nagoya_egao"
+]
 },
 {
 "n": "ふるるLiko",
@@ -7845,7 +7899,10 @@
 "h_hol": "10:00-16:00",
 "closed": "日曜日、年末年始、お盆休み",
 "sev": true,
-"sev_src": "jushin_23_nagoya"
+"sev_src": "jushin_23_nagoya",
+"ikea_src": [
+"ikea_23_nagoya_egao"
+]
 },
 {
 "n": "児童発達支援・放課後等デイサービス　五感脳トレーニング",
@@ -8206,7 +8263,10 @@
 "服薬管理"
 ]
 },
-"iryo_pub": "2026-06-30"
+"iryo_pub": "2026-06-30",
+"ikea_src": [
+"ikea_23_nagoya_egao"
+]
 },
 {
 "n": "放課後等デイサービス　リィヴァル　プランキッズ",
@@ -8910,7 +8970,10 @@
 },
 "iryo_pub": "2026-06-30",
 "sev": true,
-"sev_src": "jushin_23_nagoya"
+"sev_src": "jushin_23_nagoya",
+"ikea_src": [
+"ikea_23_nagoya_egao"
+]
 },
 {
 "n": "障害児デイケアさざなみ",
@@ -9217,7 +9280,10 @@
 },
 "iryo_pub": "2026-05-14",
 "sev": true,
-"sev_src": "wamnet_detail"
+"sev_src": "wamnet_detail",
+"ikea_src": [
+"ikea_23_aichi_center"
+]
 },
 {
 "n": "悠色の道",
@@ -9499,7 +9565,10 @@
 },
 "iryo_pub": "2026-07-09",
 "sev": true,
-"sev_src": "jushin_23_nagoya"
+"sev_src": "jushin_23_nagoya",
+"ikea_src": [
+"ikea_23_nagoya_egao"
+]
 },
 {
 "n": "パンダの宝物　明治校",
@@ -9647,7 +9716,10 @@
 },
 "iryo_pub": "2026-06-30",
 "sev": true,
-"sev_src": "jushin_23_nagoya"
+"sev_src": "jushin_23_nagoya",
+"ikea_src": [
+"ikea_23_nagoya_egao"
+]
 },
 {
 "n": "デイサービスあつた",
@@ -9692,7 +9764,10 @@
 "経管栄養（胃ろうを含む）"
 ]
 },
-"iryo_pub": "2026-08-04"
+"iryo_pub": "2026-08-04",
+"ikea_src": [
+"ikea_23_nagoya_egao"
+]
 },
 {
 "n": "東部地域療育センターぽけっと",
@@ -9723,7 +9798,10 @@
 "服薬管理"
 ]
 },
-"iryo_pub": "2026-08-04"
+"iryo_pub": "2026-08-04",
+"ikea_src": [
+"ikea_23_nagoya_egao"
+]
 },
 {
 "n": "デイサービスちよだ",
@@ -9760,7 +9838,10 @@
 "facility_id": "2357600168",
 "url": "https://shakaikan.com",
 "h_wd": "09:00-15:00",
-"closed": "日曜日、土曜日、祝日及び法人が定めた閉館日"
+"closed": "日曜日、土曜日、祝日及び法人が定めた閉館日",
+"ikea_src": [
+"ikea_23_nagoya_egao"
+]
 },
 {
 "n": "南部地域療育センターそよ風",
@@ -10629,7 +10710,10 @@
 "h_wd": "13:00-18:00",
 "h_sat": "10:00-16:00",
 "h_hol": "10:00-16:00",
-"closed": "土日、年末年始、その他事業所カレンダーが定める日"
+"closed": "土日、年末年始、その他事業所カレンダーが定める日",
+"ikea_src": [
+"ikea_23_aichi_center"
+]
 },
 {
 "n": "児童発達支援　えほんの木　相生山",
@@ -10661,7 +10745,10 @@
 "服薬管理"
 ]
 },
-"iryo_pub": "2026-05-09"
+"iryo_pub": "2026-05-09",
+"ikea_src": [
+"ikea_23_nagoya_egao"
+]
 },
 {
 "n": "児童発達支援・放課後ディサービス　えほんの木 base.相川",
@@ -10704,7 +10791,10 @@
 "服薬管理"
 ]
 },
-"iryo_pub": "2026-05-09"
+"iryo_pub": "2026-05-09",
+"ikea_src": [
+"ikea_23_nagoya_egao"
+]
 },
 {
 "n": "放課後等デイサービスわかたびじょん",
@@ -10781,7 +10871,10 @@
 },
 "iryo_pub": "2026-09-15",
 "sev": true,
-"sev_src": "wamnet_detail"
+"sev_src": "wamnet_detail",
+"ikea_src": [
+"ikea_23_aichi_center"
+]
 },
 {
 "n": "ａｎｄ　カイト　みよし",
@@ -11109,7 +11202,10 @@
 },
 "iryo_pub": "2026-05-21",
 "sev": true,
-"sev_src": "jushin_23_nagoya"
+"sev_src": "jushin_23_nagoya",
+"ikea_src": [
+"ikea_23_nagoya_egao"
+]
 },
 {
 "n": "星和",
@@ -11372,7 +11468,10 @@
 },
 "iryo_pub": "2026-03-24",
 "sev": true,
-"sev_src": "wamnet_detail"
+"sev_src": "wamnet_detail",
+"ikea_src": [
+"ikea_23_aichi_center"
+]
 },
 {
 "n": "健生神沢こども発達支援室",
@@ -11594,7 +11693,10 @@
 "url": "https://shiawasetsumugi.org/",
 "h_wd": "10:00-18:00",
 "h_sat": "10:00-16:00",
-"closed": "日・祝・12月29日〜1月３日"
+"closed": "日・祝・12月29日〜1月３日",
+"ikea_src": [
+"ikea_23_aichi_center"
+]
 },
 {
 "n": "ラポール発達教室",
@@ -12351,7 +12453,10 @@
 "服薬管理"
 ]
 },
-"iryo_pub": "2026-04-01"
+"iryo_pub": "2026-04-01",
+"ikea_src": [
+"ikea_23_nagoya_egao"
+]
 },
 {
 "n": "divine childrenroom スズメ",
@@ -14099,7 +14204,10 @@
 },
 "iryo_pub": "2026-04-03",
 "sev": true,
-"sev_src": "jushin_23_nagoya"
+"sev_src": "jushin_23_nagoya",
+"ikea_src": [
+"ikea_23_nagoya_egao"
+]
 },
 {
 "n": "チャイルドケア　ＨＥＡＲＴＨ　ラーニング",
@@ -14125,7 +14233,10 @@
 "服薬管理"
 ]
 },
-"iryo_pub": "2026-04-03"
+"iryo_pub": "2026-04-03",
+"ikea_src": [
+"ikea_23_nagoya_egao"
+]
 },
 {
 "n": "チャイルドケアＨＥＡＲＴＨアカデミー",
@@ -14453,7 +14564,10 @@
 "h_wd": "10:00-16:00",
 "h_sat": "10:00-16:00",
 "h_hol": "10:00-16:00",
-"closed": "日曜日"
+"closed": "日曜日",
+"ikea_src": [
+"ikea_23_aichi_center"
+]
 },
 {
 "n": "そわら",
@@ -16228,7 +16342,10 @@
 },
 "iryo_pub": "2025-06-10",
 "sev": true,
-"sev_src": "wamnet_detail"
+"sev_src": "wamnet_detail",
+"ikea_src": [
+"ikea_23_aichi_center"
+]
 },
 {
 "n": "地域密着型デイサービス　虹のひかり",
@@ -16273,7 +16390,10 @@
 "服薬管理"
 ]
 },
-"iryo_pub": "2026-04-01"
+"iryo_pub": "2026-04-01",
+"ikea_src": [
+"ikea_23_ichinomiya"
+]
 },
 {
 "n": "児童発達支援・放課後等デイサービスヒトツナ守山教室",
@@ -16963,7 +17083,10 @@
 "服薬管理"
 ]
 },
-"iryo_pub": "2026-03-17"
+"iryo_pub": "2026-03-17",
+"ikea_src": [
+"ikea_23_aichi_center"
+]
 },
 {
 "n": "こどもセンターひかりの子",
@@ -17115,7 +17238,10 @@
 },
 "iryo_pub": "2026-08-18",
 "sev": true,
-"sev_src": "jushin_23_ichinomiya"
+"sev_src": "jushin_23_ichinomiya",
+"ikea_src": [
+"ikea_23_aichi_center"
+]
 },
 {
 "n": "こどもデイサービスsoare",
@@ -17262,7 +17388,10 @@
 "facility_id": "2353400662",
 "url": "http://www.bremeen.jp/jack-toyota",
 "sev": true,
-"sev_src": "wamnet_detail"
+"sev_src": "wamnet_detail",
+"ikea_src": [
+"ikea_23_toyota"
+]
 },
 {
 "n": "こどもプラス　尾張旭教室",
@@ -17370,7 +17499,10 @@
 "服薬管理"
 ]
 },
-"iryo_pub": "2026-05-26"
+"iryo_pub": "2026-05-26",
+"ikea_src": [
+"ikea_23_aichi_center"
+]
 },
 {
 "n": "ひいらぎっこ",
@@ -17420,7 +17552,10 @@
 },
 "iryo_pub": "2026-06-20",
 "sev": true,
-"sev_src": "wamnet_detail"
+"sev_src": "wamnet_detail",
+"ikea_src": [
+"ikea_23_aichi_center"
+]
 },
 {
 "n": "のびのび広場エムズ",
@@ -17721,7 +17856,10 @@
 },
 "iryo_pub": "2026-07-04",
 "sev": true,
-"sev_src": "wamnet_detail"
+"sev_src": "wamnet_detail",
+"ikea_src": [
+"ikea_23_nagoya_egao"
+]
 },
 {
 "n": "なちゅれ",
@@ -18027,7 +18165,10 @@
 },
 "iryo_pub": "2026-05-27",
 "sev": true,
-"sev_src": "wamnet_detail"
+"sev_src": "wamnet_detail",
+"ikea_src": [
+"ikea_23_aichi_center"
+]
 },
 {
 "n": "児童発達支援・放課後等デイサービス　いー・すまいる　めろでぃ",
@@ -19571,7 +19712,10 @@
 "服薬管理"
 ]
 },
-"iryo_pub": "2026-08-22"
+"iryo_pub": "2026-08-22",
+"ikea_src": [
+"ikea_23_aichi_center"
+]
 },
 {
 "n": "PIN PON SOUP",
@@ -19713,7 +19857,11 @@
 "prec": "address",
 "src": "wamnet",
 "facility_id": "2353400407",
-"url": "https://resmile-inc.com"
+"url": "https://resmile-inc.com",
+"ikea_src": [
+"ikea_23_toyota",
+"ikea_23_aichi_center"
+]
 },
 {
 "n": "りすまいるリハビリセンター西豊田",
@@ -19731,7 +19879,11 @@
 "src": "wamnet",
 "facility_id": "2353400316",
 "sev": true,
-"sev_src": "wamnet_detail"
+"sev_src": "wamnet_detail",
+"ikea_src": [
+"ikea_23_toyota",
+"ikea_23_aichi_center"
+]
 },
 {
 "n": "ハピネス国際ほみ放課後等児童デイサービス",
@@ -19807,7 +19959,10 @@
 },
 "iryo_pub": "2026-05-15",
 "sev": true,
-"sev_src": "wamnet_detail"
+"sev_src": "wamnet_detail",
+"ikea_src": [
+"ikea_23_toyota"
+]
 },
 {
 "n": "豊田市こども発達センター　ひまわり",
@@ -19848,7 +20003,10 @@
 "src": "wamnet",
 "facility_id": "2353400142",
 "url": "http://fukushijigyodan.toyota.aichi.jp/childcenter/nanohana/",
-"h_wd": "09:00-15:15"
+"h_wd": "09:00-15:15",
+"ikea_src": [
+"ikea_23_toyota"
+]
 },
 {
 "n": "エミタス",
@@ -20037,7 +20195,10 @@
 "facility_id": "2353100759",
 "url": "https://mugi.life/shien/",
 "h_wd": "09:00-15:00",
-"closed": "土日祝日、8/13〜15、12/29〜1/3"
+"closed": "土日祝日、8/13〜15、12/29〜1/3",
+"ikea_src": [
+"ikea_23_aichi_center"
+]
 },
 {
 "n": "愛知こどもネット　あどびぃ",
@@ -20651,7 +20812,10 @@
 },
 "iryo_pub": "2026-06-23",
 "sev": true,
-"sev_src": "wamnet_detail"
+"sev_src": "wamnet_detail",
+"ikea_src": [
+"ikea_23_aichi_center"
+]
 },
 {
 "n": "児童発達支援・放課後等デイサービスKaDan",
@@ -21148,7 +21312,10 @@
 },
 "iryo_pub": "2026-05-16",
 "sev": true,
-"sev_src": "wamnet_detail"
+"sev_src": "wamnet_detail",
+"ikea_src": [
+"ikea_23_aichi_center"
+]
 },
 {
 "n": "ここぱーくクローバー",
@@ -21185,7 +21352,10 @@
 "服薬管理"
 ]
 },
-"iryo_pub": "2026-05-16"
+"iryo_pub": "2026-05-16",
+"ikea_src": [
+"ikea_23_aichi_center"
+]
 },
 {
 "n": "チャイルドウイッシュ五郎丸",
@@ -21610,7 +21780,10 @@
 "服薬管理"
 ]
 },
-"iryo_pub": "2026-06-17"
+"iryo_pub": "2026-06-17",
+"ikea_src": [
+"ikea_23_aichi_center"
+]
 },
 {
 "n": "とこころ園",
@@ -21741,7 +21914,10 @@
 "服薬管理"
 ]
 },
-"iryo_pub": "2026-07-03"
+"iryo_pub": "2026-07-03",
+"ikea_src": [
+"ikea_23_aichi_center"
+]
 },
 {
 "n": "チャイルドウィッシュつしま",
@@ -22128,7 +22304,10 @@
 },
 "iryo_pub": "2026-05-26",
 "sev": true,
-"sev_src": "wamnet_detail"
+"sev_src": "wamnet_detail",
+"ikea_src": [
+"ikea_23_aichi_center"
+]
 },
 {
 "n": "重心児デイサービスHappy Face小牧・犬山",
@@ -22294,7 +22473,10 @@
 },
 "iryo_pub": "2026-05-12",
 "sev": true,
-"sev_src": "wamnet_detail"
+"sev_src": "wamnet_detail",
+"ikea_src": [
+"ikea_23_aichi_center"
+]
 },
 {
 "n": "児童発達支援センター  いろは",
@@ -22973,7 +23155,10 @@
 "経管栄養（胃ろうを含む）"
 ]
 },
-"iryo_pub": "2026-08-08"
+"iryo_pub": "2026-08-08",
+"ikea_src": [
+"ikea_23_aichi_center"
+]
 },
 {
 "n": "パンジーハウス",
@@ -23023,7 +23208,10 @@
 },
 "iryo_pub": "2025-03-25",
 "sev": true,
-"sev_src": "wamnet_detail"
+"sev_src": "wamnet_detail",
+"ikea_src": [
+"ikea_23_aichi_center"
+]
 },
 {
 "n": "にじいろたまご",
@@ -23120,7 +23308,10 @@
 },
 "iryo_pub": "2026-09-29",
 "sev": true,
-"sev_src": "wamnet_detail"
+"sev_src": "wamnet_detail",
+"ikea_src": [
+"ikea_23_aichi_center"
+]
 },
 {
 "n": "児童発達支援ばるーん",
@@ -23449,7 +23640,10 @@
 "服薬管理"
 ]
 },
-"iryo_pub": "2026-07-07"
+"iryo_pub": "2026-07-07",
+"ikea_src": [
+"ikea_23_aichi_center"
+]
 },
 {
 "n": "大府市発達支援センターおひさま",
@@ -23799,7 +23993,10 @@
 "服薬管理"
 ]
 },
-"iryo_pub": "2026-08-08"
+"iryo_pub": "2026-08-08",
+"ikea_src": [
+"ikea_23_aichi_center"
+]
 },
 {
 "n": "にこまる",
@@ -23818,7 +24015,10 @@
 "facility_id": "2357900105",
 "url": "https://nikomaru200.xsrv.jp/",
 "h_wd": "09:00-15:00",
-"closed": "月・水・木・土・日・８月１３日から１５日・１２月２９日から１月３日"
+"closed": "月・水・木・土・日・８月１３日から１５日・１２月２９日から１月３日",
+"ikea_src": [
+"ikea_23_aichi_center"
+]
 },
 {
 "n": "放課後等デイサービス「ゆっくり」",
@@ -24355,7 +24555,10 @@
 "服薬管理"
 ]
 },
-"iryo_pub": "2026-06-23"
+"iryo_pub": "2026-06-23",
+"ikea_src": [
+"ikea_23_aichi_center"
+]
 },
 {
 "n": "こども発達支援ｎｉｃｏｌｅ",
@@ -25137,7 +25340,10 @@
 },
 "iryo_pub": "2026-06-20",
 "sev": true,
-"sev_src": "wamnet_detail"
+"sev_src": "wamnet_detail",
+"ikea_src": [
+"ikea_23_aichi_center"
+]
 },
 {
 "n": "風の子びれっじ鎌倉",
@@ -25236,7 +25442,10 @@
 "facility_id": "2358600167",
 "url": "http://kogumakko.net/",
 "h_wd": "09:00-14:00",
-"closed": "土曜、日曜、祝日"
+"closed": "土曜、日曜、祝日",
+"ikea_src": [
+"ikea_23_aichi_center"
+]
 },
 {
 "n": "児童発達支援　第２ももっ子",
@@ -25420,7 +25629,10 @@
 },
 "iryo_pub": "2026-08-08",
 "sev": true,
-"sev_src": "wamnet_detail"
+"sev_src": "wamnet_detail",
+"ikea_src": [
+"ikea_23_aichi_center"
+]
 },
 {
 "n": "みよし市児童発達支援事業所よつば",
@@ -25823,7 +26035,10 @@
 },
 "iryo_pub": "2026-07-14",
 "sev": true,
-"sev_src": "wamnet_detail"
+"sev_src": "wamnet_detail",
+"ikea_src": [
+"ikea_23_aichi_center"
+]
 },
 {
 "n": "マリン三好丘",
@@ -26298,7 +26513,10 @@
 },
 "iryo_pub": "2026-05-23",
 "sev": true,
-"sev_src": "jushin_23_ichinomiya"
+"sev_src": "jushin_23_ichinomiya",
+"ikea_src": [
+"ikea_23_aichi_center"
+]
 },
 {
 "n": "キッズホームあゆむ",
@@ -26595,7 +26813,10 @@
 },
 "iryo_pub": "2026-08-22",
 "sev": true,
-"sev_src": "wamnet_detail"
+"sev_src": "wamnet_detail",
+"ikea_src": [
+"ikea_23_aichi_center"
+]
 },
 {
 "n": "マハナの森常滑",
@@ -28095,7 +28316,10 @@
 "h_hol": "10:00-16:00",
 "closed": "日曜日",
 "sev": true,
-"sev_src": "jushin_23_nagoya"
+"sev_src": "jushin_23_nagoya",
+"ikea_src": [
+"ikea_23_nagoya_egao"
+]
 },
 {
 "n": "重症児デイサービスmiki",
@@ -28113,7 +28337,10 @@
 "facility_id": "2350200271",
 "url": "http://www.myyume.jp/",
 "sev": true,
-"sev_src": "jushin_23_nagoya"
+"sev_src": "jushin_23_nagoya",
+"ikea_src": [
+"ikea_23_nagoya_egao"
+]
 },
 {
 "n": "Grow　up 名古屋児玉公園Ⅱ",
@@ -28481,7 +28708,10 @@
 "url": "https://aichiko.com/",
 "h_wd": "15:00-18:00",
 "h_hol": "12:00-18:00",
-"closed": "土曜日、日曜日、祝日、年末年始（12月30日〜1月3日）"
+"closed": "土曜日、日曜日、祝日、年末年始（12月30日〜1月3日）",
+"ikea_src": [
+"ikea_23_aichi_center"
+]
 },
 {
 "n": "Yくまーず未来　春日井あっぷ",
@@ -28756,7 +28986,10 @@
 },
 "iryo_pub": "2026-05-21",
 "sev": true,
-"sev_src": "jushin_23_nagoya"
+"sev_src": "jushin_23_nagoya",
+"ikea_src": [
+"ikea_23_nagoya_egao"
+]
 },
 {
 "n": "ジュニアスクール虹の橋　フレンズステップ　南教室",
@@ -29457,7 +29690,10 @@
 "url": "https://fureai-nagoya.jp",
 "closed": "日曜日、年末年始（12/29〜1/3）",
 "sev": true,
-"sev_src": "jushin_23_nagoya"
+"sev_src": "jushin_23_nagoya",
+"ikea_src": [
+"ikea_23_nagoya_egao"
+]
 },
 {
 "n": "重症児デイサービスｍｅｉ",
@@ -29492,7 +29728,10 @@
 },
 "iryo_pub": "2026-06-30",
 "sev": true,
-"sev_src": "jushin_23_nagoya"
+"sev_src": "jushin_23_nagoya",
+"ikea_src": [
+"ikea_23_nagoya_egao"
+]
 },
 {
 "n": "重症児デイサービスｈｏｓｈｉ",
@@ -29577,7 +29816,10 @@
 },
 "iryo_pub": "2026-08-21",
 "sev": true,
-"sev_src": "jushin_23_nagoya"
+"sev_src": "jushin_23_nagoya",
+"ikea_src": [
+"ikea_23_nagoya_egao"
+]
 },
 {
 "n": "重症児デイサービス　ひろがり２くみ",
@@ -29613,7 +29855,10 @@
 },
 "iryo_pub": "2026-08-21",
 "sev": true,
-"sev_src": "jushin_23_nagoya"
+"sev_src": "jushin_23_nagoya",
+"ikea_src": [
+"ikea_23_nagoya_egao"
+]
 },
 {
 "n": "さくらんぼプラス",
@@ -30410,7 +30655,10 @@
 },
 "iryo_pub": "2026-04-01",
 "sev": true,
-"sev_src": "jushin_23_nagoya"
+"sev_src": "jushin_23_nagoya",
+"ikea_src": [
+"ikea_23_nagoya_egao"
+]
 },
 {
 "n": "and ゆう 左京山",
@@ -32558,7 +32806,10 @@
 },
 "iryo_pub": "2026-08-04",
 "sev": true,
-"sev_src": "jushin_23_okazaki"
+"sev_src": "jushin_23_okazaki",
+"ikea_src": [
+"ikea_23_aichi_center"
+]
 },
 {
 "n": "りんりん３",
@@ -32844,7 +33095,10 @@
 "facility_id": "2353100957",
 "h_wd": "14:30-17:30",
 "h_sat": "10:00-16:00",
-"closed": "8月13日から8月15日、12月29日から1月3日"
+"closed": "8月13日から8月15日、12月29日から1月3日",
+"ikea_src": [
+"ikea_23_aichi_center"
+]
 },
 {
 "n": "北辰会いちほし",
@@ -32874,7 +33128,10 @@
 "服薬管理"
 ]
 },
-"iryo_pub": "2026-03-12"
+"iryo_pub": "2026-03-12",
+"ikea_src": [
+"ikea_23_aichi_center"
+]
 },
 {
 "n": "放課後デイサービスルリアン",
@@ -33118,7 +33375,10 @@
 "服薬管理"
 ]
 },
-"iryo_pub": "2025-05-13"
+"iryo_pub": "2025-05-13",
+"ikea_src": [
+"ikea_23_ichinomiya"
+]
 },
 {
 "n": "Pico",
@@ -33421,7 +33681,10 @@
 },
 "iryo_pub": "2026-06-11",
 "sev": true,
-"sev_src": "jushin_23_ichinomiya"
+"sev_src": "jushin_23_ichinomiya",
+"ikea_src": [
+"ikea_23_aichi_center"
+]
 },
 {
 "n": "ｏｌｕ　ｏｌｕ",
@@ -33453,7 +33716,10 @@
 },
 "iryo_pub": "2026-05-23",
 "sev": true,
-"sev_src": "jushin_23_ichinomiya"
+"sev_src": "jushin_23_ichinomiya",
+"ikea_src": [
+"ikea_23_aichi_center"
+]
 },
 {
 "n": "oluoluまびき",
@@ -33788,7 +34054,10 @@
 },
 "iryo_pub": "2026-06-30",
 "sev": true,
-"sev_src": "jushin_23_ichinomiya"
+"sev_src": "jushin_23_ichinomiya",
+"ikea_src": [
+"ikea_23_aichi_center"
+]
 },
 {
 "n": "放課後デイサービスまごころレフト",
@@ -33904,7 +34173,10 @@
 },
 "iryo_pub": "2026-08-18",
 "sev": true,
-"sev_src": "jushin_23_ichinomiya"
+"sev_src": "jushin_23_ichinomiya",
+"ikea_src": [
+"ikea_23_aichi_center"
+]
 },
 {
 "n": "さん・さん時之島",
@@ -33948,7 +34220,10 @@
 "吸入・ネブライザー"
 ]
 },
-"iryo_pub": "2026-06-26"
+"iryo_pub": "2026-06-26",
+"ikea_src": [
+"ikea_23_aichi_center"
+]
 },
 {
 "n": "デイサービスセンター　ひなの花",
@@ -35228,7 +35503,10 @@
 },
 "iryo_pub": "2026-07-08",
 "sev": true,
-"sev_src": "wamnet_detail"
+"sev_src": "wamnet_detail",
+"ikea_src": [
+"ikea_23_aichi_center"
+]
 },
 {
 "n": "あみぷらす３",
@@ -36262,7 +36540,10 @@
 "服薬管理"
 ]
 },
-"iryo_pub": "2026-08-08"
+"iryo_pub": "2026-08-08",
+"ikea_src": [
+"ikea_23_aichi_center"
+]
 },
 {
 "n": "個性発展型まなくる新安城教室",
@@ -36953,7 +37234,10 @@
 "服薬管理"
 ]
 },
-"iryo_pub": "2026-07-28"
+"iryo_pub": "2026-07-28",
+"ikea_src": [
+"ikea_23_aichi_center"
+]
 },
 {
 "n": "ぬくもりの郷（ぬくっこ）",
@@ -37636,7 +37920,10 @@
 "facility_id": "2352200204",
 "url": "http://www.heart-project.or.jp",
 "h_wd": "14:00-17:00",
-"closed": "土日祝日、8月13日から15日、12月29日から1月3日"
+"closed": "土日祝日、8月13日から15日、12月29日から1月3日",
+"ikea_src": [
+"ikea_23_aichi_center"
+]
 },
 {
 "n": "放課後等デイサービス　エールキッズ",
@@ -38236,7 +38523,10 @@
 },
 "iryo_pub": "2026-09-29",
 "sev": true,
-"sev_src": "wamnet_detail"
+"sev_src": "wamnet_detail",
+"ikea_src": [
+"ikea_23_aichi_center"
+]
 },
 {
 "n": "ゆめっこ",
@@ -38468,7 +38758,10 @@
 },
 "iryo_pub": "2026-05-19",
 "sev": true,
-"sev_src": "wamnet_detail"
+"sev_src": "wamnet_detail",
+"ikea_src": [
+"ikea_23_aichi_center"
+]
 },
 {
 "n": "放課後等デイサービスゆいっ子",
@@ -38744,7 +39037,10 @@
 },
 "iryo_pub": "2026-06-25",
 "sev": true,
-"sev_src": "wamnet_detail"
+"sev_src": "wamnet_detail",
+"ikea_src": [
+"ikea_23_aichi_center"
+]
 },
 {
 "n": "放課後等デイサービス楽田ＲＡＫＵＤＡ",
@@ -39204,7 +39500,10 @@
 },
 "iryo_pub": "2026-08-08",
 "sev": true,
-"sev_src": "wamnet_detail"
+"sev_src": "wamnet_detail",
+"ikea_src": [
+"ikea_23_aichi_center"
+]
 },
 {
 "n": "ゆめのもり",
@@ -39368,7 +39667,10 @@
 "服薬管理"
 ]
 },
-"iryo_pub": "2026-05-14"
+"iryo_pub": "2026-05-14",
+"ikea_src": [
+"ikea_23_aichi_center"
+]
 },
 {
 "n": "放課後等デイサービス　ｇｕｇｕ",
@@ -39722,7 +40024,10 @@
 },
 "iryo_pub": "2026-07-29",
 "sev": true,
-"sev_src": "wamnet_detail"
+"sev_src": "wamnet_detail",
+"ikea_src": [
+"ikea_23_toyota"
+]
 },
 {
 "n": "放課後等デイサービス　チャイルドパークくまの家",

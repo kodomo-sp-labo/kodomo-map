@@ -411,6 +411,7 @@ if ('serviceWorker' in navigator) {
     <div class="src">確認した資料：<a href="https://laws.e-gov.go.jp/law/322AC0000000164" target="_blank" rel="noopener">児童福祉法</a>第6条の2の2、こども家庭審議会障害児支援部会<a href="https://www.cfa.go.jp/assets/contents/node/basic_page/field_ref_resources/36cf8614-0cc4-4e0b-aa54-308fbae2714a/7aa07e04/20240327_councils_shingikai_shougaiji_shien_36cf8614_02.pdf" target="_blank" rel="noopener">資料（2024年3月）</a>（医療型の一元化と経過措置）</div>
   </details>
   <p class="notice" id="notice-hattatsu">拡大すると個別施設ピンが表示されます。WAMNET（障害福祉サービス等情報公表システム）オープンデータに基づく住所レベルの位置情報を使用しています。「医療型児童発達支援」は令和6年度制度改正の経過措置区分であり、令和9年3月末をもって新規発生がなくなる見込みです。</p>
+  <p class="notice" id="link-hattatsu-pref" hidden></p>
   <div class="sodan-guide" id="sodan-guide">
     <strong>障害児相談支援事業所に連絡する前に：</strong>手続きは市区町村ごとに違います。まずはお住まいの市区町村の窓口へ（<a href="#" class="go-sodan">③相談タブで探す</a>）。
     <details>
@@ -1120,6 +1121,12 @@ function severeHtml(r){
   if(r.sev_src === 'wamnet_detail') return '<div class="addr">重症心身障害児の受け入れあり（事業所の報告）</div>';
   return '<div class="addr">重症心身障害児の受け入れあり（'+severeSourceText(r.sev_src)+'）</div>';
 }
+// 医療的ケア児の受け入れあり（hattatsu.json の ikea_src＝受け入れを示す自治体・県等の資料の出典IDのリスト。先頭が優先する資料。2026-10-06）。
+// 出典名・時点・リンクは台帳（sources.json）から実行時に取る（ルール13）。「事業所の報告」の iryo 行の直前に出す。
+function ikeaHtml(r){
+  if(!r.ikea_src || !r.ikea_src.length) return '';
+  return '<div class="addr">医療的ケア児の受け入れあり（'+severeSourceText(r.ikea_src[0])+'）</div>';
+}
 function postalPrefix(r){ return r.p ? '〒'+r.p+' ' : ''; }
 function ryoikuPrimaryCat(catArr){
   if(catArr.indexOf("jidou_hattatsu") !== -1 && catArr.indexOf("hokago_day") !== -1) return "jidou_hokago_both";
@@ -1585,7 +1592,7 @@ function renderRyoikuMap(activeCats){
     const extra = (dLine || cLine) ? '<br>'+dLine+cLine : '';
     const remLine = r.rem ? '<br>事業所の記載：'+r.rem : '';
     const callLine = isShogaijiSodan(catArr) ? '<br><strong>'+SODAN_CALL_NOTE+'</strong><br>'+SODAN_MUNI_NOTE : '';
-    m.bindPopup('<div class="popup-name">'+r.n+statusBadge+'</div><div class="popup-body">'+labels+'<br>'+postalPrefix(r)+r.a+'<br>'+r.t+disLine+extra+severeHtml(r)+iryoHtml(r)+siteInfoHtml(r)+remLine+callLine+pdfLine+'</div>');
+    m.bindPopup('<div class="popup-name">'+r.n+statusBadge+'</div><div class="popup-body">'+labels+'<br>'+postalPrefix(r)+r.a+'<br>'+r.t+disLine+extra+severeHtml(r)+ikeaHtml(r)+iryoHtml(r)+siteInfoHtml(r)+remLine+callLine+pdfLine+'</div>');
     m.on('mouseover', function(){ m.setStyle({radius:12, weight:3}); });
     m.on('mouseout',  function(){ m.setStyle({radius:8,  weight:2}); });
     markers.push(m);
@@ -1608,7 +1615,7 @@ function facilityCardHtml(r){
   const remLine = r.rem ? '<div class="addr">事業所の記載：'+r.rem+'</div>' : '';
   const callLine = isShogaijiSodan(catArr) ? '<div class="addr"><strong>'+SODAN_CALL_NOTE+'</strong><br>'+SODAN_MUNI_NOTE+'</div>' : '';
   return '<div class="card no-pin"><div class="cat">'+ryoikuLabels(catArr)+'</div><h2>'+r.n+statusBadge+'</h2><div class="addr">'+postalPrefix(r)+r.a+'</div><div class="tel">'+r.t+'</div>'+dis+
-    infoLine+severeHtml(r)+iryoHtml(r)+siteInfoHtml(r)+remLine+callLine+pdfNote+'<div>'+precTag+'</div></div>';
+    infoLine+severeHtml(r)+ikeaHtml(r)+iryoHtml(r)+siteInfoHtml(r)+remLine+callLine+pdfNote+'<div>'+precTag+'</div></div>';
 }
 function renderRyoikuList(query, areaFilter){
   const body = document.getElementById('ryoiku-list-body'); if(!body) return;
@@ -1783,6 +1790,8 @@ function loadRegion(key){
       data.forEach(function(r){ Object.keys(r).forEach(function(f){
         currentFieldsPresent.hattatsu[f] = true;
         if(typeof r[f] === 'string' && /_src$/.test(f)){ (currentFieldValues.hattatsu[f] = currentFieldValues.hattatsu[f] || {})[r[f]] = true; }
+        // ikea_src は出典IDのリスト。画面に出すのは先頭だけなので、フッターにも先頭だけを集める（'@first'）
+        else if(Array.isArray(r[f]) && r[f].length && /_src$/.test(f)){ (currentFieldValues.hattatsu[f] = currentFieldValues.hattatsu[f] || {})[r[f][0]] = true; }
       }); });
       renderFooterSources(region);
       onTabDataLoaded('hattatsu');
@@ -2185,8 +2194,30 @@ function footerHtmlFor(tab, ids){
   return escHtml(base) + escHtml(geoTxt) + licenseNoteOf(ids.concat(geo));
 }
 
+// ⑤発達: 県を選んだときだけ出す外部サイトへのリンク（台帳 datasets.hattatsu.pref_links＝県コード→出典IDのリスト）。
+// 掲載内容は取り込まず、リンクだけ（利用条件上の理由は台帳のconditionsに記録）。文言は台帳の pref_link_text（ルール13: 地名を静的に書かない）。
+function renderPrefLinks(region){
+  const el = document.getElementById('link-hattatsu-pref');
+  if(!el) return;
+  el.hidden = true; el.textContent = '';
+  const m = region && region.base && /^data\/(\d+)_/.exec(region.base);
+  const ds = LEDGER && LEDGER.datasets && LEDGER.datasets.hattatsu;
+  const ids = (m && ds && ds.pref_links && ds.pref_links[m[1]]) || [];
+  ids.forEach(function(id){
+    const s = LEDGER.sources && LEDGER.sources[id];
+    if(!s || !s.source || !s.pref_link_text) return;
+    if(!(region.available && region.available.hattatsu)) return;
+    const a = document.createElement('a');
+    a.href = s.source; a.target = '_blank'; a.rel = 'noopener'; a.textContent = s.pref_link_text;
+    if(el.childNodes.length) el.appendChild(document.createTextNode('　'));
+    el.appendChild(a);
+    el.hidden = false;
+  });
+}
+
 function renderFooterSources(region){
   if(!region) return;
+  renderPrefLinks(region);
   const avail = region.available || {};
   const pending = 'データを読み込んでいます…';
   const unavailable = '準備中（' + region.label + 'のデータは未整備です）。';
@@ -2204,7 +2235,7 @@ function renderFooterSources(region){
       Object.keys(fs).forEach(function(f){
         if(!(currentFieldsPresent[tab] && currentFieldsPresent[tab][f])) return;
         // '@value': フィールドの値そのものが出典ID（例: sev_src。資料ごとに違うので、実際にあるものだけ出す）
-        const want = fs[f] === '@value'
+        const want = (fs[f] === '@value' || fs[f] === '@first')
           ? Object.keys((currentFieldValues[tab] && currentFieldValues[tab][f]) || {}).filter(function(v){ return LEDGER.sources && LEDGER.sources[v]; }).sort()
           : [fs[f]];
         want.forEach(function(id){ if(ids.indexOf(id) === -1) ids.push(id); });

@@ -317,7 +317,10 @@
 },
 "iryo_pub": "2026-04-21",
 "sev": true,
-"sev_src": "wamnet_detail"
+"sev_src": "wamnet_detail",
+"ikea_src": [
+"ikea_07_fukushima_pref"
+]
 },
 {
 "n": "児童発達支援Begin",
@@ -767,7 +770,10 @@
 },
 "iryo_pub": "2026-07-04",
 "sev": true,
-"sev_src": "wamnet_detail"
+"sev_src": "wamnet_detail",
+"ikea_src": [
+"ikea_07_fukushima_pref"
+]
 },
 {
 "n": "総合発達支援プラザ　ふらっぷ１号館",
@@ -956,7 +962,10 @@
 "lng": 140.44125518,
 "prec": "address",
 "src": "wamnet",
-"facility_id": "0750100588"
+"facility_id": "0750100588",
+"ikea_src": [
+"ikea_07_fukushima_pref"
+]
 },
 {
 "n": "放課後等デイサービス　ウィズ・ユー郡山中野",
@@ -1437,7 +1446,10 @@
 "服薬管理"
 ]
 },
-"iryo_pub": "2026-07-30"
+"iryo_pub": "2026-07-30",
+"ikea_src": [
+"ikea_07_fukushima_pref"
+]
 },
 {
 "n": "児童発達支援事業　ぼんど",
@@ -1610,7 +1622,10 @@
 "服薬管理"
 ]
 },
-"iryo_pub": "2026-07-04"
+"iryo_pub": "2026-07-04",
+"ikea_src": [
+"ikea_07_fukushima_pref"
+]
 },
 {
 "n": "郡山市立希望ヶ丘学園",
@@ -1720,7 +1735,10 @@
 "服薬管理"
 ]
 },
-"iryo_pub": "2025-10-29"
+"iryo_pub": "2025-10-29",
+"ikea_src": [
+"ikea_07_fukushima_pref"
+]
 },
 {
 "n": "児童通所支援事業所　すだち",
@@ -1897,7 +1915,10 @@
 },
 "iryo_pub": "2026-08-05",
 "sev": true,
-"sev_src": "wamnet_detail"
+"sev_src": "wamnet_detail",
+"ikea_src": [
+"ikea_07_fukushima_pref"
+]
 },
 {
 "n": "こども発達支援センター",
@@ -1950,7 +1971,10 @@
 "服薬管理"
 ]
 },
-"iryo_pub": "2026-07-29"
+"iryo_pub": "2026-07-29",
+"ikea_src": [
+"ikea_07_fukushima_pref"
+]
 },
 {
 "n": "ハッピーテラス郡山緑町教室",
@@ -2038,7 +2062,10 @@
 },
 "iryo_pub": "2026-06-09",
 "sev": true,
-"sev_src": "wamnet_detail"
+"sev_src": "wamnet_detail",
+"ikea_src": [
+"ikea_07_fukushima_pref"
+]
 },
 {
 "n": "いわけんキッズクラブ",
@@ -2297,7 +2324,10 @@
 "src": "wamnet",
 "facility_id": "0753101112",
 "h_wd": "10:00-14:00",
-"closed": "土日祝日、12月30日〜1月4日"
+"closed": "土日祝日、12月30日〜1月4日",
+"ikea_src": [
+"ikea_07_fukushima_pref"
+]
 },
 {
 "n": "児童発達支援・放課後等デイサービス　キッズホーム　ヤマニ",
@@ -3144,7 +3174,10 @@
 "facility_id": "0750300030",
 "url": "https://shirakawagakuen.or.jp/",
 "h_wd": "09:00-18:00",
-"closed": "土日祝日"
+"closed": "土日祝日",
+"ikea_src": [
+"ikea_07_fukushima_pref"
+]
 },
 {
 "n": "第二つぼみ園",
@@ -3890,7 +3923,10 @@
 "服薬管理"
 ]
 },
-"iryo_pub": "2026-09-04"
+"iryo_pub": "2026-09-04",
+"ikea_src": [
+"ikea_07_fukushima_pref"
+]
 },
 {
 "n": "一般社団法人発達支援ますと福島　発達支援センターますと",
